@@ -1,0 +1,78 @@
+{
+  "works": [
+    {
+      "id": "work-1820f5c8123c417b",
+      "name": "Mosswing",
+      "description": "3D 单键飞行，控制小翼穿越障碍间隙得分。",
+      "category": "game",
+      "sourceCategory": "动作与街机",
+      "author": {
+        "name": "Ayi1337",
+        "url": "https://github.com/Ayi1337"
+      },
+      "demoUrl": "https://mosswing-quiet-flight.jack-514.chatgpt.site/",
+      "sourceUrl": "https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/mosswing/src",
+      "repoUrl": "https://github.com/Ayi1337/gpt6-astra-one-shot-games",
+      "imageUrl": null,
+      "sourceOrder": 0
+    },
+    {
+      "id": "work-34ce9c1c38500685",
+      "name": "Magic Carpet Wizard — A Thousand Skies",
+      "description": "驾驶魔毯探索球形世界，穿环、施法，并挑战敌人与 Boss。",
+      "category": "game",
+      "sourceCategory": "动作与街机",
+      "author": {
+        "name": "threapchills",
+        "url": "https://github.com/threapchills"
+      },
+      "demoUrl": "https://threapchills.github.io/MagicCarpetWizard/",
+      "sourceUrl": "https://github.com/threapchills/MagicCarpetWizard",
+      "repoUrl": "https://github.com/threapchills/MagicCarpetWizard",
+      "imageUrl": null,
+      "sourceOrder": 1
+    },
+    {
+      "id": "work-41e81e3a2c05254a",
+      "name": "瓜体实验室",
+      "description": "把半流体水果的形变与碰撞融入西瓜合成玩法。",
+      "category": "game",
+      "sourceCategory": "解谜与益智",
+      "author": {
+        "name": "Ayi1337",
+        "url": "https://github.com/Ayi1337"
+      },
+      "demoUrl": "https://melon-game.jack-514.chatgpt.site/",
+      "sourceUrl": "https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/melon-lab/src",
+      "repoUrl": "https://github.com/Ayi1337/gpt6-astra-one-shot-games",
+      "imageUrl": null,
+      "sourceOrder": 2
+    },
+    {
+      "id": "work-982fd33309fd57ba",
+      "name": "ORBITAL GARDEN · 轨道花园",
+      "description": "交互式粒子艺术沙盒：让 48,000 颗光点在花、引力环与星系之间变形，扰动雕塑并将瞬间导出为海报。",
+      "category": "experiment",
+      "sourceCategory": "实验玩法与多人游戏",
+      "author": {
+        "name": "jackroc",
+        "url": "https://github.com/jackroc"
+      },
+      "demoUrl": "https://orbital-garden.hp20230404.chatgpt.site/",
+      "sourceUrl": "https://github.com/MartinDelophy/awesome-gpt-6-astra/blob/main/works/orbital-garden/README.md",
+      "repoUrl": "https://github.com/MartinDelophy/awesome-gpt-6-astra",
+      "imageUrl": null,
+      "sourceOrder": 3
+    }
+  ],
+  "source": {
+    "repository": "MartinDelophy/awesome-gpt-6-astra",
+    "url": "https://github.com/MartinDelophy/awesome-gpt-6-astra/blob/main/README.md",
+    "checkedAt": "2026-09-05T09:00:02.967Z",
+    "lastSuccessfulAt": "2026-09-05T09:00:02.967Z",
+    "revision": "3adc7e04130fc09aa75355f4b2920e1b6fe931a3",
+    "stale": true,
+    "status": "fallback"
+  },
+  "refreshAfterSeconds": 300
+}
