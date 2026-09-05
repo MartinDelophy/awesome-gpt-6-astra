@@ -43,19 +43,28 @@ npm run build
 
 ## Vercel 部署
 
-使用独立项目，配置如下：
+官网已通过官方 Vercel CLI 发布到独立项目 `astragames`。源码已推送至 [fork 的官网分支](https://github.com/jackroc/awesome-gpt-6-astra/tree/codex/astra-showcase)，首版代码提交为 `3e0465b`。当前 Vercel Git 集成尚未连接，导入仓库时提示访问权限不足，因此 Git push 目前不会自动部署 UI 代码；作品目录的运行时自动更新正常独立运行。
+
+后续发布页面或服务端代码，在已登录且已关联该 Vercel 项目的本地目录运行：
+
+```sh
+cd website
+npx vercel deploy --prod
+```
+
+CLI 会使用 `website/vercel.json` 中的构建与 Node API 配置。新机器应先登录 Vercel，并将此目录关联到已有 `astragames` 项目。命令说明见 [Vercel CLI 官方文档](https://vercel.com/docs/cli/deploy)。
+
+当前构建配置：
 
 | 设置 | 值 |
 | --- | --- |
 | 项目 | `astragames` |
-| Git 仓库 | `jackroc/awesome-gpt-6-astra` |
-| Production Branch | `codex/astra-showcase` |
-| Root Directory | `website` |
+| 本地 CLI 工作目录 | `website` |
 | Framework Preset | `Vite` |
 | Build Command | `npm run build` |
 | Output Directory | `dist/client` |
 | 官网域名 | `astragames.aigccreative.com` |
 
-`vercel.json` 已声明构建和 Node API 配置。连接 Git 后，生产分支的代码提交触发部署；作品数据更新由运行时 API 完成，不要求触发部署。
+未来 Git 仓库权限连通后，可连接 `jackroc/awesome-gpt-6-astra`，将仓库 Root Directory 设为 `website`、Production Branch 设为 `codex/astra-showcase`，再启用该分支提交后的自动部署。此项配置当前尚未完成，日常作品更新无需等待它完成，也不要求重新部署。
 
 `aigccreative.com` 是现有雷达网站的域名，属于原 `aigc-creative` 项目，不应绑定到本官网项目。只在独立官网项目中绑定 `astragames.aigccreative.com`，并使用该项目域名设置页提供的 DNS 值。

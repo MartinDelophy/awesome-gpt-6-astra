@@ -37,4 +37,14 @@ The initial desktop composition passed. Integration review then found two P2 beh
 
 ## Remaining scope
 
-Production domain/API verification is performed during deployment. Long catalogs use load-more pagination while search covers all loaded catalog data; no daily manual maintenance is required. Native device/browser coverage beyond the tested desktop and mobile viewports remains a follow-up compatibility check.
+Long catalogs use load-more pagination while search covers all loaded catalog data; no daily manual maintenance is required. Native device/browser coverage beyond the tested desktop and mobile viewports remains a follow-up compatibility check.
+
+## Production deployment evidence — 2026-09-05
+
+- Source commit `3e0465b4d16b4cc981aa83151f9d2ba0672d309f` was successfully pushed through SSH to [codex/astra-showcase](https://github.com/jackroc/awesome-gpt-6-astra/tree/codex/astra-showcase) in the user's fork.
+- The official Vercel CLI successfully created production deployment `dpl_7tpTyRDHRN6hy9PCQ7AnU5yB9byu` in project `prj_qubO4PTSacAcfHoe1mC6hXqikC2j`. The project was initially named `website` and then renamed to `astragames` in Vercel.
+- The deployment was verified online at [the initial production alias](https://website-murex-three-64.vercel.app/): the catalog API returned a fresh catalog containing all four current upstream works, and the preview endpoint returned HTTP 200. These checks were recorded by the deployment agent in the same Codex task.
+- Vercel's Git integration is not connected: repository import reported insufficient access. Push-triggered UI deployments are therefore not enabled. Subsequent code releases use `npx vercel deploy --prod` from the linked `website` directory; runtime catalog refresh continues independently.
+- Custom-domain binding is complete: Vercel reports `astragames.aigccreative.com` as Valid Configuration / Production on the independent `astragames` project. The existing Aliyun CNAME was already valid and required no changes.
+- Final HTTPS browser inspection at [the official website](https://astragames.aigccreative.com/) shows all four real works and the automatic sync indicator; console warning/error inspection returned no entries. `/api/catalog` returned HTTP 200 with `source.status=fresh`, `source.stale=false`, and all four entries. Every versioned preview endpoint returned HTTP 200 and image/jpeg, with 96,924 / 201,801 / 130,083 / 184,639 bytes respectively.
+- The existing radar site at [aigccreative.com](https://aigccreative.com/) was separately reopened and verified to show AIGC 机会雷达. It remains on the `aigc-creative` project.
