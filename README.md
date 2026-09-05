@@ -14,7 +14,7 @@
 
 ## 从这里开始
 
-首批收录 **3 款浏览器游戏**：半流体水果合成、单键飞行，以及魔毯战斗。点击游戏名称即可打开试玩。
+目前收录 **3 款浏览器游戏和 1 个交互式粒子艺术沙盒**：半流体水果合成、单键飞行、魔毯战斗，以及轨道花园。点击作品名称可打开试玩或源码运行说明。
 
 最近核对：**2026-09-05**。已检查作者的 Astra 使用说明、源码链接和演示页面可达性；模型归因来自作者自述，尚未逐款试玩。
 
@@ -81,7 +81,11 @@
 
 难以归类的新玩法、联机对战与合作体验。
 
-*等待首个作品。*
+- **[ORBITAL GARDEN · 轨道花园](works/orbital-garden/README.md)** — 交互式粒子艺术沙盒：让 48,000 颗光点在花、引力环与星系之间变形，扰动雕塑并将瞬间导出为海报。
+  - 作者：[jackroc](https://github.com/jackroc)
+  - 平台：支持 WebGL 的现代浏览器；下载单文件 HTML 后打开，免费，无需登录或 API Key；可选环境音需要 Web Audio。
+  - GPT-6 Astra：[创作记录与模型参与说明](works/orbital-garden/README.md#模型与创作记录) — 创作者使用 GPT-6 Astra ultra 完成构思、代码与文案，经过协作审阅；非 one-shot 测试。
+  - 开发资料：[源码与运行说明](works/orbital-garden/README.md) · [单文件 HTML](works/orbital-garden/index.html) · [Prompt](works/orbital-garden/PROMPT.md) · 技术：原生 WebGL、Web Audio、Canvas 2D。
 
 ## 每个作品记录什么
 

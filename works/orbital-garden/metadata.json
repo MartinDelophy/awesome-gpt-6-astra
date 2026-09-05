@@ -1,0 +1,23 @@
+{
+  "id": "orbital-garden",
+  "title": "ORBITAL GARDEN",
+  "title_zh": "轨道花园",
+  "creator": {"name": "jackroc", "url": "https://github.com/jackroc"},
+  "created_at": "2026-09-05",
+  "category": "interactive-generative-art",
+  "description": "48,000 颗光点在星之花、引力环和旋涡星系之间流动，可旋转、绽放、暂停并导出高清纪念海报。",
+  "entry": "index.html",
+  "model": "GPT-6 Astra",
+  "reasoning_effort": "ultra",
+  "model_attribution": "User-declared model and effort in the creation conversation.",
+  "workflow": "Iterative creation with code tools and an assistant agent for mathematical advice and code review; not a one-shot benchmark.",
+  "model_contributions": ["concept", "copy", "visual design", "mathematical geometry", "WebGL shaders", "interaction", "audio synthesis", "code", "documentation"],
+  "technologies": ["HTML", "CSS", "JavaScript", "WebGL 1", "Web Audio", "Canvas 2D"],
+  "particle_count": 48000,
+  "export_dimensions": [2000, 2400],
+  "external_dependencies": [],
+  "external_assets": [],
+  "requires": ["Modern browser with WebGL", "Web Audio for optional sound"],
+  "license": "CC0-1.0",
+  "demo_url": null
+}
