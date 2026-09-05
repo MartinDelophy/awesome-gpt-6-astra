@@ -14,7 +14,7 @@ Playful ideas, games you can try, and development stories that inspire the next 
 
 ## Start here
 
-Start with **3 browser games**: soft-body fruit merging, one-tap flight, and magic-carpet combat. Click a game title to open its demo.
+Explore **3 browser games and 1 interactive particle-art sandbox**: soft-body fruit merging, one-tap flight, magic-carpet combat, and Orbital Garden. Click a title to open its demo or source with setup instructions.
 
 Last checked: **2026-09-05**. Creator statements, source links, and demo availability have been checked. Model attribution is author-reported; the games have not been play-tested for this list.
 
@@ -81,7 +81,11 @@ Parkour, platform challenges, racing, and games built around movement and routes
 
 Unusual mechanics, online competition, and cooperative experiences.
 
-*Waiting for the first game.*
+- **[ORBITAL GARDEN · 轨道花园](works/orbital-garden/README.md)** — An interactive particle-art sandbox: morph 48,000 light points between a flower, a gravity ring, and a galaxy, disturb the sculpture, and export a moment as a poster.
+  - Creator: [jackroc](https://github.com/jackroc)
+  - Platform: Modern browser with WebGL; download and open the standalone HTML. Free, no login or API key; optional ambient sound requires Web Audio.
+  - GPT-6 Astra: [Creation record and model contribution](works/orbital-garden/README.md#模型与创作记录) — The creator used GPT-6 Astra ultra for the concept, code, and copy, with collaborative review; not a one-shot test.
+  - Resources: [Source and setup instructions](works/orbital-garden/README.md) · [Standalone HTML](works/orbital-garden/index.html) · [Prompt](works/orbital-garden/PROMPT.md) · Built with: native WebGL, Web Audio, and Canvas 2D.
 
 ## What an entry includes
 

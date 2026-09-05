@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080f12">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%23080f12'/%3E%3Cg fill='none' stroke='%23b9e9cf'%3E%3Ccircle cx='20' cy='20' r='11'/%3E%3Cellipse cx='20' cy='20' rx='18' ry='5' transform='rotate(-35 20 20)'/%3E%3C/g%3E%3C/svg%3E">
+  <meta name="description" content="轨道花园：一件可以触摸的生成艺术作品。48,000 颗光点，在星之花、引力环与旋涡星系之间流动。">
+  <title>ORBITAL GARDEN · 轨道花园</title>
+  <style>
+    :root{color-scheme:dark;--bg:#080f12;--panel:#0d161a;--ink:#eef2ea;--muted:#9aaead;--accent:#b9e9cf;--line:rgba(183,220,207,.18);--serif:"Bodoni 72","Iowan Old Style","Palatino Linotype",Georgia,serif;--sans:Inter,"Helvetica Neue",Arial,"PingFang SC","Microsoft YaHei",sans-serif;--mono:"SFMono-Regular",Consolas,"Liberation Mono",monospace}
+    *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16px;-webkit-font-smoothing:antialiased}button,input{font:inherit}button{color:inherit;cursor:pointer}button:disabled{cursor:wait;opacity:.6}button,a,input{-webkit-tap-highlight-color:transparent}button:focus-visible,a:focus-visible,input:focus-visible,canvas:focus-visible{outline:2px solid var(--accent);outline-offset:6px}button{touch-action:manipulation}svg{display:block;width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round}button{border:0;background:none}a{color:inherit}.mono{font-family:var(--mono);font-size:12px;letter-spacing:.13em}.muted{color:var(--muted)}
+    .exhibition{min-height:860px;height:100svh;max-height:1400px;position:relative;overflow:hidden;display:flex;flex-direction:column;background:radial-gradient(ellipse at 66% 43%,#162c2d66,transparent 54%),var(--bg)}
+    .exhibition:after{content:"";position:absolute;inset:0;pointer-events:none;z-index:1;opacity:.045;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Cpath fill='%23ffffff' filter='url(%23n)' opacity='.5' d='M0 0h180v180H0z'/%3E%3C/svg%3E")}
+    .topbar{height:101px;flex-shrink:0;display:flex;align-items:center;justify-content:space-between;margin:0 4.5%;border-bottom:1px solid var(--line);z-index:3;gap:24px}.brand{display:flex;align-items:center;gap:12px;letter-spacing:.22em;font-size:14px;font-weight:600}.brand svg{width:35px;height:35px;stroke-width:1}.brand small{font-size:10px;display:block;letter-spacing:.3em;color:var(--muted);margin-top:5px}.edition{font-size:12px;letter-spacing:.13em;color:var(--muted)}.top-actions{display:flex;align-items:center;gap:23px}.sound-button{display:flex;align-items:center;gap:9px;min-height:44px;font-size:12px;letter-spacing:.1em;padding:0}.sound-bars{display:flex;align-items:center;gap:3px;height:18px}.sound-bars i{display:block;background:var(--muted);width:2px;height:4px;transition:height .25s}.sound-button[aria-pressed="true"] .sound-bars i{background:var(--accent);animation:equalizer 1s ease-in-out infinite alternate}.sound-button[aria-pressed="true"] .sound-bars i:nth-child(2){animation-delay:-.3s}.sound-button[aria-pressed="true"] .sound-bars i:nth-child(3){animation-delay:-.7s}.sound-button[aria-pressed="true"] .sound-bars i:nth-child(4){animation-delay:-.4s}.icon-button{display:grid;place-items:center;min-width:44px;min-height:44px;border:1px solid var(--line);border-radius:50%;transition:background .2s,border-color .2s}.icon-button:hover{background:#b9e9cf12;border-color:#b9e9cf66}
+    .stage{flex:1;min-height:540px;position:relative}.artwork{position:absolute;left:24%;right:0;top:-20px;bottom:0;z-index:1}.artwork canvas{display:block;width:100%;height:100%;cursor:grab;touch-action:pan-y}.artwork canvas.dragging{cursor:grabbing}.orbit-guide{position:absolute;width:min(41vw,590px);height:min(41vw,590px);left:63%;top:45%;transform:translate(-50%,-50%);border:1px solid #a8d5c00d;border-radius:50%;pointer-events:none}.orbit-guide:before,.orbit-guide:after{content:"+";position:absolute;color:#9db7ac62;font:18px var(--mono);top:calc(50% - 10px)}.orbit-guide:before{left:-6px}.orbit-guide:after{right:-6px}
+    .intro{position:relative;z-index:2;margin-left:4.5%;padding-top:72px;width:35%;pointer-events:none}.eyebrow{display:flex;align-items:center;gap:12px;font:12px var(--mono);letter-spacing:.13em;color:var(--accent);margin:0 0 26px}.eyebrow:before{content:"";width:6px;height:6px;border-radius:50%;background:var(--accent);box-shadow:0 0 13px #a6e0c666}h1{font:400 clamp(66px,6.7vw,110px)/.91 var(--serif);letter-spacing:-.058em;margin:0 0 27px}h1 span{display:block}h1 em{font-weight:400;color:var(--accent)}.chinese-title{font-size:17px;font-weight:400;letter-spacing:.45em;margin:0 0 22px}.intro-copy{font-size:14px;line-height:1.95;color:var(--muted);max-width:280px;margin:0}.intro-copy span{display:block}.release{pointer-events:auto;display:flex;align-items:center;gap:19px;margin-top:30px;padding:0 0 10px;border-bottom:1px solid #a8d5c04d;font-size:14px;letter-spacing:.08em}.release svg{transition:transform .3s}.release:hover svg{transform:rotate(90deg)}.release:hover{color:var(--accent)}
+    .specimen{position:absolute;right:4.8%;top:36px;z-index:2;display:flex;align-items:flex-start;gap:12px;color:var(--muted);pointer-events:none}.specimen .number{font:italic 46px/.9 var(--serif);color:var(--accent)}.specimen .label{padding-top:1px;font:11px/1.8 var(--mono);letter-spacing:.13em}.specimen .label span{display:block}.view-tools{position:absolute;right:4.5%;bottom:54px;z-index:3;display:flex;flex-direction:column;gap:9px}.view-tools .icon-button{width:40px;height:40px;min-height:40px;min-width:40px;background:#0b141873}.view-tools svg{width:17px;height:17px}.art-caption{position:absolute;bottom:47px;left:60%;transform:translateX(-50%);z-index:2;display:flex;flex-direction:column;align-items:center;gap:10px;white-space:nowrap;pointer-events:none}.art-caption .caption{font:italic 22px var(--serif);color:#d5e4d6}.art-caption .hint{font-size:12px;letter-spacing:.1em;color:var(--muted)}.caption-line{display:block;width:1px;height:24px;background:linear-gradient(transparent,var(--accent));margin-bottom:2px}.coordinates{position:absolute;left:4.5%;bottom:37px;z-index:2;font:11px/1.9 var(--mono);letter-spacing:.12em;color:#8fa29f}.coordinates span{display:block}.coordinates b{color:var(--accent);font-weight:400}.fallback{position:absolute;z-index:5;inset:20% 8% auto;background:var(--panel);border:1px solid var(--line);padding:24px;line-height:1.8}.fallback[hidden]{display:none}
+    .controls{position:relative;z-index:3;margin:0 4.5%;display:grid;grid-template-columns:minmax(440px,1.35fr) minmax(230px,.85fr) auto;gap:36px;padding:28px 0;border-top:1px solid var(--line);align-items:center}.control-label{display:block;font-size:11px;letter-spacing:.19em;color:var(--muted);margin-bottom:14px}.forms{display:flex;gap:9px}.form-button{height:58px;display:flex;align-items:center;gap:12px;padding:0 15px;border:1px solid var(--line);color:var(--muted);transition:color .25s,background .25s,border-color .25s;white-space:nowrap;font-size:14px;flex:1;justify-content:center}.form-button svg{width:25px;height:25px;stroke-width:1}.form-button .index{font:10px var(--mono);align-self:flex-start;margin-top:12px;opacity:.6}.form-button[aria-pressed="true"]{background:#b9e9cf;color:#10241e;border-color:#b9e9cf}.form-button:hover:not([aria-pressed="true"]){border-color:#b9e9cf77;color:var(--ink);background:#b9e9cf08}.sliders{display:grid;grid-template-columns:1fr 1fr;gap:26px}.slider-label{display:flex;justify-content:space-between;align-items:center;font-size:13px;margin-bottom:20px;gap:10px}.slider-label output{color:var(--accent);font:12px var(--mono)}input[type="range"]{display:block;width:100%;height:20px;appearance:none;background:transparent;cursor:pointer;margin:0}input[type="range"]::-webkit-slider-runnable-track{height:2px;background:#567267}input[type="range"]::-moz-range-track{height:2px;background:#567267}input[type="range"]::-webkit-slider-thumb{appearance:none;height:10px;width:10px;border-radius:50%;background:var(--accent);margin-top:-4px;box-shadow:0 0 0 5px #b9e9cf09}input[type="range"]::-moz-range-thumb{border:0;height:10px;width:10px;border-radius:50%;background:var(--accent)}.save-button{display:flex;align-items:center;justify-content:center;gap:12px;border:1px solid #668276;border-radius:2px;min-height:50px;padding:0 21px;font-size:14px;white-space:nowrap;transition:background .2s;margin-top:21px}.save-button:hover{background:#b9e9cf12}.save-button svg{width:17px;height:17px}.footer{margin:0 4.5%;border-top:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:20px;padding:20px 0 23px;z-index:3;color:var(--muted);font:10px var(--mono);letter-spacing:.13em}.footer .dot{display:inline-block;width:5px;height:5px;border-radius:50%;background:var(--accent);margin-right:8px}.footer .credit{color:#adbfba}.footer .desktop-note{font-family:var(--sans);letter-spacing:.08em;font-size:11px}.toast{position:fixed;z-index:20;left:50%;bottom:30px;transform:translate(-50%,20px);opacity:0;pointer-events:none;background:#deeddf;color:#12221c;border-radius:3px;padding:14px 23px;font-size:14px;transition:opacity .3s,transform .3s;max-width:calc(100% - 32px);width:max-content}.toast.visible{transform:translate(-50%,0);opacity:1}
+    dialog{background:#101c20;color:var(--ink);border:1px solid #4b665b;width:min(580px,calc(100% - 40px));padding:40px;box-shadow:0 24px 120px #0008}dialog::backdrop{background:#030a0dc9;backdrop-filter:blur(9px)}.dialog-close{position:absolute;top:16px;right:16px}.dialog-kicker{color:var(--accent);margin-bottom:30px}dialog h2{font:400 44px/.98 var(--serif);letter-spacing:-.04em;margin:0 0 26px}dialog p{font-size:15px;line-height:1.9;color:#b7c8c1}dialog strong{color:var(--ink);font-weight:400}.key-list{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:25px 0;font-size:13px;color:var(--muted)}kbd{display:inline-block;min-width:24px;text-align:center;border:1px solid #4b665b;padding:3px 5px;margin-right:8px;font:11px var(--mono);color:var(--ink)}.dialog-bottom{border-top:1px solid var(--line);padding-top:20px;margin-top:24px;font:11px/1.9 var(--mono);color:var(--accent)}.immersive .topbar,.immersive .intro,.immersive .specimen,.immersive .coordinates,.immersive .controls,.immersive .footer,.immersive .art-caption,.immersive .orbit-guide{visibility:hidden;pointer-events:none}.immersive .artwork{position:fixed;inset:0}.immersive .view-tools{position:fixed;right:28px;bottom:28px}.immersive .stage{position:static}.immersive .exhibition{height:100svh;min-height:100svh}
+    @keyframes equalizer{from{height:4px}to{height:17px}}
+    @media(min-width:1600px){.intro{padding-top:100px}.stage{min-height:590px}.intro-copy{font-size:16px;max-width:320px}.controls{padding:36px 0}}
+    @media(max-width:1150px){.controls{grid-template-columns:1.3fr 1fr;gap:26px}.save-button{grid-column:2;grid-row:1;justify-self:end;margin:0}.sliders{grid-column:2;grid-row:1;width:100%;padding-right:0;align-self:end;transform:translateY(0)}.save-button{position:absolute;right:0;top:-74px}.forms{gap:8px}.form-button{padding:0 12px;gap:8px}.form-button .index{display:none}.intro{width:40%}.intro-copy{max-width:250px}.artwork{left:26%;right:-7%}.art-caption{left:64%}.view-tools{bottom:130px}.edition{display:none}.exhibition{min-height:830px}}
+    @media(max-width:760px){.exhibition{height:auto;min-height:100svh;max-height:none}.topbar{height:82px;margin:0 6%;gap:12px}.brand{font-size:12px;gap:9px}.brand small{font-size:8px}.brand svg{width:29px}.top-actions{gap:14px}.sound-button{font-size:10px}.top-actions>.icon-button{width:36px;min-width:36px;min-height:36px}.stage{min-height:690px;flex:none}.intro{margin-left:6%;padding-top:35px;width:88%}.eyebrow{font-size:10px;margin-bottom:18px}h1{font-size:64px;line-height:.93;margin-bottom:18px}h1 span{display:inline}h1 span+span:before{content:" "}.chinese-title{font-size:14px;margin-bottom:15px}.intro-copy{font-size:13px;max-width:310px}.intro-copy span{display:inline}.release{margin-top:17px;font-size:12px;gap:12px;padding-bottom:7px}.release svg{width:17px}.artwork{left:-15%;right:-15%;top:246px;bottom:31px}.orbit-guide{width:320px;height:320px;left:50%;top:66%}.specimen{right:6%;top:265px}.specimen .number{font-size:34px}.specimen .label{font-size:9px}.art-caption{left:50%;bottom:17px;gap:7px}.art-caption .caption{font-size:19px}.art-caption .hint{font-size:10px}.caption-line{height:17px}.coordinates{display:none}.view-tools{right:6%;bottom:88px;gap:8px}.view-tools .icon-button{min-width:36px;min-height:36px;width:36px;height:36px}.controls{margin:0 6%;padding:23px 0;grid-template-columns:1fr;gap:25px}.control-label{font-size:10px;margin-bottom:12px}.forms{gap:7px}.form-button{height:55px;padding:0 8px;gap:9px;font-size:12px}.form-button svg{width:23px}.sliders{grid-column:1;grid-row:2;gap:32px;width:100%;transform:none}.slider-label{margin-bottom:10px;font-size:12px}.save-button{position:static;grid-column:1;grid-row:3;justify-self:stretch;margin:0;height:46px}.footer{margin:0 6%;padding:18px 0 23px;flex-wrap:wrap;row-gap:12px;font-size:9px}.footer .desktop-note{display:none}dialog{padding:32px 25px}dialog h2{font-size:38px}.key-list{grid-template-columns:1fr}.immersive .artwork{inset:0}.immersive .stage{min-height:0}}
+    @media(max-width:380px){h1{font-size:56px}.sound-text{display:none}.form-button{gap:5px}.stage{min-height:670px}.artwork{top:250px}}
+    @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}}
+  </style>
+</head>
+<body>
+  <main class="exhibition" id="exhibition">
+    <header class="topbar">
+      <div class="brand"><svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="12"/><ellipse cx="20" cy="20" rx="19" ry="6" transform="rotate(-35 20 20)"/><circle cx="30.5" cy="10" r="2" fill="currentColor" stroke="none"/></svg><div>ORBITAL GARDEN<small>交互艺术实验室 / VOL. 001</small></div></div>
+      <div class="edition">AN EXPLORATION OF BEAUTIFUL CHAOS</div>
+      <div class="top-actions"><button class="sound-button" id="sound" aria-pressed="false" aria-label="开启环境音"><span class="sound-bars" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span class="sound-text">SOUND OFF</span></button><button class="icon-button" id="about" aria-label="关于作品"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 11v6M12 7v.2"/></svg></button></div>
+    </header>
+    <section class="stage" aria-label="交互艺术展台">
+      <div class="orbit-guide" aria-hidden="true"></div>
+      <div class="artwork" id="artwork"><canvas id="universe" tabindex="0" aria-label="发光粒子雕塑。拖动或按方向键旋转，双击释放引力。使用下方按钮切换形态。">你的浏览器不支持 Canvas，请使用较新的浏览器欣赏作品。</canvas><div class="fallback" id="fallback" role="alert" hidden>这个展厅需要 WebGL 支持。请开启浏览器的硬件加速，或换一个支持 WebGL 的浏览器后重新打开。</div></div>
+      <div class="intro"><p class="eyebrow">A LIVING SYSTEM, NO. 001</p><h1><span>Orbital</span><span><em>Garden.</em></span></h1><h2 class="chinese-title">轨 道 花 园</h2><p class="intro-copy"><span>如果引力也有生命，</span><span>它会开出怎样的花？</span><span>触碰光点，在秩序与混沌之间漫游。</span></p><button class="release" id="release">释放一次引力<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18M3 12h18M5.6 5.6l12.8 12.8M5.6 18.4 18.4 5.6"/></svg></button></div>
+      <div class="specimen" aria-hidden="true"><span class="number" id="specimen-number">01</span><div class="label"><span id="specimen-latin">FLORA CELESTIS</span><span>SPECIMEN / IN MOTION</span></div></div>
+      <div class="coordinates" aria-hidden="true"><span>PARTICLES <b>048,000</b></span><span>MEDIUM <b>LIGHT & MATHEMATICS</b></span></div>
+      <div class="art-caption"><span class="caption-line"></span><span class="caption" id="caption">A flower that only exists in motion.</span><span class="hint">拖动旋转 · 双击绽放</span></div>
+      <div class="view-tools"><button class="icon-button" id="pause" aria-label="暂停动画" aria-pressed="false" title="暂停 / 继续（空格）"><svg viewBox="0 0 24 24" aria-hidden="true"><path id="pause-path" d="M9 5v14M15 5v14"/></svg></button><button class="icon-button" id="reset" aria-label="重置视角" title="重置视角（R）"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10a9 9 0 1 1 1.8 7M3 4v6h6"/></svg></button><button class="icon-button" id="immersive" aria-label="进入沉浸模式" aria-pressed="false" title="沉浸模式（F）"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3H3v5M16 3h5v5M21 16v5h-5M8 21H3v-5"/></svg></button></div>
+    </section>
+    <section class="controls" aria-label="雕塑控制台">
+      <div><span class="control-label">CHOOSE A FORM / 选择生命形态</span><div class="forms" role="group" aria-label="生命形态"><button class="form-button" data-form="0" aria-pressed="true"><svg viewBox="0 0 30 30" aria-hidden="true"><ellipse cx="15" cy="15" rx="12" ry="4"/><ellipse cx="15" cy="15" rx="12" ry="4" transform="rotate(60 15 15)"/><ellipse cx="15" cy="15" rx="12" ry="4" transform="rotate(120 15 15)"/></svg><span>星之花</span><span class="index">01</span></button><button class="form-button" data-form="1" aria-pressed="false"><svg viewBox="0 0 30 30" aria-hidden="true"><ellipse cx="15" cy="15" rx="12" ry="7" transform="rotate(-35 15 15)"/><ellipse cx="15" cy="15" rx="8" ry="3" transform="rotate(-35 15 15)"/></svg><span>引力环</span><span class="index">02</span></button><button class="form-button" data-form="2" aria-pressed="false"><svg viewBox="0 0 30 30" aria-hidden="true"><path d="M15 15c-4-5 5-8 8-3s-1 12-9 11S3 16 6 10 18 3 23 7M15 15c4 5-5 8-8 3S8 6 16 7"/></svg><span>旋涡星系</span><span class="index">03</span></button></div></div>
+      <div class="sliders"><div><label class="slider-label" for="energy">生命力 <output id="energy-value">65%</output></label><input id="energy" type="range" min="0" max="100" value="65" aria-label="生命力" aria-valuetext="65%"></div><div><label class="slider-label" for="speed">时间流速 <output id="speed-value">1.0×</output></label><input id="speed" type="range" min="0" max="200" value="100" aria-label="时间流速" aria-valuetext="1.0 倍"></div></div>
+      <button class="save-button" id="save"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-4-4 4 4 4-4M4 16v5h16v-5"/></svg><span>收藏这一瞬</span></button>
+    </section>
+    <footer class="footer"><span><i class="dot"></i>GENERATIVE ART · 2026</span><span class="desktop-note">没有两次绽放，拥有相同的轨道。</span><span class="credit">CREATED WITH GPT-6 ASTRA</span></footer>
+  </main>
+  <dialog id="about-dialog" aria-labelledby="about-title"><button class="icon-button dialog-close" id="close-dialog" aria-label="关闭作品说明"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M6 18 18 6"/></svg></button><div class="mono dialog-kicker">THE IDEA BEHIND THE GARDEN</div><h2 id="about-title">Order is just chaos,<br><em>in full bloom.</em></h2><p>「轨道花园」是一件关于<strong>秩序如何从混沌中生长</strong>的交互艺术作品。48,000 颗光点，既是一朵花，也是一道环，或一个遥远的星系。</p><p>切换形态，看同一群光点寻找新的轨道。释放引力，让它们短暂散开，再重新聚拢。调低时间流速，留意那些平时错过的细节。</p><div class="key-list"><span><kbd>1</kbd><kbd>2</kbd><kbd>3</kbd>切换形态</span><span><kbd>空格</kbd>暂停 / 继续</span><span><kbd>↑ ↓ ← →</kbd>旋转视角</span><span><kbd>B</kbd>绽放 · <kbd>R</kbd>重置</span><span><kbd>F</kbd>沉浸模式</span><span><kbd>Esc</kbd>退出沉浸模式</span></div><p>点击「收藏这一瞬」，生成带有形态、时间与参数的高清纪念海报。声音由浏览器实时合成，仅在你开启后播放。</p><div class="dialog-bottom">CODE, FORM & INTERACTION · GPT-6 ASTRA<br>原生 WebGL · 程序化图形 · 无外部素材<br>这是一种艺术化的引力想象，并非物理模拟。</div></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script>
+  (() => {
+    'use strict';
+    const $ = id => document.getElementById(id);
+    const canvas = $('universe');
+    const COUNT = 48000;
+    const TAU = Math.PI * 2;
+    const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
+    const state = {form:0, time:0, energy:.65, speed:1, paused:reducedMotion.matches, yaw:0, pitch:-.24, targetYaw:0, targetPitch:-.24, morph:1, burst:0, burstPhase:0, immersive:false};
+    const forms = [
+      {name:'星之花',latin:'FLORA CELESTIS',caption:'A flower that only exists in motion.',color:[.58,.88,.72],second:[.26,.61,.65],note:130.81},
+      {name:'引力环',latin:'ANNULUS AUREUS',caption:'Everything returns. Nothing repeats.',color:[1,.7,.38],second:[.7,.4,.24],note:146.83},
+      {name:'旋涡星系',latin:'SPIRA INFINITA',caption:'Somewhere, the universe is beginning.',color:[.62,.7,1],second:[.68,.4,.68],note:110}
+    ];
+    let renderer, raf = 0, lastTime = 0, toastTimer, pointer = null, audio = null;
+    let color = [...forms[0].color], secondColor = [...forms[0].second];
+    let lastTap = 0, lastTapPoint = null;
+    function toast(message){$('toast').textContent=message;$('toast').classList.add('visible');clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('toast').classList.remove('visible'),3000)}
+    function randomGenerator(seed){return()=>{seed|=0;seed=seed+0x6D2B79F5|0;let t=Math.imul(seed^seed>>>15,1|seed);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}}
+    function makeGeometry(){
+      const rand=randomGenerator(628);
+      const positions=[new Float32Array(COUNT*3),new Float32Array(COUNT*3),new Float32Array(COUNT*3)];
+      const attributes=new Float32Array(COUNT*3);
+      for(let i=0;i<COUNT;i++){
+        // Shared samples give every point an identity through all three shapes.
+        const u=rand(),v=rand(),w=rand(),theta=u*TAU,phi=v*TAU;
+        const strand=Math.floor(w*64), ribbon=(strand+.5)/64;
+        const a=theta, petal=Math.cos(5*a);
+        const radius=.55+1.58*Math.pow(Math.abs(petal),.72);
+        const fold=.5+.5*Math.sin(phi);
+        const r=radius*(.3+.7*fold);
+        const twist=a+.13*Math.sin(phi)*Math.sin(5*a);
+        // A folded five-petal rosette: fine, ordered fibres, not a filled mesh.
+        positions[0][i*3]=r*Math.cos(twist);
+        positions[0][i*3+1]=r*Math.sin(twist);
+        positions[0][i*3+2]=.48*Math.cos(phi)*Math.sin(2.5*a)+.28*Math.cos(5*a)*(1-fold)+.045*Math.sin(ribbon*TAU*4+a*18);
+        // Nested, twisting toroidal fibres share the same angular sample.
+        const tube=.42+.2*Math.sin(theta*3+phi*.5), R=1.43;
+        const toroidPhi=phi+theta*3;
+        positions[1][i*3]=(R+tube*Math.cos(toroidPhi))*Math.cos(theta);
+        positions[1][i*3+1]=(R+tube*Math.cos(toroidPhi))*Math.sin(theta)*.65-tube*Math.sin(toroidPhi)*.58;
+        positions[1][i*3+2]=(R+tube*Math.cos(toroidPhi))*Math.sin(theta)*.58+tube*Math.sin(toroidPhi)*.65;
+        // Five spiral arms and a dense, luminous galactic core.
+        const arm=Math.floor(v*5), spread=(v*5-arm-.5);
+        const gr=2.32*Math.pow(w,.66), ga=arm*TAU/5+gr*1.55+spread*(.19+gr*.16);
+        const gx=gr*Math.cos(ga), gy=gr*Math.sin(ga), gz=(u-.5)*(.18+.3*Math.exp(-gr*2));
+        positions[2][i*3]=gx;
+        positions[2][i*3+1]=gy*.63-gz*.78;
+        positions[2][i*3+2]=gy*.78+gz*.63;
+        attributes[i*3]=u;attributes[i*3+1]=v;attributes[i*3+2]=w;
+      }
+      return {positions,attributes};
+    }
+    const geometry=makeGeometry();
+    const vertexSource=`
+      precision highp float;
+      attribute vec3 aFrom;
+      attribute vec3 aTo;
+      attribute vec3 aSeed;
+      uniform float uMorph;
+      uniform float uTime;
+      uniform float uEnergy;
+      uniform float uBurst;
+      uniform float uBurstPhase;
+      uniform vec2 uRotation;
+      uniform float uAspect;
+      uniform float uDpr;
+      uniform float uScale;
+      varying float vLight;
+      varying float vHue;
+      varying float vAlpha;
+      void main(){
+        vec3 p=mix(aFrom,aTo,uMorph);
+        float l=length(p);
+        float wave=sin(l*5.0-uTime*.7+aSeed.z*3.0);
+        p*=1.0+.026*uEnergy*wave;
+        p.z+=.065*uEnergy*sin(p.x*2.3+uTime*.38)*cos(p.y*2.2-uTime*.26);
+        vec3 direction=normalize(p+vec3(sin(aSeed.x*62.83),cos(aSeed.y*62.83),sin(aSeed.z*62.83))*.65+vec3(.001));
+        p+=direction*uBurst*(.5+aSeed.z*2.1);
+        float swirl=uBurst*.33*sin(uBurstPhase*.8+aSeed.y*3.0);
+        p.xy=mat2(cos(swirl),sin(swirl),-sin(swirl),cos(swirl))*p.xy;
+        float cy=cos(uRotation.x),sy=sin(uRotation.x),cx=cos(uRotation.y),sx=sin(uRotation.y);
+        p=vec3(p.x*cy+p.z*sy,p.y,-p.x*sy+p.z*cy);
+        p=vec3(p.x,p.y*cx-p.z*sx,p.y*sx+p.z*cx);
+        float perspective=6.7/(6.7-p.z);
+        gl_Position=vec4(p.x*perspective*uScale/uAspect,p.y*perspective*uScale,0.0,1.0);
+        float sparkle=pow(max(0.0,sin(aSeed.x*137.0+uTime*.6)),18.0);
+        gl_PointSize=clamp((1.1+aSeed.y*1.25+sparkle*1.2)*uDpr*perspective,1.0,8.0*uDpr);
+        vLight=.6+.4*perspective+sparkle*.9;
+        vHue=clamp(aSeed.z*.6+l*.17,0.0,1.0);
+        vAlpha=(.22+.44*aSeed.y)*(.8+uEnergy*.3)*(1.0-uBurst*.13);
+      }`;
+    const fragmentSource=`
+      precision mediump float;
+      uniform vec3 uColor;
+      uniform vec3 uSecond;
+      varying float vLight;
+      varying float vHue;
+      varying float vAlpha;
+      void main(){
+        vec2 uv=gl_PointCoord-.5;
+        float d=length(uv)*2.0;
+        if(d>1.0) discard;
+        float core=exp(-d*d*8.0);
+        float halo=exp(-d*d*3.0)*.22;
+        vec3 c=mix(uColor,uSecond,vHue*.8)*vLight;
+        gl_FragColor=vec4(c,(core+halo)*vAlpha);
+      }`;
+    class Renderer{
+      constructor(target){
+        this.canvas=target;
+        const gl=target.getContext('webgl',{alpha:true,antialias:false,preserveDrawingBuffer:false,premultipliedAlpha:true});
+        if(!gl)throw new Error('WebGL unavailable');
+        this.gl=gl;
+        const compile=(type,source)=>{const s=gl.createShader(type);gl.shaderSource(s,source);gl.compileShader(s);if(!gl.getShaderParameter(s,gl.COMPILE_STATUS)){const error=gl.getShaderInfoLog(s);gl.deleteShader(s);throw new Error(error)}return s};
+        const program=gl.createProgram(),vs=compile(gl.VERTEX_SHADER,vertexSource),fs=compile(gl.FRAGMENT_SHADER,fragmentSource);
+        gl.attachShader(program,vs);gl.attachShader(program,fs);gl.linkProgram(program);gl.deleteShader(vs);gl.deleteShader(fs);
+        if(!gl.getProgramParameter(program,gl.LINK_STATUS))throw new Error(gl.getProgramInfoLog(program));
+        this.program=program;gl.useProgram(program);this.locations={};
+        for(const name of ['uMorph','uTime','uEnergy','uBurst','uBurstPhase','uRotation','uAspect','uDpr','uScale','uColor','uSecond'])this.locations[name]=gl.getUniformLocation(program,name);
+        this.buffers={};
+        for(const [name,values] of [['aFrom',geometry.positions[0]],['aTo',geometry.positions[0]],['aSeed',geometry.attributes]]){
+          const buffer=gl.createBuffer();this.buffers[name]=buffer;gl.bindBuffer(gl.ARRAY_BUFFER,buffer);gl.bufferData(gl.ARRAY_BUFFER,values,name==='aSeed'?gl.STATIC_DRAW:gl.DYNAMIC_DRAW);const index=gl.getAttribLocation(program,name);gl.enableVertexAttribArray(index);gl.vertexAttribPointer(index,3,gl.FLOAT,false,0,0);
+        }
+        this.from=geometry.positions[0].slice();this.to=geometry.positions[0];
+        gl.enable(gl.BLEND);gl.blendFuncSeparate(gl.SRC_ALPHA,gl.ONE,gl.ONE,gl.ONE_MINUS_SRC_ALPHA);gl.disable(gl.DEPTH_TEST);
+      }
+      setForm(index){
+        const t=ease(state.morph);
+        for(let i=0;i<this.from.length;i++)this.from[i]+=(this.to[i]-this.from[i])*t;
+        this.to=geometry.positions[index];
+        const gl=this.gl;
+        gl.bindBuffer(gl.ARRAY_BUFFER,this.buffers.aFrom);gl.bufferSubData(gl.ARRAY_BUFFER,0,this.from);
+        gl.bindBuffer(gl.ARRAY_BUFFER,this.buffers.aTo);gl.bufferSubData(gl.ARRAY_BUFFER,0,this.to);
+        state.morph=reducedMotion.matches?1:0;
+      }
+      resize(){
+        const rect=this.canvas.getBoundingClientRect();
+        this.dpr=Math.min(devicePixelRatio||1,2);this.width=Math.max(1,Math.round(rect.width*this.dpr));this.height=Math.max(1,Math.round(rect.height*this.dpr));
+        if(this.canvas.width!==this.width||this.canvas.height!==this.height){this.canvas.width=this.width;this.canvas.height=this.height}
+      }
+      draw(width=this.width,height=this.height,exporting=false){
+        const gl=this.gl,l=this.locations;
+        gl.viewport(0,0,width,height);gl.clearColor(0,0,0,0);gl.clear(gl.COLOR_BUFFER_BIT);gl.useProgram(this.program);
+        gl.uniform1f(l.uMorph,ease(state.morph));gl.uniform1f(l.uTime,state.time);gl.uniform1f(l.uEnergy,state.energy);gl.uniform1f(l.uBurst,state.burst);gl.uniform1f(l.uBurstPhase,state.burstPhase);
+        gl.uniform2f(l.uRotation,state.yaw+Math.sin(state.time*.09)*.16,state.pitch);
+        const aspect=width/height;gl.uniform1f(l.uAspect,aspect);gl.uniform1f(l.uDpr,exporting?2.8:this.dpr);
+        gl.uniform1f(l.uScale,Math.min(.365,aspect*.37)*(exporting?1.03:1));
+        gl.uniform3fv(l.uColor,color);gl.uniform3fv(l.uSecond,secondColor);
+        gl.drawArrays(gl.POINTS,0,COUNT);
+      }
+      exportPixels(size){
+        const gl=this.gl;
+        if(size>gl.getParameter(gl.MAX_TEXTURE_SIZE)||size>gl.getParameter(gl.MAX_RENDERBUFFER_SIZE))throw new Error('Export size unsupported');
+        const texture=gl.createTexture(),fb=gl.createFramebuffer();
+        try{
+          gl.bindTexture(gl.TEXTURE_2D,texture);gl.texImage2D(gl.TEXTURE_2D,0,gl.RGBA,size,size,0,gl.RGBA,gl.UNSIGNED_BYTE,null);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MIN_FILTER,gl.LINEAR);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MAG_FILTER,gl.LINEAR);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_S,gl.CLAMP_TO_EDGE);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_T,gl.CLAMP_TO_EDGE);
+          gl.bindFramebuffer(gl.FRAMEBUFFER,fb);gl.framebufferTexture2D(gl.FRAMEBUFFER,gl.COLOR_ATTACHMENT0,gl.TEXTURE_2D,texture,0);
+          if(gl.checkFramebufferStatus(gl.FRAMEBUFFER)!==gl.FRAMEBUFFER_COMPLETE)throw new Error('Export framebuffer incomplete');
+          this.draw(size,size,true);
+          const pixels=new Uint8Array(size*size*4);gl.readPixels(0,0,size,size,gl.RGBA,gl.UNSIGNED_BYTE,pixels);return pixels;
+        }finally{gl.bindFramebuffer(gl.FRAMEBUFFER,null);gl.deleteFramebuffer(fb);gl.deleteTexture(texture);this.draw()}
+      }
+    }
+    function ease(t){return t*t*t*(t*(t*6-15)+10)}
+    function requestFrame(){if(!raf&&!document.hidden&&renderer)raf=requestAnimationFrame(frame)}
+    function frame(now){
+      raf=0;
+      const dt=lastTime?Math.min((now-lastTime)/1000,.05):1/60;lastTime=now;
+      if(!state.paused){state.time+=dt*state.speed;state.morph=Math.min(1,state.morph+dt*.43);if(state.burstPhase>0){state.burstPhase+=dt*1.3;state.burst=Math.sin(Math.min(state.burstPhase/3.2,1)*Math.PI)*Math.exp(-state.burstPhase*.27);if(state.burstPhase>=3.2){state.burstPhase=0;state.burst=0}}}
+      const smoothing=reducedMotion.matches?1:1-Math.exp(-dt*7);
+      state.yaw+=(state.targetYaw-state.yaw)*smoothing;state.pitch+=(state.targetPitch-state.pitch)*smoothing;
+      let colorMoving=false;
+      for(let i=0;i<3;i++){const a=forms[state.form].color[i]-color[i],b=forms[state.form].second[i]-secondColor[i];color[i]+=a*smoothing;secondColor[i]+=b*smoothing;if(Math.abs(a)+Math.abs(b)>.001)colorMoving=true}
+      renderer.draw();
+      const moving=Math.abs(state.yaw-state.targetYaw)+Math.abs(state.pitch-state.targetPitch)>.0001;
+      if(!state.paused||moving||colorMoving)requestFrame();
+    }
+    function setForm(index){
+      if(!Number.isInteger(index)||index<0||index>=forms.length||index===state.form)return;
+      if(!renderer){toast('需要 WebGL 支持才能切换形态');return}
+      renderer.setForm(index);state.form=index;if(state.paused)state.morph=1;
+      document.querySelectorAll('[data-form]').forEach(button=>button.setAttribute('aria-pressed',String(Number(button.dataset.form)===index)));
+      $('specimen-number').textContent=String(index+1).padStart(2,'0');$('specimen-latin').textContent=forms[index].latin;$('caption').textContent=forms[index].caption;
+      const rgb=forms[index].color.map(n=>Math.round(n*255)).join(',');document.documentElement.style.setProperty('--accent',`rgb(${rgb})`);
+      tuneAudio();requestFrame();
+    }
+    function burst(){
+      if(!renderer)return;
+      if(reducedMotion.matches){toast('已启用减少动态效果；可以旋转、切换形态或收藏画面。');return}
+      if(state.paused){state.paused=false;syncPause()}
+      state.burstPhase=.001;state.burst=0;requestFrame();
+      if(audio&&audio.on){const t=audio.context.currentTime;audio.filter.frequency.cancelScheduledValues(t);audio.filter.frequency.setValueAtTime(420,t);audio.filter.frequency.exponentialRampToValueAtTime(1600,t+.4);audio.filter.frequency.exponentialRampToValueAtTime(420,t+3)}
+    }
+    function syncPause(){const b=$('pause');b.setAttribute('aria-pressed',String(state.paused));b.setAttribute('aria-label',state.paused?'继续动画':'暂停动画');$('pause-path').setAttribute('d',state.paused?'m8 5 11 7-11 7V5':'M9 5v14M15 5v14')}
+    function togglePause(){state.paused=!state.paused;lastTime=0;syncPause();requestFrame()}
+    function reset(){state.targetYaw=0;state.targetPitch=-.24;requestFrame();toast('已回到最初的视角')}
+    function setImmersive(value){state.immersive=value;document.body.classList.toggle('immersive',value);$('immersive').setAttribute('aria-pressed',String(value));$('immersive').setAttribute('aria-label',value?'退出沉浸模式':'进入沉浸模式');if(renderer){renderer.resize();requestFrame()}}
+    function tuneAudio(){if(!audio)return;const t=audio.context.currentTime;audio.oscillators.forEach((o,i)=>o.frequency.setTargetAtTime(forms[state.form].note*[.5,1,1.5,2,2.5][i],t,1.5))}
+    async function toggleAudio(){
+      const button=$('sound');if(button.disabled)return;button.disabled=true;
+      try{
+        if(!audio){
+          const AudioContext=window.AudioContext||window.webkitAudioContext;if(!AudioContext)throw new Error('Audio unavailable');
+          const context=new AudioContext(),master=context.createGain(),filter=context.createBiquadFilter();filter.type='lowpass';filter.frequency.value=420;master.gain.value=0;filter.connect(master);master.connect(context.destination);
+          const oscillators=[];
+          for(let i=0;i<5;i++){const oscillator=context.createOscillator(),gain=context.createGain();oscillator.type='sine';oscillator.frequency.value=forms[state.form].note*[.5,1,1.5,2,2.5][i];oscillator.detune.value=i%2?5:-5;gain.gain.value=.1/(1+i*.45);oscillator.connect(gain);gain.connect(filter);oscillator.start();oscillators.push(oscillator)}
+          const lfo=context.createOscillator(),depth=context.createGain();lfo.frequency.value=.11;depth.gain.value=.055;lfo.connect(depth);depth.connect(master.gain);lfo.start();
+          audio={context,master,filter,oscillators,lfo,depth,on:false};
+        }
+        const next=!audio.on;
+        if(next){await audio.context.resume();audio.master.gain.setTargetAtTime(.5,audio.context.currentTime,.7);audio.on=true}
+        else{audio.on=false;await audio.context.suspend()}
+        $('sound').setAttribute('aria-pressed',String(audio.on));$('sound').setAttribute('aria-label',audio.on?'关闭环境音':'开启环境音');document.querySelector('.sound-text').textContent=audio.on?'SOUND ON':'SOUND OFF';
+      }catch(error){toast('当前浏览器暂时无法播放环境音')}
+      finally{button.disabled=false}
+    }
+    async function savePoster(){
+      if(!renderer){toast('需要 WebGL 支持才能导出作品');return}
+      const button=$('save');button.disabled=true;button.querySelector('span').textContent='正在装裱…';
+      // Yield once so feedback paints; render to an offscreen GPU framebuffer.
+      await new Promise(resolve=>setTimeout(resolve,40));
+      try{
+        const exported={form:state.form,energy:state.energy,time:state.time,date:new Date()};
+        const size=1800,pixels=renderer.exportPixels(size);
+        const art=document.createElement('canvas');art.width=size;art.height=size;const artCtx=art.getContext('2d');const imageData=artCtx.createImageData(size,size);
+        // Additive WebGL RGB is already composed; treat it as opaque over black.
+        for(let y=0;y<size;y++){const source=(size-1-y)*size*4,dest=y*size*4;imageData.data.set(pixels.subarray(source,source+size*4),dest);for(let x=0;x<size;x++)imageData.data[dest+x*4+3]=255}
+        artCtx.putImageData(imageData,0,0);
+        const poster=document.createElement('canvas');poster.width=2000;poster.height=2400;const ctx=poster.getContext('2d');
+        ctx.fillStyle='#080f12';ctx.fillRect(0,0,2000,2400);
+        const glow=ctx.createRadialGradient(1000,1170,30,1000,1170,900);glow.addColorStop(0,'#163334');glow.addColorStop(1,'#080f12');ctx.fillStyle=glow;ctx.fillRect(0,290,2000,1800);
+        ctx.globalCompositeOperation='screen';ctx.drawImage(art,100,240);ctx.globalCompositeOperation='source-over';
+        ctx.strokeStyle='#456057';ctx.lineWidth=1;ctx.strokeRect(66,66,1868,2268);
+        ctx.fillStyle='#b9d9c9';ctx.font='21px monospace';ctx.fillText('O R B I T A L   G A R D E N',130,150);ctx.textAlign='right';ctx.fillText(`SPECIMEN 0${exported.form+1}`,1870,150);
+        ctx.textAlign='left';ctx.fillStyle='#edf1e6';ctx.font='italic 116px Georgia';ctx.fillText(forms[exported.form].latin.toLowerCase().replaceAll('_',' '),130,2140);
+        ctx.font='30px sans-serif';ctx.fillStyle='#b6c7bf';ctx.fillText(`${forms[exported.form].name} / 轨道花园`,135,2210);
+        ctx.font='17px monospace';const stamp=exported.date.toISOString().replace('T',' ').slice(0,19)+' UTC';ctx.fillText(`${stamp}   ·   ENERGY ${Math.round(exported.energy*100)}%   ·   TIME ${exported.time.toFixed(2)}`,135,2280);
+        ctx.textAlign='right';ctx.fillText('GPT-6 ASTRA / 048,000 PARTICLES',1865,2280);
+        const blob=await new Promise(resolve=>poster.toBlob(resolve,'image/png'));if(!blob)throw new Error('PNG export failed');
+        const url=URL.createObjectURL(blob),link=document.createElement('a');link.href=url;link.download=`orbital-garden-0${exported.form+1}-${exported.date.getTime()}.png`;document.body.append(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),30000);toast('纪念海报已生成 · 2000 × 2400 PNG');
+      }catch(error){toast('暂时无法导出海报，请重试或使用其他浏览器')}
+      finally{button.disabled=false;button.querySelector('span').textContent='收藏这一瞬';requestFrame()}
+    }
+    document.querySelectorAll('[data-form]').forEach(button=>button.addEventListener('click',()=>setForm(Number(button.dataset.form))));
+    $('energy').addEventListener('input',event=>{state.energy=Number(event.target.value)/100;$('energy-value').value=`${event.target.value}%`;event.target.setAttribute('aria-valuetext',`${event.target.value}%`);requestFrame()});
+    $('speed').addEventListener('input',event=>{state.speed=Number(event.target.value)/100;$('speed-value').value=`${state.speed.toFixed(1)}×`;event.target.setAttribute('aria-valuetext',`${state.speed.toFixed(1)} 倍`);requestFrame()});
+    $('release').addEventListener('click',burst);$('pause').addEventListener('click',togglePause);$('reset').addEventListener('click',reset);$('immersive').addEventListener('click',()=>setImmersive(!state.immersive));$('sound').addEventListener('click',toggleAudio);$('save').addEventListener('click',savePoster);
+    $('about').addEventListener('click',()=>$('about-dialog').showModal());$('close-dialog').addEventListener('click',()=>$('about-dialog').close());
+    $('about-dialog').addEventListener('click',event=>{if(event.target===$('about-dialog')){const r=event.target.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)event.target.close()}});
+    canvas.addEventListener('pointerdown',event=>{if(event.button!==0||!event.isPrimary)return;pointer={id:event.pointerId,x:event.clientX,y:event.clientY,startX:event.clientX,startY:event.clientY,moved:false};canvas.setPointerCapture(event.pointerId);canvas.classList.add('dragging')});
+    canvas.addEventListener('pointermove',event=>{if(!pointer||event.pointerId!==pointer.id)return;const dx=event.clientX-pointer.x,dy=event.clientY-pointer.y;state.targetYaw+=dx*.006;state.targetPitch=Math.max(-1.4,Math.min(1.4,state.targetPitch+dy*.006));pointer.x=event.clientX;pointer.y=event.clientY;if(Math.hypot(event.clientX-pointer.startX,event.clientY-pointer.startY)>6)pointer.moved=true;requestFrame()});
+    function endPointer(event){if(!pointer||event.pointerId!==pointer.id)return;const tapped=!pointer.moved;if(tapped&&event.type==='pointerup'){const now=performance.now();if(now-lastTap<330&&lastTapPoint&&Math.hypot(event.clientX-lastTapPoint.x,event.clientY-lastTapPoint.y)<30){burst();lastTap=0}else{lastTap=now;lastTapPoint={x:event.clientX,y:event.clientY}}}pointer=null;canvas.classList.remove('dragging')}
+    canvas.addEventListener('pointerup',endPointer);canvas.addEventListener('pointercancel',endPointer);canvas.addEventListener('lostpointercapture',endPointer);
+    document.addEventListener('keydown',event=>{
+      if($('about-dialog').open)return;
+      if(event.key==='Escape'&&state.immersive){setImmersive(false);$('immersive').focus();return}
+      if(event.altKey||event.ctrlKey||event.metaKey||event.target.matches('input,textarea,select,button,a,[contenteditable="true"]'))return;
+      if(['1','2','3'].includes(event.key)){setForm(Number(event.key)-1);return}
+      const key=event.key.toLowerCase();if(key===' '){event.preventDefault();togglePause()}else if(key==='b')burst();else if(key==='r')reset();else if(key==='f')setImmersive(!state.immersive);
+      else if(event.key.startsWith('Arrow')&&event.target===canvas){event.preventDefault();if(key==='arrowleft')state.targetYaw-=.12;if(key==='arrowright')state.targetYaw+=.12;if(key==='arrowup')state.targetPitch-=.12;if(key==='arrowdown')state.targetPitch+=.12;state.targetPitch=Math.max(-1.4,Math.min(1.4,state.targetPitch));requestFrame()}
+    });
+    document.addEventListener('visibilitychange',()=>{if(document.hidden){if(raf)cancelAnimationFrame(raf);raf=0;if(audio&&audio.on)audio.context.suspend().catch(()=>{})}else{lastTime=0;if(audio&&audio.on)audio.context.resume().catch(()=>{});requestFrame()}});
+    reducedMotion.addEventListener('change',event=>{if(event.matches){state.paused=true;state.morph=1;state.burst=0;state.burstPhase=0;syncPause();requestFrame()}});
+    canvas.addEventListener('webglcontextlost',event=>{event.preventDefault();cancelAnimationFrame(raf);raf=0;renderer=null;$('fallback').hidden=false;$('fallback').textContent='图形渲染暂时中断，正在等待浏览器恢复…'});
+    canvas.addEventListener('webglcontextrestored',()=>initialize());
+    function initialize(){try{renderer=new Renderer(canvas);renderer.from.set(geometry.positions[state.form]);renderer.to=geometry.positions[state.form];state.morph=1;renderer.setForm(state.form);state.morph=1;renderer.resize();$('fallback').hidden=true;lastTime=0;requestFrame()}catch(error){renderer=null;$('fallback').hidden=false;console.error('Orbital Garden:',error)}}
+    new ResizeObserver(()=>{if(renderer){renderer.resize();requestFrame()}}).observe($('artwork'));
+    syncPause();initialize();
+  })();
+  </script>
+</body>
+</html>
