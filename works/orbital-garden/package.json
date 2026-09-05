@@ -1,0 +1,9 @@
+{
+  "name": "orbital-garden",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Standalone interactive particle-art sandbox",
+  "scripts": {
+    "build": "node build.mjs"
+  }
+}

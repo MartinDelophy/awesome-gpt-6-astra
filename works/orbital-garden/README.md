@@ -8,6 +8,8 @@
 
 ## 体验
 
+[**点击在线体验 · Open the live demo**](https://orbital-garden.hp20230404.chatgpt.site) — 免费，无需登录或 API Key。
+
 下载并双击 **[index.html](index.html)** 即可运行。全部代码、样式、着色器和声音合成都在一个文件中，无需安装依赖、登录或配置 API Key，也不请求外部字体、图片或音频。
 
 也可以在仓库根目录启动静态服务：
@@ -66,7 +68,9 @@ python3 -m http.server 4173 --bind 127.0.0.1
 ></iframe>
 ```
 
-如官网启用了严格 CSP，需要允许页面内联脚本和样式（可通过计算 hash 配置）；如给 iframe 添加 `sandbox`，需允许脚本及下载才能保留交互和海报导出。当前交付不包含线上部署地址。
+如官网启用了严格 CSP，需要允许页面内联脚本和样式（可通过计算 hash 配置）；如给 iframe 添加 `sandbox`，需允许脚本及下载才能保留交互和海报导出。
+
+公开演示托管于 [orbital-garden.hp20230404.chatgpt.site](https://orbital-garden.hp20230404.chatgpt.site)。维护部署时，在本目录运行 `node build.mjs`（或 `npm run build`），生成仅包含作品页面的 `dist/`；Sites 配置位于 `.openai/hosting.json`。本地双击运行仍不需要 Node.js。
 
 **可直接采用的作品简介：**
 
