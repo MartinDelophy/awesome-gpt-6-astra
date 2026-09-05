@@ -1,0 +1,69 @@
+name: "提交游戏 / Submit a game"
+description: "推荐一个用 GPT-6 Astra 制作的游戏 / Recommend a game made with GPT-6 Astra."
+title: "[Game] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        欢迎！中文或英文填写均可。可玩的原型也欢迎；请注明原作者。
+        Welcome! Chinese or English is fine. Playable prototypes are welcome; credit the original creator.
+  - type: input
+    id: game_name
+    attributes:
+      label: "游戏名称 / Game title"
+    validations:
+      required: true
+  - type: input
+    id: creator
+    attributes:
+      label: "作者 / Creator"
+      description: "作者或团队的名称与公开主页链接 / Name and public profile or website."
+    validations:
+      required: true
+  - type: input
+    id: access
+    attributes:
+      label: "试玩或源码入口 / Playable or source link"
+      description: "提供试玩地址，或附有运行说明的公开源码仓库 / A playable link or public source with setup instructions."
+      placeholder: "https://…"
+    validations:
+      required: true
+  - type: textarea
+    id: gameplay
+    attributes:
+      label: "有什么好玩 / What makes it interesting?"
+      description: "用一两句话说明核心玩法与亮点 / Describe the core mechanic and appeal in a sentence or two."
+    validations:
+      required: true
+  - type: dropdown
+    id: genre
+    attributes:
+      label: "建议分类 / Suggested genre"
+      options:
+        - "动作与街机 / Action & arcade"
+        - "解谜与益智 / Puzzles & brain games"
+        - "策略与模拟 / Strategy & simulation"
+        - "RPG 与冒险 / RPGs & adventures"
+        - "平台跳跃与竞速 / Platformers & racing"
+        - "实验玩法与多人游戏 / Experimental & multiplayer"
+    validations:
+      required: true
+  - type: textarea
+    id: astra_role
+    attributes:
+      label: "GPT-6 Astra 参与了什么 / How was GPT-6 Astra used?"
+      description: "提供作者说明、开发日志或公开记录的链接，并概述模型的作用。如果你是作者，也可以直接在这里说明。 / Link a creator statement, devlog, or public record and summarize the model's role. If you are the creator, you can describe it here directly."
+    validations:
+      required: true
+  - type: input
+    id: platform_requirements
+    attributes:
+      label: "平台与访问条件 / Platform and access requirements"
+      description: "例如：浏览器，免费，无需登录；或 Windows，付费下载 / For example: browser, free, no login; or Windows, paid download."
+    validations:
+      required: true
+  - type: textarea
+    id: resources
+    attributes:
+      label: "更多资料（可选） / More resources (optional)"
+      description: "源码、技术栈、开发过程、截图链接，或其他有用信息 / Source, technology, making-of notes, screenshot links, or other useful context."

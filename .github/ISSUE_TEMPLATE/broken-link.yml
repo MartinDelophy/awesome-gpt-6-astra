@@ -1,0 +1,23 @@
+name: "链接或信息问题 / Report a link or information issue"
+description: "反馈失效链接、错误署名或信息变化 / Report broken links, attribution errors, or changed details."
+title: "[Fix] "
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: "相关游戏或页面 / Affected game or page"
+      description: "名称或 README 中的链接 / The name or link as listed in the README."
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: "遇到了什么问题 / What happened?"
+      description: "说明失效地址、错误内容或访问条件变化；如有用，可附上报错 / Describe the broken URL, incorrect detail, or changed access requirement. Include the error if useful."
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: "建议修正（可选） / Suggested correction (optional)"
+      description: "如果知道新的官方入口或正确信息，请附上来源 / If you know the new official link or correct information, include its source."

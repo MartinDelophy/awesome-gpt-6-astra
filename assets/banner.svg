@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="360" viewBox="0 0 1440 360" role="img" aria-labelledby="title desc">
+  <title id="title">Awesome GPT-6 Astra</title>
+  <desc id="desc">A midnight blue banner with colorful game blocks and a controller. Games worth playing. Ideas worth building.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111b35"/>
+      <stop offset="1" stop-color="#101323"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#8ea6dc" stroke-opacity=".08"/>
+    </pattern>
+  </defs>
+  <rect width="1440" height="360" rx="28" fill="url(#background)"/>
+  <rect width="1440" height="360" rx="28" fill="url(#grid)"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="76" y="90" fill="#a5f3b6" font-size="19" font-weight="700" letter-spacing="6">AWESOME</text>
+    <text x="72" y="179" fill="#f5f7ff" font-size="78" font-weight="700" letter-spacing="-3">GPT-6 ASTRA</text>
+    <text x="77" y="235" fill="#aebbd4" font-size="25">Games worth playing. Ideas worth building.</text>
+  </g>
+  <g transform="translate(1010 93)">
+    <rect x="122" y="-35" width="34" height="34" rx="6" fill="#b3a3ff"/>
+    <rect x="161" y="-35" width="34" height="34" rx="6" fill="#b3a3ff"/>
+    <rect x="161" y="4" width="34" height="34" rx="6" fill="#b3a3ff"/>
+    <rect x="200" y="4" width="34" height="34" rx="6" fill="#b3a3ff"/>
+    <path d="M47 48H220C243 48 257 66 263 90L284 167C288 184 276 198 260 198C251 198 243 194 236 186L204 154H64L32 186C25 194 17 198 8 198C-8 198-20 184-16 167L5 90C11 66 24 48 47 48Z" fill="#1f3250" stroke="#496185" stroke-width="3"/>
+    <rect x="35" y="95" width="63" height="21" rx="5" fill="#a5f3b6"/>
+    <rect x="56" y="74" width="21" height="63" rx="5" fill="#a5f3b6"/>
+    <circle cx="216" cy="88" r="12" fill="#f5a9c7"/>
+    <circle cx="243" cy="114" r="12" fill="#f4d790"/>
+    <rect x="128" y="111" width="20" height="7" rx="3.5" fill="#7189ac"/>
+    <path d="M-46 22v24M-58 34h24M285 7v16M277 15h16" stroke="#f4d790" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>
