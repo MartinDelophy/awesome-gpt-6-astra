@@ -22,7 +22,7 @@ Halaman ini merupakan terjemahan [README bahasa Inggris](README.md). Periksa ver
 
 ## Mulai di sini
 
-Jelajahi **8 gim peramban dan 1 sandbox seni partikel interaktif**: teka-teki kayu yang saling mengunci dan teka-teki balok geser, penggabungan buah yang lentur, penerbangan satu tombol, pertempuran karpet ajaib, pertahanan pulau dengan jaringan listrik, balapan kart di Bay Circuit, bersepeda di pesisir bersama pelikan, mainan meja yang diadaptasi menjadi gim 3D, serta Orbital Garden. Klik judul untuk membuka demo atau kode sumber beserta petunjuk menjalankannya.
+Jelajahi **9 gim peramban dan 1 sandbox seni partikel interaktif**: teka-teki kayu yang saling mengunci dan teka-teki balok geser, penggabungan buah yang lentur, penerbangan satu tombol, pertempuran karpet ajaib, pertahanan pulau dengan jaringan listrik, bertahan hidup di alam liar, balapan kart di Bay Circuit, bersepeda di pesisir bersama pelikan, mainan meja yang diadaptasi menjadi gim 3D, serta Orbital Garden. Klik judul untuk membuka demo atau kode sumber beserta petunjuk menjalankannya.
 
 Terakhir diperiksa: **2026-09-05**. Pernyataan kreator, tautan kode sumber, dan ketersediaan demo telah diperiksa. Penggunaan model didasarkan pada keterangan penulis; gim belum diuji melalui permainan untuk daftar ini.
 
@@ -93,6 +93,13 @@ Pertahanan menara, kartu strategi, pengelolaan, pembangunan, dan sandbox simulas
   - GPT-6 Astra: [Catatan pengembangan dan kontribusi model](https://github.com/stackloomdev/last-beacon/blob/main/docs/CREATION.md) — Digunakan untuk desain permainan, kode, grafis prosedural, dan pengujian melalui beberapa iterasi; bukan pengujian sekali generasi.
   - Materi pengembangan: [Kode sumber dan petunjuk menjalankan](https://github.com/stackloomdev/last-beacon) · [Kebutuhan dan catatan iterasi](https://github.com/stackloomdev/last-beacon/blob/main/docs/PROMPT.md) · Teknologi: JavaScript, Canvas 2D, Web Audio.
   - Pratinjau: ![Last Beacon dalam bahasa Inggris: menara, mortir, dan menara es yang terhubung ke jaringan listrik mempertahankan pulau dari musuh di jalur pesisir.](assets/screenshots/last-beacon/gameplay-en.png)
+
+- **[永恒荒野](https://starve.pages.dev/)** — Gim bertahan hidup dan strategi untuk peramban yang diajukan sebagai pembuatan ulang Don't Starve. Tangkapan layar menampilkan penjelajahan hutan, pengumpulan sumber daya, inventaris, serta indikator kesehatan, rasa lapar, dan kewarasan.
+  - Kreator: dudu
+  - Platform: Peramban; tangkapan layar menunjukkan antarmuka berbahasa Mandarin dan kontrol papan ketik. Ketentuan pembayaran dan login tidak disebutkan; demo belum diverifikasi secara independen.
+  - GPT-6 Astra: [Pernyataan pengaju](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/26) — Menurut pengaju, seluruh pengembangan dilakukan oleh GPT-6 Astra.
+  - Materi pengembangan: Kode sumber publik maupun catatan pengembangan terpisah tidak disediakan.
+  - Pratinjau: ![Tangkapan layar 永恒荒野 dari Issue #26: karakter di samping api unggun di hutan, dengan inventaris, indikator bertahan hidup, dan peta mini.](assets/screenshots/eternal-wilderness/gameplay.jpg)
 
 <a id="rpg-adventures"></a>
 
