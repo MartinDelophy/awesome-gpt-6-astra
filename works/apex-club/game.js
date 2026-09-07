@@ -1,4 +1,4 @@
-import {createMobileControls} from './mobile-controls.js';
+import {createMobileControls,isHandheldDevice} from './mobile-controls.js';
 import {createArmoredKart} from './armored-kart.js';
 import {stepHandling, projectTrack, resolveTrackContact, progressDelta, DISTANCE_SCALE, DISPLAY_SPEED} from './driving-model.js';
 import {createRaceEffects} from './race-effects.js';
@@ -19,7 +19,7 @@ scene.background = new THREE.Color(0x83bed8);
 scene.fog = new THREE.FogExp2(0x9bcadb, 0.00030);
 
 const camera = new THREE.PerspectiveCamera(68, innerWidth/innerHeight, 0.1, 9000);
-const mobileDevice=matchMedia('(pointer:coarse)').matches||navigator.maxTouchPoints>0;
+const mobileDevice=isHandheldDevice();
 const renderer = new THREE.WebGLRenderer({antialias:!mobileDevice,powerPreference:mobileDevice?'default':'high-performance'});
 renderer.setPixelRatio(Math.min(devicePixelRatio, mobileDevice?1:1.8));
 renderer.setSize(innerWidth, innerHeight);
@@ -56,7 +56,7 @@ document.querySelector('#controlsToggle').addEventListener('click',()=>toggleCon
 document.querySelector('#startDriving').addEventListener('click',()=>toggleControls(false));
 document.querySelector('#recoverCar').addEventListener('click',()=>{
   if(!race||race.racers[0].finishTime!==null)return;
-  const f=trackFrame(state.t);Object.assign(state,{x:f.p.x,z:f.p.z,heading:Math.atan2(f.tan.x,f.tan.z),vx:0,vz:0,speed:0,lane:0,laneVel:0,nitro:0,miniTurbo:0});
+  const f=trackFrame(state.t);Object.assign(state,{x:f.p.x,z:f.p.z,heading:Math.atan2(f.tan.x,f.tan.z),vx:0,vz:0,speed:0,reverseHold:0,wallContact:0,lane:0,laneVel:0,nitro:0,miniTurbo:0});
   state.drift={active:false,charge:0,direction:0};race.racers[0].lane=0;cameraReady=false;
   toggleControls(false);ping('CAR RECOVERED / NO PROGRESS GAIN','#ffd38b');
 });
@@ -68,7 +68,12 @@ addEventListener('keydown', e => {
     e.preventDefault();buttons[(i+(e.shiftKey?-1:1)+buttons.length)%buttons.length].focus();return;
   }
   if((e.code==='KeyH'||e.code==='Escape')&&!e.repeat){toggleControls();return;}
-  if(helpOpen||!race||race.phase!=='racing')return;
+  if(helpOpen||!race||!['countdown','racing'].includes(race.phase))return;
+  // Keep held driving keys through the countdown; one-shot actions still wait for GO.
+  if(['KeyW','KeyS','KeyA','KeyD','ArrowUp','ArrowDown','ArrowLeft','ArrowRight'].includes(e.code)){
+    e.preventDefault();keys.add(e.code);
+  }
+  if(race.phase!=='racing')return;
   if(['KeyA','ArrowLeft'].includes(e.code))lastSteer=-1;
   if(['KeyD','ArrowRight'].includes(e.code))lastSteer=1;
   if(e.code==='Space'&&!e.repeat&&document.querySelector('#toggleDrift').checked)driftLatched=!driftLatched;
@@ -282,7 +287,7 @@ function animateCraft(craft,time,power,boosting=false,drifting=false,steer=0){
 }
 const player=makeCraft(craftDefs[craftIndex].color,1); scene.add(player);
 
-const state={yaw:0,hop:0,t:0,lane:0,laneVel:0,speed:0,boost:1/3,shield:1,weapon:1,lap:1,rank:1,hit:0,bank:0,miniTurbo:0,nitro:0,drift:{active:false,charge:0,direction:0}};
+const state={yaw:0,hop:0,t:0,lane:0,laneVel:0,speed:0,reverseHold:0,wallContact:0,boost:1/3,shield:1,weapon:1,lap:1,rank:1,hit:0,bank:0,miniTurbo:0,nitro:0,drift:{active:false,charge:0,direction:0}};
 
 const raceEffects=createRaceEffects(scene);
 const ai=[];
@@ -339,7 +344,7 @@ function reset(){
   audio.start();raceEffects.reset();driftLatched=false;lastSteer=0;keys.clear();actions.clear();mobile.clear();helpOpen=false;simulationTime=0;cameraReady=false;qWas=false;
   race=createRace(selectedMode,selectedTeam);
   msg.textContent='';msg.style.opacity=0;
-  Object.assign(state,{yaw:0,hop:0,t:(race.racers[0].progress+1)%1,lane:race.racers[0].lane,laneVel:0,speed:0,boost:1/3,shield:1,weapon:1,lap:1,rank:1,hit:0,bank:0,miniTurbo:0,nitro:0,drift:{active:false,charge:0,direction:0}});
+  Object.assign(state,{yaw:0,hop:0,t:(race.racers[0].progress+1)%1,lane:race.racers[0].lane,laneVel:0,speed:0,reverseHold:0,wallContact:0,boost:1/3,shield:1,weapon:1,lap:1,rank:1,hit:0,bank:0,miniTurbo:0,nitro:0,drift:{active:false,charge:0,direction:0}});
   const spawn=trackFrame(state.t);Object.assign(state,{x:spawn.p.x+spawn.side.x*state.lane,z:spawn.p.z+spawn.side.z*state.lane,heading:Math.atan2(spawn.tan.x,spawn.tan.z),vx:0,vz:0,roadIndex:null});
   ai.forEach((a,i)=>{const r=race.racers[i+1];a.t=(r.progress+1)%1;a.lane=r.lane;a.speed=0;a.stun=0;a.target=525+i*10;colorKart(a.mesh,selectedMode==='team'?TEAM_COLORS[r.team]:craftDefs[i%craftDefs.length].color);});
   colorKart(player,selectedMode==='team'?TEAM_COLORS[selectedTeam]:craftDefs[craftIndex].color);
@@ -356,7 +361,8 @@ function updatePlayer(dt,time){
   const throttle=racing&&(document.querySelector('#autoThrottle').checked||keys.has('KeyW')||keys.has('ArrowUp')||mobile.down('throttle'));
   const brake=racing&&(keys.has('KeyS')||keys.has('ArrowDown')||mobile.down('brake'));
   const keyboardSteer=Number(keys.has('KeyD')||keys.has('ArrowRight'))-Number(keys.has('KeyA')||keys.has('ArrowLeft'));
-  const steer=racing?(keyboardSteer||mobile.steer(dt)):0;
+  const keyboardTurning=['KeyA','KeyD','ArrowLeft','ArrowRight'].some(code=>keys.has(code));
+  const steer=racing?(keyboardTurning?keyboardSteer:mobile.steer(dt)):0;
   const toggleDrift=document.querySelector('#toggleDrift').checked;
   const air=racing&&(mobile.down('drift')||(toggleDrift?driftLatched:keys.has('Space')));
   const driftSteer=steer||(!state.drift.active&&toggleDrift?lastSteer:0);
@@ -466,7 +472,7 @@ function updateCamera(dt,meta){
 }
 
 function updateHUD(){
-  document.querySelector('#speed').innerHTML=`${String(Math.round(state.speed*DISPLAY_SPEED)).padStart(3,'0')} <small>KM/H</small>`;
+  document.querySelector('#speed').innerHTML=`${String(Math.round(Math.abs(state.speed)*DISPLAY_SPEED)).padStart(3,'0')} <small>${state.speed<-.5?'REV':'KM/H'}</small>`;
   document.querySelector('#sector').textContent=`${String(race?.phase==='countdown'?1:Math.floor(state.t*6)+1).padStart(2,'0')} / 06`;
   document.querySelector('#lap').textContent=`${state.lap} / 3`;
   document.querySelector('#rank').innerHTML=`${state.rank}<span> / 8</span>`;

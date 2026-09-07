@@ -4,14 +4,21 @@ export const DISPLAY_SPEED=.42;
 const clamp=(x,a,b)=>Math.max(a,Math.min(b,x));
 export function stepHandling(state,input,kart,dt){
  const {steer=0,throttle,brake,boosting}=input;
- const target=brake?0:throttle?kart.max*(boosting?1.34:1):0;
- const accel=brake?520:target>state.speed?kart.accel*(boosting?2.4:1):125;
+ // Hold brake at rest briefly to engage reverse, overriding auto throttle.
+ state.reverseHold=brake&&state.speed<2?(state.reverseHold||0)+dt:0;
+ const reversing=brake&&state.reverseHold>=.3;
+ const target=brake?(reversing?-kart.max*.22:0):throttle?kart.max*(boosting?1.34:1):0;
+ const accel=brake?(reversing?kart.accel*.65:520):target>state.speed?kart.accel*(boosting?2.4:1):125;
  state.speed+=clamp(target-state.speed,-accel*dt,accel*dt);
  if(state.drift.active)state.speed=Math.max(0,state.speed-22*dt);
- const ratio=clamp(state.speed/kart.max,0,1.3),slip=state.drift.active;
+ state.wallContact=Math.max(0,(state.wallContact||0)-dt);
+ const ratio=clamp(Math.abs(state.speed)/kart.max,0,1.3),slip=state.drift.active;
  state.heading??=0;state.x??=0;state.z??=0;state.vx??=0;state.vz??=0;
  // No input means no angular acceleration; heading never converges to the road.
- const rate=steer*kart.turn*1.85*Math.min(ratio,1)*(slip?1.2:1);
+ // Camera looks along +Z: screen-right is -X. Match front-wheel yaw.
+ // A deliberate turn with throttle can rotate the kart off a barrier at crawl speed.
+ const steeringAuthority=Math.max(Math.min(1,ratio*2.5),throttle&&!brake&&state.wallContact>0?.38:0);
+ const rate=-steer*kart.turn*1.85*steeringAuthority*(state.speed<0?-1:1)*(slip?1.2:1);
  state.heading+=rate*dt;
  const velocity=state.speed*DISTANCE_SCALE,grip=1-Math.exp(-(slip?2.6:11)*dt);
  state.vx+=(Math.sin(state.heading)*velocity-state.vx)*grip;
@@ -42,11 +49,11 @@ export function resolveTrackContact(state,road,halfWidth=32){
  state.x-=road.sideX*sign*penetration;state.z-=road.sideZ*sign*penetration;
  const outward=state.laneVel*sign;
  if(outward>0){
-  state.vx-=road.sideX*sign*outward*1.12;state.vz-=road.sideZ*sign*outward*1.12;
-  // Head-on contact stops the car; glancing impacts retain tangential momentum.
-  state.speed=Math.min(state.speed,Math.hypot(state.vx,state.vz)/DISTANCE_SCALE*.75);
+  state.vx-=road.sideX*sign*outward;state.vz-=road.sideZ*sign*outward;
+  // Remove only the blocked component: repeated scraping must not compound friction.
+  state.speed=Math.sign(state.speed)*Math.min(Math.abs(state.speed),Math.hypot(state.vx,state.vz)/DISTANCE_SCALE);
  }
- state.lane=sign*halfWidth;state.hit=.2;state.drift.active=false;state.drift.charge=0;
+ state.wallContact=.2;state.lane=sign*halfWidth;state.hit=.2;state.drift.active=false;state.drift.charge=0;
  return true;
 }
 export function progressDelta(previous,next){

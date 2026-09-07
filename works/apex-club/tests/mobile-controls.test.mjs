@@ -1,6 +1,6 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
-import {screenTilt,tiltSteering} from '../mobile-controls.js';
+import {screenTilt,tiltSteering,isHandheldDevice} from '../mobile-controls.js';
 test('landscape directions follow screen rotation in either grip',()=>{
  assert(screenTilt(20,0,90)>0);assert(screenTilt(20,0,270)<0);
  assert(screenTilt(0,20,0)>0);assert(screenTilt(0,20,180)<0);
@@ -23,7 +23,7 @@ test('multi-touch steering slides independently of drift and clears on cancellat
   Object.defineProperty(globalThis,'document',{configurable:true,value:{querySelector:query,querySelectorAll:s=>s==='[data-drive]'?drive:[],addEventListener(){}}});
   Object.defineProperty(globalThis,'screen',{configurable:true,value:{orientation:{angle:90,addEventListener(){}}}});
   Object.defineProperty(globalThis,'window',{configurable:true,value:{}});Object.defineProperty(globalThis,'addEventListener',{configurable:true,value:()=>{}});
-  const controls=createMobileControls({active:()=>true,action:x=>actions.push(x),pause(){}});
+  const controls=createMobileControls({handheld:true,active:()=>true,action:x=>actions.push(x),pause(){}});
   const fire=(name,type,id,x=30,y=150)=>drive.find(b=>b.dataset.drive===name).listeners[type]({pointerId:id,clientX:x,clientY:y,preventDefault(){}});
   fire('left','pointerdown',1);fire('drift','pointerdown',2);
   assert.equal(controls.steer(.016),-1);assert(controls.down('drift'));
@@ -35,4 +35,17 @@ test('multi-touch steering slides independently of drift and clears on cancellat
   fire('nitro','pointerdown',4);assert.deepEqual(actions,['nitro']);
   controls.clear();assert(!controls.down('drift'));assert.equal(controls.steer(.016),0);
  }finally{for(const [k,d] of saved){if(d)Object.defineProperty(globalThis,k,d);else delete globalThis[k];}}
+});
+
+test('sensor controls exclude desktops and touchscreen laptops, include phones and iPad',()=>{
+ for(const nav of [{userAgent:'Windows NT',maxTouchPoints:10},{userAgent:'Macintosh',platform:'MacIntel',maxTouchPoints:0},{userAgent:'Linux x86_64'},undefined])assert.equal(isHandheldDevice(nav),false);
+ for(const nav of [{userAgent:'iPhone'},{userAgent:'Android'},{userAgent:'Macintosh',platform:'MacIntel',maxTouchPoints:5},{userAgentData:{mobile:true}}])assert.equal(isHandheldDevice(nav),true);
+});
+test('desktop adapter registers no sensor, orientation or touch listeners',()=>{
+ const descriptor=Object.getOwnPropertyDescriptor(globalThis,'document');
+ try{
+  Object.defineProperty(globalThis,'document',{configurable:true,value:{documentElement:{classList:{toggle(){}}}}});
+  const controls=createMobileControls({handheld:false,action(){throw Error('desktop mobile action');},active:()=>true,pause(){throw Error('desktop orientation pause');}});
+  assert.equal(controls.down('throttle'),false);assert.equal(controls.down('brake'),false);assert.equal(controls.steer(.1),0);controls.clear();controls.update({});
+ }finally{if(descriptor)Object.defineProperty(globalThis,'document',descriptor);else delete globalThis.document;}
 });

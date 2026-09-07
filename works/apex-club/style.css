@@ -94,3 +94,6 @@
 }
 @media(max-width:380px){.brand{font-size:14px}.brand i{display:none}.lobby-tools a,.lobby-tools button{padding:9px;font-size:10px}#lobby .race-setup{padding:14px}.kart-options{gap:5px}.kart-options button{padding:7px}.mode-options small,.team-options small{font-size:7px}#settingsDialog .drift-tip{display:block}#settingsDialog .drift-tip b{display:block;margin-bottom:8px}}
 @media(pointer:coarse){.in-race .top{top:max(12px,env(safe-area-inset-top))}.in-race #controlsToggle{top:max(12px,env(safe-area-inset-top))}.touch-left,.touch-right{bottom:max(18px,env(safe-area-inset-bottom))}}
+
+/* Input capability is independent of viewport width. */
+html:not(.handheld-input) .mobile-settings,html:not(.handheld-input) #touchControls,html:not(.handheld-input) #rotateHint,html:not(.handheld-input) #mobileCenter{display:none!important}
