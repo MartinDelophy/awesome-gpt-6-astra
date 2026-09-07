@@ -35,6 +35,18 @@ body:
       description: "用一两句话说明核心玩法与亮点 / Describe the core mechanic and appeal in a sentence or two."
     validations:
       required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "实机截图 / Gameplay screenshots"
+      description: |
+        至少提供一张当前版本的真实运行截图，并注明拍摄版本或日期。拖拽上传图片，或粘贴公开、免登录的 HTTPS 原图 Markdown；支持 PNG、JPEG、WebP，单张小于 4 MB。
+        Add at least one screenshot of the current playable version and note its capture version or date. Drag an image here or embed a public HTTPS image URL using Markdown. Use PNG, JPEG, or WebP, under 4 MB each.
+      placeholder: |
+        ![游戏运行画面 / Game in action](https://example.com/gameplay.png)
+        拍摄版本或日期 / Capture version or date:
+    validations:
+      required: true
   - type: dropdown
     id: genre
     attributes:
@@ -66,4 +78,4 @@ body:
     id: resources
     attributes:
       label: "更多资料（可选） / More resources (optional)"
-      description: "源码、技术栈、开发过程、截图链接，或其他有用信息 / Source, technology, making-of notes, screenshot links, or other useful context."
+      description: "源码、技术栈、开发过程，或其他有用信息 / Source, technology, making-of notes, or other useful context."

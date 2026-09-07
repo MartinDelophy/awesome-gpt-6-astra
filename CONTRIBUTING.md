@@ -23,19 +23,48 @@ The easiest path is the [game submission form](https://github.com/MartinDelophy/
 1. 放到最贴近核心玩法的分类，每个游戏只收录一次。 / Pick the best-fitting genre; list each game once.
 2. 用下面的格式写一条简短推荐，并删除该分类的空状态文字。 / Add a short entry using the format below and remove that category's empty-state text.
 3. 尽量同步两个 README，并更新开头的游戏数量；暂时只能提供一种语言也没关系。 / Update both READMEs and the game count in the introduction when possible; one language is fine for an initial submission.
-4. 打开链接确认能访问，并检查原作者署名与模型使用说明。 / Open the links and check creator credit and the model-use description.
+4. 新增游戏须提供至少一张实机截图，在 README 条目中添加预览图片，并在 PR 描述中展示。截图格式见下文。 / New games require at least one gameplay screenshot, embedded in the README entry and displayed in the PR description. See the requirements below.
+5. 打开链接确认能访问，并检查原作者署名与模型使用说明。 / Open the links and check creator credit and the model-use description.
+
+## 条目示例 · Entry examples
+
+中文 README：
 
 ```markdown
-- **[游戏名称 / Game title](试玩或仓库 URL)** — 一句话玩法亮点 / One-sentence gameplay hook.
-  - 作者 / Creator: [作者名称 / Name](作者 URL)
-  - 平台 / Platform: 浏览器 / Browser; 免费，无需登录 / Free, no login
-  - GPT-6 Astra: [作者说明或开发记录 / Creator statement or devlog](记录 URL) — 简述参与内容 / Briefly describe its role
-  - 源码 / Source: [仓库 / Repository](源码 URL) · 技术 / Built with: 技术栈 / Technology
+- **[游戏名称 / Game title](试玩或仓库 URL)** — 一句话说明核心玩法。
+  - 作者：[作者名称](作者 URL)
+  - 平台：浏览器；免费，无需登录。
+  - GPT-6 Astra：[作者说明或开发记录](记录 URL) — 简述模型参与的工作。
+  - 开发资料：[源码](源码 URL) · 技术：技术栈。
+  - 预览：![游戏运行画面，简述可见的玩法](assets/screenshots/game-slug/gameplay.png)
 ```
 
-以上是格式示意，不是真实条目。请替换所有占位内容；没有源码时删除源码行。访问条件按作品实际情况填写。
+English README:
 
-The block above is a template, not a real entry. Replace every placeholder, omit the source line when unavailable, and state the actual access requirements.
+```markdown
+- **[Game title](Demo or repository URL)** — One sentence about the core mechanic.
+  - Creator: [Creator name](Creator URL)
+  - Platform: Browser; free, no login.
+  - GPT-6 Astra: [Creator statement or devlog](Record URL) — Briefly describe the model's role.
+  - Resources: [Source](Source URL) · Built with: Technology.
+  - Preview: ![Game in action, describing the visible mechanic](assets/screenshots/game-slug/gameplay.png)
+```
+
+以上是格式示意。请替换所有占位内容，并把示例截图路径换成实际文件或公开图片 URL；两个 README 可以复用同一张图片。没有源码时删除源码链接，访问条件按作品实际情况填写。
+
+These are templates. Replace all placeholders, including the screenshot path, with actual files or public image URLs. Both READMEs can reuse the same image. Omit the source link when unavailable and state the actual access requirements.
+
+## 实机截图要求 · Gameplay screenshots
+
+新增游戏的 PR 和 Issue 均须提供至少一张截图。已有条目可以逐步补齐；文字修正、链接维护和规范更新不要求新增游戏截图，在 PR 对应位置注明「不适用 / N/A」即可。
+
+New-game PRs and issues require at least one screenshot. Existing entries can gain screenshots over time. Text corrections, link maintenance, and contribution-policy updates can mark the gameplay screenshot section as N/A.
+
+- **内容：** 截取当前可运行版本，清楚展示核心玩法与游戏界面；可以裁剪、缩放和压缩，保持画面内容真实、文字可读。 / **Content:** Capture the current playable version and show its core gameplay and interface. Cropping, resizing, and compression are fine; keep the content accurate and text readable.
+- **格式：** 使用 PNG、JPEG 或 WebP，单张小于 4 MB，建议压缩到 1 MB 左右。横屏建议宽度至少 1280 px；竖屏游戏保留原始比例。 / **Format:** Use PNG, JPEG, or WebP, under 4 MB per image, preferably around 1 MB. A width of at least 1280 px is recommended for landscape games; keep portrait games in their native aspect ratio.
+- **保存：** 可随 PR 放入 `assets/screenshots/<game-slug>/gameplay.png`，或使用稳定、免登录的 HTTPS 原图链接。提交他人的作品时注明截图来源并尊重原作者的素材许可。 / **Storage:** Commit the image under `assets/screenshots/<game-slug>/gameplay.png`, or use a stable, publicly accessible HTTPS image URL. When recommending someone else's work, credit the screenshot source and respect the creator's asset license.
+- **展示：** 在作品的缩进元信息中使用上面的 `预览：![说明](图片地址)` 或 `Preview: ![description](image-url)` 格式，首张图片作为官网封面。仅在 PR 描述中上传图片，官网不会自动读取；请把实际图片地址同步到 README 条目。 / **Display:** Use the indented `Preview: ![description](image-url)` format shown above. The first image becomes the gallery cover. Images attached only to the PR description are not read by the gallery; also add the image URL to the README entry.
+- **核对：** 确认 README 中图片能显示，公开图片链接无需登录即可打开；PR 描述中再次展示该图，并注明拍摄版本或日期。Issue 可直接拖拽图片到截图输入框。 / **Check:** Confirm the image renders in the README and its public URL works without login. Show it again in the PR description with its capture version or date. For issues, drag the image into the screenshot field.
 
 ## 维护与修正 · Maintenance
 

@@ -4,6 +4,8 @@
 
 # Awesome GPT-6 Astra
 
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/)
+
 **收集用 GPT-6 Astra 制作的有趣游戏。**
 
 关注好玩的点子、可体验的作品，以及能启发下一位创作者的开发过程。
@@ -19,7 +21,7 @@
 最近核对：**2026-09-05**。已检查作者的 Astra 使用说明、源码链接和演示页面可达性；模型归因来自作者自述，尚未逐款试玩。
 
 - **想玩游戏：** 从下面的分类寻找你喜欢的玩法。
-- **做了游戏：** [提交你的作品](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml)，附上试玩或源码入口，以及使用 GPT-6 Astra 的说明。
+- **做了游戏：** [提交你的作品](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml)，附上试玩或源码入口、实机截图，以及使用 GPT-6 Astra 的说明。
 - **发现好作品：** 欢迎推荐他人的公开作品，并注明原作者。
 
 这是一份社区维护的清单，与 OpenAI 无隶属关系。收录表示值得探索，不代表性能评测或官方推荐。
@@ -100,6 +102,7 @@
 | 游戏与作者 | 作品名称、原作者或团队链接 |
 | 玩法亮点 | 一句话说明核心玩法，避免空泛宣传 |
 | 体验入口 | 试玩地址，或包含运行说明的公开源码仓库 |
+| 实机截图 | 至少一张展示核心玩法的真实截图，附可公开访问的图片地址 |
 | 平台与条件 | 浏览器 / 桌面 / 移动端；注明付费、登录或特殊硬件要求 |
 | Astra 的参与 | 作者说明、开发日志或公开记录，说明 GPT-6 Astra 参与了哪些工作 |
 | 开发资料 | 源码、技术栈与制作过程，能提供多少就提供多少 |
