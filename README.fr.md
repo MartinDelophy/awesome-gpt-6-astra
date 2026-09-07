@@ -22,7 +22,7 @@ Cette page traduit le [README anglais](README.md). Consultez l’original pour v
 
 ## Pour commencer
 
-Découvrez **8 jeux pour navigateur et 1 bac à sable interactif d’art à particules** : puzzles en bois à emboîtement et à glissement, fusion de fruits déformables, vol à une touche, combats sur tapis volant, défense d’île par un réseau électrique, course de karts sur Bay Circuit, balade côtière à vélo avec un pélican, jouets de table adaptés en 3D et Orbital Garden. Cliquez sur un titre pour ouvrir la démo ou le code source avec ses instructions de lancement.
+Découvrez **9 jeux pour navigateur et 1 bac à sable interactif d’art à particules** : puzzles en bois à emboîtement et à glissement, fusion de fruits déformables, vol à une touche, combats sur tapis volant, défense d’île par un réseau électrique, survie en pleine nature, course de karts sur Bay Circuit, balade côtière à vélo avec un pélican, jouets de table adaptés en 3D et Orbital Garden. Cliquez sur un titre pour ouvrir la démo ou le code source avec ses instructions de lancement.
 
 Dernière vérification : **2026-09-05**. Les déclarations des créateurs, les liens vers le code source et l’accessibilité des démos ont été vérifiés. L’utilisation du modèle est déclarée par les auteurs ; les jeux n’ont pas été testés en jeu pour cette liste.
 
@@ -93,6 +93,13 @@ Défense de tours, cartes stratégiques, gestion, construction et bacs à sable 
   - GPT-6 Astra: [Journal de développement et contribution du modèle](https://github.com/stackloomdev/last-beacon/blob/main/docs/CREATION.md) — Utilisé pour la conception du jeu, le code, les illustrations procédurales et les tests au fil de plusieurs itérations ; il ne s’agit pas d’un test en une seule génération.
   - Ressources: [Code source et instructions de lancement](https://github.com/stackloomdev/last-beacon) · [Besoins et notes d’itération](https://github.com/stackloomdev/last-beacon/blob/main/docs/PROMPT.md) · Technologies: JavaScript, Canvas 2D, Web Audio.
   - Aperçu: ![Last Beacon en anglais : des tourelles, des mortiers et une tour de givre alimentés par le réseau défendent l’île contre les ennemis du sentier côtier.](assets/screenshots/last-beacon/gameplay-en.png)
+
+- **[永恒荒野](https://starve.pages.dev/)** — Jeu de survie et de stratégie sur navigateur présenté comme une recréation de Don't Starve. La capture soumise montre l’exploration d’une forêt, la collecte de ressources, un inventaire et des jauges de santé, de faim et de santé mentale.
+  - Créateur: dudu
+  - Plateforme: Navigateur ; la capture montre une interface en chinois et des commandes au clavier. Les conditions de paiement et de connexion à un compte ne sont pas précisées ; démo non vérifiée indépendamment.
+  - GPT-6 Astra: [Déclaration de la personne ayant soumis le jeu](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/26) — La personne ayant soumis le jeu attribue l’ensemble du développement à GPT-6 Astra.
+  - Ressources: Aucun code source public ni journal de développement distinct n’a été fourni.
+  - Aperçu: ![Capture de 永恒荒野 fournie dans l’Issue #26 : un personnage près d’un feu de camp en forêt, avec inventaire, jauges de survie et mini-carte.](assets/screenshots/eternal-wilderness/gameplay.jpg)
 
 <a id="rpg-adventures"></a>
 
