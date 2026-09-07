@@ -1,6 +1,6 @@
 import {createMobileControls} from './mobile-controls.js';
 import {createArmoredKart} from './armored-kart.js';
-import {stepHandling, DISTANCE_SCALE, DISPLAY_SPEED} from './driving-model.js';
+import {stepHandling, projectTrack, resolveTrackContact, progressDelta, DISTANCE_SCALE, DISPLAY_SPEED} from './driving-model.js';
 import {createRaceEffects} from './race-effects.js';
 import {createRaceAudio} from './race-audio.js';
 import {mountDriverStudio} from './driver-studio.js';
@@ -54,6 +54,12 @@ renderer.domElement.tabIndex=0;
 renderer.domElement.setAttribute('aria-label','3D kart racing. WASD to drive, SPACE plus steering to drift, H to pause.');
 document.querySelector('#controlsToggle').addEventListener('click',()=>toggleControls());
 document.querySelector('#startDriving').addEventListener('click',()=>toggleControls(false));
+document.querySelector('#recoverCar').addEventListener('click',()=>{
+  if(!race||race.racers[0].finishTime!==null)return;
+  const f=trackFrame(state.t);Object.assign(state,{x:f.p.x,z:f.p.z,heading:Math.atan2(f.tan.x,f.tan.z),vx:0,vz:0,speed:0,lane:0,laneVel:0,nitro:0,miniTurbo:0});
+  state.drift={active:false,charge:0,direction:0};race.racers[0].lane=0;cameraReady=false;
+  toggleControls(false);ping('CAR RECOVERED / NO PROGRESS GAIN','#ffd38b');
+});
 addEventListener('keydown', e => {
   if(e.code==='Tab'&&(helpOpen||race?.phase==='finished')){
     const dialog=document.querySelector(helpOpen?'#controlsPanel':'#results');
@@ -82,6 +88,7 @@ for(let i=0;i<N;i++){
 }
 const curve = new THREE.CatmullRomCurve3(points,true,'catmullrom',0.35);
 const trackLength = curve.getLength();
+const roadSamples=Array.from({length:1601},(_,i)=>{const p=curve.getPointAt(i/1600);return {x:p.x,z:p.z};});
 
 function trackFrame(t){
   const p=curve.getPointAt((t%1+1)%1);
@@ -332,6 +339,7 @@ function reset(){
   race=createRace(selectedMode,selectedTeam);
   msg.textContent='';msg.style.opacity=0;
   Object.assign(state,{yaw:0,hop:0,t:(race.racers[0].progress+1)%1,lane:race.racers[0].lane,laneVel:0,speed:0,boost:1/3,shield:1,weapon:1,lap:1,rank:1,hit:0,bank:0,miniTurbo:0,nitro:0,drift:{active:false,charge:0,direction:0}});
+  const spawn=trackFrame(state.t);Object.assign(state,{x:spawn.p.x+spawn.side.x*state.lane,z:spawn.p.z+spawn.side.z*state.lane,heading:Math.atan2(spawn.tan.x,spawn.tan.z),vx:0,vz:0,roadIndex:null});
   ai.forEach((a,i)=>{const r=race.racers[i+1];a.t=(r.progress+1)%1;a.lane=r.lane;a.speed=0;a.stun=0;a.target=525+i*10;colorKart(a.mesh,selectedMode==='team'?TEAM_COLORS[r.team]:craftDefs[i%craftDefs.length].color);});
   colorKart(player,selectedMode==='team'?TEAM_COLORS[selectedTeam]:craftDefs[craftIndex].color);
   pickups.forEach(p=>{p.active=true;p.m.visible=true;p.respawn=0;});
@@ -356,29 +364,37 @@ function updatePlayer(dt,time){
   let boosted=state.nitro>0||state.miniTurbo>0;
   const f=trackFrame(state.t),future=trackFrame(state.t+.015);
   const turn=f.tan.clone().cross(future.tan).dot(f.normal);
-  const blocked=Math.abs(state.lane)>32.8&&(-driftSteer*state.lane>0||state.laneVel*state.lane>0);
+  const blocked=Math.abs(state.lane)>31.8&&state.laneVel*state.lane>0;
   const wasDrifting=state.drift.active;
   const reward=updateDrift(state.drift,{held:air,steer:driftSteer,speed:state.speed,turn,blocked},dt*d.drift);
   if(!wasDrifting&&state.drift.active)state.hop=.24;
   if(reward){boosted=true;state.miniTurbo=reward;state.boost=Math.min(1,state.boost+(reward>1?.34:.17));ping(reward>1?'SUPER MINI TURBO':'MINI TURBO','#ffce73');}
   if(racing){
     stepHandling(state,{steer,throttle,brake,boosting:boosted},d,dt);
-    const oldLap=state.lap;advanceRacer(race,r,state.speed*DISTANCE_SCALE/trackLength*dt,dt);
-    state.t=((r.progress%1)+1)%1;state.lap=clamp(Math.floor(Math.max(0,r.progress))+1,1,3);r.lane=state.lane;r.speed=state.speed;
+    const oldLap=state.lap;
+    const road=projectTrack(state.x,state.z,roadSamples,state.roadIndex);state.roadIndex=road.index;
+    if(resolveTrackContact(state,road)){state.nitro=0;state.miniTurbo=0;boosted=false;}
+    const delta=progressDelta(state.t,road.t);
+    // Progress measures displacement, including backwards travel, never engine speed.
+    advanceRacer(race,r,delta,dt);
+    state.t=(road.t+1)%1;state.lap=clamp(Math.floor(Math.max(0,r.progress))+1,1,3);r.lane=state.lane;r.speed=state.speed;
     if(state.lap>oldLap)ping(state.lap===3?'FINAL LAP':'LAP 2','#fff0b3');
     if(r.finishTime!==null){state.speed=0;ping('FINISH / WAITING FOR RACERS','#fff0b3');}
   }
-  if(r?.finishTime!==null&&r?.finishTime!==undefined){state.t=((race.elapsed-r.finishTime)*220/trackLength)%1;state.speed=220;}
+  if(r?.finishTime!==null&&r?.finishTime!==undefined){state.speed=0;state.vx=0;state.vz=0;}
   const frame=trackFrame(state.t);
-  player.position.copy(frame.p).addScaledVector(frame.side,state.lane).addScaledVector(frame.normal,3.7+Math.sin(state.hop/.24*Math.PI)*1.4);
-  const yaw=state.yaw;
+  player.position.set(state.x,frame.p.y+frame.side.y*state.lane+3.7+Math.sin(state.hop/.24*Math.PI)*1.4,state.z);
+  const forward=new THREE.Vector3(Math.sin(state.heading),0,Math.cos(state.heading));
+  forward.addScaledVector(frame.normal,-forward.dot(frame.normal)).normalize();
+  const vehicleSide=new THREE.Vector3().crossVectors(forward,frame.normal).normalize();
+  state.yaw=Math.atan2(frame.tan.clone().cross(forward).dot(frame.normal),frame.tan.dot(forward));
   state.bank=lerp(state.bank,-steer*.07,1-Math.exp(-8*dt));
-  const q=new THREE.Quaternion().setFromRotationMatrix(new THREE.Matrix4().makeBasis(frame.side.clone().negate(),frame.normal,frame.tan));
-  q.multiply(new THREE.Quaternion().setFromEuler(new THREE.Euler(0,yaw,state.bank)));
+  const q=new THREE.Quaternion().setFromRotationMatrix(new THREE.Matrix4().makeBasis(vehicleSide.clone().negate(),frame.normal,forward));
+  q.multiply(new THREE.Quaternion().setFromEuler(new THREE.Euler(0,0,state.bank)));
   if(!cameraReady)player.quaternion.copy(q);else player.quaternion.slerp(q,1-Math.exp(-10*dt));
   animateCraft(player,time,state.speed/d.max,boosted,state.drift.active,steer);
   state.hit=Math.max(0,state.hit-dt);
-  return {f:frame,boosting:boosted,air:state.drift.active,steer};
+  return {f:{...frame,tan:forward,side:vehicleSide},boosting:boosted,air:state.drift.active,steer};
 }
 function updateAI(dt,time){
   for(let i=0;i<ai.length;i++){
@@ -392,7 +408,7 @@ function updateAI(dt,time){
       a.lane=lerp(a.lane,Math.sin(time*.55+i*2.1)*24,dt*1.5);r.lane=a.lane;r.speed=a.speed;
       const near=Math.abs(r.progress-race.racers[0].progress)<.0025;
       if(near&&Math.abs(a.lane-state.lane)<10&&state.hit===0&&race.racers[0].finishTime===null){
-        state.laneVel+=Math.sign(state.lane-a.lane||1)*12/density();state.speed*=state.shield>0?.94:.86;state.shield=Math.max(0,state.shield-.10);state.hit=.3;
+        const impulse=Math.sign(state.lane-a.lane||1)*12/density();const roadSide=trackFrame(state.t).side;state.vx+=roadSide.x*impulse;state.vz+=roadSide.z*impulse;state.speed*=state.shield>0?.94:.86;state.shield=Math.max(0,state.shield-.10);state.hit=.3;
       }
     }
     if(r?.finishTime!==null&&r?.finishTime!==undefined){a.t=((race.elapsed-r.finishTime)*220/trackLength)%1;a.speed=220;}
@@ -433,11 +449,11 @@ let cameraReady=false;
 function updateCamera(dt,meta){
   const f=meta.f;
   const speedN=clamp(state.speed/650,0,1);
-  const desired=player.position.clone().addScaledVector(f.tan,-61-speedN*7).addScaledVector(f.normal,27+speedN*2).addScaledVector(f.side,state.yaw*7);
+  const desired=player.position.clone().addScaledVector(f.tan,-61-speedN*7).addScaledVector(f.normal,27+speedN*2);
   const shake=reducedMotion?0:state.hit?.45:0;
   desired.x+=(Math.random()-.5)*shake*speedN; desired.y+=(Math.random()-.5)*shake*speedN; desired.z+=(Math.random()-.5)*shake*speedN;
   if(!cameraReady){camera.position.copy(desired);cameraReady=true;}
-  // Track-relative chase placement prevents cornering lag from pushing the kart off screen.
+  // Chase the actual vehicle heading, not the circuit tangent.
   camera.position.copy(desired);
   const look=player.position.clone().addScaledVector(f.tan,23+speedN*14).addScaledVector(f.side,state.laneVel*.07);
   camera.up.copy(f.normal).applyAxisAngle(f.tan,state.bank*.1).normalize();

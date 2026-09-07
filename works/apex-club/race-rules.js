@@ -25,7 +25,7 @@ export function standings(race) {
 export function advanceRacer(race, racer, distance, dt) {
   if (racer.finishTime !== null) return;
   const previous = racer.progress;
-  racer.progress += Math.max(0, distance);
+  racer.progress += distance;
   if (racer.progress >= 3) {
     const fraction = distance > 0 ? (3 - previous) / distance : 1;
     racer.finishTime = race.elapsed - dt + dt * Math.max(0, Math.min(1, fraction));

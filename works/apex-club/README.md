@@ -105,3 +105,7 @@ Run `npm run export:model` to generate `output/titan-armored-buggy.glb`. The por
 Play in landscape on a WebGL 2 phone browser. Left/right arrows, brake, throttle, held drift, nitro and EMP support simultaneous touches. Auto acceleration is recommended. Fullscreen/landscape is best effort; on iPhone, rotate manually and disable rotation lock.
 
 Enable tilt steering in Phone controls, grant motion permission if prompted, hold the phone comfortably to calibrate, then lean left/right. Center steering resets neutral; touch arrows override tilt. Permission denial, missing sensors or stale readings fall back to touch. Rotation pauses racing so you can resume safely. Real-device iOS/Android sensor testing is still recommended; automated checks validate screen-axis mapping and dead zone, not hardware.
+
+## Manual steering physics
+
+Player movement uses independent world position, heading and velocity. Auto throttle only accelerates: no steering means the car continues straight and can hit the outside barrier. Drift retains momentum; countersteering changes heading. Track projection measures signed race progress, so driving backwards subtracts distance. Wall impacts cancel drift charge and boost. Pause and choose **Recover car to track** if stuck; recovery does not increase progress. AI opponents still follow their racing routes.
