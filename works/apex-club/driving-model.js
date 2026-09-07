@@ -1,28 +1,55 @@
-// Fixed-step arcade handling. World movement and visual speed use separate scales.
-export const DISTANCE_SCALE = .52;
-export const DISPLAY_SPEED = .42;
+// Independent world-space arcade vehicle. Track geometry never supplies steering.
+export const DISTANCE_SCALE=.52;
+export const DISPLAY_SPEED=.42;
 const clamp=(x,a,b)=>Math.max(a,Math.min(b,x));
-export function stepHandling(state, input, kart, dt) {
-  const {steer,throttle,brake,boosting}=input;
-  const speedRatio=clamp(state.speed/kart.max,0,1);
-  const target=brake?0:throttle?kart.max*(boosting?1.34:1):0;
-  const acceleration=brake?420:target>state.speed?kart.accel*(boosting?2.4:1):boosting?95:125;
-  state.speed+=clamp(target-state.speed,-acceleration*dt,acceleration*dt);
-  if(state.drift.active)state.speed=Math.max(0,state.speed-22*dt);
-  const slip=state.drift.active;
-  const direction=state.drift.direction||0;
-  // Countersteering changes the line without flipping the locked drift direction.
-  const lateralTarget=-(steer*(slip?11:18)+(slip?direction*5:0))*kart.turn*speedRatio;
-  state.laneVel+=(lateralTarget-state.laneVel)*(1-Math.exp(-(slip?3.5:9)*dt));
-  state.lane+=state.laneVel*dt;
-  const angle=slip?direction*(.38+state.drift.charge*.24)+steer*.1:steer*.11*speedRatio;
-  state.yaw=(state.yaw||0)+(angle-(state.yaw||0))*(1-Math.exp(-(slip?8:5)*dt));
-  state.hop=Math.max(0,(state.hop||0)-dt);
-  if(Math.abs(state.lane)>33){
-    state.lane=clamp(state.lane,-33,33);state.laneVel*=-.22;
-    state.speed*=Math.exp(-2.2*dt);state.hit=.2;
-    state.drift.active=false;state.drift.charge=0;
-    return true;
-  }
-  return false;
+export function stepHandling(state,input,kart,dt){
+ const {steer=0,throttle,brake,boosting}=input;
+ const target=brake?0:throttle?kart.max*(boosting?1.34:1):0;
+ const accel=brake?520:target>state.speed?kart.accel*(boosting?2.4:1):125;
+ state.speed+=clamp(target-state.speed,-accel*dt,accel*dt);
+ if(state.drift.active)state.speed=Math.max(0,state.speed-22*dt);
+ const ratio=clamp(state.speed/kart.max,0,1.3),slip=state.drift.active;
+ state.heading??=0;state.x??=0;state.z??=0;state.vx??=0;state.vz??=0;
+ // No input means no angular acceleration; heading never converges to the road.
+ const rate=steer*kart.turn*1.85*Math.min(ratio,1)*(slip?1.2:1);
+ state.heading+=rate*dt;
+ const velocity=state.speed*DISTANCE_SCALE,grip=1-Math.exp(-(slip?2.6:11)*dt);
+ state.vx+=(Math.sin(state.heading)*velocity-state.vx)*grip;
+ state.vz+=(Math.cos(state.heading)*velocity-state.vz)*grip;
+ state.x+=state.vx*dt;state.z+=state.vz*dt;
+ state.hop=Math.max(0,(state.hop||0)-dt);
+ return false;
+}
+// Project position onto nearby road segments, without moving the vehicle along them.
+export function projectTrack(x,z,samples,previous=null){
+ let best=null;
+ const n=samples.length-1;
+ const scan=i=>{
+  i=(i%n+n)%n;const a=samples[i],b=samples[i+1],dx=b.x-a.x,dz=b.z-a.z;
+  const u=clamp(((x-a.x)*dx+(z-a.z)*dz)/(dx*dx+dz*dz),0,1);
+  const px=a.x+dx*u,pz=a.z+dz*u,d2=(x-px)**2+(z-pz)**2;
+  if(!best||d2<best.d2){const l=Math.hypot(dx,dz);best={x:px,z:pz,t:(i+u)/n,index:i,d2,sideX:-dz/l,sideZ:dx/l};}
+ };
+ if(previous===null)for(let i=0;i<n;i++)scan(i);
+ else for(let i=previous-24;i<=previous+24;i++)scan(i);
+ best.lane=(x-best.x)*best.sideX+(z-best.z)*best.sideZ;return best;
+}
+export function resolveTrackContact(state,road,halfWidth=32){
+ state.lane=road.lane;
+ state.laneVel=state.vx*road.sideX+state.vz*road.sideZ;
+ if(Math.abs(road.lane)<=halfWidth)return false;
+ const sign=Math.sign(road.lane),penetration=Math.abs(road.lane)-halfWidth;
+ state.x-=road.sideX*sign*penetration;state.z-=road.sideZ*sign*penetration;
+ const outward=state.laneVel*sign;
+ if(outward>0){
+  state.vx-=road.sideX*sign*outward*1.12;state.vz-=road.sideZ*sign*outward*1.12;
+  // Head-on contact stops the car; glancing impacts retain tangential momentum.
+  state.speed=Math.min(state.speed,Math.hypot(state.vx,state.vz)/DISTANCE_SCALE*.75);
+ }
+ state.lane=sign*halfWidth;state.hit=.2;state.drift.active=false;state.drift.charge=0;
+ return true;
+}
+export function progressDelta(previous,next){
+ let delta=next-previous;if(delta<-.5)delta+=1;if(delta>.5)delta-=1;
+ return delta;
 }
