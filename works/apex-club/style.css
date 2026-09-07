@@ -38,36 +38,37 @@
 /* Thumb zones leave the road and kart unobstructed. */
 .mobile-settings{padding:14px 0;border-top:1px solid var(--line);font-size:11px}.mobile-settings p{font-size:11px;line-height:1.5;color:var(--muted)}.mobile-settings button{min-height:44px;border:1px solid #8dc4d45c;background:#173b49;border-radius:8px;padding:9px 12px;margin:3px}.mobile-settings strong{letter-spacing:.12em;font-size:10px}#touchControls,#rotateHint{display:none}
 @media(pointer:coarse),(max-width:950px){
- .in-race #touchControls{display:block;position:fixed;inset:0;pointer-events:none;z-index:6}
- #touchControls button{pointer-events:auto;touch-action:none;user-select:none;-webkit-user-select:none;border:1px solid #b5e0e766;background:#102a3bce;color:white;border-radius:18px;min-width:54px;height:54px;font-size:12px;font-weight:800;box-shadow:0 4px 16px #00162150}
- #touchControls button.held{background:#a2eadc;color:#0a2832;transform:scale(.95)}
- .touch-left,.touch-right{position:absolute;bottom:max(12px,env(safe-area-inset-bottom));display:flex;gap:8px;align-items:end}
- .touch-left{left:max(12px,env(safe-area-inset-left))}.touch-right{right:max(12px,env(safe-area-inset-right))}
- #touchControls [data-drive=left],#touchControls [data-drive=right]{width:64px;height:64px;font-size:24px}
- #touchControls [data-drive=nitro]{height:72px;width:76px;background:#227b9ddd;border-color:#78ddff}
- #touchControls [data-drive=drift]{height:64px;width:70px;border-color:#ffd38b;color:#ffd38b}
- #touchControls #mobileCenter{position:absolute;right:max(12px,env(safe-area-inset-right));top:65px;height:36px;min-height:36px;font-size:9px;border-radius:8px}
- .in-race .navigation,.in-race #help,.in-race #leaderboard,.in-race .speed-ticks{display:none}
- .in-race .telemetry{left:50%;bottom:12px;transform:translateX(-50%);width:110px}.in-race #speed{font-size:34px}.in-race #bars .barrow:not(:first-child){display:none}.in-race .speed-label{font-size:8px}
- .in-race #driftMeter{bottom:120px;width:190px}.in-race #driftMeter small{display:none}
+ .in-race #touchControls{display:block;position:fixed;inset:0;pointer-events:none;z-index:6;--control-scale:1}
+ #touchControls button{position:relative;pointer-events:auto;touch-action:none;user-select:none;-webkit-user-select:none;border:1px solid #d4edff70;background:linear-gradient(150deg,#263e54bd,#0b2032ce);color:#e7f7ff;box-shadow:inset 0 1px 1px #fff4,inset 0 -4px 10px #00101d66,0 5px 16px #05172535;text-shadow:0 1px 3px #001320;transition:background .1s,box-shadow .1s,transform .1s;display:flex;align-items:center;justify-content:center;flex-direction:column;padding:0}
+ #touchControls button.held{background:linear-gradient(145deg,#8de5f3dd,#2d85afe8);box-shadow:inset 0 0 16px #ccfaff55,0 0 24px #5adaff55;transform:scale(.94)}
+ #touchControls svg{width:38px;height:38px;pointer-events:none}#touchControls button>*{pointer-events:none}
+ .touch-left,.touch-right{position:absolute;bottom:max(20px,env(safe-area-inset-bottom));transform:scale(var(--control-scale));}
+ .touch-left{left:max(24px,env(safe-area-inset-left));width:216px;height:158px;transform-origin:bottom left}
+ .steering-caption{position:absolute;bottom:97px;left:12px;font-size:8px;letter-spacing:.22em;color:#d0e4efba}.steering-caption i{display:inline-block;width:4px;height:4px;border-radius:50%;background:#bcf1e0;margin-left:6px}
+ .steering-pair{position:absolute;bottom:0;left:0;display:flex;gap:9px}.steering-pair button{width:82px;height:88px;border-radius:27px 17px 17px 27px}.steering-pair button+button{border-radius:17px 27px 27px 17px}.steering-pair span{font-size:8px;letter-spacing:.16em;opacity:.65;margin-top:4px}
+ #touchControls .utility{width:54px;height:54px;border-radius:50%;color:#cbdce7;background:#102c4099}.utility span{font-size:8px;font-weight:700;letter-spacing:.08em}.utility svg{width:24px!important;height:24px!important}.utility small{font-size:6px;margin-top:2px;letter-spacing:.08em}
+ #touchControls .brake-control{position:absolute;left:4px;bottom:112px;width:48px;height:48px}.brake-control span{font-size:7px}.brake-control svg{width:20px!important;height:20px!important}
+ #touchControls .throttle-control{position:absolute;left:64px;bottom:112px;width:48px;height:48px}.pedal-lines{width:15px;height:19px;border:1px solid #c5dfef;border-radius:5px;margin-bottom:3px;background:repeating-linear-gradient(90deg,transparent 0 3px,#c5dfef 3px 4px)}
+ .auto-drive{position:absolute;left:68px;bottom:124px;font-size:8px;color:#d3e5ef;letter-spacing:.12em}.manual-throttle .auto-drive{display:none}.auto-throttle-on .throttle-control{display:none!important}
+ .touch-right{right:max(24px,env(safe-area-inset-right));width:230px;height:188px;transform-origin:bottom right}
+ #touchControls .drift-control{position:absolute;right:0;bottom:0;width:112px;height:112px;border-radius:50%;border-color:#ffe1a288;background:radial-gradient(circle at 35% 25%,#9470499c,#362c22d9 75%);color:#ffe8b6;isolation:isolate}
+ .drift-control strong{font-size:16px;font-style:italic;letter-spacing:.05em}.drift-control>span{font-size:6px;letter-spacing:.14em;margin-top:4px}.drift-control>svg:not(.charge-ring){height:36px;width:36px;margin-top:-3px}
+ #touchControls .charge-ring{position:absolute;inset:-5px;width:calc(100% + 10px);height:calc(100% + 10px);transform:rotate(-90deg);fill:none;stroke-width:2}.ring-track{stroke:#ffdc8d25}.ring-fill{stroke:#ffce72;stroke-dasharray:100;stroke-dashoffset:calc(100 - var(--drift-charge,0));transition:stroke-dashoffset .1s linear;filter:drop-shadow(0 0 3px #ffc46b)}
+ #touchControls .drift-control.held{background:radial-gradient(circle at 40% 30%,#e4a551e8,#976225e0);box-shadow:inset 0 0 18px #ffdd9977,0 0 25px #ffb84555}.charged #touchControls .drift-control{border-color:#ffe8ad;box-shadow:0 0 23px #ffb94266}
+ #touchControls .nitro-control{position:absolute;right:124px;bottom:45px;width:90px;height:100px;border-radius:32px;border-color:#90ddff;background:linear-gradient(140deg,#389ad0bf,#113555e6);color:#d4f4ff}.nitro-control>svg{width:30px!important;height:34px!important}.nitro-control strong{font-size:12px;font-style:italic;letter-spacing:.08em}.nitro-control>span{font-size:6px;letter-spacing:.13em;margin-top:3px}.nitro-control>b{position:absolute;right:-4px;top:-4px;border:2px solid #c5efff;border-radius:50%;background:#1a6890;width:23px;height:23px;display:grid;place-items:center;font-size:11px;box-shadow:0 2px 6px #001a35}
+ .nitro-stock{display:flex;gap:3px;position:absolute;bottom:9px}.nitro-stock i{width:10px;height:3px;background:#93c0d22b;border-radius:2px}.nitro-stock i.full{background:#b5f6ff;box-shadow:0 0 6px #4dddff}
+ #touchControls .nitro-control.unavailable{background:linear-gradient(145deg,#2d455776,#12283bad);border-color:#abc1ce55;color:#b9cad1}.nitro-control.unavailable>b{background:#273e4d;border-color:#8ea6b2;color:#b1c3cc}#touchControls .nitro-control.firing{border-color:#e2fbff;box-shadow:0 0 26px #64d6ffa0,inset 0 0 18px #61d7ff77}
+ #touchControls .emp-control{position:absolute;right:22px;bottom:128px;width:48px;height:48px}#touchControls .emp-control.unavailable{opacity:.55}
+ #touchControls #mobileCenter{position:absolute;right:max(18px,env(safe-area-inset-right));top:118px;min-height:36px;padding:0 9px;border-radius:9px;font-size:7px;letter-spacing:.07em;background:#102c4070}
+ .in-race .navigation,.in-race #help,.in-race #leaderboard,.in-race .speed-ticks,.in-race #bars{display:none}
+ .in-race .telemetry{left:50%;bottom:20px;transform:translateX(-50%);width:105px;padding:0;background:none;border:0;box-shadow:none;text-align:center}.in-race #speed{font-size:38px;font-style:italic;line-height:1;text-shadow:0 2px 8px #001b37}.in-race .speed-label{font-size:7px;letter-spacing:.16em}
+ .in-race #driftMeter{left:50%;bottom:83px;transform:translateX(-50%);width:154px;padding:7px 9px;border:0;background:#10253565}.in-race #driftMeter>div:first-child{font-size:7px;letter-spacing:0}.in-race #driftMeter small{display:none}.in-race .drift-track{height:3px;margin-top:5px}
  .in-race #controlsToggle{bottom:auto;top:12px;right:max(12px,env(safe-area-inset-right));min-height:44px;z-index:8}
- .in-race .top{top:12px;left:max(12px,env(safe-area-inset-left));transform:none}.in-race .track-title,.in-race .top>.eyebrow{display:none}.in-race .race-stats{gap:14px}.in-race .race-stats .value{font-size:18px}
- .in-race .position{top:65px;right:max(12px,env(safe-area-inset-right));transform:none}.in-race #rank{font-size:32px}.in-race #mobileCenter{top:123px!important}
- .in-race #teamScore{top:12px}.in-race .masthead{display:none}
- .overlay{z-index:20!important;pointer-events:auto}.controls-card,.results-card{max-height:90dvh;overflow-y:auto}
- .in-race:has(#controlsPanel:not([hidden])) #touchControls,.in-race:has(#results:not([hidden])) #touchControls{display:none}
+ .in-race .top{top:12px;left:max(12px,env(safe-area-inset-left));width:214px;padding:10px}.in-race .track-title,.in-race .top>.eyebrow{display:none}.in-race .race-stats{margin:0;gap:12px}.in-race .race-stats .value{white-space:nowrap;font-size:15px}.in-race .race-stats .label{font-size:8px}.in-race .progress-track{margin:8px 0 0}
+ .in-race .position{top:66px;right:max(15px,env(safe-area-inset-right));transform:none}.in-race #rank{font-size:32px}.in-race #teamScore{top:12px}.in-race .masthead{display:none}
+ .overlay{z-index:20!important;pointer-events:auto}.controls-card,.results-card{max-height:90dvh;overflow-y:auto}.in-race:has(#controlsPanel:not([hidden])) #touchControls,.in-race:has(#results:not([hidden])) #touchControls{display:none}
 }
-@media(max-width:950px) and (orientation:landscape){
- #lobby{padding:76px 20px 30px}.lobby-copy{display:none}.race-setup{position:relative!important;top:auto!important;right:auto!important;width:min(620px,100%)!important;margin:auto;transform:none!important}.lobby-footer{display:none}.masthead{height:58px}.keyboard-note{display:none}
- .in-race #driftMeter{bottom:100px}.in-race .boost-status{top:90px}.touch-right{gap:6px}#touchControls [data-drive=emp],#touchControls [data-drive=throttle],#touchControls [data-drive=brake]{min-width:44px;width:44px;height:44px;font-size:9px}
-}
-@media(max-width:600px) and (orientation:portrait){
- .in-race #rotateHint{display:block;position:fixed;top:145px;left:20%;right:20%;text-align:center;font-size:11px;color:#ffda9d;pointer-events:none}
- #touchControls button{min-width:40px!important;width:44px!important;height:52px!important;border-radius:12px;font-size:10px!important}.touch-left,.touch-right{gap:4px}.in-race .telemetry{bottom:82px}.in-race #driftMeter{bottom:175px}.in-race #teamScore{top:110px}
-}
-@media(pointer:coarse),(max-width:950px){
- .in-race .top{width:224px;padding:10px}.in-race .race-stats{margin:0;gap:12px}.in-race .race-stats .value{white-space:nowrap;font-size:15px}.in-race .race-stats .label{font-size:8px}.in-race .progress-track{margin-top:8px}
- .in-race .telemetry{padding:5px 8px;background:#102535a8;width:108px;bottom:8px;left:43%}.in-race #speed{font-size:27px;line-height:1}.in-race .telemetry .speed-label,.in-race .telemetry .speed-label~.speed-ticks{display:none}.in-race #boostValue{white-space:nowrap}.in-race #bars .barname{font-size:7px}
- .in-race #driftMeter{left:43%;bottom:78px;width:165px;padding:8px;font-size:8px}
-}
-@media(max-width:600px) and (orientation:portrait){.in-race .telemetry{bottom:74px;left:50%}.in-race #driftMeter{left:50%;bottom:150px}.in-race .top{width:215px}.in-race #teamScore{top:90px}}
+@media(max-width:950px) and (orientation:landscape){#lobby{padding:76px 20px 30px}.lobby-copy{display:none}.race-setup{position:relative!important;top:auto!important;right:auto!important;width:min(620px,100%)!important;margin:auto;transform:none!important}.lobby-footer{display:none}.masthead{height:58px}.keyboard-note{display:none}.in-race .boost-status{top:95px;bottom:auto}}
+@media(max-height:420px) and (orientation:landscape){.in-race #touchControls{--control-scale:.86}.in-race .telemetry{bottom:16px}.in-race #driftMeter{bottom:72px}}
+@media(max-width:600px) and (orientation:portrait){.in-race #touchControls{--control-scale:.72}.touch-left{left:12px;bottom:18px}.touch-right{right:12px;bottom:18px}.in-race #rotateHint{display:block;position:fixed;top:146px;left:20%;right:20%;text-align:center;font-size:10px;color:#ffda9d;pointer-events:none}.in-race .telemetry{bottom:180px}.in-race #driftMeter{bottom:233px}.in-race #teamScore{top:89px}}
+@media(prefers-reduced-motion:reduce){#touchControls button{transition:none}}

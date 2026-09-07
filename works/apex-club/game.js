@@ -517,6 +517,7 @@ const mapDots=ai.map(()=>{const circle=document.createElementNS('http://www.w3.o
 let lastRaceUI=-1;
 function updateRaceHUD(){
   if(!race)return;
+  mobile.update(state);
   document.body.classList.toggle('drifting',state.drift.active);document.body.classList.toggle('charged',state.drift.charge>.78);
   document.querySelector('#boostValue').textContent=`${Math.floor(state.boost*3+.01)} / 3`;
   document.querySelector('#driftFill').style.width=`${state.drift.charge*100}%`;
