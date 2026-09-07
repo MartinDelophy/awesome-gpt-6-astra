@@ -35,3 +35,39 @@
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}.boost-status{animation:none!important}}
 
 .garage-link{display:inline-block;margin-top:16px;padding:10px 16px;border:1px solid #65d7da66;border-radius:7px;color:#a2eeec;text-decoration:none;font-size:11px;background:#123140}
+/* Thumb zones leave the road and kart unobstructed. */
+.mobile-settings{padding:14px 0;border-top:1px solid var(--line);font-size:11px}.mobile-settings p{font-size:11px;line-height:1.5;color:var(--muted)}.mobile-settings button{min-height:44px;border:1px solid #8dc4d45c;background:#173b49;border-radius:8px;padding:9px 12px;margin:3px}.mobile-settings strong{letter-spacing:.12em;font-size:10px}#touchControls,#rotateHint{display:none}
+@media(pointer:coarse),(max-width:950px){
+ .in-race #touchControls{display:block;position:fixed;inset:0;pointer-events:none;z-index:6}
+ #touchControls button{pointer-events:auto;touch-action:none;user-select:none;-webkit-user-select:none;border:1px solid #b5e0e766;background:#102a3bce;color:white;border-radius:18px;min-width:54px;height:54px;font-size:12px;font-weight:800;box-shadow:0 4px 16px #00162150}
+ #touchControls button.held{background:#a2eadc;color:#0a2832;transform:scale(.95)}
+ .touch-left,.touch-right{position:absolute;bottom:max(12px,env(safe-area-inset-bottom));display:flex;gap:8px;align-items:end}
+ .touch-left{left:max(12px,env(safe-area-inset-left))}.touch-right{right:max(12px,env(safe-area-inset-right))}
+ #touchControls [data-drive=left],#touchControls [data-drive=right]{width:64px;height:64px;font-size:24px}
+ #touchControls [data-drive=nitro]{height:72px;width:76px;background:#227b9ddd;border-color:#78ddff}
+ #touchControls [data-drive=drift]{height:64px;width:70px;border-color:#ffd38b;color:#ffd38b}
+ #touchControls #mobileCenter{position:absolute;right:max(12px,env(safe-area-inset-right));top:65px;height:36px;min-height:36px;font-size:9px;border-radius:8px}
+ .in-race .navigation,.in-race #help,.in-race #leaderboard,.in-race .speed-ticks{display:none}
+ .in-race .telemetry{left:50%;bottom:12px;transform:translateX(-50%);width:110px}.in-race #speed{font-size:34px}.in-race #bars .barrow:not(:first-child){display:none}.in-race .speed-label{font-size:8px}
+ .in-race #driftMeter{bottom:120px;width:190px}.in-race #driftMeter small{display:none}
+ .in-race #controlsToggle{bottom:auto;top:12px;right:max(12px,env(safe-area-inset-right));min-height:44px;z-index:8}
+ .in-race .top{top:12px;left:max(12px,env(safe-area-inset-left));transform:none}.in-race .track-title,.in-race .top>.eyebrow{display:none}.in-race .race-stats{gap:14px}.in-race .race-stats .value{font-size:18px}
+ .in-race .position{top:65px;right:max(12px,env(safe-area-inset-right));transform:none}.in-race #rank{font-size:32px}.in-race #mobileCenter{top:123px!important}
+ .in-race #teamScore{top:12px}.in-race .masthead{display:none}
+ .overlay{z-index:20!important;pointer-events:auto}.controls-card,.results-card{max-height:90dvh;overflow-y:auto}
+ .in-race:has(#controlsPanel:not([hidden])) #touchControls,.in-race:has(#results:not([hidden])) #touchControls{display:none}
+}
+@media(max-width:950px) and (orientation:landscape){
+ #lobby{padding:76px 20px 30px}.lobby-copy{display:none}.race-setup{position:relative!important;top:auto!important;right:auto!important;width:min(620px,100%)!important;margin:auto;transform:none!important}.lobby-footer{display:none}.masthead{height:58px}.keyboard-note{display:none}
+ .in-race #driftMeter{bottom:100px}.in-race .boost-status{top:90px}.touch-right{gap:6px}#touchControls [data-drive=emp],#touchControls [data-drive=throttle],#touchControls [data-drive=brake]{min-width:44px;width:44px;height:44px;font-size:9px}
+}
+@media(max-width:600px) and (orientation:portrait){
+ .in-race #rotateHint{display:block;position:fixed;top:145px;left:20%;right:20%;text-align:center;font-size:11px;color:#ffda9d;pointer-events:none}
+ #touchControls button{min-width:40px!important;width:44px!important;height:52px!important;border-radius:12px;font-size:10px!important}.touch-left,.touch-right{gap:4px}.in-race .telemetry{bottom:82px}.in-race #driftMeter{bottom:175px}.in-race #teamScore{top:110px}
+}
+@media(pointer:coarse),(max-width:950px){
+ .in-race .top{width:224px;padding:10px}.in-race .race-stats{margin:0;gap:12px}.in-race .race-stats .value{white-space:nowrap;font-size:15px}.in-race .race-stats .label{font-size:8px}.in-race .progress-track{margin-top:8px}
+ .in-race .telemetry{padding:5px 8px;background:#102535a8;width:108px;bottom:8px;left:43%}.in-race #speed{font-size:27px;line-height:1}.in-race .telemetry .speed-label,.in-race .telemetry .speed-label~.speed-ticks{display:none}.in-race #boostValue{white-space:nowrap}.in-race #bars .barname{font-size:7px}
+ .in-race #driftMeter{left:43%;bottom:78px;width:165px;padding:8px;font-size:8px}
+}
+@media(max-width:600px) and (orientation:portrait){.in-race .telemetry{bottom:74px;left:50%}.in-race #driftMeter{left:50%;bottom:150px}.in-race .top{width:215px}.in-race #teamScore{top:90px}}

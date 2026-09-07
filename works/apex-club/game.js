@@ -1,3 +1,4 @@
+import {createMobileControls} from './mobile-controls.js';
 import {createArmoredKart} from './armored-kart.js';
 import {stepHandling, DISTANCE_SCALE, DISPLAY_SPEED} from './driving-model.js';
 import {createRaceEffects} from './race-effects.js';
@@ -42,9 +43,10 @@ let driftLatched=false,lastSteer=0;
 const audio=createRaceAudio();
 let reducedMotion=matchMedia('(prefers-reduced-motion: reduce)').matches;
 let helpOpen=false,simulationTime=0,race=null,selectedMode='team',selectedTeam='blue';
+const mobile=createMobileControls({active:()=>race?.phase==='racing'&&!helpOpen,action:name=>actions.add(name==='nitro'?'ShiftLeft':'KeyQ'),pause:()=>toggleControls(true)});
 function toggleControls(open=!helpOpen){
   if(!race || race.phase==='finished')return;
-  helpOpen=open;keys.clear();actions.clear();driftLatched=false;document.querySelector('#controlsPanel').hidden=!open;
+  helpOpen=open;keys.clear();actions.clear();mobile.clear();driftLatched=false;document.querySelector('#controlsPanel').hidden=!open;
   document.querySelector('#controlsToggle').setAttribute('aria-expanded',String(open));
   if(open)document.querySelector('#startDriving').focus();else renderer.domElement.focus();
 }
@@ -67,7 +69,7 @@ addEventListener('keydown', e => {
   if(['Space','ArrowUp','ArrowDown','ArrowLeft','ArrowRight'].includes(e.code))e.preventDefault();keys.add(e.code);
 });
 addEventListener('keyup',e=>keys.delete(e.code));
-addEventListener('blur',()=>{keys.clear();actions.clear();if(race?.phase==='racing')toggleControls(true);});
+addEventListener('blur',()=>{keys.clear();actions.clear();mobile.clear();if(race?.phase==='racing')toggleControls(true);});
 
 // Bay Circuit: a closed coastal course with gentle elevation changes.
 const points = [];
@@ -326,7 +328,7 @@ function setCraft(i){
   document.querySelector('#kartStats').innerHTML=stats.map(([label,value,max,text])=>`<div class="kart-stat"><span>${label}</span><i><b style="width:${Math.min(100,value/max*100)}%"></b></i><strong>${text}</strong></div>`).join('');
 }
 function reset(){
-  audio.start();raceEffects.reset();driftLatched=false;lastSteer=0;keys.clear();actions.clear();helpOpen=false;simulationTime=0;cameraReady=false;qWas=false;
+  audio.start();raceEffects.reset();driftLatched=false;lastSteer=0;keys.clear();actions.clear();mobile.clear();helpOpen=false;simulationTime=0;cameraReady=false;qWas=false;
   race=createRace(selectedMode,selectedTeam);
   msg.textContent='';msg.style.opacity=0;
   Object.assign(state,{yaw:0,hop:0,t:(race.racers[0].progress+1)%1,lane:race.racers[0].lane,laneVel:0,speed:0,boost:1/3,shield:1,weapon:1,lap:1,rank:1,hit:0,bank:0,miniTurbo:0,nitro:0,drift:{active:false,charge:0,direction:0}});
@@ -342,11 +344,12 @@ function reset(){
 function updatePlayer(dt,time){
   const d=craftDefs[craftIndex],r=race?.racers[0];
   const racing=race?.phase==='racing'&&r.finishTime===null;
-  const throttle=racing&&(document.querySelector('#autoThrottle').checked||keys.has('KeyW')||keys.has('ArrowUp'));
-  const brake=racing&&(keys.has('KeyS')||keys.has('ArrowDown'));
-  const steer=racing?Number(keys.has('KeyD')||keys.has('ArrowRight'))-Number(keys.has('KeyA')||keys.has('ArrowLeft')):0;
+  const throttle=racing&&(document.querySelector('#autoThrottle').checked||keys.has('KeyW')||keys.has('ArrowUp')||mobile.down('throttle'));
+  const brake=racing&&(keys.has('KeyS')||keys.has('ArrowDown')||mobile.down('brake'));
+  const keyboardSteer=Number(keys.has('KeyD')||keys.has('ArrowRight'))-Number(keys.has('KeyA')||keys.has('ArrowLeft'));
+  const steer=racing?(keyboardSteer||mobile.steer(dt)):0;
   const toggleDrift=document.querySelector('#toggleDrift').checked;
-  const air=racing&&(toggleDrift?driftLatched:keys.has('Space'));
+  const air=racing&&(mobile.down('drift')||(toggleDrift?driftLatched:keys.has('Space')));
   const driftSteer=steer||(!state.drift.active&&toggleDrift?lastSteer:0);
   if(racing&&(actions.has('ShiftLeft')||actions.has('ShiftRight'))&&state.boost>=.333&&state.nitro<=0){state.boost=Math.max(0,state.boost-1/3);state.nitro=2.1;ping('NITRO ENGAGED','#69cfff');}
   state.nitro=Math.max(0,state.nitro-dt);state.miniTurbo=Math.max(0,state.miniTurbo-dt);
@@ -520,7 +523,7 @@ function updateRaceHUD(){
   document.querySelector('#driftPercent').textContent=state.nitro>0?`${state.nitro.toFixed(1)}s`:state.miniTurbo>0?`${state.miniTurbo.toFixed(1)}s`:`${Math.round(state.drift.charge*100)}%`;
   document.querySelector('#boostCountdown').style.transform=`scaleX(${state.nitro>0?state.nitro/2.1:state.miniTurbo/1.5})`;
   document.querySelector('#boostTitle').textContent=state.nitro>0?'NITRO':state.miniTurbo>0?'MINI TURBO':'TURBO';
-  document.querySelector('#driftLabel').textContent=state.nitro>0?'NITRO BOOST':state.miniTurbo>0?'MINI TURBO':state.drift.active?(state.drift.charge>=.78?'SUPER TURBO READY':state.drift.charge>=.32?'TURBO READY':'DRIFT / CHARGING'):'HOLD SPACE + STEER';
+  document.querySelector('#driftLabel').textContent=state.nitro>0?'NITRO BOOST':state.miniTurbo>0?'MINI TURBO':state.drift.active?(state.drift.charge>=.78?'SUPER TURBO READY':state.drift.charge>=.32?'TURBO READY':'DRIFT / CHARGING'):(matchMedia('(pointer:coarse), (max-width:950px)').matches?'HOLD DRIFT + STEER':'HOLD SPACE + STEER');
   document.querySelector('#driftHint').textContent=state.drift.charge>.78?(document.querySelector('#toggleDrift').checked?'Super turbo ready · Tap SPACE':'Super turbo ready · Release SPACE'):state.drift.charge>.32?'Turbo ready · Keep charging to upgrade':(document.querySelector('#toggleDrift').checked?'Tap SPACE again to release boost':'Hold SPACE to slide · Release to boost');
   if(Math.abs(race.elapsed-lastRaceUI)<.1&&race.phase==='racing')return;lastRaceUI=race.elapsed;
   const ordered=standings(race),scores=teamScores(race);
@@ -537,7 +540,7 @@ function updateRaceHUD(){
 }
 
 function finishRace(){
-  race.phase='finished';keys.clear();actions.clear();document.querySelector('#results').hidden=false;document.querySelector('#raceAgain').focus();
+  race.phase='finished';keys.clear();actions.clear();mobile.clear();document.querySelector('#results').hidden=false;document.querySelector('#raceAgain').focus();
   const scores=teamScores(race,true),ordered=standings(race);
   const winner=scores.blue===scores.red?'DRAW':scores.blue>scores.red?'BLUE TEAM WINS':'RED TEAM WINS';
   document.querySelector('#resultTitle').textContent=race.mode==='team'?winner:ordered[0].id===0?'YOU WIN!':'Race complete';
@@ -545,7 +548,7 @@ function finishRace(){
   document.querySelector('#resultRows').innerHTML=ordered.map((r,i)=>`<tr class="${r.id===0?'you':''}"><td>${String(i+1).padStart(2,'0')}</td><td><i class="team-dot ${race.mode==='team'?r.team:'solo'}"></i>${r.name}${r.id===0?' / YOU':' / AI'}</td><td>${r.finishTime===null?'DNF':formatTime(r.finishTime)}</td><td>${r.finishTime===null?0:SCORE_TABLE[i]}</td></tr>`).join('');
 }
 function formatTime(t){return `${Math.floor(t/60).toString().padStart(2,'0')}:${(t%60).toFixed(2).padStart(5,'0')}`;}
-function returnLobby(){race=null;helpOpen=false;keys.clear();actions.clear();document.querySelector('#lobby').hidden=false;document.querySelector('#results').hidden=true;document.querySelector('#controlsPanel').hidden=true;document.body.classList.remove('in-race','boosting','drifting','charged');raceEffects.reset();streaks.material.opacity=0;setCraft(craftIndex);document.querySelector('#raceStart').focus();}
+function returnLobby(){race=null;helpOpen=false;keys.clear();actions.clear();mobile.clear();document.querySelector('#lobby').hidden=false;document.querySelector('#results').hidden=true;document.querySelector('#controlsPanel').hidden=true;document.body.classList.remove('in-race','boosting','drifting','charged');raceEffects.reset();streaks.material.opacity=0;setCraft(craftIndex);document.querySelector('#raceStart').focus();}
 document.querySelector('#raceStart').addEventListener('click',reset);
 document.querySelector('#raceAgain').addEventListener('click',reset);
 document.querySelectorAll('[data-lobby]').forEach(el=>el.addEventListener('click',returnLobby));
@@ -584,6 +587,7 @@ mountDriverStudio(document.querySelector('#driverStudio'),()=>!race);
 document.querySelector('#motionSetting').checked=reducedMotion;
 function saveSettings(){try{localStorage.setItem('apex-settings',JSON.stringify({toggleDrift:document.querySelector('#toggleDrift').checked,motion:reducedMotion,audio:document.querySelector('#audioSetting').checked,quality:document.querySelector('#qualitySetting').value}));}catch{}}
 function applyQuality(){const low=document.querySelector('#qualitySetting').value==='performance';renderer.setPixelRatio(Math.min(devicePixelRatio,low?1:1.6));renderer.setSize(innerWidth,innerHeight);composer.setPixelRatio(renderer.getPixelRatio());composer.setSize(innerWidth,innerHeight);bloom.enabled=!low;saveSettings();}
+if(matchMedia('(pointer:coarse)').matches)document.querySelector('#qualitySetting').value='performance';
 try{const saved=JSON.parse(localStorage.getItem('apex-settings')||'null');if(saved){document.querySelector('#toggleDrift').checked=!!saved.toggleDrift;reducedMotion=!!saved.motion;document.querySelector('#motionSetting').checked=reducedMotion;document.querySelector('#audioSetting').checked=saved.audio!==false;document.querySelector('#qualitySetting').value=saved.quality==='performance'?'performance':'quality';}}catch{}
 audio.setEnabled(document.querySelector('#audioSetting').checked);
 document.querySelector('#toggleDrift').addEventListener('change',saveSettings);
