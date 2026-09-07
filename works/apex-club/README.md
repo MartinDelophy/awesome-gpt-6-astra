@@ -33,7 +33,7 @@ Open http://localhost:8080. Three.js 0.179.1 is included locally under `vendor/t
 - Q: EMP affects nearby opponents, excluding teammates in team mode.
 - H: pause/help; R: restart the entire race including AI and countdown.
 - Choose from six karts before racing; the lobby previews the body kit and displays speed, acceleration, handling and drift charge rate.
-- COMET: agile; APEX: balanced; BOLT: top speed; SLIDE: drift specialist (1.4× APEX charge rate); RALLY: heavy off-road styling with reduced collision displacement; VINTAGE: fastest acceleration with a lower top speed.
+- COMET: agile; APEX: balanced; BOLT: top speed; SLIDE: drift specialist (1.4× APEX charge rate); TITAN: heavy off-road styling with reduced collision displacement; VINTAGE: fastest acceleration with a lower top speed.
 - Team races apply team paint while retaining each kart’s shape and handling. AI racers also use the expanded garage.
 
 ## Visuals
@@ -81,3 +81,15 @@ Three.js 0.179.1 is distributed under the MIT license. The required runtime modu
 ![Charged drift with a complete kart silhouette and world-space tyre marks.](../../assets/screenshots/apex-club/gameplay.png)
 
 [Development record](CREATION.md) · [Request history](PROMPTS.md)
+
+
+
+## TITAN armored buggy
+
+Open `garage.html` for the 360-degree model showroom: front, side, rear and top views, orbit/zoom, three finishes, wireframe and an optional seated driver. TITAN replaces the former RALLY slot and is selected by default. The showroom and race share `armored-kart.js`, including steerable wheels and model-specific tyre/exhaust effect anchors.
+
+The original procedural model follows the supplied heavy off-road racing reference: deep-tread tires, layered armor, double-wishbone suspension with coil springs, a bucket seat and roll hoop, intake stacks, rear cooling fans, twin exhausts and detailed front/rear lighting.
+
+Run `npm run export:model` to generate `output/titan-armored-buggy.glb`. The portable GLB includes the full static vehicle with PBR materials and individual wheel/structural nodes; runtime flames and the optional driver are excluded. Instanced tire blocks are expanded for compatibility. Wheel animation remains controlled by the game.
+
+![TITAN 3D garage](../../assets/screenshots/apex-club/titan-garage.jpg)

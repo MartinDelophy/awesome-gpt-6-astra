@@ -6,7 +6,8 @@
   "scripts": {
     "test": "node --test tests/*.test.mjs",
     "build": "node scripts/build.mjs",
-    "start": "python3 -m http.server 8080"
+    "start": "python3 -m http.server 8080",
+    "export:model": "node scripts/export-model.mjs"
   },
   "engines": {
     "node": ">=18"

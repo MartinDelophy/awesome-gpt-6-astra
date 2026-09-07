@@ -1,3 +1,4 @@
+import {createArmoredKart} from './armored-kart.js';
 import {stepHandling, DISTANCE_SCALE, DISPLAY_SPEED} from './driving-model.js';
 import {createRaceEffects} from './race-effects.js';
 import {createRaceAudio} from './race-audio.js';
@@ -168,7 +169,7 @@ for(let i=0;i<stars;i++){ const r=500+Math.random()*5200,a=Math.random()*Math.PI
 starGeo.setAttribute('position',new THREE.BufferAttribute(arr,3));
 scene.add(new THREE.Points(starGeo,new THREE.PointsMaterial({size:1.5,color:0x7dfcff,transparent:true,opacity:.32,blending:THREE.AdditiveBlending,depthWrite:false})));
 
-let craftIndex=1;
+let craftIndex=4;
 function makeCraft(color=0xffb24c,scale=1){
   const g=new THREE.Group(),model=new THREE.Group();g.add(model);
   const paint=new THREE.MeshPhysicalMaterial({color,metalness:.25,roughness:.25,clearcoat:1,clearcoatRoughness:.14});paint.userData.craftColor=true;
@@ -240,9 +241,18 @@ function makeCraft(color=0xffb24c,scale=1){
   kits.retro.add(round(4.2,.65,1.8,0,.2,-5.5,paint));
   const shadow=new THREE.Mesh(new THREE.PlaneGeometry(18,23),new THREE.ShaderMaterial({transparent:true,depthWrite:false,vertexShader:`varying vec2 vUv;void main(){vUv=uv;gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);}`,fragmentShader:`varying vec2 vUv;void main(){float d=length((vUv-.5)*2.);gl_FragColor=vec4(.015,.04,.05,(1.-smoothstep(.3,1.,d))*.55);}`}));
   shadow.rotation.x=-Math.PI/2;shadow.position.y=-3.4;g.add(shadow);
-  g.userData={model,engines,fins,shadow,wheels,kits,spoilers};g.scale.setScalar(scale);return g;
+  g.userData={model,engines,fins,shadow,wheels,kits,spoilers,legacy:{model,engines,wheels}};g.scale.setScalar(scale);return g;
 }
 function configureKart(kart,definition){
+  const data=kart.userData;
+  if(definition.style==='rally'){
+    if(!data.armored){data.armored=createArmoredKart();kart.add(data.armored);}
+    data.legacy.model.visible=false;data.armored.visible=true;
+    data.model=data.armored;data.engines=data.armored.userData.engines;data.wheels=data.armored.userData.wheels;data.fx=data.armored.userData.fx;
+    data.shadow.scale.set(1.15,1.12,1);return;
+  }
+  if(data.armored)data.armored.visible=false;
+  Object.assign(data,data.legacy);data.model.visible=true;data.fx=null;data.shadow.scale.set(1,1,1);
   kart.userData.model.scale.set(...definition.scale);
   Object.entries(kart.userData.kits).forEach(([style,kit])=>{kit.visible=style===definition.style;});
   kart.userData.spoilers.forEach(part=>{part.visible=definition.style!=='retro';});
@@ -254,11 +264,11 @@ function configureKart(kart,definition){
 function animateCraft(craft,time,power,boosting=false,drifting=false,steer=0){
   craft.userData.engines.forEach((flame,i)=>{
     const length=(boosting?24:1+power*1.4)*(1+Math.sin(time*39+i)*.07);
-    flame.scale.set(boosting?1.5:1,length,boosting?1.5:1);flame.position.z=-7.8-length*.5;
+    flame.scale.set(boosting?1.5:1,length,boosting?1.5:1);flame.position.z=(flame.userData.nozzleZ??-7.8)-length*.5;
     flame.material.uniforms.tint.value.setHex(craft===player&&state.miniTurbo>0&&state.nitro<=0?0xffad42:0x43cfff);
     flame.material.uniforms.time.value=time;flame.material.uniforms.power.value=power;
   });
-  craft.userData.wheels.forEach(w=>{w.hub.rotation.y=w.front?-steer*.35:0;w.tire.rotation.x=time*power*18;});
+  craft.userData.wheels.forEach(w=>{w.hub.rotation.y=w.front?-steer*.35:0;w.tire.rotation.x=time*power*(craft.userData.fx?-8:18);});
 }
 const player=makeCraft(craftDefs[craftIndex].color,1); scene.add(player);
 
@@ -306,8 +316,8 @@ function colorKart(kart,color){kart.traverse(o=>{if(o.material?.userData.craftCo
 function setCraft(i){
   if(race&&race.phase!=='finished')return;
   if(!Number.isInteger(i)||!craftDefs[i])return;
-  craftIndex=i;const d=craftDefs[i];colorKart(player,selectedMode==='team'?TEAM_COLORS[selectedTeam]:d.color);
-  configureKart(player,d);
+  craftIndex=i;const d=craftDefs[i];configureKart(player,d);
+  colorKart(player,selectedMode==='team'?TEAM_COLORS[selectedTeam]:d.color);
   document.querySelectorAll('[data-craft]').forEach(el=>{const active=Number(el.dataset.craft)===i;el.classList.toggle('active',active);el.setAttribute('aria-pressed',String(active));});
   document.querySelector('#craftName').textContent=d.name;
   document.querySelector('#kartTitle').textContent=`${d.name} / ${d.title}`;
