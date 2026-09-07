@@ -4,6 +4,8 @@
 
 # Awesome GPT-6 Astra
 
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/)
+
 **A collection of interesting games made with GPT-6 Astra.**
 
 Playful ideas, games you can try, and development stories that inspire the next creator.
@@ -19,7 +21,7 @@ Explore **4 browser games and 1 interactive particle-art sandbox**: soft-body fr
 Last checked: **2026-09-05**. Creator statements, source links, and demo availability have been checked. Model attribution is author-reported; the games have not been play-tested for this list.
 
 - **Looking for something to play?** Browse the genres below.
-- **Built a game?** [Submit your project](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) with a playable or source link and a description of how you used GPT-6 Astra.
+- **Built a game?** [Submit your project](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) with a playable or source link, a gameplay screenshot, and a description of how you used GPT-6 Astra.
 - **Found a great project?** Recommend someone else's public work and credit its creator.
 
 This is a community-maintained list with no affiliation to OpenAI. Inclusion is an invitation to explore, not a benchmark or an official endorsement.
@@ -100,6 +102,7 @@ A useful recommendation makes it easy to understand what a game is, where to try
 | Game & creator | The game title and a link to its original creator or team |
 | Why it is interesting | One sentence about the core mechanic, without promotional filler |
 | Access | A playable link, or a public source repository with setup instructions |
+| Gameplay screenshot | At least one actual gameplay screenshot with a publicly accessible image URL |
 | Platform & requirements | Browser / desktop / mobile; disclose payment, login, or special hardware requirements |
 | Astra's role | A creator statement, development log, or public record explaining how GPT-6 Astra contributed |
 | Development resources | Source code, technology, and the making-of story, where available |
