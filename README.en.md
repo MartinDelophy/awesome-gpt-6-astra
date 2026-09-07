@@ -14,7 +14,7 @@ Playful ideas, games you can try, and development stories that inspire the next 
 
 ## Start here
 
-Explore **3 browser games and 1 interactive particle-art sandbox**: soft-body fruit merging, one-tap flight, magic-carpet combat, and Orbital Garden. Click a title to open its demo or source with setup instructions.
+Explore **4 browser games and 1 interactive particle-art sandbox**: soft-body fruit merging, one-tap flight, magic-carpet combat, island power-grid tower defense, and Orbital Garden. Click a title to open its demo or source with setup instructions.
 
 Last checked: **2026-09-05**. Creator statements, source links, and demo availability have been checked. Model attribution is author-reported; the games have not been play-tested for this list.
 
@@ -63,7 +63,11 @@ Logic puzzles, physics challenges, word games, and clever little mechanisms.
 
 Tower defense, strategic card games, management games, building, and simulation sandboxes.
 
-*Waiting for the first game.*
+- **[Last Beacon / 最后的灯塔](https://last-beacon.loupengju.cc)** — Connect a power grid across a miniature island, build and upgrade towers, and balance limited power to defend a lighthouse through ten waves and a final boss.
+  - Creator: [stackloomdev](https://github.com/stackloomdev)
+  - Platform: Modern desktop and mobile browsers, with Chinese and English support; free, no login or API key. Optional sound requires Web Audio.
+  - GPT-6 Astra: [Creator's development log and model contribution](https://github.com/stackloomdev/last-beacon/blob/main/docs/CREATION.md) — Used for gameplay design, code, procedural artwork, and tests through multiple iterations; not a one-shot test.
+  - Resources: [Source and setup instructions](https://github.com/stackloomdev/last-beacon) · [Requirements and iteration notes](https://github.com/stackloomdev/last-beacon/blob/main/docs/PROMPT.md) · Built with: JavaScript, Canvas 2D, and Web Audio.
 
 ### RPGs & adventures
 
