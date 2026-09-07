@@ -67,7 +67,7 @@ npm run build
 
 Publish the contents of `dist/` to a static HTTPS host. There is no server, database, login or API key. The build adds a content revision to local JavaScript and CSS URLs to prevent stale modules after an update. The included `_headers` file sets conservative response headers on hosts that support it; configure equivalent headers elsewhere. Do not publish the project root, test artifacts or `output/`.
 
-The supported game platform is a modern desktop browser with WebGL 2 and a keyboard. Phone touch controls and online multiplayer are not included. Resize support does not imply mobile gameplay support.
+Modern browsers with WebGL 2 support desktop keyboard or mobile touch controls. Tilt steering requires motion sensors and browser permission. No online multiplayer.
 
 ## Handling and accessibility
 
@@ -99,3 +99,9 @@ The original procedural model follows the supplied heavy off-road racing referen
 Run `npm run export:model` to generate `output/titan-armored-buggy.glb`. The portable GLB includes the full static vehicle with PBR materials and individual wheel/structural nodes; runtime flames and the optional driver are excluded. Instanced tire blocks are expanded for compatibility. Wheel animation remains controlled by the game.
 
 ![TITAN 3D garage](../../assets/screenshots/apex-club/titan-garage.jpg)
+
+## Mobile controls
+
+Play in landscape on a WebGL 2 phone browser. Left/right arrows, brake, throttle, held drift, nitro and EMP support simultaneous touches. Auto acceleration is recommended. Fullscreen/landscape is best effort; on iPhone, rotate manually and disable rotation lock.
+
+Enable tilt steering in Phone controls, grant motion permission if prompted, hold the phone comfortably to calibrate, then lean left/right. Center steering resets neutral; touch arrows override tilt. Permission denial, missing sensors or stale readings fall back to touch. Rotation pauses racing so you can resume safely. Real-device iOS/Android sensor testing is still recommended; automated checks validate screen-axis mapping and dead zone, not hardware.

@@ -18,9 +18,9 @@
   ],
   "external_assets": [],
   "requires": [
-    "Desktop browser with WebGL 2",
-    "Keyboard",
-    "HTTP server or static host"
+    "Modern browser with WebGL 2",
+    "Keyboard or mobile touch controls",
+    "Optional tilt steering requires motion sensors and permission"
   ],
   "submitter": {
     "name": "MartinDelophy",
