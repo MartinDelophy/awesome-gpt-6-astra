@@ -22,7 +22,7 @@
 
 ## はじめに
 
-現在、**ブラウザーゲーム 6 作品と、インタラクティブなパーティクルアートのサンドボックス 1 作品**を掲載しています。柔らかい果物の合成、ワンボタン飛行、魔法の絨毯での戦闘、島の電力網を使うタワーディフェンス、海湾サーキットのカートレース、ペリカンとの海岸サイクリング、そして Orbital Garden。作品名をクリックすると、デモまたは実行手順付きのソースコードが開きます。
+現在、**ブラウザーゲーム 7 作品と、インタラクティブなパーティクルアートのサンドボックス 1 作品**を掲載しています。柔らかい果物の合成、ワンボタン飛行、魔法の絨毯での戦闘、島の電力網を使うタワーディフェンス、海湾サーキットのカートレース、ペリカンとの海岸サイクリング、そして Orbital Garden。作品名をクリックすると、デモまたは実行手順付きのソースコードが開きます。
 
 最終確認日：**2026-09-05**。作者によるモデル利用の説明、ソースコードへのリンク、デモへのアクセスを確認しています。モデルの利用状況は作者の申告に基づくもので、この一覧のための各作品のプレイテストは行っていません。
 
@@ -52,12 +52,14 @@
   - 対応環境: ブラウザー。モバイル向けに設計されています。
   - GPT-6 Astra: [作者の One Shot テストと元のプロンプト](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - 開発資料: [ソースコード](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/mosswing/src) · [単一 HTML ファイル](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/mosswing/mosswing.html)
+  - プレビュー: ![Mosswing — スタート画面](assets/screenshots/mosswing/gameplay.jpg)
 
 - **[Magic Carpet Wizard — A Thousand Skies](https://threapchills.github.io/MagicCarpetWizard/)** — 魔法の絨毯で球形の世界を飛び、リングをくぐり、魔法を放って敵やボスと戦います。
   - 作者: [threapchills](https://github.com/threapchills)
   - 対応環境: マウスとキーボードを使うデスクトップブラウザー。WebGL 2 が必要です。
   - GPT-6 Astra: 作者は[リポジトリの About 欄](https://github.com/threapchills/MagicCarpetWizard)で、GPT-6 Astra を使って制作したと説明しています。
   - 開発資料: [ソースコードと実行手順](https://github.com/threapchills/MagicCarpetWizard) · 使用技術: Three.js, Vite.
+  - プレビュー: ![Magic Carpet Wizard — スタート画面](assets/screenshots/magic-carpet/gameplay.jpg)
 
 <a id="puzzles"></a>
 
@@ -70,6 +72,14 @@
   - 対応環境: モダンブラウザー。作者はダウンロードして使える単一 HTML 版も公開しています。
   - GPT-6 Astra: [作者の One Shot テストと元のプロンプト](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - 開発資料: [ソースコード](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/melon-lab/src) · [単一 HTML ファイル](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/melon-lab/%E7%93%9C%E4%BD%93%E5%AE%9E%E9%AA%8C%E5%AE%A4.html)
+  - プレビュー: ![Melon Lab — ゲーム画面](assets/screenshots/melon-lab/gameplay.jpg)
+
+- **[榫境 / Sunjing Puzzles](https://sunjing-puzzles.hp20230404.chatgpt.site)** — 六つの木製パーツを取り外す組木パズルと、二種類の華容道を楽しめる 3D 工房。ヒントと取り消しに対応。
+  - [MartinDelophy](https://github.com/MartinDelophy)
+  - WebGL 2 対応ブラウザー、中国語 UI、マウス・キーボード・タッチ。無料、ログイン不要。進行状況はブラウザーに保存。
+  - Codex で反復制作。GPT-6 Astra の利用は作者の確認待ち。 [Codex / GPT-6 Astra](works/sunjing-puzzles/CREATION.md)
+  - [ソースと実行手順](works/sunjing-puzzles/README.md) · React, Vinext/Vite, Three.js.
+  - プレビュー: ![Sunjing Puzzles — ゲーム画面](assets/screenshots/sunjing-puzzles/gameplay.jpg)
 
 <a id="strategy-simulation"></a>
 
@@ -123,6 +133,7 @@
   - 対応環境: WebGL 対応のモダンブラウザー。作品名からオンラインで体験できます。無料で、ログインや API キーは不要です。単一 HTML 版はオフラインでも動作します。任意の環境音には Web Audio が必要です。
   - GPT-6 Astra: [制作記録とモデルの担当範囲](works/orbital-garden/README.md#模型与创作记录) — 作者は構想、コード、文章に GPT-6 Astra ultra を使用し、共同レビューを行っています。One Shot テストではありません。
   - 開発資料: [ソースコードと実行手順](works/orbital-garden/README.md) · [単一 HTML ファイル](works/orbital-garden/index.html) · [Prompt](works/orbital-garden/PROMPT.md) · 使用技術: 素の WebGL, Web Audio, Canvas 2D.
+  - プレビュー: ![ORBITAL GARDEN — ゲーム画面](assets/screenshots/orbital-garden/gameplay.jpg)
 
 ## 各作品に記載する情報
 

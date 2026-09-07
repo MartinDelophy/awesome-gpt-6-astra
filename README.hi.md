@@ -22,7 +22,7 @@
 
 ## यहाँ से शुरू करें
 
-यहाँ **6 ब्राउज़र गेम और कणों से कला बनाने वाला 1 इंटरैक्टिव सैंडबॉक्स** शामिल हैं: मुलायम फलों को मिलाना, एक बटन से उड़ान, जादुई कालीन पर लड़ाई, बिजली के नेटवर्क से द्वीप की रक्षा, Bay Circuit पर कार्ट रेसिंग, पेलिकन के साथ तट पर साइकिल चलाना और Orbital Garden। किसी शीर्षक पर क्लिक करके उसका डेमो या चलाने के निर्देशों सहित स्रोत कोड खोलें।
+यहाँ **7 ब्राउज़र गेम और कणों से कला बनाने वाला 1 इंटरैक्टिव सैंडबॉक्स** शामिल हैं: मुलायम फलों को मिलाना, एक बटन से उड़ान, जादुई कालीन पर लड़ाई, बिजली के नेटवर्क से द्वीप की रक्षा, Bay Circuit पर कार्ट रेसिंग, पेलिकन के साथ तट पर साइकिल चलाना और Orbital Garden। किसी शीर्षक पर क्लिक करके उसका डेमो या चलाने के निर्देशों सहित स्रोत कोड खोलें।
 
 अंतिम जाँच: **2026-09-05**। रचनाकारों के कथन, स्रोत कोड के लिंक और डेमो की उपलब्धता जाँची गई है। मॉडल के उपयोग की जानकारी लेखकों के कथनों पर आधारित है; इस सूची के लिए गेमों का खेलकर परीक्षण नहीं किया गया है।
 
@@ -52,12 +52,14 @@
   - प्लैटफ़ॉर्म: ब्राउज़र; मोबाइल के लिए डिज़ाइन किया गया है।
   - GPT-6 Astra: [रचनाकार के एक ही अनुरोध से निर्माण के परीक्षण और मूल प्रॉम्प्ट](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - विकास संसाधन: [स्रोत कोड](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/mosswing/src) · [स्वतंत्र HTML फ़ाइल](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/mosswing/mosswing.html)
+  - पूर्वावलोकन: ![Mosswing — आरंभिक स्क्रीन](assets/screenshots/mosswing/gameplay.jpg)
 
 - **[Magic Carpet Wizard — A Thousand Skies](https://threapchills.github.io/MagicCarpetWizard/)** — जादुई कालीन पर गोलाकार दुनिया में उड़ें, छल्लों से गुज़रें, जादू करें और दुश्मनों व बॉस से लड़ें।
   - रचनाकार: [threapchills](https://github.com/threapchills)
   - प्लैटफ़ॉर्म: माउस और कीबोर्ड वाला डेस्कटॉप ब्राउज़र; WebGL 2 आवश्यक है।
   - GPT-6 Astra: रचनाकार ने [रिपॉज़िटरी के About खंड](https://github.com/threapchills/MagicCarpetWizard) में बताया है कि गेम GPT-6 Astra से बनाया गया है।
   - विकास संसाधन: [स्रोत कोड और चलाने के निर्देश](https://github.com/threapchills/MagicCarpetWizard) · तकनीक: Three.js, Vite.
+  - पूर्वावलोकन: ![Magic Carpet Wizard — आरंभिक स्क्रीन](assets/screenshots/magic-carpet/gameplay.jpg)
 
 <a id="puzzles"></a>
 
@@ -70,6 +72,14 @@
   - प्लैटफ़ॉर्म: आधुनिक ब्राउज़र; रचनाकार डाउनलोड करने योग्य स्वतंत्र HTML संस्करण भी उपलब्ध कराते हैं।
   - GPT-6 Astra: [रचनाकार के एक ही अनुरोध से निर्माण के परीक्षण और मूल प्रॉम्प्ट](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - विकास संसाधन: [स्रोत कोड](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/melon-lab/src) · [स्वतंत्र HTML फ़ाइल](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/melon-lab/%E7%93%9C%E4%BD%93%E5%AE%9E%E9%AA%8C%E5%AE%A4.html)
+  - पूर्वावलोकन: ![Melon Lab — गेम स्क्रीन](assets/screenshots/melon-lab/gameplay.jpg)
+
+- **[榫境 / Sunjing Puzzles](https://sunjing-puzzles.hp20230404.chatgpt.site)** — छह लकड़ी के टुकड़ों वाली पहेली खोलने और हुआरोंग दाओ के दो बोर्ड हल करने की 3D कार्यशाला। संकेत और चाल वापस लेने की सुविधा उपलब्ध है।
+  - [MartinDelophy](https://github.com/MartinDelophy)
+  - WebGL 2 ब्राउज़र, चीनी इंटरफ़ेस, माउस/कीबोर्ड और स्पर्श नियंत्रण। निःशुल्क, लॉगिन नहीं; प्रगति ब्राउज़र में सहेजी जाती है।
+  - Codex के साथ कई चरणों में विकास; GPT-6 Astra का उपयोग निर्माता की पुष्टि की प्रतीक्षा में है। [Codex / GPT-6 Astra](works/sunjing-puzzles/CREATION.md)
+  - [स्रोत और चलाने के निर्देश](works/sunjing-puzzles/README.md) · React, Vinext/Vite, Three.js.
+  - पूर्वावलोकन: ![Sunjing Puzzles — गेम स्क्रीन](assets/screenshots/sunjing-puzzles/gameplay.jpg)
 
 <a id="strategy-simulation"></a>
 
@@ -123,6 +133,7 @@
   - प्लैटफ़ॉर्म: WebGL समर्थित आधुनिक ब्राउज़र; ऑनलाइन आज़माने के लिए शीर्षक पर क्लिक करें। मुफ़्त, लॉगिन या API कुंजी की ज़रूरत नहीं; स्वतंत्र HTML फ़ाइल ऑफ़लाइन भी चलती है। वैकल्पिक परिवेशी ध्वनि के लिए Web Audio आवश्यक है।
   - GPT-6 Astra: [निर्माण का रिकॉर्ड और मॉडल का योगदान](works/orbital-garden/README.md#模型与创作记录) — रचनाकार ने अवधारणा, कोड और पाठ के लिए GPT-6 Astra ultra का उपयोग किया और सहयोगी समीक्षा की; यह एक ही अनुरोध से निर्माण का परीक्षण नहीं है।
   - विकास संसाधन: [स्रोत कोड और चलाने के निर्देश](works/orbital-garden/README.md) · [स्वतंत्र HTML फ़ाइल](works/orbital-garden/index.html) · [Prompt](works/orbital-garden/PROMPT.md) · तकनीक: WebGL (बिना फ़्रेमवर्क), Web Audio, Canvas 2D.
+  - पूर्वावलोकन: ![ORBITAL GARDEN — गेम स्क्रीन](assets/screenshots/orbital-garden/gameplay.jpg)
 
 ## हर प्रविष्टि में क्या शामिल है
 

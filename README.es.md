@@ -22,7 +22,7 @@ Esta página es una traducción del [README en inglés](README.md). Consulta el 
 
 ## Empieza aquí
 
-Explora **6 juegos de navegador y 1 entorno interactivo de arte con partículas**: fusión de frutas deformables, vuelo con un solo botón, combates en alfombra mágica, defensa de una isla mediante una red eléctrica, carreras de karts en Bay Circuit, ciclismo costero con un pelícano y Orbital Garden. Haz clic en un título para abrir su demo o el código fuente con instrucciones de ejecución.
+Explora **7 juegos de navegador y 1 entorno interactivo de arte con partículas**: fusión de frutas deformables, vuelo con un solo botón, combates en alfombra mágica, defensa de una isla mediante una red eléctrica, carreras de karts en Bay Circuit, ciclismo costero con un pelícano y Orbital Garden. Haz clic en un título para abrir su demo o el código fuente con instrucciones de ejecución.
 
 Última comprobación: **2026-09-05**. Se han revisado las declaraciones de los creadores, los enlaces al código fuente y la disponibilidad de las demos. El uso del modelo se basa en lo declarado por los autores; no se han realizado pruebas de juego para esta lista.
 
@@ -52,12 +52,14 @@ Juegos de disparos, lucha, supervivencia, ritmo y cualquier propuesta que invite
   - Plataforma: Navegador, diseñado para móviles.
   - GPT-6 Astra: [Pruebas en una sola generación y prompts originales del creador](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - Recursos: [Código fuente](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/mosswing/src) · [HTML independiente](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/mosswing/mosswing.html)
+  - Vista previa: ![Mosswing — Pantalla de inicio](assets/screenshots/mosswing/gameplay.jpg)
 
 - **[Magic Carpet Wizard — A Thousand Skies](https://threapchills.github.io/MagicCarpetWizard/)** — Pilota una alfombra mágica por un mundo esférico, atraviesa aros, lanza hechizos y combate contra enemigos y jefes.
   - Creador: [threapchills](https://github.com/threapchills)
   - Plataforma: Navegador de escritorio con ratón y teclado; requiere WebGL 2.
   - GPT-6 Astra: El creador indica en la [sección About del repositorio](https://github.com/threapchills/MagicCarpetWizard) que el juego se hizo con GPT-6 Astra.
   - Recursos: [Código fuente e instrucciones de ejecución](https://github.com/threapchills/MagicCarpetWizard) · Tecnologías: Three.js, Vite.
+  - Vista previa: ![Magic Carpet Wizard — Pantalla de inicio](assets/screenshots/magic-carpet/gameplay.jpg)
 
 <a id="puzzles"></a>
 
@@ -70,6 +72,14 @@ Acertijos de lógica, desafíos de física, juegos de palabras y pequeños mecan
   - Plataforma: Navegador moderno; el creador también ofrece una versión HTML independiente para descargar.
   - GPT-6 Astra: [Pruebas en una sola generación y prompts originales del creador](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - Recursos: [Código fuente](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/melon-lab/src) · [HTML independiente](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/melon-lab/%E7%93%9C%E4%BD%93%E5%AE%9E%E9%AA%8C%E5%AE%A4.html)
+  - Vista previa: ![Melon Lab — Pantalla del juego](assets/screenshots/melon-lab/gameplay.jpg)
+
+- **[榫境 / Sunjing Puzzles](https://sunjing-puzzles.hp20230404.chatgpt.site)** — Un taller 3D para desmontar un rompecabezas de madera de seis piezas y resolver dos tableros de Huarong Dao, con pistas y opción de deshacer.
+  - [MartinDelophy](https://github.com/MartinDelophy)
+  - Navegador con WebGL 2, interfaz en chino, ratón/teclado y controles táctiles. Gratis, sin iniciar sesión; progreso guardado en el navegador.
+  - Desarrollo iterativo con Codex; el uso de GPT-6 Astra está pendiente de confirmación del creador. [Codex / GPT-6 Astra](works/sunjing-puzzles/CREATION.md)
+  - [Código e instrucciones](works/sunjing-puzzles/README.md) · React, Vinext/Vite, Three.js.
+  - Vista previa: ![Sunjing Puzzles — Pantalla del juego](assets/screenshots/sunjing-puzzles/gameplay.jpg)
 
 <a id="strategy-simulation"></a>
 
@@ -123,6 +133,7 @@ Mecánicas inusuales, competición en línea y experiencias cooperativas.
   - Plataforma: Navegador moderno con WebGL; haz clic en el título para probarlo en línea. Gratis, sin iniciar sesión ni usar una clave API; el HTML independiente también funciona sin conexión. El sonido ambiental opcional requiere Web Audio.
   - GPT-6 Astra: [Registro de creación y contribución del modelo](works/orbital-garden/README.md#模型与创作记录) — El creador utilizó GPT-6 Astra ultra para el concepto, el código y los textos, con revisión colaborativa; no fue una prueba en una sola generación.
   - Recursos: [Código fuente e instrucciones de ejecución](works/orbital-garden/README.md) · [HTML independiente](works/orbital-garden/index.html) · [Prompt](works/orbital-garden/PROMPT.md) · Tecnologías: WebGL nativo, Web Audio, Canvas 2D.
+  - Vista previa: ![ORBITAL GARDEN — Pantalla del juego](assets/screenshots/orbital-garden/gameplay.jpg)
 
 ## Qué incluye cada entrada
 
