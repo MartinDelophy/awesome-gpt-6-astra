@@ -2,7 +2,7 @@
 
 ## Attribution status
 
-Submitted through the authenticated [MartinDelophy](https://github.com/MartinDelophy) account. Exact GPT-6 Astra attribution is awaiting creator confirmation; this pull request remains a draft until that statement is resolved. The model's precise identity is not inferred from the destination repository name.
+Submitted through the authenticated [MartinDelophy](https://github.com/MartinDelophy) account. Exact GPT-6 Astra attribution is awaiting creator confirmation; the original attribution is not strengthened by this handling update. The model's precise identity is not inferred from the destination repository name.
 
 ## Workflow
 
@@ -22,4 +22,8 @@ No network multiplayer or friend-invitation service is implemented. No claim of 
 
 ## Validation
 
-Eight automated rule tests cover team allocation, absolute progress, finish crossing order, race timeout/DNF, scoring and drift release/cancellation. Browser checks exercised the lobby, racing and replay flows. The gameplay screenshot in this contribution was captured from the running game on September 7, 2026.
+Thirteen automated rule and handling tests cover team allocation, absolute progress, finish crossing order, race timeout/DNF, scoring and drift release/cancellation. Browser checks exercised the lobby, racing and replay flows. The gameplay screenshot in this contribution was captured from the running game on September 7, 2026.
+
+## Handling and release refinement — September 7, 2026
+
+After gameplay feedback, the project gained persistent drift/countersteer, progressive boost decay, a track-relative chase camera, world-space tyre effects, optional procedural audio, display settings and a static build with local Three.js dependencies. This iteration was requested through Product Design and validated in the in-app browser.

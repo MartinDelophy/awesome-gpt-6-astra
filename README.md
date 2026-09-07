@@ -88,7 +88,7 @@ Parkour, platform challenges, racing, and games built around movement and routes
 
 - **[APEX CLUB — Bay Kart Grand Prix](works/apex-club/README.md)** — Race three laps around Bay Circuit, choose from six karts, and charge corner-exit mini turbos to climb the solo rankings or score for a 4v4 team.
   - Creator: [MartinDelophy](https://github.com/MartinDelophy) (submitting account).
-  - Platform: Desktop browser with WebGL 2 and a keyboard; free, no login or API key. Requires a local HTTP server and Internet access for Three.js. Team races are local: one human and seven AI racers.
+  - Platform: Desktop browser with WebGL 2 and a keyboard; free, no login or API key. Runs from a local HTTP server or static host; Three.js is included locally. Team races are local: one human and seven AI racers.
   - Model participation: [Development record](works/apex-club/CREATION.md) — Iterative Codex work on gameplay, code, procedural visuals and tests; GPT-6 Astra attribution awaits creator confirmation.
   - Resources: [Source and setup](works/apex-club/README.md) · [Request and iteration summary](works/apex-club/PROMPTS.md) · Built with: JavaScript, Three.js.
   - Preview: ![APEX CLUB team race on Bay Circuit with nearby karts, lap progress, live team points and a minimap.](assets/screenshots/apex-club/gameplay.png)

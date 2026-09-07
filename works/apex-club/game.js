@@ -1,3 +1,6 @@
+import {stepHandling, DISTANCE_SCALE, DISPLAY_SPEED} from './driving-model.js';
+import {createRaceEffects} from './race-effects.js';
+import {createRaceAudio} from './race-audio.js';
 import {mountDriverStudio} from './driver-studio.js';
 import {craftDefs} from './kart-catalog.js';
 import {createRace, standings, advanceRacer, teamScores, shouldFinish, updateDrift, SCORE_TABLE, TEAM_COLORS} from './race-rules.js';
@@ -5,7 +8,6 @@ import * as THREE from 'three';
 import { EffectComposer } from 'three/addons/postprocessing/EffectComposer.js';
 import { RenderPass } from 'three/addons/postprocessing/RenderPass.js';
 import { UnrealBloomPass } from 'three/addons/postprocessing/UnrealBloomPass.js';
-import { AfterimagePass } from 'three/addons/postprocessing/AfterimagePass.js';
 import { OutputPass } from 'three/addons/postprocessing/OutputPass.js';
 
 const clamp = THREE.MathUtils.clamp;
@@ -20,15 +22,14 @@ renderer.setPixelRatio(Math.min(devicePixelRatio, 1.8));
 renderer.setSize(innerWidth, innerHeight);
 renderer.outputColorSpace = THREE.SRGBColorSpace;
 renderer.toneMapping = THREE.ACESFilmicToneMapping;
-renderer.toneMappingExposure = 1.05;
+renderer.toneMappingExposure = .94;
 document.body.prepend(renderer.domElement);
 
 const composer = new EffectComposer(renderer);
 composer.addPass(new RenderPass(scene,camera));
 const bloom = new UnrealBloomPass(new THREE.Vector2(innerWidth,innerHeight), 0.38, 0.35, 0.85);
 composer.addPass(bloom);
-const after = new AfterimagePass(0.0);
-composer.addPass(after);
+
 composer.addPass(new OutputPass());
 
 const world = new THREE.Group(); scene.add(world);
@@ -36,10 +37,13 @@ const up = new THREE.Vector3(0,1,0);
 const clock = new THREE.Clock();
 const keys = new Set();
 const actions=new Set();
+let driftLatched=false,lastSteer=0;
+const audio=createRaceAudio();
+let reducedMotion=matchMedia('(prefers-reduced-motion: reduce)').matches;
 let helpOpen=false,simulationTime=0,race=null,selectedMode='team',selectedTeam='blue';
 function toggleControls(open=!helpOpen){
   if(!race || race.phase==='finished')return;
-  helpOpen=open;keys.clear();actions.clear();document.querySelector('#controlsPanel').hidden=!open;
+  helpOpen=open;keys.clear();actions.clear();driftLatched=false;document.querySelector('#controlsPanel').hidden=!open;
   document.querySelector('#controlsToggle').setAttribute('aria-expanded',String(open));
   if(open)document.querySelector('#startDriving').focus();else renderer.domElement.focus();
 }
@@ -48,22 +52,29 @@ renderer.domElement.setAttribute('aria-label','3D kart racing. WASD to drive, SP
 document.querySelector('#controlsToggle').addEventListener('click',()=>toggleControls());
 document.querySelector('#startDriving').addEventListener('click',()=>toggleControls(false));
 addEventListener('keydown', e => {
-  if(e.code==='KeyH'&&!e.repeat){toggleControls();return;}
+  if(e.code==='Tab'&&(helpOpen||race?.phase==='finished')){
+    const dialog=document.querySelector(helpOpen?'#controlsPanel':'#results');
+    const buttons=[...dialog.querySelectorAll('button')];const i=buttons.indexOf(document.activeElement);
+    e.preventDefault();buttons[(i+(e.shiftKey?-1:1)+buttons.length)%buttons.length].focus();return;
+  }
+  if((e.code==='KeyH'||e.code==='Escape')&&!e.repeat){toggleControls();return;}
   if(helpOpen||!race||race.phase!=='racing')return;
+  if(['KeyA','ArrowLeft'].includes(e.code))lastSteer=-1;
+  if(['KeyD','ArrowRight'].includes(e.code))lastSteer=1;
+  if(e.code==='Space'&&!e.repeat&&document.querySelector('#toggleDrift').checked)driftLatched=!driftLatched;
   if(!e.repeat&&['KeyQ','KeyR','ShiftLeft','ShiftRight'].includes(e.code))actions.add(e.code);
   if(['Space','ArrowUp','ArrowDown','ArrowLeft','ArrowRight'].includes(e.code))e.preventDefault();keys.add(e.code);
 });
 addEventListener('keyup',e=>keys.delete(e.code));
 addEventListener('blur',()=>{keys.clear();actions.clear();if(race?.phase==='racing')toggleControls(true);});
 
-// ===== Setting: THE VOID CATHEDRAL =====
-// A megastructure hanging above an impossible ocean of luminous storm clouds.
+// Bay Circuit: a closed coastal course with gentle elevation changes.
 const points = [];
 const N=26;
 for(let i=0;i<N;i++){
   const a=i/N*Math.PI*2;
   const r=950 + Math.sin(a*3)*210 + Math.cos(a*5)*80;
-  const y=150 + Math.sin(a*2)*85 + Math.sin(a*5+1.2)*42;
+  const y=150 + Math.sin(a*2)*35 + Math.sin(a*5+1.2)*12;
   points.push(new THREE.Vector3(Math.cos(a)*r, y, Math.sin(a)*r*0.78));
 }
 const curve = new THREE.CatmullRomCurve3(points,true,'catmullrom',0.35);
@@ -242,16 +253,18 @@ function configureKart(kart,definition){
 }
 function animateCraft(craft,time,power,boosting=false,drifting=false,steer=0){
   craft.userData.engines.forEach((flame,i)=>{
-    const length=(boosting?15:1.3+power*2)*(1+Math.sin(time*39+i)*.07);
+    const length=(boosting?24:1+power*1.4)*(1+Math.sin(time*39+i)*.07);
     flame.scale.set(boosting?1.5:1,length,boosting?1.5:1);flame.position.z=-7.8-length*.5;
+    flame.material.uniforms.tint.value.setHex(craft===player&&state.miniTurbo>0&&state.nitro<=0?0xffad42:0x43cfff);
     flame.material.uniforms.time.value=time;flame.material.uniforms.power.value=power;
   });
   craft.userData.wheels.forEach(w=>{w.hub.rotation.y=w.front?-steer*.35:0;w.tire.rotation.x=time*power*18;});
 }
 const player=makeCraft(craftDefs[craftIndex].color,1); scene.add(player);
 
-const state={t:0,lane:0,laneVel:0,speed:0,boost:1/3,shield:1,weapon:1,lap:1,rank:1,hit:0,bank:0,miniTurbo:0,nitro:0,drift:{active:false,charge:0,direction:0}};
+const state={yaw:0,hop:0,t:0,lane:0,laneVel:0,speed:0,boost:1/3,shield:1,weapon:1,lap:1,rank:1,hit:0,bank:0,miniTurbo:0,nitro:0,drift:{active:false,charge:0,direction:0}};
 
+const raceEffects=createRaceEffects(scene);
 const ai=[];
 for(let i=0;i<7;i++){
   const def=craftDefs[i%craftDefs.length]; const mesh=makeCraft(def.color,.9);configureKart(mesh,def);scene.add(mesh);
@@ -278,7 +291,7 @@ scene.add(streaks);
 function updateSpeedFX(time,meta){
   const power=clamp((state.speed-340)/520,0,1);
   streaks.position.copy(camera.position);streaks.quaternion.copy(camera.quaternion);
-  streaks.material.opacity=power*(meta.boosting?.32:.13);
+  streaks.material.opacity=reducedMotion?0:power*(meta.boosting?.6:.06);
   for(let i=0;i<streakCount;i++){
     const a=i*2.39996,r=13+(i%7)*3,z=-10-((i*7.13-time*(38+power*130))%140+140)%140;
     streakPositions.set([Math.cos(a)*r,Math.sin(a)*r,z,Math.cos(a)*r,Math.sin(a)*r,z+2+power*12],i*6);
@@ -299,20 +312,20 @@ function setCraft(i){
   document.querySelector('#craftName').textContent=d.name;
   document.querySelector('#kartTitle').textContent=`${d.name} / ${d.title}`;
   document.querySelector('#kartDescription').textContent=d.description;
-  const stats=[['Speed',d.max,650,`${Math.round(d.max*1.45)} KM/H`],['Accel.',d.accel,300,`${Math.round(d.accel/210*100)}%`],['Handling',d.turn,1.5,`${Math.round(d.turn*100)}%`],['Drift',d.drift,1.5,`${Math.round(d.drift*100)}%`]];
+  const stats=[['Speed',d.max,650,`${Math.round(d.max*DISPLAY_SPEED)} KM/H`],['Accel.',d.accel,300,`${Math.round(d.accel/210*100)}%`],['Handling',d.turn,1.5,`${Math.round(d.turn*100)}%`],['Drift',d.drift,1.5,`${Math.round(d.drift*100)}%`]];
   document.querySelector('#kartStats').innerHTML=stats.map(([label,value,max,text])=>`<div class="kart-stat"><span>${label}</span><i><b style="width:${Math.min(100,value/max*100)}%"></b></i><strong>${text}</strong></div>`).join('');
 }
 function reset(){
-  keys.clear();actions.clear();helpOpen=false;simulationTime=0;cameraReady=false;qWas=false;
+  audio.start();raceEffects.reset();driftLatched=false;lastSteer=0;keys.clear();actions.clear();helpOpen=false;simulationTime=0;cameraReady=false;qWas=false;
   race=createRace(selectedMode,selectedTeam);
   msg.textContent='';msg.style.opacity=0;
-  Object.assign(state,{t:(race.racers[0].progress+1)%1,lane:race.racers[0].lane,laneVel:0,speed:0,boost:1/3,shield:1,weapon:1,lap:1,rank:1,hit:0,bank:0,miniTurbo:0,nitro:0,drift:{active:false,charge:0,direction:0}});
+  Object.assign(state,{yaw:0,hop:0,t:(race.racers[0].progress+1)%1,lane:race.racers[0].lane,laneVel:0,speed:0,boost:1/3,shield:1,weapon:1,lap:1,rank:1,hit:0,bank:0,miniTurbo:0,nitro:0,drift:{active:false,charge:0,direction:0}});
   ai.forEach((a,i)=>{const r=race.racers[i+1];a.t=(r.progress+1)%1;a.lane=r.lane;a.speed=0;a.stun=0;a.target=525+i*10;colorKart(a.mesh,selectedMode==='team'?TEAM_COLORS[r.team]:craftDefs[i%craftDefs.length].color);});
   colorKart(player,selectedMode==='team'?TEAM_COLORS[selectedTeam]:craftDefs[craftIndex].color);
   pickups.forEach(p=>{p.active=true;p.m.visible=true;p.respawn=0;});
   document.querySelector('#lobby').hidden=true;document.querySelector('#results').hidden=true;document.querySelector('#controlsPanel').hidden=true;
   document.body.classList.add('in-race');document.querySelector('#countdown').hidden=false;
-  document.querySelector('#modeLabel').textContent=selectedMode==='team'?'4V4 TEAM RACE':'8-PLAYER SOLO RACE';
+  document.querySelector('#modeLabel').textContent=selectedMode==='team'?'4V4 AI TEAM RACE':'SOLO / 7 AI RIVALS';
   document.querySelector('#teamScore').hidden=selectedMode!=='team';
   renderer.domElement.focus();
 }
@@ -322,35 +335,30 @@ function updatePlayer(dt,time){
   const throttle=racing&&(document.querySelector('#autoThrottle').checked||keys.has('KeyW')||keys.has('ArrowUp'));
   const brake=racing&&(keys.has('KeyS')||keys.has('ArrowDown'));
   const steer=racing?Number(keys.has('KeyD')||keys.has('ArrowRight'))-Number(keys.has('KeyA')||keys.has('ArrowLeft')):0;
-  const air=racing&&keys.has('Space');
+  const toggleDrift=document.querySelector('#toggleDrift').checked;
+  const air=racing&&(toggleDrift?driftLatched:keys.has('Space'));
+  const driftSteer=steer||(!state.drift.active&&toggleDrift?lastSteer:0);
   if(racing&&(actions.has('ShiftLeft')||actions.has('ShiftRight'))&&state.boost>=.333&&state.nitro<=0){state.boost=Math.max(0,state.boost-1/3);state.nitro=2.1;ping('NITRO ENGAGED','#69cfff');}
   state.nitro=Math.max(0,state.nitro-dt);state.miniTurbo=Math.max(0,state.miniTurbo-dt);
-  const boosted=state.nitro>0||state.miniTurbo>0;
+  let boosted=state.nitro>0||state.miniTurbo>0;
   const f=trackFrame(state.t),future=trackFrame(state.t+.015);
   const turn=f.tan.clone().cross(future.tan).dot(f.normal);
-  const blocked=Math.abs(state.lane)>31;
-  const reward=updateDrift(state.drift,{held:air,steer,speed:state.speed,turn,blocked},dt*d.drift);
-  if(reward){state.miniTurbo=reward;state.boost=Math.min(1,state.boost+(reward>1?.34:.17));ping(reward>1?'SUPER MINI TURBO':'MINI TURBO','#ffce73');}
+  const blocked=Math.abs(state.lane)>32.8&&(-driftSteer*state.lane>0||state.laneVel*state.lane>0);
+  const wasDrifting=state.drift.active;
+  const reward=updateDrift(state.drift,{held:air,steer:driftSteer,speed:state.speed,turn,blocked},dt*d.drift);
+  if(!wasDrifting&&state.drift.active)state.hop=.24;
+  if(reward){boosted=true;state.miniTurbo=reward;state.boost=Math.min(1,state.boost+(reward>1?.34:.17));ping(reward>1?'SUPER MINI TURBO':'MINI TURBO','#ffce73');}
   if(racing){
-    if(throttle&&!brake)state.speed+=d.accel*dt;else state.speed-=75*dt;
-    if(brake)state.speed-=250*dt;
-    if(state.drift.active)state.speed-=45*dt;
-    if(boosted)state.speed+=340*dt;
-    state.speed=clamp(state.speed,0,d.max*(boosted?1.32:1));
-    // Lateral slip persists during a drift; countersteering arrests it.
-    state.laneVel-=steer*(state.drift.active?100:155)*d.turn*dt;
-    state.laneVel*=Math.exp(-(state.drift.active?2.7:6.8)*dt);
-    state.lane+=state.laneVel*dt;
-    if(Math.abs(state.lane)>33){state.lane=clamp(state.lane,-33,33);state.laneVel*=-.3;state.speed*=Math.exp(-1.8*dt);state.hit=.18;state.drift.charge=0;}
-    const oldLap=state.lap;advanceRacer(race,r,state.speed/trackLength*dt,dt);
+    stepHandling(state,{steer,throttle,brake,boosting:boosted},d,dt);
+    const oldLap=state.lap;advanceRacer(race,r,state.speed*DISTANCE_SCALE/trackLength*dt,dt);
     state.t=((r.progress%1)+1)%1;state.lap=clamp(Math.floor(Math.max(0,r.progress))+1,1,3);r.lane=state.lane;r.speed=state.speed;
     if(state.lap>oldLap)ping(state.lap===3?'FINAL LAP':'LAP 2','#fff0b3');
     if(r.finishTime!==null){state.speed=0;ping('FINISH / WAITING FOR RACERS','#fff0b3');}
   }
   if(r?.finishTime!==null&&r?.finishTime!==undefined){state.t=((race.elapsed-r.finishTime)*220/trackLength)%1;state.speed=220;}
   const frame=trackFrame(state.t);
-  player.position.copy(frame.p).addScaledVector(frame.side,state.lane).addScaledVector(frame.normal,3.7+Math.sin(time*13)*.07);
-  const yaw=state.drift.active?state.drift.direction*.48:-state.laneVel*.006;
+  player.position.copy(frame.p).addScaledVector(frame.side,state.lane).addScaledVector(frame.normal,3.7+Math.sin(state.hop/.24*Math.PI)*1.4);
+  const yaw=state.yaw;
   state.bank=lerp(state.bank,-steer*.07,1-Math.exp(-8*dt));
   const q=new THREE.Quaternion().setFromRotationMatrix(new THREE.Matrix4().makeBasis(frame.side.clone().negate(),frame.normal,frame.tan));
   q.multiply(new THREE.Quaternion().setFromEuler(new THREE.Euler(0,yaw,state.bank)));
@@ -367,7 +375,7 @@ function updateAI(dt,time){
       const gap=race.racers[0].progress-r.progress;
       const target=a.target+clamp(gap*80,-30,35)+Math.sin(time*.5+i)*22;
       a.speed=lerp(a.speed,a.stun?190:target,1-Math.exp(-.8*dt));
-      advanceRacer(race,r,a.speed/trackLength*dt,dt);a.t=((r.progress%1)+1)%1;
+      advanceRacer(race,r,a.speed*DISTANCE_SCALE/trackLength*dt,dt);a.t=((r.progress%1)+1)%1;
       a.lane=lerp(a.lane,Math.sin(time*.55+i*2.1)*24,dt*1.5);r.lane=a.lane;r.speed=a.speed;
       const near=Math.abs(r.progress-race.racers[0].progress)<.0025;
       if(near&&Math.abs(a.lane-state.lane)<10&&state.hit===0&&race.racers[0].finishTime===null){
@@ -389,7 +397,7 @@ function updateCombat(dt){
   if(q&&!qWas&&state.weapon>.34){
     state.weapon-=.34; ping('EMP BURST','#ff3d81');
     for(const a of ai){let td=Math.abs(a.t-state.t);td=Math.min(td,1-td);if(td<.026&&(race.mode!=='team'||race.racers[ai.indexOf(a)+1].team!==race.team))a.stun=1.1;}
-    flash.style.background='#ff3d81';flash.style.opacity=.38;setTimeout(()=>{flash.style.opacity=0;flash.style.background='white'},70);
+    flash.style.background='#ff3d81';flash.style.opacity=.08;setTimeout(()=>{flash.style.opacity=0;flash.style.background='white'},70);
   }
   qWas=q; state.weapon=Math.min(1,state.weapon+.018*dt);
 }
@@ -411,24 +419,24 @@ function updatePickups(dt,time){
 let cameraReady=false;
 function updateCamera(dt,meta){
   const f=meta.f;
-  const speedN=clamp((state.speed-200)/600,0,1);
-  const desired=player.position.clone().addScaledVector(f.tan,-34-speedN*12).addScaledVector(f.normal,16+speedN*2).addScaledVector(f.side,state.bank*-8);
-  const shake=meta.boosting?.3:state.hit?.5:.04;
+  const speedN=clamp(state.speed/650,0,1);
+  const desired=player.position.clone().addScaledVector(f.tan,-61-speedN*7).addScaledVector(f.normal,27+speedN*2).addScaledVector(f.side,state.yaw*7);
+  const shake=reducedMotion?0:state.hit?.45:0;
   desired.x+=(Math.random()-.5)*shake*speedN; desired.y+=(Math.random()-.5)*shake*speedN; desired.z+=(Math.random()-.5)*shake*speedN;
   if(!cameraReady){camera.position.copy(desired);cameraReady=true;}
-  camera.position.lerp(desired,1-Math.pow(.0009,dt));
-  const look=player.position.clone().addScaledVector(f.tan,30+speedN*30).addScaledVector(f.side,state.laneVel*.07);
+  // Track-relative chase placement prevents cornering lag from pushing the kart off screen.
+  camera.position.copy(desired);
+  const look=player.position.clone().addScaledVector(f.tan,23+speedN*14).addScaledVector(f.side,state.laneVel*.07);
   camera.up.copy(f.normal).applyAxisAngle(f.tan,state.bank*.1).normalize();
   camera.lookAt(look);
   chaseLight.position.copy(camera.position).addScaledVector(f.normal,20);chaseLight.target.position.copy(player.position);
-  camera.fov=lerp(camera.fov,62+speedN*12+(meta.boosting?5:0),1-Math.pow(.002,dt));camera.updateProjectionMatrix();
-  after.uniforms['damp'].value=meta.boosting?.35:0;
-  bloom.strength=.32+speedN*.10+(meta.boosting?.12:0);
+  camera.fov=lerp(camera.fov,60+(reducedMotion?0:speedN*4+(meta.boosting?8:0)),1-Math.pow(.002,dt));camera.updateProjectionMatrix();
+  bloom.strength=.22+(meta.boosting?.08:0);
   document.body.classList.toggle('boosting',meta.boosting);
 }
 
 function updateHUD(){
-  document.querySelector('#speed').innerHTML=`${String(Math.round(state.speed*1.45)).padStart(3,'0')} <small>KM/H</small>`;
+  document.querySelector('#speed').innerHTML=`${String(Math.round(state.speed*DISPLAY_SPEED)).padStart(3,'0')} <small>KM/H</small>`;
   document.querySelector('#sector').textContent=`${String(race?.phase==='countdown'?1:Math.floor(state.t*6)+1).padStart(2,'0')} / 06`;
   document.querySelector('#lap').textContent=`${state.lap} / 3`;
   document.querySelector('#rank').innerHTML=`${state.rank}<span> / 8</span>`;
@@ -490,15 +498,6 @@ for(let i=0;i<34;i++){
   board.position.copy(f.p).addScaledVector(f.side,turn>0?49:-49).addScaledVector(f.normal,11);
   board.quaternion.setFromRotationMatrix(new THREE.Matrix4().makeBasis(f.side.clone().negate(),f.normal,f.tan));scene.add(board);
 }
-const sparkArray=new Float32Array(64*6),sparkGeo=new THREE.BufferGeometry();sparkGeo.setAttribute('position',new THREE.BufferAttribute(sparkArray,3));
-const sparks=new THREE.LineSegments(sparkGeo,new THREE.LineBasicMaterial({color:0x6ceaff,transparent:true,opacity:.9,depthWrite:false}));sparks.frustumCulled=false;player.add(sparks);
-function updateDriftFX(time,meta){
-  sparks.visible=meta.air&&state.drift.charge>0;sparks.material.color.setHex(state.drift.charge>.78?0xffb23f:0x65dfff);
-  for(let i=0;i<64;i++){
-    const age=((i*.173+time*2.3)%1),side=i%2?1:-1,x=side*(5.5+age*5),z=-4-age*22,y=-2.8+Math.sin(i*8)*age*2;
-    sparkArray.set([x,y,z,x+side*.5,y+.25,z-1.3-age*2],i*6);
-  }sparkGeo.attributes.position.needsUpdate=true;
-}
 const rivalLabels=document.createElement('div');rivalLabels.id='rivalLabels';document.querySelector('.race-ui').append(rivalLabels);
 const nameTags=ai.map(()=>{const el=document.createElement('div');el.className='rival-tag';rivalLabels.append(el);return el;});
 const mapDots=ai.map(()=>{const circle=document.createElementNS('http://www.w3.org/2000/svg','circle');circle.setAttribute('r','2.7');document.querySelector('#mapRivals').append(circle);return circle;});
@@ -508,9 +507,11 @@ function updateRaceHUD(){
   document.body.classList.toggle('drifting',state.drift.active);document.body.classList.toggle('charged',state.drift.charge>.78);
   document.querySelector('#boostValue').textContent=`${Math.floor(state.boost*3+.01)} / 3`;
   document.querySelector('#driftFill').style.width=`${state.drift.charge*100}%`;
-  document.querySelector('#driftPercent').textContent=`${Math.round(state.drift.charge*100)}%`;
-  document.querySelector('#driftLabel').textContent=state.miniTurbo>0?'MINI TURBO!':state.drift.active?'DRIFT / CHARGING':'CORNER + SPACE + STEER → DRIFT';
-  document.querySelector('#driftHint').textContent=state.drift.charge>.78?'Super turbo ready · Release SPACE':state.drift.charge>.32?'Turbo ready · Keep charging to upgrade':'Charge, then release SPACE for a mini turbo.';
+  document.querySelector('#driftPercent').textContent=state.nitro>0?`${state.nitro.toFixed(1)}s`:state.miniTurbo>0?`${state.miniTurbo.toFixed(1)}s`:`${Math.round(state.drift.charge*100)}%`;
+  document.querySelector('#boostCountdown').style.transform=`scaleX(${state.nitro>0?state.nitro/2.1:state.miniTurbo/1.5})`;
+  document.querySelector('#boostTitle').textContent=state.nitro>0?'NITRO':state.miniTurbo>0?'MINI TURBO':'TURBO';
+  document.querySelector('#driftLabel').textContent=state.nitro>0?'NITRO BOOST':state.miniTurbo>0?'MINI TURBO':state.drift.active?(state.drift.charge>=.78?'SUPER TURBO READY':state.drift.charge>=.32?'TURBO READY':'DRIFT / CHARGING'):'HOLD SPACE + STEER';
+  document.querySelector('#driftHint').textContent=state.drift.charge>.78?(document.querySelector('#toggleDrift').checked?'Super turbo ready · Tap SPACE':'Super turbo ready · Release SPACE'):state.drift.charge>.32?'Turbo ready · Keep charging to upgrade':(document.querySelector('#toggleDrift').checked?'Tap SPACE again to release boost':'Hold SPACE to slide · Release to boost');
   if(Math.abs(race.elapsed-lastRaceUI)<.1&&race.phase==='racing')return;lastRaceUI=race.elapsed;
   const ordered=standings(race),scores=teamScores(race);
   document.querySelector('#blueScore').textContent=scores.blue;document.querySelector('#redScore').textContent=scores.red;
@@ -526,7 +527,7 @@ function updateRaceHUD(){
 }
 
 function finishRace(){
-  race.phase='finished';keys.clear();actions.clear();document.querySelector('#results').hidden=false;
+  race.phase='finished';keys.clear();actions.clear();document.querySelector('#results').hidden=false;document.querySelector('#raceAgain').focus();
   const scores=teamScores(race,true),ordered=standings(race);
   const winner=scores.blue===scores.red?'DRAW':scores.blue>scores.red?'BLUE TEAM WINS':'RED TEAM WINS';
   document.querySelector('#resultTitle').textContent=race.mode==='team'?winner:ordered[0].id===0?'YOU WIN!':'Race complete';
@@ -534,15 +535,15 @@ function finishRace(){
   document.querySelector('#resultRows').innerHTML=ordered.map((r,i)=>`<tr class="${r.id===0?'you':''}"><td>${String(i+1).padStart(2,'0')}</td><td><i class="team-dot ${race.mode==='team'?r.team:'solo'}"></i>${r.name}${r.id===0?' / YOU':' / AI'}</td><td>${r.finishTime===null?'DNF':formatTime(r.finishTime)}</td><td>${r.finishTime===null?0:SCORE_TABLE[i]}</td></tr>`).join('');
 }
 function formatTime(t){return `${Math.floor(t/60).toString().padStart(2,'0')}:${(t%60).toFixed(2).padStart(5,'0')}`;}
-function returnLobby(){race=null;helpOpen=false;keys.clear();actions.clear();document.querySelector('#lobby').hidden=false;document.querySelector('#results').hidden=true;document.querySelector('#controlsPanel').hidden=true;document.body.classList.remove('in-race','boosting','drifting','charged');sparks.visible=false;streaks.material.opacity=0;setCraft(craftIndex);}
+function returnLobby(){race=null;helpOpen=false;keys.clear();actions.clear();document.querySelector('#lobby').hidden=false;document.querySelector('#results').hidden=true;document.querySelector('#controlsPanel').hidden=true;document.body.classList.remove('in-race','boosting','drifting','charged');raceEffects.reset();streaks.material.opacity=0;setCraft(craftIndex);document.querySelector('#raceStart').focus();}
 document.querySelector('#raceStart').addEventListener('click',reset);
 document.querySelector('#raceAgain').addEventListener('click',reset);
 document.querySelectorAll('[data-lobby]').forEach(el=>el.addEventListener('click',returnLobby));
 document.querySelectorAll('[data-mode]').forEach(el=>el.addEventListener('click',()=>{selectedMode=el.dataset.mode;document.querySelectorAll('[data-mode]').forEach(b=>{b.classList.toggle('active',b===el);b.setAttribute('aria-pressed',String(b===el));});document.querySelector('#teamChoice').hidden=selectedMode!=='team';setCraft(craftIndex);}));
 document.querySelectorAll('[data-team]').forEach(el=>el.addEventListener('click',()=>{selectedTeam=el.dataset.team;document.querySelectorAll('[data-team]').forEach(b=>{b.classList.toggle('active',b===el);b.setAttribute('aria-pressed',String(b===el));});setCraft(craftIndex);}));
 function loop(){
-  requestAnimationFrame(loop);const elapsed=Math.min(clock.getDelta(),.05);
-  if(helpOpen){composer.render();return;}
+  requestAnimationFrame(loop);const elapsed=Math.min(clock.getDelta(),.08);
+  if(document.hidden||helpOpen){audio.update(0,false,false,false);return;}
   let dt=0;
   if(race?.phase==='countdown'){
     race.countdown-=elapsed;document.querySelector('#countdown').textContent=race.countdown>0?Math.ceil(race.countdown):'GO!';
@@ -553,19 +554,35 @@ function loop(){
   }
   const time=simulationTime;
   if(!race){
+    audio.update(0,false,false,false);
     const f=trackFrame(0);player.position.copy(f.p).addScaledVector(f.normal,3.7);
     player.quaternion.setFromRotationMatrix(new THREE.Matrix4().makeBasis(f.side.clone().negate(),f.normal,f.tan));
     camera.position.copy(player.position).addScaledVector(f.tan,-28).addScaledVector(f.normal,17).addScaledVector(f.side,-22);
     camera.up.copy(f.normal);camera.lookAt(player.position);chaseLight.position.copy(camera.position);chaseLight.target.position.copy(player.position);
   }else{
-    const meta=updatePlayer(dt,time);updateAI(dt,time);
+    let meta;const steps=Math.max(1,Math.ceil(dt/(1/120))),step=dt/steps;
+    race.elapsed-=dt;
+    for(let i=0;i<steps;i++){race.elapsed+=step;meta=updatePlayer(step,race.elapsed);updateAI(step,race.elapsed);actions.delete('ShiftLeft');actions.delete('ShiftRight');}
+    audio.update(state.speed/650,state.drift.active,meta.boosting,race.phase==='racing'&&race.racers[0].finishTime===null);
     if(dt>0&&race.racers[0].finishTime===null){updatePickups(dt,time);updateCombat(dt);}
-    updateCamera(elapsed,meta);updateSpeedFX(time,meta);updateHUD();updateRaceHUD();updateDriftFX(time,meta);
+    updateCamera(elapsed,meta);updateSpeedFX(time,meta);updateHUD();updateRaceHUD();raceEffects.update(dt,player,state,meta.f,meta.boosting);
     if(race.phase==='racing'&&shouldFinish(race))finishRace();
   }
   actions.clear();trackMat.uniforms.time.value=time;sea.material.uniforms.time.value=time*.15;composer.render();
 }
 mountDriverStudio(document.querySelector('#driverStudio'),()=>!race);
+document.querySelector('#motionSetting').checked=reducedMotion;
+function saveSettings(){try{localStorage.setItem('apex-settings',JSON.stringify({toggleDrift:document.querySelector('#toggleDrift').checked,motion:reducedMotion,audio:document.querySelector('#audioSetting').checked,quality:document.querySelector('#qualitySetting').value}));}catch{}}
+function applyQuality(){const low=document.querySelector('#qualitySetting').value==='performance';renderer.setPixelRatio(Math.min(devicePixelRatio,low?1:1.6));renderer.setSize(innerWidth,innerHeight);composer.setPixelRatio(renderer.getPixelRatio());composer.setSize(innerWidth,innerHeight);bloom.enabled=!low;saveSettings();}
+try{const saved=JSON.parse(localStorage.getItem('apex-settings')||'null');if(saved){document.querySelector('#toggleDrift').checked=!!saved.toggleDrift;reducedMotion=!!saved.motion;document.querySelector('#motionSetting').checked=reducedMotion;document.querySelector('#audioSetting').checked=saved.audio!==false;document.querySelector('#qualitySetting').value=saved.quality==='performance'?'performance':'quality';}}catch{}
+audio.setEnabled(document.querySelector('#audioSetting').checked);
+document.querySelector('#toggleDrift').addEventListener('change',saveSettings);
+document.querySelector('#audioSetting').addEventListener('change',e=>{audio.setEnabled(e.target.checked);saveSettings();});
+document.querySelector('#motionSetting').addEventListener('change',e=>{reducedMotion=e.target.checked;saveSettings();});
+document.querySelector('#qualitySetting').addEventListener('change',applyQuality);
+applyQuality();
+renderer.domElement.addEventListener('webglcontextlost',e=>{e.preventDefault();toggleControls(true);document.querySelector('#runtimeError').hidden=false;});
+document.addEventListener('visibilitychange',()=>{if(document.hidden&&race?.phase==='racing')toggleControls(true);});
 setCraft(craftIndex);
 loop();
 

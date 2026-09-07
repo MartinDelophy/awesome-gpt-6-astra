@@ -4,13 +4,13 @@ A browser-based Three.js arcade kart racer with a race lobby, 3-lap races, solo 
 
 ## Run
 
-From this directory (`works/apex-club` in the collection):
+Run these commands from `works/apex-club`. If serving the collection root, open `/works/apex-club/`.
 
 ```sh
 python3 -m http.server 8080
 ```
 
-Open http://localhost:8080. Internet access is required to load Three.js 0.179.1 from jsDelivr.
+Open http://localhost:8080. Three.js 0.179.1 is included locally under `vendor/three`; the game has no runtime CDN dependency.
 
 ## Race modes
 
@@ -27,7 +27,7 @@ Open http://localhost:8080. Internet access is required to load Three.js 0.179.1
 - Automatic acceleration is enabled by default and can be disabled in the lobby.
 - W / Up: accelerate; S / Down: brake (also overrides automatic acceleration).
 - A / D or Left / Right: steer.
-- **Space + direction while cornering:** drift above the minimum speed. Charge grows while maintaining the drift; wall contact cancels charge.
+- **Space + direction at speed:** start a drift. Keep Space held to maintain the slide, including while countersteering or briefly straightening. Release Space to convert charge into a mini turbo; wall contact cancels charge.
 - Release Space at 32% charge for a short mini turbo or 78% for a super mini turbo. Drifting also refills the nitro reservoir.
 - Shift (either side): consume one nitro unit for a 2.1-second boost. Up to 3 units can be stored.
 - Q: EMP affects nearby opponents, excluding teammates in team mode.
@@ -44,7 +44,7 @@ Procedural 3D karts with painted bodywork, drivers, helmets, wheels and rear win
 
 ```sh
 node --check game.js
-node --test tests/race-rules.test.mjs
+npm test
 ```
 
 Tests cover 4v4 allocation, absolute lap progress, finish crossing order, DNF timeout, scoring, charged-drift release and wall cancellation.
@@ -53,20 +53,31 @@ Tests cover 4v4 allocation, absolute lap progress, finish crossing order, DNF ti
 
 The lobby includes an articulated helmeted 3D driver with a fitted racing suit, gloves, boots, reflective visor, studio lighting and contact shadows. Stand, Dance (Street Groove), and Victory animations blend between connected limb poses. Drag the avatar or focus its canvas and use Left/Right to rotate. Animations blend smoothly between poses and stop rendering during races or while the browser tab is hidden. Character geometry and animation are generated locally; no external character files are required.
 
-## Requirements
+## Release build
 
-Use a modern desktop browser with WebGL 2 and a keyboard. Python 3 is sufficient to serve the game; Node.js 18+ is only needed for the rule tests. No build step, account or API key is required. Serve over HTTP instead of opening `index.html` as a local file. If serving the collection repository root, open `/works/apex-club/`.
+```sh
+npm run build
+```
 
-## Development record
+Publish the contents of `dist/` to a static HTTPS host. There is no server, database, login or API key. The build adds a content revision to local JavaScript and CSS URLs to prevent stale modules after an update. The included `_headers` file sets conservative response headers on hosts that support it; configure equivalent headers elsewhere. Do not publish the project root, test artifacts or `output/`.
 
-See [CREATION.md](CREATION.md) for the workflow and [PROMPTS.md](PROMPTS.md) for a summary of the requested iterations.
+The supported game platform is a modern desktop browser with WebGL 2 and a keyboard. Phone touch controls and online multiplayer are not included. Resize support does not imply mobile gameplay support.
+
+## Handling and accessibility
+
+- Drift starts with a small hop, progressive yaw and tyre slip; countersteer adjusts the line without instantly reversing the slide.
+- World-space tyre marks, smoke and sparks show the path of a drift. Blue charge upgrades to orange at the super-turbo threshold.
+- Nitro and mini turbos use exhaust, a duration meter and controlled field-of-view changes. Excess speed decays gradually when boost expires.
+- `Sound & display` contains optional procedural engine, tyre and boost audio; reduced camera motion; a lower-cost graphics mode; and a toggle drift key option. With toggle drift enabled, steer once to choose a direction, then tap Space to start and tap again to release.
+- H or Escape pauses; losing window focus or hiding the tab pauses active racing. A startup error screen handles unsupported graphics or failed module loading.
+- Thirteen automated tests cover racing and handling, including countersteer, boost decay, collision cancellation and frame-rate consistency.
+
+## Third-party notice
+
+Three.js 0.179.1 is distributed under the MIT license. The required runtime modules and the original notice are in `vendor/three/`. Procedural game geometry and audio do not load external models, textures or sound files.
 
 ## Gameplay preview
 
-![APEX CLUB team race on Bay Circuit, showing nearby karts, lap progress, team points and the live map.](../../assets/screenshots/apex-club/gameplay.png)
+![Charged drift with a complete kart silhouette and world-space tyre marks.](../../assets/screenshots/apex-club/gameplay.png)
 
-Captured from the playable local version on September 7, 2026.
-
-## Third-party dependency
-
-Three.js 0.179.1 is loaded from jsDelivr using the import map in `index.html`. Three.js is distributed under the [MIT license](https://github.com/mrdoob/three.js/blob/r179/LICENSE). Kart and driver geometry, the track and animation are procedural; no external character models or textures are loaded.
+[Development record](CREATION.md) · [Request history](PROMPTS.md)
