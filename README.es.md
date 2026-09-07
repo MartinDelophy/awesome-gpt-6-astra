@@ -22,7 +22,7 @@ Esta página es una traducción del [README en inglés](README.md). Consulta el 
 
 ## Empieza aquí
 
-Explora **5 juegos de navegador y 1 entorno interactivo de arte con partículas**: fusión de frutas deformables, vuelo con un solo botón, combates en alfombra mágica, defensa de una isla mediante una red eléctrica, carreras de karts en Bay Circuit y Orbital Garden. Haz clic en un título para abrir su demo o el código fuente con instrucciones de ejecución.
+Explora **6 juegos de navegador y 1 entorno interactivo de arte con partículas**: fusión de frutas deformables, vuelo con un solo botón, combates en alfombra mágica, defensa de una isla mediante una red eléctrica, carreras de karts en Bay Circuit, ciclismo costero con un pelícano y Orbital Garden. Haz clic en un título para abrir su demo o el código fuente con instrucciones de ejecución.
 
 Última comprobación: **2026-09-05**. Se han revisado las declaraciones de los creadores, los enlaces al código fuente y la disponibilidad de las demos. El uso del modelo se basa en lo declarado por los autores; no se han realizado pruebas de juego para esta lista.
 
@@ -104,6 +104,13 @@ Parkour, desafíos de plataformas, carreras y juegos centrados en el movimiento 
   - Participación del modelo: [Registro de desarrollo](works/apex-club/CREATION.md) — Trabajo iterativo en Codex sobre la jugabilidad, el código, los gráficos procedurales y las pruebas; la atribución a GPT-6 Astra está pendiente de confirmación por parte del creador.
   - Recursos: [Código fuente e instrucciones de ejecución](works/apex-club/README.md) · [Requisitos y notas de las iteraciones](works/apex-club/PROMPTS.md) · Tecnologías: JavaScript, Three.js.
   - Vista previa: ![Carrera por equipos de APEX CLUB en Bay Circuit con karts cercanos, progreso de las vueltas, puntos de equipo en directo y un minimapa.](assets/screenshots/apex-club/gameplay.png)
+
+- **[PELICAN PEDAL / 鹈鹕踏浪](https://pelican-pedal.zecoba.workers.dev/)** — Recorre una costa 3D cambiante con un pelícano en bicicleta: cambia entre tres carriles, salta o agáchate para esquivar obstáculos, encadena peces y usa escudos, imanes y un impulso invencible de seis segundos.
+  - Creador: [chat01.ai](https://chat01.ai) (según la propuesta).
+  - Plataforma: Navegadores de escritorio y móviles, con teclado o controles táctiles; gratis y sin iniciar sesión según la propuesta. La demo no se ha verificado de forma independiente.
+  - GPT-6 Astra: [Issue #10](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/10) — Quien presentó el juego afirma que se generó con un solo prompt; el registro de desarrollo enlazado no se ha verificado de forma independiente.
+  - Recursos: [Registro de desarrollo compartido](https://chat01.ai/zh/chat/01M1VJ5K55803V2YK3T2NKTX33)
+  - Vista previa: ![Pantalla de título de PELICAN PEDAL con un pelícano en bicicleta junto al mar; captura aportada en el Issue #10.](https://github.com/user-attachments/assets/ec085afa-3c45-4de6-b03f-5c626f941546)
 
 <a id="experimental-multiplayer"></a>
 

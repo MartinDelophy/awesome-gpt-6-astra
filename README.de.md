@@ -22,7 +22,7 @@ Diese Seite übersetzt die [englische README](README.md). Aktuelle Änderungen l
 
 ## Hier anfangen
 
-Entdecke **5 Browserspiele und 1 interaktiven Sandkasten für Partikelkunst**: weiche Früchte verschmelzen, mit einer Taste fliegen, auf einem fliegenden Teppich kämpfen, eine Insel mit einem Stromnetz verteidigen, Kartrennen auf Bay Circuit und Orbital Garden. Ein Klick auf einen Titel öffnet die Demo oder den Quellcode mit Startanleitung.
+Entdecke **6 Browserspiele und 1 interaktiven Sandkasten für Partikelkunst**: weiche Früchte verschmelzen, mit einer Taste fliegen, auf einem fliegenden Teppich kämpfen, eine Insel mit einem Stromnetz verteidigen, Kartrennen auf Bay Circuit, eine Küstenradtour mit einem Pelikan und Orbital Garden. Ein Klick auf einen Titel öffnet die Demo oder den Quellcode mit Startanleitung.
 
 Zuletzt geprüft: **2026-09-05**. Angaben der Entwickler, Quellcode-Links und die Erreichbarkeit der Demos wurden geprüft. Die Modellnutzung beruht auf Angaben der Autoren; für diese Liste wurden keine Spieltests durchgeführt.
 
@@ -104,6 +104,13 @@ Parkour, Plattformherausforderungen, Rennen und Spiele rund um Bewegung und Wege
   - Modellbeteiligung: [Entwicklungsbericht](works/apex-club/CREATION.md) — Iterative Arbeit in Codex an Spielmechanik, Code, prozeduraler Grafik und Tests; die Zuordnung zu GPT-6 Astra muss noch vom Entwickler bestätigt werden.
   - Materialien: [Quellcode und Startanleitung](works/apex-club/README.md) · [Anforderungen und Iterationsnotizen](works/apex-club/PROMPTS.md) · Technik: JavaScript, Three.js.
   - Vorschau: ![APEX CLUB-Teamrennen auf Bay Circuit mit nahen Karts, Rundenfortschritt, aktuellen Teampunkten und Minikarte.](assets/screenshots/apex-club/gameplay.png)
+
+- **[PELICAN PEDAL / 鹈鹕踏浪](https://pelican-pedal.zecoba.workers.dev/)** — Fahre mit einem Pelikan auf dem Fahrrad an einer wechselnden 3D-Küste entlang: Wechsle zwischen drei Spuren, springe oder ducke dich vor Hindernissen, sammle Fischkombos und nutze Schilde, Magnete und einen sechs Sekunden langen Sprint mit Unverwundbarkeit.
+  - Entwickler: [chat01.ai](https://chat01.ai) (laut Einreichung).
+  - Plattform: Desktop- und Mobilbrowser mit Tastatur- oder Touchsteuerung; laut Einreichung kostenlos und ohne Anmeldung. Die Demo wurde nicht unabhängig überprüft.
+  - GPT-6 Astra: [Issue #10](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/10) — Laut Einreichung mit einem einzigen Prompt erstellt; der verlinkte Entwicklungsbericht wurde nicht unabhängig überprüft.
+  - Materialien: [Geteilter Entwicklungsbericht](https://chat01.ai/zh/chat/01M1VJ5K55803V2YK3T2NKTX33)
+  - Vorschau: ![Titelbildschirm von PELICAN PEDAL mit einem radelnden Pelikan am Meer; Screenshot aus Issue #10.](https://github.com/user-attachments/assets/ec085afa-3c45-4de6-b03f-5c626f941546)
 
 <a id="experimental-multiplayer"></a>
 
