@@ -40,7 +40,8 @@ export function createRaceEffects(scene) {
       if(emission>=1/45){
         emission=0;
         for(let side=-1;side<=1;side+=2){
-          const wheel=p.set(side*5.5,-3.3,-4.4).applyQuaternion(player.quaternion).add(player.position).clone();
+          const fx=player.userData.fx;
+          const wheel=p.set(side*(fx?.wheelX??5.5),-3.3,fx?.wheelZ??-4.4).applyQuaternion(player.quaternion).add(player.position).clone();
           // Project onto the track plane, independent of the visual hop/bank.
           wheel.addScaledVector(frame.normal,-wheel.clone().sub(frame.p).dot(frame.normal)+.18);
           const idx=side===-1?0:1;
@@ -55,7 +56,7 @@ export function createRaceEffects(scene) {
             v.copy(frame.normal).multiplyScalar(3).addScaledVector(frame.tan,-5);emit(wheel.clone().addScaledVector(frame.normal,1.6),v,new THREE.Color(.65,.73,.75),2+Math.random()*1.5,.5);
           }else previous[idx]=null;
           if(boosting){
-            p.set(side*2.1,-1.3,-9).applyQuaternion(player.quaternion).add(player.position);
+            p.set(side*(fx?.nozzleX??2.1),fx?.nozzleY??-1.3,fx?.nozzleZ??-9).applyQuaternion(player.quaternion).add(player.position);
             v.copy(frame.tan).multiplyScalar(-22).addScaledVector(frame.normal,Math.random()*2);
             emit(p,v,tint.setHex(state.nitro>0?0x43cfff:0xffa83e),1.6,.23);
           }

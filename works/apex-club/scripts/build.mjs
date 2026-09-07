@@ -1,6 +1,6 @@
 import {mkdir,copyFile,cp,readFile,writeFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
-const files=['index.html','style.css','bootstrap.js','game.js','driver-studio.js','kart-catalog.js','race-rules.js','driving-model.js','race-effects.js','race-audio.js'];
+const files=['index.html','style.css','bootstrap.js','game.js','driver-studio.js','kart-catalog.js','race-rules.js','driving-model.js','race-effects.js','race-audio.js','armored-kart.js','garage.html','garage.js','garage.css'];
 await mkdir('dist',{recursive:true});
 for(const file of files)await copyFile(file,`dist/${file}`);
 await cp('vendor','dist/vendor',{recursive:true});

@@ -33,3 +33,5 @@
 @media(max-width:760px){.top{width:168px;left:15px;top:62px;padding:12px}.track-title{font-size:16px}.value{font-size:12px}.race-stats{gap:7px}#teamScore{top:210px;left:15px;transform:none;padding:7px 10px;gap:8px}#teamScore b{font-size:17px}.position{top:64px;right:15px}#controlsToggle{right:15px;top:148px}.telemetry{left:15px;width:150px;bottom:46px;padding:11px}#speed{font-size:40px}.navigation{right:15px;bottom:46px;width:124px;padding:10px}.navigation svg{width:103px;height:85px}#driftMeter{bottom:235px;width:270px}.boost-status{bottom:337px}.in-race .session{display:none}#centerMsg{top:32%;max-width:90%}}
 @media(max-height:650px) and (min-width:761px){#leaderboard{display:none}.top{top:60px}.telemetry{bottom:40px}#driftMeter{bottom:35px}.navigation{bottom:40px}.boost-status{bottom:135px}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}.boost-status{animation:none!important}}
+
+.garage-link{display:inline-block;margin-top:16px;padding:10px 16px;border:1px solid #65d7da66;border-radius:7px;color:#a2eeec;text-decoration:none;font-size:11px;background:#123140}
