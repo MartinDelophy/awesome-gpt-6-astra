@@ -22,13 +22,13 @@ The easiest path is the [game submission form](https://github.com/MartinDelophy/
 
 1. 放到最贴近核心玩法的分类，每个游戏只收录一次。 / Pick the best-fitting genre; list each game once.
 2. 用下面的格式写一条简短推荐，并删除该分类的空状态文字。 / Add a short entry using the format below and remove that category's empty-state text.
-3. 尽量同步两个 README，并更新开头的游戏数量；暂时只能提供一种语言也没关系。 / Update both READMEs and the game count in the introduction when possible; one language is fine for an initial submission.
+3. 尽量同步默认英文版 [README.md](README.md) 和中文版 [README.zh-CN.md](README.zh-CN.md)，并更新开头的游戏数量；也欢迎同步其他译文。暂时只能提供一种语言也没关系。 / Update the default English [README.md](README.md), Chinese [README.zh-CN.md](README.zh-CN.md), and introductory game counts when possible. Updates to other translations are welcome; one language is fine for an initial submission.
 4. 新增游戏须提供至少一张实机截图，在 README 条目中添加预览图片，并在 PR 描述中展示。截图格式见下文。 / New games require at least one gameplay screenshot, embedded in the README entry and displayed in the PR description. See the requirements below.
 5. 打开链接确认能访问，并检查原作者署名与模型使用说明。 / Open the links and check creator credit and the model-use description.
 
 ## 条目示例 · Entry examples
 
-中文 README：
+中文 README（[README.zh-CN.md](README.zh-CN.md)）：
 
 ```markdown
 - **[游戏名称 / Game title](试玩或仓库 URL)** — 一句话说明核心玩法。
@@ -39,7 +39,7 @@ The easiest path is the [game submission form](https://github.com/MartinDelophy/
   - 预览：![游戏运行画面，简述可见的玩法](assets/screenshots/game-slug/gameplay.png)
 ```
 
-English README:
+Default English README ([README.md](README.md)):
 
 ```markdown
 - **[Game title](Demo or repository URL)** — One sentence about the core mechanic.

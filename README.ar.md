@@ -12,7 +12,7 @@
 
 أفكار مرحة، وألعاب يمكنك تجربتها، وقصص تطوير تلهم المبدعين القادمين.
 
-[简体中文](README.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md)<br>
+[English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [한국어](README.ko.md)<br>
 [Français](README.fr.md) · [Deutsch](README.de.md) · [Español](README.es.md) · [Português (Brasil)](README.pt-BR.md)<br>
 [Русский](README.ru.md) · **العربية** · [हिन्दी](README.hi.md) · [Bahasa Indonesia](README.id.md)
 
@@ -20,7 +20,7 @@
 
 </div>
 
-هذه الصفحة ترجمة لملف [README بالإنجليزية](README.en.md). راجع النسخة الأصلية للاطلاع على آخر التحديثات؛ نرحب بتصحيحات الترجمة.
+هذه الصفحة ترجمة لملف [README بالإنجليزية](README.md). راجع النسخة الأصلية للاطلاع على آخر التحديثات؛ نرحب بتصحيحات الترجمة.
 
 ## ابدأ من هنا
 

@@ -10,7 +10,7 @@
 
 楽しいアイデア、実際に体験できる作品、そして次の作り手のヒントになる開発の記録。
 
-[简体中文](README.md) · [English](README.en.md) · **日本語** · [한국어](README.ko.md)<br>
+[English](README.md) · [简体中文](README.zh-CN.md) · **日本語** · [한국어](README.ko.md)<br>
 [Français](README.fr.md) · [Deutsch](README.de.md) · [Español](README.es.md) · [Português (Brasil)](README.pt-BR.md)<br>
 [Русский](README.ru.md) · [العربية](README.ar.md) · [हिन्दी](README.hi.md) · [Bahasa Indonesia](README.id.md)
 
@@ -18,7 +18,7 @@
 
 </div>
 
-このページは [英語版 README](README.en.md) の翻訳です。最新の変更は原文で確認できます。翻訳の修正も歓迎します。
+このページは [英語版 README](README.md) の翻訳です。最新の変更は原文で確認できます。翻訳の修正も歓迎します。
 
 ## はじめに
 
