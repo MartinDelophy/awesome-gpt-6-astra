@@ -19,21 +19,21 @@ scene.background = new THREE.Color(0x83bed8);
 scene.fog = new THREE.FogExp2(0x9bcadb, 0.00030);
 
 const camera = new THREE.PerspectiveCamera(68, innerWidth/innerHeight, 0.1, 9000);
-const renderer = new THREE.WebGLRenderer({antialias:true,powerPreference:'high-performance'});
-renderer.setPixelRatio(Math.min(devicePixelRatio, 1.8));
+const mobileDevice=matchMedia('(pointer:coarse)').matches||navigator.maxTouchPoints>0;
+const renderer = new THREE.WebGLRenderer({antialias:!mobileDevice,powerPreference:mobileDevice?'default':'high-performance'});
+renderer.setPixelRatio(Math.min(devicePixelRatio, mobileDevice?1:1.8));
 renderer.setSize(innerWidth, innerHeight);
 renderer.outputColorSpace = THREE.SRGBColorSpace;
 renderer.toneMapping = THREE.ACESFilmicToneMapping;
 renderer.toneMappingExposure = .94;
 document.body.prepend(renderer.domElement);
 
-const composer = new EffectComposer(renderer);
-composer.addPass(new RenderPass(scene,camera));
-const bloom = new UnrealBloomPass(new THREE.Vector2(innerWidth,innerHeight), 0.38, 0.35, 0.85);
-composer.addPass(bloom);
-
-composer.addPass(new OutputPass());
-
+let composer=null,bloom=null;
+function ensureComposer(){
+ if(composer)return;
+ composer=new EffectComposer(renderer);composer.addPass(new RenderPass(scene,camera));
+ bloom=new UnrealBloomPass(new THREE.Vector2(innerWidth,innerHeight),.38,.35,.85);composer.addPass(bloom);composer.addPass(new OutputPass());
+}
 const world = new THREE.Group(); scene.add(world);
 const up = new THREE.Vector3(0,1,0);
 const clock = new THREE.Clock();
@@ -461,7 +461,7 @@ function updateCamera(dt,meta){
   camera.lookAt(look);
   chaseLight.position.copy(camera.position).addScaledVector(f.normal,20);chaseLight.target.position.copy(player.position);
   camera.fov=lerp(camera.fov,60+(reducedMotion?0:speedN*4+(meta.boosting?8:0)),1-Math.pow(.002,dt));camera.updateProjectionMatrix();
-  bloom.strength=.22+(meta.boosting?.08:0);
+  if(bloom)bloom.strength=.22+(meta.boosting?.08:0);
   document.body.classList.toggle('boosting',meta.boosting);
 }
 
@@ -599,13 +599,15 @@ function loop(){
     updateCamera(elapsed,meta);updateSpeedFX(time,meta);updateHUD();updateRaceHUD();raceEffects.update(dt,player,state,meta.f,meta.boosting);
     if(race.phase==='racing'&&shouldFinish(race))finishRace();
   }
-  actions.clear();trackMat.uniforms.time.value=time;sea.material.uniforms.time.value=time*.15;composer.render();
+  actions.clear();trackMat.uniforms.time.value=time;sea.material.uniforms.time.value=time*.15;if(composer&&document.querySelector('#qualitySetting').value==='quality')composer.render();else renderer.render(scene,camera);
 }
-mountDriverStudio(document.querySelector('#driverStudio'),()=>!race&&document.querySelector('#settingsDialog').open&&!document.querySelector('[data-settings-panel=driver]').hidden);
+let driverMounted=false;
+function showDriver(){if(driverMounted)return;try{mountDriverStudio(document.querySelector('#driverStudio'),()=>!race&&document.querySelector('#settingsDialog').open&&!document.querySelector('[data-settings-panel=driver]').hidden);driverMounted=true;}catch{document.querySelector('#driverStudio .driver-action').textContent='3D preview unavailable on this device';}}
+
 document.querySelector('#motionSetting').checked=reducedMotion;
 function saveSettings(){try{localStorage.setItem('apex-settings',JSON.stringify({toggleDrift:document.querySelector('#toggleDrift').checked,motion:reducedMotion,audio:document.querySelector('#audioSetting').checked,quality:document.querySelector('#qualitySetting').value}));}catch{}}
-function applyQuality(){const low=document.querySelector('#qualitySetting').value==='performance';renderer.setPixelRatio(Math.min(devicePixelRatio,low?1:1.6));renderer.setSize(innerWidth,innerHeight);composer.setPixelRatio(renderer.getPixelRatio());composer.setSize(innerWidth,innerHeight);bloom.enabled=!low;saveSettings();}
-if(matchMedia('(pointer:coarse)').matches)document.querySelector('#qualitySetting').value='performance';
+function applyQuality(){const low=document.querySelector('#qualitySetting').value==='performance';renderer.setPixelRatio(Math.min(devicePixelRatio,low?1:1.6));renderer.setSize(innerWidth,innerHeight);if(!low)ensureComposer();composer?.setPixelRatio(renderer.getPixelRatio());composer?.setSize(innerWidth,innerHeight);if(bloom)bloom.enabled=!low;saveSettings();}
+if(mobileDevice)document.querySelector('#qualitySetting').value='performance';
 try{const saved=JSON.parse(localStorage.getItem('apex-settings')||'null');if(saved){document.querySelector('#toggleDrift').checked=!!saved.toggleDrift;reducedMotion=!!saved.motion;document.querySelector('#motionSetting').checked=reducedMotion;document.querySelector('#audioSetting').checked=saved.audio!==false;document.querySelector('#qualitySetting').value=saved.quality==='performance'?'performance':'quality';}}catch{}
 audio.setEnabled(document.querySelector('#audioSetting').checked);
 document.querySelector('#toggleDrift').addEventListener('change',saveSettings);
@@ -618,7 +620,7 @@ document.addEventListener('visibilitychange',()=>{if(document.hidden&&race?.phas
 setCraft(craftIndex);
 loop();
 
-addEventListener('resize',()=>{camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();renderer.setSize(innerWidth,innerHeight);composer.setSize(innerWidth,innerHeight)});
+addEventListener('resize',()=>{camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();renderer.setSize(innerWidth,innerHeight);composer?.setSize(innerWidth,innerHeight)});
 
 const settingsDialog=document.querySelector('#settingsDialog');
 document.querySelector('#openSettings').addEventListener('click',()=>settingsDialog.showModal());
@@ -627,4 +629,5 @@ settingsDialog.addEventListener('click',e=>{if(e.target===settingsDialog){const 
 document.querySelectorAll('[data-settings]').forEach(button=>button.addEventListener('click',()=>{
  document.querySelectorAll('[data-settings]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));
  document.querySelectorAll('[data-settings-panel]').forEach(panel=>panel.hidden=panel.dataset.settingsPanel!==button.dataset.settings);
+ if(button.dataset.settings==='driver')showDriver();
 }));
