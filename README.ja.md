@@ -99,7 +99,7 @@
 パルクール、足場を渡るアクション、レースなど、移動とルート選びが中心のゲーム。
 
 - **[APEX CLUB — Bay Kart Grand Prix](https://apex-club-racing.mauve-ibex-1793.chatgpt.site)** — 海湾サーキットを 3 周するカートレース。6 種類のカートから選び、コーナーでミニターボをためて立ち上がりで加速し、個人順位や 4 対 4 のチーム得点を競います。
-  - 作者: [MartinDelophy](https://github.com/MartinDelophy) （投稿したアカウント）。
+  - 作者: Ryan
   - 対応環境: WebGL 2 対応のデスクトップブラウザー。キーボード操作。無料で、ログインや API キーは不要です。ローカル HTTP サーバーと Three.js を読み込むためのインターネット接続が必要です。チーム戦は人間 1 人と AI 7 台によるローカルレースです。
   - モデルの担当範囲: [開発記録](works/apex-club/CREATION.md) — Codex でゲームの仕組み、コード、手続き型のグラフィックス、テストを繰り返し改善しています。GPT-6 Astra の利用については作者の確認待ちです。
   - 開発資料: [ソースコードと実行手順](works/apex-club/README.md) · [要件と改善の記録](works/apex-club/PROMPTS.md) · 使用技術: JavaScript, Three.js.
