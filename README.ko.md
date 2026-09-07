@@ -99,7 +99,7 @@
 파쿠르, 플랫폼 도전, 레이싱 등 이동과 경로 선택이 중심인 게임들입니다.
 
 - **[APEX CLUB — Bay Kart Grand Prix](https://apex-club-racing.mauve-ibex-1793.chatgpt.site)** — 베이 서킷에서 3랩 카트 레이스를 펼칩니다. 6종의 카트 중 하나를 고르고 코너에서 미니 터보를 충전해 탈출할 때 가속하며, 개인 순위나 4 대 4 팀 점수를 겨룹니다.
-  - 제작자: [MartinDelophy](https://github.com/MartinDelophy) (제출 계정).
+  - 제작자: Ryan
   - 플랫폼: WebGL 2를 지원하는 데스크톱 브라우저, 키보드 조작. 무료이며 로그인이나 API 키가 필요 없습니다. 로컬 HTTP 서버와 Three.js를 불러올 인터넷 연결이 필요합니다. 팀전은 플레이어 1명과 AI 7명이 참여하는 로컬 레이스입니다.
   - 모델 참여: [개발 기록](works/apex-club/CREATION.md) — Codex에서 게임 방식, 코드, 절차적 그래픽, 테스트를 여러 차례 개선했습니다. GPT-6 Astra 사용 여부는 제작자의 확인을 기다리고 있습니다.
   - 개발 자료: [소스 코드 및 실행 안내](works/apex-club/README.md) · [요구 사항 및 반복 개발 기록](works/apex-club/PROMPTS.md) · 사용 기술: JavaScript, Three.js.

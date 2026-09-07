@@ -1,5 +1,9 @@
 # APEX CLUB — creation record
 
+## Creator
+
+Ryan, as specified by the creator. The submitting GitHub account is recorded separately below.
+
 ## Attribution status
 
 Submitted through the authenticated [MartinDelophy](https://github.com/MartinDelophy) account. Exact GPT-6 Astra attribution is awaiting creator confirmation; the original attribution is not strengthened by this handling update. The model's precise identity is not inferred from the destination repository name.

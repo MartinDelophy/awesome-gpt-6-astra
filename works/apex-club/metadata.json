@@ -26,5 +26,8 @@
     "name": "MartinDelophy",
     "url": "https://github.com/MartinDelophy"
   },
-  "demo_url": "https://apex-club-racing.mauve-ibex-1793.chatgpt.site"
+  "demo_url": "https://apex-club-racing.mauve-ibex-1793.chatgpt.site",
+  "creator": {
+    "name": "Ryan"
+  }
 }

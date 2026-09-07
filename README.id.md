@@ -99,7 +99,7 @@ Permainan peran, eksplorasi, petualangan naratif, dan cerita interaktif.
 Parkour, tantangan platform, balapan, serta gim yang berfokus pada gerakan dan rute.
 
 - **[APEX CLUB — Bay Kart Grand Prix](https://apex-club-racing.mauve-ibex-1793.chatgpt.site)** — Balapan tiga putaran di Bay Circuit, pilih satu dari enam kart, dan isi tenaga mini turbo untuk keluar dari tikungan agar naik peringkat individu atau meraih poin dalam tim 4 lawan 4.
-  - Kreator: [MartinDelophy](https://github.com/MartinDelophy) (akun pengaju proyek).
+  - Kreator: Ryan
   - Platform: Peramban desktop dengan WebGL 2 dan papan ketik; gratis, tanpa login atau kunci API. Memerlukan server HTTP lokal dan akses Internet untuk memuat Three.js. Balapan tim bersifat lokal: satu pemain manusia dan tujuh pembalap AI.
   - Keterlibatan model: [Catatan pengembangan](works/apex-club/CREATION.md) — Pengembangan berulang melalui Codex untuk mekanisme permainan, kode, visual prosedural, dan pengujian; atribusi kepada GPT-6 Astra masih menunggu konfirmasi kreator.
   - Materi pengembangan: [Kode sumber dan petunjuk menjalankan](works/apex-club/README.md) · [Kebutuhan dan catatan iterasi](works/apex-club/PROMPTS.md) · Teknologi: JavaScript, Three.js.
