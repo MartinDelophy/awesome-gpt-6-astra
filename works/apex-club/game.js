@@ -61,6 +61,7 @@ document.querySelector('#recoverCar').addEventListener('click',()=>{
   toggleControls(false);ping('CAR RECOVERED / NO PROGRESS GAIN','#ffd38b');
 });
 addEventListener('keydown', e => {
+  if(document.querySelector('#settingsDialog').open)return;
   if(e.code==='Tab'&&(helpOpen||race?.phase==='finished')){
     const dialog=document.querySelector(helpOpen?'#controlsPanel':'#results');
     const buttons=[...dialog.querySelectorAll('button')];const i=buttons.indexOf(document.activeElement);
@@ -600,7 +601,7 @@ function loop(){
   }
   actions.clear();trackMat.uniforms.time.value=time;sea.material.uniforms.time.value=time*.15;composer.render();
 }
-mountDriverStudio(document.querySelector('#driverStudio'),()=>!race);
+mountDriverStudio(document.querySelector('#driverStudio'),()=>!race&&document.querySelector('#settingsDialog').open&&!document.querySelector('[data-settings-panel=driver]').hidden);
 document.querySelector('#motionSetting').checked=reducedMotion;
 function saveSettings(){try{localStorage.setItem('apex-settings',JSON.stringify({toggleDrift:document.querySelector('#toggleDrift').checked,motion:reducedMotion,audio:document.querySelector('#audioSetting').checked,quality:document.querySelector('#qualitySetting').value}));}catch{}}
 function applyQuality(){const low=document.querySelector('#qualitySetting').value==='performance';renderer.setPixelRatio(Math.min(devicePixelRatio,low?1:1.6));renderer.setSize(innerWidth,innerHeight);composer.setPixelRatio(renderer.getPixelRatio());composer.setSize(innerWidth,innerHeight);bloom.enabled=!low;saveSettings();}
@@ -618,3 +619,12 @@ setCraft(craftIndex);
 loop();
 
 addEventListener('resize',()=>{camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();renderer.setSize(innerWidth,innerHeight);composer.setSize(innerWidth,innerHeight)});
+
+const settingsDialog=document.querySelector('#settingsDialog');
+document.querySelector('#openSettings').addEventListener('click',()=>settingsDialog.showModal());
+document.querySelector('#closeSettings').addEventListener('click',()=>settingsDialog.close());
+settingsDialog.addEventListener('click',e=>{if(e.target===settingsDialog){const r=settingsDialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)settingsDialog.close();}});
+document.querySelectorAll('[data-settings]').forEach(button=>button.addEventListener('click',()=>{
+ document.querySelectorAll('[data-settings]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));
+ document.querySelectorAll('[data-settings-panel]').forEach(panel=>panel.hidden=panel.dataset.settingsPanel!==button.dataset.settings);
+}));
