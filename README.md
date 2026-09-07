@@ -10,7 +10,11 @@
 
 关注好玩的点子、可体验的作品，以及能启发下一位创作者的开发过程。
 
-简体中文 · [English](README.en.md) · [提交游戏](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) · [参与贡献](CONTRIBUTING.md)
+**简体中文** · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md)<br>
+[Français](README.fr.md) · [Deutsch](README.de.md) · [Español](README.es.md) · [Português (Brasil)](README.pt-BR.md)<br>
+[Русский](README.ru.md) · [العربية](README.ar.md) · [हिन्दी](README.hi.md) · [Bahasa Indonesia](README.id.md)
+
+[提交游戏](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) · [参与贡献](CONTRIBUTING.md)
 
 </div>
 

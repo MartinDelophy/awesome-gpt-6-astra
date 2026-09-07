@@ -10,7 +10,11 @@
 
 Playful ideas, games you can try, and development stories that inspire the next creator.
 
-[简体中文](README.md) · English · [Submit a game](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) · [Contribute](CONTRIBUTING.md)
+[简体中文](README.md) · **English** · [日本語](README.ja.md) · [한국어](README.ko.md)<br>
+[Français](README.fr.md) · [Deutsch](README.de.md) · [Español](README.es.md) · [Português (Brasil)](README.pt-BR.md)<br>
+[Русский](README.ru.md) · [العربية](README.ar.md) · [हिन्दी](README.hi.md) · [Bahasa Indonesia](README.id.md)
+
+[Submit a game](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) · [Contribute](CONTRIBUTING.md)
 
 </div>
 
