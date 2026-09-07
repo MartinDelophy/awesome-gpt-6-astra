@@ -47,18 +47,22 @@ export function shouldFinish(race) {
     (race.firstFinish !== null && race.elapsed - race.firstFinish >= 20);
 }
 
-export function updateDrift(drift, { held, steer, speed, turn, blocked = false }, dt) {
-  let reward = 0;
-  const eligible = held && steer !== 0 && speed > 170 && Math.abs(turn) > .035 && !blocked;
-  if (eligible) {
-    drift.active = true;
-    drift.charge = Math.min(1, drift.charge + dt * .6);
-    drift.direction = steer;
-  } else if (drift.active) {
-    // Releasing the drift key converts a controlled drift into a mini turbo.
-    if (!held && !blocked && drift.charge >= .32) reward = drift.charge >= .78 ? 1.5 : .8;
-    drift.active = false;
-    drift.charge = 0;
+export function updateDrift(drift, { held, steer, speed, turn = 0, blocked = false }, dt) {
+  if (blocked || speed < 110) {
+    drift.active = false; drift.charge = 0; drift.direction = 0;
+    return 0;
   }
-  return reward;
+  if (drift.active && !held) {
+    const reward = drift.charge >= .78 ? 1.5 : drift.charge >= .32 ? .8 : 0;
+    drift.active = false; drift.charge = 0; drift.direction = 0;
+    return reward;
+  }
+  if (!drift.active && held && steer !== 0 && speed > 170) {
+    drift.active = true; drift.direction = Math.sign(steer); drift.charge = 0;
+  }
+  if (drift.active) {
+    // Keep the slide alive through countersteer and short straight sections.
+    drift.charge = Math.min(1, drift.charge + dt * (steer === drift.direction ? .62 : .38));
+  }
+  return 0;
 }

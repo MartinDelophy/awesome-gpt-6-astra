@@ -1,11 +1,12 @@
 {
   "name": "apex-club",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node --test tests/race-rules.test.mjs",
-    "check": "node --check game.js && node --check driver-studio.js && node --check kart-catalog.js && node --check race-rules.js"
+    "test": "node --test tests/*.test.mjs",
+    "build": "node scripts/build.mjs",
+    "start": "python3 -m http.server 8080"
   },
   "engines": {
     "node": ">=18"

@@ -21,9 +21,9 @@ test('finish order interpolates crossing time and stays fixed',()=>{
   assert.equal(teamScores(race,true).red,15);assert.equal(teamScores(race,true).blue,12);
   race.elapsed=29.1;assert.equal(shouldFinish(race),true);
 });
-test('drift requires a corner, steering and speed; release earns one turbo',()=>{
+test('drift requires steering and speed; release earns one turbo',()=>{
   const drift={active:false,charge:0,direction:0};
-  updateDrift(drift,{held:true,steer:1,speed:400,turn:0},2);assert.equal(drift.charge,0);
+  updateDrift(drift,{held:true,steer:0,speed:400,turn:0},2);assert.equal(drift.charge,0);
   updateDrift(drift,{held:true,steer:1,speed:400,turn:.3},1.5);assert.ok(drift.charge>=.78);
   assert.equal(updateDrift(drift,{held:false,steer:1,speed:400,turn:.3},.02),1.5);
   assert.equal(updateDrift(drift,{held:false,steer:1,speed:400,turn:.3},.02),0);
@@ -54,4 +54,14 @@ test('team scores can represent a draw without awarding an arbitrary winner',()=
   const race=createRace();const bluePlaces=new Set([0,3,5,6]);
   race.racers.forEach((r,i)=>{r.progress=3;r.finishTime=i+30;r.team=bluePlaces.has(i)?'blue':'red';});
   assert.deepEqual(teamScores(race,true),{blue:29,red:29});
+});
+
+test('countersteering and straight sections preserve drift direction and charge',()=>{
+ const d={active:false,charge:0,direction:0};
+ updateDrift(d,{held:true,steer:1,speed:300},.7);
+ const before=d.charge;
+ updateDrift(d,{held:true,steer:0,speed:300},.2);
+ updateDrift(d,{held:true,steer:-1,speed:300},.2);
+ assert.equal(d.active,true);assert.equal(d.direction,1);assert.ok(d.charge>before);
+ assert.equal(updateDrift(d,{held:false,steer:-1,speed:300},.01),.8);
 });

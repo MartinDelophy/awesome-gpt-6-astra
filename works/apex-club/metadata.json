@@ -14,14 +14,13 @@
     "Three.js"
   ],
   "external_dependencies": [
-    "Three.js 0.179.1 via jsDelivr"
+    "Three.js 0.179.1, vendored with MIT notice"
   ],
   "external_assets": [],
   "requires": [
     "Desktop browser with WebGL 2",
     "Keyboard",
-    "Internet access for the CDN dependency",
-    "HTTP server"
+    "HTTP server or static host"
   ],
   "submitter": {
     "name": "MartinDelophy",
