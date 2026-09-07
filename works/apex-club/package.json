@@ -1,0 +1,13 @@
+{
+  "name": "apex-club",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/race-rules.test.mjs",
+    "check": "node --check game.js && node --check driver-studio.js && node --check kart-catalog.js && node --check race-rules.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
