@@ -80,7 +80,7 @@ Three.js 0.179.1 is distributed under the MIT license. The required runtime modu
 
 ![Charged drift with a complete kart silhouette and world-space tyre marks.](../../assets/screenshots/apex-club/gameplay.png)
 
-[Development record](CREATION.md) · [Request history](PROMPTS.md)
+[Development record](CREATION.md) · [Request history](PROMPTS.md) · [GPT conversation](https://chatgpt.com/s/cx_6a9e84c13c9c8191bcb7ad0801288adc)
 
 
 

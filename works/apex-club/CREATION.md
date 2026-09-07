@@ -4,6 +4,10 @@
 
 Submitted through the authenticated [MartinDelophy](https://github.com/MartinDelophy) account. Exact GPT-6 Astra attribution is awaiting creator confirmation; the original attribution is not strengthened by this handling update. The model's precise identity is not inferred from the destination repository name.
 
+## Shared conversation
+
+[View the GPT conversation](https://chatgpt.com/s/cx_6a9e84c13c9c8191bcb7ad0801288adc) — a public, immutable snapshot of the Codex development task, shared on September 7, 2026. It captures the conversation at sharing time; later work is not automatically included.
+
 ## Workflow
 
 The project was iterated in Codex from an existing browser racing prototype, using the creator's requests and screenshots as feedback. This was a multi-turn development process, not a one-shot benchmark.
