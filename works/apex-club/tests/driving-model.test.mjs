@@ -14,7 +14,7 @@ test('no steering preserves world heading and moves straight',()=>{
 });
 test('steering changes real trajectory; releasing does not auto-center heading',()=>{
  const s=initial();for(let i=0;i<120;i++)stepHandling(s,{throttle:true,steer:1},kart,1/120);
- assert(s.x>80);const heading=s.heading;
+ assert(s.x< -80);const heading=s.heading;
  for(let i=0;i<120;i++)stepHandling(s,{throttle:true,steer:0},kart,1/120);
  assert.equal(s.heading,heading);
 });
@@ -26,7 +26,7 @@ test('countersteering changes heading while drift retains velocity',()=>{
  const s=initial();s.drift={active:true,charge:.4,direction:1};
  for(let i=0;i<40;i++)stepHandling(s,{throttle:true,steer:1},kart,1/120);
  const heading=s.heading;stepHandling(s,{throttle:true,steer:-1},kart,1/120);
- assert(s.heading<heading);assert(s.vx>0);
+ assert(s.heading>heading);assert(s.vx<0);
 });
 test('wall contact cancels drift and head-on movement, without turning car',()=>{
  const s=initial();Object.assign(s,{x:34,z:0,vx:200,vz:0,heading:Math.PI/2});s.drift={active:true,charge:1,direction:1};
@@ -56,11 +56,41 @@ test('holding brake reverses away from a head-on barrier despite auto throttle',
   resolveTrackContact(s,{lane:s.x,sideX:1,sideZ:0});
  }
  assert(s.speed<0);assert(s.x<20);assert.equal(s.heading,Math.PI/2);
- const before=s.heading;stepHandling(s,{brake:true,steer:1},kart,1/60);assert(s.heading<before);
+ const before=s.heading;stepHandling(s,{brake:true,steer:1},kart,1/60);assert(s.heading>before);
  for(let i=0;i<180;i++)stepHandling(s,{throttle:true,brake:false,steer:0},kart,1/120);
  assert(s.speed>0);
 });
 test('reverse impacts reduce speed magnitude rather than accelerating backwards',()=>{
  const s=initial();Object.assign(s,{speed:-100,x:34,vx:52,vz:0});
- resolveTrackContact(s,{lane:34,sideX:1,sideZ:0});assert(s.speed<0&&s.speed>-100);
+ resolveTrackContact(s,{lane:34,sideX:1,sideZ:0});assert(s.speed<=0&&s.speed>-100);
+});
+
+test('A and D move to the corresponding chase-camera side at every heading',()=>{
+ for(const heading of [0,.7,Math.PI/2,Math.PI,-2])for(const steer of [-1,1]){
+  const s=initial();Object.assign(s,{heading,vx:Math.sin(heading)*208,vz:Math.cos(heading)*208});
+  for(let i=0;i<30;i++)stepHandling(s,{throttle:true,steer},kart,1/120);
+  // Right vector = forward cross up, identical to the camera's screen-right axis.
+  const screenRight=s.x*-Math.cos(heading)+s.z*Math.sin(heading);
+  assert(screenRight*steer>0,`heading ${heading}, steer ${steer}`);
+ }
+});
+test('player can steer out of a head-on wall with throttle at 30, 60 and 120 Hz',()=>{
+ for(const hz of [30,60,120])for(const steer of [-1,1]){
+  const s=initial();Object.assign(s,{x:32,z:0,vx:0,vz:0,speed:0,heading:Math.PI/2});
+  for(let i=0;i<hz*4;i++){
+   const turning=Math.sin(s.heading)>-.15?steer:0;
+   stepHandling(s,{throttle:true,steer:turning},kart,1/hz);
+   resolveTrackContact(s,{lane:s.x,sideX:1,sideZ:0});
+  }
+  assert(s.x<25,`still pinned at ${hz} Hz, steer ${steer}: ${s.x}`);
+  assert(s.speed>100);
+ }
+});
+test('glancing contact preserves tangential velocity without recurring friction',()=>{
+ const s=initial();Object.assign(s,{x:33,vx:10,vz:200,speed:400});
+ resolveTrackContact(s,{lane:33,sideX:1,sideZ:0});
+ assert.equal(s.vz,200);assert.equal(s.vx,0);
+ const speed=s.speed;
+ for(let i=0;i<120;i++){s.vx=1;resolveTrackContact(s,{lane:32.001,sideX:1,sideZ:0});}
+ assert.equal(s.speed,speed);assert.equal(s.vz,200);
 });
