@@ -22,7 +22,7 @@ Halaman ini merupakan terjemahan [README bahasa Inggris](README.md). Periksa ver
 
 ## Mulai di sini
 
-Jelajahi **6 gim peramban dan 1 sandbox seni partikel interaktif**: penggabungan buah yang lentur, penerbangan satu tombol, pertempuran karpet ajaib, pertahanan pulau dengan jaringan listrik, balapan kart di Bay Circuit, bersepeda di pesisir bersama pelikan, serta Orbital Garden. Klik judul untuk membuka demo atau kode sumber beserta petunjuk menjalankannya.
+Jelajahi **7 gim peramban dan 1 sandbox seni partikel interaktif**: penggabungan buah yang lentur, penerbangan satu tombol, pertempuran karpet ajaib, pertahanan pulau dengan jaringan listrik, balapan kart di Bay Circuit, bersepeda di pesisir bersama pelikan, serta Orbital Garden. Klik judul untuk membuka demo atau kode sumber beserta petunjuk menjalankannya.
 
 Terakhir diperiksa: **2026-09-05**. Pernyataan kreator, tautan kode sumber, dan ketersediaan demo telah diperiksa. Penggunaan model didasarkan pada keterangan penulis; gim belum diuji melalui permainan untuk daftar ini.
 
@@ -52,12 +52,14 @@ Gim tembak-menembak, pertarungan, bertahan hidup, ritme, dan apa pun yang membua
   - Platform: Peramban, dirancang untuk perangkat seluler.
   - GPT-6 Astra: [Pengujian sekali generasi dan prompt asli kreator](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - Materi pengembangan: [Kode sumber](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/mosswing/src) · [HTML mandiri](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/mosswing/mosswing.html)
+  - Pratinjau: ![Mosswing — Layar awal](assets/screenshots/mosswing/gameplay.jpg)
 
 - **[Magic Carpet Wizard — A Thousand Skies](https://threapchills.github.io/MagicCarpetWizard/)** — Terbangkan karpet ajaib melintasi dunia berbentuk bola, lewati cincin, keluarkan mantra, dan lawan musuh serta bos.
   - Kreator: [threapchills](https://github.com/threapchills)
   - Platform: Peramban desktop dengan tetikus dan papan ketik; memerlukan WebGL 2.
   - GPT-6 Astra: Kreator menyatakan bahwa gim ini dibuat dengan GPT-6 Astra di [bagian About repositori](https://github.com/threapchills/MagicCarpetWizard).
   - Materi pengembangan: [Kode sumber dan petunjuk menjalankan](https://github.com/threapchills/MagicCarpetWizard) · Teknologi: Three.js, Vite.
+  - Pratinjau: ![Magic Carpet Wizard — Layar awal](assets/screenshots/magic-carpet/gameplay.jpg)
 
 <a id="puzzles"></a>
 
@@ -70,6 +72,14 @@ Teka-teki logika, tantangan fisika, permainan kata, dan mekanisme kecil yang kre
   - Platform: Peramban modern; kreator juga menyediakan versi HTML mandiri yang dapat diunduh.
   - GPT-6 Astra: [Pengujian sekali generasi dan prompt asli kreator](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - Materi pengembangan: [Kode sumber](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/melon-lab/src) · [HTML mandiri](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/melon-lab/%E7%93%9C%E4%BD%93%E5%AE%9E%E9%AA%8C%E5%AE%A4.html)
+  - Pratinjau: ![Melon Lab — Tampilan permainan](assets/screenshots/melon-lab/gameplay.jpg)
+
+- **[榫境 / Sunjing Puzzles](https://sunjing-puzzles.hp20230404.chatgpt.site)** — Bengkel 3D untuk membongkar teka-teki kayu enam bagian dan menyelesaikan dua papan Huarong Dao, dengan petunjuk dan pembatalan langkah.
+  - [MartinDelophy](https://github.com/MartinDelophy)
+  - Browser WebGL 2, antarmuka Mandarin, mouse/keyboard dan sentuh. Gratis, tanpa login; progres disimpan di browser.
+  - Pengembangan berulang dengan Codex; penggunaan GPT-6 Astra menunggu konfirmasi pembuat. [Codex / GPT-6 Astra](works/sunjing-puzzles/CREATION.md)
+  - [Kode dan petunjuk menjalankan](works/sunjing-puzzles/README.md) · React, Vinext/Vite, Three.js.
+  - Pratinjau: ![Sunjing Puzzles — Tampilan permainan](assets/screenshots/sunjing-puzzles/gameplay.jpg)
 
 <a id="strategy-simulation"></a>
 
@@ -123,6 +133,7 @@ Mekanisme tidak biasa, kompetisi daring, dan pengalaman bermain kooperatif.
   - Platform: Peramban modern dengan WebGL; klik judul untuk mencobanya secara daring. Gratis, tanpa login atau kunci API; HTML mandiri juga dapat dijalankan luring. Suara latar opsional memerlukan Web Audio.
   - GPT-6 Astra: [Catatan pembuatan dan kontribusi model](works/orbital-garden/README.md#模型与创作记录) — Kreator menggunakan GPT-6 Astra ultra untuk konsep, kode, dan teks, dengan peninjauan bersama; bukan pengujian sekali generasi.
   - Materi pengembangan: [Kode sumber dan petunjuk menjalankan](works/orbital-garden/README.md) · [HTML mandiri](works/orbital-garden/index.html) · [Prompt](works/orbital-garden/PROMPT.md) · Teknologi: WebGL murni, Web Audio, Canvas 2D.
+  - Pratinjau: ![ORBITAL GARDEN — Tampilan permainan](assets/screenshots/orbital-garden/gameplay.jpg)
 
 ## Isi setiap entri
 

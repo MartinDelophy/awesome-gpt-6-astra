@@ -24,7 +24,7 @@
 
 ## ابدأ من هنا
 
-استكشف **6 ألعاب للمتصفح وبيئة تفاعلية واحدة لفن الجسيمات**: دمج الفواكه المرنة، والطيران بزر واحد، والقتال على بساط سحري، والدفاع عن جزيرة بشبكة كهربائية، وسباقات الكارت على حلبة الخليج، وركوب الدراجة مع بجع على الساحل، وOrbital Garden. انقر على اسم العمل لفتح التجربة أو الشفرة المصدرية مع تعليمات التشغيل.
+استكشف **7 ألعاب للمتصفح وبيئة تفاعلية واحدة لفن الجسيمات**: دمج الفواكه المرنة، والطيران بزر واحد، والقتال على بساط سحري، والدفاع عن جزيرة بشبكة كهربائية، وسباقات الكارت على حلبة الخليج، وركوب الدراجة مع بجع على الساحل، وOrbital Garden. انقر على اسم العمل لفتح التجربة أو الشفرة المصدرية مع تعليمات التشغيل.
 
 آخر تحقق: **2026-09-05**. جرى التحقق من تصريحات المبدعين وروابط الشفرة المصدرية وإمكانية الوصول إلى العروض التجريبية. نَسب استخدام النموذج يستند إلى تصريحات المؤلفين؛ ولم تُختبر الألعاب باللعب من أجل إعداد هذه القائمة.
 
@@ -54,12 +54,14 @@
   - المنصة: المتصفح، مع تصميم موجه للأجهزة المحمولة.
   - GPT-6 Astra: [اختبارات المبدع بالتوليد من طلب واحد والموجّهات الأصلية](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - موارد التطوير: [الشفرة المصدرية](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/mosswing/src) · [ملف HTML مستقل](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/mosswing/mosswing.html)
+  - معاينة: ![Mosswing — شاشة البداية](assets/screenshots/mosswing/gameplay.jpg)
 
 - **[Magic Carpet Wizard — A Thousand Skies](https://threapchills.github.io/MagicCarpetWizard/)** — حلّق على بساط سحري في عالم كروي، واعبر الحلقات، وألقِ التعويذات، وقاتل الأعداء والزعماء.
   - المبدع: [threapchills](https://github.com/threapchills)
   - المنصة: متصفح على حاسوب مع فأرة ولوحة مفاتيح؛ يتطلب WebGL 2.
   - GPT-6 Astra: يذكر المبدع في [قسم About بالمستودع](https://github.com/threapchills/MagicCarpetWizard) أن اللعبة صُنعت باستخدام GPT-6 Astra.
   - موارد التطوير: [الشفرة المصدرية وتعليمات التشغيل](https://github.com/threapchills/MagicCarpetWizard) · التقنيات: Three.js, Vite.
+  - معاينة: ![Magic Carpet Wizard — شاشة البداية](assets/screenshots/magic-carpet/gameplay.jpg)
 
 <a id="puzzles"></a>
 
@@ -72,6 +74,14 @@
   - المنصة: متصفح حديث؛ يوفر المبدع أيضًا نسخة HTML مستقلة قابلة للتنزيل.
   - GPT-6 Astra: [اختبارات المبدع بالتوليد من طلب واحد والموجّهات الأصلية](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - موارد التطوير: [الشفرة المصدرية](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/melon-lab/src) · [ملف HTML مستقل](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/melon-lab/%E7%93%9C%E4%BD%93%E5%AE%9E%E9%AA%8C%E5%AE%A4.html)
+  - معاينة: ![Melon Lab — شاشة اللعبة](assets/screenshots/melon-lab/gameplay.jpg)
+
+- **[榫境 / Sunjing Puzzles](https://sunjing-puzzles.hp20230404.chatgpt.site)** — ورشة ثلاثية الأبعاد لتفكيك لغز خشبي من ست قطع وحل لوحتين من هوارونغ داو، مع تلميحات والتراجع عن الحركة.
+  - [MartinDelophy](https://github.com/MartinDelophy)
+  - متصفح يدعم WebGL 2، واجهة صينية، فأرة ولوحة مفاتيح ولمس. مجاني دون تسجيل دخول؛ يُحفظ التقدم في المتصفح.
+  - تطوير تكراري باستخدام Codex؛ استخدام GPT-6 Astra بانتظار تأكيد المؤلف. [Codex / GPT-6 Astra](works/sunjing-puzzles/CREATION.md)
+  - [المصدر وتعليمات التشغيل](works/sunjing-puzzles/README.md) · React, Vinext/Vite, Three.js.
+  - معاينة: ![Sunjing Puzzles — شاشة اللعبة](assets/screenshots/sunjing-puzzles/gameplay.jpg)
 
 <a id="strategy-simulation"></a>
 
@@ -125,6 +135,7 @@
   - المنصة: متصفح حديث يدعم WebGL؛ انقر على الاسم للتجربة عبر الإنترنت. مجانية ولا تتطلب تسجيل الدخول أو مفتاح API؛ يعمل ملف HTML المستقل دون اتصال أيضًا. الصوت المحيطي اختياري ويتطلب Web Audio.
   - GPT-6 Astra: [سجل الإنشاء ومساهمة النموذج](works/orbital-garden/README.md#模型与创作记录) — استخدم المبدع GPT-6 Astra ultra للفكرة والشفرة والنصوص، مع مراجعة تعاونية؛ وليس اختبارًا بالتوليد من طلب واحد.
   - موارد التطوير: [الشفرة المصدرية وتعليمات التشغيل](works/orbital-garden/README.md) · [ملف HTML مستقل](works/orbital-garden/index.html) · [Prompt](works/orbital-garden/PROMPT.md) · التقنيات: WebGL مباشرة, Web Audio, Canvas 2D.
+  - معاينة: ![ORBITAL GARDEN — شاشة اللعبة](assets/screenshots/orbital-garden/gameplay.jpg)
 
 ## ما الذي يتضمنه كل إدراج
 
