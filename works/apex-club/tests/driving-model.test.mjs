@@ -48,3 +48,19 @@ test('backwards motion subtracts progress, including start-line crossing',()=>{
  const race=createRace('solo','blue'),r=race.racers[0],before=r.progress;
  advanceRacer(race,r,-.02,.1);assert(Math.abs(r.progress-before+.02)<1e-9);
 });
+
+test('holding brake reverses away from a head-on barrier despite auto throttle',()=>{
+ const s=initial();Object.assign(s,{x:32,z:0,vx:0,vz:0,speed:0,heading:Math.PI/2});
+ for(let i=0;i<120;i++){
+  stepHandling(s,{throttle:true,brake:true,steer:0},kart,1/120);
+  resolveTrackContact(s,{lane:s.x,sideX:1,sideZ:0});
+ }
+ assert(s.speed<0);assert(s.x<20);assert.equal(s.heading,Math.PI/2);
+ const before=s.heading;stepHandling(s,{brake:true,steer:1},kart,1/60);assert(s.heading<before);
+ for(let i=0;i<180;i++)stepHandling(s,{throttle:true,brake:false,steer:0},kart,1/120);
+ assert(s.speed>0);
+});
+test('reverse impacts reduce speed magnitude rather than accelerating backwards',()=>{
+ const s=initial();Object.assign(s,{speed:-100,x:34,vx:52,vz:0});
+ resolveTrackContact(s,{lane:34,sideX:1,sideZ:0});assert(s.speed<0&&s.speed>-100);
+});

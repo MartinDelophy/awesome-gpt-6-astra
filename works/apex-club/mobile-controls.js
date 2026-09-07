@@ -1,3 +1,7 @@
+// A narrow window or touchscreen laptop is not a phone.
+export function isHandheldDevice(nav=globalThis.navigator){
+  return !!nav && (nav.userAgentData?.mobile===true || /Android|iPhone|iPad|iPod/i.test(nav.userAgent||'') || (nav.platform==='MacIntel'&&nav.maxTouchPoints>1));
+}
 // Screen-relative tilt: map gravity into the phone's current screen axes.
 export function screenTilt(beta,gamma,angle=0){
   if(!Number.isFinite(beta)||!Number.isFinite(gamma))return null;
@@ -8,7 +12,9 @@ export function screenTilt(beta,gamma,angle=0){
 export function tiltSteering(value,center=0){
   const d=value-center;return Math.sign(d)*Math.min(1,Math.max(0,Math.abs(d)-3)/24);
 }
-export function createMobileControls({action,active,pause}){
+export function createMobileControls({action,active,pause,handheld=isHandheldDevice()}){
+  document.documentElement?.classList.toggle('handheld-input',handheld);
+  if(!handheld)return {clear(){},update(){},down:()=>false,steer:()=>0};
   const held=new Map();let enabled=false,center=null,reading=null,lastSample=0,filtered=0,request=0;
   const status=document.querySelector('#tiltStatus'),toggle=document.querySelector('#tiltToggle');
   const centerButton=document.querySelector('#mobileCenter');centerButton.hidden=true;

@@ -1,0 +1,23 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import vm from 'node:vm';
+import {stepHandling} from '../driving-model.js';
+const source=readFileSync(new URL('../game.js',import.meta.url),'utf8');
+test('holding W before GO accelerates; release clears it; actions wait for GO',()=>{
+ const listeners={},keys=new Set(),actions=new Set(),race={phase:'countdown'};
+ const context={keys,actions,race,helpOpen:false,document:{querySelector:()=>({open:false,checked:false})},addEventListener:(t,f)=>listeners[t]=f};
+ vm.runInNewContext(source.slice(source.indexOf("addEventListener('keydown', e =>"),source.indexOf("addEventListener('blur',()=>")),context);
+ const event=code=>({code,repeat:false,preventDefault(){}});
+ listeners.keydown(event('KeyW'));listeners.keydown(event('ShiftLeft'));
+ assert(keys.has('KeyW'));assert.equal(actions.size,0);
+ race.phase='racing';
+ const state={speed:0,heading:0,x:0,z:0,vx:0,vz:0,drift:{active:false}},kart={max:300,accel:100,turn:1};
+ for(let i=0;i<60;i++)stepHandling(state,{throttle:keys.has('KeyW'),steer:0,brake:false},kart,1/60);
+ assert(state.speed>90);assert(state.z>20);
+ listeners.keydown(event('KeyS'));
+ for(let i=0;i<15;i++)stepHandling(state,{throttle:keys.has('KeyW'),brake:keys.has('KeyS'),steer:0},kart,1/60);
+ assert.equal(state.speed,0);
+ listeners.keyup(event('KeyW'));listeners.keyup(event('KeyS'));assert.equal(keys.size,0);
+ listeners.keydown(event('ShiftLeft'));assert(actions.has('ShiftLeft'));
+});
