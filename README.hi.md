@@ -22,7 +22,7 @@
 
 ## यहाँ से शुरू करें
 
-यहाँ **7 ब्राउज़र गेम और कणों से कला बनाने वाला 1 इंटरैक्टिव सैंडबॉक्स** शामिल हैं: मुलायम फलों को मिलाना, एक बटन से उड़ान, जादुई कालीन पर लड़ाई, बिजली के नेटवर्क से द्वीप की रक्षा, Bay Circuit पर कार्ट रेसिंग, पेलिकन के साथ तट पर साइकिल चलाना और Orbital Garden। किसी शीर्षक पर क्लिक करके उसका डेमो या चलाने के निर्देशों सहित स्रोत कोड खोलें।
+यहाँ **8 ब्राउज़र गेम और कणों से कला बनाने वाला 1 इंटरैक्टिव सैंडबॉक्स** शामिल हैं: एक-दूसरे में फँसे लकड़ी के टुकड़ों और खिसकने वाले ब्लॉकों की पहेलियाँ, मुलायम फलों को मिलाना, एक बटन से उड़ान, जादुई कालीन पर लड़ाई, बिजली के नेटवर्क से द्वीप की रक्षा, Bay Circuit पर कार्ट रेसिंग, पेलिकन के साथ तट पर साइकिल चलाना, टेबलटॉप खिलौनों के 3D रूपांतरण और Orbital Garden। किसी शीर्षक पर क्लिक करके उसका डेमो या चलाने के निर्देशों सहित स्रोत कोड खोलें।
 
 अंतिम जाँच: **2026-09-05**। रचनाकारों के कथन, स्रोत कोड के लिंक और डेमो की उपलब्धता जाँची गई है। मॉडल के उपयोग की जानकारी लेखकों के कथनों पर आधारित है; इस सूची के लिए गेमों का खेलकर परीक्षण नहीं किया गया है।
 
@@ -52,14 +52,14 @@
   - प्लैटफ़ॉर्म: ब्राउज़र; मोबाइल के लिए डिज़ाइन किया गया है।
   - GPT-6 Astra: [रचनाकार के एक ही अनुरोध से निर्माण के परीक्षण और मूल प्रॉम्प्ट](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - विकास संसाधन: [स्रोत कोड](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/mosswing/src) · [स्वतंत्र HTML फ़ाइल](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/mosswing/mosswing.html)
-  - पूर्वावलोकन: ![Mosswing — आरंभिक स्क्रीन](assets/screenshots/mosswing/gameplay.jpg)
+  - पूर्वावलोकन: ![Mosswing की शुरुआती स्क्रीन पर उड़ता पात्र और पत्थर के खंभों के बीच के रास्ते दिखते हैं।](assets/screenshots/mosswing/gameplay.jpg)
 
 - **[Magic Carpet Wizard — A Thousand Skies](https://threapchills.github.io/MagicCarpetWizard/)** — जादुई कालीन पर गोलाकार दुनिया में उड़ें, छल्लों से गुज़रें, जादू करें और दुश्मनों व बॉस से लड़ें।
   - रचनाकार: [threapchills](https://github.com/threapchills)
   - प्लैटफ़ॉर्म: माउस और कीबोर्ड वाला डेस्कटॉप ब्राउज़र; WebGL 2 आवश्यक है।
   - GPT-6 Astra: रचनाकार ने [रिपॉज़िटरी के About खंड](https://github.com/threapchills/MagicCarpetWizard) में बताया है कि गेम GPT-6 Astra से बनाया गया है।
   - विकास संसाधन: [स्रोत कोड और चलाने के निर्देश](https://github.com/threapchills/MagicCarpetWizard) · तकनीक: Three.js, Vite.
-  - पूर्वावलोकन: ![Magic Carpet Wizard — आरंभिक स्क्रीन](assets/screenshots/magic-carpet/gameplay.jpg)
+  - पूर्वावलोकन: ![Magic Carpet Wizard की शुरुआती स्क्रीन पर कालीन सवार, शहर और चमकता उड़ान छल्ला दिखता है।](assets/screenshots/magic-carpet/gameplay.jpg)
 
 <a id="puzzles"></a>
 
@@ -72,14 +72,14 @@
   - प्लैटफ़ॉर्म: आधुनिक ब्राउज़र; रचनाकार डाउनलोड करने योग्य स्वतंत्र HTML संस्करण भी उपलब्ध कराते हैं।
   - GPT-6 Astra: [रचनाकार के एक ही अनुरोध से निर्माण के परीक्षण और मूल प्रॉम्प्ट](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - विकास संसाधन: [स्रोत कोड](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/melon-lab/src) · [स्वतंत्र HTML फ़ाइल](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/melon-lab/%E7%93%9C%E4%BD%93%E5%AE%9E%E9%AA%8C%E5%AE%A4.html)
-  - पूर्वावलोकन: ![Melon Lab — गेम स्क्रीन](assets/screenshots/melon-lab/gameplay.jpg)
+  - पूर्वावलोकन: ![Melon Lab के गेम में मिलाने वाले पात्र के भीतर मुलायम फल और भौतिकी के नियंत्रण दिखते हैं।](assets/screenshots/melon-lab/gameplay.jpg)
 
-- **[榫境 / Sunjing Puzzles](https://sunjing-puzzles.hp20230404.chatgpt.site)** — छह लकड़ी के टुकड़ों वाली पहेली खोलने और हुआरोंग दाओ के दो बोर्ड हल करने की 3D कार्यशाला। संकेत और चाल वापस लेने की सुविधा उपलब्ध है।
-  - [MartinDelophy](https://github.com/MartinDelophy)
-  - WebGL 2 ब्राउज़र, चीनी इंटरफ़ेस, माउस/कीबोर्ड और स्पर्श नियंत्रण। निःशुल्क, लॉगिन नहीं; प्रगति ब्राउज़र में सहेजी जाती है।
-  - Codex के साथ कई चरणों में विकास; GPT-6 Astra का उपयोग निर्माता की पुष्टि की प्रतीक्षा में है। [Codex / GPT-6 Astra](works/sunjing-puzzles/CREATION.md)
-  - [स्रोत और चलाने के निर्देश](works/sunjing-puzzles/README.md) · React, Vinext/Vite, Three.js.
-  - पूर्वावलोकन: ![Sunjing Puzzles — गेम स्क्रीन](assets/screenshots/sunjing-puzzles/gameplay.jpg)
+- **[榫境 / Sunjing Puzzles](https://sunjing-puzzles.hp20230404.chatgpt.site)** — 3D लकड़ी की कार्यशाला में एक-दूसरे में फँसे छह टुकड़ों की पहेली खोलें और हुआरोंग दाओ की दो स्लाइडिंग-ब्लॉक पहेलियाँ हल करें। संकेत और चाल वापस लेने की सुविधा भी है।
+  - रचनाकार: [MartinDelophy](https://github.com/MartinDelophy) (परियोजना शुरू करने वाले और प्रस्तुतकर्ता)।
+  - प्लैटफ़ॉर्म: WebGL 2 वाला आधुनिक ब्राउज़र; चीनी इंटरफ़ेस, माउस, कीबोर्ड और स्पर्श नियंत्रण। मुफ़्त, लॉगिन या API कुंजी की आवश्यकता नहीं; प्रगति वर्तमान ब्राउज़र में रहती है।
+  - मॉडल की भागीदारी: [निर्माण का रिकॉर्ड](works/sunjing-puzzles/CREATION.md) — Codex में गेम डिज़ाइन, प्रक्रियात्मक 3D ग्राफ़िक्स, नियम, पहेली हल करने की प्रणाली और परीक्षणों पर कई चरणों में काम किया गया। GPT-6 Astra के सटीक उपयोग की पुष्टि रचनाकार से होनी बाकी है (प्रारूप के रूप में प्रस्तुति)।
+  - विकास संसाधन: [स्रोत कोड और चलाने के निर्देश](works/sunjing-puzzles/README.md) · [आवश्यकताएँ](works/sunjing-puzzles/PROMPTS.md) · तकनीक: React, Vinext/Vite, Three.js.
+  - पूर्वावलोकन: ![हरे 3D कार्यमेज पर Sunjing की छह टुकड़ों वाली लकड़ी की पहेली, टुकड़ों के नंबर और उन्हें निकालने के नियंत्रण।](assets/screenshots/sunjing-puzzles/gameplay.jpg)
 
 <a id="strategy-simulation"></a>
 
@@ -110,9 +110,9 @@
 
 - **[APEX CLUB — Bay Kart Grand Prix](https://apex-club-racing.mauve-ibex-1793.chatgpt.site)** — Bay Circuit पर तीन लैप की रेस लगाएँ, छह कार्ट में से चुनें और मोड़ से बाहर निकलते समय इस्तेमाल करने के लिए मिनी टर्बो चार्ज करें। व्यक्तिगत रैंकिंग में आगे बढ़ें या 4 बनाम 4 की टीम के लिए अंक जुटाएँ।
   - रचनाकार: Ryan
-  - प्लैटफ़ॉर्म: WebGL 2 और कीबोर्ड वाला डेस्कटॉप ब्राउज़र; मुफ़्त, लॉगिन या API कुंजी की ज़रूरत नहीं। स्थानीय HTTP सर्वर और Three.js लोड करने के लिए इंटरनेट आवश्यक है। टीम रेस स्थानीय है: एक मानव खिलाड़ी और सात AI रेसर।
+  - प्लैटफ़ॉर्म: WebGL 2 और कीबोर्ड वाला डेस्कटॉप ब्राउज़र; मुफ़्त, लॉगिन या API कुंजी की ज़रूरत नहीं। स्थानीय HTTP सर्वर या स्थिर होस्टिंग से चलता है; Three.js स्थानीय रूप से शामिल है। टीम रेस स्थानीय है: एक मानव खिलाड़ी और सात AI रेसर।
   - मॉडल की भागीदारी: [विकास का रिकॉर्ड](works/apex-club/CREATION.md) — Codex में गेमप्ले, कोड, प्रक्रियात्मक ग्राफ़िक्स और परीक्षणों पर कई चरणों में काम किया गया; GPT-6 Astra के उपयोग की पुष्टि अभी रचनाकार से होनी बाकी है।
-  - विकास संसाधन: [स्रोत कोड और चलाने के निर्देश](works/apex-club/README.md) · [आवश्यकताएँ और क्रमिक सुधारों के नोट्स](works/apex-club/PROMPTS.md) · तकनीक: JavaScript, Three.js.
+  - विकास संसाधन: [स्रोत कोड और चलाने के निर्देश](works/apex-club/README.md) · [आवश्यकताएँ और क्रमिक सुधारों के नोट्स](works/apex-club/PROMPTS.md) · [साझा GPT बातचीत](https://chatgpt.com/s/cx_6a9e84c13c9c8191bcb7ad0801288adc) · तकनीक: JavaScript, Three.js.
   - झलक: ![Bay Circuit पर APEX CLUB की टीम रेस: पास के कार्ट, लैप की प्रगति, टीम के तत्काल अंक और छोटा नक्शा दिखाई देते हैं।](assets/screenshots/apex-club/gameplay.png)
 
 - **[PELICAN PEDAL / 鹈鹕踏浪](https://pelican-pedal.zecoba.workers.dev/)** — बदलते 3D समुद्री तट पर साइकिल चलाते पेलिकन के साथ दौड़ें: तीन लेन के बीच बदलें, कूदकर या झुककर बाधाओं से बचें, लगातार मछलियाँ इकट्ठी करें और ढाल, चुंबक तथा छह सेकंड की अजेय तेज़ दौड़ का इस्तेमाल करें।
@@ -133,7 +133,14 @@
   - प्लैटफ़ॉर्म: WebGL समर्थित आधुनिक ब्राउज़र; ऑनलाइन आज़माने के लिए शीर्षक पर क्लिक करें। मुफ़्त, लॉगिन या API कुंजी की ज़रूरत नहीं; स्वतंत्र HTML फ़ाइल ऑफ़लाइन भी चलती है। वैकल्पिक परिवेशी ध्वनि के लिए Web Audio आवश्यक है।
   - GPT-6 Astra: [निर्माण का रिकॉर्ड और मॉडल का योगदान](works/orbital-garden/README.md#模型与创作记录) — रचनाकार ने अवधारणा, कोड और पाठ के लिए GPT-6 Astra ultra का उपयोग किया और सहयोगी समीक्षा की; यह एक ही अनुरोध से निर्माण का परीक्षण नहीं है।
   - विकास संसाधन: [स्रोत कोड और चलाने के निर्देश](works/orbital-garden/README.md) · [स्वतंत्र HTML फ़ाइल](works/orbital-garden/index.html) · [Prompt](works/orbital-garden/PROMPT.md) · तकनीक: WebGL (बिना फ़्रेमवर्क), Web Audio, Canvas 2D.
-  - पूर्वावलोकन: ![ORBITAL GARDEN — गेम स्क्रीन](assets/screenshots/orbital-garden/gameplay.jpg)
+  - पूर्वावलोकन: ![Orbital Garden का मिंट-हरे कणों का फूल, आकार चुनने, जीवन शक्ति और समय की गति बदलने तथा पोस्टर निर्यात करने के विकल्पों के साथ।](assets/screenshots/orbital-garden/gameplay.jpg)
+
+- **[Toy2Game / 在线玩具箱](https://games.asmo.top/)** — टेबलटॉप खिलौनों से बने चार 3D गेम: पेंगुइन के नीचे की बर्फ तोड़ें, खरगोशों को जालों से पार कराएँ, प्लेटफ़ॉर्म पर अंतरिक्ष यात्रियों का संतुलन बनाएँ और पार्किंग से बाहर निकलने की पहेलियाँ हल करें।
+  - रचनाकार: [asmoyou](https://github.com/asmoyou)
+  - प्लैटफ़ॉर्म: कंप्यूटर, टैबलेट और मोबाइल ब्राउज़र; मुफ़्त, बिना लॉगिन। एक ही स्क्रीन पर बारी-बारी से 2–4 स्थानों पर खेल सकते हैं, जिनमें कंप्यूटर प्रतिद्वंद्वी भी हो सकते हैं; एकल पहेलियाँ भी हैं। ऑनलाइन मल्टीप्लेयर नहीं है। डेमो की स्वतंत्र पुष्टि नहीं हुई है।
+  - GPT-6 Astra: [रचनाकार का कथन](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/24) — रचनाकार के अनुसार, खिलौनों के विवरण और सुविधाओं की आवश्यकताओं से GPT-6 Astra ने अपने आप गेम बनाए और उनका परीक्षण किया।
+  - विकास संसाधन: [स्रोत कोड और चलाने के निर्देश](https://github.com/asmoyou/toy2game) · [गैर-व्यावसायिक लाइसेंस](https://github.com/asmoyou/toy2game/blob/main/LICENSE) — स्रोत कोड उपलब्ध है; गैर-व्यावसायिक उपयोग मुफ़्त है और व्यावसायिक उपयोग के लिए लेखक की पूर्व लिखित अनुमति आवश्यक है। तकनीक: TypeScript, React, Vite, Three.js.
+  - झलक: ![Toy2Game के चार वास्तविक 3D दृश्य: पेंगुइन की बर्फ, खरगोश के जाल, अंतरिक्ष यात्रियों का संतुलन और पार्किंग से बाहर निकलना। चित्र asmoyou ने दिया है।](https://raw.githubusercontent.com/asmoyou/toy2game/main/docs/images/toy2game-overview.png)
 
 ## हर प्रविष्टि में क्या शामिल है
 
