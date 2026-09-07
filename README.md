@@ -20,7 +20,7 @@ Playful ideas, games you can try, and development stories that inspire the next 
 
 ## Start here
 
-Explore **6 browser games and 1 interactive particle-art sandbox**: soft-body fruit merging, one-tap flight, magic-carpet combat, island power-grid tower defense, Bay Circuit kart racing, coastal cycling with a pelican, and Orbital Garden. Click a title to open its demo or source with setup instructions.
+Explore **7 browser games and 1 interactive particle-art sandbox**: wooden interlocking and sliding puzzles, soft-body fruit merging, one-tap flight, magic-carpet combat, island power-grid tower defense, Bay Circuit kart racing, coastal cycling with a pelican, and Orbital Garden. Click a title to open its demo or source with setup instructions.
 
 Last checked: **2026-09-05**. Creator statements, source links, and demo availability have been checked. Model attribution is author-reported; the games have not been play-tested for this list.
 
@@ -64,6 +64,13 @@ Logic puzzles, physics challenges, word games, and clever little mechanisms.
   - Platform: Modern browser; the creator also provides a downloadable standalone HTML version.
   - GPT-6 Astra: [Creator's one-shot tests and original prompts](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - Resources: [Source](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/melon-lab/src) · [Standalone HTML](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/melon-lab/%E7%93%9C%E4%BD%93%E5%AE%9E%E9%AA%8C%E5%AE%A4.html)
+
+- **[榫境 / Sunjing Puzzles](https://sunjing-puzzles.hp20230404.chatgpt.site)** — Disassemble a six-piece interlocking wooden puzzle and solve two Huarong Dao sliding-block layouts in a 3D workshop, with hints and move undo.
+  - Creator: [MartinDelophy](https://github.com/MartinDelophy) (project initiator and submitter).
+  - Platform: Modern browser with WebGL 2; Chinese interface, mouse/keyboard and touch controls. Free, no login or API key; progress stays in the current browser.
+  - Model participation: [Creation record](works/sunjing-puzzles/CREATION.md) — Iterative Codex work on game design, procedural 3D visuals, rules, solver and tests; exact GPT-6 Astra attribution awaits creator confirmation (draft submission).
+  - Resources: [Source and setup](works/sunjing-puzzles/README.md) · [Requests](works/sunjing-puzzles/PROMPTS.md) · Built with: React, Vinext/Vite and Three.js.
+  - Preview: ![Sunjing's six-piece wooden lock on a green 3D workbench, with numbered pieces and extraction controls.](assets/screenshots/sunjing-puzzles/gameplay.jpg)
 
 ### Strategy & simulation
 

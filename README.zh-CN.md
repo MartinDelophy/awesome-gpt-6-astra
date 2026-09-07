@@ -20,7 +20,7 @@
 
 ## 从这里开始
 
-目前收录 **6 款浏览器游戏和 1 个交互式粒子艺术沙盒**：半流体水果合成、单键飞行、魔毯战斗、海岛电网塔防、海湾卡丁车竞速、鹈鹕海岸骑行，以及轨道花园。点击作品名称可打开试玩或源码运行说明。
+目前收录 **7 款浏览器游戏和 1 个交互式粒子艺术沙盒**：木锁拆解与华容道、半流体水果合成、单键飞行、魔毯战斗、海岛电网塔防、海湾卡丁车竞速、鹈鹕海岸骑行，以及轨道花园。点击作品名称可打开试玩或源码运行说明。
 
 最近核对：**2026-09-05**。已检查作者的 Astra 使用说明、源码链接和演示页面可达性；模型归因来自作者自述，尚未逐款试玩。
 
@@ -64,6 +64,13 @@
   - 平台：现代浏览器；作者另提供可下载后直接打开的单文件版本。
   - GPT-6 Astra：[作者的 One Shot 测试与原始 Prompt](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md)。
   - 开发资料：[源码](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/melon-lab/src) · [单文件 HTML](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/melon-lab/%E7%93%9C%E4%BD%93%E5%AE%9E%E9%AA%8C%E5%AE%A4.html)
+
+- **[榫境 / Sunjing Puzzles](https://sunjing-puzzles.hp20230404.chatgpt.site)** — 在 3D 木作展台拆解六构件互锁木锁，挑战两种华容道布局，支持提示与移动撤销。
+  - 作者：[MartinDelophy](https://github.com/MartinDelophy)（项目发起人及提交者）。
+  - 平台：支持 WebGL 2 的现代浏览器，中文界面，键鼠与触控操作；免费，无需登录或 API Key，进度仅保存在当前浏览器。
+  - 模型参与：[制作记录](works/sunjing-puzzles/CREATION.md) — 通过 Codex 多轮完成玩法、程序化 3D 画面、规则、求解器与测试；GPT-6 Astra 的具体使用归因待作者确认，本次为草稿投稿。
+  - 开发资料：[源码与运行说明](works/sunjing-puzzles/README.md) · [需求记录](works/sunjing-puzzles/PROMPTS.md) · 技术：React、Vinext/Vite、Three.js。
+  - 预览：![榫境实机画面：深绿色 3D 展台上的六构件木锁，旁边是木块编号与抽出操作。](assets/screenshots/sunjing-puzzles/gameplay.jpg)
 
 ### 策略与模拟
 
