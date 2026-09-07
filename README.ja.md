@@ -22,7 +22,7 @@
 
 ## はじめに
 
-現在、**ブラウザーゲーム 7 作品と、インタラクティブなパーティクルアートのサンドボックス 1 作品**を掲載しています。柔らかい果物の合成、ワンボタン飛行、魔法の絨毯での戦闘、島の電力網を使うタワーディフェンス、海湾サーキットのカートレース、ペリカンとの海岸サイクリング、そして Orbital Garden。作品名をクリックすると、デモまたは実行手順付きのソースコードが開きます。
+現在、**ブラウザーゲーム 8 作品と、インタラクティブなパーティクルアートのサンドボックス 1 作品**を掲載しています。木製の組木パズルとスライドパズル、柔らかい果物の合成、ワンボタン飛行、魔法の絨毯での戦闘、島の電力網を使うタワーディフェンス、海湾サーキットのカートレース、ペリカンとの海岸サイクリング、卓上玩具の 3D ゲーム化、そして Orbital Garden。作品名をクリックすると、デモまたは実行手順付きのソースコードが開きます。
 
 最終確認日：**2026-09-05**。作者によるモデル利用の説明、ソースコードへのリンク、デモへのアクセスを確認しています。モデルの利用状況は作者の申告に基づくもので、この一覧のための各作品のプレイテストは行っていません。
 
@@ -52,14 +52,14 @@
   - 対応環境: ブラウザー。モバイル向けに設計されています。
   - GPT-6 Astra: [作者の One Shot テストと元のプロンプト](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - 開発資料: [ソースコード](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/mosswing/src) · [単一 HTML ファイル](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/mosswing/mosswing.html)
-  - プレビュー: ![Mosswing — スタート画面](assets/screenshots/mosswing/gameplay.jpg)
+  - プレビュー: ![Mosswing の開始画面。飛ぶキャラクターと石柱の間の隙間が見えます。](assets/screenshots/mosswing/gameplay.jpg)
 
 - **[Magic Carpet Wizard — A Thousand Skies](https://threapchills.github.io/MagicCarpetWizard/)** — 魔法の絨毯で球形の世界を飛び、リングをくぐり、魔法を放って敵やボスと戦います。
   - 作者: [threapchills](https://github.com/threapchills)
   - 対応環境: マウスとキーボードを使うデスクトップブラウザー。WebGL 2 が必要です。
   - GPT-6 Astra: 作者は[リポジトリの About 欄](https://github.com/threapchills/MagicCarpetWizard)で、GPT-6 Astra を使って制作したと説明しています。
   - 開発資料: [ソースコードと実行手順](https://github.com/threapchills/MagicCarpetWizard) · 使用技術: Three.js, Vite.
-  - プレビュー: ![Magic Carpet Wizard — スタート画面](assets/screenshots/magic-carpet/gameplay.jpg)
+  - プレビュー: ![Magic Carpet Wizard の開始画面。絨毯の乗り手、街、光る飛行リングが見えます。](assets/screenshots/magic-carpet/gameplay.jpg)
 
 <a id="puzzles"></a>
 
@@ -72,14 +72,14 @@
   - 対応環境: モダンブラウザー。作者はダウンロードして使える単一 HTML 版も公開しています。
   - GPT-6 Astra: [作者の One Shot テストと元のプロンプト](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - 開発資料: [ソースコード](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/melon-lab/src) · [単一 HTML ファイル](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/melon-lab/%E7%93%9C%E4%BD%93%E5%AE%9E%E9%AA%8C%E5%AE%A4.html)
-  - プレビュー: ![Melon Lab — ゲーム画面](assets/screenshots/melon-lab/gameplay.jpg)
+  - プレビュー: ![Melon Lab のゲーム画面。合成用の容器に入った柔らかい果物と物理設定の操作部が見えます。](assets/screenshots/melon-lab/gameplay.jpg)
 
-- **[榫境 / Sunjing Puzzles](https://sunjing-puzzles.hp20230404.chatgpt.site)** — 六つの木製パーツを取り外す組木パズルと、二種類の華容道を楽しめる 3D 工房。ヒントと取り消しに対応。
-  - [MartinDelophy](https://github.com/MartinDelophy)
-  - WebGL 2 対応ブラウザー、中国語 UI、マウス・キーボード・タッチ。無料、ログイン不要。進行状況はブラウザーに保存。
-  - Codex で反復制作。GPT-6 Astra の利用は作者の確認待ち。 [Codex / GPT-6 Astra](works/sunjing-puzzles/CREATION.md)
-  - [ソースと実行手順](works/sunjing-puzzles/README.md) · React, Vinext/Vite, Three.js.
-  - プレビュー: ![Sunjing Puzzles — ゲーム画面](assets/screenshots/sunjing-puzzles/gameplay.jpg)
+- **[榫境 / Sunjing Puzzles](https://sunjing-puzzles.hp20230404.chatgpt.site)** — 3D の木工作業台で 6 部品がかみ合う組木パズルを分解し、2 種類の華容道スライドパズルを解きます。ヒントと移動の取り消しに対応しています。
+  - 作者: [MartinDelophy](https://github.com/MartinDelophy) （プロジェクトの発案者・投稿者）。
+  - 対応環境: WebGL 2 対応のモダンブラウザー。中国語の画面で、マウス・キーボード・タッチ操作に対応。無料でログインや API キーは不要です。進行状況は現在のブラウザーに保存されます。
+  - モデルの担当範囲: [制作記録](works/sunjing-puzzles/CREATION.md) — Codex でゲーム設計、手続き型の 3D グラフィックス、ルール、ソルバー、テストを繰り返し開発。GPT-6 Astra の具体的な利用は作者の確認待ちです（草稿としての投稿）。
+  - 開発資料: [ソースコードと実行手順](works/sunjing-puzzles/README.md) · [要件の記録](works/sunjing-puzzles/PROMPTS.md) · 使用技術: React, Vinext/Vite, Three.js.
+  - プレビュー: ![Sunjing の 6 部品の木製パズル。緑の 3D 作業台に、部品番号と引き抜き操作を表示しています。](assets/screenshots/sunjing-puzzles/gameplay.jpg)
 
 <a id="strategy-simulation"></a>
 
@@ -110,9 +110,9 @@
 
 - **[APEX CLUB — Bay Kart Grand Prix](https://apex-club-racing.mauve-ibex-1793.chatgpt.site)** — 海湾サーキットを 3 周するカートレース。6 種類のカートから選び、コーナーでミニターボをためて立ち上がりで加速し、個人順位や 4 対 4 のチーム得点を競います。
   - 作者: Ryan
-  - 対応環境: WebGL 2 対応のデスクトップブラウザー。キーボード操作。無料で、ログインや API キーは不要です。ローカル HTTP サーバーと Three.js を読み込むためのインターネット接続が必要です。チーム戦は人間 1 人と AI 7 台によるローカルレースです。
+  - 対応環境: WebGL 2 対応のデスクトップブラウザーでキーボード操作。無料でログインや API キーは不要です。ローカル HTTP サーバーまたは静的ホスティングで動作し、Three.js は同梱されています。チーム戦は人間 1 人と AI 7 台によるローカルレースです。
   - モデルの担当範囲: [開発記録](works/apex-club/CREATION.md) — Codex でゲームの仕組み、コード、手続き型のグラフィックス、テストを繰り返し改善しています。GPT-6 Astra の利用については作者の確認待ちです。
-  - 開発資料: [ソースコードと実行手順](works/apex-club/README.md) · [要件と改善の記録](works/apex-club/PROMPTS.md) · 使用技術: JavaScript, Three.js.
+  - 開発資料: [ソースコードと実行手順](works/apex-club/README.md) · [要件と改善の記録](works/apex-club/PROMPTS.md) · [GPT の共有会話](https://chatgpt.com/s/cx_6a9e84c13c9c8191bcb7ad0801288adc) · 使用技術: JavaScript, Three.js.
   - プレビュー: ![APEX CLUB の海湾サーキットでのチーム戦。周囲のカート、周回数、現在のチーム得点、ミニマップを表示しています。](assets/screenshots/apex-club/gameplay.png)
 
 - **[PELICAN PEDAL / 鹈鹕踏浪](https://pelican-pedal.zecoba.workers.dev/)** — 自転車に乗るペリカンと、移り変わる 3D の海岸を走ります。3 車線を切り替え、ジャンプやかがむ動作で障害物をかわし、魚の連続収集、シールド、磁石、6 秒間の無敵ダッシュを活用します。
@@ -133,7 +133,14 @@
   - 対応環境: WebGL 対応のモダンブラウザー。作品名からオンラインで体験できます。無料で、ログインや API キーは不要です。単一 HTML 版はオフラインでも動作します。任意の環境音には Web Audio が必要です。
   - GPT-6 Astra: [制作記録とモデルの担当範囲](works/orbital-garden/README.md#模型与创作记录) — 作者は構想、コード、文章に GPT-6 Astra ultra を使用し、共同レビューを行っています。One Shot テストではありません。
   - 開発資料: [ソースコードと実行手順](works/orbital-garden/README.md) · [単一 HTML ファイル](works/orbital-garden/index.html) · [Prompt](works/orbital-garden/PROMPT.md) · 使用技術: 素の WebGL, Web Audio, Canvas 2D.
-  - プレビュー: ![ORBITAL GARDEN — ゲーム画面](assets/screenshots/orbital-garden/gameplay.jpg)
+  - プレビュー: ![Orbital Garden のミントグリーンの粒子の花。形状、生命力、時間速度の操作とポスター出力機能を表示しています。](assets/screenshots/orbital-garden/gameplay.jpg)
+
+- **[Toy2Game / 在线玩具箱](https://games.asmo.top/)** — 卓上玩具を 4 つの 3D ゲームに。ペンギンの足元の氷を崩し、ウサギを仕掛けの先へ進め、宇宙飛行士を台に置いてバランスを保ち、車を動かして駐車場から脱出させます。
+  - 作者: [asmoyou](https://github.com/asmoyou)
+  - 対応環境: パソコン、タブレット、スマートフォンのブラウザーに対応。無料でログイン不要です。コンピューターの対戦相手を含む 2～4 席で同じ画面を使って交代で遊べるほか、1 人用パズルもあります。オンライン対戦には非対応。デモは独立に確認できていません。
+  - GPT-6 Astra: [作者の説明](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/24) — 作者によると、玩具の説明と機能の要件を渡し、GPT-6 Astra がゲームの実装からテストまで自律的に行いました。
+  - 開発資料: [ソースコードと実行手順](https://github.com/asmoyou/toy2game) · [非商用ライセンス](https://github.com/asmoyou/toy2game/blob/main/LICENSE) — ソースコードを公開。非商用利用は無料で、商用利用には作者の事前の書面による許可が必要です。 使用技術: TypeScript, React, Vite, Three.js.
+  - プレビュー: ![Toy2Game の 4 つの実際の 3D ゲーム画面。ペンギンの氷崩し、ウサギの仕掛け、宇宙飛行士のバランス、駐車場脱出。asmoyou 提供。](https://raw.githubusercontent.com/asmoyou/toy2game/main/docs/images/toy2game-overview.png)
 
 ## 各作品に記載する情報
 

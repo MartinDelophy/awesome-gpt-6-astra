@@ -20,7 +20,7 @@
 
 ## 从这里开始
 
-目前收录 **7 款浏览器游戏和 1 个交互式粒子艺术沙盒**：木锁拆解与华容道、半流体水果合成、单键飞行、魔毯战斗、海岛电网塔防、海湾卡丁车竞速、鹈鹕海岸骑行，以及轨道花园。点击作品名称可打开试玩或源码运行说明。
+目前收录 **8 款浏览器游戏和 1 个交互式粒子艺术沙盒**：木锁拆解与华容道、半流体水果合成、单键飞行、魔毯战斗、海岛电网塔防、海湾卡丁车竞速、鹈鹕海岸骑行、桌面玩具的 3D 改编，以及轨道花园。点击作品名称可打开试玩或源码运行说明。
 
 最近核对：**2026-09-05**。已检查作者的 Astra 使用说明、源码链接和演示页面可达性；模型归因来自作者自述，尚未逐款试玩。
 
@@ -120,6 +120,13 @@
   - GPT-6 Astra：[创作记录与模型参与说明](works/orbital-garden/README.md#模型与创作记录) — 创作者使用 GPT-6 Astra ultra 完成构思、代码与文案，经过协作审阅；非 one-shot 测试。
   - 开发资料：[源码与运行说明](works/orbital-garden/README.md) · [单文件 HTML](works/orbital-garden/index.html) · [Prompt](works/orbital-garden/PROMPT.md) · 技术：原生 WebGL、Web Audio、Canvas 2D。
   - 预览：![轨道花园实机画面：薄荷绿色粒子组成星之花，下方可切换形态、调节生命力与时间流速，并导出纪念海报。](assets/screenshots/orbital-garden/gameplay.jpg)
+
+- **[Toy2Game / 在线玩具箱](https://games.asmo.top/)** — 把桌面玩具改编成四款 3D 网页游戏：轮流敲冰避免企鹅落水、带小兔穿过机关、放置太空人保持平台平衡，以及挪动车辆解开出库谜题。
+  - 作者：[asmoyou](https://github.com/asmoyou)
+  - 平台：电脑、平板与手机浏览器；免费，无需登录。支持 2–4 个席位本地同屏轮流操作，可加入电脑对手，也有单人解谜；不支持异地联机。试玩尚未独立核验。
+  - GPT-6 Astra：[作者说明](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/24) — 作者称只提供玩具描述和功能要求，由 GPT-6 Astra 自主完成游戏开发与测试验证。
+  - 开发资料：[源码与运行说明](https://github.com/asmoyou/toy2game) · [非商业使用许可](https://github.com/asmoyou/toy2game/blob/main/LICENSE) — 源码开放，非商业使用免费；商业使用须事先取得作者书面授权。技术：TypeScript、React、Vite、Three.js。
+  - 预览：![Toy2Game 四款游戏的实际 3D 场景：企鹅敲冰、小兔闯关、平衡太空人和移车出库。图片由 asmoyou 提供。](https://raw.githubusercontent.com/asmoyou/toy2game/main/docs/images/toy2game-overview.png)
 
 ## 每个作品记录什么
 

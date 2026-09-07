@@ -24,7 +24,7 @@
 
 ## ابدأ من هنا
 
-استكشف **7 ألعاب للمتصفح وبيئة تفاعلية واحدة لفن الجسيمات**: دمج الفواكه المرنة، والطيران بزر واحد، والقتال على بساط سحري، والدفاع عن جزيرة بشبكة كهربائية، وسباقات الكارت على حلبة الخليج، وركوب الدراجة مع بجع على الساحل، وOrbital Garden. انقر على اسم العمل لفتح التجربة أو الشفرة المصدرية مع تعليمات التشغيل.
+استكشف **8 ألعاب للمتصفح وبيئة تفاعلية واحدة لفن الجسيمات**: ألغاز خشبية متشابكة وألغاز الكتل المنزلقة، دمج الفواكه المرنة، والطيران بزر واحد، والقتال على بساط سحري، والدفاع عن جزيرة بشبكة كهربائية، وسباقات الكارت على حلبة الخليج، وركوب الدراجة مع بجع على الساحل، وألعاب طاولة محوّلة إلى ألعاب ثلاثية الأبعاد، وOrbital Garden. انقر على اسم العمل لفتح التجربة أو الشفرة المصدرية مع تعليمات التشغيل.
 
 آخر تحقق: **2026-09-05**. جرى التحقق من تصريحات المبدعين وروابط الشفرة المصدرية وإمكانية الوصول إلى العروض التجريبية. نَسب استخدام النموذج يستند إلى تصريحات المؤلفين؛ ولم تُختبر الألعاب باللعب من أجل إعداد هذه القائمة.
 
@@ -54,14 +54,14 @@
   - المنصة: المتصفح، مع تصميم موجه للأجهزة المحمولة.
   - GPT-6 Astra: [اختبارات المبدع بالتوليد من طلب واحد والموجّهات الأصلية](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - موارد التطوير: [الشفرة المصدرية](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/mosswing/src) · [ملف HTML مستقل](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/mosswing/mosswing.html)
-  - معاينة: ![Mosswing — شاشة البداية](assets/screenshots/mosswing/gameplay.jpg)
+  - معاينة: ![شاشة بدء Mosswing وتظهر الشخصية الطائرة والفجوات بين الأعمدة الحجرية.](assets/screenshots/mosswing/gameplay.jpg)
 
 - **[Magic Carpet Wizard — A Thousand Skies](https://threapchills.github.io/MagicCarpetWizard/)** — حلّق على بساط سحري في عالم كروي، واعبر الحلقات، وألقِ التعويذات، وقاتل الأعداء والزعماء.
   - المبدع: [threapchills](https://github.com/threapchills)
   - المنصة: متصفح على حاسوب مع فأرة ولوحة مفاتيح؛ يتطلب WebGL 2.
   - GPT-6 Astra: يذكر المبدع في [قسم About بالمستودع](https://github.com/threapchills/MagicCarpetWizard) أن اللعبة صُنعت باستخدام GPT-6 Astra.
   - موارد التطوير: [الشفرة المصدرية وتعليمات التشغيل](https://github.com/threapchills/MagicCarpetWizard) · التقنيات: Three.js, Vite.
-  - معاينة: ![Magic Carpet Wizard — شاشة البداية](assets/screenshots/magic-carpet/gameplay.jpg)
+  - معاينة: ![شاشة بدء Magic Carpet Wizard وتظهر راكب البساط والمدينة وحلقة طيران مضيئة.](assets/screenshots/magic-carpet/gameplay.jpg)
 
 <a id="puzzles"></a>
 
@@ -74,14 +74,14 @@
   - المنصة: متصفح حديث؛ يوفر المبدع أيضًا نسخة HTML مستقلة قابلة للتنزيل.
   - GPT-6 Astra: [اختبارات المبدع بالتوليد من طلب واحد والموجّهات الأصلية](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - موارد التطوير: [الشفرة المصدرية](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/melon-lab/src) · [ملف HTML مستقل](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/melon-lab/%E7%93%9C%E4%BD%93%E5%AE%9E%E9%AA%8C%E5%AE%A4.html)
-  - معاينة: ![Melon Lab — شاشة اللعبة](assets/screenshots/melon-lab/gameplay.jpg)
+  - معاينة: ![مشهد لعب Melon Lab وفيه فواكه لينة داخل وعاء الدمج وأدوات التحكم في الفيزياء.](assets/screenshots/melon-lab/gameplay.jpg)
 
-- **[榫境 / Sunjing Puzzles](https://sunjing-puzzles.hp20230404.chatgpt.site)** — ورشة ثلاثية الأبعاد لتفكيك لغز خشبي من ست قطع وحل لوحتين من هوارونغ داو، مع تلميحات والتراجع عن الحركة.
-  - [MartinDelophy](https://github.com/MartinDelophy)
-  - متصفح يدعم WebGL 2، واجهة صينية، فأرة ولوحة مفاتيح ولمس. مجاني دون تسجيل دخول؛ يُحفظ التقدم في المتصفح.
-  - تطوير تكراري باستخدام Codex؛ استخدام GPT-6 Astra بانتظار تأكيد المؤلف. [Codex / GPT-6 Astra](works/sunjing-puzzles/CREATION.md)
-  - [المصدر وتعليمات التشغيل](works/sunjing-puzzles/README.md) · React, Vinext/Vite, Three.js.
-  - معاينة: ![Sunjing Puzzles — شاشة اللعبة](assets/screenshots/sunjing-puzzles/gameplay.jpg)
+- **[榫境 / Sunjing Puzzles](https://sunjing-puzzles.hp20230404.chatgpt.site)** — فكّك لغزًا خشبيًا متشابكًا من ست قطع وحل ترتيبين للغز الكتل المنزلقة هوارونغ داو داخل ورشة ثلاثية الأبعاد، مع تلميحات وإمكانية التراجع عن الحركات.
+  - المبدع: [MartinDelophy](https://github.com/MartinDelophy) (صاحب فكرة المشروع ومقدّم الطلب).
+  - المنصة: متصفح حديث يدعم WebGL 2؛ واجهة صينية وتحكم بالفأرة ولوحة المفاتيح واللمس. مجاني دون تسجيل دخول أو مفتاح API؛ يُحفظ التقدم في المتصفح الحالي.
+  - مشاركة النموذج: [سجل الإنشاء](works/sunjing-puzzles/CREATION.md) — عمل متتابع عبر Codex على تصميم اللعبة والرسوم ثلاثية الأبعاد المُولّدة إجرائيًا والقواعد وآلية الحل والاختبارات؛ الاستخدام المحدد لـ GPT-6 Astra بانتظار تأكيد المبدع (طلب مبدئي).
+  - موارد التطوير: [الشفرة المصدرية وتعليمات التشغيل](works/sunjing-puzzles/README.md) · [المتطلبات](works/sunjing-puzzles/PROMPTS.md) · التقنيات: React, Vinext/Vite, Three.js.
+  - معاينة: ![لغز Sunjing الخشبي من ست قطع على طاولة عمل خضراء ثلاثية الأبعاد، مع أرقام القطع وأدوات سحبها.](assets/screenshots/sunjing-puzzles/gameplay.jpg)
 
 <a id="strategy-simulation"></a>
 
@@ -112,9 +112,9 @@
 
 - **[APEX CLUB — Bay Kart Grand Prix](https://apex-club-racing.mauve-ibex-1793.chatgpt.site)** — تسابق لثلاث لفات على حلبة الخليج، واختر من بين ست سيارات كارت، واشحن دفعات التوربو الصغيرة للخروج من المنعطفات لتحسين ترتيبك الفردي أو جمع النقاط لفريق في سباق 4 ضد 4.
   - المبدع: Ryan
-  - المنصة: متصفح على حاسوب يدعم WebGL 2 مع لوحة مفاتيح؛ مجانية ولا تتطلب تسجيل الدخول أو مفتاح API. تحتاج إلى خادم HTTP محلي واتصال بالإنترنت لتحميل Three.js. سباقات الفرق محلية: لاعب بشري واحد وسبعة متسابقين بالذكاء الاصطناعي.
+  - المنصة: متصفح حاسوب يدعم WebGL 2 مع لوحة مفاتيح؛ مجانية دون تسجيل دخول أو مفتاح API. تعمل عبر خادم HTTP محلي أو استضافة ثابتة؛ مكتبة Three.js مرفقة محليًا. سباقات الفرق محلية: لاعب بشري واحد وسبعة متسابقين بالذكاء الاصطناعي.
   - مشاركة النموذج: [سجل التطوير](works/apex-club/CREATION.md) — تطوير متتابع عبر Codex لآليات اللعب والشفرة والرسوم المُولَّدة إجرائيًا والاختبارات؛ ونسبة العمل إلى GPT-6 Astra بانتظار تأكيد المبدع.
-  - موارد التطوير: [الشفرة المصدرية وتعليمات التشغيل](works/apex-club/README.md) · [المتطلبات وملاحظات التطوير المتتابع](works/apex-club/PROMPTS.md) · التقنيات: JavaScript, Three.js.
+  - موارد التطوير: [الشفرة المصدرية وتعليمات التشغيل](works/apex-club/README.md) · [المتطلبات وملاحظات التطوير المتتابع](works/apex-club/PROMPTS.md) · [محادثة GPT المُشارَكة](https://chatgpt.com/s/cx_6a9e84c13c9c8191bcb7ad0801288adc) · التقنيات: JavaScript, Three.js.
   - معاينة: ![سباق فرق APEX CLUB على حلبة الخليج مع سيارات الكارت القريبة وتقدم اللفات ونقاط الفرق المباشرة وخريطة مصغرة.](assets/screenshots/apex-club/gameplay.png)
 
 - **[PELICAN PEDAL / 鹈鹕踏浪](https://pelican-pedal.zecoba.workers.dev/)** — اركب دراجة مع بجع على ساحل ثلاثي الأبعاد متغيّر: تنقّل بين ثلاثة مسارات، واقفز أو انحنِ لتفادي العوائق، واجمع الأسماك تباعًا واستخدم الدروع والمغناطيس واندفاعًا يمنحك الحصانة لست ثوانٍ.
@@ -135,7 +135,14 @@
   - المنصة: متصفح حديث يدعم WebGL؛ انقر على الاسم للتجربة عبر الإنترنت. مجانية ولا تتطلب تسجيل الدخول أو مفتاح API؛ يعمل ملف HTML المستقل دون اتصال أيضًا. الصوت المحيطي اختياري ويتطلب Web Audio.
   - GPT-6 Astra: [سجل الإنشاء ومساهمة النموذج](works/orbital-garden/README.md#模型与创作记录) — استخدم المبدع GPT-6 Astra ultra للفكرة والشفرة والنصوص، مع مراجعة تعاونية؛ وليس اختبارًا بالتوليد من طلب واحد.
   - موارد التطوير: [الشفرة المصدرية وتعليمات التشغيل](works/orbital-garden/README.md) · [ملف HTML مستقل](works/orbital-garden/index.html) · [Prompt](works/orbital-garden/PROMPT.md) · التقنيات: WebGL مباشرة, Web Audio, Canvas 2D.
-  - معاينة: ![ORBITAL GARDEN — شاشة اللعبة](assets/screenshots/orbital-garden/gameplay.jpg)
+  - معاينة: ![زهرة جسيمات خضراء نعناعية في Orbital Garden، مع اختيار الشكل والتحكم في الحيوية وسرعة الزمن وتصدير ملصق.](assets/screenshots/orbital-garden/gameplay.jpg)
+
+- **[Toy2Game / 在线玩具箱](https://games.asmo.top/)** — أربع ألعاب ثلاثية الأبعاد مقتبسة من ألعاب الطاولة: أزل الجليد تحت بطريق، ووجّه الأرانب عبر الفخاخ، ووازن رواد الفضاء على منصة، وحل ألغاز إخراج السيارات من الموقف.
+  - المبدع: [asmoyou](https://github.com/asmoyou)
+  - المنصة: متصفحات الحاسوب والأجهزة اللوحية والهواتف؛ مجانية دون تسجيل دخول. لعب محلي بالتناوب على شاشة واحدة من مقعدين إلى أربعة، مع إمكانية إضافة خصوم حاسوبيين، وألغاز فردية؛ لا تدعم اللعب الجماعي عبر الإنترنت. لم يجرِ التحقق من التجربة بصورة مستقلة.
+  - GPT-6 Astra: [تصريح المبدع](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/24) — يذكر المبدع أن GPT-6 Astra نفّذ الألعاب واختبرها بصورة مستقلة انطلاقًا من أوصاف الألعاب ومتطلبات الوظائف.
+  - موارد التطوير: [الشفرة المصدرية وتعليمات التشغيل](https://github.com/asmoyou/toy2game) · [ترخيص الاستخدام غير التجاري](https://github.com/asmoyou/toy2game/blob/main/LICENSE) — الشفرة متاحة للاطلاع؛ الاستخدام غير التجاري مجاني، والتجاري يتطلب موافقة خطية مسبقة من المؤلف. التقنيات: TypeScript, React, Vite, Three.js.
+  - معاينة: ![نظرة عامة على Toy2Game تضم أربع لقطات فعلية ثلاثية الأبعاد: جليد البطريق، وفخاخ الأرانب، وتوازن رواد الفضاء، والخروج من موقف السيارات. الصورة من asmoyou.](https://raw.githubusercontent.com/asmoyou/toy2game/main/docs/images/toy2game-overview.png)
 
 ## ما الذي يتضمنه كل إدراج
 

@@ -22,7 +22,7 @@ Esta página es una traducción del [README en inglés](README.md). Consulta el 
 
 ## Empieza aquí
 
-Explora **7 juegos de navegador y 1 entorno interactivo de arte con partículas**: fusión de frutas deformables, vuelo con un solo botón, combates en alfombra mágica, defensa de una isla mediante una red eléctrica, carreras de karts en Bay Circuit, ciclismo costero con un pelícano y Orbital Garden. Haz clic en un título para abrir su demo o el código fuente con instrucciones de ejecución.
+Explora **8 juegos de navegador y 1 entorno interactivo de arte con partículas**: rompecabezas de madera entrelazada y de piezas deslizantes, fusión de frutas deformables, vuelo con un solo botón, combates en alfombra mágica, defensa de una isla mediante una red eléctrica, carreras de karts en Bay Circuit, ciclismo costero con un pelícano, juguetes de mesa adaptados a 3D y Orbital Garden. Haz clic en un título para abrir su demo o el código fuente con instrucciones de ejecución.
 
 Última comprobación: **2026-09-05**. Se han revisado las declaraciones de los creadores, los enlaces al código fuente y la disponibilidad de las demos. El uso del modelo se basa en lo declarado por los autores; no se han realizado pruebas de juego para esta lista.
 
@@ -52,14 +52,14 @@ Juegos de disparos, lucha, supervivencia, ritmo y cualquier propuesta que invite
   - Plataforma: Navegador, diseñado para móviles.
   - GPT-6 Astra: [Pruebas en una sola generación y prompts originales del creador](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - Recursos: [Código fuente](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/mosswing/src) · [HTML independiente](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/mosswing/mosswing.html)
-  - Vista previa: ![Mosswing — Pantalla de inicio](assets/screenshots/mosswing/gameplay.jpg)
+  - Vista previa: ![Pantalla de inicio de Mosswing con el personaje volador y los huecos entre pilares de piedra.](assets/screenshots/mosswing/gameplay.jpg)
 
 - **[Magic Carpet Wizard — A Thousand Skies](https://threapchills.github.io/MagicCarpetWizard/)** — Pilota una alfombra mágica por un mundo esférico, atraviesa aros, lanza hechizos y combate contra enemigos y jefes.
   - Creador: [threapchills](https://github.com/threapchills)
   - Plataforma: Navegador de escritorio con ratón y teclado; requiere WebGL 2.
   - GPT-6 Astra: El creador indica en la [sección About del repositorio](https://github.com/threapchills/MagicCarpetWizard) que el juego se hizo con GPT-6 Astra.
   - Recursos: [Código fuente e instrucciones de ejecución](https://github.com/threapchills/MagicCarpetWizard) · Tecnologías: Three.js, Vite.
-  - Vista previa: ![Magic Carpet Wizard — Pantalla de inicio](assets/screenshots/magic-carpet/gameplay.jpg)
+  - Vista previa: ![Pantalla de inicio de Magic Carpet Wizard con el jinete de la alfombra, la ciudad y un anillo de vuelo luminoso.](assets/screenshots/magic-carpet/gameplay.jpg)
 
 <a id="puzzles"></a>
 
@@ -72,14 +72,14 @@ Acertijos de lógica, desafíos de física, juegos de palabras y pequeños mecan
   - Plataforma: Navegador moderno; el creador también ofrece una versión HTML independiente para descargar.
   - GPT-6 Astra: [Pruebas en una sola generación y prompts originales del creador](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - Recursos: [Código fuente](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/melon-lab/src) · [HTML independiente](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/melon-lab/%E7%93%9C%E4%BD%93%E5%AE%9E%E9%AA%8C%E5%AE%A4.html)
-  - Vista previa: ![Melon Lab — Pantalla del juego](assets/screenshots/melon-lab/gameplay.jpg)
+  - Vista previa: ![Partida de Melon Lab con frutas blandas dentro del recipiente de fusión y controles de física.](assets/screenshots/melon-lab/gameplay.jpg)
 
-- **[榫境 / Sunjing Puzzles](https://sunjing-puzzles.hp20230404.chatgpt.site)** — Un taller 3D para desmontar un rompecabezas de madera de seis piezas y resolver dos tableros de Huarong Dao, con pistas y opción de deshacer.
-  - [MartinDelophy](https://github.com/MartinDelophy)
-  - Navegador con WebGL 2, interfaz en chino, ratón/teclado y controles táctiles. Gratis, sin iniciar sesión; progreso guardado en el navegador.
-  - Desarrollo iterativo con Codex; el uso de GPT-6 Astra está pendiente de confirmación del creador. [Codex / GPT-6 Astra](works/sunjing-puzzles/CREATION.md)
-  - [Código e instrucciones](works/sunjing-puzzles/README.md) · React, Vinext/Vite, Three.js.
-  - Vista previa: ![Sunjing Puzzles — Pantalla del juego](assets/screenshots/sunjing-puzzles/gameplay.jpg)
+- **[榫境 / Sunjing Puzzles](https://sunjing-puzzles.hp20230404.chatgpt.site)** — Desmonta un rompecabezas de madera de seis piezas entrelazadas y resuelve dos configuraciones de Huarong Dao en un taller 3D, con pistas y la opción de deshacer movimientos.
+  - Creador: [MartinDelophy](https://github.com/MartinDelophy) (impulsor del proyecto y responsable de la propuesta).
+  - Plataforma: Navegador moderno con WebGL 2; interfaz en chino y controles de ratón, teclado y pantalla táctil. Gratis, sin iniciar sesión ni usar una clave API; el progreso se guarda en el navegador actual.
+  - Participación del modelo: [Registro de creación](works/sunjing-puzzles/CREATION.md) — Trabajo iterativo en Codex sobre diseño del juego, gráficos 3D procedurales, reglas, solucionador y pruebas; el uso concreto de GPT-6 Astra está pendiente de confirmación del creador (propuesta provisional).
+  - Recursos: [Código fuente e instrucciones de ejecución](works/sunjing-puzzles/README.md) · [Requisitos](works/sunjing-puzzles/PROMPTS.md) · Tecnologías: React, Vinext/Vite, Three.js.
+  - Vista previa: ![Rompecabezas de madera de seis piezas de Sunjing sobre un banco 3D verde, con piezas numeradas y controles de extracción.](assets/screenshots/sunjing-puzzles/gameplay.jpg)
 
 <a id="strategy-simulation"></a>
 
@@ -110,9 +110,9 @@ Parkour, desafíos de plataformas, carreras y juegos centrados en el movimiento 
 
 - **[APEX CLUB — Bay Kart Grand Prix](https://apex-club-racing.mauve-ibex-1793.chatgpt.site)** — Compite durante tres vueltas en Bay Circuit, elige entre seis karts y carga miniturbos para salir de las curvas y mejorar tu clasificación individual o sumar puntos en equipos de 4 contra 4.
   - Creador: Ryan
-  - Plataforma: Navegador de escritorio con WebGL 2 y teclado; gratis, sin iniciar sesión ni usar una clave API. Requiere un servidor HTTP local y conexión a Internet para cargar Three.js. Las carreras por equipos son locales: una persona y siete pilotos de IA.
+  - Plataforma: Navegador de escritorio con WebGL 2 y teclado; gratis, sin iniciar sesión ni usar una clave API. Funciona desde un servidor HTTP local o alojamiento estático; Three.js se incluye localmente. Las carreras por equipos son locales: una persona y siete pilotos de IA.
   - Participación del modelo: [Registro de desarrollo](works/apex-club/CREATION.md) — Trabajo iterativo en Codex sobre la jugabilidad, el código, los gráficos procedurales y las pruebas; la atribución a GPT-6 Astra está pendiente de confirmación por parte del creador.
-  - Recursos: [Código fuente e instrucciones de ejecución](works/apex-club/README.md) · [Requisitos y notas de las iteraciones](works/apex-club/PROMPTS.md) · Tecnologías: JavaScript, Three.js.
+  - Recursos: [Código fuente e instrucciones de ejecución](works/apex-club/README.md) · [Requisitos y notas de las iteraciones](works/apex-club/PROMPTS.md) · [Conversación de GPT compartida](https://chatgpt.com/s/cx_6a9e84c13c9c8191bcb7ad0801288adc) · Tecnologías: JavaScript, Three.js.
   - Vista previa: ![Carrera por equipos de APEX CLUB en Bay Circuit con karts cercanos, progreso de las vueltas, puntos de equipo en directo y un minimapa.](assets/screenshots/apex-club/gameplay.png)
 
 - **[PELICAN PEDAL / 鹈鹕踏浪](https://pelican-pedal.zecoba.workers.dev/)** — Recorre una costa 3D cambiante con un pelícano en bicicleta: cambia entre tres carriles, salta o agáchate para esquivar obstáculos, encadena peces y usa escudos, imanes y un impulso invencible de seis segundos.
@@ -133,7 +133,14 @@ Mecánicas inusuales, competición en línea y experiencias cooperativas.
   - Plataforma: Navegador moderno con WebGL; haz clic en el título para probarlo en línea. Gratis, sin iniciar sesión ni usar una clave API; el HTML independiente también funciona sin conexión. El sonido ambiental opcional requiere Web Audio.
   - GPT-6 Astra: [Registro de creación y contribución del modelo](works/orbital-garden/README.md#模型与创作记录) — El creador utilizó GPT-6 Astra ultra para el concepto, el código y los textos, con revisión colaborativa; no fue una prueba en una sola generación.
   - Recursos: [Código fuente e instrucciones de ejecución](works/orbital-garden/README.md) · [HTML independiente](works/orbital-garden/index.html) · [Prompt](works/orbital-garden/PROMPT.md) · Tecnologías: WebGL nativo, Web Audio, Canvas 2D.
-  - Vista previa: ![ORBITAL GARDEN — Pantalla del juego](assets/screenshots/orbital-garden/gameplay.jpg)
+  - Vista previa: ![Flor de partículas verde menta de Orbital Garden, con selección de forma, ajustes de vitalidad y velocidad del tiempo, y exportación a póster.](assets/screenshots/orbital-garden/gameplay.jpg)
+
+- **[Toy2Game / 在线玩具箱](https://games.asmo.top/)** — Cuatro adaptaciones 3D de juguetes de mesa: rompe el hielo bajo un pingüino, guía conejos entre trampas, equilibra astronautas sobre una plataforma y resuelve puzles de aparcamiento.
+  - Creador: [asmoyou](https://github.com/asmoyou)
+  - Plataforma: Navegadores de ordenador, tableta y móvil; gratis, sin iniciar sesión. Juego local por turnos en una misma pantalla para 2–4 participantes, incluidos rivales controlados por el ordenador, además de puzles individuales; sin multijugador en línea. Demo no verificada de forma independiente.
+  - GPT-6 Astra: [Declaración del creador](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/24) — El creador afirma que GPT-6 Astra implementó los juegos y realizó las pruebas de forma autónoma a partir de descripciones de juguetes y requisitos de funciones.
+  - Recursos: [Código fuente e instrucciones de ejecución](https://github.com/asmoyou/toy2game) · [Licencia no comercial](https://github.com/asmoyou/toy2game/blob/main/LICENSE) — Código disponible; uso no comercial gratuito y uso comercial sujeto a autorización previa por escrito del autor. Tecnologías: TypeScript, React, Vite, Three.js.
+  - Vista previa: ![Vista general de Toy2Game con cuatro escenas 3D reales: hielo del pingüino, trampas de conejos, equilibrio de astronautas y salida del aparcamiento. Imagen aportada por asmoyou.](https://raw.githubusercontent.com/asmoyou/toy2game/main/docs/images/toy2game-overview.png)
 
 ## Qué incluye cada entrada
 

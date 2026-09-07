@@ -22,7 +22,7 @@ Halaman ini merupakan terjemahan [README bahasa Inggris](README.md). Periksa ver
 
 ## Mulai di sini
 
-Jelajahi **7 gim peramban dan 1 sandbox seni partikel interaktif**: penggabungan buah yang lentur, penerbangan satu tombol, pertempuran karpet ajaib, pertahanan pulau dengan jaringan listrik, balapan kart di Bay Circuit, bersepeda di pesisir bersama pelikan, serta Orbital Garden. Klik judul untuk membuka demo atau kode sumber beserta petunjuk menjalankannya.
+Jelajahi **8 gim peramban dan 1 sandbox seni partikel interaktif**: teka-teki kayu yang saling mengunci dan teka-teki balok geser, penggabungan buah yang lentur, penerbangan satu tombol, pertempuran karpet ajaib, pertahanan pulau dengan jaringan listrik, balapan kart di Bay Circuit, bersepeda di pesisir bersama pelikan, mainan meja yang diadaptasi menjadi gim 3D, serta Orbital Garden. Klik judul untuk membuka demo atau kode sumber beserta petunjuk menjalankannya.
 
 Terakhir diperiksa: **2026-09-05**. Pernyataan kreator, tautan kode sumber, dan ketersediaan demo telah diperiksa. Penggunaan model didasarkan pada keterangan penulis; gim belum diuji melalui permainan untuk daftar ini.
 
@@ -52,14 +52,14 @@ Gim tembak-menembak, pertarungan, bertahan hidup, ritme, dan apa pun yang membua
   - Platform: Peramban, dirancang untuk perangkat seluler.
   - GPT-6 Astra: [Pengujian sekali generasi dan prompt asli kreator](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - Materi pengembangan: [Kode sumber](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/mosswing/src) · [HTML mandiri](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/mosswing/mosswing.html)
-  - Pratinjau: ![Mosswing — Layar awal](assets/screenshots/mosswing/gameplay.jpg)
+  - Pratinjau: ![Layar awal Mosswing menampilkan karakter terbang dan celah di antara pilar batu.](assets/screenshots/mosswing/gameplay.jpg)
 
 - **[Magic Carpet Wizard — A Thousand Skies](https://threapchills.github.io/MagicCarpetWizard/)** — Terbangkan karpet ajaib melintasi dunia berbentuk bola, lewati cincin, keluarkan mantra, dan lawan musuh serta bos.
   - Kreator: [threapchills](https://github.com/threapchills)
   - Platform: Peramban desktop dengan tetikus dan papan ketik; memerlukan WebGL 2.
   - GPT-6 Astra: Kreator menyatakan bahwa gim ini dibuat dengan GPT-6 Astra di [bagian About repositori](https://github.com/threapchills/MagicCarpetWizard).
   - Materi pengembangan: [Kode sumber dan petunjuk menjalankan](https://github.com/threapchills/MagicCarpetWizard) · Teknologi: Three.js, Vite.
-  - Pratinjau: ![Magic Carpet Wizard — Layar awal](assets/screenshots/magic-carpet/gameplay.jpg)
+  - Pratinjau: ![Layar awal Magic Carpet Wizard menampilkan pengendara karpet, kota, dan cincin terbang bercahaya.](assets/screenshots/magic-carpet/gameplay.jpg)
 
 <a id="puzzles"></a>
 
@@ -72,14 +72,14 @@ Teka-teki logika, tantangan fisika, permainan kata, dan mekanisme kecil yang kre
   - Platform: Peramban modern; kreator juga menyediakan versi HTML mandiri yang dapat diunduh.
   - GPT-6 Astra: [Pengujian sekali generasi dan prompt asli kreator](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - Materi pengembangan: [Kode sumber](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/melon-lab/src) · [HTML mandiri](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/melon-lab/%E7%93%9C%E4%BD%93%E5%AE%9E%E9%AA%8C%E5%AE%A4.html)
-  - Pratinjau: ![Melon Lab — Tampilan permainan](assets/screenshots/melon-lab/gameplay.jpg)
+  - Pratinjau: ![Permainan Melon Lab dengan buah lentur di dalam wadah penggabungan dan pengaturan fisika.](assets/screenshots/melon-lab/gameplay.jpg)
 
-- **[榫境 / Sunjing Puzzles](https://sunjing-puzzles.hp20230404.chatgpt.site)** — Bengkel 3D untuk membongkar teka-teki kayu enam bagian dan menyelesaikan dua papan Huarong Dao, dengan petunjuk dan pembatalan langkah.
-  - [MartinDelophy](https://github.com/MartinDelophy)
-  - Browser WebGL 2, antarmuka Mandarin, mouse/keyboard dan sentuh. Gratis, tanpa login; progres disimpan di browser.
-  - Pengembangan berulang dengan Codex; penggunaan GPT-6 Astra menunggu konfirmasi pembuat. [Codex / GPT-6 Astra](works/sunjing-puzzles/CREATION.md)
-  - [Kode dan petunjuk menjalankan](works/sunjing-puzzles/README.md) · React, Vinext/Vite, Three.js.
-  - Pratinjau: ![Sunjing Puzzles — Tampilan permainan](assets/screenshots/sunjing-puzzles/gameplay.jpg)
+- **[榫境 / Sunjing Puzzles](https://sunjing-puzzles.hp20230404.chatgpt.site)** — Bongkar teka-teki kayu enam bagian yang saling mengunci dan selesaikan dua susunan balok geser Huarong Dao di bengkel 3D, dengan petunjuk dan pembatalan langkah.
+  - Kreator: [MartinDelophy](https://github.com/MartinDelophy) (penggagas proyek dan pengaju).
+  - Platform: Peramban modern dengan WebGL 2; antarmuka berbahasa Mandarin, kontrol tetikus, papan ketik, dan sentuh. Gratis, tanpa login atau kunci API; progres tersimpan di peramban saat ini.
+  - Keterlibatan model: [Catatan pembuatan](works/sunjing-puzzles/CREATION.md) — Pengembangan berulang melalui Codex untuk desain gim, visual 3D prosedural, aturan, pemecah teka-teki, dan pengujian; penggunaan spesifik GPT-6 Astra masih menunggu konfirmasi kreator (pengajuan draf).
+  - Materi pengembangan: [Kode sumber dan petunjuk menjalankan](works/sunjing-puzzles/README.md) · [Kebutuhan](works/sunjing-puzzles/PROMPTS.md) · Teknologi: React, Vinext/Vite, Three.js.
+  - Pratinjau: ![Teka-teki kayu enam bagian Sunjing di meja kerja 3D hijau dengan nomor bagian dan kontrol penarikan.](assets/screenshots/sunjing-puzzles/gameplay.jpg)
 
 <a id="strategy-simulation"></a>
 
@@ -110,9 +110,9 @@ Parkour, tantangan platform, balapan, serta gim yang berfokus pada gerakan dan r
 
 - **[APEX CLUB — Bay Kart Grand Prix](https://apex-club-racing.mauve-ibex-1793.chatgpt.site)** — Balapan tiga putaran di Bay Circuit, pilih satu dari enam kart, dan isi tenaga mini turbo untuk keluar dari tikungan agar naik peringkat individu atau meraih poin dalam tim 4 lawan 4.
   - Kreator: Ryan
-  - Platform: Peramban desktop dengan WebGL 2 dan papan ketik; gratis, tanpa login atau kunci API. Memerlukan server HTTP lokal dan akses Internet untuk memuat Three.js. Balapan tim bersifat lokal: satu pemain manusia dan tujuh pembalap AI.
+  - Platform: Peramban desktop dengan WebGL 2 dan papan ketik; gratis, tanpa login atau kunci API. Berjalan melalui server HTTP lokal atau hosting statis; Three.js disertakan secara lokal. Balapan tim bersifat lokal: satu manusia dan tujuh pembalap AI.
   - Keterlibatan model: [Catatan pengembangan](works/apex-club/CREATION.md) — Pengembangan berulang melalui Codex untuk mekanisme permainan, kode, visual prosedural, dan pengujian; atribusi kepada GPT-6 Astra masih menunggu konfirmasi kreator.
-  - Materi pengembangan: [Kode sumber dan petunjuk menjalankan](works/apex-club/README.md) · [Kebutuhan dan catatan iterasi](works/apex-club/PROMPTS.md) · Teknologi: JavaScript, Three.js.
+  - Materi pengembangan: [Kode sumber dan petunjuk menjalankan](works/apex-club/README.md) · [Kebutuhan dan catatan iterasi](works/apex-club/PROMPTS.md) · [Percakapan GPT yang dibagikan](https://chatgpt.com/s/cx_6a9e84c13c9c8191bcb7ad0801288adc) · Teknologi: JavaScript, Three.js.
   - Pratinjau: ![Balapan tim APEX CLUB di Bay Circuit dengan kart di sekitar, progres putaran, poin tim terkini, dan peta mini.](assets/screenshots/apex-club/gameplay.png)
 
 - **[PELICAN PEDAL / 鹈鹕踏浪](https://pelican-pedal.zecoba.workers.dev/)** — Kayuh sepeda bersama pelikan di pesisir 3D yang berubah: berpindah di antara tiga lajur, melompat atau menunduk untuk menghindari rintangan, kumpulkan kombo ikan, serta gunakan perisai, magnet, dan lesatan kebal selama enam detik.
@@ -133,7 +133,14 @@ Mekanisme tidak biasa, kompetisi daring, dan pengalaman bermain kooperatif.
   - Platform: Peramban modern dengan WebGL; klik judul untuk mencobanya secara daring. Gratis, tanpa login atau kunci API; HTML mandiri juga dapat dijalankan luring. Suara latar opsional memerlukan Web Audio.
   - GPT-6 Astra: [Catatan pembuatan dan kontribusi model](works/orbital-garden/README.md#模型与创作记录) — Kreator menggunakan GPT-6 Astra ultra untuk konsep, kode, dan teks, dengan peninjauan bersama; bukan pengujian sekali generasi.
   - Materi pengembangan: [Kode sumber dan petunjuk menjalankan](works/orbital-garden/README.md) · [HTML mandiri](works/orbital-garden/index.html) · [Prompt](works/orbital-garden/PROMPT.md) · Teknologi: WebGL murni, Web Audio, Canvas 2D.
-  - Pratinjau: ![ORBITAL GARDEN — Tampilan permainan](assets/screenshots/orbital-garden/gameplay.jpg)
+  - Pratinjau: ![Bunga partikel hijau mint Orbital Garden dengan pilihan bentuk, pengaturan vitalitas dan kecepatan waktu, serta ekspor poster.](assets/screenshots/orbital-garden/gameplay.jpg)
+
+- **[Toy2Game / 在线玩具箱](https://games.asmo.top/)** — Empat adaptasi 3D mainan meja: pecahkan es di bawah penguin, tuntun kelinci melewati perangkap, seimbangkan astronaut di atas platform, dan pecahkan teka-teki keluar dari tempat parkir.
+  - Kreator: [asmoyou](https://github.com/asmoyou)
+  - Platform: Peramban komputer, tablet, dan ponsel; gratis, tanpa login. Permainan lokal bergiliran pada satu layar untuk 2–4 posisi pemain, termasuk lawan komputer, serta teka-teki pemain tunggal; tanpa multipemain daring. Demo belum diverifikasi secara independen.
+  - GPT-6 Astra: [Pernyataan kreator](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/24) — Menurut kreator, GPT-6 Astra mengimplementasikan gim dan menjalankan pengujian secara mandiri berdasarkan deskripsi mainan dan kebutuhan fitur.
+  - Materi pengembangan: [Kode sumber dan petunjuk menjalankan](https://github.com/asmoyou/toy2game) · [Lisensi nonkomersial](https://github.com/asmoyou/toy2game/blob/main/LICENSE) — Kode sumber tersedia; penggunaan nonkomersial gratis, penggunaan komersial memerlukan izin tertulis terlebih dahulu dari penulis. Teknologi: TypeScript, React, Vite, Three.js.
+  - Pratinjau: ![Ikhtisar Toy2Game dengan empat adegan 3D gim yang sebenarnya: es penguin, perangkap kelinci, keseimbangan astronaut, dan keluar dari parkiran. Gambar disediakan oleh asmoyou.](https://raw.githubusercontent.com/asmoyou/toy2game/main/docs/images/toy2game-overview.png)
 
 ## Isi setiap entri
 
