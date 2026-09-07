@@ -20,7 +20,7 @@
 
 ## 从这里开始
 
-目前收录 **5 款浏览器游戏和 1 个交互式粒子艺术沙盒**：半流体水果合成、单键飞行、魔毯战斗、海岛电网塔防、海湾卡丁车竞速，以及轨道花园。点击作品名称可打开试玩或源码运行说明。
+目前收录 **6 款浏览器游戏和 1 个交互式粒子艺术沙盒**：半流体水果合成、单键飞行、魔毯战斗、海岛电网塔防、海湾卡丁车竞速、鹈鹕海岸骑行，以及轨道花园。点击作品名称可打开试玩或源码运行说明。
 
 最近核对：**2026-09-05**。已检查作者的 Astra 使用说明、源码链接和演示页面可达性；模型归因来自作者自述，尚未逐款试玩。
 
@@ -92,6 +92,13 @@
   - 模型参与：[开发记录](works/apex-club/CREATION.md) — 通过 Codex 多轮迭代玩法、代码、程序化美术与测试；GPT-6 Astra 归因待创作者确认。
   - 开发资料：[源码与运行说明](works/apex-club/README.md) · [需求与迭代记录](works/apex-club/PROMPTS.md) · 技术：JavaScript、Three.js。
   - 预览：![APEX CLUB 海湾赛道实机画面：卡丁车组队竞速，显示圈数、队伍积分和实时小地图。](assets/screenshots/apex-club/gameplay.png)
+
+- **[PELICAN PEDAL / 鹈鹕踏浪](https://pelican-pedal.zecoba.workers.dev/)** — 让鹈鹕骑着自行车穿行于不断变化的 3D 海岸，在三条车道间换道、跳跃与低头躲避障碍，连续收集小鱼获得连击，使用护盾、磁铁和六秒无敌冲刺。
+  - 作者：[chat01.ai](https://chat01.ai)（投稿中注明的作者）。
+  - 平台：桌面与手机浏览器，支持键盘和触控；据投稿说明，免费且无需登录。试玩尚未独立核验。
+  - GPT-6 Astra：[Issue #10](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/10) — 投稿者称由一句提示词生成；所附开发记录尚未独立核验。
+  - 开发资料：[分享的开发记录](https://chat01.ai/zh/chat/01M1VJ5K55803V2YK3T2NKTX33)
+  - 预览：![PELICAN PEDAL 标题画面：鹈鹕骑自行车行驶在海边；截图由 Issue #10 提供。](https://github.com/user-attachments/assets/ec085afa-3c45-4de6-b03f-5c626f941546)
 
 ### 实验玩法与多人游戏
 

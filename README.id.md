@@ -22,7 +22,7 @@ Halaman ini merupakan terjemahan [README bahasa Inggris](README.md). Periksa ver
 
 ## Mulai di sini
 
-Jelajahi **5 gim peramban dan 1 sandbox seni partikel interaktif**: penggabungan buah yang lentur, penerbangan satu tombol, pertempuran karpet ajaib, pertahanan pulau dengan jaringan listrik, balapan kart di Bay Circuit, serta Orbital Garden. Klik judul untuk membuka demo atau kode sumber beserta petunjuk menjalankannya.
+Jelajahi **6 gim peramban dan 1 sandbox seni partikel interaktif**: penggabungan buah yang lentur, penerbangan satu tombol, pertempuran karpet ajaib, pertahanan pulau dengan jaringan listrik, balapan kart di Bay Circuit, bersepeda di pesisir bersama pelikan, serta Orbital Garden. Klik judul untuk membuka demo atau kode sumber beserta petunjuk menjalankannya.
 
 Terakhir diperiksa: **2026-09-05**. Pernyataan kreator, tautan kode sumber, dan ketersediaan demo telah diperiksa. Penggunaan model didasarkan pada keterangan penulis; gim belum diuji melalui permainan untuk daftar ini.
 
@@ -104,6 +104,13 @@ Parkour, tantangan platform, balapan, serta gim yang berfokus pada gerakan dan r
   - Keterlibatan model: [Catatan pengembangan](works/apex-club/CREATION.md) — Pengembangan berulang melalui Codex untuk mekanisme permainan, kode, visual prosedural, dan pengujian; atribusi kepada GPT-6 Astra masih menunggu konfirmasi kreator.
   - Materi pengembangan: [Kode sumber dan petunjuk menjalankan](works/apex-club/README.md) · [Kebutuhan dan catatan iterasi](works/apex-club/PROMPTS.md) · Teknologi: JavaScript, Three.js.
   - Pratinjau: ![Balapan tim APEX CLUB di Bay Circuit dengan kart di sekitar, progres putaran, poin tim terkini, dan peta mini.](assets/screenshots/apex-club/gameplay.png)
+
+- **[PELICAN PEDAL / 鹈鹕踏浪](https://pelican-pedal.zecoba.workers.dev/)** — Kayuh sepeda bersama pelikan di pesisir 3D yang berubah: berpindah di antara tiga lajur, melompat atau menunduk untuk menghindari rintangan, kumpulkan kombo ikan, serta gunakan perisai, magnet, dan lesatan kebal selama enam detik.
+  - Kreator: [chat01.ai](https://chat01.ai) (sebagaimana dicantumkan dalam pengajuan).
+  - Platform: Peramban komputer dan ponsel dengan kontrol papan ketik atau sentuh; menurut pengajuan, gratis dan tanpa login. Demo belum diverifikasi secara independen.
+  - GPT-6 Astra: [Issue #10](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/10) — Pengaju menyatakan gim dibuat dengan satu prompt; catatan pengembangan yang ditautkan belum diverifikasi secara independen.
+  - Materi pengembangan: [Catatan pengembangan yang dibagikan](https://chat01.ai/zh/chat/01M1VJ5K55803V2YK3T2NKTX33)
+  - Pratinjau: ![Layar judul PELICAN PEDAL dengan pelikan bersepeda di tepi laut; tangkapan layar disertakan dalam Issue #10.](https://github.com/user-attachments/assets/ec085afa-3c45-4de6-b03f-5c626f941546)
 
 <a id="experimental-multiplayer"></a>
 
