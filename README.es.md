@@ -10,7 +10,7 @@
 
 Ideas divertidas, juegos que puedes probar e historias de desarrollo para inspirar a quienes creen el próximo proyecto.
 
-[简体中文](README.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md)<br>
+[English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [한국어](README.ko.md)<br>
 [Français](README.fr.md) · [Deutsch](README.de.md) · **Español** · [Português (Brasil)](README.pt-BR.md)<br>
 [Русский](README.ru.md) · [العربية](README.ar.md) · [हिन्दी](README.hi.md) · [Bahasa Indonesia](README.id.md)
 
@@ -18,7 +18,7 @@ Ideas divertidas, juegos que puedes probar e historias de desarrollo para inspir
 
 </div>
 
-Esta página es una traducción del [README en inglés](README.en.md). Consulta el original para comprobar las últimas actualizaciones; las correcciones de traducción son bienvenidas.
+Esta página es una traducción del [README en inglés](README.md). Consulta el original para comprobar las últimas actualizaciones; las correcciones de traducción son bienvenidas.
 
 ## Empieza aquí
 

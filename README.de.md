@@ -10,7 +10,7 @@
 
 Spielerische Ideen, direkt erlebbare Spiele und Entwicklungsgeschichten, die andere zum Gestalten anregen.
 
-[简体中文](README.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md)<br>
+[English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [한국어](README.ko.md)<br>
 [Français](README.fr.md) · **Deutsch** · [Español](README.es.md) · [Português (Brasil)](README.pt-BR.md)<br>
 [Русский](README.ru.md) · [العربية](README.ar.md) · [हिन्दी](README.hi.md) · [Bahasa Indonesia](README.id.md)
 
@@ -18,7 +18,7 @@ Spielerische Ideen, direkt erlebbare Spiele und Entwicklungsgeschichten, die and
 
 </div>
 
-Diese Seite übersetzt die [englische README](README.en.md). Aktuelle Änderungen lassen sich dort nachprüfen; Korrekturen an der Übersetzung sind willkommen.
+Diese Seite übersetzt die [englische README](README.md). Aktuelle Änderungen lassen sich dort nachprüfen; Korrekturen an der Übersetzung sind willkommen.
 
 ## Hier anfangen
 

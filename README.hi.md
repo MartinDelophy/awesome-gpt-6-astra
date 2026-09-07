@@ -10,7 +10,7 @@
 
 मज़ेदार विचार, आज़माने लायक गेम और अगले रचनाकार को प्रेरित करने वाली विकास की कहानियाँ।
 
-[简体中文](README.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md)<br>
+[English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [한국어](README.ko.md)<br>
 [Français](README.fr.md) · [Deutsch](README.de.md) · [Español](README.es.md) · [Português (Brasil)](README.pt-BR.md)<br>
 [Русский](README.ru.md) · [العربية](README.ar.md) · **हिन्दी** · [Bahasa Indonesia](README.id.md)
 
@@ -18,7 +18,7 @@
 
 </div>
 
-यह पेज [अंग्रेज़ी README](README.en.md) का अनुवाद है। नवीनतम बदलावों के लिए मूल संस्करण देखें; अनुवाद में सुधारों का स्वागत है।
+यह पेज [अंग्रेज़ी README](README.md) का अनुवाद है। नवीनतम बदलावों के लिए मूल संस्करण देखें; अनुवाद में सुधारों का स्वागत है।
 
 ## यहाँ से शुरू करें
 

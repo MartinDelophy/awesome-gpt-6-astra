@@ -10,7 +10,7 @@
 
 Увлекательные идеи, игры, которые можно попробовать, и истории разработки, вдохновляющие новых авторов.
 
-[简体中文](README.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md)<br>
+[English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [한국어](README.ko.md)<br>
 [Français](README.fr.md) · [Deutsch](README.de.md) · [Español](README.es.md) · [Português (Brasil)](README.pt-BR.md)<br>
 **Русский** · [العربية](README.ar.md) · [हिन्दी](README.hi.md) · [Bahasa Indonesia](README.id.md)
 
@@ -18,7 +18,7 @@
 
 </div>
 
-Эта страница — перевод [английского README](README.en.md). Последние изменения можно сверить с оригиналом; исправления перевода приветствуются.
+Эта страница — перевод [английского README](README.md). Последние изменения можно сверить с оригиналом; исправления перевода приветствуются.
 
 ## С чего начать
 

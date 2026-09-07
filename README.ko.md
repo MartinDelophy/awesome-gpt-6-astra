@@ -10,7 +10,7 @@
 
 재미있는 아이디어, 직접 해 볼 수 있는 게임, 다음 창작자에게 영감을 주는 개발 이야기.
 
-[简体中文](README.md) · [English](README.en.md) · [日本語](README.ja.md) · **한국어**<br>
+[English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · **한국어**<br>
 [Français](README.fr.md) · [Deutsch](README.de.md) · [Español](README.es.md) · [Português (Brasil)](README.pt-BR.md)<br>
 [Русский](README.ru.md) · [العربية](README.ar.md) · [हिन्दी](README.hi.md) · [Bahasa Indonesia](README.id.md)
 
@@ -18,7 +18,7 @@
 
 </div>
 
-이 페이지는 [영문 README](README.en.md)의 번역입니다. 최신 변경 사항은 원문에서 확인할 수 있으며, 번역 수정도 환영합니다.
+이 페이지는 [영문 README](README.md)의 번역입니다. 최신 변경 사항은 원문에서 확인할 수 있으며, 번역 수정도 환영합니다.
 
 ## 여기서 시작하기
 
