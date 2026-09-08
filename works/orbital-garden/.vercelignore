@@ -1,0 +1,6 @@
+.openai/
+.env*
+dist/
+README.md
+PROMPT.md
+metadata.json

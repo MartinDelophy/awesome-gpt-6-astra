@@ -19,5 +19,5 @@
   "external_assets": [],
   "requires": ["Modern browser with WebGL", "Web Audio for optional sound"],
   "license": "CC0-1.0",
-  "demo_url": "https://orbital-garden.hp20230404.chatgpt.site"
+  "demo_url": "https://orbital-garden-one.vercel.app"
 }
