@@ -22,7 +22,7 @@ Diese Seite übersetzt die [englische README](README.md). Aktuelle Änderungen l
 
 ## Hier anfangen
 
-Entdecke **11 Browserspiele und 1 interaktiven Sandkasten für Partikelkunst**: Holz-Steckpuzzles und Schiebepuzzles lösen, weiche Früchte verschmelzen, mit einer Taste fliegen, auf einem fliegenden Teppich kämpfen, eine Insel mit einem Stromnetz verteidigen, in der Wildnis überleben, Kartrennen auf Bay Circuit, eine Küstenradtour mit einem Pelikan, Tischspielzeug als 3D-Spiele und Orbital Garden. Ein Klick auf einen Titel öffnet die Demo oder den Quellcode mit Startanleitung.
+Entdecke **12 Browserspiele und 1 interaktiven Sandkasten für Partikelkunst**: Holz-Steckpuzzles und Schiebepuzzles lösen, weiche Früchte verschmelzen, mit einer Taste fliegen, auf einem fliegenden Teppich kämpfen, eine Insel mit einem Stromnetz verteidigen, in der Wildnis überleben, Kartrennen auf Bay Circuit, eine Küstenradtour mit einem Pelikan, Tischspielzeug als 3D-Spiele und Orbital Garden. Ein Klick auf einen Titel öffnet die Demo oder den Quellcode mit Startanleitung.
 
 Zuletzt geprüft: **2026-09-05**. Angaben der Entwickler, Quellcode-Links und die Erreichbarkeit der Demos wurden geprüft. Die Modellnutzung beruht auf Angaben der Autoren; für diese Liste wurden keine Spieltests durchgeführt.
 
@@ -99,6 +99,12 @@ Tower Defense, strategische Kartenspiele, Aufbau-, Management- und Simulationssp
   - GPT-6 Astra: [Entwicklungsbericht und Modellbeitrag](https://github.com/stackloomdev/last-beacon/blob/main/docs/CREATION.md) — Für Spieldesign, Code, prozedurale Grafik und Tests in mehreren Iterationen eingesetzt; kein One-Shot-Test.
   - Materialien: [Quellcode und Startanleitung](https://github.com/stackloomdev/last-beacon) · [Anforderungen und Iterationsnotizen](https://github.com/stackloomdev/last-beacon/blob/main/docs/PROMPT.md) · Technik: JavaScript, Canvas 2D, Web Audio.
   - Vorschau: ![Last Beacon auf Englisch: Mit Strom versorgte Geschütztürme, Mörser und ein Frostturm verteidigen die Insel gegen Gegner auf dem Küstenweg.](assets/screenshots/last-beacon/gameplay-en.png)
+
+- **[缺氧 · 小小星球](https://hypoxia-6tu.pages.dev/)** — Überlebenssimulation einer unterirdischen Kolonie: Drei Bewohner graben und bauen, während du Sauerstoff, Nahrung und Strom verwaltest.
+  - Entwickler: dudu
+  - Plattform: Browser mit Canvas, chinesische Oberfläche, Maus und Tastatur; Start ohne Anmeldung oder Zahlung geprüft.
+  - GPT-6 Astra: [Issue #28](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/28) — Laut Einreichung durchgehend mit GPT-6 Astra entwickelt; nicht unabhängig bestätigt.
+  - Vorschau: ![缺氧 · 小小星球 — Spielaufnahme](assets/screenshots/hypoxia/gameplay.jpg)
 
 - **[永恒荒野](https://starve.pages.dev/)** — Ein Survival- und Strategiespiel im Browser, eingereicht als Nachbau von Don't Starve. Der Screenshot zeigt Walderkundung, das Sammeln von Ressourcen, ein Inventar sowie Anzeigen für Gesundheit, Hunger und geistige Verfassung.
   - Entwickler: dudu

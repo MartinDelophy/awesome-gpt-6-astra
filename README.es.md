@@ -22,7 +22,7 @@ Esta página es una traducción del [README en inglés](README.md). Consulta el 
 
 ## Empieza aquí
 
-Explora **11 juegos de navegador y 1 entorno interactivo de arte con partículas**: rompecabezas de madera entrelazada y de piezas deslizantes, fusión de frutas deformables, vuelo con un solo botón, combates en alfombra mágica, defensa de una isla mediante una red eléctrica, supervivencia en la naturaleza, carreras de karts en Bay Circuit, ciclismo costero con un pelícano, juguetes de mesa adaptados a 3D y Orbital Garden. Haz clic en un título para abrir su demo o el código fuente con instrucciones de ejecución.
+Explora **12 juegos de navegador y 1 entorno interactivo de arte con partículas**: rompecabezas de madera entrelazada y de piezas deslizantes, fusión de frutas deformables, vuelo con un solo botón, combates en alfombra mágica, defensa de una isla mediante una red eléctrica, supervivencia en la naturaleza, carreras de karts en Bay Circuit, ciclismo costero con un pelícano, juguetes de mesa adaptados a 3D y Orbital Garden. Haz clic en un título para abrir su demo o el código fuente con instrucciones de ejecución.
 
 Última comprobación: **2026-09-05**. Se han revisado las declaraciones de los creadores, los enlaces al código fuente y la disponibilidad de las demos. El uso del modelo se basa en lo declarado por los autores; no se han realizado pruebas de juego para esta lista.
 
@@ -99,6 +99,12 @@ Defensa de torres, cartas estratégicas, gestión, construcción y simulación d
   - GPT-6 Astra: [Diario de desarrollo y contribución del modelo](https://github.com/stackloomdev/last-beacon/blob/main/docs/CREATION.md) — Se utilizó para el diseño del juego, el código, el arte procedural y las pruebas a lo largo de varias iteraciones; no fue una prueba en una sola generación.
   - Recursos: [Código fuente e instrucciones de ejecución](https://github.com/stackloomdev/last-beacon) · [Requisitos y notas de las iteraciones](https://github.com/stackloomdev/last-beacon/blob/main/docs/PROMPT.md) · Tecnologías: JavaScript, Canvas 2D, Web Audio.
   - Vista previa: ![Last Beacon en inglés: torretas, morteros y una torre de hielo conectados a la red eléctrica defienden la isla de los enemigos del sendero costero.](assets/screenshots/last-beacon/gameplay-en.png)
+
+- **[缺氧 · 小小星球](https://hypoxia-6tu.pages.dev/)** — Simulación de supervivencia en una colonia subterránea: dirige a tres habitantes, excava y construye mientras gestionas oxígeno, comida y electricidad.
+  - Creador: dudu
+  - Plataforma: Navegador con Canvas, interfaz en chino, ratón y teclado; inicio verificado sin registro ni pago.
+  - GPT-6 Astra: [Issue #28](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/28) — El remitente afirma que todo el desarrollo se realizó con GPT-6 Astra; no se verificó de forma independiente.
+  - Vista previa: ![缺氧 · 小小星球 — Captura del juego](assets/screenshots/hypoxia/gameplay.jpg)
 
 - **[永恒荒野](https://starve.pages.dev/)** — Juego de supervivencia y estrategia para navegador presentado como una recreación de Don't Starve. La captura aportada muestra exploración del bosque, recolección de recursos, inventario e indicadores de salud, hambre y cordura.
   - Creador: dudu

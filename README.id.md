@@ -22,7 +22,7 @@ Halaman ini merupakan terjemahan [README bahasa Inggris](README.md). Periksa ver
 
 ## Mulai di sini
 
-Jelajahi **11 gim peramban dan 1 sandbox seni partikel interaktif**: teka-teki kayu yang saling mengunci dan teka-teki balok geser, penggabungan buah yang lentur, penerbangan satu tombol, pertempuran karpet ajaib, pertahanan pulau dengan jaringan listrik, bertahan hidup di alam liar, balapan kart di Bay Circuit, bersepeda di pesisir bersama pelikan, mainan meja yang diadaptasi menjadi gim 3D, serta Orbital Garden. Klik judul untuk membuka demo atau kode sumber beserta petunjuk menjalankannya.
+Jelajahi **12 gim peramban dan 1 sandbox seni partikel interaktif**: teka-teki kayu yang saling mengunci dan teka-teki balok geser, penggabungan buah yang lentur, penerbangan satu tombol, pertempuran karpet ajaib, pertahanan pulau dengan jaringan listrik, bertahan hidup di alam liar, balapan kart di Bay Circuit, bersepeda di pesisir bersama pelikan, mainan meja yang diadaptasi menjadi gim 3D, serta Orbital Garden. Klik judul untuk membuka demo atau kode sumber beserta petunjuk menjalankannya.
 
 Terakhir diperiksa: **2026-09-05**. Pernyataan kreator, tautan kode sumber, dan ketersediaan demo telah diperiksa. Penggunaan model didasarkan pada keterangan penulis; gim belum diuji melalui permainan untuk daftar ini.
 
@@ -99,6 +99,12 @@ Pertahanan menara, kartu strategi, pengelolaan, pembangunan, dan sandbox simulas
   - GPT-6 Astra: [Catatan pengembangan dan kontribusi model](https://github.com/stackloomdev/last-beacon/blob/main/docs/CREATION.md) — Digunakan untuk desain permainan, kode, grafis prosedural, dan pengujian melalui beberapa iterasi; bukan pengujian sekali generasi.
   - Materi pengembangan: [Kode sumber dan petunjuk menjalankan](https://github.com/stackloomdev/last-beacon) · [Kebutuhan dan catatan iterasi](https://github.com/stackloomdev/last-beacon/blob/main/docs/PROMPT.md) · Teknologi: JavaScript, Canvas 2D, Web Audio.
   - Pratinjau: ![Last Beacon dalam bahasa Inggris: menara, mortir, dan menara es yang terhubung ke jaringan listrik mempertahankan pulau dari musuh di jalur pesisir.](assets/screenshots/last-beacon/gameplay-en.png)
+
+- **[缺氧 · 小小星球](https://hypoxia-6tu.pages.dev/)** — Simulasi bertahan hidup di koloni bawah tanah: arahkan tiga penghuni untuk menggali dan membangun sambil mengelola oksigen, makanan, dan listrik.
+  - Kreator: dudu
+  - Platform: Browser dengan Canvas, antarmuka Mandarin, mouse dan keyboard; berhasil dibuka tanpa login atau pembayaran.
+  - GPT-6 Astra: [Issue #28](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/28) — Pengirim menyatakan seluruh pengembangan menggunakan GPT-6 Astra; belum diverifikasi secara independen.
+  - Pratinjau: ![缺氧 · 小小星球 — Tangkapan permainan](assets/screenshots/hypoxia/gameplay.jpg)
 
 - **[永恒荒野](https://starve.pages.dev/)** — Gim bertahan hidup dan strategi untuk peramban yang diajukan sebagai pembuatan ulang Don't Starve. Tangkapan layar menampilkan penjelajahan hutan, pengumpulan sumber daya, inventaris, serta indikator kesehatan, rasa lapar, dan kewarasan.
   - Kreator: dudu
