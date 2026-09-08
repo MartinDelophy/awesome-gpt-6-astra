@@ -153,7 +153,7 @@
 
 독특한 게임 방식, 온라인 경쟁, 협동 플레이를 다룹니다.
 
-- **[ORBITAL GARDEN · 轨道花园](https://orbital-garden.hp20230404.chatgpt.site)** — 인터랙티브 파티클 아트 샌드박스입니다. 48,000개의 빛 입자를 꽃, 중력 고리, 은하로 바꾸고 조형물을 흔들며 한순간을 포스터로 내보낼 수 있습니다.
+- **[ORBITAL GARDEN · 轨道花园](https://orbital-garden-one.vercel.app)** — 인터랙티브 파티클 아트 샌드박스입니다. 48,000개의 빛 입자를 꽃, 중력 고리, 은하로 바꾸고 조형물을 흔들며 한순간을 포스터로 내보낼 수 있습니다.
   - 제작자: [jackroc](https://github.com/jackroc)
   - 플랫폼: WebGL을 지원하는 최신 브라우저. 작품명을 누르면 온라인으로 체험할 수 있습니다. 무료이며 로그인이나 API 키가 필요 없고, 단일 HTML 파일은 오프라인에서도 실행됩니다. 선택 기능인 환경음에는 Web Audio가 필요합니다.
   - GPT-6 Astra: [제작 기록과 모델 기여 설명](works/orbital-garden/README.md#模型与创作记录) — 제작자는 구상, 코드, 문구 작성에 GPT-6 Astra ultra를 사용하고 공동 검토를 거쳤습니다. 원샷 테스트가 아닙니다.

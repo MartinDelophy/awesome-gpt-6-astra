@@ -153,7 +153,7 @@
 
 新しい仕組み、オンライン対戦、協力プレイなどの体験。
 
-- **[ORBITAL GARDEN · 轨道花园](https://orbital-garden.hp20230404.chatgpt.site)** — インタラクティブなパーティクルアートのサンドボックス。48,000 個の光の点を花、重力の輪、銀河へと変化させ、造形を揺らし、その瞬間をポスターとして書き出せます。
+- **[ORBITAL GARDEN · 轨道花园](https://orbital-garden-one.vercel.app)** — インタラクティブなパーティクルアートのサンドボックス。48,000 個の光の点を花、重力の輪、銀河へと変化させ、造形を揺らし、その瞬間をポスターとして書き出せます。
   - 作者: [jackroc](https://github.com/jackroc)
   - 対応環境: WebGL 対応のモダンブラウザー。作品名からオンラインで体験できます。無料で、ログインや API キーは不要です。単一 HTML 版はオフラインでも動作します。任意の環境音には Web Audio が必要です。
   - GPT-6 Astra: [制作記録とモデルの担当範囲](works/orbital-garden/README.md#模型与创作记录) — 作者は構想、コード、文章に GPT-6 Astra ultra を使用し、共同レビューを行っています。One Shot テストではありません。

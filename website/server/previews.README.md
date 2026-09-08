@@ -21,7 +21,10 @@ screenshots. They were captured in an isolated 1440 × 950 browser on 2026-09-05
 visually checked against the actual demos. They are not generated artwork. The
 Orbital Garden demo was verified at
 https://orbital-garden.hp20230404.chatgpt.site/; its source README identifies the same
-project even while upstream omits this demo URL. Images remain attributable to their
+project even while upstream omits this demo URL. On 2026-09-08, the demo moved to
+https://orbital-garden-one.vercel.app/. The manifest retains both URLs for the same
+2026-09-05 capture; the fallback catalog's demo URL was updated without changing its
+original snapshot date. Images remain attributable to their
 respective project creators. These screenshot files are fixed captures; a new
 explicit author image in the catalog automatically takes precedence over them.
 

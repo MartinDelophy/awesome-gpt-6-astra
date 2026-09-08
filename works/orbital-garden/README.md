@@ -8,7 +8,7 @@
 
 ## 体验
 
-[**点击在线体验 · Open the live demo**](https://orbital-garden.hp20230404.chatgpt.site) — 免费，无需登录或 API Key。
+[**点击在线体验 · Open the live demo**](https://orbital-garden-one.vercel.app) — 免费，无需登录或 API Key。
 
 下载并双击 **[index.html](index.html)** 即可运行。全部代码、样式、着色器和声音合成都在一个文件中，无需安装依赖、登录或配置 API Key，也不请求外部字体、图片或音频。
 
@@ -70,7 +70,19 @@ python3 -m http.server 4173 --bind 127.0.0.1
 
 如官网启用了严格 CSP，需要允许页面内联脚本和样式（可通过计算 hash 配置）；如给 iframe 添加 `sandbox`，需允许脚本及下载才能保留交互和海报导出。
 
-公开演示托管于 [orbital-garden.hp20230404.chatgpt.site](https://orbital-garden.hp20230404.chatgpt.site)。维护部署时，在本目录运行 `node build.mjs`（或 `npm run build`），生成仅包含作品页面的 `dist/`；Sites 配置位于 `.openai/hosting.json`。本地双击运行仍不需要 Node.js。
+公开演示托管于 Vercel：[orbital-garden-one.vercel.app](https://orbital-garden-one.vercel.app)。作品使用独立的 `orbital-garden` 项目，构建只发布作品页面。
+
+在本目录运行 `node build.mjs`（或 `npm run build`），生成 `dist/index.html`。Vercel 配置位于 `vercel.json`，Framework 选择 Other，Build Command 为 `node build.mjs`，Output Directory 为 `dist`。从整个仓库导入时，将 Root Directory 设为 `works/orbital-garden`。
+
+维护者在已登录 Vercel 的环境中，可以从仓库根目录执行：
+
+```sh
+cd works/orbital-garden
+npx vercel link --project orbital-garden --scope hp20230404-6589s-projects
+npx vercel deploy --prod --scope hp20230404-6589s-projects
+```
+
+其他使用者应关联自己的 Vercel 项目。当前公开演示通过 CLI 发布，Git 集成尚未连接，推送仓库不会自动部署。`.vercel/` 与 `.env*` 仅用于本地部署，不提交或上传；`.openai/hosting.json` 保留为原 Sites 部署配置。本地双击运行仍不需要 Node.js。
 
 **可直接采用的作品简介：**
 

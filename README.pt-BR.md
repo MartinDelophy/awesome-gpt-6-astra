@@ -153,7 +153,7 @@ Parkour, desafios de plataforma, corridas e jogos baseados em movimento e trajet
 
 Mecânicas diferentes, competição online e experiências cooperativas.
 
-- **[ORBITAL GARDEN · 轨道花园](https://orbital-garden.hp20230404.chatgpt.site)** — Um ambiente interativo de arte com partículas: transforme 48.000 pontos de luz em uma flor, um anel gravitacional ou uma galáxia, altere a escultura e exporte um momento como pôster.
+- **[ORBITAL GARDEN · 轨道花园](https://orbital-garden-one.vercel.app)** — Um ambiente interativo de arte com partículas: transforme 48.000 pontos de luz em uma flor, um anel gravitacional ou uma galáxia, altere a escultura e exporte um momento como pôster.
   - Criador: [jackroc](https://github.com/jackroc)
   - Plataforma: Navegador moderno com WebGL; clique no título para experimentar online. Grátis, sem login ou chave de API; o HTML independente também funciona offline. O som ambiente opcional exige Web Audio.
   - GPT-6 Astra: [Registro de criação e contribuição do modelo](works/orbital-garden/README.md#模型与创作记录) — O criador usou GPT-6 Astra ultra para o conceito, o código e os textos, com revisão colaborativa; não foi um teste de geração única.

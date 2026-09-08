@@ -153,7 +153,7 @@ Parkour, défis de plateforme, courses et jeux centrés sur les déplacements et
 
 Mécaniques originales, compétition en ligne et expériences coopératives.
 
-- **[ORBITAL GARDEN · 轨道花园](https://orbital-garden.hp20230404.chatgpt.site)** — Un bac à sable interactif d’art à particules : transformez 48 000 points lumineux en fleur, en anneau gravitationnel ou en galaxie, perturbez la sculpture et exportez un instant sous forme d’affiche.
+- **[ORBITAL GARDEN · 轨道花园](https://orbital-garden-one.vercel.app)** — Un bac à sable interactif d’art à particules : transformez 48 000 points lumineux en fleur, en anneau gravitationnel ou en galaxie, perturbez la sculpture et exportez un instant sous forme d’affiche.
   - Créateur: [jackroc](https://github.com/jackroc)
   - Plateforme: Navigateur moderne avec WebGL ; cliquez sur le titre pour essayer en ligne. Gratuit, sans connexion ni clé API ; le fichier HTML autonome fonctionne aussi hors ligne. L’ambiance sonore facultative nécessite Web Audio.
   - GPT-6 Astra: [Historique de création et contribution du modèle](works/orbital-garden/README.md#模型与创作记录) — Le créateur a utilisé GPT-6 Astra ultra pour le concept, le code et les textes, avec une relecture collaborative ; il ne s’agit pas d’un test en une seule génération.

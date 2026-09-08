@@ -153,7 +153,7 @@ Parkour, tantangan platform, balapan, serta gim yang berfokus pada gerakan dan r
 
 Mekanisme tidak biasa, kompetisi daring, dan pengalaman bermain kooperatif.
 
-- **[ORBITAL GARDEN · 轨道花园](https://orbital-garden.hp20230404.chatgpt.site)** — Sandbox seni partikel interaktif: ubah 48.000 titik cahaya menjadi bunga, cincin gravitasi, atau galaksi, ganggu bentuk patungnya, dan ekspor suatu momen sebagai poster.
+- **[ORBITAL GARDEN · 轨道花园](https://orbital-garden-one.vercel.app)** — Sandbox seni partikel interaktif: ubah 48.000 titik cahaya menjadi bunga, cincin gravitasi, atau galaksi, ganggu bentuk patungnya, dan ekspor suatu momen sebagai poster.
   - Kreator: [jackroc](https://github.com/jackroc)
   - Platform: Peramban modern dengan WebGL; klik judul untuk mencobanya secara daring. Gratis, tanpa login atau kunci API; HTML mandiri juga dapat dijalankan luring. Suara latar opsional memerlukan Web Audio.
   - GPT-6 Astra: [Catatan pembuatan dan kontribusi model](works/orbital-garden/README.md#模型与创作记录) — Kreator menggunakan GPT-6 Astra ultra untuk konsep, kode, dan teks, dengan peninjauan bersama; bukan pengujian sekali generasi.

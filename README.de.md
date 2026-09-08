@@ -153,7 +153,7 @@ Parkour, Plattformherausforderungen, Rennen und Spiele rund um Bewegung und Wege
 
 Ungewöhnliche Spielmechaniken, Online-Wettkämpfe und kooperative Erlebnisse.
 
-- **[ORBITAL GARDEN · 轨道花园](https://orbital-garden.hp20230404.chatgpt.site)** — Ein interaktiver Sandkasten für Partikelkunst: 48.000 Lichtpunkte in eine Blume, einen Gravitationsring oder eine Galaxie verwandeln, die Skulptur beeinflussen und einen Moment als Poster exportieren.
+- **[ORBITAL GARDEN · 轨道花园](https://orbital-garden-one.vercel.app)** — Ein interaktiver Sandkasten für Partikelkunst: 48.000 Lichtpunkte in eine Blume, einen Gravitationsring oder eine Galaxie verwandeln, die Skulptur beeinflussen und einen Moment als Poster exportieren.
   - Entwickler: [jackroc](https://github.com/jackroc)
   - Plattform: Moderner Browser mit WebGL; ein Klick auf den Titel startet das Online-Erlebnis. Kostenlos, ohne Anmeldung oder API-Schlüssel; die eigenständige HTML-Datei funktioniert auch offline. Optionaler Umgebungston benötigt Web Audio.
   - GPT-6 Astra: [Entstehungsbericht und Modellbeitrag](works/orbital-garden/README.md#模型与创作记录) — Der Entwickler nutzte GPT-6 Astra ultra für Konzept, Code und Texte mit gemeinsamer Prüfung; kein One-Shot-Test.
