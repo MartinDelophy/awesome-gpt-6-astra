@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 15](https://img.shields.io/badge/Cases-15-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 16](https://img.shields.io/badge/Cases-16-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Подборка интересных игр, созданных с помощью GPT-6 Astra.**
 
@@ -22,7 +22,7 @@
 
 ## С чего начать
 
-Здесь собраны **13 браузерных игр и 1 интерактивная художественная песочница с частицами**: территориальная стратегия эпохи Троецарствия, деревянные головоломки со сцепленными деталями и сдвижными блоками, объединение мягких фруктов, полёт одной кнопкой, сражения на ковре-самолёте, защита острова с помощью электросети, выживание в дикой природе, гонки на картах по Bay Circuit, велопрогулка с пеликаном вдоль берега, настольные игрушки в 3D и Orbital Garden. Нажмите на название, чтобы открыть демоверсию или исходный код с инструкцией по запуску.
+Здесь собраны **15 браузерных игр и 1 интерактивная художественная песочница с частицами**: территориальная стратегия эпохи Троецарствия, деревянные головоломки со сцепленными деталями и сдвижными блоками, объединение мягких фруктов, полёт одной кнопкой, сражения на ковре-самолёте, защита острова с помощью электросети, выживание в дикой природе, гонки на картах по Bay Circuit, велопрогулка с пеликаном вдоль берега, настольные игрушки в 3D и Orbital Garden. Нажмите на название, чтобы открыть демоверсию или исходный код с инструкцией по запуску.
 
 Каталог обновлён: **2026-09-08**. Сведения об использовании модели основаны на заявлениях авторов или отправителей; неподтверждённые данные отмечены в соответствующих записях. Эта дата означает обновление каталога, а не повторное игровое тестирование всех проектов.
 
@@ -60,6 +60,12 @@
   - GPT-6 Astra: В [разделе About репозитория](https://github.com/threapchills/MagicCarpetWizard) автор указывает, что игра создана с помощью GPT-6 Astra.
   - Материалы: [Исходный код и инструкция по запуску](https://github.com/threapchills/MagicCarpetWizard) · Технологии: Three.js, Vite.
   - Предпросмотр: ![Стартовый экран Magic Carpet Wizard с наездником на ковре, городом и светящимся кольцом для полёта.](assets/screenshots/magic-carpet/gameplay.jpg)
+
+- **[THUNDERFALL / 雷霆战机 · 天穹远征](https://thunderfall.vercel.app/)** — Шутер с автоматической стрельбой: три истребителя, пять секторов и многофазные боссы.
+  - Автор: [jackroc](https://github.com/jackroc)
+  - GPT-6 Astra: [README](works/thunderfall/README.md#创作与许可) — По словам автора, создано с GPT-6 Astra ultra с итеративными улучшениями.
+  - [README](works/thunderfall/README.md) · [Prompt](works/thunderfall/PROMPT.md) · JavaScript, Canvas 2D, Web Audio.
+  - Предпросмотр: ![THUNDERFALL — Игровой скриншот](assets/screenshots/thunderfall/gameplay.jpg)
 
 <a id="puzzles"></a>
 
@@ -112,6 +118,12 @@
   - Платформа: Браузер с Canvas, китайский интерфейс, мышь и клавиатура; запуск проверен без входа и оплаты.
   - GPT-6 Astra: [Issue #28](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/28) — По заявлению отправителя, вся разработка велась с GPT-6 Astra; независимо не проверено.
   - Предпросмотр: ![缺氧 · 小小星球 — Игровой скриншот](assets/screenshots/hypoxia/gameplay.jpg)
+
+- **[魔塔 · 永夜之阶](https://ai.ywnet.xyz/work/mt.html)** — Пиксельное приключение в пятнадцатиэтажной башне с расчётом атаки и защиты, ограниченными ресурсами и ключами трёх цветов.
+  - Автор: yw
+  - Платформа: Браузер, китайский интерфейс; запуск проверен без входа и оплаты.
+  - GPT-6 Astra: [Issue #38](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/38) — Отправитель привёл промпт разработки в разделе GPT-6 Astra; точный вклад модели независимо не проверен.
+  - Предпросмотр: ![魔塔 · 永夜之阶 — Игровой скриншот](assets/screenshots/magic-tower/gameplay.jpg)
 
 - **[永恒荒野](https://starve.pages.dev/)** — Браузерная игра на выживание с элементами стратегии, представленная как воссоздание Don't Starve. На приложенном скриншоте видны исследование леса, сбор ресурсов, инвентарь и показатели здоровья, голода и рассудка.
   - Автор: dudu

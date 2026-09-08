@@ -6,7 +6,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 15](https://img.shields.io/badge/Cases-15-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 16](https://img.shields.io/badge/Cases-16-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **مجموعة من الألعاب الممتعة المصنوعة باستخدام GPT-6 Astra.**
 
@@ -24,7 +24,7 @@
 
 ## ابدأ من هنا
 
-استكشف **13 لعبة للمتصفح وبيئة تفاعلية واحدة لفن الجسيمات**: استراتيجية السيطرة على الأراضي في عصر الممالك الثلاث، ألغاز خشبية متشابكة وألغاز الكتل المنزلقة، دمج الفواكه المرنة، والطيران بزر واحد، والقتال على بساط سحري، والدفاع عن جزيرة بشبكة كهربائية، والبقاء في البرية، وسباقات الكارت على حلبة الخليج، وركوب الدراجة مع بجع على الساحل، وألعاب طاولة محوّلة إلى ألعاب ثلاثية الأبعاد، وOrbital Garden. انقر على اسم العمل لفتح التجربة أو الشفرة المصدرية مع تعليمات التشغيل.
+استكشف **15 لعبة للمتصفح وبيئة تفاعلية واحدة لفن الجسيمات**: استراتيجية السيطرة على الأراضي في عصر الممالك الثلاث، ألغاز خشبية متشابكة وألغاز الكتل المنزلقة، دمج الفواكه المرنة، والطيران بزر واحد، والقتال على بساط سحري، والدفاع عن جزيرة بشبكة كهربائية، والبقاء في البرية، وسباقات الكارت على حلبة الخليج، وركوب الدراجة مع بجع على الساحل، وألعاب طاولة محوّلة إلى ألعاب ثلاثية الأبعاد، وOrbital Garden. انقر على اسم العمل لفتح التجربة أو الشفرة المصدرية مع تعليمات التشغيل.
 
 تحديث القائمة: **2026-09-08**. تستند معلومات استخدام النموذج إلى تصريحات المؤلفين أو مقدّمي الأعمال؛ وتُوضّح التفاصيل غير المؤكدة في كل بند. يشير هذا التاريخ إلى تحديث القائمة، وليس إلى إعادة اختبار جميع الألعاب.
 
@@ -62,6 +62,12 @@
   - GPT-6 Astra: يذكر المبدع في [قسم About بالمستودع](https://github.com/threapchills/MagicCarpetWizard) أن اللعبة صُنعت باستخدام GPT-6 Astra.
   - موارد التطوير: [الشفرة المصدرية وتعليمات التشغيل](https://github.com/threapchills/MagicCarpetWizard) · التقنيات: Three.js, Vite.
   - معاينة: ![شاشة بدء Magic Carpet Wizard وتظهر راكب البساط والمدينة وحلقة طيران مضيئة.](assets/screenshots/magic-carpet/gameplay.jpg)
+
+- **[THUNDERFALL / 雷霆战机 · 天穹远征](https://thunderfall.vercel.app/)** — لعبة إطلاق نار تلقائي بثلاث مقاتلات وخمسة قطاعات وزعماء متعددي المراحل.
+  - المؤلف: [jackroc](https://github.com/jackroc)
+  - GPT-6 Astra: [README](works/thunderfall/README.md#创作与许可) — بحسب المؤلف، طُوّرت باستخدام GPT-6 Astra ultra مع تحسينات تكرارية.
+  - [README](works/thunderfall/README.md) · [Prompt](works/thunderfall/PROMPT.md) · JavaScript, Canvas 2D, Web Audio.
+  - معاينة: ![THUNDERFALL — لقطة من اللعبة](assets/screenshots/thunderfall/gameplay.jpg)
 
 <a id="puzzles"></a>
 
@@ -114,6 +120,12 @@
   - المنصة: متصفح يدعم Canvas، واجهة صينية، فأرة ولوحة مفاتيح؛ تم التحقق من التشغيل دون تسجيل دخول أو دفع.
   - GPT-6 Astra: [Issue #28](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/28) — يذكر مقدّم العمل أن التطوير بالكامل تم باستخدام GPT-6 Astra؛ لم يُتحقق من ذلك بشكل مستقل.
   - معاينة: ![缺氧 · 小小星球 — لقطة من اللعبة](assets/screenshots/hypoxia/gameplay.jpg)
+
+- **[魔塔 · 永夜之阶](https://ai.ywnet.xyz/work/mt.html)** — مغامرة بكسلية في برج من خمسة عشر طابقاً تعتمد على حساب الهجوم والدفاع والموارد المحدودة ومفاتيح بثلاثة ألوان.
+  - المؤلف: yw
+  - المنصة: متصفح بواجهة صينية؛ تم التحقق من التشغيل دون تسجيل دخول أو دفع.
+  - GPT-6 Astra: [Issue #38](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/38) — أرفق مقدّم العمل مطالبة التطوير في قسم GPT-6 Astra؛ لم تُتحقق مساهمة النموذج الدقيقة بشكل مستقل.
+  - معاينة: ![魔塔 · 永夜之阶 — لقطة من اللعبة](assets/screenshots/magic-tower/gameplay.jpg)
 
 - **[永恒荒野](https://starve.pages.dev/)** — لعبة بقاء واستراتيجية للمتصفح، قُدّمت بوصفها إعادة إنشاء للعبة Don't Starve. تُظهر اللقطة المرفقة استكشاف الغابة وجمع الموارد وحقيبة الأغراض ومؤشرات الصحة والجوع والاتزان العقلي.
   - المبدع: dudu

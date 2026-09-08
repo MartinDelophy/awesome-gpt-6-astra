@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 15](https://img.shields.io/badge/Cases-15-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 16](https://img.shields.io/badge/Cases-16-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **GPT-6 Astra로 만든 흥미로운 게임을 모았습니다.**
 
@@ -22,7 +22,7 @@
 
 ## 여기서 시작하기
 
-현재 **브라우저 게임 13개와 인터랙티브 파티클 아트 샌드박스 1개**를 소개합니다. 삼국지 영토 전략, 나무 결합 퍼즐과 슬라이딩 퍼즐, 부드러운 과일 합치기, 원버튼 비행, 마법 양탄자 전투, 섬의 전력망을 이용한 타워 디펜스, 야생 생존, 베이 서킷 카트 레이싱, 펠리컨과 함께하는 해안 자전거 달리기, 탁상 장난감을 옮긴 3D 게임, 그리고 Orbital Garden을 만나 보세요. 작품명을 누르면 데모 또는 실행 안내가 포함된 소스 코드가 열립니다.
+현재 **브라우저 게임 15개와 인터랙티브 파티클 아트 샌드박스 1개**를 소개합니다. 삼국지 영토 전략, 나무 결합 퍼즐과 슬라이딩 퍼즐, 부드러운 과일 합치기, 원버튼 비행, 마법 양탄자 전투, 섬의 전력망을 이용한 타워 디펜스, 야생 생존, 베이 서킷 카트 레이싱, 펠리컨과 함께하는 해안 자전거 달리기, 탁상 장난감을 옮긴 3D 게임, 그리고 Orbital Garden을 만나 보세요. 작품명을 누르면 데모 또는 실행 안내가 포함된 소스 코드가 열립니다.
 
 목록 업데이트: **2026-09-08**. 모델 사용 정보는 제작자 또는 제출자의 설명을 바탕으로 하며, 미확인 내용은 각 항목에 표시합니다. 이 날짜는 목록 관리 날짜이며 모든 게임을 다시 플레이 테스트한 날짜가 아닙니다.
 
@@ -60,6 +60,12 @@
   - GPT-6 Astra: 제작자는 [저장소의 About 설명](https://github.com/threapchills/MagicCarpetWizard)에서 GPT-6 Astra로 제작했다고 밝힙니다.
   - 개발 자료: [소스 코드 및 실행 안내](https://github.com/threapchills/MagicCarpetWizard) · 사용 기술: Three.js, Vite.
   - 미리보기: ![Magic Carpet Wizard 시작 화면에 양탄자 탑승자, 도시, 빛나는 비행 링이 보입니다.](assets/screenshots/magic-carpet/gameplay.jpg)
+
+- **[THUNDERFALL / 雷霆战机 · 天穹远征](https://thunderfall.vercel.app/)** — 세 종류 전투기로 다섯 구역과 여러 단계의 보스에 도전하는 자동 발사 탄막 게임입니다.
+  - 제작자: [jackroc](https://github.com/jackroc)
+  - GPT-6 Astra: [README](works/thunderfall/README.md#创作与许可) — 제작자에 따르면 GPT-6 Astra ultra로 제작하고 반복 개선했습니다.
+  - [README](works/thunderfall/README.md) · [Prompt](works/thunderfall/PROMPT.md) · JavaScript, Canvas 2D, Web Audio.
+  - 미리보기: ![THUNDERFALL — 실제 게임 화면](assets/screenshots/thunderfall/gameplay.jpg)
 
 <a id="puzzles"></a>
 
@@ -112,6 +118,12 @@
   - 플랫폼: Canvas 지원 브라우저, 중국어 UI, 마우스와 키보드. 로그인이나 결제 없이 실행을 확인했습니다.
   - GPT-6 Astra: [Issue #28](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/28) — 제출자는 GPT-6 Astra로 전체 개발을 진행했다고 설명했습니다. 독립적으로 검증하지 않았습니다.
   - 미리보기: ![缺氧 · 小小星球 — 실제 게임 화면](assets/screenshots/hypoxia/gameplay.jpg)
+
+- **[魔塔 · 永夜之阶](https://ai.ywnet.xyz/work/mt.html)** — 공격·방어 계산, 한정된 자원, 세 가지 색 열쇠로 경로를 계획하는 15층 픽셀 탑 모험입니다.
+  - 제작자: yw
+  - 플랫폼: 브라우저, 중국어 UI. 로그인이나 결제 없이 실행을 확인했습니다.
+  - GPT-6 Astra: [Issue #38](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/38) — 제출자가 GPT-6 Astra 사용 항목에 개발 프롬프트를 제공했습니다. 구체적인 모델 기여는 독립 검증하지 않았습니다.
+  - 미리보기: ![魔塔 · 永夜之阶 — 실제 게임 화면](assets/screenshots/magic-tower/gameplay.jpg)
 
 - **[永恒荒野](https://starve.pages.dev/)** — Don't Starve를 재현한 작품으로 제출된 브라우저 생존·전략 게임입니다. 제출된 화면에는 숲 탐험, 자원 수집, 인벤토리와 체력·허기·정신력 수치가 보입니다.
   - 제작자: dudu

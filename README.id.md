@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 15](https://img.shields.io/badge/Cases-15-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 16](https://img.shields.io/badge/Cases-16-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Kumpulan gim menarik yang dibuat dengan GPT-6 Astra.**
 
@@ -22,7 +22,7 @@ Halaman ini merupakan terjemahan [README bahasa Inggris](README.md). Periksa ver
 
 ## Mulai di sini
 
-Jelajahi **13 gim peramban dan 1 sandbox seni partikel interaktif**: strategi wilayah Tiga Kerajaan, teka-teki kayu yang saling mengunci dan teka-teki balok geser, penggabungan buah yang lentur, penerbangan satu tombol, pertempuran karpet ajaib, pertahanan pulau dengan jaringan listrik, bertahan hidup di alam liar, balapan kart di Bay Circuit, bersepeda di pesisir bersama pelikan, mainan meja yang diadaptasi menjadi gim 3D, serta Orbital Garden. Klik judul untuk membuka demo atau kode sumber beserta petunjuk menjalankannya.
+Jelajahi **15 gim peramban dan 1 sandbox seni partikel interaktif**: strategi wilayah Tiga Kerajaan, teka-teki kayu yang saling mengunci dan teka-teki balok geser, penggabungan buah yang lentur, penerbangan satu tombol, pertempuran karpet ajaib, pertahanan pulau dengan jaringan listrik, bertahan hidup di alam liar, balapan kart di Bay Circuit, bersepeda di pesisir bersama pelikan, mainan meja yang diadaptasi menjadi gim 3D, serta Orbital Garden. Klik judul untuk membuka demo atau kode sumber beserta petunjuk menjalankannya.
 
 Katalog diperbarui: **2026-09-08**. Informasi penggunaan model berdasarkan pernyataan kreator atau pengirim; detail yang belum dikonfirmasi ditandai pada setiap entri. Tanggal ini menunjukkan pemeliharaan katalog, bukan pengujian ulang seluruh gim.
 
@@ -60,6 +60,12 @@ Gim tembak-menembak, pertarungan, bertahan hidup, ritme, dan apa pun yang membua
   - GPT-6 Astra: Kreator menyatakan bahwa gim ini dibuat dengan GPT-6 Astra di [bagian About repositori](https://github.com/threapchills/MagicCarpetWizard).
   - Materi pengembangan: [Kode sumber dan petunjuk menjalankan](https://github.com/threapchills/MagicCarpetWizard) · Teknologi: Three.js, Vite.
   - Pratinjau: ![Layar awal Magic Carpet Wizard menampilkan pengendara karpet, kota, dan cincin terbang bercahaya.](assets/screenshots/magic-carpet/gameplay.jpg)
+
+- **[THUNDERFALL / 雷霆战机 · 天穹远征](https://thunderfall.vercel.app/)** — Gim tembak otomatis dengan tiga pesawat, lima sektor, dan bos dengan beberapa fase.
+  - Kreator: [jackroc](https://github.com/jackroc)
+  - GPT-6 Astra: [README](works/thunderfall/README.md#创作与许可) — Menurut kreator, dikembangkan dengan GPT-6 Astra ultra melalui perbaikan berulang.
+  - [README](works/thunderfall/README.md) · [Prompt](works/thunderfall/PROMPT.md) · JavaScript, Canvas 2D, Web Audio.
+  - Pratinjau: ![THUNDERFALL — Tangkapan permainan](assets/screenshots/thunderfall/gameplay.jpg)
 
 <a id="puzzles"></a>
 
@@ -112,6 +118,12 @@ Pertahanan menara, kartu strategi, pengelolaan, pembangunan, dan sandbox simulas
   - Platform: Browser dengan Canvas, antarmuka Mandarin, mouse dan keyboard; berhasil dibuka tanpa login atau pembayaran.
   - GPT-6 Astra: [Issue #28](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/28) — Pengirim menyatakan seluruh pengembangan menggunakan GPT-6 Astra; belum diverifikasi secara independen.
   - Pratinjau: ![缺氧 · 小小星球 — Tangkapan permainan](assets/screenshots/hypoxia/gameplay.jpg)
+
+- **[魔塔 · 永夜之阶](https://ai.ywnet.xyz/work/mt.html)** — Petualangan menara piksel lima belas lantai dengan perhitungan serangan/pertahanan, sumber daya terbatas, dan kunci tiga warna.
+  - Kreator: yw
+  - Platform: Browser, antarmuka Mandarin; berhasil dibuka tanpa login atau pembayaran.
+  - GPT-6 Astra: [Issue #38](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/38) — Pengirim menyediakan prompt pengembangan pada bagian GPT-6 Astra; kontribusi tepat model belum diverifikasi secara independen.
+  - Pratinjau: ![魔塔 · 永夜之阶 — Tangkapan permainan](assets/screenshots/magic-tower/gameplay.jpg)
 
 - **[永恒荒野](https://starve.pages.dev/)** — Gim bertahan hidup dan strategi untuk peramban yang diajukan sebagai pembuatan ulang Don't Starve. Tangkapan layar menampilkan penjelajahan hutan, pengumpulan sumber daya, inventaris, serta indikator kesehatan, rasa lapar, dan kewarasan.
   - Kreator: dudu
