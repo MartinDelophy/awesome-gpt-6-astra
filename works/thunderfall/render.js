@@ -1,10 +1,8 @@
+import { drawAirframe as drawShip } from './airframes.js';
+export { drawShip };
+
 // Original procedural artwork. All coordinates use the game's 480 × 800 stage.
 const W = 480, H = 800, TAU = Math.PI * 2;
-const SHIPS = [
-  { bright: '#a5f8ff', light: '#5edbf3', metal: '#427993', dark: '#132a44', flame: '#54e8ff' },
-  { bright: '#efdcff', light: '#bb9bff', metal: '#756497', dark: '#282240', flame: '#bf99ff' },
-  { bright: '#fff0be', light: '#edc47c', metal: '#887157', dark: '#302c30', flame: '#ffb655' },
-];
 const LOOT = { pulse: ['#60baff', 'P'], laser: ['#6eecb7', 'L'], arc: ['#c59aff', 'A'], nova: ['#ffd576', 'N'] };
 const PAL = [
   ['#071422', '#15354a', '#31697b'], ['#071b22', '#143835', '#468772'],
@@ -180,43 +178,6 @@ function flame(c, x, y, width, height, color, time) {
   const g = c.createLinearGradient(x,y,x,y+height);
   g.addColorStop(0,'#ecfdff'); g.addColorStop(.22,color); g.addColorStop(1,'transparent');
   poly(c, [[x-width,y],[x+width,y],[x+width*.48,y+height*.52],[x,y+height*flicker],[x-width*.48,y+height*.52]], g);
-}
-
-/** Draw one of three original hulls, facing up. Usable by isolated preview canvases. */
-export function drawShip(c, x, y, shipId = 0, scale = 1, time = 0, bank = 0) {
-  const id = clamp(shipId|0,0,2), p = SHIPS[id];
-  c.save(); c.translate(x,y); c.rotate(clamp(bank,-1,1)*.13); c.scale(scale,scale);
-  if (id === 0) {
-    flame(c,-9,22,4,29,p.flame,time); flame(c,9,22,4,29,p.flame,time+.4);
-    poly(c,[[-3,-31],[-12,-10],[-29,12],[-30,20],[-10,12],[-8,26],[8,26],[10,12],[30,20],[29,12],[12,-10],[3,-31]],p.dark,'#83c7dd',.8);
-    poly(c,[[-4,-24],[-11,-8],[-26,14],[-11,7],[-7,-4]],p.metal);
-    poly(c,[[4,-24],[11,-8],[26,14],[11,7],[7,-4]],p.light);
-    poly(c,[[0,-34],[5,-16],[7,16],[0,25],[-7,16],[-5,-16]],p.light,p.bright,.6);
-    poly(c,[[0,-31],[0,22],[-5,15],[-4,-16]],p.metal);
-    line(c,[[-25,14],[-14,3],[-12,-2]],p.bright,.7);
-    line(c,[[25,14],[14,3],[12,-2]],p.bright,.7);
-    poly(c,[[-17,12],[-18,23],[-11,20],[-9,9]],p.metal);
-    poly(c,[[17,12],[18,23],[11,20],[9,9]],p.light);
-  } else if (id === 1) {
-    flame(c,-18,18,3.5,27,p.flame,time); flame(c,18,18,3.5,27,p.flame,time+.3);
-    poly(c,[[0,-31],[11,-9],[30,4],[36,22],[17,17],[6,24],[0,20],[-6,24],[-17,17],[-36,22],[-30,4],[-11,-9]],p.dark,p.bright,.7);
-    poly(c,[[-2,-24],[-11,-7],[-29,7],[-31,17],[-19,12],[-5,13]],p.metal);
-    poly(c,[[2,-24],[11,-7],[29,7],[31,17],[19,12],[5,13]],p.light);
-    poly(c,[[0,-32],[7,-8],[6,19],[0,25],[-6,19],[-7,-8]],'#c5b7d5',p.bright,.6);
-    poly(c,[[0,-29],[0,20],[-4,13],[-4,-7]],p.metal);
-    for(const s of [-1,1]) { line(c,[[s*12,-2],[s*23,7],[s*26,13]],p.bright,1); circle(c,s*20,7,2.2,p.flame); }
-  } else {
-    flame(c,-13,22,5,24,p.flame,time); flame(c,13,22,5,24,p.flame,time+.2);
-    poly(c,[[-7,-27],[-12,-8],[-31,-2],[-32,24],[-17,18],[-10,28],[10,28],[17,18],[32,24],[31,-2],[12,-8],[7,-27]],p.dark,p.bright,.8);
-    plate(c,-31,-2,14,25,p.metal,p.light,3); plate(c,17,-2,14,25,p.light,p.bright,3);
-    poly(c,[[-7,-27],[-11,-2],[-9,23],[0,27],[9,23],[11,-2],[7,-27]],p.light,p.bright,.6);
-    poly(c,[[0,-26],[0,24],[-7,20],[-8,-1],[-5,-25]],p.metal);
-    for(const s of [-1,1]) { line(c,[[s*24,-7],[s*24,10]],'#e4d6b7',2); c.fillStyle=p.dark; c.fillRect(s*24-3,12,6,7); }
-    line(c,[[-12,6],[-28,10]],p.bright); line(c,[[12,6],[28,10]],p.bright);
-  }
-  poly(c,[[0,-16],[3,-10],[2,1],[0,4],[-2,1],[-3,-10]],'#102737','#d1f8ff',.6);
-  line(c,[[0,-14],[1,-9],[1,-3]],'#eeffff',.8);
-  c.restore();
 }
 
 function enemy(c, e, time) {
@@ -402,7 +363,7 @@ export function drawFrame(c,game,{idleTime=0,reducedMotion=false}={}) {
     for(const r of [73,116,146]) { c.beginPath(); c.arc(0,0,r,0,TAU); c.stroke(); }
     for(let i=0;i<16;i++) { const a=i/16*TAU; line(c,[[Math.cos(a)*139,Math.sin(a)*139],[Math.cos(a)*146,Math.sin(a)*146]],'#a3d8e14a'); }
     line(c,[[-184,0],[-157,0]],'#a3d8e133'); line(c,[[157,0],[184,0]],'#a3d8e133'); c.restore();
-    drawShip(c,240,220+(reducedMotion?0:Math.sin(idleTime)*4),game.player?.shipId||0,2.7,reducedMotion?0:idleTime);
+    drawShip(c,243,239+(reducedMotion?0:Math.sin(idleTime)*3),game.player?.shipId||0,2.65,reducedMotion?0:idleTime,0,{showcase:true});
     c.restore(); return;
   }
   c.save();
@@ -415,11 +376,12 @@ export function drawFrame(c,game,{idleTime=0,reducedMotion=false}={}) {
   if(player&&player.health>0) {
     if(player.shield>0) {
       c.globalAlpha=.16+.19*clamp(player.shield/(player.maxShield||100));
-      c.beginPath(); c.ellipse(player.x,player.y,32,37,0,0,TAU); c.fillStyle='#58b6e722'; c.fill(); c.strokeStyle='#9beaff'; c.lineWidth=1.5; c.stroke(); c.globalAlpha=1;
+      c.beginPath(); c.ellipse(player.x,player.y,42,43,0,0,TAU); c.fillStyle='#58b6e722'; c.fill(); c.strokeStyle='#9beaff'; c.lineWidth=1.5; c.stroke(); c.globalAlpha=1;
     }
     if(player.overdriveTime>0) { circle(c,player.x,player.y,40,null,'#ffda8499',1.5); circle(c,player.x,player.y,45,null,'#ffe3a333'); }
     c.globalAlpha=player.invulnerable>0?(reducedMotion?.62:.48+.52*Math.abs(Math.sin(t*20))):1;
-    drawShip(c,player.x,player.y,player.shipId,1,reducedMotion?0:t,player.bank||0);
+    for(let i=0;i<(game.upgrades?.wingmen||0);i++) drawShip(c,player.x+(i?1:-1)*43,player.y+16,player.shipId,.35,reducedMotion?0:t,player.bank||0);
+    drawShip(c,player.x,player.y,player.shipId,1,reducedMotion?0:t,player.bank||0,{boost:player.overdriveTime>0});
     c.globalAlpha=1;
     // The visible centre is the small gameplay hitbox, not the wing silhouette.
     circle(c,player.x,player.y,4.4,'#061121','#cefcff',1.1);
