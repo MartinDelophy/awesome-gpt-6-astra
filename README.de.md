@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 15](https://img.shields.io/badge/Cases-15-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 16](https://img.shields.io/badge/Cases-16-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Eine Sammlung interessanter Spiele, die mit GPT-6 Astra entwickelt wurden.**
 
@@ -22,7 +22,7 @@ Diese Seite übersetzt die [englische README](README.md). Aktuelle Änderungen l
 
 ## Hier anfangen
 
-Entdecke **13 Browserspiele und 1 interaktiven Sandkasten für Partikelkunst**: Gebietsstrategie zur Zeit der Drei Reiche, Holz-Steckpuzzles und Schiebepuzzles lösen, weiche Früchte verschmelzen, mit einer Taste fliegen, auf einem fliegenden Teppich kämpfen, eine Insel mit einem Stromnetz verteidigen, in der Wildnis überleben, Kartrennen auf Bay Circuit, eine Küstenradtour mit einem Pelikan, Tischspielzeug als 3D-Spiele und Orbital Garden. Ein Klick auf einen Titel öffnet die Demo oder den Quellcode mit Startanleitung.
+Entdecke **15 Browserspiele und 1 interaktiven Sandkasten für Partikelkunst**: Gebietsstrategie zur Zeit der Drei Reiche, Holz-Steckpuzzles und Schiebepuzzles lösen, weiche Früchte verschmelzen, mit einer Taste fliegen, auf einem fliegenden Teppich kämpfen, eine Insel mit einem Stromnetz verteidigen, in der Wildnis überleben, Kartrennen auf Bay Circuit, eine Küstenradtour mit einem Pelikan, Tischspielzeug als 3D-Spiele und Orbital Garden. Ein Klick auf einen Titel öffnet die Demo oder den Quellcode mit Startanleitung.
 
 Katalog aktualisiert: **2026-09-08**. Angaben zur Modellnutzung beruhen auf Aussagen der Ersteller oder Einreichenden; unbestätigte Details sind im jeweiligen Eintrag markiert. Das Datum bezeichnet die Katalogpflege, keinen erneuten Spieltest aller Spiele.
 
@@ -60,6 +60,12 @@ Shooter, Kampf-, Überlebens- und Rhythmusspiele sowie alles, was zu einer weite
   - GPT-6 Astra: Der Entwickler gibt im [About-Bereich des Repositorys](https://github.com/threapchills/MagicCarpetWizard) an, das Spiel mit GPT-6 Astra erstellt zu haben.
   - Materialien: [Quellcode und Startanleitung](https://github.com/threapchills/MagicCarpetWizard) · Technik: Three.js, Vite.
   - Vorschau: ![Magic-Carpet-Wizard-Startbildschirm mit Teppichreiter, Stadt und leuchtendem Flugring.](assets/screenshots/magic-carpet/gameplay.jpg)
+
+- **[THUNDERFALL / 雷霆战机 · 天穹远征](https://thunderfall.vercel.app/)** — Ein Bullet-Hell-Shooter mit drei Jägern, fünf Sektoren, mehrphasigen Bossen und automatischem Feuer.
+  - Entwickler: [jackroc](https://github.com/jackroc)
+  - GPT-6 Astra: [README](works/thunderfall/README.md#创作与许可) — Laut Ersteller mit GPT-6 Astra ultra entwickelt und iterativ verbessert.
+  - [README](works/thunderfall/README.md) · [Prompt](works/thunderfall/PROMPT.md) · JavaScript, Canvas 2D, Web Audio.
+  - Vorschau: ![THUNDERFALL — Spielaufnahme](assets/screenshots/thunderfall/gameplay.jpg)
 
 <a id="puzzles"></a>
 
@@ -112,6 +118,12 @@ Tower Defense, strategische Kartenspiele, Aufbau-, Management- und Simulationssp
   - Plattform: Browser mit Canvas, chinesische Oberfläche, Maus und Tastatur; Start ohne Anmeldung oder Zahlung geprüft.
   - GPT-6 Astra: [Issue #28](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/28) — Laut Einreichung durchgehend mit GPT-6 Astra entwickelt; nicht unabhängig bestätigt.
   - Vorschau: ![缺氧 · 小小星球 — Spielaufnahme](assets/screenshots/hypoxia/gameplay.jpg)
+
+- **[魔塔 · 永夜之阶](https://ai.ywnet.xyz/work/mt.html)** — Ein Pixelabenteuer in einem fünfzehnstöckigen Turm mit Angriffs-/Verteidigungsberechnung, begrenzten Ressourcen und drei Schlüsselfarben.
+  - Entwickler: yw
+  - Plattform: Browser, chinesische Oberfläche; Start ohne Anmeldung oder Zahlung geprüft.
+  - GPT-6 Astra: [Issue #38](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/38) — Die Einreichung enthält den Entwicklungsprompt unter GPT-6 Astra; der genaue Modellbeitrag wurde nicht unabhängig geprüft.
+  - Vorschau: ![魔塔 · 永夜之阶 — Spielaufnahme](assets/screenshots/magic-tower/gameplay.jpg)
 
 - **[永恒荒野](https://starve.pages.dev/)** — Ein Survival- und Strategiespiel im Browser, eingereicht als Nachbau von Don't Starve. Der Screenshot zeigt Walderkundung, das Sammeln von Ressourcen, ein Inventar sowie Anzeigen für Gesundheit, Hunger und geistige Verfassung.
   - Entwickler: dudu

@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 15](https://img.shields.io/badge/Cases-15-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 16](https://img.shields.io/badge/Cases-16-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Une sélection de jeux intéressants créés avec GPT-6 Astra.**
 
@@ -22,7 +22,7 @@ Cette page traduit le [README anglais](README.md). Consultez l’original pour v
 
 ## Pour commencer
 
-Découvrez **13 jeux pour navigateur et 1 bac à sable interactif d’art à particules** : stratégie territoriale des Trois Royaumes, puzzles en bois à emboîtement et à glissement, fusion de fruits déformables, vol à une touche, combats sur tapis volant, défense d’île par un réseau électrique, survie en pleine nature, course de karts sur Bay Circuit, balade côtière à vélo avec un pélican, jouets de table adaptés en 3D et Orbital Garden. Cliquez sur un titre pour ouvrir la démo ou le code source avec ses instructions de lancement.
+Découvrez **15 jeux pour navigateur et 1 bac à sable interactif d’art à particules** : stratégie territoriale des Trois Royaumes, puzzles en bois à emboîtement et à glissement, fusion de fruits déformables, vol à une touche, combats sur tapis volant, défense d’île par un réseau électrique, survie en pleine nature, course de karts sur Bay Circuit, balade côtière à vélo avec un pélican, jouets de table adaptés en 3D et Orbital Garden. Cliquez sur un titre pour ouvrir la démo ou le code source avec ses instructions de lancement.
 
 Mise à jour du catalogue : **2026-09-08**. L’utilisation du modèle est renseignée d’après les déclarations des créateurs ou des contributeurs ; les points non confirmés sont signalés dans chaque fiche. Cette date correspond à la maintenance du catalogue, pas à un nouveau test de tous les jeux.
 
@@ -60,6 +60,12 @@ Jeux de tir, de combat, de survie, de rythme et tous ceux qui donnent envie de r
   - GPT-6 Astra: Le créateur indique dans la [section About du dépôt](https://github.com/threapchills/MagicCarpetWizard) que le jeu a été réalisé avec GPT-6 Astra.
   - Ressources: [Code source et instructions de lancement](https://github.com/threapchills/MagicCarpetWizard) · Technologies: Three.js, Vite.
   - Aperçu: ![Écran de démarrage de Magic Carpet Wizard avec le pilote du tapis, la ville et un anneau de vol lumineux.](assets/screenshots/magic-carpet/gameplay.jpg)
+
+- **[THUNDERFALL / 雷霆战机 · 天穹远征](https://thunderfall.vercel.app/)** — Un jeu de tir à projectiles avec trois chasseurs, cinq secteurs, des boss à plusieurs phases et un tir automatique.
+  - Créateur: [jackroc](https://github.com/jackroc)
+  - GPT-6 Astra: [README](works/thunderfall/README.md#创作与许可) — Selon le créateur, réalisé avec GPT-6 Astra ultra et amélioré par itérations.
+  - [README](works/thunderfall/README.md) · [Prompt](works/thunderfall/PROMPT.md) · JavaScript, Canvas 2D, Web Audio.
+  - Aperçu: ![THUNDERFALL — Capture du jeu](assets/screenshots/thunderfall/gameplay.jpg)
 
 <a id="puzzles"></a>
 
@@ -112,6 +118,12 @@ Défense de tours, cartes stratégiques, gestion, construction et bacs à sable 
   - Plateforme: Navigateur avec Canvas, interface chinoise, souris et clavier ; lancement vérifié sans connexion ni paiement.
   - GPT-6 Astra: [Issue #28](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/28) — Le contributeur indique un développement entièrement réalisé avec GPT-6 Astra ; déclaration non vérifiée indépendamment.
   - Aperçu: ![缺氧 · 小小星球 — Capture du jeu](assets/screenshots/hypoxia/gameplay.jpg)
+
+- **[魔塔 · 永夜之阶](https://ai.ywnet.xyz/work/mt.html)** — Une aventure dans une tour pixelisée de quinze étages, fondée sur les calculs attaque/défense, des ressources limitées et trois couleurs de clés.
+  - Créateur: yw
+  - Plateforme: Navigateur, interface chinoise ; lancement vérifié sans connexion ni paiement.
+  - GPT-6 Astra: [Issue #38](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/38) — Le contributeur fournit le prompt dans la rubrique GPT-6 Astra ; la contribution exacte du modèle n’est pas vérifiée indépendamment.
+  - Aperçu: ![魔塔 · 永夜之阶 — Capture du jeu](assets/screenshots/magic-tower/gameplay.jpg)
 
 - **[永恒荒野](https://starve.pages.dev/)** — Jeu de survie et de stratégie sur navigateur présenté comme une recréation de Don't Starve. La capture soumise montre l’exploration d’une forêt, la collecte de ressources, un inventaire et des jauges de santé, de faim et de santé mentale.
   - Créateur: dudu

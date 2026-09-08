@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 15](https://img.shields.io/badge/Cases-15-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 16](https://img.shields.io/badge/Cases-16-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **GPT-6 Astra で作られた、遊んでみたくなるゲームを集めています。**
 
@@ -22,7 +22,7 @@
 
 ## はじめに
 
-現在、**ブラウザーゲーム 13 作品と、インタラクティブなパーティクルアートのサンドボックス 1 作品**を掲載しています。三国志の領土戦略、木製の組木パズルとスライドパズル、柔らかい果物の合成、ワンボタン飛行、魔法の絨毯での戦闘、島の電力網を使うタワーディフェンス、荒野でのサバイバル、海湾サーキットのカートレース、ペリカンとの海岸サイクリング、卓上玩具の 3D ゲーム化、そして Orbital Garden。作品名をクリックすると、デモまたは実行手順付きのソースコードが開きます。
+現在、**ブラウザーゲーム 15 作品と、インタラクティブなパーティクルアートのサンドボックス 1 作品**を掲載しています。三国志の領土戦略、木製の組木パズルとスライドパズル、柔らかい果物の合成、ワンボタン飛行、魔法の絨毯での戦闘、島の電力網を使うタワーディフェンス、荒野でのサバイバル、海湾サーキットのカートレース、ペリカンとの海岸サイクリング、卓上玩具の 3D ゲーム化、そして Orbital Garden。作品名をクリックすると、デモまたは実行手順付きのソースコードが開きます。
 
 一覧更新日：**2026-09-08**。モデルの利用情報は作者または投稿者の説明に基づき、未確認の内容は各項目に明記しています。この日付は一覧の更新日であり、全作品を再度プレイテストした日ではありません。
 
@@ -60,6 +60,12 @@
   - GPT-6 Astra: 作者は[リポジトリの About 欄](https://github.com/threapchills/MagicCarpetWizard)で、GPT-6 Astra を使って制作したと説明しています。
   - 開発資料: [ソースコードと実行手順](https://github.com/threapchills/MagicCarpetWizard) · 使用技術: Three.js, Vite.
   - プレビュー: ![Magic Carpet Wizard の開始画面。絨毯の乗り手、街、光る飛行リングが見えます。](assets/screenshots/magic-carpet/gameplay.jpg)
+
+- **[THUNDERFALL / 雷霆战机 · 天穹远征](https://thunderfall.vercel.app/)** — 三機の戦闘機で五つの区域と多段階のボスに挑む、自動射撃の弾幕ゲーム。
+  - 作者: [jackroc](https://github.com/jackroc)
+  - GPT-6 Astra: [README](works/thunderfall/README.md#创作与许可) — 作者によると GPT-6 Astra ultra で制作し、複数回改善しています。
+  - [README](works/thunderfall/README.md) · [Prompt](works/thunderfall/PROMPT.md) · JavaScript, Canvas 2D, Web Audio.
+  - プレビュー: ![THUNDERFALL — 実際のゲーム画面](assets/screenshots/thunderfall/gameplay.jpg)
 
 <a id="puzzles"></a>
 
@@ -112,6 +118,12 @@
   - 対応環境: Canvas 対応ブラウザー、中国語 UI、マウスとキーボード。ログインや支払いなしで起動を確認。
   - GPT-6 Astra: [Issue #28](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/28) — 投稿者によると GPT-6 Astra で全工程を開発。独立した検証は行っていません。
   - プレビュー: ![缺氧 · 小小星球 — 実際のゲーム画面](assets/screenshots/hypoxia/gameplay.jpg)
+
+- **[魔塔 · 永夜之阶](https://ai.ywnet.xyz/work/mt.html)** — 攻防計算、限られた資源、三色の鍵を使って進む、十五階のピクセル高塔アドベンチャー。
+  - 作者: yw
+  - 対応環境: ブラウザー、中国語 UI。ログインや支払いなしで起動を確認。
+  - GPT-6 Astra: [Issue #38](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/38) — 投稿者は GPT-6 Astra 利用欄に開発プロンプトを掲載。具体的なモデルの担当範囲は独立に検証していません。
+  - プレビュー: ![魔塔 · 永夜之阶 — 実際のゲーム画面](assets/screenshots/magic-tower/gameplay.jpg)
 
 - **[永恒荒野](https://starve.pages.dev/)** — Don't Starve の再現作品として投稿された、ブラウザー向けのサバイバル・戦略ゲームです。投稿画像には森の探索、資源の収集、所持品と、体力・空腹・正気度の表示が見られます。
   - 作者: dudu

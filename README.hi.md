@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 15](https://img.shields.io/badge/Cases-15-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 16](https://img.shields.io/badge/Cases-16-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **GPT-6 Astra से बनाए गए दिलचस्प गेमों का संग्रह।**
 
@@ -22,7 +22,7 @@
 
 ## यहाँ से शुरू करें
 
-यहाँ **13 ब्राउज़र गेम और कणों से कला बनाने वाला 1 इंटरैक्टिव सैंडबॉक्स** शामिल हैं: तीन राज्यों की क्षेत्रीय रणनीति, एक-दूसरे में फँसे लकड़ी के टुकड़ों और खिसकने वाले ब्लॉकों की पहेलियाँ, मुलायम फलों को मिलाना, एक बटन से उड़ान, जादुई कालीन पर लड़ाई, बिजली के नेटवर्क से द्वीप की रक्षा, जंगल में जीवित रहना, Bay Circuit पर कार्ट रेसिंग, पेलिकन के साथ तट पर साइकिल चलाना, टेबलटॉप खिलौनों के 3D रूपांतरण और Orbital Garden। किसी शीर्षक पर क्लिक करके उसका डेमो या चलाने के निर्देशों सहित स्रोत कोड खोलें।
+यहाँ **15 ब्राउज़र गेम और कणों से कला बनाने वाला 1 इंटरैक्टिव सैंडबॉक्स** शामिल हैं: तीन राज्यों की क्षेत्रीय रणनीति, एक-दूसरे में फँसे लकड़ी के टुकड़ों और खिसकने वाले ब्लॉकों की पहेलियाँ, मुलायम फलों को मिलाना, एक बटन से उड़ान, जादुई कालीन पर लड़ाई, बिजली के नेटवर्क से द्वीप की रक्षा, जंगल में जीवित रहना, Bay Circuit पर कार्ट रेसिंग, पेलिकन के साथ तट पर साइकिल चलाना, टेबलटॉप खिलौनों के 3D रूपांतरण और Orbital Garden। किसी शीर्षक पर क्लिक करके उसका डेमो या चलाने के निर्देशों सहित स्रोत कोड खोलें।
 
 सूची अपडेट: **2026-09-08**। मॉडल के उपयोग की जानकारी रचनाकारों या प्रस्तुतकर्ताओं के कथनों पर आधारित है; अपुष्ट विवरण संबंधित प्रविष्टियों में चिह्नित हैं। यह तारीख सूची के रखरखाव की है, सभी गेमों के दोबारा परीक्षण की नहीं।
 
@@ -60,6 +60,12 @@
   - GPT-6 Astra: रचनाकार ने [रिपॉज़िटरी के About खंड](https://github.com/threapchills/MagicCarpetWizard) में बताया है कि गेम GPT-6 Astra से बनाया गया है।
   - विकास संसाधन: [स्रोत कोड और चलाने के निर्देश](https://github.com/threapchills/MagicCarpetWizard) · तकनीक: Three.js, Vite.
   - पूर्वावलोकन: ![Magic Carpet Wizard की शुरुआती स्क्रीन पर कालीन सवार, शहर और चमकता उड़ान छल्ला दिखता है।](assets/screenshots/magic-carpet/gameplay.jpg)
+
+- **[THUNDERFALL / 雷霆战机 · 天穹远征](https://thunderfall.vercel.app/)** — तीन लड़ाकू विमानों, पाँच क्षेत्रों, कई चरणों वाले बॉस और स्वचालित गोलीबारी वाला बुलेट-हेल गेम।
+  - रचनाकार: [jackroc](https://github.com/jackroc)
+  - GPT-6 Astra: [README](works/thunderfall/README.md#创作与许可) — रचनाकार के अनुसार GPT-6 Astra ultra से बनाकर कई चरणों में सुधार किया गया।
+  - [README](works/thunderfall/README.md) · [Prompt](works/thunderfall/PROMPT.md) · JavaScript, Canvas 2D, Web Audio.
+  - पूर्वावलोकन: ![THUNDERFALL — गेम का स्क्रीनशॉट](assets/screenshots/thunderfall/gameplay.jpg)
 
 <a id="puzzles"></a>
 
@@ -112,6 +118,12 @@
   - प्लेटफ़ॉर्म: Canvas वाला ब्राउज़र, चीनी इंटरफ़ेस, माउस और कीबोर्ड; बिना लॉगिन या भुगतान के शुरू होना सत्यापित।
   - GPT-6 Astra: [Issue #28](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/28) — प्रस्तुतकर्ता के अनुसार पूरा विकास GPT-6 Astra के साथ हुआ; स्वतंत्र सत्यापन नहीं किया गया है।
   - पूर्वावलोकन: ![缺氧 · 小小星球 — गेम का स्क्रीनशॉट](assets/screenshots/hypoxia/gameplay.jpg)
+
+- **[魔塔 · 永夜之阶](https://ai.ywnet.xyz/work/mt.html)** — हमले और रक्षा की गणना, सीमित संसाधनों और तीन रंगों की चाबियों पर आधारित पंद्रह मंज़िला पिक्सेल टावर एडवेंचर।
+  - रचनाकार: yw
+  - प्लेटफ़ॉर्म: ब्राउज़र, चीनी इंटरफ़ेस; बिना लॉगिन या भुगतान के शुरू होना सत्यापित।
+  - GPT-6 Astra: [Issue #38](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/38) — प्रस्तुतकर्ता ने GPT-6 Astra उपयोग अनुभाग में विकास प्रॉम्प्ट दिया है; मॉडल के सटीक योगदान का स्वतंत्र सत्यापन नहीं हुआ है।
+  - पूर्वावलोकन: ![魔塔 · 永夜之阶 — गेम का स्क्रीनशॉट](assets/screenshots/magic-tower/gameplay.jpg)
 
 - **[永恒荒野](https://starve.pages.dev/)** — Don't Starve की पुनर्रचना के रूप में प्रस्तुत ब्राउज़र सर्वाइवल और रणनीति गेम। दिए गए स्क्रीनशॉट में जंगल की खोज, संसाधन जुटाना, सामान की सूची तथा स्वास्थ्य, भूख और मानसिक संतुलन के संकेतक दिखाई देते हैं।
   - रचनाकार: dudu
