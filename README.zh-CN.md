@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 16](https://img.shields.io/badge/Cases-16-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 17](https://img.shields.io/badge/Cases-17-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **收集用 GPT-6 Astra 制作的有趣游戏。**
 
@@ -20,7 +20,7 @@
 
 ## 从这里开始
 
-目前收录 **15 款浏览器游戏和 1 个交互式粒子艺术沙盒**：三国领土策略、木锁拆解与华容道、半流体水果合成、单键飞行、魔毯战斗、五关弹幕射击、海岛电网塔防、荒野生存、海湾卡丁车竞速、鹈鹕海岸骑行、桌面玩具的 3D 改编，以及轨道花园。点击作品名称可打开试玩或源码运行说明。
+目前收录 **16 款浏览器游戏和 1 个交互式粒子艺术沙盒**：三国领土策略、木锁拆解与华容道、半流体水果合成、单键飞行、魔毯战斗、五关弹幕射击、海岛电网塔防、荒野生存、水下捕鱼、寿司店经营与海岛种植、海湾卡丁车竞速、鹈鹕海岸骑行、桌面玩具的 3D 改编，以及轨道花园。点击作品名称可打开试玩或源码运行说明。
 
 目录更新：**2026-09-08**。模型使用信息依据作者或投稿者的说明，未确认内容在具体条目中标注。此日期表示目录维护时间，不代表当天重新试玩了所有游戏。
 
@@ -124,6 +124,13 @@
   - GPT-6 Astra：[投稿者说明](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/26) — 投稿者称由 GPT-6 Astra 全程开发。
   - 开发资料：未提供公开源码或独立开发记录。
   - 预览：![Issue #26 提供的永恒荒野画面：角色站在森林营火旁，界面显示背包、生存状态和小地图。](assets/screenshots/eternal-wilderness/gameplay.jpg)
+
+- **[潜水员戴夫（复刻）](https://dave-2cm.pages.dev/)** — 《潜水员戴夫》的浏览器复刻，将水下鱼叉捕鱼、寿司店经营与海岛种植结合在一起。
+  - 作者：dudu
+  - 平台：浏览器，中文界面，支持鼠标和键盘操作；实测无需登录或付费即可进入并开始潜水。
+  - GPT-6 Astra：[投稿者说明](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/41) — 投稿者称由 GPT-6 Astra 全程开发。
+  - 开发资料：未提供公开源码或独立开发记录。
+  - 预览：![潜水员戴夫复刻实机画面：潜水员穿行于鱼群之间，界面显示氧气、深度和收获背包。](assets/screenshots/dave-the-diver/gameplay.jpg)
 
 ### RPG 与冒险
 

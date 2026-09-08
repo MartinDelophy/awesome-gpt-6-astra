@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 16](https://img.shields.io/badge/Cases-16-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 17](https://img.shields.io/badge/Cases-17-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **A collection of interesting games made with GPT-6 Astra.**
 
@@ -20,7 +20,7 @@ Playful ideas, games you can try, and development stories that inspire the next 
 
 ## Start here
 
-Explore **15 browser games and 1 interactive particle-art sandbox**: Three Kingdoms territory strategy, wooden interlocking and sliding puzzles, soft-body fruit merging, one-tap flight, magic-carpet combat, a five-stage bullet-hell shooter, island power-grid tower defense, wilderness survival, Bay Circuit kart racing, coastal cycling with a pelican, tabletop toys turned into 3D games, and Orbital Garden. Click a title to open its demo or source with setup instructions.
+Explore **16 browser games and 1 interactive particle-art sandbox**: Three Kingdoms territory strategy, wooden interlocking and sliding puzzles, soft-body fruit merging, one-tap flight, magic-carpet combat, a five-stage bullet-hell shooter, island power-grid tower defense, wilderness survival, underwater fishing, sushi-restaurant management and island farming, Bay Circuit kart racing, coastal cycling with a pelican, tabletop toys turned into 3D games, and Orbital Garden. Click a title to open its demo or source with setup instructions.
 
 Catalog updated: **2026-09-08**. Model attribution is based on creator or submitter statements; unconfirmed details are marked in individual entries. This date records catalog maintenance, not a new play-test of every game.
 
@@ -124,6 +124,13 @@ Tower defense, strategic card games, management games, building, and simulation 
   - GPT-6 Astra: [Submitter statement](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/26) — The submitter attributes the full development to GPT-6 Astra.
   - Resources: No public source or separate development record supplied.
   - Preview: ![永恒荒野 screenshot supplied in Issue #26: a character beside a campfire in a forest, with inventory slots, survival meters and a minimap.](assets/screenshots/eternal-wilderness/gameplay.jpg)
+
+- **[潜水员戴夫 / Dave the Diver](https://dave-2cm.pages.dev/)** — A browser recreation of Dave the Diver combining underwater spearfishing, sushi-restaurant management and island farming.
+  - Creator: dudu
+  - Platform: Browser; Chinese interface with mouse and keyboard controls. Opened and started a dive without login or payment.
+  - GPT-6 Astra: [Submitter statement](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/41) — The submitter attributes the full development to GPT-6 Astra.
+  - Resources: No public source or separate development record supplied.
+  - Preview: ![Dave the Diver recreation in action: a diver among fish, with oxygen, depth and inventory indicators.](assets/screenshots/dave-the-diver/gameplay.jpg)
 
 ### RPGs & adventures
 
