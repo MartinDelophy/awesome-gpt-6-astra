@@ -22,7 +22,7 @@ Halaman ini merupakan terjemahan [README bahasa Inggris](README.md). Periksa ver
 
 ## Mulai di sini
 
-Jelajahi **12 gim peramban dan 1 sandbox seni partikel interaktif**: teka-teki kayu yang saling mengunci dan teka-teki balok geser, penggabungan buah yang lentur, penerbangan satu tombol, pertempuran karpet ajaib, pertahanan pulau dengan jaringan listrik, bertahan hidup di alam liar, balapan kart di Bay Circuit, bersepeda di pesisir bersama pelikan, mainan meja yang diadaptasi menjadi gim 3D, serta Orbital Garden. Klik judul untuk membuka demo atau kode sumber beserta petunjuk menjalankannya.
+Jelajahi **13 gim peramban dan 1 sandbox seni partikel interaktif**: strategi wilayah Tiga Kerajaan, teka-teki kayu yang saling mengunci dan teka-teki balok geser, penggabungan buah yang lentur, penerbangan satu tombol, pertempuran karpet ajaib, pertahanan pulau dengan jaringan listrik, bertahan hidup di alam liar, balapan kart di Bay Circuit, bersepeda di pesisir bersama pelikan, mainan meja yang diadaptasi menjadi gim 3D, serta Orbital Garden. Klik judul untuk membuka demo atau kode sumber beserta petunjuk menjalankannya.
 
 Terakhir diperiksa: **2026-09-05**. Pernyataan kreator, tautan kode sumber, dan ketersediaan demo telah diperiksa. Penggunaan model didasarkan pada keterangan penulis; gim belum diuji melalui permainan untuk daftar ini.
 
@@ -92,6 +92,13 @@ Teka-teki logika, tantangan fisika, permainan kata, dan mekanisme kecil yang kre
 ### Strategi dan simulasi
 
 Pertahanan menara, kartu strategi, pengelolaan, pembangunan, dan sandbox simulasi.
+
+- **[三分天下 · 百将风云 / Three Kingdoms: Hundred Heroes](https://sanguo-jiangshan.vercel.app)** — Pimpin Wei, Shu, atau Wu dalam kampanye berbasis giliran di 15 kota: kelola emas dan gandum, komandoi jajaran 108 perwira dengan potret unik buatan AI, dan bersaing dengan faksi AI untuk menyatukan negeri.
+  - Kreator: [MartinDelophy](https://github.com/MartinDelophy) (penggagas proyek dan pengaju).
+  - Platform: Peramban modern; antarmuka berbahasa Mandarin, kontrol tetikus dan sentuh. Gratis, tanpa login atau kunci API; simpanan lokal dapat diimpor dan diekspor.
+  - GPT-6 Astra: [Catatan pembuatan](works/three-kingdoms/CREATION.md) — Penggunaan dikonfirmasi kreator: kolaborasi berulang melalui Codex untuk aturan, antarmuka, AI, keseimbangan, dan pengujian; medan dan potret perwira dibuat dengan alat pembuat gambar.
+  - Materi pengembangan: [Kode sumber dan petunjuk menjalankan](works/three-kingdoms/README.md) · [Kebutuhan](works/three-kingdoms/PROMPTS.md) · Teknologi: React, TypeScript, Vinext/Vite.
+  - Pratinjau: ![Permainan Three Kingdoms yang menampilkan peta kota bergaya lukisan tinta, kontrol sumber daya, dan potret perwira.](assets/screenshots/three-kingdoms/gameplay.jpg)
 
 - **[Last Beacon / 最后的灯塔](https://last-beacon.loupengju.cc)** — Hubungkan jaringan listrik di pulau mini, bangun dan tingkatkan menara, lalu kelola daya yang terbatas untuk mempertahankan mercusuar dari sepuluh gelombang musuh dan bos terakhir.
   - Kreator: [stackloomdev](https://github.com/stackloomdev)
