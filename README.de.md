@@ -22,7 +22,7 @@ Diese Seite übersetzt die [englische README](README.md). Aktuelle Änderungen l
 
 ## Hier anfangen
 
-Entdecke **9 Browserspiele und 1 interaktiven Sandkasten für Partikelkunst**: Holz-Steckpuzzles und Schiebepuzzles lösen, weiche Früchte verschmelzen, mit einer Taste fliegen, auf einem fliegenden Teppich kämpfen, eine Insel mit einem Stromnetz verteidigen, in der Wildnis überleben, Kartrennen auf Bay Circuit, eine Küstenradtour mit einem Pelikan, Tischspielzeug als 3D-Spiele und Orbital Garden. Ein Klick auf einen Titel öffnet die Demo oder den Quellcode mit Startanleitung.
+Entdecke **12 Browserspiele und 1 interaktiven Sandkasten für Partikelkunst**: Holz-Steckpuzzles und Schiebepuzzles lösen, weiche Früchte verschmelzen, mit einer Taste fliegen, auf einem fliegenden Teppich kämpfen, eine Insel mit einem Stromnetz verteidigen, in der Wildnis überleben, Kartrennen auf Bay Circuit, eine Küstenradtour mit einem Pelikan, Tischspielzeug als 3D-Spiele und Orbital Garden. Ein Klick auf einen Titel öffnet die Demo oder den Quellcode mit Startanleitung.
 
 Zuletzt geprüft: **2026-09-05**. Angaben der Entwickler, Quellcode-Links und die Erreichbarkeit der Demos wurden geprüft. Die Modellnutzung beruht auf Angaben der Autoren; für diese Liste wurden keine Spieltests durchgeführt.
 
@@ -74,6 +74,12 @@ Logikrätsel, Physikaufgaben, Wortspiele und raffinierte kleine Mechaniken.
   - Materialien: [Quellcode](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/melon-lab/src) · [Eigenständige HTML-Datei](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/melon-lab/%E7%93%9C%E4%BD%93%E5%AE%9E%E9%AA%8C%E5%AE%A4.html)
   - Vorschau: ![Melon-Lab-Spielszene mit weichen Früchten im Verschmelzungsbehälter und Physikreglern.](assets/screenshots/melon-lab/gameplay.jpg)
 
+- **[Q弹消消乐](https://qbxxl.0nz.de/)** — Entferne mindestens drei verbundene Blasen gleicher Farbe; große Gruppen erzeugen Bomben und Regenbögen. Mit Entspannungs-, Level- und Zeitmodus.
+  - Entwickler: zding
+  - Plattform: Browser, chinesische Oberfläche; Start ohne Anmeldung oder Zahlung geprüft.
+  - GPT-6 Astra: Nutzung und Aufgaben von GPT-6 Astra müssen noch vom Entwickler bestätigt werden.
+  - Vorschau: ![Q弹消消乐 — Spielaufnahme](assets/screenshots/qbxxl/gameplay.jpg)
+
 - **[榫境 / Sunjing Puzzles](https://sunjing-puzzles.netlify.app)** — Zerlege ein sechsteiliges, ineinandergreifendes Holzpuzzle und löse zwei Huarong-Dao-Schiebepuzzles in einer 3D-Werkstatt, mit Hinweisen und dem Rückgängigmachen von Zügen.
   - Entwickler: [MartinDelophy](https://github.com/MartinDelophy) (Projektinitiator und Einreicher).
   - Plattform: Moderner Browser mit WebGL 2; chinesische Oberfläche sowie Maus-, Tastatur- und Touchsteuerung. Kostenlos, ohne Anmeldung oder API-Schlüssel; der Fortschritt bleibt im aktuellen Browser.
@@ -93,6 +99,12 @@ Tower Defense, strategische Kartenspiele, Aufbau-, Management- und Simulationssp
   - GPT-6 Astra: [Entwicklungsbericht und Modellbeitrag](https://github.com/stackloomdev/last-beacon/blob/main/docs/CREATION.md) — Für Spieldesign, Code, prozedurale Grafik und Tests in mehreren Iterationen eingesetzt; kein One-Shot-Test.
   - Materialien: [Quellcode und Startanleitung](https://github.com/stackloomdev/last-beacon) · [Anforderungen und Iterationsnotizen](https://github.com/stackloomdev/last-beacon/blob/main/docs/PROMPT.md) · Technik: JavaScript, Canvas 2D, Web Audio.
   - Vorschau: ![Last Beacon auf Englisch: Mit Strom versorgte Geschütztürme, Mörser und ein Frostturm verteidigen die Insel gegen Gegner auf dem Küstenweg.](assets/screenshots/last-beacon/gameplay-en.png)
+
+- **[缺氧 · 小小星球](https://hypoxia-6tu.pages.dev/)** — Überlebenssimulation einer unterirdischen Kolonie: Drei Bewohner graben und bauen, während du Sauerstoff, Nahrung und Strom verwaltest.
+  - Entwickler: dudu
+  - Plattform: Browser mit Canvas, chinesische Oberfläche, Maus und Tastatur; Start ohne Anmeldung oder Zahlung geprüft.
+  - GPT-6 Astra: [Issue #28](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/28) — Laut Einreichung durchgehend mit GPT-6 Astra entwickelt; nicht unabhängig bestätigt.
+  - Vorschau: ![缺氧 · 小小星球 — Spielaufnahme](assets/screenshots/hypoxia/gameplay.jpg)
 
 - **[永恒荒野](https://starve.pages.dev/)** — Ein Survival- und Strategiespiel im Browser, eingereicht als Nachbau von Don't Starve. Der Screenshot zeigt Walderkundung, das Sammeln von Ressourcen, ein Inventar sowie Anzeigen für Gesundheit, Hunger und geistige Verfassung.
   - Entwickler: dudu
@@ -128,6 +140,12 @@ Parkour, Plattformherausforderungen, Rennen und Spiele rund um Bewegung und Wege
   - GPT-6 Astra: [Issue #10](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/10) — Laut Einreichung mit einem einzigen Prompt erstellt; der verlinkte Entwicklungsbericht wurde nicht unabhängig überprüft.
   - Materialien: [Geteilter Entwicklungsbericht](https://chat01.ai/zh/chat/01M1VJ5K55803V2YK3T2NKTX33)
   - Vorschau: ![Titelbildschirm von PELICAN PEDAL mit einem radelnden Pelikan am Meer; Screenshot aus Issue #10.](https://github.com/user-attachments/assets/ec085afa-3c45-4de6-b03f-5c626f941546)
+
+- **[狂飙赛车 · OVERDRIVE](https://gpt-kbsc.0nz.de/)** — 3D-Rennen gegen fünf KI-Gegner, mit Fahrzeug- und Streckenauswahl, Zeitfahren, Drifts und Nitro.
+  - Entwickler: zding
+  - Plattform: Browser, chinesische Oberfläche; Start ohne Anmeldung oder Zahlung geprüft.
+  - GPT-6 Astra: Nutzung und Aufgaben von GPT-6 Astra müssen noch vom Entwickler bestätigt werden.
+  - Vorschau: ![狂飙赛车 · OVERDRIVE — Spielaufnahme](assets/screenshots/overdrive/gameplay.jpg)
 
 <a id="experimental-multiplayer"></a>
 

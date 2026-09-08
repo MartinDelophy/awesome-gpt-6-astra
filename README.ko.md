@@ -22,7 +22,7 @@
 
 ## 여기서 시작하기
 
-현재 **브라우저 게임 9개와 인터랙티브 파티클 아트 샌드박스 1개**를 소개합니다. 나무 결합 퍼즐과 슬라이딩 퍼즐, 부드러운 과일 합치기, 원버튼 비행, 마법 양탄자 전투, 섬의 전력망을 이용한 타워 디펜스, 야생 생존, 베이 서킷 카트 레이싱, 펠리컨과 함께하는 해안 자전거 달리기, 탁상 장난감을 옮긴 3D 게임, 그리고 Orbital Garden을 만나 보세요. 작품명을 누르면 데모 또는 실행 안내가 포함된 소스 코드가 열립니다.
+현재 **브라우저 게임 12개와 인터랙티브 파티클 아트 샌드박스 1개**를 소개합니다. 나무 결합 퍼즐과 슬라이딩 퍼즐, 부드러운 과일 합치기, 원버튼 비행, 마법 양탄자 전투, 섬의 전력망을 이용한 타워 디펜스, 야생 생존, 베이 서킷 카트 레이싱, 펠리컨과 함께하는 해안 자전거 달리기, 탁상 장난감을 옮긴 3D 게임, 그리고 Orbital Garden을 만나 보세요. 작품명을 누르면 데모 또는 실행 안내가 포함된 소스 코드가 열립니다.
 
 마지막 확인: **2026-09-05**. 제작자의 모델 사용 설명, 소스 코드 링크, 데모 접속 가능 여부를 확인했습니다. 모델 사용 여부는 제작자의 공개 설명에 근거하며, 이 목록을 위해 각 게임의 플레이 테스트를 수행한 것은 아닙니다.
 
@@ -74,6 +74,12 @@
   - 개발 자료: [소스 코드](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/melon-lab/src) · [단일 HTML 파일](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/melon-lab/%E7%93%9C%E4%BD%93%E5%AE%9E%E9%AA%8C%E5%AE%A4.html)
   - 미리보기: ![Melon Lab 게임 화면에 합성 용기 속 부드러운 과일과 물리 설정 조작부가 보입니다.](assets/screenshots/melon-lab/gameplay.jpg)
 
+- **[Q弹消消乐](https://qbxxl.0nz.de/)** — 같은 색으로 연결된 거품 세 개 이상을 터뜨립니다. 큰 그룹은 폭탄과 무지개를 만들며 휴식, 스테이지, 시간제한 모드를 제공합니다.
+  - 제작자: zding
+  - 플랫폼: 브라우저, 중국어 UI. 로그인이나 결제 없이 실행을 확인했습니다.
+  - GPT-6 Astra: GPT-6 Astra 사용 여부와 담당 범위는 제작자 확인을 기다리고 있습니다.
+  - 미리보기: ![Q弹消消乐 — 실제 게임 화면](assets/screenshots/qbxxl/gameplay.jpg)
+
 - **[榫境 / Sunjing Puzzles](https://sunjing-puzzles.netlify.app)** — 3D 목공 작업대에서 6개 부품이 맞물린 나무 퍼즐을 분해하고 두 가지 화용도 슬라이딩 퍼즐을 풉니다. 힌트와 이동 취소를 지원합니다.
   - 제작자: [MartinDelophy](https://github.com/MartinDelophy) (프로젝트 발안자 및 제출자).
   - 플랫폼: WebGL 2를 지원하는 최신 브라우저에서 중국어 인터페이스와 마우스·키보드·터치 조작을 제공합니다. 무료이며 로그인이나 API 키가 필요 없습니다. 진행 상황은 현재 브라우저에 저장됩니다.
@@ -93,6 +99,12 @@
   - GPT-6 Astra: [제작자의 개발 기록과 모델 기여 설명](https://github.com/stackloomdev/last-beacon/blob/main/docs/CREATION.md) — 게임 설계, 코드, 절차적 그래픽, 테스트에 활용했으며 여러 차례의 개선을 거쳤습니다. 원샷 테스트가 아닙니다.
   - 개발 자료: [소스 코드 및 실행 안내](https://github.com/stackloomdev/last-beacon) · [요구 사항 및 반복 개발 기록](https://github.com/stackloomdev/last-beacon/blob/main/docs/PROMPT.md) · 사용 기술: JavaScript, Canvas 2D, Web Audio.
   - 미리보기: ![Last Beacon의 영어 게임 화면. 전력망에 연결된 포탑, 박격포, 냉기 타워가 해안 경로로 들어오는 적으로부터 섬을 방어합니다.](assets/screenshots/last-beacon/gameplay-en.png)
+
+- **[缺氧 · 小小星球](https://hypoxia-6tu.pages.dev/)** — 지하 기지 생존 시뮬레이션. 주민 세 명에게 채굴과 건설을 지시하고 산소, 식량, 전력을 관리합니다.
+  - 제작자: dudu
+  - 플랫폼: Canvas 지원 브라우저, 중국어 UI, 마우스와 키보드. 로그인이나 결제 없이 실행을 확인했습니다.
+  - GPT-6 Astra: [Issue #28](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/28) — 제출자는 GPT-6 Astra로 전체 개발을 진행했다고 설명했습니다. 독립적으로 검증하지 않았습니다.
+  - 미리보기: ![缺氧 · 小小星球 — 실제 게임 화면](assets/screenshots/hypoxia/gameplay.jpg)
 
 - **[永恒荒野](https://starve.pages.dev/)** — Don't Starve를 재현한 작품으로 제출된 브라우저 생존·전략 게임입니다. 제출된 화면에는 숲 탐험, 자원 수집, 인벤토리와 체력·허기·정신력 수치가 보입니다.
   - 제작자: dudu
@@ -128,6 +140,12 @@
   - GPT-6 Astra: [Issue #10](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/10) — 제보자는 프롬프트 하나로 생성했다고 밝혔습니다. 링크된 개발 기록은 별도로 검증하지 못했습니다.
   - 개발 자료: [공유된 개발 기록](https://chat01.ai/zh/chat/01M1VJ5K55803V2YK3T2NKTX33)
   - 미리보기: ![바닷가에서 자전거를 타는 펠리컨이 보이는 PELICAN PEDAL 타이틀 화면. Issue #10에 첨부된 이미지.](https://github.com/user-attachments/assets/ec085afa-3c45-4de6-b03f-5c626f941546)
+
+- **[狂飙赛车 · OVERDRIVE](https://gpt-kbsc.0nz.de/)** — AI 상대 다섯 명과 경쟁하는 3D 레이싱. 차량과 트랙 선택, 타임 트라이얼, 드리프트와 니트로를 제공합니다.
+  - 제작자: zding
+  - 플랫폼: 브라우저, 중국어 UI. 로그인이나 결제 없이 실행을 확인했습니다.
+  - GPT-6 Astra: GPT-6 Astra 사용 여부와 담당 범위는 제작자 확인을 기다리고 있습니다.
+  - 미리보기: ![狂飙赛车 · OVERDRIVE — 실제 게임 화면](assets/screenshots/overdrive/gameplay.jpg)
 
 <a id="experimental-multiplayer"></a>
 

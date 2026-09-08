@@ -22,7 +22,7 @@ Esta página é uma tradução do [README em inglês](README.md). Consulte o ori
 
 ## Comece por aqui
 
-Explore **9 jogos de navegador e 1 ambiente interativo de arte com partículas**: quebra-cabeças de madeira com encaixes e peças deslizantes, fusão de frutas deformáveis, voo com um toque, combates em tapete mágico, defesa de uma ilha com uma rede elétrica, sobrevivência na natureza, corridas de kart no Bay Circuit, ciclismo pela costa com um pelicano, brinquedos de mesa adaptados para 3D e Orbital Garden. Clique em um título para abrir a demonstração ou o código-fonte com instruções de execução.
+Explore **12 jogos de navegador e 1 ambiente interativo de arte com partículas**: quebra-cabeças de madeira com encaixes e peças deslizantes, fusão de frutas deformáveis, voo com um toque, combates em tapete mágico, defesa de uma ilha com uma rede elétrica, sobrevivência na natureza, corridas de kart no Bay Circuit, ciclismo pela costa com um pelicano, brinquedos de mesa adaptados para 3D e Orbital Garden. Clique em um título para abrir a demonstração ou o código-fonte com instruções de execução.
 
 Última verificação: **2026-09-05**. Foram conferidos os relatos dos criadores, os links do código-fonte e a disponibilidade das demonstrações. O uso do modelo é informado pelos próprios autores; não foram realizados testes de jogabilidade para esta lista.
 
@@ -74,6 +74,12 @@ Desafios de lógica e física, jogos de palavras e pequenos mecanismos engenhoso
   - Recursos: [Código-fonte](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/melon-lab/src) · [HTML independente](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/melon-lab/%E7%93%9C%E4%BD%93%E5%AE%9E%E9%AA%8C%E5%AE%A4.html)
   - Prévia: ![Partida de Melon Lab com frutas macias no recipiente de fusão e controles de física.](assets/screenshots/melon-lab/gameplay.jpg)
 
+- **[Q弹消消乐](https://qbxxl.0nz.de/)** — Elimine grupos de pelo menos três bolhas conectadas da mesma cor; grupos grandes criam bombas e arco-íris. Modos relaxante, fases e cronometrado.
+  - Criador: zding
+  - Plataforma: Navegador, interface em chinês; início verificado sem login ou pagamento.
+  - GPT-6 Astra: O uso de GPT-6 Astra e seu papel aguardam confirmação do criador.
+  - Prévia: ![Q弹消消乐 — Captura do jogo](assets/screenshots/qbxxl/gameplay.jpg)
+
 - **[榫境 / Sunjing Puzzles](https://sunjing-puzzles.netlify.app)** — Desmonte um quebra-cabeça de madeira de seis peças entrelaçadas e resolva duas configurações de Huarong Dao em uma oficina 3D, com dicas e opção de desfazer movimentos.
   - Criador: [MartinDelophy](https://github.com/MartinDelophy) (idealizador do projeto e responsável pelo envio).
   - Plataforma: Navegador moderno com WebGL 2; interface em chinês e controles de mouse, teclado e toque. Grátis, sem login ou chave de API; o progresso fica no navegador atual.
@@ -93,6 +99,12 @@ Defesa de torres, cartas estratégicas, gerenciamento, construção e simulaçã
   - GPT-6 Astra: [Diário de desenvolvimento e contribuição do modelo](https://github.com/stackloomdev/last-beacon/blob/main/docs/CREATION.md) — Usado no design do jogo, no código, na arte procedural e nos testes ao longo de várias iterações; não foi um teste de geração única.
   - Recursos: [Código-fonte e instruções de execução](https://github.com/stackloomdev/last-beacon) · [Requisitos e notas das iterações](https://github.com/stackloomdev/last-beacon/blob/main/docs/PROMPT.md) · Tecnologias: JavaScript, Canvas 2D, Web Audio.
   - Prévia: ![Last Beacon em inglês: torres, morteiros e uma torre de gelo conectados à rede elétrica defendem a ilha de inimigos no caminho costeiro.](assets/screenshots/last-beacon/gameplay-en.png)
+
+- **[缺氧 · 小小星球](https://hypoxia-6tu.pages.dev/)** — Simulação de sobrevivência numa colônia subterrânea: comande três habitantes, escave e construa enquanto gerencia oxigênio, comida e energia.
+  - Criador: dudu
+  - Plataforma: Navegador com Canvas, interface em chinês, mouse e teclado; início verificado sem login ou pagamento.
+  - GPT-6 Astra: [Issue #28](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/28) — O responsável pela submissão relata desenvolvimento integral com GPT-6 Astra; não verificado de forma independente.
+  - Prévia: ![缺氧 · 小小星球 — Captura do jogo](assets/screenshots/hypoxia/gameplay.jpg)
 
 - **[永恒荒野](https://starve.pages.dev/)** — Jogo de sobrevivência e estratégia para navegador apresentado como uma recriação de Don't Starve. A captura enviada mostra exploração da floresta, coleta de recursos, inventário e indicadores de saúde, fome e sanidade.
   - Criador: dudu
@@ -128,6 +140,12 @@ Parkour, desafios de plataforma, corridas e jogos baseados em movimento e trajet
   - GPT-6 Astra: [Issue #10](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/10) — A pessoa que enviou o jogo afirma que ele foi gerado com um único prompt; o registro de desenvolvimento vinculado não foi verificado de forma independente.
   - Recursos: [Registro de desenvolvimento compartilhado](https://chat01.ai/zh/chat/01M1VJ5K55803V2YK3T2NKTX33)
   - Prévia: ![Tela de título de PELICAN PEDAL com um pelicano de bicicleta à beira-mar; captura fornecida na Issue #10.](https://github.com/user-attachments/assets/ec085afa-3c45-4de6-b03f-5c626f941546)
+
+- **[狂飙赛车 · OVERDRIVE](https://gpt-kbsc.0nz.de/)** — Corridas 3D contra cinco rivais de IA, com seleção de carros e pistas, provas de tempo, drift e nitro.
+  - Criador: zding
+  - Plataforma: Navegador, interface em chinês; início verificado sem login ou pagamento.
+  - GPT-6 Astra: O uso de GPT-6 Astra e seu papel aguardam confirmação do criador.
+  - Prévia: ![狂飙赛车 · OVERDRIVE — Captura do jogo](assets/screenshots/overdrive/gameplay.jpg)
 
 <a id="experimental-multiplayer"></a>
 
