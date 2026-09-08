@@ -1,0 +1,7 @@
+.env*
+dist/
+tests/
+README.md
+DESIGN.md
+PROMPT.md
+metadata.json

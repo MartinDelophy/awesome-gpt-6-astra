@@ -1,0 +1,63 @@
+{
+  "id": "thunderfall",
+  "title": "THUNDERFALL",
+  "title_zh": "雷霆战机 · 天穹远征",
+  "creator": {
+    "name": "jackroc",
+    "url": "https://github.com/jackroc"
+  },
+  "created_at": "2026-09-08",
+  "category": "arcade-shooter",
+  "description": "手机与电脑可玩的原创纵向弹幕射击游戏：三种战机、五大空域、激光与漂移弹、四色武器掉落、关间三选一强化，完整战役至少十分钟有效战斗。",
+  "entry": "index.html",
+  "model": "GPT-6 Astra",
+  "reasoning_effort": "ultra",
+  "model_attribution": "User-declared model and effort in the creation conversation; not independently verified runtime telemetry.",
+  "workflow": "Iterative implementation with collaborating assistant agents for procedural graphics, campaign design, engine tests, and review; not a one-shot benchmark.",
+  "model_contributions": [
+    "concept",
+    "game design",
+    "copy",
+    "visual design",
+    "procedural graphics",
+    "game engine",
+    "interaction",
+    "audio synthesis",
+    "balance iteration",
+    "tests",
+    "documentation"
+  ],
+  "technologies": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Canvas 2D",
+    "Web Audio"
+  ],
+  "players": 1,
+  "levels": 5,
+  "min_campaign_seconds": 600,
+  "ships": 3,
+  "weapon_types": 4,
+  "drop_ttl_seconds": 10,
+  "external_dependencies": [],
+  "external_assets": [],
+  "image_generation_used": false,
+  "requires": [
+    "Modern browser with Canvas 2D and JavaScript modules",
+    "Web Audio for optional sound"
+  ],
+  "validation": {
+    "date": "2026-09-08",
+    "engine_tests_passed": 27,
+    "autopilot_campaign_completions": 6,
+    "autopilot_active_seconds_range": [
+      634.63,
+      729.48
+    ],
+    "real_mobile_device_tested": false,
+    "note": "Engine time simulation and autopilot runs do not constitute a ten-minute human browser playthrough or a real-phone performance test."
+  },
+  "license": "CC0-1.0",
+  "demo_url": "https://thunderfall.vercel.app/"
+}
