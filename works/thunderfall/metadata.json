@@ -32,6 +32,7 @@
     "CSS",
     "JavaScript",
     "Canvas 2D",
+    "Procedural 3D mesh projection",
     "Web Audio"
   ],
   "players": 1,
@@ -59,5 +60,8 @@
     "note": "Engine time simulation and autopilot runs do not constitute a ten-minute human browser playthrough or a real-phone performance test."
   },
   "license": "CC0-1.0",
-  "demo_url": "https://thunderfall.vercel.app/"
+  "demo_url": "https://thunderfall.vercel.app/",
+  "updated_at": "2026-09-08",
+  "visual_revision": "mesh-airframes-v2",
+  "visual_reference": "MOSS Raiden IV official aircraft showcase; original mesh geometry and materials."
 }
