@@ -80,7 +80,7 @@
   - GPT-6 Astra: GPT-6 Astra 사용 여부와 담당 범위는 제작자 확인을 기다리고 있습니다.
   - 미리보기: ![Q弹消消乐 — 실제 게임 화면](assets/screenshots/qbxxl/gameplay.jpg)
 
-- **[榫境 / Sunjing Puzzles](https://sunjing-puzzles.hp20230404.chatgpt.site)** — 3D 목공 작업대에서 6개 부품이 맞물린 나무 퍼즐을 분해하고 두 가지 화용도 슬라이딩 퍼즐을 풉니다. 힌트와 이동 취소를 지원합니다.
+- **[榫境 / Sunjing Puzzles](https://sunjing-puzzles.netlify.app)** — 3D 목공 작업대에서 6개 부품이 맞물린 나무 퍼즐을 분해하고 두 가지 화용도 슬라이딩 퍼즐을 풉니다. 힌트와 이동 취소를 지원합니다.
   - 제작자: [MartinDelophy](https://github.com/MartinDelophy) (프로젝트 발안자 및 제출자).
   - 플랫폼: WebGL 2를 지원하는 최신 브라우저에서 중국어 인터페이스와 마우스·키보드·터치 조작을 제공합니다. 무료이며 로그인이나 API 키가 필요 없습니다. 진행 상황은 현재 브라우저에 저장됩니다.
   - 모델 참여: [제작 기록](works/sunjing-puzzles/CREATION.md) — Codex에서 게임 설계, 절차적 3D 그래픽, 규칙, 솔버와 테스트를 여러 차례 개발했습니다. GPT-6 Astra의 구체적인 사용 여부는 제작자 확인을 기다리고 있습니다(초안 제출).

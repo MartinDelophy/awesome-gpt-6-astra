@@ -21,3 +21,7 @@ Submit the game to `MartinDelophy/awesome-gpt-6-astra` using an isolated checkou
 ## Additional publication request
 
 Also provide a public online demo that other people can open directly. Use that playable URL as the title link in both catalog entries and include it in the project documentation and the same PR.
+
+## Netlify migration request — 2026-09-08
+
+Replace the game's former hosted demo address with a Netlify address for submission. Publish the existing playable game on Netlify, verify the new URL, and submit the updated demo links to the collection.

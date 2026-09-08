@@ -80,7 +80,7 @@ Teka-teki logika, tantangan fisika, permainan kata, dan mekanisme kecil yang kre
   - GPT-6 Astra: Penggunaan GPT-6 Astra dan perannya menunggu konfirmasi kreator.
   - Pratinjau: ![Q弹消消乐 — Tangkapan permainan](assets/screenshots/qbxxl/gameplay.jpg)
 
-- **[榫境 / Sunjing Puzzles](https://sunjing-puzzles.hp20230404.chatgpt.site)** — Bongkar teka-teki kayu enam bagian yang saling mengunci dan selesaikan dua susunan balok geser Huarong Dao di bengkel 3D, dengan petunjuk dan pembatalan langkah.
+- **[榫境 / Sunjing Puzzles](https://sunjing-puzzles.netlify.app)** — Bongkar teka-teki kayu enam bagian yang saling mengunci dan selesaikan dua susunan balok geser Huarong Dao di bengkel 3D, dengan petunjuk dan pembatalan langkah.
   - Kreator: [MartinDelophy](https://github.com/MartinDelophy) (penggagas proyek dan pengaju).
   - Platform: Peramban modern dengan WebGL 2; antarmuka berbahasa Mandarin, kontrol tetikus, papan ketik, dan sentuh. Gratis, tanpa login atau kunci API; progres tersimpan di peramban saat ini.
   - Keterlibatan model: [Catatan pembuatan](works/sunjing-puzzles/CREATION.md) — Pengembangan berulang melalui Codex untuk desain gim, visual 3D prosedural, aturan, pemecah teka-teki, dan pengujian; penggunaan spesifik GPT-6 Astra masih menunggu konfirmasi kreator (pengajuan draf).
