@@ -1,6 +1,6 @@
 # Sunjing — submission validation
 
-Checked on **2026-09-07** against the source included in this contribution. The deployed game uses the same application, rules, worker and package lock; its Sites access metadata lives in an isolated publishing checkout rather than this public source directory.
+Initial checks on **2026-09-07** used the source included in this contribution. The initial Sites deployment used the same application, rules, worker and package lock, with access metadata kept in an isolated publishing checkout. The Netlify migration checks are recorded separately below.
 
 ## Automated checks
 
@@ -20,15 +20,24 @@ The two screenshots were captured through the browser on 2026-09-07 from the run
 
 This is a bounded desktop check, not exhaustive device coverage. Phone touch behavior, screen readers and older GPUs have not been independently device-tested for this submission.
 
-## Public demo
+## Initial public demo — 2026-09-07
 
-[https://sunjing-puzzles.hp20230404.chatgpt.site](https://sunjing-puzzles.hp20230404.chatgpt.site)
+The initial public deployment used Sites; the current entry point is [sunjing-puzzles.netlify.app](https://sunjing-puzzles.netlify.app).
 
 Sites reported a successful deployment and `public` access. Separate HTTP requests with **no cookies or authorization headers** returned 200 for the root game page and `/solver-worker.js`; the responses contained the game's HTML and solver code. The public page also loaded in the browser, and selecting a hint then extracting a wooden piece updated the online game to one removed piece/one move.
 
 The site has no account system, server database or model API calls. Progress is browser-local.
 
+## Netlify migration — 2026-09-08
+
+- Production URL: [sunjing-puzzles.netlify.app](https://sunjing-puzzles.netlify.app). Published through the creator's signed-in Netlify account; no visitor login is required.
+- Reused the validated static export because application code, puzzle rules, dependencies and build inputs are unchanged. Added only hosting configuration and documentation/link updates.
+- Anonymous HTTPS requests returned **200** for all **16 public runtime files**: the root HTML, RSC payload, solver worker, favicon, CSS, JavaScript chunks and public manifests. Their SHA-256 hashes match the local export. Netlify omits the hidden build-only `.vite/manifest.json`; the browser does not request that file.
+- Desktop browser checks confirmed a rendered 3D scene, the wooden-lock hint, one-piece extraction, undo, switching to introductory Huarong Dao, calculating a worker hint and applying the suggested move. No console errors were observed during these checks.
+- Collection `website/npm test`: **27/27 passed**. All **12 README languages** parse to **10 works**, including exactly one Sunjing entry with the Netlify demo URL.
+- Browser-local progress from the former origin does not transfer automatically to this new origin. No game code, screenshots, attribution claims or license grants were changed for the hosting migration.
+
 ## Review items
 
-- Exact **GPT-6 Astra use still needs a creator statement**; this is why the PR is a draft.
+- Exact **GPT-6 Astra use still needs a creator statement**; the original PR was prepared for draft review and was subsequently merged as PR #17. That merge does not resolve model attribution.
 - A separate license for game-specific source is not asserted; the creator may choose it during review. Third-party notices are retained.

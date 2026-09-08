@@ -74,7 +74,7 @@
   - 개발 자료: [소스 코드](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/melon-lab/src) · [단일 HTML 파일](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/melon-lab/%E7%93%9C%E4%BD%93%E5%AE%9E%E9%AA%8C%E5%AE%A4.html)
   - 미리보기: ![Melon Lab 게임 화면에 합성 용기 속 부드러운 과일과 물리 설정 조작부가 보입니다.](assets/screenshots/melon-lab/gameplay.jpg)
 
-- **[榫境 / Sunjing Puzzles](https://sunjing-puzzles.hp20230404.chatgpt.site)** — 3D 목공 작업대에서 6개 부품이 맞물린 나무 퍼즐을 분해하고 두 가지 화용도 슬라이딩 퍼즐을 풉니다. 힌트와 이동 취소를 지원합니다.
+- **[榫境 / Sunjing Puzzles](https://sunjing-puzzles.netlify.app)** — 3D 목공 작업대에서 6개 부품이 맞물린 나무 퍼즐을 분해하고 두 가지 화용도 슬라이딩 퍼즐을 풉니다. 힌트와 이동 취소를 지원합니다.
   - 제작자: [MartinDelophy](https://github.com/MartinDelophy) (프로젝트 발안자 및 제출자).
   - 플랫폼: WebGL 2를 지원하는 최신 브라우저에서 중국어 인터페이스와 마우스·키보드·터치 조작을 제공합니다. 무료이며 로그인이나 API 키가 필요 없습니다. 진행 상황은 현재 브라우저에 저장됩니다.
   - 모델 참여: [제작 기록](works/sunjing-puzzles/CREATION.md) — Codex에서 게임 설계, 절차적 3D 그래픽, 규칙, 솔버와 테스트를 여러 차례 개발했습니다. GPT-6 Astra의 구체적인 사용 여부는 제작자 확인을 기다리고 있습니다(초안 제출).

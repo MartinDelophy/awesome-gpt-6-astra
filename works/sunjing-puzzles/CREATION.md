@@ -5,7 +5,7 @@
 - **Project initiator / submitting account:** [MartinDelophy](https://github.com/MartinDelophy), confirmed for this contribution.
 - **Confirmed workflow:** iterative work with Codex, including assistant implementation and two delegated rules-research tasks.
 - **Unconfirmed model identity:** the available creation record does not provide a creator statement or independently verifiable export identifying GPT-6 Astra. We do not infer this from the collection's title, the current assistant, or the task's model label. **GPT-6 Astra attribution awaits creator confirmation.**
-- This contribution is submitted as a **draft PR** for that reason. It is not presented as a one-shot benchmark.
+- The original contribution was prepared for draft review for that reason; PR #17 was subsequently merged. This record does not treat that merge as model confirmation. It is not presented as a one-shot benchmark.
 
 ## Original creation — 2026-09-05
 
@@ -23,6 +23,10 @@ The original desktop directory was no longer present. Source was restored from t
 
 For this contribution, the assistant removed personal launcher paths, unused scaffold components and dedicated Sites/Cloudflare runtime wiring. It retained the game and changed the package to a portable static export, with hosting metadata kept outside the public source. Known vulnerable pinned dependencies were updated within the existing React/Vinext/Vite stack, together with compatible peer dependencies. It also clarified undo scope and replaced a deprecated shadow-map setting with its supported equivalent.
 
-The creator subsequently requested a public playable URL as well as the PR. The static game is published at [sunjing-puzzles.hp20230404.chatgpt.site](https://sunjing-puzzles.hp20230404.chatgpt.site), with public access rather than owner-only preview access.
+The creator subsequently requested a public playable URL as well as the PR. The static game was initially published publicly through Sites. Its current public URL is [sunjing-puzzles.netlify.app](https://sunjing-puzzles.netlify.app).
 
 Validation performed for this submission is recorded in [VALIDATION.md](VALIDATION.md). Screenshots show actual execution of the submitted game on 2026-09-07. The author may supply a model-use statement and choose a separate game-source license during review; this record does not invent either.
+
+## Netlify migration — 2026-09-08
+
+The creator requested a Netlify address for the submitted game. The existing validated static export was deployed to the creator's Netlify account, then the playable links in all twelve catalog translations and project documentation were updated. A small `netlify.toml` records reproducible build settings. The game's application, puzzle rules, solver and dependencies were not changed for the migration.

@@ -30,6 +30,7 @@ yarn-error.log*
 .env*
 
 # deployment and generated files
+.netlify
 .vercel
 next-env.d.ts
 /dist/

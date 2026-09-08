@@ -1,6 +1,6 @@
 # 榫境 / Sunjing Puzzles
 
-[Play online / 在线试玩](https://sunjing-puzzles.hp20230404.chatgpt.site) · [Creation record / 制作记录](CREATION.md) · [Request history / 需求记录](PROMPTS.md)
+[Play online / 在线试玩](https://sunjing-puzzles.netlify.app) · [Creation record / 制作记录](CREATION.md) · [Request history / 需求记录](PROMPTS.md)
 
 A Chinese-language 3D wooden-puzzle workshop with a six-piece interlocking lock and two Huarong Dao sliding-block layouts. Rotate the wooden model, choose a piece, discover the removal order, or make space for Cao Cao to reach the exit.
 
@@ -44,6 +44,21 @@ python3 -m http.server 8080 --directory dist/client
 ```
 
 Open http://localhost:8080. Do not open the HTML through `file://`, because modules and the solver worker require an HTTP origin. This submission does not contain personal environment files or the live site's access/hosting metadata.
+
+## Netlify deployment / Netlify 部署
+
+The public demo is [sunjing-puzzles.netlify.app](https://sunjing-puzzles.netlify.app). It serves the static export directly from Netlify; gameplay does not depend on the previous hosting provider.
+
+`netlify.toml` sets the build command to `npm run build`, the publish directory to `dist/client`, and Node.js to 22. When importing this collection repository into Netlify, set the base directory to `works/sunjing-puzzles`. The current live site was published manually from the validated build; Git-based automatic deployment is not configured.
+
+To update the existing site from this game directory after building, with Netlify CLI installed and signed in to the owning account:
+
+```sh
+npm run build
+netlify deploy --site sunjing-puzzles --dir dist/client --no-build --prod
+```
+
+Netlify account linkage stays in the ignored `.netlify/` directory. Because progress is stored per browser origin, an existing save at the former URL does not transfer automatically to the Netlify URL.
 
 ## Structure
 

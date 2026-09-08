@@ -74,7 +74,7 @@ Logikrätsel, Physikaufgaben, Wortspiele und raffinierte kleine Mechaniken.
   - Materialien: [Quellcode](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/melon-lab/src) · [Eigenständige HTML-Datei](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/melon-lab/%E7%93%9C%E4%BD%93%E5%AE%9E%E9%AA%8C%E5%AE%A4.html)
   - Vorschau: ![Melon-Lab-Spielszene mit weichen Früchten im Verschmelzungsbehälter und Physikreglern.](assets/screenshots/melon-lab/gameplay.jpg)
 
-- **[榫境 / Sunjing Puzzles](https://sunjing-puzzles.hp20230404.chatgpt.site)** — Zerlege ein sechsteiliges, ineinandergreifendes Holzpuzzle und löse zwei Huarong-Dao-Schiebepuzzles in einer 3D-Werkstatt, mit Hinweisen und dem Rückgängigmachen von Zügen.
+- **[榫境 / Sunjing Puzzles](https://sunjing-puzzles.netlify.app)** — Zerlege ein sechsteiliges, ineinandergreifendes Holzpuzzle und löse zwei Huarong-Dao-Schiebepuzzles in einer 3D-Werkstatt, mit Hinweisen und dem Rückgängigmachen von Zügen.
   - Entwickler: [MartinDelophy](https://github.com/MartinDelophy) (Projektinitiator und Einreicher).
   - Plattform: Moderner Browser mit WebGL 2; chinesische Oberfläche sowie Maus-, Tastatur- und Touchsteuerung. Kostenlos, ohne Anmeldung oder API-Schlüssel; der Fortschritt bleibt im aktuellen Browser.
   - Modellbeteiligung: [Entstehungsbericht](works/sunjing-puzzles/CREATION.md) — Iterative Arbeit in Codex an Spieldesign, prozeduraler 3D-Grafik, Regeln, Lösungsalgorithmus und Tests; die genaue Nutzung von GPT-6 Astra muss noch vom Autor bestätigt werden (Entwurfseinreichung).
