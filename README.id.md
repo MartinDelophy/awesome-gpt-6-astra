@@ -22,7 +22,7 @@ Halaman ini merupakan terjemahan [README bahasa Inggris](README.md). Periksa ver
 
 ## Mulai di sini
 
-Jelajahi **9 gim peramban dan 1 sandbox seni partikel interaktif**: teka-teki kayu yang saling mengunci dan teka-teki balok geser, penggabungan buah yang lentur, penerbangan satu tombol, pertempuran karpet ajaib, pertahanan pulau dengan jaringan listrik, bertahan hidup di alam liar, balapan kart di Bay Circuit, bersepeda di pesisir bersama pelikan, mainan meja yang diadaptasi menjadi gim 3D, serta Orbital Garden. Klik judul untuk membuka demo atau kode sumber beserta petunjuk menjalankannya.
+Jelajahi **11 gim peramban dan 1 sandbox seni partikel interaktif**: teka-teki kayu yang saling mengunci dan teka-teki balok geser, penggabungan buah yang lentur, penerbangan satu tombol, pertempuran karpet ajaib, pertahanan pulau dengan jaringan listrik, bertahan hidup di alam liar, balapan kart di Bay Circuit, bersepeda di pesisir bersama pelikan, mainan meja yang diadaptasi menjadi gim 3D, serta Orbital Garden. Klik judul untuk membuka demo atau kode sumber beserta petunjuk menjalankannya.
 
 Terakhir diperiksa: **2026-09-05**. Pernyataan kreator, tautan kode sumber, dan ketersediaan demo telah diperiksa. Penggunaan model didasarkan pada keterangan penulis; gim belum diuji melalui permainan untuk daftar ini.
 
@@ -73,6 +73,12 @@ Teka-teki logika, tantangan fisika, permainan kata, dan mekanisme kecil yang kre
   - GPT-6 Astra: [Pengujian sekali generasi dan prompt asli kreator](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - Materi pengembangan: [Kode sumber](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/melon-lab/src) · [HTML mandiri](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/melon-lab/%E7%93%9C%E4%BD%93%E5%AE%9E%E9%AA%8C%E5%AE%A4.html)
   - Pratinjau: ![Permainan Melon Lab dengan buah lentur di dalam wadah penggabungan dan pengaturan fisika.](assets/screenshots/melon-lab/gameplay.jpg)
+
+- **[Q弹消消乐](https://qbxxl.0nz.de/)** — Hapus setidaknya tiga gelembung terhubung dengan warna sama; kelompok besar menghasilkan bom dan pelangi. Tersedia mode santai, level, dan berbatas waktu.
+  - Kreator: zding
+  - Platform: Browser, antarmuka Mandarin; berhasil dibuka tanpa login atau pembayaran.
+  - GPT-6 Astra: Penggunaan GPT-6 Astra dan perannya menunggu konfirmasi kreator.
+  - Pratinjau: ![Q弹消消乐 — Tangkapan permainan](assets/screenshots/qbxxl/gameplay.jpg)
 
 - **[榫境 / Sunjing Puzzles](https://sunjing-puzzles.hp20230404.chatgpt.site)** — Bongkar teka-teki kayu enam bagian yang saling mengunci dan selesaikan dua susunan balok geser Huarong Dao di bengkel 3D, dengan petunjuk dan pembatalan langkah.
   - Kreator: [MartinDelophy](https://github.com/MartinDelophy) (penggagas proyek dan pengaju).
@@ -128,6 +134,12 @@ Parkour, tantangan platform, balapan, serta gim yang berfokus pada gerakan dan r
   - GPT-6 Astra: [Issue #10](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/10) — Pengaju menyatakan gim dibuat dengan satu prompt; catatan pengembangan yang ditautkan belum diverifikasi secara independen.
   - Materi pengembangan: [Catatan pengembangan yang dibagikan](https://chat01.ai/zh/chat/01M1VJ5K55803V2YK3T2NKTX33)
   - Pratinjau: ![Layar judul PELICAN PEDAL dengan pelikan bersepeda di tepi laut; tangkapan layar disertakan dalam Issue #10.](https://github.com/user-attachments/assets/ec085afa-3c45-4de6-b03f-5c626f941546)
+
+- **[狂飙赛车 · OVERDRIVE](https://gpt-kbsc.0nz.de/)** — Balapan 3D melawan lima rival AI, dengan pilihan mobil dan lintasan, uji waktu, drift, dan nitro.
+  - Kreator: zding
+  - Platform: Browser, antarmuka Mandarin; berhasil dibuka tanpa login atau pembayaran.
+  - GPT-6 Astra: Penggunaan GPT-6 Astra dan perannya menunggu konfirmasi kreator.
+  - Pratinjau: ![狂飙赛车 · OVERDRIVE — Tangkapan permainan](assets/screenshots/overdrive/gameplay.jpg)
 
 <a id="experimental-multiplayer"></a>
 
