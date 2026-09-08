@@ -22,7 +22,7 @@ Diese Seite übersetzt die [englische README](README.md). Aktuelle Änderungen l
 
 ## Hier anfangen
 
-Entdecke **12 Browserspiele und 1 interaktiven Sandkasten für Partikelkunst**: Holz-Steckpuzzles und Schiebepuzzles lösen, weiche Früchte verschmelzen, mit einer Taste fliegen, auf einem fliegenden Teppich kämpfen, eine Insel mit einem Stromnetz verteidigen, in der Wildnis überleben, Kartrennen auf Bay Circuit, eine Küstenradtour mit einem Pelikan, Tischspielzeug als 3D-Spiele und Orbital Garden. Ein Klick auf einen Titel öffnet die Demo oder den Quellcode mit Startanleitung.
+Entdecke **13 Browserspiele und 1 interaktiven Sandkasten für Partikelkunst**: Gebietsstrategie zur Zeit der Drei Reiche, Holz-Steckpuzzles und Schiebepuzzles lösen, weiche Früchte verschmelzen, mit einer Taste fliegen, auf einem fliegenden Teppich kämpfen, eine Insel mit einem Stromnetz verteidigen, in der Wildnis überleben, Kartrennen auf Bay Circuit, eine Küstenradtour mit einem Pelikan, Tischspielzeug als 3D-Spiele und Orbital Garden. Ein Klick auf einen Titel öffnet die Demo oder den Quellcode mit Startanleitung.
 
 Zuletzt geprüft: **2026-09-05**. Angaben der Entwickler, Quellcode-Links und die Erreichbarkeit der Demos wurden geprüft. Die Modellnutzung beruht auf Angaben der Autoren; für diese Liste wurden keine Spieltests durchgeführt.
 
@@ -92,6 +92,13 @@ Logikrätsel, Physikaufgaben, Wortspiele und raffinierte kleine Mechaniken.
 ### Strategie und Simulation
 
 Tower Defense, strategische Kartenspiele, Aufbau-, Management- und Simulationsspiele mit Sandkastenprinzip.
+
+- **[三分天下 · 百将风云 / Three Kingdoms: Hundred Heroes](https://sanguo-jiangshan.vercel.app)** — Führe Wei, Shu oder Wu in einem rundenbasierten Feldzug durch 15 Städte: Verwalte Gold und Getreide, befehlige ein Aufgebot von 108 Offizieren mit jeweils eigenem KI-generiertem Porträt und kämpfe gegen KI-Fraktionen um die Einigung des Landes.
+  - Entwickler: [MartinDelophy](https://github.com/MartinDelophy) (Projektinitiator und Einreicher).
+  - Plattform: Moderner Browser; chinesische Oberfläche sowie Maus- und Touchsteuerung. Kostenlos, ohne Anmeldung oder API-Schlüssel; lokale Spielstände lassen sich importieren und exportieren.
+  - GPT-6 Astra: [Entstehungsbericht](works/three-kingdoms/CREATION.md) — Nutzung vom Entwickler bestätigt: iterative Zusammenarbeit in Codex an Regeln, Oberfläche, KI, Spielbalance und Tests. Gelände und Offiziersporträts wurden mit Bildgenerierungswerkzeugen erstellt.
+  - Materialien: [Quellcode und Startanleitung](works/three-kingdoms/README.md) · [Anforderungen](works/three-kingdoms/PROMPTS.md) · Technik: React, TypeScript, Vinext/Vite.
+  - Vorschau: ![Three-Kingdoms-Spielszene mit einer Städtekarte im Tuschemalstil, Ressourcensteuerung und Offiziersporträts.](assets/screenshots/three-kingdoms/gameplay.jpg)
 
 - **[Last Beacon / 最后的灯塔](https://last-beacon.loupengju.cc)** — Verbinde ein Stromnetz auf einer Miniaturinsel, baue und verbessere Türme und teile die begrenzte Leistung ein, um einen Leuchtturm gegen zehn Wellen und einen Endboss zu verteidigen.
   - Entwickler: [stackloomdev](https://github.com/stackloomdev)

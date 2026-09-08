@@ -20,7 +20,7 @@
 
 ## 从这里开始
 
-目前收录 **12 款浏览器游戏和 1 个交互式粒子艺术沙盒**：木锁拆解与华容道、半流体水果合成、单键飞行、魔毯战斗、海岛电网塔防、荒野生存、海湾卡丁车竞速、鹈鹕海岸骑行、桌面玩具的 3D 改编，以及轨道花园。点击作品名称可打开试玩或源码运行说明。
+目前收录 **13 款浏览器游戏和 1 个交互式粒子艺术沙盒**：三国领土策略、木锁拆解与华容道、半流体水果合成、单键飞行、魔毯战斗、海岛电网塔防、荒野生存、海湾卡丁车竞速、鹈鹕海岸骑行、桌面玩具的 3D 改编，以及轨道花园。点击作品名称可打开试玩或源码运行说明。
 
 最近核对：**2026-09-05**。已检查作者的 Astra 使用说明、源码链接和演示页面可达性；模型归因来自作者自述，尚未逐款试玩。
 
@@ -84,6 +84,13 @@
 ### 策略与模拟
 
 塔防、卡牌策略、经营建造与模拟沙盒。
+
+- **[三分天下 · 百将风云 / Three Kingdoms: Hundred Heroes](https://sanguo-jiangshan.vercel.app)** — 选择魏、蜀、吴，在 15 城地图上经营金粮、指挥拥有独立 AI 生成头像的 108 名武将，以回合制征战对抗 AI 势力，争夺天下统一。
+  - 作者：[MartinDelophy](https://github.com/MartinDelophy)（项目发起人及提交者）。
+  - 平台：现代浏览器，中文界面，鼠标与触控操作；免费，无需登录或 API Key，本地存档支持导入导出。
+  - GPT-6 Astra：[创作记录](works/three-kingdoms/CREATION.md) — 作者确认使用，通过 Codex 多轮协作完成规则、界面、AI、平衡与测试；地形和武将头像另由图像生成工具制作。
+  - 开发资料：[源码与运行说明](works/three-kingdoms/README.md) · [需求记录](works/three-kingdoms/PROMPTS.md) · 技术：React、TypeScript、Vinext/Vite。
+  - 预览：![三分天下实机画面：水墨城池地图、资源操作与武将头像。](assets/screenshots/three-kingdoms/gameplay.jpg)
 
 - **[最后的灯塔 / Last Beacon](https://last-beacon.loupengju.cc)** — 在微缩海岛上连接电网、布置并升级炮塔，以有限电力抵挡十波机械生物和最终 Boss，守住灯塔。
   - 作者：[stackloomdev](https://github.com/stackloomdev)
