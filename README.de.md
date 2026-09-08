@@ -146,7 +146,7 @@ Rollenspiele, Erkundung, erzählerische Abenteuer und interaktive Geschichten.
 
 Parkour, Plattformherausforderungen, Rennen und Spiele rund um Bewegung und Wege.
 
-- **[APEX CLUB — Bay Kart Grand Prix](https://apex-club-racing.mauve-ibex-1793.chatgpt.site)** — Fahre drei Runden auf Bay Circuit, wähle aus sechs Karts und lade Mini-Turbos für den Kurvenausgang auf, um in der Einzelwertung aufzusteigen oder Punkte für ein 4-gegen-4-Team zu sammeln.
+- **[APEX CLUB — Bay Kart Grand Prix](https://apex-club-racing.vercel.app)** — Fahre drei Runden auf Bay Circuit, wähle aus sechs Karts und lade Mini-Turbos für den Kurvenausgang auf, um in der Einzelwertung aufzusteigen oder Punkte für ein 4-gegen-4-Team zu sammeln.
   - Entwickler: Ryan
   - Plattform: Desktop-Browser mit WebGL 2 und Tastatur; kostenlos, ohne Anmeldung oder API-Schlüssel. Läuft auf einem lokalen HTTP-Server oder statischem Hosting; Three.js ist lokal enthalten. Teamrennen finden lokal mit einem Menschen und sieben KI-Fahrern statt.
   - Modellbeteiligung: [Entwicklungsbericht](works/apex-club/CREATION.md) — Iterative Arbeit in Codex an Spielmechanik, Code, prozeduraler Grafik und Tests; die Zuordnung zu GPT-6 Astra muss noch vom Entwickler bestätigt werden.

@@ -4,7 +4,7 @@ A browser-based Three.js arcade kart racer with a race lobby, 3-lap races, solo 
 
 ## Play online
 
-[Play APEX CLUB](https://apex-club-racing.mauve-ibex-1793.chatgpt.site) · [Explore the TITAN 3D garage](https://apex-club-racing.mauve-ibex-1793.chatgpt.site/garage.html)
+[Play APEX CLUB](https://apex-club-racing.vercel.app) · [Explore the TITAN 3D garage](https://apex-club-racing.vercel.app/garage.html)
 
 Free public demo, no login required. Use a desktop browser with WebGL 2 and a keyboard.
 
