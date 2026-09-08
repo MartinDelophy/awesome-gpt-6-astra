@@ -22,7 +22,7 @@ Cette page traduit le [README anglais](README.md). Consultez l’original pour v
 
 ## Pour commencer
 
-Découvrez **12 jeux pour navigateur et 1 bac à sable interactif d’art à particules** : puzzles en bois à emboîtement et à glissement, fusion de fruits déformables, vol à une touche, combats sur tapis volant, défense d’île par un réseau électrique, survie en pleine nature, course de karts sur Bay Circuit, balade côtière à vélo avec un pélican, jouets de table adaptés en 3D et Orbital Garden. Cliquez sur un titre pour ouvrir la démo ou le code source avec ses instructions de lancement.
+Découvrez **13 jeux pour navigateur et 1 bac à sable interactif d’art à particules** : stratégie territoriale des Trois Royaumes, puzzles en bois à emboîtement et à glissement, fusion de fruits déformables, vol à une touche, combats sur tapis volant, défense d’île par un réseau électrique, survie en pleine nature, course de karts sur Bay Circuit, balade côtière à vélo avec un pélican, jouets de table adaptés en 3D et Orbital Garden. Cliquez sur un titre pour ouvrir la démo ou le code source avec ses instructions de lancement.
 
 Dernière vérification : **2026-09-05**. Les déclarations des créateurs, les liens vers le code source et l’accessibilité des démos ont été vérifiés. L’utilisation du modèle est déclarée par les auteurs ; les jeux n’ont pas été testés en jeu pour cette liste.
 
@@ -92,6 +92,13 @@ Jeux de tir, de combat, de survie, de rythme et tous ceux qui donnent envie de r
 ### Stratégie et simulation
 
 Défense de tours, cartes stratégiques, gestion, construction et bacs à sable de simulation.
+
+- **[三分天下 · 百将风云 / Three Kingdoms: Hundred Heroes](https://sanguo-jiangshan.vercel.app)** — Dirigez Wei, Shu ou Wu dans une campagne au tour par tour sur 15 villes : gérez l’or et les céréales, commandez un effectif de 108 officiers dotés chacun d’un portrait généré par IA et affrontez les factions de l’IA pour unifier le pays.
+  - Créateur: [MartinDelophy](https://github.com/MartinDelophy) (à l’origine du projet et de sa soumission).
+  - Plateforme: Navigateur moderne ; interface en chinois, commandes à la souris et au toucher. Gratuit, sans connexion à un compte ni clé API ; les sauvegardes locales peuvent être importées et exportées.
+  - GPT-6 Astra: [Journal de création](works/three-kingdoms/CREATION.md) — Utilisation confirmée par le créateur, avec une collaboration itérative dans Codex sur les règles, l’interface, l’IA, l’équilibrage et les tests ; le terrain et les portraits des officiers ont été réalisés avec des outils de génération d’images.
+  - Ressources: [Code source et instructions de lancement](works/three-kingdoms/README.md) · [Demandes](works/three-kingdoms/PROMPTS.md) · Technologies: React, TypeScript, Vinext/Vite.
+  - Aperçu: ![Partie de Three Kingdoms montrant une carte des villes au lavis, les commandes de ressources et les portraits des officiers.](assets/screenshots/three-kingdoms/gameplay.jpg)
 
 - **[Last Beacon / 最后的灯塔](https://last-beacon.loupengju.cc)** — Reliez un réseau électrique sur une île miniature, construisez et améliorez vos tours, et gérez une puissance limitée pour défendre un phare contre dix vagues et un boss final.
   - Créateur: [stackloomdev](https://github.com/stackloomdev)

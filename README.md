@@ -20,7 +20,7 @@ Playful ideas, games you can try, and development stories that inspire the next 
 
 ## Start here
 
-Explore **13 browser games and 1 interactive particle-art sandbox**: wooden interlocking and sliding puzzles, soft-body fruit merging, one-tap flight, magic-carpet combat, a five-stage bullet-hell shooter, island power-grid tower defense, wilderness survival, Bay Circuit kart racing, coastal cycling with a pelican, tabletop toys turned into 3D games, and Orbital Garden. Click a title to open its demo or source with setup instructions.
+Explore **14 browser games and 1 interactive particle-art sandbox**: Three Kingdoms territory strategy, wooden interlocking and sliding puzzles, soft-body fruit merging, one-tap flight, magic-carpet combat, a five-stage bullet-hell shooter, island power-grid tower defense, wilderness survival, Bay Circuit kart racing, coastal cycling with a pelican, tabletop toys turned into 3D games, and Orbital Garden. Click a title to open its demo or source with setup instructions.
 
 Last checked: **2026-09-05**. Creator statements, source links, and demo availability have been checked. Model attribution is author-reported; the games have not been play-tested for this list.
 
@@ -91,6 +91,13 @@ Logic puzzles, physics challenges, word games, and clever little mechanisms.
 ### Strategy & simulation
 
 Tower defense, strategic card games, management games, building, and simulation sandboxes.
+
+- **[三分天下 · 百将风云 / Three Kingdoms: Hundred Heroes](https://sanguo-jiangshan.vercel.app)** — Lead Wei, Shu or Wu in a turn-based campaign across 15 cities, managing gold and grain and commanding a roster of 108 officers with individual AI-generated portraits as you compete with AI factions to unify the land.
+  - Creator: [MartinDelophy](https://github.com/MartinDelophy) (project initiator and submitter).
+  - Platform: Modern browser; Chinese interface, mouse and touch controls. Free, no login or API key; local saves support import and export.
+  - GPT-6 Astra: [Creation record](works/three-kingdoms/CREATION.md) — Creator-confirmed use through iterative collaboration in Codex on rules, interface, AI, balancing and tests; terrain and officer portraits were made with image-generation tools.
+  - Resources: [Source and setup](works/three-kingdoms/README.md) · [Requests](works/three-kingdoms/PROMPTS.md) · Built with: React, TypeScript and Vinext/Vite.
+  - Preview: ![Three Kingdoms gameplay showing an ink-wash city map, resource controls and officer portraits.](assets/screenshots/three-kingdoms/gameplay.jpg)
 
 - **[Last Beacon / 最后的灯塔](https://last-beacon.loupengju.cc)** — Connect a power grid across a miniature island, build and upgrade towers, and balance limited power to defend a lighthouse through ten waves and a final boss.
   - Creator: [stackloomdev](https://github.com/stackloomdev)
