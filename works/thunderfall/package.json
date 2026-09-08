@@ -1,0 +1,8 @@
+{
+  "name": "thunderfall",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "An original five-stage arcade shooter for touch and keyboard",
+  "scripts": { "build": "node build.mjs", "test": "node --test tests/*.test.mjs" }
+}
