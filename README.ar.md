@@ -6,7 +6,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 15](https://img.shields.io/badge/Cases-15-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **مجموعة من الألعاب الممتعة المصنوعة باستخدام GPT-6 Astra.**
 
@@ -26,7 +26,7 @@
 
 استكشف **13 لعبة للمتصفح وبيئة تفاعلية واحدة لفن الجسيمات**: استراتيجية السيطرة على الأراضي في عصر الممالك الثلاث، ألغاز خشبية متشابكة وألغاز الكتل المنزلقة، دمج الفواكه المرنة، والطيران بزر واحد، والقتال على بساط سحري، والدفاع عن جزيرة بشبكة كهربائية، والبقاء في البرية، وسباقات الكارت على حلبة الخليج، وركوب الدراجة مع بجع على الساحل، وألعاب طاولة محوّلة إلى ألعاب ثلاثية الأبعاد، وOrbital Garden. انقر على اسم العمل لفتح التجربة أو الشفرة المصدرية مع تعليمات التشغيل.
 
-آخر تحقق: **2026-09-05**. جرى التحقق من تصريحات المبدعين وروابط الشفرة المصدرية وإمكانية الوصول إلى العروض التجريبية. نَسب استخدام النموذج يستند إلى تصريحات المؤلفين؛ ولم تُختبر الألعاب باللعب من أجل إعداد هذه القائمة.
+تحديث القائمة: **2026-09-08**. تستند معلومات استخدام النموذج إلى تصريحات المؤلفين أو مقدّمي الأعمال؛ وتُوضّح التفاصيل غير المؤكدة في كل بند. يشير هذا التاريخ إلى تحديث القائمة، وليس إلى إعادة اختبار جميع الألعاب.
 
 - **تبحث عن لعبة؟** تصفح الأنواع أدناه.
 - **صنعت لعبة؟** [أرسل مشروعك](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) مع رابط للعب أو للشفرة المصدرية، ولقطة شاشة فعلية من اللعبة، وشرح لكيفية استخدامك GPT-6 Astra.
