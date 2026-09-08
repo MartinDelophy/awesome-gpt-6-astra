@@ -20,7 +20,7 @@
 
 ## 从这里开始
 
-目前收录 **58 个游戏与互动作品**：三国领土策略、木锁拆解与华容道、半流体水果合成、单键飞行、魔毯战斗、五关弹幕射击、海岛电网塔防、荒野生存、水下捕鱼、寿司店经营与海岛种植、海湾卡丁车竞速、鹈鹕海岸骑行、桌面玩具的 3D 改编、3D 家居装修，以及轨道花园。点击作品名称即可直接进入在线游戏。
+目前收录 **59 个游戏与互动作品**：三国领土策略、木锁拆解与华容道、半流体水果合成、程序化城市建造 2048、单键飞行、魔毯战斗、五关弹幕射击、海岛电网塔防、荒野生存、水下捕鱼、寿司店经营与海岛种植、海湾卡丁车竞速、鹈鹕海岸骑行、桌面玩具的 3D 改编、3D 家居装修，以及轨道花园。点击作品名称即可直接进入在线游戏。
 
 目录更新：**2026-09-09**。模型使用信息依据作者或投稿者的说明，未确认内容在具体条目中标注。此日期表示目录维护时间，不代表当天重新试玩了所有游戏。
 
@@ -151,6 +151,13 @@
   - 模型参与：[制作记录](works/sunjing-puzzles/CREATION.md) — 通过 Codex 多轮完成玩法、程序化 3D 画面、规则、求解器与测试；GPT-6 Astra 的具体使用归因待作者确认，本次为草稿投稿。
   - 开发资料：[源码与运行说明](works/sunjing-puzzles/README.md) · [需求记录](works/sunjing-puzzles/PROMPTS.md) · 技术：React、Vinext/Vite、Three.js。
   - 预览：![榫境实机画面：深绿色 3D 展台上的六构件木锁，旁边是木块编号与抽出操作。](assets/screenshots/sunjing-puzzles/gameplay.jpg)
+
+- **[CityMaker / 城市营造](https://citymaker.0to1app.com)** — 在 4×4 街区上玩 2048：合并相同建筑，沿十一级建筑阶梯从传统民居成长为城市天际线，收录十二座城市，视角可按 45° 逐级旋转。
+  - 作者：[Derek Wang](https://github.com/derek-wangpch)
+  - 平台：支持 WebGL 的桌面与移动浏览器；提供英文、简体中文与繁体中文界面。免费，无需登录或 API Key；各城市进度分别保存在当前浏览器，并可添加到 iOS 主屏幕。
+  - GPT-6 Astra：作者说明使用 GPT-6 Astra 生成了 132 个建筑模型的程序化几何代码；可供引用的制作记录正在整理中。
+  - 开发资料：[源码与运行说明](https://github.com/derek-wangpch/OpenCityMaker) · [验收记录](https://github.com/derek-wangpch/OpenCityMaker/blob/master/QA.md) · 技术：React、TypeScript、Vite 与 Three.js；132 个建筑模型均为原创程序化几何。
+  - 预览：![CityMaker 实机画面：4×4 棋盘上的低多边形香港建筑，旁边是分数、城市列表与旋转控制。](https://raw.githubusercontent.com/derek-wangpch/OpenCityMaker/master/docs/images/citymaker-game.png)
 
 ### 策略与模拟
 
