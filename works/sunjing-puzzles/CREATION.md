@@ -23,10 +23,18 @@ The original desktop directory was no longer present. Source was restored from t
 
 For this contribution, the assistant removed personal launcher paths, unused scaffold components and dedicated Sites/Cloudflare runtime wiring. It retained the game and changed the package to a portable static export, with hosting metadata kept outside the public source. Known vulnerable pinned dependencies were updated within the existing React/Vinext/Vite stack, together with compatible peer dependencies. It also clarified undo scope and replaced a deprecated shadow-map setting with its supported equivalent.
 
-The creator subsequently requested a public playable URL as well as the PR. The static game was initially published publicly through Sites. Its current public URL is [sunjing-puzzles.netlify.app](https://sunjing-puzzles.netlify.app).
+The creator subsequently requested a public playable URL as well as the PR. The static game was initially published publicly through Sites, then Netlify. Its current public URL is [sunjing-puzzles.vercel.app](https://sunjing-puzzles.vercel.app).
 
 Validation performed for this submission is recorded in [VALIDATION.md](VALIDATION.md). Screenshots show actual execution of the submitted game on 2026-09-07. The author may supply a model-use statement and choose a separate game-source license during review; this record does not invent either.
 
 ## Netlify migration — 2026-09-08
 
 The creator requested a Netlify address for the submitted game. The existing validated static export was deployed to the creator's Netlify account, then the playable links in all twelve catalog translations and project documentation were updated. A small `netlify.toml` records reproducible build settings. The game's application, puzzle rules, solver and dependencies were not changed for the migration.
+
+The earlier [Netlify deployment](https://sunjing-puzzles.netlify.app) and its configuration are retained as an optional deployment path. The following Vercel migration supersedes it as the collection's current playable entry point.
+
+## Vercel migration — 2026-09-08
+
+The creator requested a Vercel deployment and authorized a pull request after successful publication. The same validated static export was uploaded manually to [sunjing-puzzles.vercel.app](https://sunjing-puzzles.vercel.app), then the playable links in all twelve catalog languages and project documentation were updated. Git-based automatic deployment is not configured.
+
+A source-build `vercel.json` documents installation with `npm ci`, building with `npm run build`, and the `dist/client` output directory. The game's application, puzzle rules, solver, dependencies, screenshots, model-attribution status and license statements were unchanged by this hosting migration. Deployment checks are recorded in [VALIDATION.md](VALIDATION.md).
