@@ -22,7 +22,7 @@ Esta página es una traducción del [README en inglés](README.md). Consulta el 
 
 ## Empieza aquí
 
-Explora **9 juegos de navegador y 1 entorno interactivo de arte con partículas**: rompecabezas de madera entrelazada y de piezas deslizantes, fusión de frutas deformables, vuelo con un solo botón, combates en alfombra mágica, defensa de una isla mediante una red eléctrica, supervivencia en la naturaleza, carreras de karts en Bay Circuit, ciclismo costero con un pelícano, juguetes de mesa adaptados a 3D y Orbital Garden. Haz clic en un título para abrir su demo o el código fuente con instrucciones de ejecución.
+Explora **11 juegos de navegador y 1 entorno interactivo de arte con partículas**: rompecabezas de madera entrelazada y de piezas deslizantes, fusión de frutas deformables, vuelo con un solo botón, combates en alfombra mágica, defensa de una isla mediante una red eléctrica, supervivencia en la naturaleza, carreras de karts en Bay Circuit, ciclismo costero con un pelícano, juguetes de mesa adaptados a 3D y Orbital Garden. Haz clic en un título para abrir su demo o el código fuente con instrucciones de ejecución.
 
 Última comprobación: **2026-09-05**. Se han revisado las declaraciones de los creadores, los enlaces al código fuente y la disponibilidad de las demos. El uso del modelo se basa en lo declarado por los autores; no se han realizado pruebas de juego para esta lista.
 
@@ -73,6 +73,12 @@ Acertijos de lógica, desafíos de física, juegos de palabras y pequeños mecan
   - GPT-6 Astra: [Pruebas en una sola generación y prompts originales del creador](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - Recursos: [Código fuente](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/melon-lab/src) · [HTML independiente](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/melon-lab/%E7%93%9C%E4%BD%93%E5%AE%9E%E9%AA%8C%E5%AE%A4.html)
   - Vista previa: ![Partida de Melon Lab con frutas blandas dentro del recipiente de fusión y controles de física.](assets/screenshots/melon-lab/gameplay.jpg)
+
+- **[Q弹消消乐](https://qbxxl.0nz.de/)** — Elimina grupos de al menos tres burbujas conectadas del mismo color; los grupos grandes crean bombas y arcoíris. Modos relajado, niveles y contrarreloj.
+  - Creador: zding
+  - Plataforma: Navegador, interfaz en chino; inicio verificado sin registro ni pago.
+  - GPT-6 Astra: El uso de GPT-6 Astra y su papel están pendientes de confirmación del creador.
+  - Vista previa: ![Q弹消消乐 — Captura del juego](assets/screenshots/qbxxl/gameplay.jpg)
 
 - **[榫境 / Sunjing Puzzles](https://sunjing-puzzles.hp20230404.chatgpt.site)** — Desmonta un rompecabezas de madera de seis piezas entrelazadas y resuelve dos configuraciones de Huarong Dao en un taller 3D, con pistas y la opción de deshacer movimientos.
   - Creador: [MartinDelophy](https://github.com/MartinDelophy) (impulsor del proyecto y responsable de la propuesta).
@@ -128,6 +134,12 @@ Parkour, desafíos de plataformas, carreras y juegos centrados en el movimiento 
   - GPT-6 Astra: [Issue #10](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/10) — Quien presentó el juego afirma que se generó con un solo prompt; el registro de desarrollo enlazado no se ha verificado de forma independiente.
   - Recursos: [Registro de desarrollo compartido](https://chat01.ai/zh/chat/01M1VJ5K55803V2YK3T2NKTX33)
   - Vista previa: ![Pantalla de título de PELICAN PEDAL con un pelícano en bicicleta junto al mar; captura aportada en el Issue #10.](https://github.com/user-attachments/assets/ec085afa-3c45-4de6-b03f-5c626f941546)
+
+- **[狂飙赛车 · OVERDRIVE](https://gpt-kbsc.0nz.de/)** — Carreras 3D contra cinco rivales de IA, con selección de coches y circuitos, contrarreloj, derrapes y nitro.
+  - Creador: zding
+  - Plataforma: Navegador, interfaz en chino; inicio verificado sin registro ni pago.
+  - GPT-6 Astra: El uso de GPT-6 Astra y su papel están pendientes de confirmación del creador.
+  - Vista previa: ![狂飙赛车 · OVERDRIVE — Captura del juego](assets/screenshots/overdrive/gameplay.jpg)
 
 <a id="experimental-multiplayer"></a>
 

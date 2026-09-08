@@ -22,7 +22,7 @@
 
 ## はじめに
 
-現在、**ブラウザーゲーム 9 作品と、インタラクティブなパーティクルアートのサンドボックス 1 作品**を掲載しています。木製の組木パズルとスライドパズル、柔らかい果物の合成、ワンボタン飛行、魔法の絨毯での戦闘、島の電力網を使うタワーディフェンス、荒野でのサバイバル、海湾サーキットのカートレース、ペリカンとの海岸サイクリング、卓上玩具の 3D ゲーム化、そして Orbital Garden。作品名をクリックすると、デモまたは実行手順付きのソースコードが開きます。
+現在、**ブラウザーゲーム 11 作品と、インタラクティブなパーティクルアートのサンドボックス 1 作品**を掲載しています。木製の組木パズルとスライドパズル、柔らかい果物の合成、ワンボタン飛行、魔法の絨毯での戦闘、島の電力網を使うタワーディフェンス、荒野でのサバイバル、海湾サーキットのカートレース、ペリカンとの海岸サイクリング、卓上玩具の 3D ゲーム化、そして Orbital Garden。作品名をクリックすると、デモまたは実行手順付きのソースコードが開きます。
 
 最終確認日：**2026-09-05**。作者によるモデル利用の説明、ソースコードへのリンク、デモへのアクセスを確認しています。モデルの利用状況は作者の申告に基づくもので、この一覧のための各作品のプレイテストは行っていません。
 
@@ -73,6 +73,12 @@
   - GPT-6 Astra: [作者の One Shot テストと元のプロンプト](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - 開発資料: [ソースコード](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/melon-lab/src) · [単一 HTML ファイル](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/melon-lab/%E7%93%9C%E4%BD%93%E5%AE%9E%E9%AA%8C%E5%AE%A4.html)
   - プレビュー: ![Melon Lab のゲーム画面。合成用の容器に入った柔らかい果物と物理設定の操作部が見えます。](assets/screenshots/melon-lab/gameplay.jpg)
+
+- **[Q弹消消乐](https://qbxxl.0nz.de/)** — 同色の泡が三つ以上つながった場所を消します。大きな組は爆弾や虹になり、リラックス・ステージ・時間制限モードを選べます。
+  - 作者: zding
+  - 対応環境: ブラウザー、中国語 UI。ログインや支払いなしで起動を確認。
+  - GPT-6 Astra: GPT-6 Astra の利用と担当範囲は作者の確認待ちです。
+  - プレビュー: ![Q弹消消乐 — 実際のゲーム画面](assets/screenshots/qbxxl/gameplay.jpg)
 
 - **[榫境 / Sunjing Puzzles](https://sunjing-puzzles.hp20230404.chatgpt.site)** — 3D の木工作業台で 6 部品がかみ合う組木パズルを分解し、2 種類の華容道スライドパズルを解きます。ヒントと移動の取り消しに対応しています。
   - 作者: [MartinDelophy](https://github.com/MartinDelophy) （プロジェクトの発案者・投稿者）。
@@ -128,6 +134,12 @@
   - GPT-6 Astra: [Issue #10](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/10) — 投稿者によると、1 つのプロンプトから生成された作品です。リンク先の開発記録は独立に確認できていません。
   - 開発資料: [共有された開発記録](https://chat01.ai/zh/chat/01M1VJ5K55803V2YK3T2NKTX33)
   - プレビュー: ![PELICAN PEDAL のタイトル画面。海辺で自転車に乗るペリカン。Issue #10 に添付された画像。](https://github.com/user-attachments/assets/ec085afa-3c45-4de6-b03f-5c626f941546)
+
+- **[狂飙赛车 · OVERDRIVE](https://gpt-kbsc.0nz.de/)** — 五台の AI と競う 3D レース。車とコースを選び、タイムアタック、ドリフト、ニトロを楽しめます。
+  - 作者: zding
+  - 対応環境: ブラウザー、中国語 UI。ログインや支払いなしで起動を確認。
+  - GPT-6 Astra: GPT-6 Astra の利用と担当範囲は作者の確認待ちです。
+  - プレビュー: ![狂飙赛车 · OVERDRIVE — 実際のゲーム画面](assets/screenshots/overdrive/gameplay.jpg)
 
 <a id="experimental-multiplayer"></a>
 

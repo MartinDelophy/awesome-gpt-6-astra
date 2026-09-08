@@ -22,7 +22,7 @@ Cette page traduit le [README anglais](README.md). Consultez l’original pour v
 
 ## Pour commencer
 
-Découvrez **9 jeux pour navigateur et 1 bac à sable interactif d’art à particules** : puzzles en bois à emboîtement et à glissement, fusion de fruits déformables, vol à une touche, combats sur tapis volant, défense d’île par un réseau électrique, survie en pleine nature, course de karts sur Bay Circuit, balade côtière à vélo avec un pélican, jouets de table adaptés en 3D et Orbital Garden. Cliquez sur un titre pour ouvrir la démo ou le code source avec ses instructions de lancement.
+Découvrez **11 jeux pour navigateur et 1 bac à sable interactif d’art à particules** : puzzles en bois à emboîtement et à glissement, fusion de fruits déformables, vol à une touche, combats sur tapis volant, défense d’île par un réseau électrique, survie en pleine nature, course de karts sur Bay Circuit, balade côtière à vélo avec un pélican, jouets de table adaptés en 3D et Orbital Garden. Cliquez sur un titre pour ouvrir la démo ou le code source avec ses instructions de lancement.
 
 Dernière vérification : **2026-09-05**. Les déclarations des créateurs, les liens vers le code source et l’accessibilité des démos ont été vérifiés. L’utilisation du modèle est déclarée par les auteurs ; les jeux n’ont pas été testés en jeu pour cette liste.
 
@@ -73,6 +73,12 @@ Jeux de tir, de combat, de survie, de rythme et tous ceux qui donnent envie de r
   - GPT-6 Astra: [Tests en une seule génération et prompts d’origine du créateur](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - Ressources: [Code source](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/melon-lab/src) · [HTML autonome](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/melon-lab/%E7%93%9C%E4%BD%93%E5%AE%9E%E9%AA%8C%E5%AE%A4.html)
   - Aperçu: ![Partie de Melon Lab avec des fruits souples dans le récipient de fusion et les commandes de physique.](assets/screenshots/melon-lab/gameplay.jpg)
+
+- **[Q弹消消乐](https://qbxxl.0nz.de/)** — Éliminez au moins trois bulles voisines de même couleur ; les grands groupes créent des bombes et des arcs-en-ciel. Modes détente, niveaux et chronométré.
+  - Créateur: zding
+  - Plateforme: Navigateur, interface chinoise ; lancement vérifié sans connexion ni paiement.
+  - GPT-6 Astra: L’utilisation de GPT-6 Astra et son rôle attendent la confirmation du créateur.
+  - Aperçu: ![Q弹消消乐 — Capture du jeu](assets/screenshots/qbxxl/gameplay.jpg)
 
 - **[榫境 / Sunjing Puzzles](https://sunjing-puzzles.hp20230404.chatgpt.site)** — Démontez un casse-tête en bois à six pièces imbriquées et résolvez deux configurations de taquin Huarong Dao dans un atelier 3D, avec indices et annulation des déplacements.
   - Créateur: [MartinDelophy](https://github.com/MartinDelophy) (à l’origine du projet et de sa soumission).
@@ -128,6 +134,12 @@ Parkour, défis de plateforme, courses et jeux centrés sur les déplacements et
   - GPT-6 Astra: [Issue #10](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/10) — La personne ayant soumis le jeu indique une génération à partir d’un seul prompt ; le journal de développement lié n’a pas été vérifié indépendamment.
   - Ressources: [Journal de développement partagé](https://chat01.ai/zh/chat/01M1VJ5K55803V2YK3T2NKTX33)
   - Aperçu: ![Écran titre de PELICAN PEDAL avec un pélican à vélo au bord de la mer ; capture fournie dans l’Issue #10.](https://github.com/user-attachments/assets/ec085afa-3c45-4de6-b03f-5c626f941546)
+
+- **[狂飙赛车 · OVERDRIVE](https://gpt-kbsc.0nz.de/)** — Course 3D contre cinq adversaires IA, avec choix de voitures et de circuits, contre-la-montre, dérapages et nitro.
+  - Créateur: zding
+  - Plateforme: Navigateur, interface chinoise ; lancement vérifié sans connexion ni paiement.
+  - GPT-6 Astra: L’utilisation de GPT-6 Astra et son rôle attendent la confirmation du créateur.
+  - Aperçu: ![狂飙赛车 · OVERDRIVE — Capture du jeu](assets/screenshots/overdrive/gameplay.jpg)
 
 <a id="experimental-multiplayer"></a>
 
