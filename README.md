@@ -74,7 +74,7 @@ Logic puzzles, physics challenges, word games, and clever little mechanisms.
   - GPT-6 Astra: GPT-6 Astra usage and contribution details await creator confirmation.
   - Preview: ![Q弹消消乐 — Gameplay](assets/screenshots/qbxxl/gameplay.jpg)
 
-- **[榫境 / Sunjing Puzzles](https://sunjing-puzzles.netlify.app)** — Disassemble a six-piece interlocking wooden puzzle and solve two Huarong Dao sliding-block layouts in a 3D workshop, with hints and move undo.
+- **[榫境 / Sunjing Puzzles](https://sunjing-puzzles.vercel.app)** — Disassemble a six-piece interlocking wooden puzzle and solve two Huarong Dao sliding-block layouts in a 3D workshop, with hints and move undo.
   - Creator: [MartinDelophy](https://github.com/MartinDelophy) (project initiator and submitter).
   - Platform: Modern browser with WebGL 2; Chinese interface, mouse/keyboard and touch controls. Free, no login or API key; progress stays in the current browser.
   - Model participation: [Creation record](works/sunjing-puzzles/CREATION.md) — Iterative Codex work on game design, procedural 3D visuals, rules, solver and tests; exact GPT-6 Astra attribution awaits creator confirmation (draft submission).

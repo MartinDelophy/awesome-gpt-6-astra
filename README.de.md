@@ -80,7 +80,7 @@ Logikrätsel, Physikaufgaben, Wortspiele und raffinierte kleine Mechaniken.
   - GPT-6 Astra: Nutzung und Aufgaben von GPT-6 Astra müssen noch vom Entwickler bestätigt werden.
   - Vorschau: ![Q弹消消乐 — Spielaufnahme](assets/screenshots/qbxxl/gameplay.jpg)
 
-- **[榫境 / Sunjing Puzzles](https://sunjing-puzzles.netlify.app)** — Zerlege ein sechsteiliges, ineinandergreifendes Holzpuzzle und löse zwei Huarong-Dao-Schiebepuzzles in einer 3D-Werkstatt, mit Hinweisen und dem Rückgängigmachen von Zügen.
+- **[榫境 / Sunjing Puzzles](https://sunjing-puzzles.vercel.app)** — Zerlege ein sechsteiliges, ineinandergreifendes Holzpuzzle und löse zwei Huarong-Dao-Schiebepuzzles in einer 3D-Werkstatt, mit Hinweisen und dem Rückgängigmachen von Zügen.
   - Entwickler: [MartinDelophy](https://github.com/MartinDelophy) (Projektinitiator und Einreicher).
   - Plattform: Moderner Browser mit WebGL 2; chinesische Oberfläche sowie Maus-, Tastatur- und Touchsteuerung. Kostenlos, ohne Anmeldung oder API-Schlüssel; der Fortschritt bleibt im aktuellen Browser.
   - Modellbeteiligung: [Entstehungsbericht](works/sunjing-puzzles/CREATION.md) — Iterative Arbeit in Codex an Spieldesign, prozeduraler 3D-Grafik, Regeln, Lösungsalgorithmus und Tests; die genaue Nutzung von GPT-6 Astra muss noch vom Autor bestätigt werden (Entwurfseinreichung).

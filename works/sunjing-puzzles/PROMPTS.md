@@ -25,3 +25,7 @@ Also provide a public online demo that other people can open directly. Use that 
 ## Netlify migration request — 2026-09-08
 
 Replace the game's former hosted demo address with a Netlify address for submission. Publish the existing playable game on Netlify, verify the new URL, and submit the updated demo links to the collection.
+
+## Vercel migration request — 2026-09-08
+
+Deploy the existing playable game publicly on Vercel. After successful publication, submit a pull request updating the collection's playable links and project documentation to the Vercel address. Preserve the game and the earlier deployment records.
