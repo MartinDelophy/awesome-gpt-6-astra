@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 16](https://img.shields.io/badge/Cases-16-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 17](https://img.shields.io/badge/Cases-17-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Uma coleção de jogos interessantes feitos com GPT-6 Astra.**
 
@@ -22,7 +22,7 @@ Esta página é uma tradução do [README em inglês](README.md). Consulte o ori
 
 ## Comece por aqui
 
-Explore **15 jogos de navegador e 1 ambiente interativo de arte com partículas**: estratégia territorial dos Três Reinos, quebra-cabeças de madeira com encaixes e peças deslizantes, fusão de frutas deformáveis, voo com um toque, combates em tapete mágico, defesa de uma ilha com uma rede elétrica, sobrevivência na natureza, corridas de kart no Bay Circuit, ciclismo pela costa com um pelicano, brinquedos de mesa adaptados para 3D e Orbital Garden. Clique em um título para abrir a demonstração ou o código-fonte com instruções de execução.
+Explore **16 jogos de navegador e 1 ambiente interativo de arte com partículas**: estratégia territorial dos Três Reinos, quebra-cabeças de madeira com encaixes e peças deslizantes, fusão de frutas deformáveis, voo com um toque, combates em tapete mágico, defesa de uma ilha com uma rede elétrica, sobrevivência na natureza, pesca submarina, gestão de um restaurante de sushi e cultivo em uma ilha, corridas de kart no Bay Circuit, ciclismo pela costa com um pelicano, brinquedos de mesa adaptados para 3D e Orbital Garden. Clique em um título para abrir a demonstração ou o código-fonte com instruções de execução.
 
 Catálogo atualizado: **2026-09-08**. O uso do modelo é informado com base nas declarações dos criadores ou responsáveis pelas submissões; detalhes não confirmados são sinalizados em cada entrada. Esta data registra a manutenção do catálogo, não um novo teste de todos os jogos.
 
@@ -131,6 +131,13 @@ Defesa de torres, cartas estratégicas, gerenciamento, construção e simulaçã
   - GPT-6 Astra: [Declaração de quem enviou o jogo](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/26) — A pessoa que enviou o jogo atribui todo o desenvolvimento a GPT-6 Astra.
   - Recursos: Não foram fornecidos código-fonte público nem um registro de desenvolvimento separado.
   - Prévia: ![Captura de 永恒荒野 fornecida na Issue #26: um personagem junto à fogueira na floresta, com inventário, indicadores de sobrevivência e minimapa.](assets/screenshots/eternal-wilderness/gameplay.jpg)
+
+- **[潜水员戴夫 / Dave the Diver](https://dave-2cm.pages.dev/)** — Uma recriação de Dave the Diver para navegador que combina pesca submarina com arpão, gestão de um restaurante de sushi e cultivo em uma ilha.
+  - Criador: dudu
+  - Plataforma: Navegador; interface em chinês e controles por mouse e teclado. O acesso e o início de um mergulho foram verificados sem login ou pagamento.
+  - GPT-6 Astra: [Declaração de quem enviou o jogo](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/41) — A pessoa que enviou o jogo atribui todo o desenvolvimento a GPT-6 Astra.
+  - Recursos: Não foram fornecidos código-fonte público nem um registro de desenvolvimento separado.
+  - Prévia: ![Recriação de Dave the Diver em ação: um mergulhador entre peixes, com indicadores de oxigênio e profundidade e inventário de capturas.](assets/screenshots/dave-the-diver/gameplay.jpg)
 
 <a id="rpg-adventures"></a>
 

@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 16](https://img.shields.io/badge/Cases-16-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 17](https://img.shields.io/badge/Cases-17-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Kumpulan gim menarik yang dibuat dengan GPT-6 Astra.**
 
@@ -22,7 +22,7 @@ Halaman ini merupakan terjemahan [README bahasa Inggris](README.md). Periksa ver
 
 ## Mulai di sini
 
-Jelajahi **15 gim peramban dan 1 sandbox seni partikel interaktif**: strategi wilayah Tiga Kerajaan, teka-teki kayu yang saling mengunci dan teka-teki balok geser, penggabungan buah yang lentur, penerbangan satu tombol, pertempuran karpet ajaib, pertahanan pulau dengan jaringan listrik, bertahan hidup di alam liar, balapan kart di Bay Circuit, bersepeda di pesisir bersama pelikan, mainan meja yang diadaptasi menjadi gim 3D, serta Orbital Garden. Klik judul untuk membuka demo atau kode sumber beserta petunjuk menjalankannya.
+Jelajahi **16 gim peramban dan 1 sandbox seni partikel interaktif**: strategi wilayah Tiga Kerajaan, teka-teki kayu yang saling mengunci dan teka-teki balok geser, penggabungan buah yang lentur, penerbangan satu tombol, pertempuran karpet ajaib, pertahanan pulau dengan jaringan listrik, bertahan hidup di alam liar, menangkap ikan di bawah air, mengelola restoran sushi, dan bertani di pulau, balapan kart di Bay Circuit, bersepeda di pesisir bersama pelikan, mainan meja yang diadaptasi menjadi gim 3D, serta Orbital Garden. Klik judul untuk membuka demo atau kode sumber beserta petunjuk menjalankannya.
 
 Katalog diperbarui: **2026-09-08**. Informasi penggunaan model berdasarkan pernyataan kreator atau pengirim; detail yang belum dikonfirmasi ditandai pada setiap entri. Tanggal ini menunjukkan pemeliharaan katalog, bukan pengujian ulang seluruh gim.
 
@@ -131,6 +131,13 @@ Pertahanan menara, kartu strategi, pengelolaan, pembangunan, dan sandbox simulas
   - GPT-6 Astra: [Pernyataan pengaju](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/26) — Menurut pengaju, seluruh pengembangan dilakukan oleh GPT-6 Astra.
   - Materi pengembangan: Kode sumber publik maupun catatan pengembangan terpisah tidak disediakan.
   - Pratinjau: ![Tangkapan layar 永恒荒野 dari Issue #26: karakter di samping api unggun di hutan, dengan inventaris, indikator bertahan hidup, dan peta mini.](assets/screenshots/eternal-wilderness/gameplay.jpg)
+
+- **[潜水员戴夫 / Dave the Diver](https://dave-2cm.pages.dev/)** — Rekreasi Dave the Diver untuk peramban yang memadukan penangkapan ikan bawah air dengan harpun, pengelolaan restoran sushi, dan pertanian di pulau.
+  - Kreator: dudu
+  - Platform: Peramban; antarmuka berbahasa Mandarin dengan kontrol mouse dan papan ketik. Akses dan dimulainya penyelaman telah diperiksa tanpa login atau pembayaran.
+  - GPT-6 Astra: [Pernyataan pengaju](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/41) — Menurut pengaju, seluruh pengembangan dilakukan oleh GPT-6 Astra.
+  - Materi pengembangan: Kode sumber publik maupun catatan pengembangan terpisah tidak disediakan.
+  - Pratinjau: ![Permainan rekreasi Dave the Diver: penyelam di antara ikan, dengan indikator oksigen dan kedalaman serta inventaris hasil tangkapan.](assets/screenshots/dave-the-diver/gameplay.jpg)
 
 <a id="rpg-adventures"></a>
 

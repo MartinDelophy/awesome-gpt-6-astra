@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 16](https://img.shields.io/badge/Cases-16-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 17](https://img.shields.io/badge/Cases-17-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **GPT-6 Astra で作られた、遊んでみたくなるゲームを集めています。**
 
@@ -22,7 +22,7 @@
 
 ## はじめに
 
-現在、**ブラウザーゲーム 15 作品と、インタラクティブなパーティクルアートのサンドボックス 1 作品**を掲載しています。三国志の領土戦略、木製の組木パズルとスライドパズル、柔らかい果物の合成、ワンボタン飛行、魔法の絨毯での戦闘、島の電力網を使うタワーディフェンス、荒野でのサバイバル、海湾サーキットのカートレース、ペリカンとの海岸サイクリング、卓上玩具の 3D ゲーム化、そして Orbital Garden。作品名をクリックすると、デモまたは実行手順付きのソースコードが開きます。
+現在、**ブラウザーゲーム 16 作品と、インタラクティブなパーティクルアートのサンドボックス 1 作品**を掲載しています。三国志の領土戦略、木製の組木パズルとスライドパズル、柔らかい果物の合成、ワンボタン飛行、魔法の絨毯での戦闘、島の電力網を使うタワーディフェンス、荒野でのサバイバル、水中での魚捕り、寿司店経営と島での農作業、海湾サーキットのカートレース、ペリカンとの海岸サイクリング、卓上玩具の 3D ゲーム化、そして Orbital Garden。作品名をクリックすると、デモまたは実行手順付きのソースコードが開きます。
 
 一覧更新日：**2026-09-08**。モデルの利用情報は作者または投稿者の説明に基づき、未確認の内容は各項目に明記しています。この日付は一覧の更新日であり、全作品を再度プレイテストした日ではありません。
 
@@ -131,6 +131,13 @@
   - GPT-6 Astra: [投稿者の説明](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/26) — 投稿者によると、開発全体を GPT-6 Astra が担当しました。
   - 開発資料: 公開ソースコードや別途の開発記録は提供されていません。
   - プレビュー: ![Issue #26 に添付された永恒荒野の画面。森の焚き火のそばに立つキャラクターと、所持品、生存状態、ミニマップを表示しています。](assets/screenshots/eternal-wilderness/gameplay.jpg)
+
+- **[潜水员戴夫 / Dave the Diver](https://dave-2cm.pages.dev/)** — Dave the Diver をブラウザーで再現した作品。水中での銛を使った魚捕り、寿司店の経営、島での農作業を組み合わせています。
+  - 作者: dudu
+  - 対応環境: ブラウザー。中国語の画面で、マウスとキーボードに対応。ログインや支払いなしでアクセスし、潜水を開始できることを確認しました。
+  - GPT-6 Astra: [投稿者の説明](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/41) — 投稿者によると、開発全体を GPT-6 Astra が担当しました。
+  - 開発資料: 公開ソースコードや別途の開発記録は提供されていません。
+  - プレビュー: ![Dave the Diver 再現作品のプレイ画面。魚群の中のダイバーと、酸素、深度、収穫した魚の所持欄を表示しています。](assets/screenshots/dave-the-diver/gameplay.jpg)
 
 <a id="rpg-adventures"></a>
 
