@@ -20,7 +20,7 @@ Playful ideas, games you can try, and development stories that inspire the next 
 
 ## Start here
 
-Explore **58 games and interactive projects**: Three Kingdoms territory strategy, wooden interlocking and sliding puzzles, soft-body fruit merging, one-tap flight, magic-carpet combat, a five-stage bullet-hell shooter, island power-grid tower defense, wilderness survival, underwater fishing, sushi-restaurant management and island farming, Bay Circuit kart racing, coastal cycling with a pelican, tabletop toys turned into 3D games, 3D home decoration, and Orbital Garden. Click a title to play directly in your browser.
+Explore **59 games and interactive projects**: Three Kingdoms territory strategy, wooden interlocking and sliding puzzles, soft-body fruit merging, procedural city-building 2048, one-tap flight, magic-carpet combat, a five-stage bullet-hell shooter, island power-grid tower defense, wilderness survival, underwater fishing, sushi-restaurant management and island farming, Bay Circuit kart racing, coastal cycling with a pelican, tabletop toys turned into 3D games, 3D home decoration, and Orbital Garden. Click a title to play directly in your browser.
 
 Catalog updated: **2026-09-09**. Model attribution is based on creator or submitter statements; unconfirmed details are marked in individual entries. This date records catalog maintenance, not a new play-test of every game.
 
@@ -151,6 +151,13 @@ Logic puzzles, physics challenges, word games, and clever little mechanisms.
   - Model participation: [Creation record](works/sunjing-puzzles/CREATION.md) — Iterative Codex work on game design, procedural 3D visuals, rules, solver and tests; exact GPT-6 Astra attribution awaits creator confirmation (draft submission).
   - Resources: [Source and setup](works/sunjing-puzzles/README.md) · [Requests](works/sunjing-puzzles/PROMPTS.md) · Built with: React, Vinext/Vite and Three.js.
   - Preview: ![Sunjing's six-piece wooden lock on a green 3D workbench, with numbered pieces and extraction controls.](assets/screenshots/sunjing-puzzles/gameplay.jpg)
+
+- **[CityMaker](https://citymaker.0to1app.com)** — A 2048 puzzle played on a 4×4 city block: merge matching buildings to climb eleven architectural tiers per city, from traditional homes to a recognizable skyline, across twelve cities with a view you can rotate 45° at a time.
+  - Creator: [Derek Wang](https://github.com/derek-wangpch)
+  - Platform: Desktop and mobile browsers with WebGL; English, Simplified Chinese and Traditional Chinese. Free, no login or API key; progress is saved per city in the current browser and can be installed to the iOS Home Screen.
+  - GPT-6 Astra: [Creation record](https://github.com/derek-wangpch/OpenCityMaker/blob/master/docs/CREATION.md) — The creator reports using GPT-6 Astra to generate the procedural geometry for all 132 building models, through a reference-driven workflow of multi-view research, silhouette-first massing and screenshot validation; not a one-shot test.
+  - Resources: [Source and setup](https://github.com/derek-wangpch/OpenCityMaker) · [Verification notes](https://github.com/derek-wangpch/OpenCityMaker/blob/master/QA.md) · Built with: React, TypeScript, Vite and Three.js; all 132 building models are original procedural geometry.
+  - Preview: ![CityMaker gameplay: a Hong Kong board of low-poly 3D buildings on a 4×4 grid, with score, city rail and rotation controls.](assets/screenshots/citymaker/gameplay.png)
 
 ### Strategy & simulation
 
