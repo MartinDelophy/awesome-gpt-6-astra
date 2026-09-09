@@ -6,7 +6,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 17](https://img.shields.io/badge/Cases-17-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 18](https://img.shields.io/badge/Cases-18-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **مجموعة من الألعاب الممتعة المصنوعة باستخدام GPT-6 Astra.**
 
@@ -24,9 +24,9 @@
 
 ## ابدأ من هنا
 
-استكشف **16 لعبة للمتصفح وبيئة تفاعلية واحدة لفن الجسيمات**: استراتيجية السيطرة على الأراضي في عصر الممالك الثلاث، ألغاز خشبية متشابكة وألغاز الكتل المنزلقة، دمج الفواكه المرنة، والطيران بزر واحد، والقتال على بساط سحري، والدفاع عن جزيرة بشبكة كهربائية، والبقاء في البرية، وصيد الأسماك تحت الماء وإدارة مطعم سوشي والزراعة على جزيرة، وسباقات الكارت على حلبة الخليج، وركوب الدراجة مع بجع على الساحل، وألعاب طاولة محوّلة إلى ألعاب ثلاثية الأبعاد، وOrbital Garden. انقر على اسم العمل لفتح التجربة أو الشفرة المصدرية مع تعليمات التشغيل.
+استكشف **17 لعبة للمتصفح وبيئة تفاعلية واحدة لفن الجسيمات**: استراتيجية السيطرة على الأراضي في عصر الممالك الثلاث، ألغاز خشبية متشابكة وألغاز الكتل المنزلقة، دمج الفواكه المرنة، والطيران بزر واحد، والقتال على بساط سحري، والدفاع عن جزيرة بشبكة كهربائية، والبقاء في البرية، وصيد الأسماك تحت الماء وإدارة مطعم سوشي والزراعة على جزيرة، وسباقات الكارت على حلبة الخليج، وركوب الدراجة مع بجع على الساحل، وألعاب طاولة محوّلة إلى ألعاب ثلاثية الأبعاد، وOrbital Garden. انقر على اسم العمل لفتح التجربة أو الشفرة المصدرية مع تعليمات التشغيل.
 
-تحديث القائمة: **2026-09-08**. تستند معلومات استخدام النموذج إلى تصريحات المؤلفين أو مقدّمي الأعمال؛ وتُوضّح التفاصيل غير المؤكدة في كل بند. يشير هذا التاريخ إلى تحديث القائمة، وليس إلى إعادة اختبار جميع الألعاب.
+تحديث القائمة: **2026-09-09**. تستند معلومات استخدام النموذج إلى تصريحات المؤلفين أو مقدّمي الأعمال؛ وتُوضّح التفاصيل غير المؤكدة في كل بند. يشير هذا التاريخ إلى تحديث القائمة، وليس إلى إعادة اختبار جميع الألعاب.
 
 - **تبحث عن لعبة؟** تصفح الأنواع أدناه.
 - **صنعت لعبة؟** [أرسل مشروعك](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) مع رابط للعب أو للشفرة المصدرية، ولقطة شاشة فعلية من اللعبة، وشرح لكيفية استخدامك GPT-6 Astra.
@@ -68,6 +68,12 @@
   - GPT-6 Astra: [README](works/thunderfall/README.md#创作与许可) — بحسب المؤلف، طُوّرت باستخدام GPT-6 Astra ultra مع تحسينات تكرارية.
   - [README](works/thunderfall/README.md) · [Prompt](works/thunderfall/PROMPT.md) · JavaScript, Canvas 2D, Web Audio.
   - معاينة: ![THUNDERFALL — لقطة من اللعبة](assets/screenshots/thunderfall/gameplay.jpg)
+
+- **[IRON BASTION / 钢铁防线](https://iron-bastion.zecoba.workers.dev/)** — دافع عن منارة ضد موجات من دبابات العدو في ست مناطق ثلاثية الأبعاد، مع جدران طوبية قابلة للتدمير واندفاع سريع ونبضة كهرومغناطيسية.
+  - المؤلف: [chat01.ai](https://linux.do/u/bandaot)
+  - المنصة: متصفح يدعم WebGL 2 بواجهة صينية؛ يشرح الدليل التحكم بلوحة المفاتيح والفأرة واللمس. تم بدء القتال دون تسجيل الدخول أو الدفع.
+  - GPT-6 Astra: استخدام GPT-6 Astra ودوره بانتظار تأكيد المؤلف.
+  - معاينة: ![IRON BASTION / 钢铁防线 — لقطة من اللعبة](assets/screenshots/iron-bastion/gameplay.jpg)
 
 <a id="puzzles"></a>
 

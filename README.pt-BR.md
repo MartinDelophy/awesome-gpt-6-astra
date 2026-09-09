@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 17](https://img.shields.io/badge/Cases-17-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 18](https://img.shields.io/badge/Cases-18-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Uma coleção de jogos interessantes feitos com GPT-6 Astra.**
 
@@ -22,9 +22,9 @@ Esta página é uma tradução do [README em inglês](README.md). Consulte o ori
 
 ## Comece por aqui
 
-Explore **16 jogos de navegador e 1 ambiente interativo de arte com partículas**: estratégia territorial dos Três Reinos, quebra-cabeças de madeira com encaixes e peças deslizantes, fusão de frutas deformáveis, voo com um toque, combates em tapete mágico, defesa de uma ilha com uma rede elétrica, sobrevivência na natureza, pesca submarina, gestão de um restaurante de sushi e cultivo em uma ilha, corridas de kart no Bay Circuit, ciclismo pela costa com um pelicano, brinquedos de mesa adaptados para 3D e Orbital Garden. Clique em um título para abrir a demonstração ou o código-fonte com instruções de execução.
+Explore **17 jogos de navegador e 1 ambiente interativo de arte com partículas**: estratégia territorial dos Três Reinos, quebra-cabeças de madeira com encaixes e peças deslizantes, fusão de frutas deformáveis, voo com um toque, combates em tapete mágico, defesa de uma ilha com uma rede elétrica, sobrevivência na natureza, pesca submarina, gestão de um restaurante de sushi e cultivo em uma ilha, corridas de kart no Bay Circuit, ciclismo pela costa com um pelicano, brinquedos de mesa adaptados para 3D e Orbital Garden. Clique em um título para abrir a demonstração ou o código-fonte com instruções de execução.
 
-Catálogo atualizado: **2026-09-08**. O uso do modelo é informado com base nas declarações dos criadores ou responsáveis pelas submissões; detalhes não confirmados são sinalizados em cada entrada. Esta data registra a manutenção do catálogo, não um novo teste de todos os jogos.
+Catálogo atualizado: **2026-09-09**. O uso do modelo é informado com base nas declarações dos criadores ou responsáveis pelas submissões; detalhes não confirmados são sinalizados em cada entrada. Esta data registra a manutenção do catálogo, não um novo teste de todos os jogos.
 
 - **Procurando algo para jogar?** Explore os gêneros abaixo.
 - **Criou um jogo?** [Envie seu projeto](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) com um link para jogar ou acessar o código-fonte, uma captura de tela do jogo e uma descrição de como você usou GPT-6 Astra.
@@ -66,6 +66,12 @@ Jogos de tiro, luta, sobrevivência, ritmo e qualquer experiência que dê vonta
   - GPT-6 Astra: [README](works/thunderfall/README.md#创作与许可) — Segundo o criador, desenvolvido com GPT-6 Astra ultra por meio de várias iterações.
   - [README](works/thunderfall/README.md) · [Prompt](works/thunderfall/PROMPT.md) · JavaScript, Canvas 2D, Web Audio.
   - Prévia: ![THUNDERFALL — Captura do jogo](assets/screenshots/thunderfall/gameplay.jpg)
+
+- **[IRON BASTION / 钢铁防线](https://iron-bastion.zecoba.workers.dev/)** — Defenda um sinalizador contra ondas de tanques inimigos em seis setores 3D, com paredes de tijolos destrutíveis, um avanço rápido e um pulso eletromagnético.
+  - Criador: [chat01.ai](https://linux.do/u/bandaot)
+  - Plataforma: Navegador com WebGL 2 e interface em chinês; o manual descreve controles por teclado, mouse e toque. Combate iniciado sem login ou pagamento.
+  - GPT-6 Astra: O uso de GPT-6 Astra e seu papel aguardam confirmação do criador.
+  - Prévia: ![IRON BASTION / 钢铁防线 — Captura do jogo](assets/screenshots/iron-bastion/gameplay.jpg)
 
 <a id="puzzles"></a>
 

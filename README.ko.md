@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 17](https://img.shields.io/badge/Cases-17-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 18](https://img.shields.io/badge/Cases-18-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **GPT-6 Astra로 만든 흥미로운 게임을 모았습니다.**
 
@@ -22,9 +22,9 @@
 
 ## 여기서 시작하기
 
-현재 **브라우저 게임 16개와 인터랙티브 파티클 아트 샌드박스 1개**를 소개합니다. 삼국지 영토 전략, 나무 결합 퍼즐과 슬라이딩 퍼즐, 부드러운 과일 합치기, 원버튼 비행, 마법 양탄자 전투, 섬의 전력망을 이용한 타워 디펜스, 야생 생존, 수중 낚시와 초밥집 경영 및 섬 농사, 베이 서킷 카트 레이싱, 펠리컨과 함께하는 해안 자전거 달리기, 탁상 장난감을 옮긴 3D 게임, 그리고 Orbital Garden을 만나 보세요. 작품명을 누르면 데모 또는 실행 안내가 포함된 소스 코드가 열립니다.
+현재 **브라우저 게임 17개와 인터랙티브 파티클 아트 샌드박스 1개**를 소개합니다. 삼국지 영토 전략, 나무 결합 퍼즐과 슬라이딩 퍼즐, 부드러운 과일 합치기, 원버튼 비행, 마법 양탄자 전투, 섬의 전력망을 이용한 타워 디펜스, 야생 생존, 수중 낚시와 초밥집 경영 및 섬 농사, 베이 서킷 카트 레이싱, 펠리컨과 함께하는 해안 자전거 달리기, 탁상 장난감을 옮긴 3D 게임, 그리고 Orbital Garden을 만나 보세요. 작품명을 누르면 데모 또는 실행 안내가 포함된 소스 코드가 열립니다.
 
-목록 업데이트: **2026-09-08**. 모델 사용 정보는 제작자 또는 제출자의 설명을 바탕으로 하며, 미확인 내용은 각 항목에 표시합니다. 이 날짜는 목록 관리 날짜이며 모든 게임을 다시 플레이 테스트한 날짜가 아닙니다.
+목록 업데이트: **2026-09-09**. 모델 사용 정보는 제작자 또는 제출자의 설명을 바탕으로 하며, 미확인 내용은 각 항목에 표시합니다. 이 날짜는 목록 관리 날짜이며 모든 게임을 다시 플레이 테스트한 날짜가 아닙니다.
 
 - **할 게임을 찾고 있나요?** 아래 장르에서 마음에 드는 작품을 찾아보세요.
 - **게임을 만들었나요?** [프로젝트를 제출](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml)할 때 플레이 링크 또는 소스 코드, 실제 게임 화면, GPT-6 Astra를 어떻게 활용했는지에 대한 설명을 첨부해 주세요.
@@ -66,6 +66,12 @@
   - GPT-6 Astra: [README](works/thunderfall/README.md#创作与许可) — 제작자에 따르면 GPT-6 Astra ultra로 제작하고 반복 개선했습니다.
   - [README](works/thunderfall/README.md) · [Prompt](works/thunderfall/PROMPT.md) · JavaScript, Canvas 2D, Web Audio.
   - 미리보기: ![THUNDERFALL — 실제 게임 화면](assets/screenshots/thunderfall/gameplay.jpg)
+
+- **[IRON BASTION / 钢铁防线](https://iron-bastion.zecoba.workers.dev/)** — 6개 전장에서 3D 전차를 조종해 몰려오는 적으로부터 신호탑을 지킵니다. 벽돌 벽을 파괴하고 돌진과 전자기 펄스를 사용할 수 있습니다.
+  - 제작자: [chat01.ai](https://linux.do/u/bandaot)
+  - 플랫폼: WebGL 2 지원 브라우저, 중국어 UI. 설명서에 키보드·마우스 및 터치 조작이 안내되어 있습니다. 로그인이나 결제 없이 전투 시작을 확인했습니다.
+  - GPT-6 Astra: GPT-6 Astra 사용 여부와 담당 범위는 제작자 확인을 기다리고 있습니다.
+  - 미리보기: ![IRON BASTION / 钢铁防线 — 실제 게임 화면](assets/screenshots/iron-bastion/gameplay.jpg)
 
 <a id="puzzles"></a>
 
