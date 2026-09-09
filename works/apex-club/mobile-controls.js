@@ -15,6 +15,8 @@ export function tiltSteering(value,center=0){
 export function createMobileControls({action,active,pause,handheld=isHandheldDevice()}){
   document.documentElement?.classList.toggle('handheld-input',handheld);
   if(!handheld)return {clear(){},update(){},down:()=>false,steer:()=>0};
+  const editable=e=>e.target?.closest?.('input,textarea,[contenteditable="true"]');
+  for(const type of ['contextmenu','selectstart','dragstart'])document.addEventListener(type,e=>{if(!editable(e))e.preventDefault();});
   const held=new Map();let enabled=false,center=null,reading=null,lastSample=0,filtered=0,request=0;
   const status=document.querySelector('#tiltStatus'),toggle=document.querySelector('#tiltToggle');
   const centerButton=document.querySelector('#mobileCenter');centerButton.hidden=true;
@@ -27,7 +29,7 @@ export function createMobileControls({action,active,pause,handheld=isHandheldDev
     button.addEventListener('pointerdown',e=>{
       e.preventDefault();if(!active()||button.getAttribute('aria-disabled')==='true')return;
       button.setPointerCapture(e.pointerId);held.set(e.pointerId,button.dataset.drive);paintHeld();
-      if(['nitro','emp'].includes(button.dataset.drive))action(button.dataset.drive);
+      if(['nitro','emp','mini'].includes(button.dataset.drive))action(button.dataset.drive);
     });
     button.addEventListener('pointermove',e=>{
       if(!steering||!button.hasPointerCapture(e.pointerId))return;

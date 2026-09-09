@@ -18,12 +18,13 @@ test('multi-touch steering slides independently of drift and clears on cancellat
  const drive=['left','right','drift','nitro','emp','throttle','brake'].map(name=>Object.assign(make(),{dataset:{drive:name},parentElement:{getBoundingClientRect:()=>({left:0,right:180,top:100,bottom:190})}}));
  const nodes=new Map(),get=s=>{if(!nodes.has(s))nodes.set(s,make());return nodes.get(s);};
  const query=s=>s.startsWith('[data-drive=')?drive.find(b=>s.includes('"'+b.dataset.drive+'"')):get(s);
- let actions=[];
+ let actions=[];const documentEvents={};
  try{
-  Object.defineProperty(globalThis,'document',{configurable:true,value:{querySelector:query,querySelectorAll:s=>s==='[data-drive]'?drive:[],addEventListener(){}}});
+  Object.defineProperty(globalThis,'document',{configurable:true,value:{querySelector:query,querySelectorAll:s=>s==='[data-drive]'?drive:[],addEventListener(t,f){documentEvents[t]=f;}}});
   Object.defineProperty(globalThis,'screen',{configurable:true,value:{orientation:{angle:90,addEventListener(){}}}});
   Object.defineProperty(globalThis,'window',{configurable:true,value:{}});Object.defineProperty(globalThis,'addEventListener',{configurable:true,value:()=>{}});
   const controls=createMobileControls({handheld:true,active:()=>true,action:x=>actions.push(x),pause(){}});
+  for(const type of ['contextmenu','selectstart','dragstart']){let prevented=false;documentEvents[type]({target:{closest:()=>null},preventDefault(){prevented=true;}});assert(prevented);prevented=false;documentEvents[type]({target:{closest:()=>({})},preventDefault(){prevented=true;}});assert(!prevented);}
   const fire=(name,type,id,x=30,y=150)=>drive.find(b=>b.dataset.drive===name).listeners[type]({pointerId:id,clientX:x,clientY:y,preventDefault(){}});
   fire('left','pointerdown',1);fire('drift','pointerdown',2);
   assert.equal(controls.steer(.016),-1);assert(controls.down('drift'));

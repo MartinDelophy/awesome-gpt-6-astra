@@ -1,3 +1,4 @@
+import {JUMP_RAMPS,RAMP_LENGTH,rampHeight,createStunts,offerDrift,stepStunts,boostOpportunity,fireStunt} from './stunt-model.js';
 import {createShowroom,createCitadel} from './scene-design.js';
 import {createMobileControls,isHandheldDevice} from './mobile-controls.js';
 import {createArmoredKart} from './armored-kart.js';
@@ -44,7 +45,7 @@ let driftLatched=false,lastSteer=0;
 const audio=createRaceAudio();
 let reducedMotion=matchMedia('(prefers-reduced-motion: reduce)').matches;
 let helpOpen=false,simulationTime=0,race=null,selectedMode='team',selectedTeam='blue';
-const mobile=createMobileControls({active:()=>race?.phase==='racing'&&!helpOpen,action:name=>actions.add(name==='nitro'?'ShiftLeft':'KeyQ'),pause:()=>toggleControls(true)});
+const mobile=createMobileControls({active:()=>race?.phase==='racing'&&!helpOpen,action:name=>actions.add(name==='nitro'?'ShiftLeft':name==='mini'?'KeyE':'KeyQ'),pause:()=>toggleControls(true)});
 function toggleControls(open=!helpOpen){
   if(!race || race.phase==='finished')return;
   helpOpen=open;keys.clear();actions.clear();mobile.clear();driftLatched=false;document.querySelector('#controlsPanel').hidden=!open;
@@ -57,6 +58,7 @@ document.querySelector('#controlsToggle').addEventListener('click',()=>toggleCon
 document.querySelector('#startDriving').addEventListener('click',()=>toggleControls(false));
 document.querySelector('#recoverCar').addEventListener('click',()=>{
   if(!race||race.racers[0].finishTime!==null)return;
+  Object.assign(stunts,createStunts());
   const f=trackFrame(state.t);Object.assign(state,{x:f.p.x,z:f.p.z,heading:Math.atan2(f.tan.x,f.tan.z),vx:0,vz:0,speed:0,reverseHold:0,wallContact:0,lane:0,laneVel:0,nitro:0,miniTurbo:0});
   state.drift={active:false,charge:0,direction:0};race.racers[0].lane=0;cameraReady=false;
   toggleControls(false);ping('CAR RECOVERED / NO PROGRESS GAIN','#ffd38b');
@@ -78,7 +80,7 @@ addEventListener('keydown', e => {
   if(['KeyA','ArrowLeft'].includes(e.code))lastSteer=-1;
   if(['KeyD','ArrowRight'].includes(e.code))lastSteer=1;
   if(e.code==='Space'&&!e.repeat&&document.querySelector('#toggleDrift').checked)driftLatched=!driftLatched;
-  if(!e.repeat&&['KeyQ','KeyR','ShiftLeft','ShiftRight'].includes(e.code))actions.add(e.code);
+  if(!e.repeat&&['KeyE','KeyQ','KeyR','ShiftLeft','ShiftRight'].includes(e.code))actions.add(e.code);
   if(['Space','ArrowUp','ArrowDown','ArrowLeft','ArrowRight'].includes(e.code))e.preventDefault();keys.add(e.code);
 });
 addEventListener('keyup',e=>keys.delete(e.code));
@@ -148,6 +150,14 @@ function createTrack(){
   const mesh=new THREE.Mesh(g,m); world.add(mesh); return m;
 }
 const trackMat=createTrack();
+for(const start of JUMP_RAMPS){
+ const positions=[],indices=[];
+ for(let i=0;i<=20;i++){const t=start+RAMP_LENGTH*i/20,f=trackFrame(t);for(const side of [-1,1]){const p=f.p.clone().addScaledVector(f.side,side*37);p.y+=7*i/20+.08;positions.push(p.x,p.y,p.z);}}
+ for(let i=0;i<20;i++){const a=i*2;indices.push(a,a+2,a+1,a+1,a+2,a+3);}
+ const g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.Float32BufferAttribute(positions,3));g.setIndex(indices);g.computeVertexNormals();
+ const mesh=new THREE.Mesh(g,new THREE.MeshStandardMaterial({color:0xc39853,metalness:.2,roughness:.7,side:THREE.DoubleSide}));world.add(mesh);
+ for(const u of [.15,.55,.90]){const f=trackFrame(start+RAMP_LENGTH*u),mark=new THREE.Mesh(new THREE.BoxGeometry(68,.12,1.5),new THREE.MeshBasicMaterial({color:0xffe3a2}));mark.position.copy(f.p);mark.position.y+=7*u+.25;mark.quaternion.setFromUnitVectors(new THREE.Vector3(0,0,1),f.tan);world.add(mark);}
+}
 
 const bayTrackObjects=[];
 const beforeBayTrack=new Set(world.children);
@@ -295,6 +305,7 @@ function animateCraft(craft,time,power,boosting=false,drifting=false,steer=0){
 }
 const player=makeCraft(craftDefs[craftIndex].color,1); scene.add(player);
 
+const stunts=createStunts();
 const state={yaw:0,hop:0,t:0,lane:0,laneVel:0,speed:0,reverseHold:0,wallContact:0,boost:1/3,shield:1,weapon:1,lap:1,rank:1,hit:0,bank:0,miniTurbo:0,nitro:0,drift:{active:false,charge:0,direction:0}};
 
 const raceEffects=createRaceEffects(scene);
@@ -349,6 +360,7 @@ function setCraft(i){
   document.querySelector('#kartStats').innerHTML=stats.map(([label,value,max,text])=>`<div class="kart-stat"><span>${label}</span><i><b style="width:${Math.min(100,value/max*100)}%"></b></i><strong>${text}</strong></div>`).join('');
 }
 function reset(){
+  Object.assign(stunts,createStunts());
   scene.add(player);
   audio.start();raceEffects.reset();driftLatched=false;lastSteer=0;keys.clear();actions.clear();mobile.clear();helpOpen=false;simulationTime=0;cameraReady=false;qWas=false;
   race=createRace(selectedMode,selectedTeam);
@@ -382,15 +394,18 @@ function updatePlayer(dt,time){
   const f=trackFrame(state.t),future=trackFrame(state.t+.015);
   const turn=f.tan.clone().cross(future.tan).dot(f.normal);
   const blocked=Math.abs(state.lane)>31.8&&state.laneVel*state.lane>0;
-  const wasDrifting=state.drift.active;
-  const reward=updateDrift(state.drift,{held:air,steer:driftSteer,speed:state.speed,turn,blocked},dt*d.drift);
+  const wasDrifting=state.drift.active;const driftDirection=state.drift.direction;
+  const reward=updateDrift(state.drift,{held:air&&!stunts.airborne,steer:driftSteer,speed:state.speed,turn,blocked:blocked||stunts.airborne},dt*d.drift);
   if(!wasDrifting&&state.drift.active)state.hop=.24;
-  if(reward){boosted=true;state.miniTurbo=reward;state.boost=Math.min(1,state.boost+(reward>1?.34:.17));ping(reward>1?'SUPER MINI TURBO':'MINI TURBO','#ffce73');}
+  if(reward){offerDrift(stunts,reward,steer*driftDirection<0);state.boost=Math.min(1,state.boost+(reward>1?.34:.17));}
+  if(racing&&actions.has('KeyE')){const spray=fireStunt(stunts);if(spray){state.miniTurbo=Math.max(state.miniTurbo,spray.duration);boosted=true;ping(`${spray.kind}${spray.combo>1?' / CHAIN '+spray.combo:''}`,'#ffce73');}}
   if(racing){
-    stepHandling(state,{steer,throttle,brake,boosting:boosted},d,dt);
+    stepHandling(state,{steer:stunts.airborne?steer*.35:steer,throttle,brake,boosting:boosted},d,dt);
     const oldLap=state.lap;
     const road=projectTrack(state.x,state.z,roadSamples,state.roadIndex);state.roadIndex=road.index;
-    if(resolveTrackContact(state,road)){state.nitro=0;state.miniTurbo=0;boosted=false;}
+    const wallHit=resolveTrackContact(state,road);
+    if(wallHit){state.nitro=0;state.miniTurbo=0;boosted=false;}
+    stepStunts(stunts,{ground:trackFrame(road.t).p.y,ramp:rampHeight(road.t),speed:state.speed,dt,blocked:wallHit});
     const delta=progressDelta(state.t,road.t);
     // Progress measures displacement, including backwards travel, never engine speed.
     advanceRacer(race,r,delta,dt);
@@ -400,7 +415,7 @@ function updatePlayer(dt,time){
   }
   if(r?.finishTime!==null&&r?.finishTime!==undefined){state.speed=0;state.vx=0;state.vz=0;}
   const frame=trackFrame(state.t);
-  player.position.set(state.x,frame.p.y+frame.side.y*state.lane+3.7+Math.sin(state.hop/.24*Math.PI)*1.4,state.z);
+  player.position.set(state.x,(stunts.y??frame.p.y)+frame.side.y*state.lane+3.7+(stunts.airborne?0:Math.sin(state.hop/.24*Math.PI)*1.4),state.z);
   const forward=new THREE.Vector3(Math.sin(state.heading),0,Math.cos(state.heading));
   forward.addScaledVector(frame.normal,-forward.dot(frame.normal)).normalize();
   const vehicleSide=new THREE.Vector3().crossVectors(forward,frame.normal).normalize();
@@ -569,6 +584,10 @@ let lastRaceUI=-1;
 function updateRaceHUD(){
   if(!race)return;
   mobile.update(state);
+  const opportunity=boostOpportunity(stunts),miniButton=document.querySelector('[data-drive="mini"]');
+  miniButton.setAttribute('aria-disabled',String(!opportunity));miniButton.classList.toggle('ready',!!opportunity);
+  document.querySelector('#miniState').textContent=opportunity||'WAIT FOR WINDOW';
+  const prompt=document.querySelector('#stuntPrompt');prompt.hidden=!opportunity;prompt.textContent=opportunity+' · '+(mobileDevice?'TAP MINI':'PRESS E');
   document.body.classList.toggle('drifting',state.drift.active);document.body.classList.toggle('charged',state.drift.charge>.78);
   document.querySelector('#boostValue').textContent=`${Math.floor(state.boost*3+.01)} / 3`;
   document.querySelector('#driftFill').style.width=`${state.drift.charge*100}%`;
@@ -576,7 +595,7 @@ function updateRaceHUD(){
   document.querySelector('#boostCountdown').style.transform=`scaleX(${state.nitro>0?state.nitro/2.1:state.miniTurbo/1.5})`;
   document.querySelector('#boostTitle').textContent=state.nitro>0?'NITRO':state.miniTurbo>0?'MINI TURBO':'TURBO';
   document.querySelector('#driftLabel').textContent=state.nitro>0?'NITRO BOOST':state.miniTurbo>0?'MINI TURBO':state.drift.active?(state.drift.charge>=.78?'SUPER TURBO READY':state.drift.charge>=.32?'TURBO READY':'DRIFT / CHARGING'):(matchMedia('(pointer:coarse), (max-width:950px)').matches?'HOLD DRIFT + STEER':'HOLD SPACE + STEER');
-  document.querySelector('#driftHint').textContent=state.drift.charge>.78?(document.querySelector('#toggleDrift').checked?'Super turbo ready · Tap SPACE':'Super turbo ready · Release SPACE'):state.drift.charge>.32?'Turbo ready · Keep charging to upgrade':(document.querySelector('#toggleDrift').checked?'Tap SPACE again to release boost':'Hold SPACE to slide · Release to boost');
+  document.querySelector('#driftHint').textContent=state.drift.charge>.78?(document.querySelector('#toggleDrift').checked?'Super turbo ready · Tap SPACE':'Super turbo ready · Release SPACE'):state.drift.charge>.32?'Turbo ready · Keep charging to upgrade':(document.querySelector('#toggleDrift').checked?'Tap SPACE again to release boost':'Release drift, then press E to boost');
   if(Math.abs(race.elapsed-lastRaceUI)<.1&&race.phase==='racing')return;lastRaceUI=race.elapsed;
   const ordered=standings(race),scores=teamScores(race);
   document.querySelector('#blueScore').textContent=scores.blue;document.querySelector('#redScore').textContent=scores.red;
@@ -626,7 +645,7 @@ function loop(){
   }else{
     let meta;const steps=Math.max(1,Math.ceil(dt/(1/120))),step=dt/steps;
     race.elapsed-=dt;
-    for(let i=0;i<steps;i++){race.elapsed+=step;meta=updatePlayer(step,race.elapsed);updateAI(step,race.elapsed);actions.delete('ShiftLeft');actions.delete('ShiftRight');}
+    for(let i=0;i<steps;i++){race.elapsed+=step;meta=updatePlayer(step,race.elapsed);updateAI(step,race.elapsed);actions.delete('ShiftLeft');actions.delete('ShiftRight');actions.delete('KeyE');}
     audio.update(state.speed/650,state.drift.active,meta.boosting,race.phase==='racing'&&race.racers[0].finishTime===null);
     if(dt>0&&race.racers[0].finishTime===null){updatePickups(dt,time);updateCombat(dt);}
     updateCamera(elapsed,meta);updateSpeedFX(time,meta);updateHUD();updateRaceHUD();raceEffects.update(dt,player,state,meta.f,meta.boosting);
