@@ -1,3 +1,4 @@
+import {createShowroom,createCitadel} from './scene-design.js';
 import {createMobileControls,isHandheldDevice} from './mobile-controls.js';
 import {createArmoredKart} from './armored-kart.js';
 import {stepHandling, projectTrack, resolveTrackContact, progressDelta, DISTANCE_SCALE, DISPLAY_SPEED} from './driving-model.js';
@@ -119,10 +120,10 @@ function createTrack(){
   const g=new THREE.BufferGeometry(); g.setAttribute('position',new THREE.Float32BufferAttribute(pos,3)); g.setAttribute('uv',new THREE.Float32BufferAttribute(uv,2)); g.setIndex(idx); g.computeVertexNormals();
   const m=new THREE.ShaderMaterial({
     side:THREE.DoubleSide,
-    uniforms:{time:{value:0},speed:{value:0}},
+    uniforms:{time:{value:0},speed:{value:0},citadel:{value:0}},
     vertexShader:`varying vec2 vUv; varying vec3 vPos; void main(){vUv=uv;vPos=position;gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);}`,
     fragmentShader:`
-      varying vec2 vUv; varying vec3 vPos; uniform float time; uniform float speed;
+      varying vec2 vUv; varying vec3 vPos; uniform float time; uniform float speed; uniform float citadel;
       float line(float x,float w){return 1.-smoothstep(0.,w,abs(fract(x)-.5));}
       void main(){
         float edge=1.-smoothstep(.009,.022,min(vUv.x,1.-vUv.x));
@@ -137,6 +138,10 @@ function createTrack(){
         base+=edge*vec3(.1,.32,.38)*.45;
         float marker=line(vUv.y*.33,.09)*step(.93,abs(vUv.x-.5)*2.);
         base+=marker*vec3(.95,.28,.08);
+        vec2 brick=vec2(vUv.x*12.+mod(floor(vUv.y*3.),2.)*.5,vUv.y*3.);
+        float mortar=step(.94,fract(brick.x))+step(.93,fract(brick.y));
+        vec3 paving=vec3(.32,.34,.31)+grain*.04-mortar*.06;
+        base=mix(base,paving,citadel);
         gl_FragColor=vec4(base,1.);
       }`
   });
@@ -144,6 +149,8 @@ function createTrack(){
 }
 const trackMat=createTrack();
 
+const bayTrackObjects=[];
+const beforeBayTrack=new Set(world.children);
 // Edge rails + cathedral ribs.
 const railMat=new THREE.MeshBasicMaterial({color:0xc3f3f1});
 const magMat=new THREE.MeshBasicMaterial({color:0xffa33e});
@@ -168,6 +175,7 @@ for(let i=0;i<240;i++){
   }
 }
 
+bayTrackObjects.push(...world.children.filter(o=>!beforeBayTrack.has(o)));
 // Strange world below: luminous storm-ocean + impossible monoliths.
 const sea=new THREE.Mesh(new THREE.PlaneGeometry(12000,12000,180,180),new THREE.ShaderMaterial({
   side:THREE.DoubleSide,transparent:true,
@@ -341,6 +349,7 @@ function setCraft(i){
   document.querySelector('#kartStats').innerHTML=stats.map(([label,value,max,text])=>`<div class="kart-stat"><span>${label}</span><i><b style="width:${Math.min(100,value/max*100)}%"></b></i><strong>${text}</strong></div>`).join('');
 }
 function reset(){
+  scene.add(player);
   audio.start();raceEffects.reset();driftLatched=false;lastSteer=0;keys.clear();actions.clear();mobile.clear();helpOpen=false;simulationTime=0;cameraReady=false;qWas=false;
   race=createRace(selectedMode,selectedTeam);
   msg.textContent='';msg.style.opacity=0;
@@ -350,6 +359,7 @@ function reset(){
   colorKart(player,selectedMode==='team'?TEAM_COLORS[selectedTeam]:craftDefs[craftIndex].color);
   pickups.forEach(p=>{p.active=true;p.m.visible=true;p.respawn=0;});
   document.querySelector('#lobby').hidden=true;document.querySelector('#results').hidden=true;document.querySelector('#controlsPanel').hidden=true;
+  document.querySelector('#controlsToggle').setAttribute('aria-expanded','false');
   document.body.classList.add('in-race');document.querySelector('#countdown').hidden=false;
   document.querySelector('#modeLabel').textContent=selectedMode==='team'?'4V4 AI TEAM RACE':'SOLO / 7 AI RIVALS';
   document.querySelector('#teamScore').hidden=selectedMode!=='team';
@@ -491,6 +501,7 @@ const mapPoints=Array.from({length:161},(_,i)=>{const p=curve.getPointAt(i/160);
 document.querySelector('#mapPath').setAttribute('points',mapPoints);
 document.querySelector('.kart-options').innerHTML=craftDefs.map((d,i)=>`<button data-craft="${i}" aria-pressed="false" style="--kart-color:#${d.color.toString(16).padStart(6,'0')}"><span>${String(i+1).padStart(2,'0')}<i class="kart-swatch"></i></span><strong>${d.name}</strong><small>${d.tag}</small></button>`).join('');
 document.querySelectorAll('[data-craft]').forEach(el=>el.addEventListener('click',()=>setCraft(Number(el.dataset.craft))));
+const beforeBayDecor=new Set(scene.children);
 // A soft sky gradient, sculpted islands and trackside props give the course a readable scale.
 const sky=new THREE.Mesh(new THREE.SphereGeometry(6500,24,16),new THREE.ShaderMaterial({side:THREE.BackSide,depthWrite:false,vertexShader:`varying vec3 vP;void main(){vP=position;gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);}`,fragmentShader:`varying vec3 vP;void main(){float h=normalize(vP).y;vec3 c=mix(vec3(.68,.83,.86),vec3(.16,.43,.64),smoothstep(-.05,.8,h));gl_FragColor=vec4(c,1.);}`}));scene.add(sky);
 const grass=new THREE.MeshStandardMaterial({color:0x7fa98b,roughness:.95});
@@ -534,6 +545,23 @@ for(let i=0;i<34;i++){
   board.position.copy(f.p).addScaledVector(f.side,turn>0?49:-49).addScaledVector(f.normal,11);
   board.quaternion.setFromRotationMatrix(new THREE.Matrix4().makeBasis(f.side.clone().negate(),f.normal,f.tan));scene.add(board);
 }
+const bayDecor=scene.children.filter(o=>!beforeBayDecor.has(o));
+let citadel=null,selectedScene='bay';const showroom=createShowroom();let lobbyTime=0;
+function selectScene(name){
+ selectedScene=name==='citadel'?'citadel':'bay';const ancient=selectedScene==='citadel';
+ if(ancient&&!citadel){citadel=createCitadel(trackFrame,trackLength);scene.add(citadel);}
+ if(citadel)citadel.visible=ancient;
+ [...bayTrackObjects,...bayDecor,sea].forEach(o=>o.visible=!ancient);
+ scene.background.set(ancient?0xc9baa0:0x83bed8);scene.fog.color.set(ancient?0xc9baa0:0x9bcadb);
+ dir.color.set(ancient?0xffd49b:0xffe6c3);
+ trackMat.uniforms.citadel.value=ancient?1:0;
+ document.body.dataset.scene=selectedScene;
+ document.querySelectorAll('[data-scene]').forEach(b=>{const on=b.dataset.scene===selectedScene;b.classList.toggle('active',on);b.setAttribute('aria-pressed',String(on));});
+ document.querySelector('.track-title').textContent=ancient?'Jade Citadel':'Bay Circuit';
+ document.querySelector('#sceneCaption').textContent=ancient?'JADE CITADEL / ANCIENT WALL RUN':'BAY CIRCUIT / COASTAL GRAND PRIX';
+ document.querySelector('.navigation .label').textContent=ancient?'JADE CITADEL / LIVE MAP':'BAY CIRCUIT / LIVE MAP';
+}
+document.querySelectorAll('[data-scene]').forEach(b=>b.addEventListener('click',()=>selectScene(b.dataset.scene)));
 const rivalLabels=document.createElement('div');rivalLabels.id='rivalLabels';document.querySelector('.race-ui').append(rivalLabels);
 const nameTags=ai.map(()=>{const el=document.createElement('div');el.className='rival-tag';rivalLabels.append(el);return el;});
 const mapDots=ai.map(()=>{const circle=document.createElementNS('http://www.w3.org/2000/svg','circle');circle.setAttribute('r','2.7');document.querySelector('#mapRivals').append(circle);return circle;});
@@ -592,10 +620,9 @@ function loop(){
   const time=simulationTime;
   if(!race){
     audio.update(0,false,false,false);
-    const f=trackFrame(0);player.position.copy(f.p).addScaledVector(f.normal,3.7);
-    player.quaternion.setFromRotationMatrix(new THREE.Matrix4().makeBasis(f.side.clone().negate(),f.normal,f.tan));
-    camera.position.copy(player.position).addScaledVector(f.tan,-28).addScaledVector(f.normal,17).addScaledVector(f.side,-22);
-    camera.up.copy(f.normal);camera.lookAt(player.position);chaseLight.position.copy(camera.position);chaseLight.target.position.copy(player.position);
+    lobbyTime+=elapsed;
+    showroom.render(renderer,player,lobbyTime,reducedMotion);
+    return;
   }else{
     let meta;const steps=Math.max(1,Math.ceil(dt/(1/120))),step=dt/steps;
     race.elapsed-=dt;
