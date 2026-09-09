@@ -23,8 +23,8 @@ body:
   - type: input
     id: access
     attributes:
-      label: "试玩或源码入口 / Playable or source link"
-      description: "提供试玩地址，或附有运行说明的公开源码仓库 / A playable link or public source with setup instructions."
+      label: "在线游戏直达入口 / Direct browser game link"
+      description: "链接须直接进入可玩的在线游戏，无需下载、安装、本地搭建或登录；源码请放在更多资料中。 / Link directly to a playable browser game without downloads, installation, local setup or sign-in; put source links under More resources."
       placeholder: "https://…"
     validations:
       required: true
@@ -71,7 +71,7 @@ body:
     id: platform_requirements
     attributes:
       label: "平台与访问条件 / Platform and access requirements"
-      description: "例如：浏览器，免费，无需登录；或 Windows，付费下载 / For example: browser, free, no login; or Windows, paid download."
+      description: "例如：桌面或手机浏览器，无需登录；注明键盘、触屏及 WebGL 要求。 / For example: desktop or mobile browser, no sign-in; disclose keyboard, touch and WebGL requirements."
     validations:
       required: true
   - type: textarea

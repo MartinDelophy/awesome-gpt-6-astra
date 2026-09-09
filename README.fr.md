@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 43](https://img.shields.io/badge/Cases-43-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 42](https://img.shields.io/badge/Cases-42-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Une sélection de jeux intéressants créés avec GPT-6 Astra.**
 
@@ -22,12 +22,12 @@ Cette page traduit le [README anglais](README.md). Consultez l’original pour v
 
 ## Pour commencer
 
-Découvrez **43 jeux et projets interactifs** : stratégie territoriale des Trois Royaumes, puzzles en bois à emboîtement et à glissement, fusion de fruits déformables, vol à une touche, combats sur tapis volant, défense d’île par un réseau électrique, survie en pleine nature, pêche sous-marine, gestion d’un restaurant de sushis et agriculture insulaire, course de karts sur Bay Circuit, balade côtière à vélo avec un pélican, jouets de table adaptés en 3D et Orbital Garden. Cliquez sur un titre pour ouvrir la démo ou le code source avec ses instructions de lancement.
+Découvrez **42 jeux et projets interactifs** : stratégie territoriale des Trois Royaumes, puzzles en bois à emboîtement et à glissement, fusion de fruits déformables, vol à une touche, combats sur tapis volant, défense d’île par un réseau électrique, survie en pleine nature, pêche sous-marine, gestion d’un restaurant de sushis et agriculture insulaire, course de karts sur Bay Circuit, balade côtière à vélo avec un pélican, jouets de table adaptés en 3D et Orbital Garden. Cliquez sur un titre pour jouer directement dans le navigateur.
 
 Mise à jour du catalogue : **2026-09-09**. L’utilisation du modèle est renseignée d’après les déclarations des créateurs ou des contributeurs ; les points non confirmés sont signalés dans chaque fiche. Cette date correspond à la maintenance du catalogue, pas à un nouveau test de tous les jeux.
 
 - **Envie de jouer ?** Parcourez les genres ci-dessous.
-- **Vous avez créé un jeu ?** [Proposez votre projet](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) avec un lien jouable ou son code source, une capture en jeu et une explication de votre utilisation de GPT-6 Astra.
+- **Vous avez créé un jeu ?** [Proposez votre projet](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) avec un lien direct vers le jeu dans le navigateur, une capture en jeu et une explication de votre utilisation de GPT-6 Astra.
 - **Vous avez découvert un beau projet ?** Recommandez une œuvre publique en citant son créateur.
 
 Cette liste est maintenue par la communauté et n’est pas affiliée à OpenAI. Une sélection invite à explorer un projet ; elle ne constitue ni un test de performances ni une recommandation officielle.
@@ -129,12 +129,6 @@ Jeux de tir, de combat, de survie, de rythme et tous ceux qui donnent envie de r
   - Participation du modèle: [Journal de création](works/sunjing-puzzles/CREATION.md) — Travail itératif dans Codex sur la conception du jeu, les visuels 3D procéduraux, les règles, le solveur et les tests ; l’utilisation exacte de GPT-6 Astra attend la confirmation du créateur (soumission provisoire).
   - Ressources: [Code source et instructions de lancement](works/sunjing-puzzles/README.md) · [Demandes](works/sunjing-puzzles/PROMPTS.md) · Technologies: React, Vinext/Vite, Three.js.
   - Aperçu: ![Casse-tête en bois à six pièces de Sunjing sur un établi 3D vert, avec les numéros des pièces et les commandes d’extraction.](assets/screenshots/sunjing-puzzles/gameplay.jpg)
-
-- **[二凤字阵 / Erfeng Glyph Formation](https://2feng.jay6697117.deno.net/)** — Un jeu de défense de tours fondé sur la composition de caractères chinois, avec une interface à l’encre et une progression des personnages.
-  - Créateur: [SteveZhang / jay6697117](https://github.com/jay6697117) · [X](https://x.com/stevezh10058543)
-  - Plateforme: Connexion Google obligatoire. Seul l’écran de connexion a été vérifié ; les captures du créateur illustrent le jeu. Sous WeChat, autorisation dans Chrome recommandée par le créateur.
-  - GPT-6 Astra: [Issue #48](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/48) — Selon le créateur : GPT-6 Astra pour la logique, l’optimisation de la disposition UI et la génération des visuels.
-  - Aperçu: ![二凤字阵 / Erfeng Glyph Formation](https://github.com/user-attachments/assets/f237391f-1924-4607-b2a7-924cdab1dbc4)
 
 <a id="strategy-simulation"></a>
 
@@ -361,7 +355,7 @@ Une recommandation utile explique clairement de quel jeu il s’agit, où l’es
 | --- | --- |
 | Jeu et créateur | Le titre du jeu et un lien vers son créateur ou son équipe d’origine |
 | Intérêt du jeu | Une phrase sur la mécanique principale, sans discours promotionnel creux |
-| Accès | Un lien jouable ou un dépôt public contenant le code source et les instructions de lancement |
+| Accès | Un lien pour jouer dans le navigateur sans téléchargement, installation, configuration locale ni connexion à un compte |
 | Capture en jeu | Au moins une capture réelle du jeu avec une URL d’image accessible publiquement |
 | Plateforme et prérequis | Navigateur / ordinateur / mobile ; précisez les paiements, la connexion ou le matériel particulier requis |
 | Rôle d’Astra | Déclaration du créateur, journal de développement ou document public expliquant la contribution de GPT-6 Astra |

@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 63](https://img.shields.io/badge/Cases-63-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 58](https://img.shields.io/badge/Cases-58-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **A collection of interesting games made with GPT-6 Astra.**
 
@@ -20,14 +20,14 @@ Playful ideas, games you can try, and development stories that inspire the next 
 
 ## Start here
 
-Explore **63 games and interactive projects**: Three Kingdoms territory strategy, wooden interlocking and sliding puzzles, soft-body fruit merging, one-tap flight, magic-carpet combat, a five-stage bullet-hell shooter, island power-grid tower defense, wilderness survival, underwater fishing, sushi-restaurant management and island farming, Bay Circuit kart racing, coastal cycling with a pelican, tabletop toys turned into 3D games, 3D home decoration, and Orbital Garden. Click a title to open its demo or source with setup instructions.
+Explore **58 games and interactive projects**: Three Kingdoms territory strategy, wooden interlocking and sliding puzzles, soft-body fruit merging, one-tap flight, magic-carpet combat, a five-stage bullet-hell shooter, island power-grid tower defense, wilderness survival, underwater fishing, sushi-restaurant management and island farming, Bay Circuit kart racing, coastal cycling with a pelican, tabletop toys turned into 3D games, 3D home decoration, and Orbital Garden. Click a title to play directly in your browser.
 
 Catalog updated: **2026-09-09**. Model attribution is based on creator or submitter statements; unconfirmed details are marked in individual entries. This date records catalog maintenance, not a new play-test of every game.
 
-New additions: [20 games discovered on X](docs/x-high-traffic-games-2026-09-09.md), with a verification table ordered by observed post views.
+New additions: [16 browser games discovered on X](docs/x-high-traffic-games-2026-09-09.md), with a verification table ordered by observed post views.
 
 - **Looking for something to play?** Browse the genres below.
-- **Built a game?** [Submit your project](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) with a playable or source link, a gameplay screenshot, and a description of how you used GPT-6 Astra.
+- **Built a game?** [Submit your project](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) with a direct browser game link, a gameplay screenshot, and a description of how you used GPT-6 Astra.
 - **Found a great project?** Recommend someone else's public work and credit its creator.
 
 This is a community-maintained list with no affiliation to OpenAI. Inclusion is an invitation to explore, not a benchmark or an official endorsement.
@@ -109,31 +109,18 @@ Shooters, fighters, survival games, rhythm games, and anything that invites one 
   - GPT-6 Astra: [X](https://x.com/satrio_d/status/2096022866097758500) — The creator says Astra improved his existing breakdance game and its presentation. [Verification notes](assets/screenshots/breakdance/SOURCE.md).
   - Preview: ![A ragdoll dancer aiming for a foot target in the timed breakdance arena.](assets/screenshots/breakdance/gameplay.jpg)
 
-- **[Emberlight](https://pan.quark.cn/s/70894dcb80cc)** — A 3D roguelike prototype with hammer combat, weapon skills, melee and ranged enemies, and a village under changing light and weather.
-  - Creator: [歸藏 / Guizang](https://x.com/op7418)
-  - Platform: Windows/macOS download via the creator’s Quark share; login or the Quark client may be required. The two ZIP listings were verified; executables were not run.
-  - GPT-6 Astra: [X](https://x.com/op7418/status/2096494840431386950) — The creator reports using Astra with Blender and Godot for the level, models, textures, weather and combat systems. [Verification notes](assets/screenshots/guizang-roguelike/SOURCE.md).
-  - Resources: [Creator release post](https://x.com/op7418/status/2096522760520667414)
-  - Preview: ![Emberlight’s village and courtyard entry screen in the creator’s gameplay recording.](assets/screenshots/guizang-roguelike/gameplay.jpg)
-
 - **[Astral War](https://astralwar.io/)** — A World War II themed browser FPS with soldier and zombie appearances, weapon loadouts, bot training and lobby options.
   - Creator: [Rishi](https://x.com/0xRishi)
   - Platform: Desktop browser, keyboard/mouse; bot training started without sign-in. Multiplayer and controller support were not tested.
   - GPT-6 Astra: [X](https://x.com/0xRishi/status/2096079660605997264) — Rishi reports building Astral War with Astra, Three.js, Meshy and ElevenLabs. The current site also credits Vesper; see the attribution note. [Verification notes](assets/screenshots/astral-war/SOURCE.md).
   - Preview: ![Astral War’s running combat view with weapon and battlefield controls.](assets/screenshots/astral-war/gameplay.jpg)
 
-- **[FLOP CLUB](https://bubucn.com/zh/ai-model-evals/flop-club)** — Dive from three platform heights, perform flips and twists, and aim for a floating ring to improve your landing score.
+- **[FLOP CLUB](https://bubucn.com/ai-model-evals/flop-club/game/index.html)** — Dive from three platform heights, perform flips and twists, and aim for a floating ring to improve your landing score.
   - Creator: [BubuAi](https://x.com/BubuStd)
-  - Platform: Browser; embedded playable HTML with keyboard and documented touch controls. The public game page opened without sign-in.
+  - Platform: Browser; the standalone game starts directly without sign-in or downloads. A dive was started during the 2026-09-09 check; keyboard and documented touch controls.
   - GPT-6 Astra: [X](https://x.com/BubuStd/status/2096402783805354091) — The creator reports a one-prompt Astra Pro build using Three.js. [Verification notes](assets/screenshots/flop-club/SOURCE.md).
-  - Resources: [Standalone demo](https://bubucn.com/ai-model-evals/flop-club/game/index.html)
+  - Resources: [Project introduction](https://bubucn.com/zh/ai-model-evals/flop-club)
   - Preview: ![A diver on the high platform above the target ring and landing controls.](assets/screenshots/flop-club/gameplay.jpg)
-
-- **[NEON SYNC BEAT](https://elemayu.itch.io/neon-sync-beat)** — Hit four lanes with D/F/J/K across four difficulties, using included songs or charts generated locally from an MP4.
-  - Creator: [SDAI / ELEMAYU](https://x.com/SDAI1807097011)
-  - Platform: Browser on itch.io, keyboard recommended; also offers a downloadable HTML build. The embedded player had a connection-reset error in one test.
-  - GPT-6 Astra: [X](https://x.com/SDAI1807097011/status/2096396438758694933) — The creator identifies it as an Astra-made rhythm game and explains how to use personal music videos. [Verification notes](assets/screenshots/neon-sync-beat/SOURCE.md).
-  - Preview: ![NEON SYNC BEAT’s four rhythm lanes, song playback and scoring interface.](assets/screenshots/neon-sync-beat/gameplay.jpg)
 
 - **[Vector Dive — Beyond the Signal](https://vector-dive.openai.chatgpt.site/)** — Pilot through neon wireframe circuits that accelerate with each loop, timing boosts and phase moves to survive longer.
   - Creator: [Thomas Ricouard](https://x.com/Dimillian)
@@ -164,12 +151,6 @@ Logic puzzles, physics challenges, word games, and clever little mechanisms.
   - Model participation: [Creation record](works/sunjing-puzzles/CREATION.md) — Iterative Codex work on game design, procedural 3D visuals, rules, solver and tests; exact GPT-6 Astra attribution awaits creator confirmation (draft submission).
   - Resources: [Source and setup](works/sunjing-puzzles/README.md) · [Requests](works/sunjing-puzzles/PROMPTS.md) · Built with: React, Vinext/Vite and Three.js.
   - Preview: ![Sunjing's six-piece wooden lock on a green 3D workbench, with numbered pieces and extraction controls.](assets/screenshots/sunjing-puzzles/gameplay.jpg)
-
-- **[二凤字阵 / Erfeng Glyph Formation](https://2feng.jay6697117.deno.net/)** — A Chinese-character word-building tower-defense game with an ink-wash interface and character progression.
-  - Creator: [SteveZhang / jay6697117](https://github.com/jay6697117) · [X](https://x.com/stevezh10058543)
-  - Platform: Browser; Google login required. Only the login gate was checked; gameplay is supported by creator screenshots. WeChat users are instructed to authorize in Chrome.
-  - GPT-6 Astra: [Issue #48](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/48) — Creator reports: GPT-6 Astra handled game logic, UI layout optimization and game-art generation.
-  - Preview: ![二凤字阵 / Erfeng Glyph Formation](https://github.com/user-attachments/assets/f237391f-1924-4607-b2a7-924cdab1dbc4)
 
 ### Strategy & simulation
 
@@ -314,12 +295,6 @@ Role-playing, exploration, narrative adventures, and interactive stories.
   - Resources: [Creator release post](https://x.com/TusharXo/status/2096741535891251261)
   - Preview: ![A character exploring the flower-filled valley with the wind-letter objective visible.](assets/screenshots/crayon-adventure/gameplay.jpg)
 
-- **[Backrooms — Infinite Exploration](https://backrooms.exe.xyz/)** — Explore a procedurally generated, seemingly endless maze of fluorescent corridors in first person.
-  - Creator: [vogel](https://x.com/ryanvogel)
-  - Platform: Desktop browser; the entrance page opened, but this check encountered a color-transform loading error. Preview comes from the creator’s running build.
-  - GPT-6 Astra: [X](https://x.com/ryanvogel/status/2095596938502488207) — The creator explicitly identifies Astra as the model behind the procedural infinite Backrooms browser game. [Verification notes](assets/screenshots/infinite-backrooms/SOURCE.md).
-  - Preview: ![The running Backrooms entrance showing a maze of yellow corridors.](assets/screenshots/infinite-backrooms/gameplay.jpg)
-
 - **[ALIBI — The Last Light](https://alibi-blackthorn-manor.vercel.app/)** — Investigate Blackthorn Manor in a point-and-click murder mystery, examining scenes and following clues to identify the killer.
   - Creator: [Christos Antonopoulos](https://x.com/Christos_antono)
   - Platform: Browser; the interactive manor entrance opened without sign-in. Later generated scenes were not fully tested.
@@ -392,13 +367,6 @@ Parkour, platform challenges, racing, and games built around movement and routes
   - Platform: Browser; free, no login. Creator reports VPN/proxy access may be needed. Solo start checked; multiplayer not tested.
   - GPT-6 Astra: [Issue #51](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/51) — Creator reports: The first version used Qwen3.8 Max; Astra comprehensively rebuilt the second version.
   - Preview: ![疾风赛道 / Kart Racing（跑跑卡丁车）](https://github.com/user-attachments/assets/015e0ca1-7032-4d0e-9391-ad3f40d84227)
-
-- **[SUNBREAK — Downhill Club](https://github.com/Imirushik/sunbreak-downhill-3D-game)** — Race three computer riders down a procedural BMX course with tricks, bike physics and changing weather.
-  - Creator: [Irushi](https://x.com/Im_IrushiK)
-  - Platform: Run locally from public source with Node.js 22.12+ and a WebGL 2 browser; the README documents npm install and npm run dev. No hosted demo was verified.
-  - GPT-6 Astra: [X](https://x.com/Im_IrushiK/status/2096280064019353891) — The creator attributes the game to Astra; the repository documents procedural geometry, textures and audio in Three.js. [Verification notes](assets/screenshots/sunbreak-downhill/SOURCE.md).
-  - Resources: [Source and setup](https://github.com/Imirushik/sunbreak-downhill-3D-game)
-  - Preview: ![BMX riders on SUNBREAK’s cel-shaded forest downhill course.](assets/screenshots/sunbreak-downhill/gameplay.jpg)
 
 - **[TIDAL RUSH — Paradise GP](https://tidal-rush-paradise-gp.skirano.chatgpt.site/)** — Drift through a tropical kart circuit, use items and race seven rivals over three laps.
   - Creator: [Pietro Schirano](https://x.com/skirano)
@@ -476,7 +444,7 @@ A useful recommendation makes it easy to understand what a game is, where to try
 | --- | --- |
 | Game & creator | The game title and a link to its original creator or team |
 | Why it is interesting | One sentence about the core mechanic, without promotional filler |
-| Access | A playable link, or a public source repository with setup instructions |
+| Access | A direct browser game link without downloads, installation, local setup or mandatory sign-in |
 | Gameplay screenshot | At least one actual gameplay screenshot with a publicly accessible image URL |
 | Platform & requirements | Browser / desktop / mobile; disclose payment, login, or special hardware requirements |
 | Astra's role | A creator statement, development log, or public record explaining how GPT-6 Astra contributed |

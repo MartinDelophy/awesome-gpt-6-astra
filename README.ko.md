@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 43](https://img.shields.io/badge/Cases-43-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 42](https://img.shields.io/badge/Cases-42-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **GPT-6 Astra로 만든 흥미로운 게임을 모았습니다.**
 
@@ -22,12 +22,12 @@
 
 ## 여기서 시작하기
 
-현재 **게임 및 인터랙티브 작품 43개**를 소개합니다. 삼국지 영토 전략, 나무 결합 퍼즐과 슬라이딩 퍼즐, 부드러운 과일 합치기, 원버튼 비행, 마법 양탄자 전투, 섬의 전력망을 이용한 타워 디펜스, 야생 생존, 수중 낚시와 초밥집 경영 및 섬 농사, 베이 서킷 카트 레이싱, 펠리컨과 함께하는 해안 자전거 달리기, 탁상 장난감을 옮긴 3D 게임, 그리고 Orbital Garden을 만나 보세요. 작품명을 누르면 데모 또는 실행 안내가 포함된 소스 코드가 열립니다.
+현재 **게임 및 인터랙티브 작품 42개**를 소개합니다. 삼국지 영토 전략, 나무 결합 퍼즐과 슬라이딩 퍼즐, 부드러운 과일 합치기, 원버튼 비행, 마법 양탄자 전투, 섬의 전력망을 이용한 타워 디펜스, 야생 생존, 수중 낚시와 초밥집 경영 및 섬 농사, 베이 서킷 카트 레이싱, 펠리컨과 함께하는 해안 자전거 달리기, 탁상 장난감을 옮긴 3D 게임, 그리고 Orbital Garden을 만나 보세요. 작품명을 누르면 브라우저에서 바로 플레이할 수 있습니다.
 
 목록 업데이트: **2026-09-09**. 모델 사용 정보는 제작자 또는 제출자의 설명을 바탕으로 하며, 미확인 내용은 각 항목에 표시합니다. 이 날짜는 목록 관리 날짜이며 모든 게임을 다시 플레이 테스트한 날짜가 아닙니다.
 
 - **할 게임을 찾고 있나요?** 아래 장르에서 마음에 드는 작품을 찾아보세요.
-- **게임을 만들었나요?** [프로젝트를 제출](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml)할 때 플레이 링크 또는 소스 코드, 실제 게임 화면, GPT-6 Astra를 어떻게 활용했는지에 대한 설명을 첨부해 주세요.
+- **게임을 만들었나요?** [프로젝트를 제출](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml)할 때 브라우저에서 바로 플레이할 수 있는 링크, 실제 게임 화면, GPT-6 Astra를 어떻게 활용했는지에 대한 설명을 첨부해 주세요.
 - **좋은 프로젝트를 발견했나요?** 다른 사람이 공개한 작품도 원작자를 밝히고 추천할 수 있습니다.
 
 이 목록은 커뮤니티가 관리하며 OpenAI와 제휴 관계가 없습니다. 등재는 직접 살펴볼 만한 작품이라는 뜻이며, 성능 평가나 공식 추천을 의미하지 않습니다.
@@ -129,12 +129,6 @@
   - 모델 참여: [제작 기록](works/sunjing-puzzles/CREATION.md) — Codex에서 게임 설계, 절차적 3D 그래픽, 규칙, 솔버와 테스트를 여러 차례 개발했습니다. GPT-6 Astra의 구체적인 사용 여부는 제작자 확인을 기다리고 있습니다(초안 제출).
   - 개발 자료: [소스 코드 및 실행 안내](works/sunjing-puzzles/README.md) · [요구사항 기록](works/sunjing-puzzles/PROMPTS.md) · 사용 기술: React, Vinext/Vite, Three.js.
   - 미리보기: ![초록색 3D 작업대 위에 놓인 Sunjing의 6개 부품 나무 퍼즐과 부품 번호, 빼내기 조작부.](assets/screenshots/sunjing-puzzles/gameplay.jpg)
-
-- **[二凤字阵 / Erfeng Glyph Formation](https://2feng.jay6697117.deno.net/)** — 한자 조합과 타워 디펜스를 결합하고 수묵화 UI와 캐릭터 성장을 갖춘 게임.
-  - 제작자: [SteveZhang / jay6697117](https://github.com/jay6697117) · [X](https://x.com/stevezh10058543)
-  - 플랫폼: Google 로그인 필수. 로그인 화면만 확인했으며 게임 내용은 제작자 스크린샷에 근거합니다. WeChat 사용자는 Chrome에서 인증하도록 안내됩니다.
-  - GPT-6 Astra: [Issue #48](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/48) — 제작자 설명: GPT-6 Astra가 게임 로직, UI 배치 최적화와 아트 생성을 담당.
-  - 미리보기: ![二凤字阵 / Erfeng Glyph Formation](https://github.com/user-attachments/assets/f237391f-1924-4607-b2a7-924cdab1dbc4)
 
 <a id="strategy-simulation"></a>
 
@@ -361,7 +355,7 @@
 | --- | --- |
 | 게임 및 제작자 | 게임 이름과 원작자 또는 제작팀 링크 |
 | 재미 요소 | 과장된 홍보 문구 없이 핵심 게임 방식을 한 문장으로 설명 |
-| 이용 방법 | 플레이할 수 있는 링크 또는 실행 안내가 있는 공개 소스 코드 저장소 |
+| 이용 방법 | 다운로드, 설치, 로컬 설정 또는 로그인 없이 브라우저에서 바로 플레이할 수 있는 링크 |
 | 실제 게임 화면 | 공개적으로 접근 가능한 이미지 URL과 실제 플레이 화면 최소 1장 |
 | 플랫폼 및 요구 사항 | 브라우저 / 데스크톱 / 모바일. 결제, 로그인, 특수 하드웨어 요구 사항을 명시 |
 | Astra의 역할 | GPT-6 Astra가 어떤 작업에 기여했는지 설명하는 제작자의 발표, 개발 일지 또는 공개 기록 |
