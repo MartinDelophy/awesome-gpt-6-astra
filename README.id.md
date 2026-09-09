@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 42](https://img.shields.io/badge/Cases-42-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 43](https://img.shields.io/badge/Cases-43-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Kumpulan gim menarik yang dibuat dengan GPT-6 Astra.**
 
@@ -22,7 +22,7 @@ Halaman ini merupakan terjemahan [README bahasa Inggris](README.md). Periksa ver
 
 ## Mulai di sini
 
-Jelajahi **42 gim dan proyek interaktif**: strategi wilayah Tiga Kerajaan, teka-teki kayu yang saling mengunci dan teka-teki balok geser, penggabungan buah yang lentur, penerbangan satu tombol, pertempuran karpet ajaib, pertahanan pulau dengan jaringan listrik, bertahan hidup di alam liar, menangkap ikan di bawah air, mengelola restoran sushi, dan bertani di pulau, balapan kart di Bay Circuit, bersepeda di pesisir bersama pelikan, mainan meja yang diadaptasi menjadi gim 3D, serta Orbital Garden. Klik judul untuk langsung bermain di peramban.
+Jelajahi **43 gim dan proyek interaktif**: strategi wilayah Tiga Kerajaan, teka-teki kayu yang saling mengunci dan teka-teki balok geser, penggabungan buah yang lentur, penerbangan satu tombol, pertempuran karpet ajaib, pertahanan pulau dengan jaringan listrik, bertahan hidup di alam liar, menangkap ikan di bawah air, mengelola restoran sushi, dan bertani di pulau, balapan kart di Bay Circuit, bersepeda di pesisir bersama pelikan, mainan meja yang diadaptasi menjadi gim 3D, serta Orbital Garden. Klik judul untuk langsung bermain di peramban.
 
 Katalog diperbarui: **2026-09-09**. Informasi penggunaan model berdasarkan pernyataan kreator atau pengirim; detail yang belum dikonfirmasi ditandai pada setiap entri. Tanggal ini menunjukkan pemeliharaan katalog, bukan pengujian ulang seluruh gim.
 
@@ -301,6 +301,15 @@ Parkour, tantangan platform, balapan, serta gim yang berfokus pada gerakan dan r
   - Platform: Peramban, gratis, tanpa akun. Pembuat menyebut VPN/proksi mungkin diperlukan. Awal solo diuji; multipemain belum diuji.
   - GPT-6 Astra: [Issue #51](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/51) — Menurut pembuat: Versi pertama dengan Qwen3.8 Max; versi kedua dibangun ulang sepenuhnya dengan Astra.
   - Pratinjau: ![疾风赛道 / Kart Racing（跑跑卡丁车）](https://github.com/user-attachments/assets/015e0ca1-7032-4d0e-9391-ad3f40d84227)
+
+- **[混合马里奥Ⅱ · 忍者龙剑传 × 坦克大战 / Mario Mix II](https://aha-xiaoq.github.io/games/mario-mix-2/play.html)** — Jelajahi dunia bawah tanah 1-2 dari Mario bersama Ryu Hayabusa dari Ninja Gaiden dan tank Battle City: melompat, memanjat dinding, dan bertarung dengan tampilan samping sebagai Ryu, bertempur dari sudut pandang atas sebagai tank, atau menyelamatkan putri lewat estafet ninja lalu tank.
+  - Kreator: [在下_小Q（Aha-xiaoQ）](https://github.com/Aha-xiaoQ)
+  - Platform: Peramban desktop, antarmuka bahasa Mandarin, papan ketik disarankan; gratis, tanpa login atau instalasi.
+  - GPT-6 Astra: [Issue #65](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/65) — Kreator menyatakan bahwa GPT-6 Astra digunakan untuk mengembangkan dan memperbaiki kode gim serta interaksi secara bertahap, sementara ia memberikan arah permainan dan masukan; bukan hasil satu prompt saja.
+  - Sumber daya: [Halaman proyek](https://aha-xiaoq.github.io/games/mario-mix-2/) · [Video](https://www.bilibili.com/video/BV1erYt69EFP/) · [Verifikasi dan sumber gambar (bahasa Inggris)](assets/screenshots/mario-mix-2/SOURCE.md)
+  - Hak: Gim penggemar tidak resmi; hak atas karakter, gambar, dan musik klasik tetap milik pemegang hak masing-masing. Kredit materi tersedia di halaman gim asli.
+  - Pratinjau: ![Mario Mix II — sampul video yang diberikan kreator, bukan tangkapan permainan.](https://aha-xiaoq.github.io/games/mario-mix-2/cover.jpg)
+  - Tangkapan layar: ![Tank Mario Mix II menembak di pintu masuk dunia 1-2; versi 1.0 sedang berjalan, diambil pada 2026-09-09.](assets/screenshots/mario-mix-2/gameplay.jpg)
 
 <a id="experimental-multiplayer"></a>
 

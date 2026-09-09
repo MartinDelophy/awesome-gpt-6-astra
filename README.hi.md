@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 42](https://img.shields.io/badge/Cases-42-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 43](https://img.shields.io/badge/Cases-43-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **GPT-6 Astra से बनाए गए दिलचस्प गेमों का संग्रह।**
 
@@ -22,7 +22,7 @@
 
 ## यहाँ से शुरू करें
 
-यहाँ **42 खेल और इंटरैक्टिव परियोजनाएँ** शामिल हैं: तीन राज्यों की क्षेत्रीय रणनीति, एक-दूसरे में फँसे लकड़ी के टुकड़ों और खिसकने वाले ब्लॉकों की पहेलियाँ, मुलायम फलों को मिलाना, एक बटन से उड़ान, जादुई कालीन पर लड़ाई, बिजली के नेटवर्क से द्वीप की रक्षा, जंगल में जीवित रहना, पानी के नीचे मछली पकड़ना, सुशी रेस्तराँ चलाना और द्वीप पर खेती करना, Bay Circuit पर कार्ट रेसिंग, पेलिकन के साथ तट पर साइकिल चलाना, टेबलटॉप खिलौनों के 3D रूपांतरण और Orbital Garden। किसी शीर्षक पर क्लिक करके सीधे ब्राउज़र में गेम खेलें।
+यहाँ **43 खेल और इंटरैक्टिव परियोजनाएँ** शामिल हैं: तीन राज्यों की क्षेत्रीय रणनीति, एक-दूसरे में फँसे लकड़ी के टुकड़ों और खिसकने वाले ब्लॉकों की पहेलियाँ, मुलायम फलों को मिलाना, एक बटन से उड़ान, जादुई कालीन पर लड़ाई, बिजली के नेटवर्क से द्वीप की रक्षा, जंगल में जीवित रहना, पानी के नीचे मछली पकड़ना, सुशी रेस्तराँ चलाना और द्वीप पर खेती करना, Bay Circuit पर कार्ट रेसिंग, पेलिकन के साथ तट पर साइकिल चलाना, टेबलटॉप खिलौनों के 3D रूपांतरण और Orbital Garden। किसी शीर्षक पर क्लिक करके सीधे ब्राउज़र में गेम खेलें।
 
 सूची अपडेट: **2026-09-09**। मॉडल के उपयोग की जानकारी रचनाकारों या प्रस्तुतकर्ताओं के कथनों पर आधारित है; अपुष्ट विवरण संबंधित प्रविष्टियों में चिह्नित हैं। यह तारीख सूची के रखरखाव की है, सभी गेमों के दोबारा परीक्षण की नहीं।
 
@@ -301,6 +301,15 @@
   - प्लेटफ़ॉर्म: ब्राउज़र, मुफ़्त, बिना खाते के। निर्माता के अनुसार VPN/प्रॉक्सी आवश्यक हो सकता है। सोलो शुरुआत जाँची गई; मल्टीप्लेयर नहीं।
   - GPT-6 Astra: [Issue #51](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/51) — निर्माता के अनुसार: पहला संस्करण Qwen3.8 Max से; दूसरा Astra से पूरी तरह पुनर्निर्मित।
   - पूर्वावलोकन: ![疾风赛道 / Kart Racing（跑跑卡丁车）](https://github.com/user-attachments/assets/015e0ca1-7032-4d0e-9391-ad3f40d84227)
+
+- **[混合马里奥Ⅱ · 忍者龙剑传 × 坦克大战 / Mario Mix II](https://aha-xiaoq.github.io/games/mario-mix-2/play.html)** — Ninja Gaiden के Ryu Hayabusa और Battle City के टैंक के साथ Mario की भूमिगत दुनिया 1-2 में जाएँ: र्यू के साथ साइड-स्क्रॉलिंग में कूदें, दीवारें चढ़ें और लड़ें, टैंक के साथ ऊपर से दिखने वाली लड़ाइयाँ खेलें, या निंजा से टैंक तक की रिले में राजकुमारी को बचाएँ।
+  - रचनाकार: [在下_小Q（Aha-xiaoQ）](https://github.com/Aha-xiaoQ)
+  - प्लैटफ़ॉर्म: कंप्यूटर का ब्राउज़र, चीनी इंटरफ़ेस, कीबोर्ड का उपयोग सुझाया गया है; मुफ़्त, लॉगिन या इंस्टॉलेशन की ज़रूरत नहीं।
+  - GPT-6 Astra: [Issue #65](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/65) — रचनाकार के अनुसार, गेम के कोड और इंटरैक्शन को कई चरणों में विकसित और डीबग करने के लिए GPT-6 Astra का उपयोग किया गया। खेल की दिशा और लगातार फ़ीडबैक रचनाकार ने दिया; यह एक ही प्रॉम्प्ट से बना गेम नहीं है।
+  - संसाधन: [परियोजना का परिचय](https://aha-xiaoq.github.io/games/mario-mix-2/) · [वीडियो](https://www.bilibili.com/video/BV1erYt69EFP/) · [सत्यापन और चित्रों के स्रोत (अंग्रेज़ी)](assets/screenshots/mario-mix-2/SOURCE.md)
+  - अधिकार: यह अनौपचारिक फ़ैन गेम है; पुराने पात्रों, चित्रों और संगीत के अधिकार उनके संबंधित अधिकारधारकों के पास हैं। सामग्री का श्रेय मूल गेम के पृष्ठ पर दिया गया है।
+  - पूर्वावलोकन: ![Mario Mix II — रचनाकार का दिया हुआ वीडियो कवर, गेमप्ले का स्क्रीनशॉट नहीं।](https://aha-xiaoq.github.io/games/mario-mix-2/cover.jpg)
+  - स्क्रीनशॉट: ![Mario Mix II का टैंक दुनिया 1-2 के प्रवेश पर गोली चला रहा है; चल रहा संस्करण 1.0, 2026-09-09 को लिया गया।](assets/screenshots/mario-mix-2/gameplay.jpg)
 
 <a id="experimental-multiplayer"></a>
 

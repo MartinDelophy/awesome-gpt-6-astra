@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 42](https://img.shields.io/badge/Cases-42-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 43](https://img.shields.io/badge/Cases-43-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Eine Sammlung interessanter Spiele, die mit GPT-6 Astra entwickelt wurden.**
 
@@ -22,7 +22,7 @@ Diese Seite übersetzt die [englische README](README.md). Aktuelle Änderungen l
 
 ## Hier anfangen
 
-Entdecke **42 Spiele und interaktive Projekte**: Gebietsstrategie zur Zeit der Drei Reiche, Holz-Steckpuzzles und Schiebepuzzles lösen, weiche Früchte verschmelzen, mit einer Taste fliegen, auf einem fliegenden Teppich kämpfen, eine Insel mit einem Stromnetz verteidigen, in der Wildnis überleben, unter Wasser fischen, ein Sushi-Restaurant betreiben und eine Insel bewirtschaften, Kartrennen auf Bay Circuit, eine Küstenradtour mit einem Pelikan, Tischspielzeug als 3D-Spiele und Orbital Garden. Ein Klick auf einen Titel öffnet das Spiel direkt im Browser.
+Entdecke **43 Spiele und interaktive Projekte**: Gebietsstrategie zur Zeit der Drei Reiche, Holz-Steckpuzzles und Schiebepuzzles lösen, weiche Früchte verschmelzen, mit einer Taste fliegen, auf einem fliegenden Teppich kämpfen, eine Insel mit einem Stromnetz verteidigen, in der Wildnis überleben, unter Wasser fischen, ein Sushi-Restaurant betreiben und eine Insel bewirtschaften, Kartrennen auf Bay Circuit, eine Küstenradtour mit einem Pelikan, Tischspielzeug als 3D-Spiele und Orbital Garden. Ein Klick auf einen Titel öffnet das Spiel direkt im Browser.
 
 Katalog aktualisiert: **2026-09-09**. Angaben zur Modellnutzung beruhen auf Aussagen der Ersteller oder Einreichenden; unbestätigte Details sind im jeweiligen Eintrag markiert. Das Datum bezeichnet die Katalogpflege, keinen erneuten Spieltest aller Spiele.
 
@@ -301,6 +301,15 @@ Parkour, Plattformherausforderungen, Rennen und Spiele rund um Bewegung und Wege
   - Plattform: Browser, kostenlos, ohne Anmeldung. Laut Entwickler kann VPN/Proxy nötig sein. Solostart geprüft; Mehrspieler nicht getestet.
   - GPT-6 Astra: [Issue #51](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/51) — Laut Entwickler: Erstversion mit Qwen3.8 Max, zweite Version mit Astra vollständig neu aufgebaut.
   - Vorschau: ![疾风赛道 / Kart Racing（跑跑卡丁车）](https://github.com/user-attachments/assets/015e0ca1-7032-4d0e-9391-ad3f40d84227)
+
+- **[混合马里奥Ⅱ · 忍者龙剑传 × 坦克大战 / Mario Mix II](https://aha-xiaoq.github.io/games/mario-mix-2/play.html)** — Erkunde Marios unterirdische Welt 1-2 mit Ryu Hayabusa aus Ninja Gaiden und dem Panzer aus Battle City: Springen, Wandklettern und Kämpfen in Seitenansicht mit Ryu, Kämpfe aus der Vogelperspektive mit dem Panzer oder eine Ninja-Panzer-Staffel zur Rettung der Prinzessin.
+  - Ersteller: [在下_小Q（Aha-xiaoQ）](https://github.com/Aha-xiaoQ)
+  - Plattform: Desktop-Browser, chinesische Oberfläche, Tastatur empfohlen; kostenlos, ohne Anmeldung oder Installation.
+  - GPT-6 Astra: [Issue #65](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/65) — Laut Ersteller wurde GPT-6 Astra zur schrittweisen Entwicklung und Fehlerbehebung von Spielcode und Interaktionen genutzt, mit eigenen Spielideen und Rückmeldungen des Erstellers; keine Generierung mit nur einem Prompt.
+  - Ressourcen: [Projektvorstellung](https://aha-xiaoq.github.io/games/mario-mix-2/) · [Video](https://www.bilibili.com/video/BV1erYt69EFP/) · [Prüfung und Bildquellen (Englisch)](assets/screenshots/mario-mix-2/SOURCE.md)
+  - Rechte: Inoffizielles Fanspiel; die Rechte an klassischen Figuren, Bildern und Musik verbleiben bei den jeweiligen Rechteinhabern. Materialnachweise stehen auf der ursprünglichen Spielseite.
+  - Vorschau: ![Mario Mix II — vom Ersteller bereitgestelltes Videotitelbild, keine Spielaufnahme.](https://aha-xiaoq.github.io/games/mario-mix-2/cover.jpg)
+  - Screenshot: ![Der Panzer in Mario Mix II feuert am Eingang zu Welt 1-2; laufende Version 1.0, aufgenommen am 2026-09-09.](assets/screenshots/mario-mix-2/gameplay.jpg)
 
 <a id="experimental-multiplayer"></a>
 
