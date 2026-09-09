@@ -193,9 +193,9 @@ Jeux de rôle, exploration, aventures narratives et histoires interactives.
   - GPT-6 Astra: [X](https://x.com/TheRohanVarma/status/2096744577332068549) — Le créateur indique avoir utilisé Astra pour développer ce projet. [Notes de vérification (anglais)](assets/screenshots/lumbridge/SOURCE.md).
   - Aperçu: ![Lumbridge / Elderwood Realms — Capture du jeu](assets/screenshots/lumbridge/gameplay.jpg)
 
-- **[Silent Meridian / 静默子午线](https://github.com/stackloomdev/silent-meridian)** — Une aventure atmosphérique en pointer-cliquer, en quatre chapitres et treize énigmes : comparer le Présent à son Écho, recueillir des indices et percer le mystère d’un observatoire figé à 00:17.
+- **[Silent Meridian / 静默子午线](https://silent-meridian.stackloom.org/)** — Une aventure atmosphérique en pointer-cliquer, en quatre chapitres et treize énigmes : comparer le Présent à son Écho, recueillir des indices et percer le mystère d’un observatoire figé à 00:17.
   - Créateur: [stackloomdev](https://github.com/stackloomdev)
-  - Plateforme: Navigateurs sur ordinateur et mobile ; chinois et anglais. Gratuit, sans connexion ni clé API ; fonctionne sur un serveur HTTP local ou un hébergement statique. Effets WebGL facultatifs, avec retour aux illustrations originales si nécessaire.
+  - Plateforme: Navigateurs sur ordinateur et mobile ; chinois et anglais. Jouable gratuitement en ligne, sans connexion, installation ni clé API. Effets WebGL facultatifs, avec retour aux illustrations originales si nécessaire.
   - GPT-6 Astra: [Journal de développement](https://github.com/stackloomdev/silent-meridian/blob/main/docs/CREATION.md) — Développement itératif dans Codex : récit, énigmes, textes bilingues, code, effets 3D procéduraux et tests.
   - Ressources: [Source et lancement](https://github.com/stackloomdev/silent-meridian) · [Provenance des illustrations](https://github.com/stackloomdev/silent-meridian/blob/main/docs/ART.md) · Technologies: JavaScript, WebGL, Web Audio.
   - Aperçu: ![Silent Meridian en jeu : observatoire avec mécanisme 3D en laiton, repères d’indices, commandes Présent/Écho et journal d’enquête.](assets/screenshots/silent-meridian/gameplay.png)

@@ -193,9 +193,9 @@ Rollenspiele, Erkundung, erzählerische Abenteuer und interaktive Geschichten.
   - GPT-6 Astra: [X](https://x.com/TheRohanVarma/status/2096744577332068549) — Der Entwickler nennt Astra als Werkzeug für die Entwicklung dieses Projekts. [Prüfnotizen (Englisch)](assets/screenshots/lumbridge/SOURCE.md).
   - Vorschau: ![Lumbridge / Elderwood Realms — Spielaufnahme](assets/screenshots/lumbridge/gameplay.jpg)
 
-- **[Silent Meridian / 静默子午线](https://github.com/stackloomdev/silent-meridian)** — Ein atmosphärisches Point-and-Click-Abenteuer mit vier Kapiteln und dreizehn Rätseln: Hinweise aus Gegenwart und Echo vergleichen, Beweise sammeln und das Geheimnis einer um 00:17 erstarrten Sternwarte aufdecken.
+- **[Silent Meridian / 静默子午线](https://silent-meridian.stackloom.org/)** — Ein atmosphärisches Point-and-Click-Abenteuer mit vier Kapiteln und dreizehn Rätseln: Hinweise aus Gegenwart und Echo vergleichen, Beweise sammeln und das Geheimnis einer um 00:17 erstarrten Sternwarte aufdecken.
   - Ersteller: [stackloomdev](https://github.com/stackloomdev)
-  - Plattform: Desktop- und Mobilbrowser; Chinesisch und Englisch. Kostenlos, ohne Anmeldung oder API-Schlüssel; läuft auf einem lokalen HTTP-Server oder statischen Hosting. Optionale WebGL-Effekte, bei fehlender Unterstützung bleiben die Originalillustrationen sichtbar.
+  - Plattform: Desktop- und Mobilbrowser; Chinesisch und Englisch. Kostenlos direkt online spielbar, ohne Anmeldung, Installation oder API-Schlüssel. Optionale WebGL-Effekte; bei fehlender Unterstützung bleiben die Originalillustrationen sichtbar.
   - GPT-6 Astra: [Entwicklungsbericht](https://github.com/stackloomdev/silent-meridian/blob/main/docs/CREATION.md) — Iterative Zusammenarbeit in Codex an Geschichte, Rätseln, zweisprachigen Texten, Code, prozeduralen 3D-Effekten und Tests.
   - Ressourcen: [Quellcode und Startanleitung](https://github.com/stackloomdev/silent-meridian) · [Herkunft der Grafiken](https://github.com/stackloomdev/silent-meridian/blob/main/docs/ART.md) · Technik: JavaScript, WebGL, Web Audio.
   - Vorschau: ![Silent Meridian im Spiel: Sternwarte mit einem 3D-Messingmechanismus, Hinweismarkierungen, Gegenwart/Echo-Umschaltung und Ermittlungsjournal.](assets/screenshots/silent-meridian/gameplay.png)

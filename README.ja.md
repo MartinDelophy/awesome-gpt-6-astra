@@ -193,9 +193,9 @@
   - GPT-6 Astra: [X](https://x.com/TheRohanVarma/status/2096744577332068549) — 作者は本作の開発に Astra を使用したと述べています。 [検証記録（英語）](assets/screenshots/lumbridge/SOURCE.md).
   - プレビュー: ![Lumbridge / Elderwood Realms — 実際のゲーム画面](assets/screenshots/lumbridge/gameplay.jpg)
 
-- **[Silent Meridian / 静默子午线](https://github.com/stackloomdev/silent-meridian)** — 全4章・13の謎を備えた、神秘的な雰囲気のポイント＆クリック型アドベンチャー。「現在」と「残響」の手がかりを照合し、証拠を集め、00:17で時が止まった観測所の謎を解き明かす。
+- **[Silent Meridian / 静默子午线](https://silent-meridian.stackloom.org/)** — 全4章・13の謎を備えた、神秘的な雰囲気のポイント＆クリック型アドベンチャー。「現在」と「残響」の手がかりを照合し、証拠を集め、00:17で時が止まった観測所の謎を解き明かす。
   - 作者: [stackloomdev](https://github.com/stackloomdev)
-  - プラットフォーム: PC・モバイルのブラウザー。中国語・英語に対応。無料、ログインやAPIキーは不要。ローカルHTTPサーバーまたは静的ホスティングで動作。WebGL演出は任意で、非対応時は元のイラストを表示。
+  - プラットフォーム: PC・モバイルのブラウザー。中国語・英語に対応。オンラインで無料プレイ可能。ログイン、インストール、APIキーは不要。WebGL演出は任意で、非対応時は元のイラストを表示。
   - GPT-6 Astra: [開発記録](https://github.com/stackloomdev/silent-meridian/blob/main/docs/CREATION.md) — Codexで反復的に共同開発し、物語、謎解き、二言語の文章、コード、プログラム生成の3D演出、テストに使用。
   - 開発資料: [ソースと起動手順](https://github.com/stackloomdev/silent-meridian) · [アートの制作記録](https://github.com/stackloomdev/silent-meridian/blob/main/docs/ART.md) · 使用技術: JavaScript, WebGL, Web Audio.
   - プレビュー: ![Silent Meridianのプレイ画面。真鍮の3D装置、手がかりのマーカー、現在と残響の切り替え、調査手帳が見える観測所。](assets/screenshots/silent-meridian/gameplay.png)

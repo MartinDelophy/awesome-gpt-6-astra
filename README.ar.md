@@ -195,9 +195,9 @@
   - GPT-6 Astra: [X](https://x.com/TheRohanVarma/status/2096744577332068549) — يذكر المؤلف استخدام Astra في تطوير هذا المشروع. [ملاحظات التحقق (بالإنجليزية)](assets/screenshots/lumbridge/SOURCE.md).
   - معاينة: ![Lumbridge / Elderwood Realms — لقطة من اللعبة](assets/screenshots/lumbridge/gameplay.jpg)
 
-- **[Silent Meridian / 静默子午线](https://github.com/stackloomdev/silent-meridian)** — مغامرة غامضة تعتمد على التأشير والنقر، تضم أربعة فصول وثلاثة عشر لغزًا: قارن الحاضر بصداه، واجمع الأدلة، واكشف سر مرصد توقف فيه الزمن عند 00:17.
+- **[Silent Meridian / 静默子午线](https://silent-meridian.stackloom.org/)** — مغامرة غامضة تعتمد على التأشير والنقر، تضم أربعة فصول وثلاثة عشر لغزًا: قارن الحاضر بصداه، واجمع الأدلة، واكشف سر مرصد توقف فيه الزمن عند 00:17.
   - المطوّر: [stackloomdev](https://github.com/stackloomdev)
-  - المنصة: متصفحات الحاسوب والهاتف؛ بالصينية والإنجليزية. مجانية، دون تسجيل دخول أو مفتاح API؛ تعمل عبر خادم HTTP محلي أو استضافة ثابتة. تأثيرات WebGL اختيارية، مع عرض الرسوم الأصلية عند غياب الدعم.
+  - المنصة: متصفحات الحاسوب والهاتف؛ بالصينية والإنجليزية. يمكن اللعب مجانًا عبر الإنترنت دون تسجيل دخول أو تثبيت أو مفتاح API. تأثيرات WebGL اختيارية، مع عرض الرسوم الأصلية عند غياب الدعم.
   - GPT-6 Astra: [سجل التطوير](https://github.com/stackloomdev/silent-meridian/blob/main/docs/CREATION.md) — تعاون تكراري داخل Codex على القصة والألغاز والنصوص الثنائية اللغة والشفرة والتأثيرات ثلاثية الأبعاد المولدة برمجيًا والاختبارات.
   - الموارد: [المصدر وتعليمات التشغيل](https://github.com/stackloomdev/silent-meridian) · [مصدر الرسوم](https://github.com/stackloomdev/silent-meridian/blob/main/docs/ART.md) · التقنيات: JavaScript, WebGL, Web Audio.
   - معاينة: ![Silent Meridian أثناء اللعب: مرصد بآلية نحاسية ثلاثية الأبعاد وعلامات للأدلة وأزرار الحاضر والصدى ودفتر التحقيق.](assets/screenshots/silent-meridian/gameplay.png)
