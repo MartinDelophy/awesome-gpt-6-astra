@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 18](https://img.shields.io/badge/Cases-18-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 20](https://img.shields.io/badge/Cases-20-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Une sélection de jeux intéressants créés avec GPT-6 Astra.**
 
@@ -22,7 +22,7 @@ Cette page traduit le [README anglais](README.md). Consultez l’original pour v
 
 ## Pour commencer
 
-Découvrez **17 jeux pour navigateur et 1 bac à sable interactif d’art à particules** : stratégie territoriale des Trois Royaumes, puzzles en bois à emboîtement et à glissement, fusion de fruits déformables, vol à une touche, combats sur tapis volant, défense d’île par un réseau électrique, survie en pleine nature, pêche sous-marine, gestion d’un restaurant de sushis et agriculture insulaire, course de karts sur Bay Circuit, balade côtière à vélo avec un pélican, jouets de table adaptés en 3D et Orbital Garden. Cliquez sur un titre pour ouvrir la démo ou le code source avec ses instructions de lancement.
+Découvrez **19 jeux pour navigateur et 1 bac à sable interactif d’art à particules** : stratégie territoriale des Trois Royaumes, puzzles en bois à emboîtement et à glissement, fusion de fruits déformables, vol à une touche, combats sur tapis volant, défense d’île par un réseau électrique, survie en pleine nature, pêche sous-marine, gestion d’un restaurant de sushis et agriculture insulaire, course de karts sur Bay Circuit, balade côtière à vélo avec un pélican, jouets de table adaptés en 3D et Orbital Garden. Cliquez sur un titre pour ouvrir la démo ou le code source avec ses instructions de lancement.
 
 Mise à jour du catalogue : **2026-09-09**. L’utilisation du modèle est renseignée d’après les déclarations des créateurs ou des contributeurs ; les points non confirmés sont signalés dans chaque fiche. Cette date correspond à la maintenance du catalogue, pas à un nouveau test de tous les jeux.
 
@@ -73,6 +73,12 @@ Jeux de tir, de combat, de survie, de rythme et tous ceux qui donnent envie de r
   - GPT-6 Astra: L’utilisation de GPT-6 Astra et son rôle attendent la confirmation du créateur.
   - Aperçu: ![IRON BASTION / 钢铁防线 — Capture du jeu](assets/screenshots/iron-bastion/gameplay.jpg)
 
+- **[Stick Fighter](https://stick-fighter-production.up.railway.app/)** — Un jeu de combat de bonshommes bâtons en développement, avec coups de poing, pieds, uppercuts, shurikens et parades ; entraînement contre un bot et menus en ligne/amis.
+  - Créateur: [Dwayne](https://x.com/CtrlAltDwayne)
+  - Plateforme: Navigateur de bureau, clavier ; entraînement sans connexion. Multijoueur en ligne et manette non testés indépendamment.
+  - GPT-6 Astra: [X](https://x.com/CtrlAltDwayne/status/2097499157967818780) — Le créateur indique explicitement avoir utilisé GPT-6 Astra pour ce jeu de combat multijoueur encore en développement.
+  - Aperçu: ![Stick Fighter — Capture du jeu](assets/screenshots/stick-fighter/gameplay.jpg)
+
 <a id="puzzles"></a>
 
 ### Casse-têtes et réflexion
@@ -104,6 +110,12 @@ Jeux de tir, de combat, de survie, de rythme et tous ceux qui donnent envie de r
 ### Stratégie et simulation
 
 Défense de tours, cartes stratégiques, gestion, construction et bacs à sable de simulation.
+
+- **[Spy or Lie](https://spyorlie.com/)** — Un jeu de stratégie sur plateau hexagonal contre un ordinateur : posez des agents cachés, bluffez et encerclez les groupes ennemis pour enchaîner les captures.
+  - Créateur: [Nate Lorenzen](https://x.com/NateLorenzen)
+  - Plateforme: Navigateur, interface anglaise ; premier tour et réponse de l’ordinateur vérifiés sans connexion ni paiement.
+  - GPT-6 Astra: [X](https://x.com/NateLorenzen/status/2097504974683152559) — Selon le créateur, Astra a transformé sa conception en démo jouable en une seule génération ; le développement n’a pas été audité indépendamment.
+  - Aperçu: ![Spy or Lie — Capture du jeu](assets/screenshots/spy-or-lie/gameplay.jpg)
 
 - **[三分天下 · 百将风云 / Three Kingdoms: Hundred Heroes](https://sanguo-jiangshan.vercel.app)** — Dirigez Wei, Shu ou Wu dans une campagne au tour par tour sur 15 villes : gérez l’or et les céréales, commandez un effectif de 108 officiers dotés chacun d’un portrait généré par IA et affrontez les factions de l’IA pour unifier le pays.
   - Créateur: [MartinDelophy](https://github.com/MartinDelophy) (à l’origine du projet et de sa soumission).

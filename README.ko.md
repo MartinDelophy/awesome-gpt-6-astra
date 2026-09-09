@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 18](https://img.shields.io/badge/Cases-18-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 20](https://img.shields.io/badge/Cases-20-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **GPT-6 Astra로 만든 흥미로운 게임을 모았습니다.**
 
@@ -22,7 +22,7 @@
 
 ## 여기서 시작하기
 
-현재 **브라우저 게임 17개와 인터랙티브 파티클 아트 샌드박스 1개**를 소개합니다. 삼국지 영토 전략, 나무 결합 퍼즐과 슬라이딩 퍼즐, 부드러운 과일 합치기, 원버튼 비행, 마법 양탄자 전투, 섬의 전력망을 이용한 타워 디펜스, 야생 생존, 수중 낚시와 초밥집 경영 및 섬 농사, 베이 서킷 카트 레이싱, 펠리컨과 함께하는 해안 자전거 달리기, 탁상 장난감을 옮긴 3D 게임, 그리고 Orbital Garden을 만나 보세요. 작품명을 누르면 데모 또는 실행 안내가 포함된 소스 코드가 열립니다.
+현재 **브라우저 게임 19개와 인터랙티브 파티클 아트 샌드박스 1개**를 소개합니다. 삼국지 영토 전략, 나무 결합 퍼즐과 슬라이딩 퍼즐, 부드러운 과일 합치기, 원버튼 비행, 마법 양탄자 전투, 섬의 전력망을 이용한 타워 디펜스, 야생 생존, 수중 낚시와 초밥집 경영 및 섬 농사, 베이 서킷 카트 레이싱, 펠리컨과 함께하는 해안 자전거 달리기, 탁상 장난감을 옮긴 3D 게임, 그리고 Orbital Garden을 만나 보세요. 작품명을 누르면 데모 또는 실행 안내가 포함된 소스 코드가 열립니다.
 
 목록 업데이트: **2026-09-09**. 모델 사용 정보는 제작자 또는 제출자의 설명을 바탕으로 하며, 미확인 내용은 각 항목에 표시합니다. 이 날짜는 목록 관리 날짜이며 모든 게임을 다시 플레이 테스트한 날짜가 아닙니다.
 
@@ -73,6 +73,12 @@
   - GPT-6 Astra: GPT-6 Astra 사용 여부와 담당 범위는 제작자 확인을 기다리고 있습니다.
   - 미리보기: ![IRON BASTION / 钢铁防线 — 실제 게임 화면](assets/screenshots/iron-bastion/gameplay.jpg)
 
+- **[Stick Fighter](https://stick-fighter-production.up.railway.app/)** — 펀치, 발차기, 어퍼컷, 표창, 패링을 갖춘 개발 중인 스틱맨 격투 게임입니다. 봇 연습과 온라인·친구 모드 메뉴가 있습니다.
+  - 제작자: [Dwayne](https://x.com/CtrlAltDwayne)
+  - 플랫폼: 데스크톱 브라우저, 키보드 조작. 봇 연습은 로그인 없이 가능합니다. 온라인 대전과 컨트롤러는 별도 검증하지 않았습니다.
+  - GPT-6 Astra: [X](https://x.com/CtrlAltDwayne/status/2097499157967818780) — 제작자는 GPT-6 Astra로 만든 멀티플레이어 격투 게임이며 아직 개발 중이라고 명시했습니다.
+  - 미리보기: ![Stick Fighter — 실제 게임 화면](assets/screenshots/stick-fighter/gameplay.jpg)
+
 <a id="puzzles"></a>
 
 ### 퍼즐 및 두뇌 게임
@@ -104,6 +110,12 @@
 ### 전략 및 시뮬레이션
 
 타워 디펜스, 전략 카드 게임, 경영, 건설, 시뮬레이션 샌드박스를 다룹니다.
+
+- **[Spy or Lie](https://spyorlie.com/)** — 컴퓨터와 대결하는 육각형 전략 보드게임입니다. 정체를 숨긴 요원을 배치하고 허세와 포위로 연쇄 점령을 노립니다.
+  - 제작자: [Nate Lorenzen](https://x.com/NateLorenzen)
+  - 플랫폼: 브라우저, 영어 UI. 로그인이나 결제 없이 첫 수와 컴퓨터의 응답을 확인했습니다.
+  - GPT-6 Astra: [X](https://x.com/NateLorenzen/status/2097504974683152559) — 제작자는 Astra가 자신의 게임 설계를 한 번에 플레이 가능한 데모로 구현했다고 밝혔습니다. 개발 과정은 독립적으로 감사하지 않았습니다.
+  - 미리보기: ![Spy or Lie — 실제 게임 화면](assets/screenshots/spy-or-lie/gameplay.jpg)
 
 - **[三分天下 · 百将风云 / Three Kingdoms: Hundred Heroes](https://sanguo-jiangshan.vercel.app)** — 위·촉·오 중 하나를 선택해 15개 도시에서 턴제 영토 전쟁을 펼칩니다. 금과 군량을 관리하고 각자 고유한 AI 생성 초상화를 지닌 총 108명의 무장을 지휘하며 AI 세력과 천하 통일을 겨룹니다.
   - 제작자: [MartinDelophy](https://github.com/MartinDelophy) (프로젝트 발안자 및 제출자).
