@@ -1,4 +1,5 @@
 import * as THREE from 'three';
+import {createGateBuilder} from './citadel-gate.js';
 
 export function createShowroom(){
  const scene=new THREE.Scene();scene.background=new THREE.Color('#080d17');scene.fog=new THREE.Fog('#080d17',65,180);
@@ -22,6 +23,7 @@ export function createShowroom(){
 
 export function createCitadel(trackFrame,trackLength){
  const group=new THREE.Group();group.name='Jade Citadel';
+ const buildGate=createGateBuilder();
  const stone=new THREE.MeshStandardMaterial({color:0x687474,roughness:.95});
  const cap=new THREE.MeshStandardMaterial({color:0xa4a18c,roughness:.9});
  const red=new THREE.MeshStandardMaterial({color:0x8e352a,roughness:.65});
@@ -59,7 +61,7 @@ export function createCitadel(trackFrame,trackLength){
    box(pavilion,red,0,7,0,16,12,19);box(pavilion,gold,0,13,10,13,2,.4);
    eaves(pavilion,19,19);eaves(pavilion,14,28);
   }
-  if(i%3===0){box(tower,red,0,38,0,96,6,7);box(tower,gold,0,42,0,99,1,8);}
+  if(i%3===0)buildGate(tower);
   for(const x of [-33,33]){
    box(tower,red,x,14,12,1,28,1);box(tower,gold,x,27,12,9,.7,1);
    const lantern=new THREE.Mesh(new THREE.SphereGeometry(3.2,10,8),glow);lantern.scale.y=1.35;lantern.position.set(x+(x<0?3:-3),23,12);tower.add(lantern);

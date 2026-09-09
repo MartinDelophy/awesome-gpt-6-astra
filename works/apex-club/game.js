@@ -1,3 +1,4 @@
+import {createPickupFactory} from './pickup-design.js';
 import {JUMP_RAMPS,RAMP_LENGTH,rampHeight,createStunts,offerDrift,stepStunts,boostOpportunity,fireStunt} from './stunt-model.js';
 import {createShowroom,createCitadel} from './scene-design.js';
 import {createMobileControls,isHandheldDevice} from './mobile-controls.js';
@@ -317,10 +318,10 @@ for(let i=0;i<7;i++){
 
 // pickups
 const pickups=[];
-const pickupColors={boost:0x20fff2,shield:0x875eff,weapon:0xff3d81};
+const makePickup=createPickupFactory();
 for(let i=0;i<30;i++){
   const type=['boost','shield','weapon'][i%3], t=(i/30+.025)%1, f=trackFrame(t), lane=(i%2?1:-1)*(10+Math.random()*20);
-  const m=new THREE.Mesh(new THREE.OctahedronGeometry(3.7,0),new THREE.MeshBasicMaterial({color:pickupColors[type],wireframe:true}));
+  const m=makePickup(type);
   m.position.copy(f.p).addScaledVector(f.side,lane).addScaledVector(f.normal,7); scene.add(m); pickups.push({m,type,t,lane,active:true,respawn:0});
 }
 
@@ -466,7 +467,7 @@ function updateCombat(dt){
 function updatePickups(dt,time){
   for(const p of pickups){
     if(!p.active){p.respawn-=dt;if(p.respawn<=0){p.active=true;p.m.visible=true}continue;}
-    p.m.rotation.x+=dt*2.2;p.m.rotation.y+=dt*3.7;p.m.scale.setScalar(1+Math.sin(time*5+p.t*30)*.18);
+    p.m.userData.animate(time+p.t*30,reducedMotion);
     let td=Math.abs(p.t-state.t);td=Math.min(td,1-td);
     if(td<.0028&&Math.abs(p.lane-state.lane)<9){
       p.active=false;p.m.visible=false;p.respawn=7;
