@@ -157,7 +157,7 @@ Logic puzzles, physics challenges, word games, and clever little mechanisms.
   - Platform: Desktop and mobile browsers with WebGL; English, Simplified Chinese and Traditional Chinese. Free, no login or API key; progress is saved per city in the current browser and can be installed to the iOS Home Screen.
   - GPT-6 Astra: [Creation record](https://github.com/derek-wangpch/OpenCityMaker/blob/master/docs/CREATION.md) — The creator reports using GPT-6 Astra to generate the procedural geometry for all 132 building models, through a reference-driven workflow of multi-view research, silhouette-first massing and screenshot validation; not a one-shot test.
   - Resources: [Source and setup](https://github.com/derek-wangpch/OpenCityMaker) · [Verification notes](https://github.com/derek-wangpch/OpenCityMaker/blob/master/QA.md) · Built with: React, TypeScript, Vite and Three.js; all 132 building models are original procedural geometry.
-  - Preview: ![CityMaker gameplay: a Hong Kong board of low-poly 3D buildings on a 4×4 grid, with score, city rail and rotation controls.](https://raw.githubusercontent.com/derek-wangpch/OpenCityMaker/master/docs/images/citymaker-game.png)
+  - Preview: ![CityMaker gameplay: a Hong Kong board of low-poly 3D buildings on a 4×4 grid, with score, city rail and rotation controls.](assets/screenshots/citymaker/gameplay.png)
 
 ### Strategy & simulation
 

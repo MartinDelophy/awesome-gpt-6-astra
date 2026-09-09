@@ -157,7 +157,7 @@
   - 平台：支持 WebGL 的桌面与移动浏览器；提供英文、简体中文与繁体中文界面。免费，无需登录或 API Key；各城市进度分别保存在当前浏览器，并可添加到 iOS 主屏幕。
   - GPT-6 Astra：[制作记录](https://github.com/derek-wangpch/OpenCityMaker/blob/master/docs/CREATION.md) — 作者说明 132 个建筑模型的程序化几何均由 GPT-6 Astra 生成，流程为多视角资料检索、先定轮廓体块再加细节、并对照参考图逐轮校验；并非一次性生成测试。
   - 开发资料：[源码与运行说明](https://github.com/derek-wangpch/OpenCityMaker) · [验收记录](https://github.com/derek-wangpch/OpenCityMaker/blob/master/QA.md) · 技术：React、TypeScript、Vite 与 Three.js；132 个建筑模型均为原创程序化几何。
-  - 预览：![CityMaker 实机画面：4×4 棋盘上的低多边形香港建筑，旁边是分数、城市列表与旋转控制。](https://raw.githubusercontent.com/derek-wangpch/OpenCityMaker/master/docs/images/citymaker-game.png)
+  - 预览：![CityMaker 实机画面：4×4 棋盘上的低多边形香港建筑，旁边是分数、城市列表与旋转控制。](assets/screenshots/citymaker/gameplay.png)
 
 ### 策略与模拟
 
