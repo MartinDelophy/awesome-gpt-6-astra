@@ -6,7 +6,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 43](https://img.shields.io/badge/Cases-43-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 44](https://img.shields.io/badge/Cases-44-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **مجموعة من الألعاب الممتعة المصنوعة باستخدام GPT-6 Astra.**
 
@@ -24,7 +24,7 @@
 
 ## ابدأ من هنا
 
-استكشف **43 لعبة ومشروعًا تفاعليًا**: استراتيجية السيطرة على الأراضي في عصر الممالك الثلاث، ألغاز خشبية متشابكة وألغاز الكتل المنزلقة، دمج الفواكه المرنة، والطيران بزر واحد، والقتال على بساط سحري، والدفاع عن جزيرة بشبكة كهربائية، والبقاء في البرية، وصيد الأسماك تحت الماء وإدارة مطعم سوشي والزراعة على جزيرة، وسباقات الكارت على حلبة الخليج، وركوب الدراجة مع بجع على الساحل، وألعاب طاولة محوّلة إلى ألعاب ثلاثية الأبعاد، وOrbital Garden. انقر على اسم العمل لفتح اللعبة مباشرة في المتصفح.
+استكشف **44 لعبة ومشروعًا تفاعليًا**: استراتيجية السيطرة على الأراضي في عصر الممالك الثلاث، ألغاز خشبية متشابكة وألغاز الكتل المنزلقة، دمج الفواكه المرنة، والطيران بزر واحد، والقتال على بساط سحري، والدفاع عن جزيرة بشبكة كهربائية، والبقاء في البرية، وصيد الأسماك تحت الماء وإدارة مطعم سوشي والزراعة على جزيرة، وسباقات الكارت على حلبة الخليج، وركوب الدراجة مع بجع على الساحل، وألعاب طاولة محوّلة إلى ألعاب ثلاثية الأبعاد، وOrbital Garden. انقر على اسم العمل لفتح اللعبة مباشرة في المتصفح.
 
 تحديث القائمة: **2026-09-09**. تستند معلومات استخدام النموذج إلى تصريحات المؤلفين أو مقدّمي الأعمال؛ وتُوضّح التفاصيل غير المؤكدة في كل بند. يشير هذا التاريخ إلى تحديث القائمة، وليس إلى إعادة اختبار جميع الألعاب.
 
@@ -215,6 +215,13 @@
   - GPT-6 Astra: [X](https://x.com/LucasMarquesSv/status/2096772160404504583) — يذكر المؤلف استخدام Astra في تطوير هذا المشروع. [ملاحظات التحقق (بالإنجليزية)](assets/screenshots/the-free-game/SOURCE.md).
   - الموارد: [GitHub](https://github.com/LucasMarquesShiva/the-free-game)
   - معاينة: ![The Free Game](assets/screenshots/the-free-game/gameplay.jpg)
+
+- **[前线指令 / Frontline Command](https://fluffy-biscotti-dad318.netlify.app/)** — ابنِ قاعدة وتنافس على مناطق الموارد، وقُد الدبابات والمشاة والطائرات والمسيّرات ضد جيوش الذكاء الاصطناعي في لعبة استراتيجية آنية عن الحرب الحديثة، واستفد من الجواسيس والاستخبارات لتحقيق الأفضلية.
+  - المبدع: [嘟啊嘟](https://x.com/HDLhN783wtLkpPR)
+  - المنصة: متصفح على الكمبيوتر، بواجهة صينية، وفأرة ولوحة مفاتيح؛ تم بدء مباراة فردية دون تسجيل دخول أو دفع أو تثبيت.
+  - GPT-6 Astra: [X](https://x.com/HDLhN783wtLkpPR/status/2097321360641122393) — يذكر المبدع في المنشور المرتبط أنه استخدم «GPT Astra» لإنشاء هذه اللعبة الاستراتيجية الآنية؛ لم يحدد إصدار النموذج بدقة أو خطوات التطوير بالتفصيل.
+  - مراجع: [المشاركة](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/66) · [ملاحظات التحقق (بالإنجليزية)](assets/screenshots/frontline-command/SOURCE.md)
+  - معاينة: ![Frontline Command: قاعدة وثلاث دبابات محددة ووضع محطة طاقة أثناء المباراة؛ v0.8، التُقطت في 2026-09-09.](assets/screenshots/frontline-command/gameplay.jpg)
 
 <a id="rpg-adventures"></a>
 

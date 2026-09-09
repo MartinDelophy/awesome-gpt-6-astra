@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 43](https://img.shields.io/badge/Cases-43-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 44](https://img.shields.io/badge/Cases-44-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Kumpulan gim menarik yang dibuat dengan GPT-6 Astra.**
 
@@ -22,7 +22,7 @@ Halaman ini merupakan terjemahan [README bahasa Inggris](README.md). Periksa ver
 
 ## Mulai di sini
 
-Jelajahi **43 gim dan proyek interaktif**: strategi wilayah Tiga Kerajaan, teka-teki kayu yang saling mengunci dan teka-teki balok geser, penggabungan buah yang lentur, penerbangan satu tombol, pertempuran karpet ajaib, pertahanan pulau dengan jaringan listrik, bertahan hidup di alam liar, menangkap ikan di bawah air, mengelola restoran sushi, dan bertani di pulau, balapan kart di Bay Circuit, bersepeda di pesisir bersama pelikan, mainan meja yang diadaptasi menjadi gim 3D, serta Orbital Garden. Klik judul untuk langsung bermain di peramban.
+Jelajahi **44 gim dan proyek interaktif**: strategi wilayah Tiga Kerajaan, teka-teki kayu yang saling mengunci dan teka-teki balok geser, penggabungan buah yang lentur, penerbangan satu tombol, pertempuran karpet ajaib, pertahanan pulau dengan jaringan listrik, bertahan hidup di alam liar, menangkap ikan di bawah air, mengelola restoran sushi, dan bertani di pulau, balapan kart di Bay Circuit, bersepeda di pesisir bersama pelikan, mainan meja yang diadaptasi menjadi gim 3D, serta Orbital Garden. Klik judul untuk langsung bermain di peramban.
 
 Katalog diperbarui: **2026-09-09**. Informasi penggunaan model berdasarkan pernyataan kreator atau pengirim; detail yang belum dikonfirmasi ditandai pada setiap entri. Tanggal ini menunjukkan pemeliharaan katalog, bukan pengujian ulang seluruh gim.
 
@@ -213,6 +213,13 @@ Pertahanan menara, kartu strategi, pengelolaan, pembangunan, dan sandbox simulas
   - GPT-6 Astra: [X](https://x.com/LucasMarquesSv/status/2096772160404504583) — Kreator menyatakan menggunakan Astra dalam pengembangan proyek ini. [Catatan verifikasi (Inggris)](assets/screenshots/the-free-game/SOURCE.md).
   - Sumber daya: [GitHub](https://github.com/LucasMarquesShiva/the-free-game)
   - Pratinjau: ![The Free Game](assets/screenshots/the-free-game/gameplay.jpg)
+
+- **[前线指令 / Frontline Command](https://fluffy-biscotti-dad318.netlify.app/)** — Bangun pangkalan, perebutkan wilayah sumber daya, dan pimpin tank, infanteri, pesawat, serta drone melawan pasukan AI dalam gim strategi waktu nyata bertema perang modern, dengan mata-mata dan intelijen untuk memperoleh keunggulan.
+  - Kreator: [嘟啊嘟](https://x.com/HDLhN783wtLkpPR)
+  - Platform: Peramban desktop, antarmuka bahasa Mandarin, mouse dan papan ketik; pertandingan pemain tunggal berhasil dimulai tanpa login, pembayaran, atau instalasi.
+  - GPT-6 Astra: [X](https://x.com/HDLhN783wtLkpPR/status/2097321360641122393) — Dalam unggahan yang ditautkan, kreator menyatakan menggunakan “GPT Astra” untuk membuat RTS ini; versi model yang tepat dan alur pengembangan terperinci tidak disebutkan.
+  - Referensi: [Kiriman](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/66) · [Catatan verifikasi (bahasa Inggris)](assets/screenshots/frontline-command/SOURCE.md)
+  - Pratinjau: ![Frontline Command: pangkalan, tiga tank terpilih, dan penempatan pembangkit listrik dalam pertandingan yang sedang berjalan; v0.8, diambil pada 2026-09-09.](assets/screenshots/frontline-command/gameplay.jpg)
 
 <a id="rpg-adventures"></a>
 

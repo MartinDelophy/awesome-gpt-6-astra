@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 43](https://img.shields.io/badge/Cases-43-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 44](https://img.shields.io/badge/Cases-44-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Подборка интересных игр, созданных с помощью GPT-6 Astra.**
 
@@ -22,7 +22,7 @@
 
 ## С чего начать
 
-Здесь собраны **43 игры и интерактивных проекта**: территориальная стратегия эпохи Троецарствия, деревянные головоломки со сцепленными деталями и сдвижными блоками, объединение мягких фруктов, полёт одной кнопкой, сражения на ковре-самолёте, защита острова с помощью электросети, выживание в дикой природе, подводная охота, управление суши-рестораном и фермерство на острове, гонки на картах по Bay Circuit, велопрогулка с пеликаном вдоль берега, настольные игрушки в 3D и Orbital Garden. Нажмите на название, чтобы играть прямо в браузере.
+Здесь собраны **44 игры и интерактивных проекта**: территориальная стратегия эпохи Троецарствия, деревянные головоломки со сцепленными деталями и сдвижными блоками, объединение мягких фруктов, полёт одной кнопкой, сражения на ковре-самолёте, защита острова с помощью электросети, выживание в дикой природе, подводная охота, управление суши-рестораном и фермерство на острове, гонки на картах по Bay Circuit, велопрогулка с пеликаном вдоль берега, настольные игрушки в 3D и Orbital Garden. Нажмите на название, чтобы играть прямо в браузере.
 
 Каталог обновлён: **2026-09-09**. Сведения об использовании модели основаны на заявлениях авторов или отправителей; неподтверждённые данные отмечены в соответствующих записях. Эта дата означает обновление каталога, а не повторное игровое тестирование всех проектов.
 
@@ -213,6 +213,13 @@
   - GPT-6 Astra: [X](https://x.com/LucasMarquesSv/status/2096772160404504583) — Автор сообщает об использовании Astra при разработке проекта. [Запись проверки (английский)](assets/screenshots/the-free-game/SOURCE.md).
   - Ресурсы: [GitHub](https://github.com/LucasMarquesShiva/the-free-game)
   - Предпросмотр: ![The Free Game](assets/screenshots/the-free-game/gameplay.jpg)
+
+- **[前线指令 / Frontline Command](https://fluffy-biscotti-dad318.netlify.app/)** — Стройте базу, боритесь за ресурсные зоны и командуйте танками, пехотой, самолётами и дронами против армий ИИ в стратегии в реальном времени о современной войне. Шпионы и разведка помогут получить преимущество.
+  - Автор: [嘟啊嘟](https://x.com/HDLhN783wtLkpPR)
+  - Платформа: Браузер на компьютере, китайский интерфейс, мышь и клавиатура; одиночный матч удалось начать без входа в аккаунт, оплаты или установки.
+  - GPT-6 Astra: [X](https://x.com/HDLhN783wtLkpPR/status/2097321360641122393) — В указанной публикации автор сообщает, что создал эту RTS с помощью «GPT Astra»; точная версия модели и подробный процесс разработки не указаны.
+  - Ссылки: [Заявка](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/66) · [Заметки о проверке (английский)](assets/screenshots/frontline-command/SOURCE.md)
+  - Предпросмотр: ![Frontline Command: база, три выбранных танка и размещение электростанции во время матча; v0.8, снимок от 2026-09-09.](assets/screenshots/frontline-command/gameplay.jpg)
 
 <a id="rpg-adventures"></a>
 

@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 43](https://img.shields.io/badge/Cases-43-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 44](https://img.shields.io/badge/Cases-44-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **GPT-6 Astra で作られた、遊んでみたくなるゲームを集めています。**
 
@@ -22,7 +22,7 @@
 
 ## はじめに
 
-現在、**43件のゲームとインタラクティブ作品**を掲載しています。三国志の領土戦略、木製の組木パズルとスライドパズル、柔らかい果物の合成、ワンボタン飛行、魔法の絨毯での戦闘、島の電力網を使うタワーディフェンス、荒野でのサバイバル、水中での魚捕り、寿司店経営と島での農作業、海湾サーキットのカートレース、ペリカンとの海岸サイクリング、卓上玩具の 3D ゲーム化、そして Orbital Garden。作品名をクリックすると、ブラウザーで直接遊べます。
+現在、**44件のゲームとインタラクティブ作品**を掲載しています。三国志の領土戦略、木製の組木パズルとスライドパズル、柔らかい果物の合成、ワンボタン飛行、魔法の絨毯での戦闘、島の電力網を使うタワーディフェンス、荒野でのサバイバル、水中での魚捕り、寿司店経営と島での農作業、海湾サーキットのカートレース、ペリカンとの海岸サイクリング、卓上玩具の 3D ゲーム化、そして Orbital Garden。作品名をクリックすると、ブラウザーで直接遊べます。
 
 一覧更新日：**2026-09-09**。モデルの利用情報は作者または投稿者の説明に基づき、未確認の内容は各項目に明記しています。この日付は一覧の更新日であり、全作品を再度プレイテストした日ではありません。
 
@@ -213,6 +213,13 @@
   - GPT-6 Astra: [X](https://x.com/LucasMarquesSv/status/2096772160404504583) — 作者は本作の開発に Astra を使用したと述べています。 [検証記録（英語）](assets/screenshots/the-free-game/SOURCE.md).
   - 開発資料: [GitHub](https://github.com/LucasMarquesShiva/the-free-game)
   - プレビュー: ![The Free Game](assets/screenshots/the-free-game/gameplay.jpg)
+
+- **[前线指令 / Frontline Command](https://fluffy-biscotti-dad318.netlify.app/)** — 現代戦を題材にしたリアルタイムストラテジー。基地を建設し、資源地帯を争い、戦車・歩兵・航空機・ドローンを指揮して AI 軍と戦います。スパイと情報システムも活用できます。
+  - 作者: [嘟啊嘟](https://x.com/HDLhN783wtLkpPR)
+  - 対応環境: デスクトップブラウザー、中国語 UI、マウスとキーボード。ログイン・支払い・インストールなしでシングルプレイ対戦の開始を確認しました。
+  - GPT-6 Astra: [X](https://x.com/HDLhN783wtLkpPR/status/2097321360641122393) — 作者はリンク先の投稿で、この RTS の制作に「GPT Astra」を使用したと述べています。具体的なモデルのバージョンと詳しい開発手順は示されていません。
+  - 参考資料: [投稿](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/66) · [検証記録（英語）](assets/screenshots/frontline-command/SOURCE.md)
+  - プレビュー: ![Frontline Command の対戦画面。基地、選択中の戦車3両、発電所の配置操作。v0.8、2026-09-09 撮影。](assets/screenshots/frontline-command/gameplay.jpg)
 
 <a id="rpg-adventures"></a>
 

@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 43](https://img.shields.io/badge/Cases-43-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 44](https://img.shields.io/badge/Cases-44-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Uma coleção de jogos interessantes feitos com GPT-6 Astra.**
 
@@ -22,7 +22,7 @@ Esta página é uma tradução do [README em inglês](README.md). Consulte o ori
 
 ## Comece por aqui
 
-Explore **43 jogos e projetos interativos**: estratégia territorial dos Três Reinos, quebra-cabeças de madeira com encaixes e peças deslizantes, fusão de frutas deformáveis, voo com um toque, combates em tapete mágico, defesa de uma ilha com uma rede elétrica, sobrevivência na natureza, pesca submarina, gestão de um restaurante de sushi e cultivo em uma ilha, corridas de kart no Bay Circuit, ciclismo pela costa com um pelicano, brinquedos de mesa adaptados para 3D e Orbital Garden. Clique em um título para jogar diretamente no navegador.
+Explore **44 jogos e projetos interativos**: estratégia territorial dos Três Reinos, quebra-cabeças de madeira com encaixes e peças deslizantes, fusão de frutas deformáveis, voo com um toque, combates em tapete mágico, defesa de uma ilha com uma rede elétrica, sobrevivência na natureza, pesca submarina, gestão de um restaurante de sushi e cultivo em uma ilha, corridas de kart no Bay Circuit, ciclismo pela costa com um pelicano, brinquedos de mesa adaptados para 3D e Orbital Garden. Clique em um título para jogar diretamente no navegador.
 
 Catálogo atualizado: **2026-09-09**. O uso do modelo é informado com base nas declarações dos criadores ou responsáveis pelas submissões; detalhes não confirmados são sinalizados em cada entrada. Esta data registra a manutenção do catálogo, não um novo teste de todos os jogos.
 
@@ -213,6 +213,13 @@ Defesa de torres, cartas estratégicas, gerenciamento, construção e simulaçã
   - GPT-6 Astra: [X](https://x.com/LucasMarquesSv/status/2096772160404504583) — O autor informa ter usado Astra no desenvolvimento deste projeto. [Notas de verificação (inglês)](assets/screenshots/the-free-game/SOURCE.md).
   - Recursos: [GitHub](https://github.com/LucasMarquesShiva/the-free-game)
   - Prévia: ![The Free Game](assets/screenshots/the-free-game/gameplay.jpg)
+
+- **[前线指令 / Frontline Command](https://fluffy-biscotti-dad318.netlify.app/)** — Construa uma base, dispute áreas de recursos e comande tanques, infantaria, aviões e drones contra exércitos de IA em um jogo de estratégia em tempo real de guerra moderna, usando espiões e inteligência para obter vantagem.
+  - Criador: [嘟啊嘟](https://x.com/HDLhN783wtLkpPR)
+  - Plataforma: Navegador de computador, interface em chinês, mouse e teclado; uma partida solo foi iniciada sem login, pagamento ou instalação.
+  - GPT-6 Astra: [X](https://x.com/HDLhN783wtLkpPR/status/2097321360641122393) — Na publicação vinculada, o criador afirma ter usado “GPT Astra” para criar este jogo de estratégia em tempo real; a versão exata do modelo e o processo detalhado de desenvolvimento não são especificados.
+  - Referências: [Submissão](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/66) · [Notas de verificação (inglês)](assets/screenshots/frontline-command/SOURCE.md)
+  - Prévia: ![Frontline Command: base, três tanques selecionados e posicionamento de uma usina durante uma partida; v0.8, capturada em 2026-09-09.](assets/screenshots/frontline-command/gameplay.jpg)
 
 <a id="rpg-adventures"></a>
 
