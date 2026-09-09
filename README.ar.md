@@ -6,7 +6,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 40](https://img.shields.io/badge/Cases-40-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 43](https://img.shields.io/badge/Cases-43-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **مجموعة من الألعاب الممتعة المصنوعة باستخدام GPT-6 Astra.**
 
@@ -24,7 +24,7 @@
 
 ## ابدأ من هنا
 
-استكشف **40 لعبة ومشروعًا تفاعليًا**: استراتيجية السيطرة على الأراضي في عصر الممالك الثلاث، ألغاز خشبية متشابكة وألغاز الكتل المنزلقة، دمج الفواكه المرنة، والطيران بزر واحد، والقتال على بساط سحري، والدفاع عن جزيرة بشبكة كهربائية، والبقاء في البرية، وصيد الأسماك تحت الماء وإدارة مطعم سوشي والزراعة على جزيرة، وسباقات الكارت على حلبة الخليج، وركوب الدراجة مع بجع على الساحل، وألعاب طاولة محوّلة إلى ألعاب ثلاثية الأبعاد، وOrbital Garden. انقر على اسم العمل لفتح التجربة أو الشفرة المصدرية مع تعليمات التشغيل.
+استكشف **43 لعبة ومشروعًا تفاعليًا**: استراتيجية السيطرة على الأراضي في عصر الممالك الثلاث، ألغاز خشبية متشابكة وألغاز الكتل المنزلقة، دمج الفواكه المرنة، والطيران بزر واحد، والقتال على بساط سحري، والدفاع عن جزيرة بشبكة كهربائية، والبقاء في البرية، وصيد الأسماك تحت الماء وإدارة مطعم سوشي والزراعة على جزيرة، وسباقات الكارت على حلبة الخليج، وركوب الدراجة مع بجع على الساحل، وألعاب طاولة محوّلة إلى ألعاب ثلاثية الأبعاد، وOrbital Garden. انقر على اسم العمل لفتح التجربة أو الشفرة المصدرية مع تعليمات التشغيل.
 
 تحديث القائمة: **2026-09-09**. تستند معلومات استخدام النموذج إلى تصريحات المؤلفين أو مقدّمي الأعمال؛ وتُوضّح التفاصيل غير المؤكدة في كل بند. يشير هذا التاريخ إلى تحديث القائمة، وليس إلى إعادة اختبار جميع الألعاب.
 
@@ -131,6 +131,12 @@
   - مشاركة النموذج: [سجل الإنشاء](works/sunjing-puzzles/CREATION.md) — عمل متتابع عبر Codex على تصميم اللعبة والرسوم ثلاثية الأبعاد المُولّدة إجرائيًا والقواعد وآلية الحل والاختبارات؛ الاستخدام المحدد لـ GPT-6 Astra بانتظار تأكيد المبدع (طلب مبدئي).
   - موارد التطوير: [الشفرة المصدرية وتعليمات التشغيل](works/sunjing-puzzles/README.md) · [المتطلبات](works/sunjing-puzzles/PROMPTS.md) · التقنيات: React, Vinext/Vite, Three.js.
   - معاينة: ![لغز Sunjing الخشبي من ست قطع على طاولة عمل خضراء ثلاثية الأبعاد، مع أرقام القطع وأدوات سحبها.](assets/screenshots/sunjing-puzzles/gameplay.jpg)
+
+- **[二凤字阵 / Erfeng Glyph Formation](https://2feng.jay6697117.deno.net/)** — لعبة دفاع أبراج تجمع تركيب الرموز الصينية بواجهة بأسلوب الحبر وتطوير الشخصيات.
+  - المؤلف: [SteveZhang / jay6697117](https://github.com/jay6697117) · [X](https://x.com/stevezh10058543)
+  - المنصة: يلزم تسجيل الدخول عبر Google. تم التحقق من شاشة الدخول فقط؛ صور المنشئ توثق اللعبة. يُنصح مستخدمو WeChat بإتمام التفويض في Chrome.
+  - GPT-6 Astra: [Issue #48](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/48) — بحسب المنشئ: GPT-6 Astra لمنطق اللعبة وتحسين تخطيط الواجهة وتوليد الرسومات.
+  - معاينة: ![二凤字阵 / Erfeng Glyph Formation](https://github.com/user-attachments/assets/f237391f-1924-4607-b2a7-924cdab1dbc4)
 
 <a id="strategy-simulation"></a>
 
@@ -298,6 +304,12 @@
   - الموارد: [HTML](https://files.chat01.ai/python-generations/9ab8f4f7-425f-4709-b741-7218d87122e6/abyss-descent.html) · [ZIP](https://files.chat01.ai/python-generations/9ab8f4f7-425f-4709-b741-7218d87122e6/abyss-descent-complete.zip)
   - معاينة: ![零界深潜 / ABYSS PROTOCOL](assets/screenshots/abyss-protocol/gameplay.jpg)
 
+- **[疾风赛道 / Kart Racing（跑跑卡丁车）](https://qwen3-8-test.vercel.app/)** — تسابق ثلاث لفات بالانجراف والنيترو والعناصر؛ العنوان الحالي 疾风赛道 ويتيح نمطًا عبر الإنترنت للاعبين إلى أربعة.
+  - المؤلف: [SteveZhang / jay6697117](https://github.com/jay6697117) · [X](https://x.com/stevezh10058543)
+  - المنصة: متصفح، مجانية، دون حساب. يذكر المنشئ احتمال الحاجة إلى VPN/وكيل. تم التحقق من بدء اللعب الفردي؛ لم يُختبر اللعب الجماعي.
+  - GPT-6 Astra: [Issue #51](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/51) — بحسب المنشئ: الإصدار الأول باستخدام Qwen3.8 Max، والثاني أعيد بناؤه بالكامل باستخدام Astra.
+  - معاينة: ![疾风赛道 / Kart Racing（跑跑卡丁车）](https://github.com/user-attachments/assets/015e0ca1-7032-4d0e-9391-ad3f40d84227)
+
 <a id="experimental-multiplayer"></a>
 
 ### الألعاب التجريبية ومتعددة اللاعبين
@@ -336,6 +348,12 @@
   - GPT-6 Astra: [X](https://x.com/scottstts/status/2096364764054131119) — يذكر المؤلف استخدام Astra في تطوير هذا المشروع. [ملاحظات التحقق (بالإنجليزية)](assets/screenshots/jelly-baby/SOURCE.md).
   - الموارد: [GitHub](https://github.com/scottstts/Jelly-Baby)
   - معاينة: ![Jelly Baby](assets/screenshots/jelly-baby/gameplay.jpg)
+
+- **[泡泡坦克大作战联机版 / Toon Tank Arena](https://toon-tank-arena.jay6697117.deno.net/)** — دافع عن نواة قوس قزح بقذائف مرتدة وتعزيزات، مع اللعب الفردي والتعاون المحلي والمعارك عبر الإنترنت.
+  - المؤلف: [SteveZhang / jay6697117](https://github.com/jay6697117) · [X](https://x.com/stevezh10058543)
+  - المنصة: متصفح، مجانية، دون حساب. يذكر المنشئ احتمال الحاجة إلى VPN/وكيل. تم التحقق من بدء اللعب الفردي؛ لم يُختبر اللعب الجماعي.
+  - GPT-6 Astra: [Issue #52](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/52) — بحسب المنشئ: الإصدار الأول باستخدام GPT-6 Astra Pro، ثم تحسينات باستخدام GPT-6 Astra في Codex.
+  - معاينة: ![泡泡坦克大作战联机版 / Toon Tank Arena](https://github.com/user-attachments/assets/713d44f3-a77c-452c-ba6d-1231882dc670)
 
 ## ما الذي يتضمنه كل إدراج
 

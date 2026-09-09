@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 40](https://img.shields.io/badge/Cases-40-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 43](https://img.shields.io/badge/Cases-43-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **GPT-6 Astra से बनाए गए दिलचस्प गेमों का संग्रह।**
 
@@ -22,7 +22,7 @@
 
 ## यहाँ से शुरू करें
 
-यहाँ **40 खेल और इंटरैक्टिव परियोजनाएँ** शामिल हैं: तीन राज्यों की क्षेत्रीय रणनीति, एक-दूसरे में फँसे लकड़ी के टुकड़ों और खिसकने वाले ब्लॉकों की पहेलियाँ, मुलायम फलों को मिलाना, एक बटन से उड़ान, जादुई कालीन पर लड़ाई, बिजली के नेटवर्क से द्वीप की रक्षा, जंगल में जीवित रहना, पानी के नीचे मछली पकड़ना, सुशी रेस्तराँ चलाना और द्वीप पर खेती करना, Bay Circuit पर कार्ट रेसिंग, पेलिकन के साथ तट पर साइकिल चलाना, टेबलटॉप खिलौनों के 3D रूपांतरण और Orbital Garden। किसी शीर्षक पर क्लिक करके उसका डेमो या चलाने के निर्देशों सहित स्रोत कोड खोलें।
+यहाँ **43 खेल और इंटरैक्टिव परियोजनाएँ** शामिल हैं: तीन राज्यों की क्षेत्रीय रणनीति, एक-दूसरे में फँसे लकड़ी के टुकड़ों और खिसकने वाले ब्लॉकों की पहेलियाँ, मुलायम फलों को मिलाना, एक बटन से उड़ान, जादुई कालीन पर लड़ाई, बिजली के नेटवर्क से द्वीप की रक्षा, जंगल में जीवित रहना, पानी के नीचे मछली पकड़ना, सुशी रेस्तराँ चलाना और द्वीप पर खेती करना, Bay Circuit पर कार्ट रेसिंग, पेलिकन के साथ तट पर साइकिल चलाना, टेबलटॉप खिलौनों के 3D रूपांतरण और Orbital Garden। किसी शीर्षक पर क्लिक करके उसका डेमो या चलाने के निर्देशों सहित स्रोत कोड खोलें।
 
 सूची अपडेट: **2026-09-09**। मॉडल के उपयोग की जानकारी रचनाकारों या प्रस्तुतकर्ताओं के कथनों पर आधारित है; अपुष्ट विवरण संबंधित प्रविष्टियों में चिह्नित हैं। यह तारीख सूची के रखरखाव की है, सभी गेमों के दोबारा परीक्षण की नहीं।
 
@@ -129,6 +129,12 @@
   - मॉडल की भागीदारी: [निर्माण का रिकॉर्ड](works/sunjing-puzzles/CREATION.md) — Codex में गेम डिज़ाइन, प्रक्रियात्मक 3D ग्राफ़िक्स, नियम, पहेली हल करने की प्रणाली और परीक्षणों पर कई चरणों में काम किया गया। GPT-6 Astra के सटीक उपयोग की पुष्टि रचनाकार से होनी बाकी है (प्रारूप के रूप में प्रस्तुति)।
   - विकास संसाधन: [स्रोत कोड और चलाने के निर्देश](works/sunjing-puzzles/README.md) · [आवश्यकताएँ](works/sunjing-puzzles/PROMPTS.md) · तकनीक: React, Vinext/Vite, Three.js.
   - पूर्वावलोकन: ![हरे 3D कार्यमेज पर Sunjing की छह टुकड़ों वाली लकड़ी की पहेली, टुकड़ों के नंबर और उन्हें निकालने के नियंत्रण।](assets/screenshots/sunjing-puzzles/gameplay.jpg)
+
+- **[二凤字阵 / Erfeng Glyph Formation](https://2feng.jay6697117.deno.net/)** — चीनी अक्षरों को जोड़ने वाला टावर डिफेंस, स्याही शैली के इंटरफ़ेस और पात्र विकास के साथ।
+  - रचनाकार: [SteveZhang / jay6697117](https://github.com/jay6697117) · [X](https://x.com/stevezh10058543)
+  - प्लेटफ़ॉर्म: Google लॉगिन आवश्यक। केवल लॉगिन स्क्रीन जाँची गई; गेमप्ले निर्माता के स्क्रीनशॉट पर आधारित है। WeChat उपयोगकर्ताओं को Chrome में अनुमति देने को कहा गया है।
+  - GPT-6 Astra: [Issue #48](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/48) — निर्माता के अनुसार: GPT-6 Astra से गेम लॉजिक, UI लेआउट अनुकूलन और गेम आर्ट निर्माण।
+  - पूर्वावलोकन: ![二凤字阵 / Erfeng Glyph Formation](https://github.com/user-attachments/assets/f237391f-1924-4607-b2a7-924cdab1dbc4)
 
 <a id="strategy-simulation"></a>
 
@@ -296,6 +302,12 @@
   - संसाधन: [HTML](https://files.chat01.ai/python-generations/9ab8f4f7-425f-4709-b741-7218d87122e6/abyss-descent.html) · [ZIP](https://files.chat01.ai/python-generations/9ab8f4f7-425f-4709-b741-7218d87122e6/abyss-descent-complete.zip)
   - पूर्वावलोकन: ![零界深潜 / ABYSS PROTOCOL](assets/screenshots/abyss-protocol/gameplay.jpg)
 
+- **[疾风赛道 / Kart Racing（跑跑卡丁车）](https://qwen3-8-test.vercel.app/)** — ड्रिफ्ट, नाइट्रो और आइटम के साथ तीन लैप की दौड़; वर्तमान नाम 疾风赛道 है और 2–4 खिलाड़ियों का ऑनलाइन मोड भी है।
+  - रचनाकार: [SteveZhang / jay6697117](https://github.com/jay6697117) · [X](https://x.com/stevezh10058543)
+  - प्लेटफ़ॉर्म: ब्राउज़र, मुफ़्त, बिना खाते के। निर्माता के अनुसार VPN/प्रॉक्सी आवश्यक हो सकता है। सोलो शुरुआत जाँची गई; मल्टीप्लेयर नहीं।
+  - GPT-6 Astra: [Issue #51](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/51) — निर्माता के अनुसार: पहला संस्करण Qwen3.8 Max से; दूसरा Astra से पूरी तरह पुनर्निर्मित।
+  - पूर्वावलोकन: ![疾风赛道 / Kart Racing（跑跑卡丁车）](https://github.com/user-attachments/assets/015e0ca1-7032-4d0e-9391-ad3f40d84227)
+
 <a id="experimental-multiplayer"></a>
 
 ### प्रयोगात्मक और मल्टीप्लेयर
@@ -334,6 +346,12 @@
   - GPT-6 Astra: [X](https://x.com/scottstts/status/2096364764054131119) — लेखक ने इस परियोजना के विकास में Astra के उपयोग की जानकारी दी है। [जाँच विवरण (अंग्रेज़ी)](assets/screenshots/jelly-baby/SOURCE.md).
   - संसाधन: [GitHub](https://github.com/scottstts/Jelly-Baby)
   - पूर्वावलोकन: ![Jelly Baby](assets/screenshots/jelly-baby/gameplay.jpg)
+
+- **[泡泡坦克大作战联机版 / Toon Tank Arena](https://toon-tank-arena.jay6697117.deno.net/)** — उछलते गोलों और पावर-अप से इंद्रधनुषी कोर बचाएँ; सोलो, स्थानीय सहयोग और ऑनलाइन मुकाबले उपलब्ध हैं।
+  - रचनाकार: [SteveZhang / jay6697117](https://github.com/jay6697117) · [X](https://x.com/stevezh10058543)
+  - प्लेटफ़ॉर्म: ब्राउज़र, मुफ़्त, बिना खाते के। निर्माता के अनुसार VPN/प्रॉक्सी आवश्यक हो सकता है। सोलो शुरुआत जाँची गई; मल्टीप्लेयर नहीं।
+  - GPT-6 Astra: [Issue #52](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/52) — निर्माता के अनुसार: पहला संस्करण GPT-6 Astra Pro से; बाद के सुधार Codex में GPT-6 Astra से।
+  - पूर्वावलोकन: ![泡泡坦克大作战联机版 / Toon Tank Arena](https://github.com/user-attachments/assets/713d44f3-a77c-452c-ba6d-1231882dc670)
 
 ## हर प्रविष्टि में क्या शामिल है
 
