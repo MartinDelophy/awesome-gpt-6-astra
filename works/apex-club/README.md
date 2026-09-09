@@ -113,3 +113,7 @@ Player movement uses independent world position, heading and velocity. Auto thro
 ## Showroom and scenes
 
 The lobby uses a live, lit 3D showroom with the selected kart, a circular display platform and reduced-motion support. Choose **Bay Circuit** or **Jade Citadel** before launching a race. Jade Citadel replaces the coastal scenery with stone paving, continuous battlements, tiered watchtowers, red lanterns and distant mountains. Both scenes share the existing circuit layout and manual driving physics; this is an environment selection, not a second course layout. Citadel geometry is created on first selection, and repeated walls use instancing.
+
+## Advanced boost controls
+
+Press **E** on PC or **MINI** on touch screens during a boost opportunity. Releasing a charged drift opens an 0.85-second exit-boost window; countersteering on release labels it CUT BOOST. This replaces automatic drift-release acceleration. Gold ramps at three points per lap enable physical airborne motion: one air boost within 0.9 seconds after launch, then one landing boost within 0.65 seconds after touchdown. Drift hops do not count. Chaining within two seconds displays a combo; boost duration uses a maximum rather than unlimited accumulation. Wall contact cancels pending opportunities. Mobile game surfaces suppress text selection, native context menus and drag gestures; editable fields remain usable.
