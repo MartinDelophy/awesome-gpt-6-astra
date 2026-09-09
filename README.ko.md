@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 40](https://img.shields.io/badge/Cases-40-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 43](https://img.shields.io/badge/Cases-43-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **GPT-6 Astra로 만든 흥미로운 게임을 모았습니다.**
 
@@ -22,7 +22,7 @@
 
 ## 여기서 시작하기
 
-현재 **게임 및 인터랙티브 작품 40개**를 소개합니다. 삼국지 영토 전략, 나무 결합 퍼즐과 슬라이딩 퍼즐, 부드러운 과일 합치기, 원버튼 비행, 마법 양탄자 전투, 섬의 전력망을 이용한 타워 디펜스, 야생 생존, 수중 낚시와 초밥집 경영 및 섬 농사, 베이 서킷 카트 레이싱, 펠리컨과 함께하는 해안 자전거 달리기, 탁상 장난감을 옮긴 3D 게임, 그리고 Orbital Garden을 만나 보세요. 작품명을 누르면 데모 또는 실행 안내가 포함된 소스 코드가 열립니다.
+현재 **게임 및 인터랙티브 작품 43개**를 소개합니다. 삼국지 영토 전략, 나무 결합 퍼즐과 슬라이딩 퍼즐, 부드러운 과일 합치기, 원버튼 비행, 마법 양탄자 전투, 섬의 전력망을 이용한 타워 디펜스, 야생 생존, 수중 낚시와 초밥집 경영 및 섬 농사, 베이 서킷 카트 레이싱, 펠리컨과 함께하는 해안 자전거 달리기, 탁상 장난감을 옮긴 3D 게임, 그리고 Orbital Garden을 만나 보세요. 작품명을 누르면 데모 또는 실행 안내가 포함된 소스 코드가 열립니다.
 
 목록 업데이트: **2026-09-09**. 모델 사용 정보는 제작자 또는 제출자의 설명을 바탕으로 하며, 미확인 내용은 각 항목에 표시합니다. 이 날짜는 목록 관리 날짜이며 모든 게임을 다시 플레이 테스트한 날짜가 아닙니다.
 
@@ -129,6 +129,12 @@
   - 모델 참여: [제작 기록](works/sunjing-puzzles/CREATION.md) — Codex에서 게임 설계, 절차적 3D 그래픽, 규칙, 솔버와 테스트를 여러 차례 개발했습니다. GPT-6 Astra의 구체적인 사용 여부는 제작자 확인을 기다리고 있습니다(초안 제출).
   - 개발 자료: [소스 코드 및 실행 안내](works/sunjing-puzzles/README.md) · [요구사항 기록](works/sunjing-puzzles/PROMPTS.md) · 사용 기술: React, Vinext/Vite, Three.js.
   - 미리보기: ![초록색 3D 작업대 위에 놓인 Sunjing의 6개 부품 나무 퍼즐과 부품 번호, 빼내기 조작부.](assets/screenshots/sunjing-puzzles/gameplay.jpg)
+
+- **[二凤字阵 / Erfeng Glyph Formation](https://2feng.jay6697117.deno.net/)** — 한자 조합과 타워 디펜스를 결합하고 수묵화 UI와 캐릭터 성장을 갖춘 게임.
+  - 제작자: [SteveZhang / jay6697117](https://github.com/jay6697117) · [X](https://x.com/stevezh10058543)
+  - 플랫폼: Google 로그인 필수. 로그인 화면만 확인했으며 게임 내용은 제작자 스크린샷에 근거합니다. WeChat 사용자는 Chrome에서 인증하도록 안내됩니다.
+  - GPT-6 Astra: [Issue #48](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/48) — 제작자 설명: GPT-6 Astra가 게임 로직, UI 배치 최적화와 아트 생성을 담당.
+  - 미리보기: ![二凤字阵 / Erfeng Glyph Formation](https://github.com/user-attachments/assets/f237391f-1924-4607-b2a7-924cdab1dbc4)
 
 <a id="strategy-simulation"></a>
 
@@ -296,6 +302,12 @@
   - 개발 자료: [HTML](https://files.chat01.ai/python-generations/9ab8f4f7-425f-4709-b741-7218d87122e6/abyss-descent.html) · [ZIP](https://files.chat01.ai/python-generations/9ab8f4f7-425f-4709-b741-7218d87122e6/abyss-descent-complete.zip)
   - 미리보기: ![零界深潜 / ABYSS PROTOCOL](assets/screenshots/abyss-protocol/gameplay.jpg)
 
+- **[疾风赛道 / Kart Racing（跑跑卡丁车）](https://qwen3-8-test.vercel.app/)** — 드리프트, 니트로와 아이템으로 3바퀴를 겨루는 레이싱. 현재 제목은 疾风赛道이며 2–4인 온라인 모드도 제공합니다.
+  - 제작자: [SteveZhang / jay6697117](https://github.com/jay6697117) · [X](https://x.com/stevezh10058543)
+  - 플랫폼: 브라우저, 무료, 로그인 불필요. 제작자는 VPN/프록시가 필요할 수 있다고 안내합니다. 싱글 시작 확인, 멀티플레이 미검증.
+  - GPT-6 Astra: [Issue #51](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/51) — 제작자 설명: 첫 버전은 Qwen3.8 Max, 두 번째는 Astra로 전면 재구축.
+  - 미리보기: ![疾风赛道 / Kart Racing（跑跑卡丁车）](https://github.com/user-attachments/assets/015e0ca1-7032-4d0e-9391-ad3f40d84227)
+
 <a id="experimental-multiplayer"></a>
 
 ### 실험적 게임 및 멀티플레이
@@ -334,6 +346,12 @@
   - GPT-6 Astra: [X](https://x.com/scottstts/status/2096364764054131119) — 제작자는 이 프로젝트 개발에 Astra를 사용했다고 밝혔습니다. [검증 기록 (영어)](assets/screenshots/jelly-baby/SOURCE.md).
   - 개발 자료: [GitHub](https://github.com/scottstts/Jelly-Baby)
   - 미리보기: ![Jelly Baby](assets/screenshots/jelly-baby/gameplay.jpg)
+
+- **[泡泡坦克大作战联机版 / Toon Tank Arena](https://toon-tank-arena.jay6697117.deno.net/)** — 튕기는 포탄과 강화 아이템으로 무지개 코어를 지키는 탱크 아레나. 싱글, 로컬 협동, 온라인 대전을 제공합니다.
+  - 제작자: [SteveZhang / jay6697117](https://github.com/jay6697117) · [X](https://x.com/stevezh10058543)
+  - 플랫폼: 브라우저, 무료, 로그인 불필요. 제작자는 VPN/프록시가 필요할 수 있다고 안내합니다. 싱글 시작 확인, 멀티플레이 미검증.
+  - GPT-6 Astra: [Issue #52](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/52) — 제작자 설명: 첫 버전은 GPT-6 Astra Pro, 후속 개선은 Codex의 GPT-6 Astra.
+  - 미리보기: ![泡泡坦克大作战联机版 / Toon Tank Arena](https://github.com/user-attachments/assets/713d44f3-a77c-452c-ba6d-1231882dc670)
 
 ## 각 항목에 담는 정보
 

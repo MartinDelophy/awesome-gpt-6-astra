@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 40](https://img.shields.io/badge/Cases-40-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 43](https://img.shields.io/badge/Cases-43-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Подборка интересных игр, созданных с помощью GPT-6 Astra.**
 
@@ -22,7 +22,7 @@
 
 ## С чего начать
 
-Здесь собраны **40 игр и интерактивных проектов**: территориальная стратегия эпохи Троецарствия, деревянные головоломки со сцепленными деталями и сдвижными блоками, объединение мягких фруктов, полёт одной кнопкой, сражения на ковре-самолёте, защита острова с помощью электросети, выживание в дикой природе, подводная охота, управление суши-рестораном и фермерство на острове, гонки на картах по Bay Circuit, велопрогулка с пеликаном вдоль берега, настольные игрушки в 3D и Orbital Garden. Нажмите на название, чтобы открыть демоверсию или исходный код с инструкцией по запуску.
+Здесь собраны **43 игр и интерактивных проектов**: территориальная стратегия эпохи Троецарствия, деревянные головоломки со сцепленными деталями и сдвижными блоками, объединение мягких фруктов, полёт одной кнопкой, сражения на ковре-самолёте, защита острова с помощью электросети, выживание в дикой природе, подводная охота, управление суши-рестораном и фермерство на острове, гонки на картах по Bay Circuit, велопрогулка с пеликаном вдоль берега, настольные игрушки в 3D и Orbital Garden. Нажмите на название, чтобы открыть демоверсию или исходный код с инструкцией по запуску.
 
 Каталог обновлён: **2026-09-09**. Сведения об использовании модели основаны на заявлениях авторов или отправителей; неподтверждённые данные отмечены в соответствующих записях. Эта дата означает обновление каталога, а не повторное игровое тестирование всех проектов.
 
@@ -129,6 +129,12 @@
   - Участие модели: [История создания](works/sunjing-puzzles/CREATION.md) — Итеративная работа в Codex над дизайном игры, процедурной 3D-графикой, правилами, решателем и тестами; точное использование GPT-6 Astra ожидает подтверждения автора (черновая заявка).
   - Материалы: [Исходный код и инструкция по запуску](works/sunjing-puzzles/README.md) · [Требования](works/sunjing-puzzles/PROMPTS.md) · Технологии: React, Vinext/Vite, Three.js.
   - Предпросмотр: ![Деревянная головоломка Sunjing из шести деталей на зелёном 3D-верстаке с номерами деталей и кнопками извлечения.](assets/screenshots/sunjing-puzzles/gameplay.jpg)
+
+- **[二凤字阵 / Erfeng Glyph Formation](https://2feng.jay6697117.deno.net/)** — Защита башен с составлением китайских иероглифов, интерфейсом в стиле туши и развитием персонажей.
+  - Автор: [SteveZhang / jay6697117](https://github.com/jay6697117) · [X](https://x.com/stevezh10058543)
+  - Платформа: Нужен вход через Google. Проверена только страница входа; игровой процесс представлен снимками автора. Для WeChat автор советует авторизацию в Chrome.
+  - GPT-6 Astra: [Issue #48](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/48) — По словам автора: GPT-6 Astra: игровая логика, оптимизация интерфейса и создание графики.
+  - Предпросмотр: ![二凤字阵 / Erfeng Glyph Formation](https://github.com/user-attachments/assets/f237391f-1924-4607-b2a7-924cdab1dbc4)
 
 <a id="strategy-simulation"></a>
 
@@ -296,6 +302,12 @@
   - Ресурсы: [HTML](https://files.chat01.ai/python-generations/9ab8f4f7-425f-4709-b741-7218d87122e6/abyss-descent.html) · [ZIP](https://files.chat01.ai/python-generations/9ab8f4f7-425f-4709-b741-7218d87122e6/abyss-descent-complete.zip)
   - Предпросмотр: ![零界深潜 / ABYSS PROTOCOL](assets/screenshots/abyss-protocol/gameplay.jpg)
 
+- **[疾风赛道 / Kart Racing（跑跑卡丁车）](https://qwen3-8-test.vercel.app/)** — Три круга с дрифтом, нитро и предметами; текущее название — 疾风赛道, есть онлайн-режим на 2–4 игроков.
+  - Автор: [SteveZhang / jay6697117](https://github.com/jay6697117) · [X](https://x.com/stevezh10058543)
+  - Платформа: Браузер, бесплатно, без регистрации. По словам автора, может понадобиться VPN/прокси. Одиночный запуск проверен; мультиплеер не проверялся.
+  - GPT-6 Astra: [Issue #51](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/51) — По словам автора: Первая версия — Qwen3.8 Max, вторая полностью переработана с Astra.
+  - Предпросмотр: ![疾风赛道 / Kart Racing（跑跑卡丁车）](https://github.com/user-attachments/assets/015e0ca1-7032-4d0e-9391-ad3f40d84227)
+
 <a id="experimental-multiplayer"></a>
 
 ### Экспериментальные и многопользовательские игры
@@ -334,6 +346,12 @@
   - GPT-6 Astra: [X](https://x.com/scottstts/status/2096364764054131119) — Автор сообщает об использовании Astra при разработке проекта. [Запись проверки (английский)](assets/screenshots/jelly-baby/SOURCE.md).
   - Ресурсы: [GitHub](https://github.com/scottstts/Jelly-Baby)
   - Предпросмотр: ![Jelly Baby](assets/screenshots/jelly-baby/gameplay.jpg)
+
+- **[泡泡坦克大作战联机版 / Toon Tank Arena](https://toon-tank-arena.jay6697117.deno.net/)** — Защищайте радужное ядро рикошетящими снарядами и усилениями; доступны одиночный режим, локальная кооперация и онлайн-бои.
+  - Автор: [SteveZhang / jay6697117](https://github.com/jay6697117) · [X](https://x.com/stevezh10058543)
+  - Платформа: Браузер, бесплатно, без регистрации. По словам автора, может понадобиться VPN/прокси. Одиночный запуск проверен; мультиплеер не проверялся.
+  - GPT-6 Astra: [Issue #52](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/52) — По словам автора: Первая версия — GPT-6 Astra Pro, доработки — GPT-6 Astra в Codex.
+  - Предпросмотр: ![泡泡坦克大作战联机版 / Toon Tank Arena](https://github.com/user-attachments/assets/713d44f3-a77c-452c-ba6d-1231882dc670)
 
 ## Что содержит запись
 

@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 40](https://img.shields.io/badge/Cases-40-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 43](https://img.shields.io/badge/Cases-43-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Kumpulan gim menarik yang dibuat dengan GPT-6 Astra.**
 
@@ -22,7 +22,7 @@ Halaman ini merupakan terjemahan [README bahasa Inggris](README.md). Periksa ver
 
 ## Mulai di sini
 
-Jelajahi **40 gim dan proyek interaktif**: strategi wilayah Tiga Kerajaan, teka-teki kayu yang saling mengunci dan teka-teki balok geser, penggabungan buah yang lentur, penerbangan satu tombol, pertempuran karpet ajaib, pertahanan pulau dengan jaringan listrik, bertahan hidup di alam liar, menangkap ikan di bawah air, mengelola restoran sushi, dan bertani di pulau, balapan kart di Bay Circuit, bersepeda di pesisir bersama pelikan, mainan meja yang diadaptasi menjadi gim 3D, serta Orbital Garden. Klik judul untuk membuka demo atau kode sumber beserta petunjuk menjalankannya.
+Jelajahi **43 gim dan proyek interaktif**: strategi wilayah Tiga Kerajaan, teka-teki kayu yang saling mengunci dan teka-teki balok geser, penggabungan buah yang lentur, penerbangan satu tombol, pertempuran karpet ajaib, pertahanan pulau dengan jaringan listrik, bertahan hidup di alam liar, menangkap ikan di bawah air, mengelola restoran sushi, dan bertani di pulau, balapan kart di Bay Circuit, bersepeda di pesisir bersama pelikan, mainan meja yang diadaptasi menjadi gim 3D, serta Orbital Garden. Klik judul untuk membuka demo atau kode sumber beserta petunjuk menjalankannya.
 
 Katalog diperbarui: **2026-09-09**. Informasi penggunaan model berdasarkan pernyataan kreator atau pengirim; detail yang belum dikonfirmasi ditandai pada setiap entri. Tanggal ini menunjukkan pemeliharaan katalog, bukan pengujian ulang seluruh gim.
 
@@ -129,6 +129,12 @@ Teka-teki logika, tantangan fisika, permainan kata, dan mekanisme kecil yang kre
   - Keterlibatan model: [Catatan pembuatan](works/sunjing-puzzles/CREATION.md) — Pengembangan berulang melalui Codex untuk desain gim, visual 3D prosedural, aturan, pemecah teka-teki, dan pengujian; penggunaan spesifik GPT-6 Astra masih menunggu konfirmasi kreator (pengajuan draf).
   - Materi pengembangan: [Kode sumber dan petunjuk menjalankan](works/sunjing-puzzles/README.md) · [Kebutuhan](works/sunjing-puzzles/PROMPTS.md) · Teknologi: React, Vinext/Vite, Three.js.
   - Pratinjau: ![Teka-teki kayu enam bagian Sunjing di meja kerja 3D hijau dengan nomor bagian dan kontrol penarikan.](assets/screenshots/sunjing-puzzles/gameplay.jpg)
+
+- **[二凤字阵 / Erfeng Glyph Formation](https://2feng.jay6697117.deno.net/)** — Pertahanan menara dengan penyusunan aksara Mandarin, antarmuka bergaya tinta dan perkembangan karakter.
+  - Kreator: [SteveZhang / jay6697117](https://github.com/jay6697117) · [X](https://x.com/stevezh10058543)
+  - Platform: Wajib masuk dengan Google. Hanya layar masuk diperiksa; permainan didokumentasikan lewat tangkapan pembuat. Pengguna WeChat diarahkan memberi otorisasi di Chrome.
+  - GPT-6 Astra: [Issue #48](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/48) — Menurut pembuat: GPT-6 Astra menangani logika, optimasi tata letak UI dan pembuatan seni gim.
+  - Pratinjau: ![二凤字阵 / Erfeng Glyph Formation](https://github.com/user-attachments/assets/f237391f-1924-4607-b2a7-924cdab1dbc4)
 
 <a id="strategy-simulation"></a>
 
@@ -296,6 +302,12 @@ Parkour, tantangan platform, balapan, serta gim yang berfokus pada gerakan dan r
   - Sumber daya: [HTML](https://files.chat01.ai/python-generations/9ab8f4f7-425f-4709-b741-7218d87122e6/abyss-descent.html) · [ZIP](https://files.chat01.ai/python-generations/9ab8f4f7-425f-4709-b741-7218d87122e6/abyss-descent-complete.zip)
   - Pratinjau: ![零界深潜 / ABYSS PROTOCOL](assets/screenshots/abyss-protocol/gameplay.jpg)
 
+- **[疾风赛道 / Kart Racing（跑跑卡丁车）](https://qwen3-8-test.vercel.app/)** — Balapan tiga putaran dengan drift, nitro, dan item; judul saat ini 疾风赛道 dan tersedia mode daring untuk 2–4 pemain.
+  - Kreator: [SteveZhang / jay6697117](https://github.com/jay6697117) · [X](https://x.com/stevezh10058543)
+  - Platform: Peramban, gratis, tanpa akun. Pembuat menyebut VPN/proksi mungkin diperlukan. Awal solo diuji; multipemain belum diuji.
+  - GPT-6 Astra: [Issue #51](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/51) — Menurut pembuat: Versi pertama dengan Qwen3.8 Max; versi kedua dibangun ulang sepenuhnya dengan Astra.
+  - Pratinjau: ![疾风赛道 / Kart Racing（跑跑卡丁车）](https://github.com/user-attachments/assets/015e0ca1-7032-4d0e-9391-ad3f40d84227)
+
 <a id="experimental-multiplayer"></a>
 
 ### Eksperimental dan multipemain
@@ -334,6 +346,12 @@ Mekanisme tidak biasa, kompetisi daring, dan pengalaman bermain kooperatif.
   - GPT-6 Astra: [X](https://x.com/scottstts/status/2096364764054131119) — Kreator menyatakan menggunakan Astra dalam pengembangan proyek ini. [Catatan verifikasi (Inggris)](assets/screenshots/jelly-baby/SOURCE.md).
   - Sumber daya: [GitHub](https://github.com/scottstts/Jelly-Baby)
   - Pratinjau: ![Jelly Baby](assets/screenshots/jelly-baby/gameplay.jpg)
+
+- **[泡泡坦克大作战联机版 / Toon Tank Arena](https://toon-tank-arena.jay6697117.deno.net/)** — Lindungi inti pelangi dengan peluru memantul dan peningkatan, melalui mode solo, kerja sama lokal, atau pertempuran daring.
+  - Kreator: [SteveZhang / jay6697117](https://github.com/jay6697117) · [X](https://x.com/stevezh10058543)
+  - Platform: Peramban, gratis, tanpa akun. Pembuat menyebut VPN/proksi mungkin diperlukan. Awal solo diuji; multipemain belum diuji.
+  - GPT-6 Astra: [Issue #52](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/52) — Menurut pembuat: Versi pertama dengan GPT-6 Astra Pro; perbaikan berikutnya dengan GPT-6 Astra di Codex.
+  - Pratinjau: ![泡泡坦克大作战联机版 / Toon Tank Arena](https://github.com/user-attachments/assets/713d44f3-a77c-452c-ba6d-1231882dc670)
 
 ## Isi setiap entri
 
