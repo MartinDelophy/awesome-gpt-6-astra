@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 20](https://img.shields.io/badge/Cases-20-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 30](https://img.shields.io/badge/Cases-30-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Kumpulan gim menarik yang dibuat dengan GPT-6 Astra.**
 
@@ -22,7 +22,7 @@ Halaman ini merupakan terjemahan [README bahasa Inggris](README.md). Periksa ver
 
 ## Mulai di sini
 
-Jelajahi **19 gim peramban dan 1 sandbox seni partikel interaktif**: strategi wilayah Tiga Kerajaan, teka-teki kayu yang saling mengunci dan teka-teki balok geser, penggabungan buah yang lentur, penerbangan satu tombol, pertempuran karpet ajaib, pertahanan pulau dengan jaringan listrik, bertahan hidup di alam liar, menangkap ikan di bawah air, mengelola restoran sushi, dan bertani di pulau, balapan kart di Bay Circuit, bersepeda di pesisir bersama pelikan, mainan meja yang diadaptasi menjadi gim 3D, serta Orbital Garden. Klik judul untuk membuka demo atau kode sumber beserta petunjuk menjalankannya.
+Jelajahi **29 gim peramban dan 1 sandbox seni partikel interaktif**: strategi wilayah Tiga Kerajaan, teka-teki kayu yang saling mengunci dan teka-teki balok geser, penggabungan buah yang lentur, penerbangan satu tombol, pertempuran karpet ajaib, pertahanan pulau dengan jaringan listrik, bertahan hidup di alam liar, menangkap ikan di bawah air, mengelola restoran sushi, dan bertani di pulau, balapan kart di Bay Circuit, bersepeda di pesisir bersama pelikan, mainan meja yang diadaptasi menjadi gim 3D, serta Orbital Garden. Klik judul untuk membuka demo atau kode sumber beserta petunjuk menjalankannya.
 
 Katalog diperbarui: **2026-09-09**. Informasi penggunaan model berdasarkan pernyataan kreator atau pengirim; detail yang belum dikonfirmasi ditandai pada setiap entri. Tanggal ini menunjukkan pemeliharaan katalog, bukan pengujian ulang seluruh gim.
 
@@ -79,6 +79,18 @@ Gim tembak-menembak, pertarungan, bertahan hidup, ritme, dan apa pun yang membua
   - GPT-6 Astra: [X](https://x.com/CtrlAltDwayne/status/2097499157967818780) — Kreator secara eksplisit menyatakan bahwa gim pertarungan multipemain ini dibuat dengan GPT-6 Astra dan masih dalam pengembangan.
   - Pratinjau: ![Stick Fighter — Tangkapan permainan](assets/screenshots/stick-fighter/gameplay.jpg)
 
+- **[Gogh Strike · Paint Clash](https://gogh-strike.surge.sh/)** — FPS perang cat terinspirasi Van Gogh dengan enam seniman, senjata khas dan target 20 poin.
+  - Kreator: [Peter Gostev](https://x.com/petergostev)
+  - Platform: Peramban desktop; dibuka tanpa login atau pembayaran. Seluler belum diuji.
+  - GPT-6 Astra: [X](https://x.com/petergostev/status/2096015315209449578) — Kreator menyatakan menggunakan Astra dalam pengembangan proyek ini. [Catatan verifikasi (Inggris)](assets/screenshots/gogh-strike/SOURCE.md).
+  - Pratinjau: ![Gogh Strike · Paint Clash — Tangkapan permainan](assets/screenshots/gogh-strike/gameplay.jpg)
+
+- **[ASTEROIDS · Deepfield](https://asteroids-deepfield-cockpit.dan200200.chatgpt.site/)** — Kokpit bergaya Asteroids dengan empat kamera, radar, meriam ganda dan penerbangan inersial.
+  - Kreator: [Eyes Wide Open](https://x.com/DantesClown)
+  - Platform: Peramban desktop; dibuka tanpa login atau pembayaran. Seluler belum diuji.
+  - GPT-6 Astra: [X](https://x.com/DantesClown/status/2096085439052452064) — Kreator menyatakan menggunakan Astra dalam pengembangan proyek ini. [Catatan verifikasi (Inggris)](assets/screenshots/asteroids-deepfield/SOURCE.md).
+  - Pratinjau: ![ASTEROIDS · Deepfield — Tangkapan permainan](assets/screenshots/asteroids-deepfield/gameplay.jpg)
+
 <a id="puzzles"></a>
 
 ### Teka-teki dan asah otak
@@ -110,6 +122,18 @@ Teka-teki logika, tantangan fisika, permainan kata, dan mekanisme kecil yang kre
 ### Strategi dan simulasi
 
 Pertahanan menara, kartu strategi, pengelolaan, pembangunan, dan sandbox simulasi.
+
+- **[Little Kingdom Chess / 작은 왕국 체스](https://little-kingdom-chess.echo3042.chatgpt.site/)** — Catur melawan komputer di papan 3D yang dapat diputar, dengan karakter mini, riwayat langkah dan pembatalan.
+  - Kreator: [에코_eco](https://x.com/echo3042)
+  - Platform: Peramban desktop; dibuka tanpa login atau pembayaran. Seluler belum diuji.
+  - GPT-6 Astra: [X](https://x.com/echo3042/status/2096123409029886250) — Kreator menyatakan menggunakan Astra dalam pengembangan proyek ini. [Catatan verifikasi (Inggris)](assets/screenshots/little-kingdom-chess/SOURCE.md).
+  - Pratinjau: ![Little Kingdom Chess / 작은 왕국 체스 — Tangkapan permainan](assets/screenshots/little-kingdom-chess/gameplay.jpg)
+
+- **[JUNK RUN](https://junk-run.pages.dev/)** — Rakit kendaraan tanpa mesin dari barang bekas lalu meluncur menuruni bukit; dimulai di bengkel orang pertama.
+  - Kreator: [TheLabGuy](https://x.com/hermesailab)
+  - Platform: Peramban desktop; dibuka tanpa login atau pembayaran. Seluler belum diuji.
+  - GPT-6 Astra: [X](https://x.com/hermesailab/status/2097508053901840850) — Kreator menyatakan menggunakan Astra dalam pengembangan proyek ini. [Catatan verifikasi (Inggris)](assets/screenshots/junk-run/SOURCE.md).
+  - Pratinjau: ![JUNK RUN — Tangkapan permainan](assets/screenshots/junk-run/gameplay.jpg)
 
 - **[Spy or Lie](https://spyorlie.com/)** — Gim strategi papan heksagonal melawan komputer: tempatkan agen tersembunyi, lakukan gertakan, dan kepung kelompok musuh untuk memicu rangkaian penangkapan.
   - Kreator: [Nate Lorenzen](https://x.com/NateLorenzen)
@@ -163,13 +187,35 @@ Pertahanan menara, kartu strategi, pengelolaan, pembangunan, dan sandbox simulas
 
 Permainan peran, eksplorasi, petualangan naratif, dan cerita interaktif.
 
-*Menunggu gim pertama.*
+- **[Lumbridge / Elderwood Realms](https://elderwood-realms.rohannvarma.chatgpt.site/)** — Petualangan multipemain retro dengan dunia bersama, keterampilan, pengumpulan sumber daya dan pertarungan; tersedia akses tamu.
+  - Kreator: [Rohan Varma](https://x.com/TheRohanVarma)
+  - Platform: Peramban desktop; dibuka tanpa login atau pembayaran. Seluler belum diuji.
+  - GPT-6 Astra: [X](https://x.com/TheRohanVarma/status/2096744577332068549) — Kreator menyatakan menggunakan Astra dalam pengembangan proyek ini. [Catatan verifikasi (Inggris)](assets/screenshots/lumbridge/SOURCE.md).
+  - Pratinjau: ![Lumbridge / Elderwood Realms — Tangkapan permainan](assets/screenshots/lumbridge/gameplay.jpg)
 
 <a id="platformers-racing"></a>
 
 ### Platformer dan balapan
 
 Parkour, tantangan platform, balapan, serta gim yang berfokus pada gerakan dan rute.
+
+- **[STORM RACE](https://storm-race.vercel.app/)** — Balapan mini 4WD dengan tampilan komponen terurai di garasi, boost serta lintasan kering, hujan dan badai.
+  - Kreator: [BubuAi](https://x.com/BubuStd)
+  - Platform: Peramban desktop; dibuka tanpa login atau pembayaran. Seluler belum diuji.
+  - GPT-6 Astra: [X](https://x.com/BubuStd/status/2096587056755638553) — Kreator menyatakan menggunakan Astra dalam pengembangan proyek ini. [Catatan verifikasi (Inggris)](assets/screenshots/storm-race/SOURCE.md).
+  - Pratinjau: ![STORM RACE — Tangkapan permainan](assets/screenshots/storm-race/gameplay.jpg)
+
+- **[FANG STARLIGHT RUN](https://fang-starlight-run.yosshy666.chatgpt.site/)** — Pandu serigala melewati tiga level malam, mengumpulkan koin dan pecahan bintang dengan lompatan ganda serta dash.
+  - Kreator: [FANGプラス最強伝説🐺](https://x.com/FANGsaikyou)
+  - Platform: Peramban desktop; dibuka tanpa login atau pembayaran. Seluler belum diuji.
+  - GPT-6 Astra: [X](https://x.com/FANGsaikyou/status/2096192022596194588) — Kreator menyatakan menggunakan Astra dalam pengembangan proyek ini. [Catatan verifikasi (Inggris)](assets/screenshots/fang-starlight-run/SOURCE.md).
+  - Pratinjau: ![FANG STARLIGHT RUN — Tangkapan permainan](assets/screenshots/fang-starlight-run/gameplay.jpg)
+
+- **[Blue Bajaj Rally](https://bajaj.guzo.tech/)** — Kendarai Bajaj roda tiga di sirkuit dataran tinggi terinspirasi Ethiopia melawan lima AI atau catatan waktu.
+  - Kreator: [Guzo Technologies](https://x.com/guzotech)
+  - Platform: Peramban desktop; dibuka tanpa login atau pembayaran. Seluler belum diuji.
+  - GPT-6 Astra: [X](https://x.com/guzotech/status/2096209787864088638) — Kreator menyatakan menggunakan Astra dalam pengembangan proyek ini. [Catatan verifikasi (Inggris)](assets/screenshots/blue-bajaj-rally/SOURCE.md).
+  - Pratinjau: ![Blue Bajaj Rally — Tangkapan permainan](assets/screenshots/blue-bajaj-rally/gameplay.jpg)
 
 - **[APEX CLUB — Bay Kart Grand Prix](https://apex-club-racing.vercel.app)** — Balapan tiga putaran di Bay Circuit, pilih satu dari enam kart, dan isi tenaga mini turbo untuk keluar dari tikungan agar naik peringkat individu atau meraih poin dalam tim 4 lawan 4.
   - Kreator: Ryan
@@ -196,6 +242,18 @@ Parkour, tantangan platform, balapan, serta gim yang berfokus pada gerakan dan r
 ### Eksperimental dan multipemain
 
 Mekanisme tidak biasa, kompetisi daring, dan pengalaman bermain kooperatif.
+
+- **[ASTRA Arcade](https://astra-arcade.antonioleivag.chatgpt.site/)** — Enam gim peramban, termasuk reli gunung, snowboard dan balapan antigravitasi; dihitung sebagai satu koleksi.
+  - Kreator: [Antonio Leiva](https://x.com/antonioleivag)
+  - Platform: Peramban desktop; dibuka tanpa login atau pembayaran. Seluler belum diuji.
+  - GPT-6 Astra: [X](https://x.com/antonioleivag/status/2096509898481651770) — Kreator menyatakan menggunakan Astra dalam pengembangan proyek ini. [Catatan verifikasi (Inggris)](assets/screenshots/astra-arcade/SOURCE.md).
+  - Pratinjau: ![ASTRA Arcade — Tangkapan permainan](assets/screenshots/astra-arcade/gameplay.jpg)
+
+- **[Chao Party](https://chao.party/)** — Gim penggemar Chao Garden multipemain tidak resmi: pilih karakter Sonic dan berinteraksi dengan Chao di taman.
+  - Kreator: [Hank](https://x.com/h4nkdog)
+  - Platform: Peramban desktop; dibuka tanpa login atau pembayaran. Seluler belum diuji.
+  - GPT-6 Astra: [X](https://x.com/h4nkdog/status/2097308970431987857) — Kreator menyatakan menggunakan Astra dalam pengembangan proyek ini. [Catatan verifikasi (Inggris)](assets/screenshots/chao-party/SOURCE.md).
+  - Pratinjau: ![Chao Party — Tangkapan permainan](assets/screenshots/chao-party/gameplay.jpg)
 
 - **[ORBITAL GARDEN · 轨道花园](https://orbital-garden-one.vercel.app)** — Sandbox seni partikel interaktif: ubah 48.000 titik cahaya menjadi bunga, cincin gravitasi, atau galaksi, ganggu bentuk patungnya, dan ekspor suatu momen sebagai poster.
   - Kreator: [jackroc](https://github.com/jackroc)

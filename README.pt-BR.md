@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 20](https://img.shields.io/badge/Cases-20-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 30](https://img.shields.io/badge/Cases-30-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Uma coleção de jogos interessantes feitos com GPT-6 Astra.**
 
@@ -22,7 +22,7 @@ Esta página é uma tradução do [README em inglês](README.md). Consulte o ori
 
 ## Comece por aqui
 
-Explore **19 jogos de navegador e 1 ambiente interativo de arte com partículas**: estratégia territorial dos Três Reinos, quebra-cabeças de madeira com encaixes e peças deslizantes, fusão de frutas deformáveis, voo com um toque, combates em tapete mágico, defesa de uma ilha com uma rede elétrica, sobrevivência na natureza, pesca submarina, gestão de um restaurante de sushi e cultivo em uma ilha, corridas de kart no Bay Circuit, ciclismo pela costa com um pelicano, brinquedos de mesa adaptados para 3D e Orbital Garden. Clique em um título para abrir a demonstração ou o código-fonte com instruções de execução.
+Explore **29 jogos de navegador e 1 ambiente interativo de arte com partículas**: estratégia territorial dos Três Reinos, quebra-cabeças de madeira com encaixes e peças deslizantes, fusão de frutas deformáveis, voo com um toque, combates em tapete mágico, defesa de uma ilha com uma rede elétrica, sobrevivência na natureza, pesca submarina, gestão de um restaurante de sushi e cultivo em uma ilha, corridas de kart no Bay Circuit, ciclismo pela costa com um pelicano, brinquedos de mesa adaptados para 3D e Orbital Garden. Clique em um título para abrir a demonstração ou o código-fonte com instruções de execução.
 
 Catálogo atualizado: **2026-09-09**. O uso do modelo é informado com base nas declarações dos criadores ou responsáveis pelas submissões; detalhes não confirmados são sinalizados em cada entrada. Esta data registra a manutenção do catálogo, não um novo teste de todos os jogos.
 
@@ -79,6 +79,18 @@ Jogos de tiro, luta, sobrevivência, ritmo e qualquer experiência que dê vonta
   - GPT-6 Astra: [X](https://x.com/CtrlAltDwayne/status/2097499157967818780) — O autor declara que criou este jogo de luta multijogador com GPT-6 Astra e que ele ainda está em desenvolvimento.
   - Prévia: ![Stick Fighter — Captura do jogo](assets/screenshots/stick-fighter/gameplay.jpg)
 
+- **[Gogh Strike · Paint Clash](https://gogh-strike.surge.sh/)** — FPS de tinta inspirado em Van Gogh, com seis artistas, armas próprias e partidas até 20 pontos.
+  - Criador: [Peter Gostev](https://x.com/petergostev)
+  - Plataforma: Navegador de desktop; aberto sem login ou pagamento. Celular não testado.
+  - GPT-6 Astra: [X](https://x.com/petergostev/status/2096015315209449578) — O autor informa ter usado Astra no desenvolvimento deste projeto. [Notas de verificação (inglês)](assets/screenshots/gogh-strike/SOURCE.md).
+  - Prévia: ![Gogh Strike · Paint Clash — Captura do jogo](assets/screenshots/gogh-strike/gameplay.jpg)
+
+- **[ASTEROIDS · Deepfield](https://asteroids-deepfield-cockpit.dan200200.chatgpt.site/)** — Cabine de tiro estilo Asteroids com quatro câmeras, radar, canhões duplos e voo inercial.
+  - Criador: [Eyes Wide Open](https://x.com/DantesClown)
+  - Plataforma: Navegador de desktop; aberto sem login ou pagamento. Celular não testado.
+  - GPT-6 Astra: [X](https://x.com/DantesClown/status/2096085439052452064) — O autor informa ter usado Astra no desenvolvimento deste projeto. [Notas de verificação (inglês)](assets/screenshots/asteroids-deepfield/SOURCE.md).
+  - Prévia: ![ASTEROIDS · Deepfield — Captura do jogo](assets/screenshots/asteroids-deepfield/gameplay.jpg)
+
 <a id="puzzles"></a>
 
 ### Quebra-cabeças e raciocínio
@@ -110,6 +122,18 @@ Desafios de lógica e física, jogos de palavras e pequenos mecanismos engenhoso
 ### Estratégia e simulação
 
 Defesa de torres, cartas estratégicas, gerenciamento, construção e simulação no estilo sandbox.
+
+- **[Little Kingdom Chess / 작은 왕국 체스](https://little-kingdom-chess.echo3042.chatgpt.site/)** — Xadrez contra o computador em tabuleiro 3D giratório, com personagens em miniatura, histórico e desfazer.
+  - Criador: [에코_eco](https://x.com/echo3042)
+  - Plataforma: Navegador de desktop; aberto sem login ou pagamento. Celular não testado.
+  - GPT-6 Astra: [X](https://x.com/echo3042/status/2096123409029886250) — O autor informa ter usado Astra no desenvolvimento deste projeto. [Notas de verificação (inglês)](assets/screenshots/little-kingdom-chess/SOURCE.md).
+  - Prévia: ![Little Kingdom Chess / 작은 왕국 체스 — Captura do jogo](assets/screenshots/little-kingdom-chess/gameplay.jpg)
+
+- **[JUNK RUN](https://junk-run.pages.dev/)** — Monte um veículo sem motor com sucata e desça a ladeira; começa numa oficina em primeira pessoa.
+  - Criador: [TheLabGuy](https://x.com/hermesailab)
+  - Plataforma: Navegador de desktop; aberto sem login ou pagamento. Celular não testado.
+  - GPT-6 Astra: [X](https://x.com/hermesailab/status/2097508053901840850) — O autor informa ter usado Astra no desenvolvimento deste projeto. [Notas de verificação (inglês)](assets/screenshots/junk-run/SOURCE.md).
+  - Prévia: ![JUNK RUN — Captura do jogo](assets/screenshots/junk-run/gameplay.jpg)
 
 - **[Spy or Lie](https://spyorlie.com/)** — Jogo de estratégia em tabuleiro hexagonal contra o computador: posicione agentes ocultos, blefe e cerque grupos inimigos para encadear capturas.
   - Criador: [Nate Lorenzen](https://x.com/NateLorenzen)
@@ -163,13 +187,35 @@ Defesa de torres, cartas estratégicas, gerenciamento, construção e simulaçã
 
 RPG, exploração, aventuras narrativas e histórias interativas.
 
-*Aguardando o primeiro jogo.*
+- **[Lumbridge / Elderwood Realms](https://elderwood-realms.rohannvarma.chatgpt.site/)** — Aventura multijogador retrô com mundo compartilhado, habilidades, coleta e combate; permite entrar como visitante.
+  - Criador: [Rohan Varma](https://x.com/TheRohanVarma)
+  - Plataforma: Navegador de desktop; aberto sem login ou pagamento. Celular não testado.
+  - GPT-6 Astra: [X](https://x.com/TheRohanVarma/status/2096744577332068549) — O autor informa ter usado Astra no desenvolvimento deste projeto. [Notas de verificação (inglês)](assets/screenshots/lumbridge/SOURCE.md).
+  - Prévia: ![Lumbridge / Elderwood Realms — Captura do jogo](assets/screenshots/lumbridge/gameplay.jpg)
 
 <a id="platformers-racing"></a>
 
 ### Plataforma e corrida
 
 Parkour, desafios de plataforma, corridas e jogos baseados em movimento e trajetos.
+
+- **[STORM RACE](https://storm-race.vercel.app/)** — Corridas de mini 4×4 com garagem de peças em vista explodida, turbo e pistas com sol, chuva e tempestade.
+  - Criador: [BubuAi](https://x.com/BubuStd)
+  - Plataforma: Navegador de desktop; aberto sem login ou pagamento. Celular não testado.
+  - GPT-6 Astra: [X](https://x.com/BubuStd/status/2096587056755638553) — O autor informa ter usado Astra no desenvolvimento deste projeto. [Notas de verificação (inglês)](assets/screenshots/storm-race/SOURCE.md).
+  - Prévia: ![STORM RACE — Captura do jogo](assets/screenshots/storm-race/gameplay.jpg)
+
+- **[FANG STARLIGHT RUN](https://fang-starlight-run.yosshy666.chatgpt.site/)** — Um lobo atravessa três fases ao luar, coletando moedas e fragmentos de estrelas com salto duplo e arrancada.
+  - Criador: [FANGプラス最強伝説🐺](https://x.com/FANGsaikyou)
+  - Plataforma: Navegador de desktop; aberto sem login ou pagamento. Celular não testado.
+  - GPT-6 Astra: [X](https://x.com/FANGsaikyou/status/2096192022596194588) — O autor informa ter usado Astra no desenvolvimento deste projeto. [Notas de verificação (inglês)](assets/screenshots/fang-starlight-run/SOURCE.md).
+  - Prévia: ![FANG STARLIGHT RUN — Captura do jogo](assets/screenshots/fang-starlight-run/gameplay.jpg)
+
+- **[Blue Bajaj Rally](https://bajaj.guzo.tech/)** — Pilote um Bajaj de três rodas em um circuito inspirado nos planaltos etíopes contra cinco rivais de IA ou o relógio.
+  - Criador: [Guzo Technologies](https://x.com/guzotech)
+  - Plataforma: Navegador de desktop; aberto sem login ou pagamento. Celular não testado.
+  - GPT-6 Astra: [X](https://x.com/guzotech/status/2096209787864088638) — O autor informa ter usado Astra no desenvolvimento deste projeto. [Notas de verificação (inglês)](assets/screenshots/blue-bajaj-rally/SOURCE.md).
+  - Prévia: ![Blue Bajaj Rally — Captura do jogo](assets/screenshots/blue-bajaj-rally/gameplay.jpg)
 
 - **[APEX CLUB — Bay Kart Grand Prix](https://apex-club-racing.vercel.app)** — Dispute três voltas no Bay Circuit, escolha entre seis karts e carregue miniturbos para a saída das curvas, buscando uma posição melhor na classificação individual ou pontos em equipes de 4 contra 4.
   - Criador: Ryan
@@ -196,6 +242,18 @@ Parkour, desafios de plataforma, corridas e jogos baseados em movimento e trajet
 ### Experimentais e multijogador
 
 Mecânicas diferentes, competição online e experiências cooperativas.
+
+- **[ASTRA Arcade](https://astra-arcade.antonioleivag.chatgpt.site/)** — Seis jogos de navegador, incluindo rali de montanha, snowboard e corrida antigravidade; contabilizados como uma coleção.
+  - Criador: [Antonio Leiva](https://x.com/antonioleivag)
+  - Plataforma: Navegador de desktop; aberto sem login ou pagamento. Celular não testado.
+  - GPT-6 Astra: [X](https://x.com/antonioleivag/status/2096509898481651770) — O autor informa ter usado Astra no desenvolvimento deste projeto. [Notas de verificação (inglês)](assets/screenshots/astra-arcade/SOURCE.md).
+  - Prévia: ![ASTRA Arcade — Captura do jogo](assets/screenshots/astra-arcade/gameplay.jpg)
+
+- **[Chao Party](https://chao.party/)** — Jogo de fãs multijogador não oficial de Chao Garden: escolha um personagem Sonic e interaja com os Chao no jardim.
+  - Criador: [Hank](https://x.com/h4nkdog)
+  - Plataforma: Navegador de desktop; aberto sem login ou pagamento. Celular não testado.
+  - GPT-6 Astra: [X](https://x.com/h4nkdog/status/2097308970431987857) — O autor informa ter usado Astra no desenvolvimento deste projeto. [Notas de verificação (inglês)](assets/screenshots/chao-party/SOURCE.md).
+  - Prévia: ![Chao Party — Captura do jogo](assets/screenshots/chao-party/gameplay.jpg)
 
 - **[ORBITAL GARDEN · 轨道花园](https://orbital-garden-one.vercel.app)** — Um ambiente interativo de arte com partículas: transforme 48.000 pontos de luz em uma flor, um anel gravitacional ou uma galáxia, altere a escultura e exporte um momento como pôster.
   - Criador: [jackroc](https://github.com/jackroc)

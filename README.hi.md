@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 20](https://img.shields.io/badge/Cases-20-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 30](https://img.shields.io/badge/Cases-30-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **GPT-6 Astra से बनाए गए दिलचस्प गेमों का संग्रह।**
 
@@ -22,7 +22,7 @@
 
 ## यहाँ से शुरू करें
 
-यहाँ **19 ब्राउज़र गेम और कणों से कला बनाने वाला 1 इंटरैक्टिव सैंडबॉक्स** शामिल हैं: तीन राज्यों की क्षेत्रीय रणनीति, एक-दूसरे में फँसे लकड़ी के टुकड़ों और खिसकने वाले ब्लॉकों की पहेलियाँ, मुलायम फलों को मिलाना, एक बटन से उड़ान, जादुई कालीन पर लड़ाई, बिजली के नेटवर्क से द्वीप की रक्षा, जंगल में जीवित रहना, पानी के नीचे मछली पकड़ना, सुशी रेस्तराँ चलाना और द्वीप पर खेती करना, Bay Circuit पर कार्ट रेसिंग, पेलिकन के साथ तट पर साइकिल चलाना, टेबलटॉप खिलौनों के 3D रूपांतरण और Orbital Garden। किसी शीर्षक पर क्लिक करके उसका डेमो या चलाने के निर्देशों सहित स्रोत कोड खोलें।
+यहाँ **29 ब्राउज़र गेम और कणों से कला बनाने वाला 1 इंटरैक्टिव सैंडबॉक्स** शामिल हैं: तीन राज्यों की क्षेत्रीय रणनीति, एक-दूसरे में फँसे लकड़ी के टुकड़ों और खिसकने वाले ब्लॉकों की पहेलियाँ, मुलायम फलों को मिलाना, एक बटन से उड़ान, जादुई कालीन पर लड़ाई, बिजली के नेटवर्क से द्वीप की रक्षा, जंगल में जीवित रहना, पानी के नीचे मछली पकड़ना, सुशी रेस्तराँ चलाना और द्वीप पर खेती करना, Bay Circuit पर कार्ट रेसिंग, पेलिकन के साथ तट पर साइकिल चलाना, टेबलटॉप खिलौनों के 3D रूपांतरण और Orbital Garden। किसी शीर्षक पर क्लिक करके उसका डेमो या चलाने के निर्देशों सहित स्रोत कोड खोलें।
 
 सूची अपडेट: **2026-09-09**। मॉडल के उपयोग की जानकारी रचनाकारों या प्रस्तुतकर्ताओं के कथनों पर आधारित है; अपुष्ट विवरण संबंधित प्रविष्टियों में चिह्नित हैं। यह तारीख सूची के रखरखाव की है, सभी गेमों के दोबारा परीक्षण की नहीं।
 
@@ -79,6 +79,18 @@
   - GPT-6 Astra: [X](https://x.com/CtrlAltDwayne/status/2097499157967818780) — लेखक स्पष्ट रूप से कहते हैं कि यह मल्टीप्लेयर लड़ाई का खेल GPT-6 Astra से बनाया गया है और अभी विकासाधीन है।
   - पूर्वावलोकन: ![Stick Fighter — गेम का स्क्रीनशॉट](assets/screenshots/stick-fighter/gameplay.jpg)
 
+- **[Gogh Strike · Paint Clash](https://gogh-strike.surge.sh/)** — वैन गॉग से प्रेरित प्रथम-व्यक्ति पेंट मुकाबला, छह कलाकारों, विशेष हथियारों और पहले 20 अंक तक पहुँचने के लक्ष्य के साथ।
+  - रचनाकार: [Peter Gostev](https://x.com/petergostev)
+  - प्लेटफ़ॉर्म: डेस्कटॉप ब्राउज़र; बिना लॉगिन या भुगतान के खोला गया। मोबाइल परीक्षण नहीं हुआ।
+  - GPT-6 Astra: [X](https://x.com/petergostev/status/2096015315209449578) — लेखक ने इस परियोजना के विकास में Astra के उपयोग की जानकारी दी है। [जाँच विवरण (अंग्रेज़ी)](assets/screenshots/gogh-strike/SOURCE.md).
+  - पूर्वावलोकन: ![Gogh Strike · Paint Clash — गेम का स्क्रीनशॉट](assets/screenshots/gogh-strike/gameplay.jpg)
+
+- **[ASTEROIDS · Deepfield](https://asteroids-deepfield-cockpit.dan200200.chatgpt.site/)** — चार कैमरे, रडार, दो तोपें और जड़त्वीय उड़ान वाला Asteroids-शैली का कॉकपिट खेल।
+  - रचनाकार: [Eyes Wide Open](https://x.com/DantesClown)
+  - प्लेटफ़ॉर्म: डेस्कटॉप ब्राउज़र; बिना लॉगिन या भुगतान के खोला गया। मोबाइल परीक्षण नहीं हुआ।
+  - GPT-6 Astra: [X](https://x.com/DantesClown/status/2096085439052452064) — लेखक ने इस परियोजना के विकास में Astra के उपयोग की जानकारी दी है। [जाँच विवरण (अंग्रेज़ी)](assets/screenshots/asteroids-deepfield/SOURCE.md).
+  - पूर्वावलोकन: ![ASTEROIDS · Deepfield — गेम का स्क्रीनशॉट](assets/screenshots/asteroids-deepfield/gameplay.jpg)
+
 <a id="puzzles"></a>
 
 ### पहेलियाँ और दिमागी खेल
@@ -110,6 +122,18 @@
 ### रणनीति और सिमुलेशन
 
 टावर डिफ़ेंस, रणनीतिक कार्ड गेम, प्रबंधन, निर्माण और सिमुलेशन सैंडबॉक्स।
+
+- **[Little Kingdom Chess / 작은 왕국 체스](https://little-kingdom-chess.echo3042.chatgpt.site/)** — घुमाए जा सकने वाले 3D बोर्ड पर छोटे पात्रों से कंप्यूटर के विरुद्ध शतरंज खेलें; चालों का इतिहास और वापसी उपलब्ध है।
+  - रचनाकार: [에코_eco](https://x.com/echo3042)
+  - प्लेटफ़ॉर्म: डेस्कटॉप ब्राउज़र; बिना लॉगिन या भुगतान के खोला गया। मोबाइल परीक्षण नहीं हुआ।
+  - GPT-6 Astra: [X](https://x.com/echo3042/status/2096123409029886250) — लेखक ने इस परियोजना के विकास में Astra के उपयोग की जानकारी दी है। [जाँच विवरण (अंग्रेज़ी)](assets/screenshots/little-kingdom-chess/SOURCE.md).
+  - पूर्वावलोकन: ![Little Kingdom Chess / 작은 왕국 체스 — गेम का स्क्रीनशॉट](assets/screenshots/little-kingdom-chess/gameplay.jpg)
+
+- **[JUNK RUN](https://junk-run.pages.dev/)** — कबाड़ के पुर्जों से बिना इंजन की गाड़ी बनाएँ और ढलान पर छोड़ें; शुरुआत प्रथम-व्यक्ति कार्यशाला से होती है।
+  - रचनाकार: [TheLabGuy](https://x.com/hermesailab)
+  - प्लेटफ़ॉर्म: डेस्कटॉप ब्राउज़र; बिना लॉगिन या भुगतान के खोला गया। मोबाइल परीक्षण नहीं हुआ।
+  - GPT-6 Astra: [X](https://x.com/hermesailab/status/2097508053901840850) — लेखक ने इस परियोजना के विकास में Astra के उपयोग की जानकारी दी है। [जाँच विवरण (अंग्रेज़ी)](assets/screenshots/junk-run/SOURCE.md).
+  - पूर्वावलोकन: ![JUNK RUN — गेम का स्क्रीनशॉट](assets/screenshots/junk-run/gameplay.jpg)
 
 - **[Spy or Lie](https://spyorlie.com/)** — कंप्यूटर के विरुद्ध षट्भुज बोर्ड पर रणनीति खेल: छिपी पहचान वाले एजेंट रखें, झाँसा दें और दुश्मन समूहों को घेरकर लगातार कब्ज़े करें।
   - रचनाकार: [Nate Lorenzen](https://x.com/NateLorenzen)
@@ -163,13 +187,35 @@
 
 भूमिका निभाना, खोजबीन, कहानी-आधारित रोमांच और इंटरैक्टिव कहानियाँ।
 
-*पहले गेम का इंतज़ार है।*
+- **[Lumbridge / Elderwood Realms](https://elderwood-realms.rohannvarma.chatgpt.site/)** — साझा दुनिया, कौशल, संसाधन संग्रह और लड़ाई वाला रेट्रो मल्टीप्लेयर साहसिक खेल; अतिथि प्रवेश उपलब्ध है।
+  - रचनाकार: [Rohan Varma](https://x.com/TheRohanVarma)
+  - प्लेटफ़ॉर्म: डेस्कटॉप ब्राउज़र; बिना लॉगिन या भुगतान के खोला गया। मोबाइल परीक्षण नहीं हुआ।
+  - GPT-6 Astra: [X](https://x.com/TheRohanVarma/status/2096744577332068549) — लेखक ने इस परियोजना के विकास में Astra के उपयोग की जानकारी दी है। [जाँच विवरण (अंग्रेज़ी)](assets/screenshots/lumbridge/SOURCE.md).
+  - पूर्वावलोकन: ![Lumbridge / Elderwood Realms — गेम का स्क्रीनशॉट](assets/screenshots/lumbridge/gameplay.jpg)
 
 <a id="platformers-racing"></a>
 
 ### प्लैटफ़ॉर्मर और रेसिंग
 
 पार्कूर, प्लैटफ़ॉर्म की चुनौतियाँ, रेसिंग और गति व रास्तों पर आधारित गेम।
+
+- **[STORM RACE](https://storm-race.vercel.app/)** — मिनी 4WD रेसिंग, जिसमें पुर्जों का विस्तृत गैराज दृश्य, बूस्ट और सूखी, बरसाती व तूफ़ानी ट्रैक स्थितियाँ हैं।
+  - रचनाकार: [BubuAi](https://x.com/BubuStd)
+  - प्लेटफ़ॉर्म: डेस्कटॉप ब्राउज़र; बिना लॉगिन या भुगतान के खोला गया। मोबाइल परीक्षण नहीं हुआ।
+  - GPT-6 Astra: [X](https://x.com/BubuStd/status/2096587056755638553) — लेखक ने इस परियोजना के विकास में Astra के उपयोग की जानकारी दी है। [जाँच विवरण (अंग्रेज़ी)](assets/screenshots/storm-race/SOURCE.md).
+  - पूर्वावलोकन: ![STORM RACE — गेम का स्क्रीनशॉट](assets/screenshots/storm-race/gameplay.jpg)
+
+- **[FANG STARLIGHT RUN](https://fang-starlight-run.yosshy666.chatgpt.site/)** — भेड़िये को तीन चाँदनी स्तरों से ले जाएँ और डबल जंप व डैश से सिक्के और तारों के टुकड़े जुटाएँ।
+  - रचनाकार: [FANGプラス最強伝説🐺](https://x.com/FANGsaikyou)
+  - प्लेटफ़ॉर्म: डेस्कटॉप ब्राउज़र; बिना लॉगिन या भुगतान के खोला गया। मोबाइल परीक्षण नहीं हुआ।
+  - GPT-6 Astra: [X](https://x.com/FANGsaikyou/status/2096192022596194588) — लेखक ने इस परियोजना के विकास में Astra के उपयोग की जानकारी दी है। [जाँच विवरण (अंग्रेज़ी)](assets/screenshots/fang-starlight-run/SOURCE.md).
+  - पूर्वावलोकन: ![FANG STARLIGHT RUN — गेम का स्क्रीनशॉट](assets/screenshots/fang-starlight-run/gameplay.jpg)
+
+- **[Blue Bajaj Rally](https://bajaj.guzo.tech/)** — इथियोपिया से प्रेरित पहाड़ी सर्किट पर तीन पहियों वाली Bajaj चलाएँ और पाँच AI प्रतिद्वंद्वियों या घड़ी से मुकाबला करें।
+  - रचनाकार: [Guzo Technologies](https://x.com/guzotech)
+  - प्लेटफ़ॉर्म: डेस्कटॉप ब्राउज़र; बिना लॉगिन या भुगतान के खोला गया। मोबाइल परीक्षण नहीं हुआ।
+  - GPT-6 Astra: [X](https://x.com/guzotech/status/2096209787864088638) — लेखक ने इस परियोजना के विकास में Astra के उपयोग की जानकारी दी है। [जाँच विवरण (अंग्रेज़ी)](assets/screenshots/blue-bajaj-rally/SOURCE.md).
+  - पूर्वावलोकन: ![Blue Bajaj Rally — गेम का स्क्रीनशॉट](assets/screenshots/blue-bajaj-rally/gameplay.jpg)
 
 - **[APEX CLUB — Bay Kart Grand Prix](https://apex-club-racing.vercel.app)** — Bay Circuit पर तीन लैप की रेस लगाएँ, छह कार्ट में से चुनें और मोड़ से बाहर निकलते समय इस्तेमाल करने के लिए मिनी टर्बो चार्ज करें। व्यक्तिगत रैंकिंग में आगे बढ़ें या 4 बनाम 4 की टीम के लिए अंक जुटाएँ।
   - रचनाकार: Ryan
@@ -196,6 +242,18 @@
 ### प्रयोगात्मक और मल्टीप्लेयर
 
 अनोखे खेल-तंत्र, ऑनलाइन प्रतियोगिता और मिलकर खेलने के अनुभव।
+
+- **[ASTRA Arcade](https://astra-arcade.antonioleivag.chatgpt.site/)** — पहाड़ी रैली, स्नोबोर्ड और गुरुत्व-विरोधी रेस सहित छह ब्राउज़र खेल; पूरे संग्रह को एक प्रविष्टि माना गया है।
+  - रचनाकार: [Antonio Leiva](https://x.com/antonioleivag)
+  - प्लेटफ़ॉर्म: डेस्कटॉप ब्राउज़र; बिना लॉगिन या भुगतान के खोला गया। मोबाइल परीक्षण नहीं हुआ।
+  - GPT-6 Astra: [X](https://x.com/antonioleivag/status/2096509898481651770) — लेखक ने इस परियोजना के विकास में Astra के उपयोग की जानकारी दी है। [जाँच विवरण (अंग्रेज़ी)](assets/screenshots/astra-arcade/SOURCE.md).
+  - पूर्वावलोकन: ![ASTRA Arcade — गेम का स्क्रीनशॉट](assets/screenshots/astra-arcade/gameplay.jpg)
+
+- **[Chao Party](https://chao.party/)** — Chao Garden का अनौपचारिक मल्टीप्लेयर प्रशंसक खेल: Sonic पात्र चुनें और बगीचे में Chao से बातचीत करें।
+  - रचनाकार: [Hank](https://x.com/h4nkdog)
+  - प्लेटफ़ॉर्म: डेस्कटॉप ब्राउज़र; बिना लॉगिन या भुगतान के खोला गया। मोबाइल परीक्षण नहीं हुआ।
+  - GPT-6 Astra: [X](https://x.com/h4nkdog/status/2097308970431987857) — लेखक ने इस परियोजना के विकास में Astra के उपयोग की जानकारी दी है। [जाँच विवरण (अंग्रेज़ी)](assets/screenshots/chao-party/SOURCE.md).
+  - पूर्वावलोकन: ![Chao Party — गेम का स्क्रीनशॉट](assets/screenshots/chao-party/gameplay.jpg)
 
 - **[ORBITAL GARDEN · 轨道花园](https://orbital-garden-one.vercel.app)** — कणों से कला बनाने वाला इंटरैक्टिव सैंडबॉक्स: 48,000 प्रकाश बिंदुओं को फूल, गुरुत्वीय छल्ले और आकाशगंगा के बीच बदलें, आकृति को प्रभावित करें और किसी पल को पोस्टर के रूप में निर्यात करें।
   - रचनाकार: [jackroc](https://github.com/jackroc)
