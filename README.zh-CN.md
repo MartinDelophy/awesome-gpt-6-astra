@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 60](https://img.shields.io/badge/Cases-60-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 61](https://img.shields.io/badge/Cases-61-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **收集用 GPT-6 Astra 制作的有趣游戏。**
 
@@ -20,7 +20,7 @@
 
 ## 从这里开始
 
-目前收录 **60 个游戏与互动作品**：三国领土策略、木锁拆解与华容道、半流体水果合成、程序化城市建造 2048、单键飞行、魔毯战斗、五关弹幕射击、海岛电网塔防、荒野生存、水下捕鱼、寿司店经营与海岛种植、海湾卡丁车竞速、鹈鹕海岸骑行、桌面玩具的 3D 改编、3D 家居装修，以及轨道花园。点击作品名称即可直接进入在线游戏。
+目前收录 **61 个游戏与互动作品**：三国领土策略、木锁拆解与华容道、半流体水果合成、程序化城市建造 2048、单键飞行、魔毯战斗、五关弹幕射击、海岛电网塔防、荒野生存、水下捕鱼、寿司店经营与海岛种植、海湾卡丁车竞速、鹈鹕海岸骑行、桌面玩具的 3D 改编、3D 家居装修，以及轨道花园。点击作品名称即可直接进入在线游戏。
 
 目录更新：**2026-09-09**。模型使用信息依据作者或投稿者的说明，未确认内容在具体条目中标注。此日期表示目录维护时间，不代表当天重新试玩了所有游戏。
 
@@ -258,6 +258,13 @@
   - 平台: 桌面浏览器；可免登录进入游客教程，保存进度需要登录；未独立验证多人联机。
   - GPT-6 Astra: [X](https://x.com/aidaniil/status/2096426970930106530) — 作者说明与弟弟使用 Astra、Blender MCP 和 Cloudflare Durable Objects 制作，灵感来自幸福工厂与围攻。 [核验记录](assets/screenshots/ironwood/SOURCE.md).
   - 预览: ![Ironwood 的工厂机器、传送带和资源管理教程。](assets/screenshots/ironwood/gameplay.jpg)
+
+- **[前线指令 / Frontline Command](https://fluffy-biscotti-dad318.netlify.app/)** — 在现代战争题材的即时战略游戏中建设基地、争夺资源区，指挥坦克、步兵、飞机与无人机对抗电脑，并通过间谍和情报系统获取优势。
+  - 作者: [嘟啊嘟](https://x.com/HDLhN783wtLkpPR)
+  - 平台: 桌面浏览器，中文界面，鼠标与键盘操作；已开始单机对局，无需登录、付费或安装。
+  - GPT-6 Astra: [X](https://x.com/HDLhN783wtLkpPR/status/2097321360641122393) — 作者在所链接的帖子中说明使用“GPT Astra”制作这款即时战略游戏；未注明具体模型版本和详细开发流程。
+  - 相关资料: [投稿](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/66) · [核验记录（英文）](assets/screenshots/frontline-command/SOURCE.md)
+  - 预览: ![前线指令实机画面：基地、三辆已选坦克与发电站放置操作；v0.8，拍摄于 2026-09-09。](assets/screenshots/frontline-command/gameplay.jpg)
 
 ### RPG 与冒险
 
