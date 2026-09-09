@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 42](https://img.shields.io/badge/Cases-42-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 43](https://img.shields.io/badge/Cases-43-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Une sélection de jeux intéressants créés avec GPT-6 Astra.**
 
@@ -22,7 +22,7 @@ Cette page traduit le [README anglais](README.md). Consultez l’original pour v
 
 ## Pour commencer
 
-Découvrez **42 jeux et projets interactifs** : stratégie territoriale des Trois Royaumes, puzzles en bois à emboîtement et à glissement, fusion de fruits déformables, vol à une touche, combats sur tapis volant, défense d’île par un réseau électrique, survie en pleine nature, pêche sous-marine, gestion d’un restaurant de sushis et agriculture insulaire, course de karts sur Bay Circuit, balade côtière à vélo avec un pélican, jouets de table adaptés en 3D et Orbital Garden. Cliquez sur un titre pour jouer directement dans le navigateur.
+Découvrez **43 jeux et projets interactifs** : stratégie territoriale des Trois Royaumes, puzzles en bois à emboîtement et à glissement, fusion de fruits déformables, vol à une touche, combats sur tapis volant, défense d’île par un réseau électrique, survie en pleine nature, pêche sous-marine, gestion d’un restaurant de sushis et agriculture insulaire, course de karts sur Bay Circuit, balade côtière à vélo avec un pélican, jouets de table adaptés en 3D et Orbital Garden. Cliquez sur un titre pour jouer directement dans le navigateur.
 
 Mise à jour du catalogue : **2026-09-09**. L’utilisation du modèle est renseignée d’après les déclarations des créateurs ou des contributeurs ; les points non confirmés sont signalés dans chaque fiche. Cette date correspond à la maintenance du catalogue, pas à un nouveau test de tous les jeux.
 
@@ -301,6 +301,15 @@ Parkour, défis de plateforme, courses et jeux centrés sur les déplacements et
   - Plateforme: Navigateur, gratuit, sans compte. Selon le créateur, un VPN/proxy peut être nécessaire. Démarrage solo vérifié ; multijoueur non testé.
   - GPT-6 Astra: [Issue #51](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/51) — Selon le créateur : Première version avec Qwen3.8 Max, deuxième entièrement reconstruite avec Astra.
   - Aperçu: ![疾风赛道 / Kart Racing（跑跑卡丁车）](https://github.com/user-attachments/assets/015e0ca1-7032-4d0e-9391-ad3f40d84227)
+
+- **[混合马里奥Ⅱ · 忍者龙剑传 × 坦克大战 / Mario Mix II](https://aha-xiaoq.github.io/games/mario-mix-2/play.html)** — Explorez le monde souterrain 1-2 de Mario avec Ryu Hayabusa de Ninja Gaiden et le char de Battle City : sauts, escalade et combats en défilement latéral pour Ryu, combats en vue de dessus pour le char, ou relais ninja puis char pour sauver la princesse.
+  - Créateur: [在下_小Q（Aha-xiaoQ）](https://github.com/Aha-xiaoQ)
+  - Plateforme: Navigateur sur ordinateur, interface en chinois, clavier recommandé ; gratuit, sans connexion ni installation.
+  - GPT-6 Astra: [Issue #65](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/65) — Le créateur indique avoir utilisé GPT-6 Astra pour développer et déboguer le code et les interactions par itérations, en apportant lui-même les orientations de jeu et les retours ; ce n’est pas une génération en une seule requête.
+  - Ressources: [Présentation du projet](https://aha-xiaoq.github.io/games/mario-mix-2/) · [Vidéo](https://www.bilibili.com/video/BV1erYt69EFP/) · [Vérification et sources des images (anglais)](assets/screenshots/mario-mix-2/SOURCE.md)
+  - Droits: Jeu de fans non officiel ; les personnages, images et musiques classiques restent la propriété de leurs ayants droit. Les crédits des ressources figurent sur la page du jeu original.
+  - Aperçu: ![Mario Mix II — miniature vidéo fournie par le créateur, et non capture de jeu.](https://aha-xiaoq.github.io/games/mario-mix-2/cover.jpg)
+  - Capture d’écran: ![Le char de Mario Mix II tire à l’entrée du monde 1-2 ; version 1.0 en cours de jeu, capture du 2026-09-09.](assets/screenshots/mario-mix-2/gameplay.jpg)
 
 <a id="experimental-multiplayer"></a>
 

@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 58](https://img.shields.io/badge/Cases-58-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 60](https://img.shields.io/badge/Cases-60-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **收集用 GPT-6 Astra 制作的有趣游戏。**
 
@@ -20,7 +20,7 @@
 
 ## 从这里开始
 
-目前收录 **59 个游戏与互动作品**：三国领土策略、木锁拆解与华容道、半流体水果合成、程序化城市建造 2048、单键飞行、魔毯战斗、五关弹幕射击、海岛电网塔防、荒野生存、水下捕鱼、寿司店经营与海岛种植、海湾卡丁车竞速、鹈鹕海岸骑行、桌面玩具的 3D 改编、3D 家居装修，以及轨道花园。点击作品名称即可直接进入在线游戏。
+目前收录 **60 个游戏与互动作品**：三国领土策略、木锁拆解与华容道、半流体水果合成、程序化城市建造 2048、单键飞行、魔毯战斗、五关弹幕射击、海岛电网塔防、荒野生存、水下捕鱼、寿司店经营与海岛种植、海湾卡丁车竞速、鹈鹕海岸骑行、桌面玩具的 3D 改编、3D 家居装修，以及轨道花园。点击作品名称即可直接进入在线游戏。
 
 目录更新：**2026-09-09**。模型使用信息依据作者或投稿者的说明，未确认内容在具体条目中标注。此日期表示目录维护时间，不代表当天重新试玩了所有游戏。
 
@@ -399,6 +399,15 @@
   - 平台: 浏览器，键盘和屏幕移动按钮；已无需登录加载首关与操作说明。
   - GPT-6 Astra: [X](https://x.com/bennash/status/2096282758930645170) — 作者明确说明这是一款使用 GPT-6 Astra 制作、受 Pitfall 启发的四关游戏。 [核验记录](assets/screenshots/one-more-vine/SOURCE.md).
   - 预览: ![带藤蔓、宝藏、深坑与鳄鱼的丛林平台跳跃关卡。](assets/screenshots/one-more-vine/gameplay.jpg)
+
+- **[混合马里奥Ⅱ · 忍者龙剑传 × 坦克大战 / Mario Mix II](https://aha-xiaoq.github.io/games/mario-mix-2/play.html)** — 让《忍者龙剑传》的隼龙与《坦克大战》的坦克进入马里奥地下关卡 1-2：用隼龙横版跳跃、攀墙与战斗，用坦克俯视作战，也可选择“忍龙 → 坦克”双角色接力救回公主。
+  - 作者: [在下_小Q（Aha-xiaoQ）](https://github.com/Aha-xiaoQ)
+  - 平台: 桌面浏览器，中文界面，推荐键盘操作；免费，无需登录或安装。
+  - GPT-6 Astra: [Issue #65](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/65) — 作者说明使用 GPT-6 Astra 反复开发、调试游戏代码与交互，并由自己提供玩法方向和持续反馈；不是一次提示生成。
+  - 开发资料: [作品介绍](https://aha-xiaoq.github.io/games/mario-mix-2/) · [演示视频](https://www.bilibili.com/video/BV1erYt69EFP/) · [核验与图片来源（英文）](assets/screenshots/mario-mix-2/SOURCE.md)
+  - 素材说明: 非官方同人作品；经典角色、图像和音乐的权利归各自权利人所有，具体素材说明见原游戏页面。
+  - 预览: ![混合马里奥Ⅱ — 作者提供的视频封面，非实机截图。](https://aha-xiaoq.github.io/games/mario-mix-2/cover.jpg)
+  - 截图: ![混合马里奥Ⅱ：坦克在 1-2 关入口开炮；运行版本 1.0，拍摄于 2026-09-09。](assets/screenshots/mario-mix-2/gameplay.jpg)
 
 ### 实验玩法与多人游戏
 

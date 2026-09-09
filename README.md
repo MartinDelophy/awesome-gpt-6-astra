@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 58](https://img.shields.io/badge/Cases-58-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 60](https://img.shields.io/badge/Cases-60-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **A collection of interesting games made with GPT-6 Astra.**
 
@@ -20,7 +20,7 @@ Playful ideas, games you can try, and development stories that inspire the next 
 
 ## Start here
 
-Explore **59 games and interactive projects**: Three Kingdoms territory strategy, wooden interlocking and sliding puzzles, soft-body fruit merging, procedural city-building 2048, one-tap flight, magic-carpet combat, a five-stage bullet-hell shooter, island power-grid tower defense, wilderness survival, underwater fishing, sushi-restaurant management and island farming, Bay Circuit kart racing, coastal cycling with a pelican, tabletop toys turned into 3D games, 3D home decoration, and Orbital Garden. Click a title to play directly in your browser.
+Explore **60 games and interactive projects**: Three Kingdoms territory strategy, wooden interlocking and sliding puzzles, soft-body fruit merging, procedural city-building 2048, one-tap flight, magic-carpet combat, a five-stage bullet-hell shooter, island power-grid tower defense, wilderness survival, underwater fishing, sushi-restaurant management and island farming, Bay Circuit kart racing, coastal cycling with a pelican, tabletop toys turned into 3D games, 3D home decoration, and Orbital Garden. Click a title to play directly in your browser.
 
 Catalog updated: **2026-09-09**. Model attribution is based on creator or submitter statements; unconfirmed details are marked in individual entries. This date records catalog maintenance, not a new play-test of every game.
 
@@ -399,6 +399,15 @@ Parkour, platform challenges, racing, and games built around movement and routes
   - Platform: Browser, keyboard and on-screen movement controls; the opening level and instructions loaded without sign-in.
   - GPT-6 Astra: [X](https://x.com/bennash/status/2096282758930645170) — The creator explicitly calls it a four-level Pitfall-inspired game made with GPT-6 Astra. [Verification notes](assets/screenshots/one-more-vine/SOURCE.md).
   - Preview: ![A jungle platforming level with hanging vines, treasures, pits and crocodiles.](assets/screenshots/one-more-vine/gameplay.jpg)
+
+- **[混合马里奥Ⅱ · 忍者龙剑传 × 坦克大战 / Mario Mix II](https://aha-xiaoq.github.io/games/mario-mix-2/play.html)** — Bring Ninja Gaiden’s Ryu Hayabusa and the Battle City tank into Mario’s underground World 1-2: jump, climb walls and fight as Ryu, battle from above as the tank, or rescue the princess in a ninja-to-tank relay.
+  - Creator: [在下_小Q（Aha-xiaoQ）](https://github.com/Aha-xiaoQ)
+  - Platform: Desktop browser, Chinese UI, keyboard recommended; free, no login or installation.
+  - GPT-6 Astra: [Issue #65](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/65) — The creator reports using GPT-6 Astra to iteratively develop and debug the game code and interactions, while providing gameplay direction and feedback; not a one-shot generation.
+  - Resources: [Project page](https://aha-xiaoq.github.io/games/mario-mix-2/) · [Video](https://www.bilibili.com/video/BV1erYt69EFP/) · [Verification and image credits](assets/screenshots/mario-mix-2/SOURCE.md)
+  - Rights: Unofficial fan game; classic characters, images and music retain their respective owners’ rights. See the original game’s material credits.
+  - Preview: ![Mario Mix II — video cover supplied by the creator, not a gameplay capture.](https://aha-xiaoq.github.io/games/mario-mix-2/cover.jpg)
+  - Screenshot: ![Mario Mix II tank firing at the World 1-2 entrance; running version 1.0, captured 2026-09-09.](assets/screenshots/mario-mix-2/gameplay.jpg)
 
 ### Experimental & multiplayer
 

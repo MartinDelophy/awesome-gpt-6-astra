@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 42](https://img.shields.io/badge/Cases-42-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 43](https://img.shields.io/badge/Cases-43-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **GPT-6 Astra で作られた、遊んでみたくなるゲームを集めています。**
 
@@ -22,7 +22,7 @@
 
 ## はじめに
 
-現在、**42件のゲームとインタラクティブ作品**を掲載しています。三国志の領土戦略、木製の組木パズルとスライドパズル、柔らかい果物の合成、ワンボタン飛行、魔法の絨毯での戦闘、島の電力網を使うタワーディフェンス、荒野でのサバイバル、水中での魚捕り、寿司店経営と島での農作業、海湾サーキットのカートレース、ペリカンとの海岸サイクリング、卓上玩具の 3D ゲーム化、そして Orbital Garden。作品名をクリックすると、ブラウザーで直接遊べます。
+現在、**43件のゲームとインタラクティブ作品**を掲載しています。三国志の領土戦略、木製の組木パズルとスライドパズル、柔らかい果物の合成、ワンボタン飛行、魔法の絨毯での戦闘、島の電力網を使うタワーディフェンス、荒野でのサバイバル、水中での魚捕り、寿司店経営と島での農作業、海湾サーキットのカートレース、ペリカンとの海岸サイクリング、卓上玩具の 3D ゲーム化、そして Orbital Garden。作品名をクリックすると、ブラウザーで直接遊べます。
 
 一覧更新日：**2026-09-09**。モデルの利用情報は作者または投稿者の説明に基づき、未確認の内容は各項目に明記しています。この日付は一覧の更新日であり、全作品を再度プレイテストした日ではありません。
 
@@ -301,6 +301,15 @@
   - 対応環境: ブラウザー、無料、ログイン不要。作者によるとVPN／プロキシが必要な場合があります。ソロ開始を確認、マルチプレイは未検証。
   - GPT-6 Astra: [Issue #51](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/51) — 作者の説明： 初版はQwen3.8 Max、第2版はAstraで全面再構築。
   - プレビュー: ![疾风赛道 / Kart Racing（跑跑卡丁车）](https://github.com/user-attachments/assets/015e0ca1-7032-4d0e-9391-ad3f40d84227)
+
+- **[混合马里奥Ⅱ · 忍者龙剑传 × 坦克大战 / Mario Mix II](https://aha-xiaoq.github.io/games/mario-mix-2/play.html)** — 『忍者龍剣伝』のリュウ・ハヤブサと『バトルシティー』の戦車で、マリオの地下ステージ 1-2 に挑戦。リュウは横スクロールでジャンプ・壁登り・戦闘、戦車は見下ろし型の戦闘を行い、忍者から戦車へのリレーで姫を救うこともできます。
+  - 作者: [在下_小Q（Aha-xiaoQ）](https://github.com/Aha-xiaoQ)
+  - 対応環境: デスクトップブラウザー、中国語 UI、キーボード推奨。無料でログインやインストールは不要です。
+  - GPT-6 Astra: [Issue #65](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/65) — 作者によると、GPT-6 Astra でゲームコードと操作を繰り返し開発・デバッグし、自身で遊び方の方針とフィードバックを提供しました。単一プロンプトによる生成ではありません。
+  - 開発資料: [作品紹介](https://aha-xiaoq.github.io/games/mario-mix-2/) · [動画](https://www.bilibili.com/video/BV1erYt69EFP/) · [検証と画像の出典（英語）](assets/screenshots/mario-mix-2/SOURCE.md)
+  - 素材について: 非公式ファンゲームです。既存のキャラクター・画像・音楽の権利は各権利者に帰属します。素材のクレジットは元のゲームページを参照してください。
+  - プレビュー: ![Mario Mix II — 作者提供の動画サムネイル。実際のプレイ画面の撮影ではありません。](https://aha-xiaoq.github.io/games/mario-mix-2/cover.jpg)
+  - スクリーンショット: ![Mario Mix II の戦車がステージ 1-2 の入口で発砲する画面。バージョン 1.0、2026-09-09 撮影。](assets/screenshots/mario-mix-2/gameplay.jpg)
 
 <a id="experimental-multiplayer"></a>
 

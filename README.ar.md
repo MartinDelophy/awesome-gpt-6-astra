@@ -6,7 +6,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 42](https://img.shields.io/badge/Cases-42-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 43](https://img.shields.io/badge/Cases-43-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **مجموعة من الألعاب الممتعة المصنوعة باستخدام GPT-6 Astra.**
 
@@ -24,7 +24,7 @@
 
 ## ابدأ من هنا
 
-استكشف **42 لعبة ومشروعًا تفاعليًا**: استراتيجية السيطرة على الأراضي في عصر الممالك الثلاث، ألغاز خشبية متشابكة وألغاز الكتل المنزلقة، دمج الفواكه المرنة، والطيران بزر واحد، والقتال على بساط سحري، والدفاع عن جزيرة بشبكة كهربائية، والبقاء في البرية، وصيد الأسماك تحت الماء وإدارة مطعم سوشي والزراعة على جزيرة، وسباقات الكارت على حلبة الخليج، وركوب الدراجة مع بجع على الساحل، وألعاب طاولة محوّلة إلى ألعاب ثلاثية الأبعاد، وOrbital Garden. انقر على اسم العمل لفتح اللعبة مباشرة في المتصفح.
+استكشف **43 لعبة ومشروعًا تفاعليًا**: استراتيجية السيطرة على الأراضي في عصر الممالك الثلاث، ألغاز خشبية متشابكة وألغاز الكتل المنزلقة، دمج الفواكه المرنة، والطيران بزر واحد، والقتال على بساط سحري، والدفاع عن جزيرة بشبكة كهربائية، والبقاء في البرية، وصيد الأسماك تحت الماء وإدارة مطعم سوشي والزراعة على جزيرة، وسباقات الكارت على حلبة الخليج، وركوب الدراجة مع بجع على الساحل، وألعاب طاولة محوّلة إلى ألعاب ثلاثية الأبعاد، وOrbital Garden. انقر على اسم العمل لفتح اللعبة مباشرة في المتصفح.
 
 تحديث القائمة: **2026-09-09**. تستند معلومات استخدام النموذج إلى تصريحات المؤلفين أو مقدّمي الأعمال؛ وتُوضّح التفاصيل غير المؤكدة في كل بند. يشير هذا التاريخ إلى تحديث القائمة، وليس إلى إعادة اختبار جميع الألعاب.
 
@@ -303,6 +303,15 @@
   - المنصة: متصفح، مجانية، دون حساب. يذكر المنشئ احتمال الحاجة إلى VPN/وكيل. تم التحقق من بدء اللعب الفردي؛ لم يُختبر اللعب الجماعي.
   - GPT-6 Astra: [Issue #51](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/51) — بحسب المنشئ: الإصدار الأول باستخدام Qwen3.8 Max، والثاني أعيد بناؤه بالكامل باستخدام Astra.
   - معاينة: ![疾风赛道 / Kart Racing（跑跑卡丁车）](https://github.com/user-attachments/assets/015e0ca1-7032-4d0e-9391-ad3f40d84227)
+
+- **[混合马里奥Ⅱ · 忍者龙剑传 × 坦克大战 / Mario Mix II](https://aha-xiaoq.github.io/games/mario-mix-2/play.html)** — خض العالم السفلي 1-2 من Mario بشخصية Ryu Hayabusa من Ninja Gaiden ودبابة Battle City: اقفز وتسلّق الجدران وقاتل بمنظور جانبي مع ريو، أو قاتل بمنظور علوي بالدبابة، أو أنقذ الأميرة بتتابع يبدأ بالنينجا ثم ينتقل إلى الدبابة.
+  - المبدع: [在下_小Q（Aha-xiaoQ）](https://github.com/Aha-xiaoQ)
+  - المنصة: متصفح على الكمبيوتر، بواجهة صينية، وتُوصى لوحة المفاتيح؛ مجاني ولا يتطلب تسجيل الدخول أو التثبيت.
+  - GPT-6 Astra: [Issue #65](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/65) — يذكر المبدع أنه استخدم GPT-6 Astra لتطوير شيفرة اللعبة والتفاعلات وتصحيح أخطائها على مراحل، مع تقديمه توجهات اللعب والملاحظات باستمرار؛ لم تُنشأ بطلب واحد.
+  - الموارد: [صفحة المشروع](https://aha-xiaoq.github.io/games/mario-mix-2/) · [الفيديو](https://www.bilibili.com/video/BV1erYt69EFP/) · [التحقق ومصادر الصور (بالإنجليزية)](assets/screenshots/mario-mix-2/SOURCE.md)
+  - الحقوق: لعبة معجبين غير رسمية؛ تظل حقوق الشخصيات والصور والموسيقى الكلاسيكية لأصحابها. راجع نسب المواد في صفحة اللعبة الأصلية.
+  - معاينة: ![Mario Mix II — غلاف فيديو قدّمه المبدع، وليس لقطة من اللعب.](https://aha-xiaoq.github.io/games/mario-mix-2/cover.jpg)
+  - لقطة شاشة: ![دبابة Mario Mix II تطلق النار عند مدخل العالم 1-2؛ الإصدار 1.0 أثناء التشغيل، التُقطت في 2026-09-09.](assets/screenshots/mario-mix-2/gameplay.jpg)
 
 <a id="experimental-multiplayer"></a>
 

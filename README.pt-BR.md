@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 42](https://img.shields.io/badge/Cases-42-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 43](https://img.shields.io/badge/Cases-43-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Uma coleção de jogos interessantes feitos com GPT-6 Astra.**
 
@@ -22,7 +22,7 @@ Esta página é uma tradução do [README em inglês](README.md). Consulte o ori
 
 ## Comece por aqui
 
-Explore **42 jogos e projetos interativos**: estratégia territorial dos Três Reinos, quebra-cabeças de madeira com encaixes e peças deslizantes, fusão de frutas deformáveis, voo com um toque, combates em tapete mágico, defesa de uma ilha com uma rede elétrica, sobrevivência na natureza, pesca submarina, gestão de um restaurante de sushi e cultivo em uma ilha, corridas de kart no Bay Circuit, ciclismo pela costa com um pelicano, brinquedos de mesa adaptados para 3D e Orbital Garden. Clique em um título para jogar diretamente no navegador.
+Explore **43 jogos e projetos interativos**: estratégia territorial dos Três Reinos, quebra-cabeças de madeira com encaixes e peças deslizantes, fusão de frutas deformáveis, voo com um toque, combates em tapete mágico, defesa de uma ilha com uma rede elétrica, sobrevivência na natureza, pesca submarina, gestão de um restaurante de sushi e cultivo em uma ilha, corridas de kart no Bay Circuit, ciclismo pela costa com um pelicano, brinquedos de mesa adaptados para 3D e Orbital Garden. Clique em um título para jogar diretamente no navegador.
 
 Catálogo atualizado: **2026-09-09**. O uso do modelo é informado com base nas declarações dos criadores ou responsáveis pelas submissões; detalhes não confirmados são sinalizados em cada entrada. Esta data registra a manutenção do catálogo, não um novo teste de todos os jogos.
 
@@ -301,6 +301,15 @@ Parkour, desafios de plataforma, corridas e jogos baseados em movimento e trajet
   - Plataforma: Navegador, gratuito, sem conta. O criador informa que VPN/proxy pode ser necessário. Início solo verificado; multijogador não testado.
   - GPT-6 Astra: [Issue #51](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/51) — Segundo o criador: Primeira versão com Qwen3.8 Max; segunda totalmente reconstruída com Astra.
   - Prévia: ![疾风赛道 / Kart Racing（跑跑卡丁车）](https://github.com/user-attachments/assets/015e0ca1-7032-4d0e-9391-ad3f40d84227)
+
+- **[混合马里奥Ⅱ · 忍者龙剑传 × 坦克大战 / Mario Mix II](https://aha-xiaoq.github.io/games/mario-mix-2/play.html)** — Explore o mundo subterrâneo 1-2 de Mario com Ryu Hayabusa de Ninja Gaiden e o tanque de Battle City: saltos, escalada de paredes e combates em visão lateral com Ryu, batalhas em visão superior com o tanque ou um revezamento de ninja para tanque para resgatar a princesa.
+  - Criador: [在下_小Q（Aha-xiaoQ）](https://github.com/Aha-xiaoQ)
+  - Plataforma: Navegador de computador, interface em chinês, teclado recomendado; grátis, sem login ou instalação.
+  - GPT-6 Astra: [Issue #65](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/65) — O criador relata ter usado GPT-6 Astra para desenvolver e depurar o código e as interações de forma iterativa, fornecendo a direção do jogo e comentários ao longo do processo; não foi uma geração com um único prompt.
+  - Recursos: [Apresentação do projeto](https://aha-xiaoq.github.io/games/mario-mix-2/) · [Vídeo](https://www.bilibili.com/video/BV1erYt69EFP/) · [Verificação e fontes das imagens (inglês)](assets/screenshots/mario-mix-2/SOURCE.md)
+  - Direitos: Jogo de fã não oficial; os personagens, imagens e músicas clássicos mantêm os direitos de seus respectivos titulares. Veja os créditos dos materiais na página do jogo original.
+  - Prévia: ![Mario Mix II — capa de vídeo fornecida pelo criador, não uma captura de uma partida.](https://aha-xiaoq.github.io/games/mario-mix-2/cover.jpg)
+  - Captura de tela: ![O tanque de Mario Mix II dispara na entrada do mundo 1-2; versão 1.0 em execução, capturada em 2026-09-09.](assets/screenshots/mario-mix-2/gameplay.jpg)
 
 <a id="experimental-multiplayer"></a>
 
