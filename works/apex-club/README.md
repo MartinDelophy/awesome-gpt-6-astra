@@ -109,3 +109,7 @@ Enable tilt steering in Phone controls, grant motion permission if prompted, hol
 ## Manual steering physics
 
 Player movement uses independent world position, heading and velocity. Auto throttle only accelerates: no steering means the car continues straight and can hit the outside barrier. Drift retains momentum; countersteering changes heading. Track projection measures signed race progress, so driving backwards subtracts distance. Wall impacts cancel drift charge and boost. Pause and choose **Recover car to track** if stuck; recovery does not increase progress. AI opponents still follow their racing routes.
+
+## Showroom and scenes
+
+The lobby uses a live, lit 3D showroom with the selected kart, a circular display platform and reduced-motion support. Choose **Bay Circuit** or **Jade Citadel** before launching a race. Jade Citadel replaces the coastal scenery with stone paving, continuous battlements, tiered watchtowers, red lanterns and distant mountains. Both scenes share the existing circuit layout and manual driving physics; this is an environment selection, not a second course layout. Citadel geometry is created on first selection, and repeated walls use instancing.
