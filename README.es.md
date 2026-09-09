@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 31](https://img.shields.io/badge/Cases-31-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 39](https://img.shields.io/badge/Cases-39-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Una colección de juegos interesantes creados con GPT-6 Astra.**
 
@@ -22,7 +22,7 @@ Esta página es una traducción del [README en inglés](README.md). Consulta el 
 
 ## Empieza aquí
 
-Explora **30 juegos de navegador y 1 entorno interactivo de arte con partículas**: estrategia territorial de los Tres Reinos, rompecabezas de madera entrelazada y de piezas deslizantes, fusión de frutas deformables, vuelo con un solo botón, combates en alfombra mágica, defensa de una isla mediante una red eléctrica, supervivencia en la naturaleza, pesca submarina, gestión de un restaurante de sushi y agricultura en una isla, carreras de karts en Bay Circuit, ciclismo costero con un pelícano, juguetes de mesa adaptados a 3D y Orbital Garden. Haz clic en un título para abrir su demo o el código fuente con instrucciones de ejecución.
+Explora **39 juegos y proyectos interactivos**: estrategia territorial de los Tres Reinos, rompecabezas de madera entrelazada y de piezas deslizantes, fusión de frutas deformables, vuelo con un solo botón, combates en alfombra mágica, defensa de una isla mediante una red eléctrica, supervivencia en la naturaleza, pesca submarina, gestión de un restaurante de sushi y agricultura en una isla, carreras de karts en Bay Circuit, ciclismo costero con un pelícano, juguetes de mesa adaptados a 3D y Orbital Garden. Haz clic en un título para abrir su demo o el código fuente con instrucciones de ejecución.
 
 Catálogo actualizado: **2026-09-09**. El uso del modelo se documenta según las declaraciones de los creadores o remitentes; los datos sin confirmar se señalan en cada entrada. Esta fecha corresponde al mantenimiento del catálogo, no a una nueva prueba de todos los juegos.
 
@@ -91,6 +91,19 @@ Juegos de disparos, lucha, supervivencia, ritmo y cualquier propuesta que invite
   - GPT-6 Astra: [X](https://x.com/DantesClown/status/2096085439052452064) — El autor indica que utilizó Astra para desarrollar este proyecto. [Notas de verificación (inglés)](assets/screenshots/asteroids-deepfield/SOURCE.md).
   - Vista previa: ![ASTEROIDS · Deepfield — Captura del juego](assets/screenshots/asteroids-deepfield/gameplay.jpg)
 
+- **[BLACKWATER · Silent Harbor](https://blackwater-roan.vercel.app/)** — FPS táctico en una terminal de carga bajo la lluvia, con rifle detallado, HUD de combate y nueve enemigos.
+  - Creador: [hiraeth](https://x.com/WoahWurdz)
+  - Plataforma: Navegador de escritorio; abierto sin registro ni pago. Móvil no probado.
+  - GPT-6 Astra: [X](https://x.com/WoahWurdz/status/2095958882732355908) — El autor indica que utilizó Astra para desarrollar este proyecto. [Notas de verificación (inglés)](assets/screenshots/blackwater/SOURCE.md).
+  - Recursos: [GitHub](https://github.com/Hiraeth010/blackwater)
+  - Vista previa: ![BLACKWATER · Silent Harbor](assets/screenshots/blackwater/gameplay.jpg)
+
+- **[Cinderfall · Fire, Shadow & Steel](https://rogue-omega.vercel.app/)** — Arena de duelos fantásticos con cuatro héroes, seis habilidades por clase, batallas contra IA y salas en línea.
+  - Creador: [JUMPERZ](https://x.com/jumperz)
+  - Plataforma: Navegador de escritorio; abierto sin registro ni pago. Móvil no probado.
+  - GPT-6 Astra: [X](https://x.com/jumperz/status/2096600055301984738) — El autor indica que utilizó Astra para desarrollar este proyecto. [Notas de verificación (inglés)](assets/screenshots/cinderfall/SOURCE.md).
+  - Vista previa: ![Cinderfall · Fire, Shadow & Steel](assets/screenshots/cinderfall/gameplay.jpg)
+
 <a id="puzzles"></a>
 
 ### Puzles e ingenio
@@ -122,6 +135,13 @@ Acertijos de lógica, desafíos de física, juegos de palabras y pequeños mecan
 ### Estrategia y simulación
 
 Defensa de torres, cartas estratégicas, gestión, construcción y simulación de tipo sandbox.
+
+- **[Dwellcraft · 住进想象](https://dwellcraft.vercel.app/)** — Decora tres casas en 3D, ajusta materiales e iluminación y recórrelas a la altura de los ojos; guardado local e importación GLB.
+  - Creador: [Ryan-fm](https://github.com/Ryan-fm)
+  - Plataforma: Navegador de escritorio con WebGL; interfaz china e inglesa. Gratis, sin registro. Quest físico no probado.
+  - Codex: [GitHub](https://github.com/Ryan-fm/Dwellcraft/blob/main/docs/DEVELOPMENT.md) — Desarrollo iterativo con Codex documentado; la atribución exacta a GPT-6 Astra espera confirmación del autor.
+  - Recursos: [GitHub](https://github.com/Ryan-fm/Dwellcraft)
+  - Vista previa: ![Dwellcraft](https://raw.githubusercontent.com/Ryan-fm/Dwellcraft/main/docs/screenshots/editor-en.png)
 
 - **[Little Kingdom Chess / 작은 왕국 체스](https://little-kingdom-chess.echo3042.chatgpt.site/)** — Ajedrez contra el ordenador en un tablero 3D giratorio, con personajes en miniatura, historial y deshacer.
   - Creador: [에코_eco](https://x.com/echo3042)
@@ -181,6 +201,19 @@ Defensa de torres, cartas estratégicas, gestión, construcción y simulación d
   - Recursos: No se proporcionó código fuente público ni un registro de desarrollo independiente.
   - Vista previa: ![Recreación de Dave the Diver en acción: un buceador entre peces, con indicadores de oxígeno y profundidad e inventario de capturas.](assets/screenshots/dave-the-diver/gameplay.jpg)
 
+- **[No Moat](https://no-moat.petergyang.chatgpt.site/)** — Roguelike de cartas sobre startups: recluta un equipo y combate a imitadores, errores y facturas de la nube.
+  - Creador: [Peter Yang](https://x.com/petergyang)
+  - Plataforma: Navegador de escritorio; abierto sin registro ni pago. Móvil no probado.
+  - GPT-6 Astra: [X](https://x.com/petergyang/status/2096297378584375672) — El autor indica que utilizó Astra para desarrollar este proyecto. [Notas de verificación (inglés)](assets/screenshots/no-moat/SOURCE.md).
+  - Vista previa: ![No Moat](assets/screenshots/no-moat/gameplay.jpg)
+
+- **[The Free Game](https://vale-dos-vinhedos.lucas579686.chatgpt.site/)** — Construye una aldea medieval en 3D detallada con caminos, trabajadores y cadenas de producción.
+  - Creador: [Lucas Marques, from Shiva](https://x.com/LucasMarquesSv)
+  - Plataforma: Navegador de escritorio; abierto sin registro ni pago. Móvil no probado.
+  - GPT-6 Astra: [X](https://x.com/LucasMarquesSv/status/2096772160404504583) — El autor indica que utilizó Astra para desarrollar este proyecto. [Notas de verificación (inglés)](assets/screenshots/the-free-game/SOURCE.md).
+  - Recursos: [GitHub](https://github.com/LucasMarquesShiva/the-free-game)
+  - Vista previa: ![The Free Game](assets/screenshots/the-free-game/gameplay.jpg)
+
 <a id="rpg-adventures"></a>
 
 ### Rol y aventuras
@@ -199,6 +232,18 @@ Juegos de rol, exploración, aventuras narrativas e historias interactivas.
   - GPT-6 Astra: [Registro de desarrollo](https://github.com/stackloomdev/silent-meridian/blob/main/docs/CREATION.md) — Trabajo iterativo en Codex sobre la historia, los puzles, los textos bilingües, el código, los efectos 3D procedurales y las pruebas.
   - Recursos: [Código y puesta en marcha](https://github.com/stackloomdev/silent-meridian) · [Procedencia del arte](https://github.com/stackloomdev/silent-meridian/blob/main/docs/ART.md) · Tecnologías: JavaScript, WebGL, Web Audio.
   - Vista previa: ![Silent Meridian en juego: observatorio con un mecanismo 3D de latón, marcadores de pistas, controles Presente/Eco y un diario de investigación.](assets/screenshots/silent-meridian/gameplay.png)
+
+- **[热血归来 · 八荒幻世 / Mir176 Dragon Warrior](https://mir176-dragon-warrior.geekcatxx.chatgpt.site/)** — RPG de acción inspirado en Legend con guerrero, mago y taoísta, equipo, mazmorras y combate automático.
+  - Creador: [知识猫AI实验室](https://x.com/GeekCatX)
+  - Plataforma: Navegador de escritorio; abierto sin registro ni pago. Móvil no probado.
+  - GPT-6 Astra: [X](https://x.com/GeekCatX/status/2097530887558865115) — El autor indica que utilizó Astra para desarrollar este proyecto. [Notas de verificación (inglés)](assets/screenshots/mir176/SOURCE.md).
+  - Vista previa: ![热血归来 · 八荒幻世 / Mir176 Dragon Warrior](assets/screenshots/mir176/gameplay.jpg)
+
+- **[Zork · The Great Underground Empire](https://zork-underground-empire.netlify.app/)** — Adaptación 3D no oficial de Zork con exploración en primera persona, puzles, combate y diario.
+  - Creador: [Ethan Mollick](https://x.com/emollick)
+  - Plataforma: Navegador de escritorio; abierto sin registro ni pago. Móvil no probado.
+  - GPT-6 Astra: [X](https://x.com/emollick/status/2096047660662722620) — El autor indica que utilizó Astra para desarrollar este proyecto. [Notas de verificación (inglés)](assets/screenshots/zork/SOURCE.md).
+  - Vista previa: ![Zork · The Great Underground Empire](assets/screenshots/zork/gameplay.jpg)
 
 <a id="platformers-racing"></a>
 
@@ -275,6 +320,13 @@ Mecánicas inusuales, competición en línea y experiencias cooperativas.
   - GPT-6 Astra: [Declaración del creador](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/24) — El creador afirma que GPT-6 Astra implementó los juegos y realizó las pruebas de forma autónoma a partir de descripciones de juguetes y requisitos de funciones.
   - Recursos: [Código fuente e instrucciones de ejecución](https://github.com/asmoyou/toy2game) · [Licencia no comercial](https://github.com/asmoyou/toy2game/blob/main/LICENSE) — Código disponible; uso no comercial gratuito y uso comercial sujeto a autorización previa por escrito del autor. Tecnologías: TypeScript, React, Vite, Three.js.
   - Vista previa: ![Vista general de Toy2Game con cuatro escenas 3D reales: hielo del pingüino, trampas de conejos, equilibrio de astronautas y salida del aparcamiento. Imagen aportada por asmoyou.](https://raw.githubusercontent.com/asmoyou/toy2game/main/docs/images/toy2game-overview.png)
+
+- **[Jelly Baby](https://jelly.scottsun.io/)** — Un patio de física sobre una mesa soleada: salta y estira una gelatina, con columpio y trampolín.
+  - Creador: [Scott](https://x.com/scottstts)
+  - Plataforma: Navegador de escritorio; abierto sin registro ni pago. Móvil no probado.
+  - GPT-6 Astra: [X](https://x.com/scottstts/status/2096364764054131119) — El autor indica que utilizó Astra para desarrollar este proyecto. [Notas de verificación (inglés)](assets/screenshots/jelly-baby/SOURCE.md).
+  - Recursos: [GitHub](https://github.com/scottstts/Jelly-Baby)
+  - Vista previa: ![Jelly Baby](assets/screenshots/jelly-baby/gameplay.jpg)
 
 ## Qué incluye cada entrada
 

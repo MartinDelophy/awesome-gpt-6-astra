@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 31](https://img.shields.io/badge/Cases-31-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 39](https://img.shields.io/badge/Cases-39-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Kumpulan gim menarik yang dibuat dengan GPT-6 Astra.**
 
@@ -22,7 +22,7 @@ Halaman ini merupakan terjemahan [README bahasa Inggris](README.md). Periksa ver
 
 ## Mulai di sini
 
-Jelajahi **30 gim peramban dan 1 sandbox seni partikel interaktif**: strategi wilayah Tiga Kerajaan, teka-teki kayu yang saling mengunci dan teka-teki balok geser, penggabungan buah yang lentur, penerbangan satu tombol, pertempuran karpet ajaib, pertahanan pulau dengan jaringan listrik, bertahan hidup di alam liar, menangkap ikan di bawah air, mengelola restoran sushi, dan bertani di pulau, balapan kart di Bay Circuit, bersepeda di pesisir bersama pelikan, mainan meja yang diadaptasi menjadi gim 3D, serta Orbital Garden. Klik judul untuk membuka demo atau kode sumber beserta petunjuk menjalankannya.
+Jelajahi **39 gim dan proyek interaktif**: strategi wilayah Tiga Kerajaan, teka-teki kayu yang saling mengunci dan teka-teki balok geser, penggabungan buah yang lentur, penerbangan satu tombol, pertempuran karpet ajaib, pertahanan pulau dengan jaringan listrik, bertahan hidup di alam liar, menangkap ikan di bawah air, mengelola restoran sushi, dan bertani di pulau, balapan kart di Bay Circuit, bersepeda di pesisir bersama pelikan, mainan meja yang diadaptasi menjadi gim 3D, serta Orbital Garden. Klik judul untuk membuka demo atau kode sumber beserta petunjuk menjalankannya.
 
 Katalog diperbarui: **2026-09-09**. Informasi penggunaan model berdasarkan pernyataan kreator atau pengirim; detail yang belum dikonfirmasi ditandai pada setiap entri. Tanggal ini menunjukkan pemeliharaan katalog, bukan pengujian ulang seluruh gim.
 
@@ -91,6 +91,19 @@ Gim tembak-menembak, pertarungan, bertahan hidup, ritme, dan apa pun yang membua
   - GPT-6 Astra: [X](https://x.com/DantesClown/status/2096085439052452064) — Kreator menyatakan menggunakan Astra dalam pengembangan proyek ini. [Catatan verifikasi (Inggris)](assets/screenshots/asteroids-deepfield/SOURCE.md).
   - Pratinjau: ![ASTEROIDS · Deepfield — Tangkapan permainan](assets/screenshots/asteroids-deepfield/gameplay.jpg)
 
+- **[BLACKWATER · Silent Harbor](https://blackwater-roan.vercel.app/)** — FPS taktis di terminal kargo berhujan dengan senapan rinci, HUD tempur dan sembilan musuh.
+  - Kreator: [hiraeth](https://x.com/WoahWurdz)
+  - Platform: Peramban desktop; dibuka tanpa login atau pembayaran. Seluler belum diuji.
+  - GPT-6 Astra: [X](https://x.com/WoahWurdz/status/2095958882732355908) — Kreator menyatakan menggunakan Astra dalam pengembangan proyek ini. [Catatan verifikasi (Inggris)](assets/screenshots/blackwater/SOURCE.md).
+  - Sumber daya: [GitHub](https://github.com/Hiraeth010/blackwater)
+  - Pratinjau: ![BLACKWATER · Silent Harbor](assets/screenshots/blackwater/gameplay.jpg)
+
+- **[Cinderfall · Fire, Shadow & Steel](https://rogue-omega.vercel.app/)** — Arena duel fantasi dengan empat pahlawan, enam kemampuan per kelas, lawan AI serta ruang daring.
+  - Kreator: [JUMPERZ](https://x.com/jumperz)
+  - Platform: Peramban desktop; dibuka tanpa login atau pembayaran. Seluler belum diuji.
+  - GPT-6 Astra: [X](https://x.com/jumperz/status/2096600055301984738) — Kreator menyatakan menggunakan Astra dalam pengembangan proyek ini. [Catatan verifikasi (Inggris)](assets/screenshots/cinderfall/SOURCE.md).
+  - Pratinjau: ![Cinderfall · Fire, Shadow & Steel](assets/screenshots/cinderfall/gameplay.jpg)
+
 <a id="puzzles"></a>
 
 ### Teka-teki dan asah otak
@@ -122,6 +135,13 @@ Teka-teki logika, tantangan fisika, permainan kata, dan mekanisme kecil yang kre
 ### Strategi dan simulasi
 
 Pertahanan menara, kartu strategi, pengelolaan, pembangunan, dan sandbox simulasi.
+
+- **[Dwellcraft · 住进想象](https://dwellcraft.vercel.app/)** — Tata tiga rumah 3D, ubah material dan pencahayaan lalu jelajahi dari sudut pandang mata; dengan penyimpanan lokal dan impor GLB.
+  - Kreator: [Ryan-fm](https://github.com/Ryan-fm)
+  - Platform: Peramban desktop WebGL; UI Tionghoa dan Inggris. Gratis, tanpa login. Perangkat Quest fisik belum diuji.
+  - Codex: [GitHub](https://github.com/Ryan-fm/Dwellcraft/blob/main/docs/DEVELOPMENT.md) — Pengembangan berulang dengan Codex tercatat; atribusi tepat kepada GPT-6 Astra menunggu konfirmasi kreator.
+  - Sumber daya: [GitHub](https://github.com/Ryan-fm/Dwellcraft)
+  - Pratinjau: ![Dwellcraft](https://raw.githubusercontent.com/Ryan-fm/Dwellcraft/main/docs/screenshots/editor-en.png)
 
 - **[Little Kingdom Chess / 작은 왕국 체스](https://little-kingdom-chess.echo3042.chatgpt.site/)** — Catur melawan komputer di papan 3D yang dapat diputar, dengan karakter mini, riwayat langkah dan pembatalan.
   - Kreator: [에코_eco](https://x.com/echo3042)
@@ -181,6 +201,19 @@ Pertahanan menara, kartu strategi, pengelolaan, pembangunan, dan sandbox simulas
   - Materi pengembangan: Kode sumber publik maupun catatan pengembangan terpisah tidak disediakan.
   - Pratinjau: ![Permainan rekreasi Dave the Diver: penyelam di antara ikan, dengan indikator oksigen dan kedalaman serta inventaris hasil tangkapan.](assets/screenshots/dave-the-diver/gameplay.jpg)
 
+- **[No Moat](https://no-moat.petergyang.chatgpt.site/)** — Roguelike kartu bertema startup: rekrut tim dan lawan peniru, bug serta tagihan cloud.
+  - Kreator: [Peter Yang](https://x.com/petergyang)
+  - Platform: Peramban desktop; dibuka tanpa login atau pembayaran. Seluler belum diuji.
+  - GPT-6 Astra: [X](https://x.com/petergyang/status/2096297378584375672) — Kreator menyatakan menggunakan Astra dalam pengembangan proyek ini. [Catatan verifikasi (Inggris)](assets/screenshots/no-moat/SOURCE.md).
+  - Pratinjau: ![No Moat](assets/screenshots/no-moat/gameplay.jpg)
+
+- **[The Free Game](https://vale-dos-vinhedos.lucas579686.chatgpt.site/)** — Bangun desa abad pertengahan 3D yang rinci dengan jalan, pekerja dan rantai produksi.
+  - Kreator: [Lucas Marques, from Shiva](https://x.com/LucasMarquesSv)
+  - Platform: Peramban desktop; dibuka tanpa login atau pembayaran. Seluler belum diuji.
+  - GPT-6 Astra: [X](https://x.com/LucasMarquesSv/status/2096772160404504583) — Kreator menyatakan menggunakan Astra dalam pengembangan proyek ini. [Catatan verifikasi (Inggris)](assets/screenshots/the-free-game/SOURCE.md).
+  - Sumber daya: [GitHub](https://github.com/LucasMarquesShiva/the-free-game)
+  - Pratinjau: ![The Free Game](assets/screenshots/the-free-game/gameplay.jpg)
+
 <a id="rpg-adventures"></a>
 
 ### RPG dan petualangan
@@ -199,6 +232,18 @@ Permainan peran, eksplorasi, petualangan naratif, dan cerita interaktif.
   - GPT-6 Astra: [Catatan pengembangan](https://github.com/stackloomdev/silent-meridian/blob/main/docs/CREATION.md) — Kolaborasi bertahap di Codex untuk cerita, teka-teki, teks dwibahasa, kode, efek 3D prosedural, dan pengujian.
   - Sumber daya: [Kode sumber dan petunjuk menjalankan](https://github.com/stackloomdev/silent-meridian) · [Asal karya visual](https://github.com/stackloomdev/silent-meridian/blob/main/docs/ART.md) · Teknologi: JavaScript, WebGL, Web Audio.
   - Pratinjau: ![Silent Meridian saat dimainkan: observatorium dengan mekanisme kuningan 3D, penanda petunjuk, kontrol Masa Kini/Gema, dan jurnal penyelidikan.](assets/screenshots/silent-meridian/gameplay.png)
+
+- **[热血归来 · 八荒幻世 / Mir176 Dragon Warrior](https://mir176-dragon-warrior.geekcatxx.chatgpt.site/)** — RPG aksi terinspirasi Legend dengan prajurit, penyihir dan tao, perlengkapan, dungeon serta pertarungan otomatis.
+  - Kreator: [知识猫AI实验室](https://x.com/GeekCatX)
+  - Platform: Peramban desktop; dibuka tanpa login atau pembayaran. Seluler belum diuji.
+  - GPT-6 Astra: [X](https://x.com/GeekCatX/status/2097530887558865115) — Kreator menyatakan menggunakan Astra dalam pengembangan proyek ini. [Catatan verifikasi (Inggris)](assets/screenshots/mir176/SOURCE.md).
+  - Pratinjau: ![热血归来 · 八荒幻世 / Mir176 Dragon Warrior](assets/screenshots/mir176/gameplay.jpg)
+
+- **[Zork · The Great Underground Empire](https://zork-underground-empire.netlify.app/)** — Adaptasi 3D Zork tidak resmi dengan penjelajahan orang pertama, teka-teki, pertempuran dan jurnal.
+  - Kreator: [Ethan Mollick](https://x.com/emollick)
+  - Platform: Peramban desktop; dibuka tanpa login atau pembayaran. Seluler belum diuji.
+  - GPT-6 Astra: [X](https://x.com/emollick/status/2096047660662722620) — Kreator menyatakan menggunakan Astra dalam pengembangan proyek ini. [Catatan verifikasi (Inggris)](assets/screenshots/zork/SOURCE.md).
+  - Pratinjau: ![Zork · The Great Underground Empire](assets/screenshots/zork/gameplay.jpg)
 
 <a id="platformers-racing"></a>
 
@@ -275,6 +320,13 @@ Mekanisme tidak biasa, kompetisi daring, dan pengalaman bermain kooperatif.
   - GPT-6 Astra: [Pernyataan kreator](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/24) — Menurut kreator, GPT-6 Astra mengimplementasikan gim dan menjalankan pengujian secara mandiri berdasarkan deskripsi mainan dan kebutuhan fitur.
   - Materi pengembangan: [Kode sumber dan petunjuk menjalankan](https://github.com/asmoyou/toy2game) · [Lisensi nonkomersial](https://github.com/asmoyou/toy2game/blob/main/LICENSE) — Kode sumber tersedia; penggunaan nonkomersial gratis, penggunaan komersial memerlukan izin tertulis terlebih dahulu dari penulis. Teknologi: TypeScript, React, Vite, Three.js.
   - Pratinjau: ![Ikhtisar Toy2Game dengan empat adegan 3D gim yang sebenarnya: es penguin, perangkap kelinci, keseimbangan astronaut, dan keluar dari parkiran. Gambar disediakan oleh asmoyou.](https://raw.githubusercontent.com/asmoyou/toy2game/main/docs/images/toy2game-overview.png)
+
+- **[Jelly Baby](https://jelly.scottsun.io/)** — Taman bermain fisika di meja kayu yang cerah: lompatkan dan regangkan jeli, dengan ayunan serta trampolin.
+  - Kreator: [Scott](https://x.com/scottstts)
+  - Platform: Peramban desktop; dibuka tanpa login atau pembayaran. Seluler belum diuji.
+  - GPT-6 Astra: [X](https://x.com/scottstts/status/2096364764054131119) — Kreator menyatakan menggunakan Astra dalam pengembangan proyek ini. [Catatan verifikasi (Inggris)](assets/screenshots/jelly-baby/SOURCE.md).
+  - Sumber daya: [GitHub](https://github.com/scottstts/Jelly-Baby)
+  - Pratinjau: ![Jelly Baby](assets/screenshots/jelly-baby/gameplay.jpg)
 
 ## Isi setiap entri
 

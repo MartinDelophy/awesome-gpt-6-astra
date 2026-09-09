@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 32](https://img.shields.io/badge/Cases-32-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 39](https://img.shields.io/badge/Cases-39-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **A collection of interesting games made with GPT-6 Astra.**
 
@@ -20,7 +20,7 @@ Playful ideas, games you can try, and development stories that inspire the next 
 
 ## Start here
 
-Explore **31 browser games and 1 interactive particle-art sandbox**: Three Kingdoms territory strategy, wooden interlocking and sliding puzzles, soft-body fruit merging, one-tap flight, magic-carpet combat, a five-stage bullet-hell shooter, island power-grid tower defense, wilderness survival, underwater fishing, sushi-restaurant management and island farming, Bay Circuit kart racing, coastal cycling with a pelican, tabletop toys turned into 3D games, 3D home decoration, and Orbital Garden. Click a title to open its demo or source with setup instructions.
+Explore **39 games and interactive projects**: Three Kingdoms territory strategy, wooden interlocking and sliding puzzles, soft-body fruit merging, one-tap flight, magic-carpet combat, a five-stage bullet-hell shooter, island power-grid tower defense, wilderness survival, underwater fishing, sushi-restaurant management and island farming, Bay Circuit kart racing, coastal cycling with a pelican, tabletop toys turned into 3D games, 3D home decoration, and Orbital Garden. Click a title to open its demo or source with setup instructions.
 
 Catalog updated: **2026-09-09**. Model attribution is based on creator or submitter statements; unconfirmed details are marked in individual entries. This date records catalog maintenance, not a new play-test of every game.
 
@@ -87,6 +87,19 @@ Shooters, fighters, survival games, rhythm games, and anything that invites one 
   - Platform: Desktop browser; opened without login or payment. Mobile support was not tested.
   - GPT-6 Astra: [X](https://x.com/DantesClown/status/2096085439052452064) — The creator reports using Astra to develop this project. [Verification notes (English)](assets/screenshots/asteroids-deepfield/SOURCE.md).
   - Preview: ![ASTEROIDS · Deepfield — Gameplay](assets/screenshots/asteroids-deepfield/gameplay.jpg)
+
+- **[BLACKWATER · Silent Harbor](https://blackwater-roan.vercel.app/)** — Infiltrate a rain-soaked freight terminal in a tactical FPS with a detailed carbine, combat HUD and nine hostiles.
+  - Creator: [hiraeth](https://x.com/WoahWurdz)
+  - Platform: Desktop browser; opened without login or payment. Mobile support was not tested.
+  - GPT-6 Astra: [X](https://x.com/WoahWurdz/status/2095958882732355908) — The creator reports using Astra to develop this project. [Verification notes (English)](assets/screenshots/blackwater/SOURCE.md).
+  - Resources: [GitHub](https://github.com/Hiraeth010/blackwater)
+  - Preview: ![BLACKWATER · Silent Harbor](assets/screenshots/blackwater/gameplay.jpg)
+
+- **[Cinderfall · Fire, Shadow & Steel](https://rogue-omega.vercel.app/)** — A fantasy dueling arena with four champions, six class abilities and solo AI battles; online rooms are also offered.
+  - Creator: [JUMPERZ](https://x.com/jumperz)
+  - Platform: Desktop browser; opened without login or payment. Mobile support was not tested.
+  - GPT-6 Astra: [X](https://x.com/jumperz/status/2096600055301984738) — The creator reports using Astra to develop this project. [Verification notes (English)](assets/screenshots/cinderfall/SOURCE.md).
+  - Preview: ![Cinderfall · Fire, Shadow & Steel](assets/screenshots/cinderfall/gameplay.jpg)
 
 ### Puzzles & brain games
 
@@ -181,6 +194,19 @@ Tower defense, strategic card games, management games, building, and simulation 
   - Resources: No public source or separate development record supplied.
   - Preview: ![Dave the Diver recreation in action: a diver among fish, with oxygen, depth and inventory indicators.](assets/screenshots/dave-the-diver/gameplay.jpg)
 
+- **[No Moat](https://no-moat.petergyang.chatgpt.site/)** — A startup-themed roguelike deckbuilder: recruit a team and play cards against copycats, bugs and cloud bills.
+  - Creator: [Peter Yang](https://x.com/petergyang)
+  - Platform: Desktop browser; opened without login or payment. Mobile support was not tested.
+  - GPT-6 Astra: [X](https://x.com/petergyang/status/2096297378584375672) — The creator reports using Astra to develop this project. [Verification notes (English)](assets/screenshots/no-moat/SOURCE.md).
+  - Preview: ![No Moat](assets/screenshots/no-moat/gameplay.jpg)
+
+- **[The Free Game](https://vale-dos-vinhedos.lucas579686.chatgpt.site/)** — Build a medieval village with roads, workers and production chains, presented as a detailed 3D tabletop settlement.
+  - Creator: [Lucas Marques, from Shiva](https://x.com/LucasMarquesSv)
+  - Platform: Desktop browser; opened without login or payment. Mobile support was not tested.
+  - GPT-6 Astra: [X](https://x.com/LucasMarquesSv/status/2096772160404504583) — The creator reports using Astra to develop this project. [Verification notes (English)](assets/screenshots/the-free-game/SOURCE.md).
+  - Resources: [GitHub](https://github.com/LucasMarquesShiva/the-free-game)
+  - Preview: ![The Free Game](assets/screenshots/the-free-game/gameplay.jpg)
+
 ### RPGs & adventures
 
 Role-playing, exploration, narrative adventures, and interactive stories.
@@ -197,6 +223,18 @@ Role-playing, exploration, narrative adventures, and interactive stories.
   - GPT-6 Astra: [Development record](https://github.com/stackloomdev/silent-meridian/blob/main/docs/CREATION.md) — Iterative work in Codex on story, puzzles, bilingual text, code, procedural 3D effects and tests.
   - Resources: [Source and setup](https://github.com/stackloomdev/silent-meridian) · [Art provenance](https://github.com/stackloomdev/silent-meridian/blob/main/docs/ART.md) · Built with: JavaScript, WebGL, Web Audio.
   - Preview: ![Silent Meridian in action: the observatory with a brass 3D mechanism, clue markers, Present/Echo controls and a field journal.](assets/screenshots/silent-meridian/gameplay.png)
+
+- **[热血归来 · 八荒幻世 / Mir176 Dragon Warrior](https://mir176-dragon-warrior.geekcatxx.chatgpt.site/)** — A Legend-inspired action RPG with warrior, mage and taoist classes, equipment, dungeon combat and auto-battle.
+  - Creator: [知识猫AI实验室](https://x.com/GeekCatX)
+  - Platform: Desktop browser; opened without login or payment. Mobile support was not tested.
+  - GPT-6 Astra: [X](https://x.com/GeekCatX/status/2097530887558865115) — The creator reports using Astra to develop this project. [Verification notes (English)](assets/screenshots/mir176/SOURCE.md).
+  - Preview: ![热血归来 · 八荒幻世 / Mir176 Dragon Warrior](assets/screenshots/mir176/gameplay.jpg)
+
+- **[Zork · The Great Underground Empire](https://zork-underground-empire.netlify.app/)** — An unofficial 3D adaptation of Zork with first-person exploration, puzzles, combat and a journal.
+  - Creator: [Ethan Mollick](https://x.com/emollick)
+  - Platform: Desktop browser; opened without login or payment. Mobile support was not tested.
+  - GPT-6 Astra: [X](https://x.com/emollick/status/2096047660662722620) — The creator reports using Astra to develop this project. [Verification notes (English)](assets/screenshots/zork/SOURCE.md).
+  - Preview: ![Zork · The Great Underground Empire](assets/screenshots/zork/gameplay.jpg)
 
 ### Platformers & racing
 
@@ -269,6 +307,13 @@ Unusual mechanics, online competition, and cooperative experiences.
   - GPT-6 Astra: [Creator statement](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/24) — Creator reports that GPT-6 Astra autonomously implemented the games and carried out testing from toy descriptions and feature requirements.
   - Resources: [Source and setup](https://github.com/asmoyou/toy2game) · [Noncommercial license](https://github.com/asmoyou/toy2game/blob/main/LICENSE) — Source available; noncommercial use is free, commercial use requires prior written authorization from the author. Built with: TypeScript, React, Vite, Three.js.
   - Preview: ![Toy2Game overview with four actual 3D game scenes: penguin ice, rabbit traps, astronaut balancing and parking escape. Image provided by asmoyou.](https://raw.githubusercontent.com/asmoyou/toy2game/main/docs/images/toy2game-overview.png)
+
+- **[Jelly Baby](https://jelly.scottsun.io/)** — A soft-body jelly playground on a sunlit tabletop, with jumping, stretching, a swing and a trampoline.
+  - Creator: [Scott](https://x.com/scottstts)
+  - Platform: Desktop browser; opened without login or payment. Mobile support was not tested.
+  - GPT-6 Astra: [X](https://x.com/scottstts/status/2096364764054131119) — The creator reports using Astra to develop this project. [Verification notes (English)](assets/screenshots/jelly-baby/SOURCE.md).
+  - Resources: [GitHub](https://github.com/scottstts/Jelly-Baby)
+  - Preview: ![Jelly Baby](assets/screenshots/jelly-baby/gameplay.jpg)
 
 ## What an entry includes
 

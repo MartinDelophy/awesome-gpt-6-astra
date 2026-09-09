@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 32](https://img.shields.io/badge/Cases-32-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 39](https://img.shields.io/badge/Cases-39-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **收集用 GPT-6 Astra 制作的有趣游戏。**
 
@@ -20,7 +20,7 @@
 
 ## 从这里开始
 
-目前收录 **31 款浏览器游戏和 1 个交互式粒子艺术沙盒**：三国领土策略、木锁拆解与华容道、半流体水果合成、单键飞行、魔毯战斗、五关弹幕射击、海岛电网塔防、荒野生存、水下捕鱼、寿司店经营与海岛种植、海湾卡丁车竞速、鹈鹕海岸骑行、桌面玩具的 3D 改编、3D 家居装修，以及轨道花园。点击作品名称可打开试玩或源码运行说明。
+目前收录 **39 个游戏与互动作品**：三国领土策略、木锁拆解与华容道、半流体水果合成、单键飞行、魔毯战斗、五关弹幕射击、海岛电网塔防、荒野生存、水下捕鱼、寿司店经营与海岛种植、海湾卡丁车竞速、鹈鹕海岸骑行、桌面玩具的 3D 改编、3D 家居装修，以及轨道花园。点击作品名称可打开试玩或源码运行说明。
 
 目录更新：**2026-09-09**。模型使用信息依据作者或投稿者的说明，未确认内容在具体条目中标注。此日期表示目录维护时间，不代表当天重新试玩了所有游戏。
 
@@ -87,6 +87,19 @@
   - 平台: 桌面浏览器；已无需登录或付费打开，未测试移动端。
   - GPT-6 Astra: [X](https://x.com/DantesClown/status/2096085439052452064) — 作者说明使用 Astra 参与本项目开发。 [核验记录（英文）](assets/screenshots/asteroids-deepfield/SOURCE.md).
   - 预览: ![ASTEROIDS · Deepfield — 实机画面](assets/screenshots/asteroids-deepfield/gameplay.jpg)
+
+- **[BLACKWATER · Silent Harbor](https://blackwater-roan.vercel.app/)** — 潜入雨夜货运港口的战术 FPS，包含精细步枪、战斗 HUD 和九名敌人。
+  - 作者: [hiraeth](https://x.com/WoahWurdz)
+  - 平台: 桌面浏览器；已无需登录或付费打开，未测试移动端。
+  - GPT-6 Astra: [X](https://x.com/WoahWurdz/status/2095958882732355908) — 作者说明使用 Astra 参与本项目开发。 [核验记录（英文）](assets/screenshots/blackwater/SOURCE.md).
+  - 开发资料: [GitHub](https://github.com/Hiraeth010/blackwater)
+  - 预览: ![BLACKWATER · Silent Harbor](assets/screenshots/blackwater/gameplay.jpg)
+
+- **[Cinderfall · Fire, Shadow & Steel](https://rogue-omega.vercel.app/)** — 四位英雄的奇幻对决竞技场，包含六项职业技能和单人 AI 对战，也提供在线房间。
+  - 作者: [JUMPERZ](https://x.com/jumperz)
+  - 平台: 桌面浏览器；已无需登录或付费打开，未测试移动端。
+  - GPT-6 Astra: [X](https://x.com/jumperz/status/2096600055301984738) — 作者说明使用 Astra 参与本项目开发。 [核验记录（英文）](assets/screenshots/cinderfall/SOURCE.md).
+  - 预览: ![Cinderfall · Fire, Shadow & Steel](assets/screenshots/cinderfall/gameplay.jpg)
 
 ### 解谜与益智
 
@@ -181,6 +194,19 @@
   - 开发资料：未提供公开源码或独立开发记录。
   - 预览：![潜水员戴夫复刻实机画面：潜水员穿行于鱼群之间，界面显示氧气、深度和收获背包。](assets/screenshots/dave-the-diver/gameplay.jpg)
 
+- **[No Moat](https://no-moat.petergyang.chatgpt.site/)** — 创业题材的肉鸽卡牌游戏：招募团队，打出卡牌应对抄袭者、程序错误和云服务账单。
+  - 作者: [Peter Yang](https://x.com/petergyang)
+  - 平台: 桌面浏览器；已无需登录或付费打开，未测试移动端。
+  - GPT-6 Astra: [X](https://x.com/petergyang/status/2096297378584375672) — 作者说明使用 Astra 参与本项目开发。 [核验记录（英文）](assets/screenshots/no-moat/SOURCE.md).
+  - 预览: ![No Moat](assets/screenshots/no-moat/gameplay.jpg)
+
+- **[The Free Game](https://vale-dos-vinhedos.lucas579686.chatgpt.site/)** — 修路、培养工人、搭建生产链，在细致的 3D 中世纪村庄里经营建设。
+  - 作者: [Lucas Marques, from Shiva](https://x.com/LucasMarquesSv)
+  - 平台: 桌面浏览器；已无需登录或付费打开，未测试移动端。
+  - GPT-6 Astra: [X](https://x.com/LucasMarquesSv/status/2096772160404504583) — 作者说明使用 Astra 参与本项目开发。 [核验记录（英文）](assets/screenshots/the-free-game/SOURCE.md).
+  - 开发资料: [GitHub](https://github.com/LucasMarquesShiva/the-free-game)
+  - 预览: ![The Free Game](assets/screenshots/the-free-game/gameplay.jpg)
+
 ### RPG 与冒险
 
 角色扮演、探索、叙事冒险与互动故事。
@@ -197,6 +223,18 @@
   - GPT-6 Astra: [开发记录](https://github.com/stackloomdev/silent-meridian/blob/main/docs/CREATION.md) — 在 Codex 中多轮协作，参与故事、谜题、中英文文案、代码、程序化 3D 视效及测试。
   - 开发资料: [源码与运行说明](https://github.com/stackloomdev/silent-meridian) · [美术来源](https://github.com/stackloomdev/silent-meridian/blob/main/docs/ART.md) · 技术: JavaScript, WebGL, Web Audio.
   - 预览: ![静默子午线实机画面：观测穹顶中的立体青铜机关、线索标记、现在与回声切换按钮和调查手记。](assets/screenshots/silent-meridian/gameplay.png)
+
+- **[热血归来 · 八荒幻世 / Mir176 Dragon Warrior](https://mir176-dragon-warrior.geekcatxx.chatgpt.site/)** — 传奇风格动作 RPG，包含战士、法师、道士三职业、装备、副本战斗与自动战斗。
+  - 作者: [知识猫AI实验室](https://x.com/GeekCatX)
+  - 平台: 桌面浏览器；已无需登录或付费打开，未测试移动端。
+  - GPT-6 Astra: [X](https://x.com/GeekCatX/status/2097530887558865115) — 作者说明使用 Astra 参与本项目开发。 [核验记录（英文）](assets/screenshots/mir176/SOURCE.md).
+  - 预览: ![热血归来 · 八荒幻世 / Mir176 Dragon Warrior](assets/screenshots/mir176/gameplay.jpg)
+
+- **[Zork · The Great Underground Empire](https://zork-underground-empire.netlify.app/)** — Zork 的非官方 3D 改编，以第一人称探索地下世界，结合谜题、战斗与冒险日志。
+  - 作者: [Ethan Mollick](https://x.com/emollick)
+  - 平台: 桌面浏览器；已无需登录或付费打开，未测试移动端。
+  - GPT-6 Astra: [X](https://x.com/emollick/status/2096047660662722620) — 作者说明使用 Astra 参与本项目开发。 [核验记录（英文）](assets/screenshots/zork/SOURCE.md).
+  - 预览: ![Zork · The Great Underground Empire](assets/screenshots/zork/gameplay.jpg)
 
 ### 平台跳跃与竞速
 
@@ -269,6 +307,13 @@
   - GPT-6 Astra：[作者说明](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/24) — 作者称只提供玩具描述和功能要求，由 GPT-6 Astra 自主完成游戏开发与测试验证。
   - 开发资料：[源码与运行说明](https://github.com/asmoyou/toy2game) · [非商业使用许可](https://github.com/asmoyou/toy2game/blob/main/LICENSE) — 源码开放，非商业使用免费；商业使用须事先取得作者书面授权。技术：TypeScript、React、Vite、Three.js。
   - 预览：![Toy2Game 四款游戏的实际 3D 场景：企鹅敲冰、小兔闯关、平衡太空人和移车出库。图片由 asmoyou 提供。](https://raw.githubusercontent.com/asmoyou/toy2game/main/docs/images/toy2game-overview.png)
+
+- **[Jelly Baby](https://jelly.scottsun.io/)** — 阳光木桌上的软体果冻游乐场，可以跳跃、拉伸，体验秋千和蹦床。
+  - 作者: [Scott](https://x.com/scottstts)
+  - 平台: 桌面浏览器；已无需登录或付费打开，未测试移动端。
+  - GPT-6 Astra: [X](https://x.com/scottstts/status/2096364764054131119) — 作者说明使用 Astra 参与本项目开发。 [核验记录（英文）](assets/screenshots/jelly-baby/SOURCE.md).
+  - 开发资料: [GitHub](https://github.com/scottstts/Jelly-Baby)
+  - 预览: ![Jelly Baby](assets/screenshots/jelly-baby/gameplay.jpg)
 
 ## 每个作品记录什么
 

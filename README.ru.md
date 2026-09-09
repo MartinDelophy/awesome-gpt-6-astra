@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 31](https://img.shields.io/badge/Cases-31-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 39](https://img.shields.io/badge/Cases-39-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Подборка интересных игр, созданных с помощью GPT-6 Astra.**
 
@@ -22,7 +22,7 @@
 
 ## С чего начать
 
-Здесь собраны **30 браузерных игр и 1 интерактивная художественная песочница с частицами**: территориальная стратегия эпохи Троецарствия, деревянные головоломки со сцепленными деталями и сдвижными блоками, объединение мягких фруктов, полёт одной кнопкой, сражения на ковре-самолёте, защита острова с помощью электросети, выживание в дикой природе, подводная охота, управление суши-рестораном и фермерство на острове, гонки на картах по Bay Circuit, велопрогулка с пеликаном вдоль берега, настольные игрушки в 3D и Orbital Garden. Нажмите на название, чтобы открыть демоверсию или исходный код с инструкцией по запуску.
+Здесь собраны **39 игр и интерактивных проектов**: территориальная стратегия эпохи Троецарствия, деревянные головоломки со сцепленными деталями и сдвижными блоками, объединение мягких фруктов, полёт одной кнопкой, сражения на ковре-самолёте, защита острова с помощью электросети, выживание в дикой природе, подводная охота, управление суши-рестораном и фермерство на острове, гонки на картах по Bay Circuit, велопрогулка с пеликаном вдоль берега, настольные игрушки в 3D и Orbital Garden. Нажмите на название, чтобы открыть демоверсию или исходный код с инструкцией по запуску.
 
 Каталог обновлён: **2026-09-09**. Сведения об использовании модели основаны на заявлениях авторов или отправителей; неподтверждённые данные отмечены в соответствующих записях. Эта дата означает обновление каталога, а не повторное игровое тестирование всех проектов.
 
@@ -91,6 +91,19 @@
   - GPT-6 Astra: [X](https://x.com/DantesClown/status/2096085439052452064) — Автор сообщает об использовании Astra при разработке проекта. [Запись проверки (английский)](assets/screenshots/asteroids-deepfield/SOURCE.md).
   - Предпросмотр: ![ASTEROIDS · Deepfield — Игровой скриншот](assets/screenshots/asteroids-deepfield/gameplay.jpg)
 
+- **[BLACKWATER · Silent Harbor](https://blackwater-roan.vercel.app/)** — Тактический FPS в дождливом грузовом терминале: детальная винтовка, боевой интерфейс и девять противников.
+  - Автор: [hiraeth](https://x.com/WoahWurdz)
+  - Платформа: Настольный браузер; открыто без входа и оплаты. Мобильная версия не проверялась.
+  - GPT-6 Astra: [X](https://x.com/WoahWurdz/status/2095958882732355908) — Автор сообщает об использовании Astra при разработке проекта. [Запись проверки (английский)](assets/screenshots/blackwater/SOURCE.md).
+  - Ресурсы: [GitHub](https://github.com/Hiraeth010/blackwater)
+  - Предпросмотр: ![BLACKWATER · Silent Harbor](assets/screenshots/blackwater/gameplay.jpg)
+
+- **[Cinderfall · Fire, Shadow & Steel](https://rogue-omega.vercel.app/)** — Фэнтезийная арена с четырьмя героями, шестью умениями класса, дуэлями против ИИ и онлайн-комнатами.
+  - Автор: [JUMPERZ](https://x.com/jumperz)
+  - Платформа: Настольный браузер; открыто без входа и оплаты. Мобильная версия не проверялась.
+  - GPT-6 Astra: [X](https://x.com/jumperz/status/2096600055301984738) — Автор сообщает об использовании Astra при разработке проекта. [Запись проверки (английский)](assets/screenshots/cinderfall/SOURCE.md).
+  - Предпросмотр: ![Cinderfall · Fire, Shadow & Steel](assets/screenshots/cinderfall/gameplay.jpg)
+
 <a id="puzzles"></a>
 
 ### Головоломки и логические игры
@@ -122,6 +135,13 @@
 ### Стратегии и симуляторы
 
 Защита башнями, стратегические карточные игры, управление, строительство и симуляторы-песочницы.
+
+- **[Dwellcraft · 住进想象](https://dwellcraft.vercel.app/)** — Обставьте три 3D-дома, настройте материалы и освещение и пройдитесь внутри; доступны локальные сохранения и импорт GLB.
+  - Автор: [Ryan-fm](https://github.com/Ryan-fm)
+  - Платформа: Настольный браузер с WebGL; китайский и английский интерфейс. Бесплатно, без входа. На физическом Quest не проверено.
+  - Codex: [GitHub](https://github.com/Ryan-fm/Dwellcraft/blob/main/docs/DEVELOPMENT.md) — Есть журнал итеративной разработки с Codex; точное использование GPT-6 Astra ожидает подтверждения автора.
+  - Ресурсы: [GitHub](https://github.com/Ryan-fm/Dwellcraft)
+  - Предпросмотр: ![Dwellcraft](https://raw.githubusercontent.com/Ryan-fm/Dwellcraft/main/docs/screenshots/editor-en.png)
 
 - **[Little Kingdom Chess / 작은 왕국 체스](https://little-kingdom-chess.echo3042.chatgpt.site/)** — Шахматы против компьютера на вращаемой 3D-доске с миниатюрными персонажами, историей и отменой ходов.
   - Автор: [에코_eco](https://x.com/echo3042)
@@ -181,6 +201,19 @@
   - Материалы: Публичный исходный код и отдельная история разработки не предоставлены.
   - Скриншот: ![Игровой экран воссоздания Dave the Diver: ныряльщик среди рыб, показатели кислорода и глубины, инвентарь улова.](assets/screenshots/dave-the-diver/gameplay.jpg)
 
+- **[No Moat](https://no-moat.petergyang.chatgpt.site/)** — Карточный рогалик о стартапах: набирайте команду и боритесь с подражателями, ошибками и счетами за облако.
+  - Автор: [Peter Yang](https://x.com/petergyang)
+  - Платформа: Настольный браузер; открыто без входа и оплаты. Мобильная версия не проверялась.
+  - GPT-6 Astra: [X](https://x.com/petergyang/status/2096297378584375672) — Автор сообщает об использовании Astra при разработке проекта. [Запись проверки (английский)](assets/screenshots/no-moat/SOURCE.md).
+  - Предпросмотр: ![No Moat](assets/screenshots/no-moat/gameplay.jpg)
+
+- **[The Free Game](https://vale-dos-vinhedos.lucas579686.chatgpt.site/)** — Стройте детализированную средневековую 3D-деревню с дорогами, работниками и производственными цепочками.
+  - Автор: [Lucas Marques, from Shiva](https://x.com/LucasMarquesSv)
+  - Платформа: Настольный браузер; открыто без входа и оплаты. Мобильная версия не проверялась.
+  - GPT-6 Astra: [X](https://x.com/LucasMarquesSv/status/2096772160404504583) — Автор сообщает об использовании Astra при разработке проекта. [Запись проверки (английский)](assets/screenshots/the-free-game/SOURCE.md).
+  - Ресурсы: [GitHub](https://github.com/LucasMarquesShiva/the-free-game)
+  - Предпросмотр: ![The Free Game](assets/screenshots/the-free-game/gameplay.jpg)
+
 <a id="rpg-adventures"></a>
 
 ### Ролевые игры и приключения
@@ -199,6 +232,18 @@
   - GPT-6 Astra: [История разработки](https://github.com/stackloomdev/silent-meridian/blob/main/docs/CREATION.md) — Итеративная работа в Codex над сюжетом, головоломками, двуязычными текстами, кодом, процедурными 3D-эффектами и тестами.
   - Ресурсы: [Исходный код и запуск](https://github.com/stackloomdev/silent-meridian) · [Происхождение графики](https://github.com/stackloomdev/silent-meridian/blob/main/docs/ART.md) · Технологии: JavaScript, WebGL, Web Audio.
   - Превью: ![Silent Meridian в игре: обсерватория с латунным 3D-механизмом, метками улик, переключением Настоящее/Эхо и журналом расследования.](assets/screenshots/silent-meridian/gameplay.png)
+
+- **[热血归来 · 八荒幻世 / Mir176 Dragon Warrior](https://mir176-dragon-warrior.geekcatxx.chatgpt.site/)** — Экшен-RPG в духе Legend: воин, маг и даос, снаряжение, подземелья и автоматический бой.
+  - Автор: [知识猫AI实验室](https://x.com/GeekCatX)
+  - Платформа: Настольный браузер; открыто без входа и оплаты. Мобильная версия не проверялась.
+  - GPT-6 Astra: [X](https://x.com/GeekCatX/status/2097530887558865115) — Автор сообщает об использовании Astra при разработке проекта. [Запись проверки (английский)](assets/screenshots/mir176/SOURCE.md).
+  - Предпросмотр: ![热血归来 · 八荒幻世 / Mir176 Dragon Warrior](assets/screenshots/mir176/gameplay.jpg)
+
+- **[Zork · The Great Underground Empire](https://zork-underground-empire.netlify.app/)** — Неофициальная 3D-адаптация Zork с исследованием от первого лица, загадками, боями и дневником.
+  - Автор: [Ethan Mollick](https://x.com/emollick)
+  - Платформа: Настольный браузер; открыто без входа и оплаты. Мобильная версия не проверялась.
+  - GPT-6 Astra: [X](https://x.com/emollick/status/2096047660662722620) — Автор сообщает об использовании Astra при разработке проекта. [Запись проверки (английский)](assets/screenshots/zork/SOURCE.md).
+  - Предпросмотр: ![Zork · The Great Underground Empire](assets/screenshots/zork/gameplay.jpg)
 
 <a id="platformers-racing"></a>
 
@@ -275,6 +320,13 @@
   - GPT-6 Astra: [Заявление автора](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/24) — По словам автора, GPT-6 Astra самостоятельно реализовал игры и выполнил тестирование по описаниям игрушек и требованиям к функциям.
   - Материалы: [Исходный код и инструкция по запуску](https://github.com/asmoyou/toy2game) · [Некоммерческая лицензия](https://github.com/asmoyou/toy2game/blob/main/LICENSE) — Исходный код доступен; некоммерческое использование бесплатно, коммерческое требует предварительного письменного разрешения автора. Технологии: TypeScript, React, Vite, Three.js.
   - Скриншот: ![Обзор Toy2Game с четырьмя реальными 3D-сценами: лёд с пингвином, ловушки для кроликов, баланс астронавтов и выезд из парковки. Изображение предоставил asmoyou.](https://raw.githubusercontent.com/asmoyou/toy2game/main/docs/images/toy2game-overview.png)
+
+- **[Jelly Baby](https://jelly.scottsun.io/)** — Физическая песочница на солнечном деревянном столе: прыгайте и растягивайте желе, играйте на качелях и батуте.
+  - Автор: [Scott](https://x.com/scottstts)
+  - Платформа: Настольный браузер; открыто без входа и оплаты. Мобильная версия не проверялась.
+  - GPT-6 Astra: [X](https://x.com/scottstts/status/2096364764054131119) — Автор сообщает об использовании Astra при разработке проекта. [Запись проверки (английский)](assets/screenshots/jelly-baby/SOURCE.md).
+  - Ресурсы: [GitHub](https://github.com/scottstts/Jelly-Baby)
+  - Предпросмотр: ![Jelly Baby](assets/screenshots/jelly-baby/gameplay.jpg)
 
 ## Что содержит запись
 
