@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 30](https://img.shields.io/badge/Cases-30-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 31](https://img.shields.io/badge/Cases-31-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Kumpulan gim menarik yang dibuat dengan GPT-6 Astra.**
 
@@ -22,7 +22,7 @@ Halaman ini merupakan terjemahan [README bahasa Inggris](README.md). Periksa ver
 
 ## Mulai di sini
 
-Jelajahi **29 gim peramban dan 1 sandbox seni partikel interaktif**: strategi wilayah Tiga Kerajaan, teka-teki kayu yang saling mengunci dan teka-teki balok geser, penggabungan buah yang lentur, penerbangan satu tombol, pertempuran karpet ajaib, pertahanan pulau dengan jaringan listrik, bertahan hidup di alam liar, menangkap ikan di bawah air, mengelola restoran sushi, dan bertani di pulau, balapan kart di Bay Circuit, bersepeda di pesisir bersama pelikan, mainan meja yang diadaptasi menjadi gim 3D, serta Orbital Garden. Klik judul untuk membuka demo atau kode sumber beserta petunjuk menjalankannya.
+Jelajahi **30 gim peramban dan 1 sandbox seni partikel interaktif**: strategi wilayah Tiga Kerajaan, teka-teki kayu yang saling mengunci dan teka-teki balok geser, penggabungan buah yang lentur, penerbangan satu tombol, pertempuran karpet ajaib, pertahanan pulau dengan jaringan listrik, bertahan hidup di alam liar, menangkap ikan di bawah air, mengelola restoran sushi, dan bertani di pulau, balapan kart di Bay Circuit, bersepeda di pesisir bersama pelikan, mainan meja yang diadaptasi menjadi gim 3D, serta Orbital Garden. Klik judul untuk membuka demo atau kode sumber beserta petunjuk menjalankannya.
 
 Katalog diperbarui: **2026-09-09**. Informasi penggunaan model berdasarkan pernyataan kreator atau pengirim; detail yang belum dikonfirmasi ditandai pada setiap entri. Tanggal ini menunjukkan pemeliharaan katalog, bukan pengujian ulang seluruh gim.
 
@@ -192,6 +192,13 @@ Permainan peran, eksplorasi, petualangan naratif, dan cerita interaktif.
   - Platform: Peramban desktop; dibuka tanpa login atau pembayaran. Seluler belum diuji.
   - GPT-6 Astra: [X](https://x.com/TheRohanVarma/status/2096744577332068549) — Kreator menyatakan menggunakan Astra dalam pengembangan proyek ini. [Catatan verifikasi (Inggris)](assets/screenshots/lumbridge/SOURCE.md).
   - Pratinjau: ![Lumbridge / Elderwood Realms — Tangkapan permainan](assets/screenshots/lumbridge/gameplay.jpg)
+
+- **[Silent Meridian / 静默子午线](https://github.com/stackloomdev/silent-meridian)** — Petualangan tunjuk-dan-klik bernuansa misterius dengan empat bab dan tiga belas teka-teki: bandingkan Masa Kini dengan Gemanya, kumpulkan bukti, dan ungkap misteri observatorium yang waktunya berhenti pada 00:17.
+  - Kreator: [stackloomdev](https://github.com/stackloomdev)
+  - Platform: Peramban komputer dan ponsel; bahasa Mandarin dan Inggris. Gratis, tanpa login atau kunci API; jalankan melalui server HTTP lokal atau hosting statis. Efek WebGL opsional, dengan ilustrasi asli sebagai pengganti jika tidak didukung.
+  - GPT-6 Astra: [Catatan pengembangan](https://github.com/stackloomdev/silent-meridian/blob/main/docs/CREATION.md) — Kolaborasi bertahap di Codex untuk cerita, teka-teki, teks dwibahasa, kode, efek 3D prosedural, dan pengujian.
+  - Sumber daya: [Kode sumber dan petunjuk menjalankan](https://github.com/stackloomdev/silent-meridian) · [Asal karya visual](https://github.com/stackloomdev/silent-meridian/blob/main/docs/ART.md) · Teknologi: JavaScript, WebGL, Web Audio.
+  - Pratinjau: ![Silent Meridian saat dimainkan: observatorium dengan mekanisme kuningan 3D, penanda petunjuk, kontrol Masa Kini/Gema, dan jurnal penyelidikan.](assets/screenshots/silent-meridian/gameplay.png)
 
 <a id="platformers-racing"></a>
 

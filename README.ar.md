@@ -6,7 +6,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 30](https://img.shields.io/badge/Cases-30-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 31](https://img.shields.io/badge/Cases-31-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **مجموعة من الألعاب الممتعة المصنوعة باستخدام GPT-6 Astra.**
 
@@ -24,7 +24,7 @@
 
 ## ابدأ من هنا
 
-استكشف **29 لعبة للمتصفح وبيئة تفاعلية واحدة لفن الجسيمات**: استراتيجية السيطرة على الأراضي في عصر الممالك الثلاث، ألغاز خشبية متشابكة وألغاز الكتل المنزلقة، دمج الفواكه المرنة، والطيران بزر واحد، والقتال على بساط سحري، والدفاع عن جزيرة بشبكة كهربائية، والبقاء في البرية، وصيد الأسماك تحت الماء وإدارة مطعم سوشي والزراعة على جزيرة، وسباقات الكارت على حلبة الخليج، وركوب الدراجة مع بجع على الساحل، وألعاب طاولة محوّلة إلى ألعاب ثلاثية الأبعاد، وOrbital Garden. انقر على اسم العمل لفتح التجربة أو الشفرة المصدرية مع تعليمات التشغيل.
+استكشف **30 لعبة للمتصفح وبيئة تفاعلية واحدة لفن الجسيمات**: استراتيجية السيطرة على الأراضي في عصر الممالك الثلاث، ألغاز خشبية متشابكة وألغاز الكتل المنزلقة، دمج الفواكه المرنة، والطيران بزر واحد، والقتال على بساط سحري، والدفاع عن جزيرة بشبكة كهربائية، والبقاء في البرية، وصيد الأسماك تحت الماء وإدارة مطعم سوشي والزراعة على جزيرة، وسباقات الكارت على حلبة الخليج، وركوب الدراجة مع بجع على الساحل، وألعاب طاولة محوّلة إلى ألعاب ثلاثية الأبعاد، وOrbital Garden. انقر على اسم العمل لفتح التجربة أو الشفرة المصدرية مع تعليمات التشغيل.
 
 تحديث القائمة: **2026-09-09**. تستند معلومات استخدام النموذج إلى تصريحات المؤلفين أو مقدّمي الأعمال؛ وتُوضّح التفاصيل غير المؤكدة في كل بند. يشير هذا التاريخ إلى تحديث القائمة، وليس إلى إعادة اختبار جميع الألعاب.
 
@@ -194,6 +194,13 @@
   - المنصة: متصفح سطح المكتب؛ فُتح دون تسجيل دخول أو دفع. لم يُختبر على الهاتف.
   - GPT-6 Astra: [X](https://x.com/TheRohanVarma/status/2096744577332068549) — يذكر المؤلف استخدام Astra في تطوير هذا المشروع. [ملاحظات التحقق (بالإنجليزية)](assets/screenshots/lumbridge/SOURCE.md).
   - معاينة: ![Lumbridge / Elderwood Realms — لقطة من اللعبة](assets/screenshots/lumbridge/gameplay.jpg)
+
+- **[Silent Meridian / 静默子午线](https://github.com/stackloomdev/silent-meridian)** — مغامرة غامضة تعتمد على التأشير والنقر، تضم أربعة فصول وثلاثة عشر لغزًا: قارن الحاضر بصداه، واجمع الأدلة، واكشف سر مرصد توقف فيه الزمن عند 00:17.
+  - المطوّر: [stackloomdev](https://github.com/stackloomdev)
+  - المنصة: متصفحات الحاسوب والهاتف؛ بالصينية والإنجليزية. مجانية، دون تسجيل دخول أو مفتاح API؛ تعمل عبر خادم HTTP محلي أو استضافة ثابتة. تأثيرات WebGL اختيارية، مع عرض الرسوم الأصلية عند غياب الدعم.
+  - GPT-6 Astra: [سجل التطوير](https://github.com/stackloomdev/silent-meridian/blob/main/docs/CREATION.md) — تعاون تكراري داخل Codex على القصة والألغاز والنصوص الثنائية اللغة والشفرة والتأثيرات ثلاثية الأبعاد المولدة برمجيًا والاختبارات.
+  - الموارد: [المصدر وتعليمات التشغيل](https://github.com/stackloomdev/silent-meridian) · [مصدر الرسوم](https://github.com/stackloomdev/silent-meridian/blob/main/docs/ART.md) · التقنيات: JavaScript, WebGL, Web Audio.
+  - معاينة: ![Silent Meridian أثناء اللعب: مرصد بآلية نحاسية ثلاثية الأبعاد وعلامات للأدلة وأزرار الحاضر والصدى ودفتر التحقيق.](assets/screenshots/silent-meridian/gameplay.png)
 
 <a id="platformers-racing"></a>
 

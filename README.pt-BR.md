@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 30](https://img.shields.io/badge/Cases-30-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 31](https://img.shields.io/badge/Cases-31-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Uma coleção de jogos interessantes feitos com GPT-6 Astra.**
 
@@ -22,7 +22,7 @@ Esta página é uma tradução do [README em inglês](README.md). Consulte o ori
 
 ## Comece por aqui
 
-Explore **29 jogos de navegador e 1 ambiente interativo de arte com partículas**: estratégia territorial dos Três Reinos, quebra-cabeças de madeira com encaixes e peças deslizantes, fusão de frutas deformáveis, voo com um toque, combates em tapete mágico, defesa de uma ilha com uma rede elétrica, sobrevivência na natureza, pesca submarina, gestão de um restaurante de sushi e cultivo em uma ilha, corridas de kart no Bay Circuit, ciclismo pela costa com um pelicano, brinquedos de mesa adaptados para 3D e Orbital Garden. Clique em um título para abrir a demonstração ou o código-fonte com instruções de execução.
+Explore **30 jogos de navegador e 1 ambiente interativo de arte com partículas**: estratégia territorial dos Três Reinos, quebra-cabeças de madeira com encaixes e peças deslizantes, fusão de frutas deformáveis, voo com um toque, combates em tapete mágico, defesa de uma ilha com uma rede elétrica, sobrevivência na natureza, pesca submarina, gestão de um restaurante de sushi e cultivo em uma ilha, corridas de kart no Bay Circuit, ciclismo pela costa com um pelicano, brinquedos de mesa adaptados para 3D e Orbital Garden. Clique em um título para abrir a demonstração ou o código-fonte com instruções de execução.
 
 Catálogo atualizado: **2026-09-09**. O uso do modelo é informado com base nas declarações dos criadores ou responsáveis pelas submissões; detalhes não confirmados são sinalizados em cada entrada. Esta data registra a manutenção do catálogo, não um novo teste de todos os jogos.
 
@@ -192,6 +192,13 @@ RPG, exploração, aventuras narrativas e histórias interativas.
   - Plataforma: Navegador de desktop; aberto sem login ou pagamento. Celular não testado.
   - GPT-6 Astra: [X](https://x.com/TheRohanVarma/status/2096744577332068549) — O autor informa ter usado Astra no desenvolvimento deste projeto. [Notas de verificação (inglês)](assets/screenshots/lumbridge/SOURCE.md).
   - Prévia: ![Lumbridge / Elderwood Realms — Captura do jogo](assets/screenshots/lumbridge/gameplay.jpg)
+
+- **[Silent Meridian / 静默子午线](https://github.com/stackloomdev/silent-meridian)** — Uma aventura atmosférica de apontar e clicar, com quatro capítulos e treze quebra-cabeças: compare o Presente com seu Eco, reúna evidências e desvende o mistério de um observatório parado às 00:17.
+  - Criador: [stackloomdev](https://github.com/stackloomdev)
+  - Plataforma: Navegadores de computador e celular; chinês e inglês. Gratuito, sem login ou chave de API; funciona em servidor HTTP local ou hospedagem estática. Efeitos WebGL opcionais, com as ilustrações originais como alternativa.
+  - GPT-6 Astra: [Registro de desenvolvimento](https://github.com/stackloomdev/silent-meridian/blob/main/docs/CREATION.md) — Trabalho iterativo no Codex na história, nos quebra-cabeças, nos textos bilíngues, no código, nos efeitos 3D procedurais e nos testes.
+  - Recursos: [Código e instruções de execução](https://github.com/stackloomdev/silent-meridian) · [Origem da arte](https://github.com/stackloomdev/silent-meridian/blob/main/docs/ART.md) · Tecnologias: JavaScript, WebGL, Web Audio.
+  - Prévia: ![Silent Meridian em execução: observatório com mecanismo 3D de latão, marcadores de pistas, controles Presente/Eco e diário de investigação.](assets/screenshots/silent-meridian/gameplay.png)
 
 <a id="platformers-racing"></a>
 
