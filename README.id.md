@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 43](https://img.shields.io/badge/Cases-43-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 42](https://img.shields.io/badge/Cases-42-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Kumpulan gim menarik yang dibuat dengan GPT-6 Astra.**
 
@@ -22,12 +22,12 @@ Halaman ini merupakan terjemahan [README bahasa Inggris](README.md). Periksa ver
 
 ## Mulai di sini
 
-Jelajahi **43 gim dan proyek interaktif**: strategi wilayah Tiga Kerajaan, teka-teki kayu yang saling mengunci dan teka-teki balok geser, penggabungan buah yang lentur, penerbangan satu tombol, pertempuran karpet ajaib, pertahanan pulau dengan jaringan listrik, bertahan hidup di alam liar, menangkap ikan di bawah air, mengelola restoran sushi, dan bertani di pulau, balapan kart di Bay Circuit, bersepeda di pesisir bersama pelikan, mainan meja yang diadaptasi menjadi gim 3D, serta Orbital Garden. Klik judul untuk membuka demo atau kode sumber beserta petunjuk menjalankannya.
+Jelajahi **42 gim dan proyek interaktif**: strategi wilayah Tiga Kerajaan, teka-teki kayu yang saling mengunci dan teka-teki balok geser, penggabungan buah yang lentur, penerbangan satu tombol, pertempuran karpet ajaib, pertahanan pulau dengan jaringan listrik, bertahan hidup di alam liar, menangkap ikan di bawah air, mengelola restoran sushi, dan bertani di pulau, balapan kart di Bay Circuit, bersepeda di pesisir bersama pelikan, mainan meja yang diadaptasi menjadi gim 3D, serta Orbital Garden. Klik judul untuk langsung bermain di peramban.
 
 Katalog diperbarui: **2026-09-09**. Informasi penggunaan model berdasarkan pernyataan kreator atau pengirim; detail yang belum dikonfirmasi ditandai pada setiap entri. Tanggal ini menunjukkan pemeliharaan katalog, bukan pengujian ulang seluruh gim.
 
 - **Mencari gim untuk dimainkan?** Jelajahi genre di bawah ini.
-- **Sudah membuat gim?** [Ajukan proyek Anda](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) dengan tautan yang dapat dimainkan atau kode sumber, tangkapan layar permainan, dan penjelasan tentang penggunaan GPT-6 Astra.
+- **Sudah membuat gim?** [Ajukan proyek Anda](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) dengan tautan langsung ke gim di peramban, tangkapan layar permainan, dan penjelasan tentang penggunaan GPT-6 Astra.
 - **Menemukan proyek yang menarik?** Rekomendasikan karya publik orang lain dengan mencantumkan kreator aslinya.
 
 Daftar ini dikelola komunitas dan tidak berafiliasi dengan OpenAI. Pencantuman merupakan ajakan untuk menjelajah, bukan tolok ukur kinerja atau rekomendasi resmi.
@@ -129,12 +129,6 @@ Teka-teki logika, tantangan fisika, permainan kata, dan mekanisme kecil yang kre
   - Keterlibatan model: [Catatan pembuatan](works/sunjing-puzzles/CREATION.md) — Pengembangan berulang melalui Codex untuk desain gim, visual 3D prosedural, aturan, pemecah teka-teki, dan pengujian; penggunaan spesifik GPT-6 Astra masih menunggu konfirmasi kreator (pengajuan draf).
   - Materi pengembangan: [Kode sumber dan petunjuk menjalankan](works/sunjing-puzzles/README.md) · [Kebutuhan](works/sunjing-puzzles/PROMPTS.md) · Teknologi: React, Vinext/Vite, Three.js.
   - Pratinjau: ![Teka-teki kayu enam bagian Sunjing di meja kerja 3D hijau dengan nomor bagian dan kontrol penarikan.](assets/screenshots/sunjing-puzzles/gameplay.jpg)
-
-- **[二凤字阵 / Erfeng Glyph Formation](https://2feng.jay6697117.deno.net/)** — Pertahanan menara dengan penyusunan aksara Mandarin, antarmuka bergaya tinta dan perkembangan karakter.
-  - Kreator: [SteveZhang / jay6697117](https://github.com/jay6697117) · [X](https://x.com/stevezh10058543)
-  - Platform: Wajib masuk dengan Google. Hanya layar masuk diperiksa; permainan didokumentasikan lewat tangkapan pembuat. Pengguna WeChat diarahkan memberi otorisasi di Chrome.
-  - GPT-6 Astra: [Issue #48](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/48) — Menurut pembuat: GPT-6 Astra menangani logika, optimasi tata letak UI dan pembuatan seni gim.
-  - Pratinjau: ![二凤字阵 / Erfeng Glyph Formation](https://github.com/user-attachments/assets/f237391f-1924-4607-b2a7-924cdab1dbc4)
 
 <a id="strategy-simulation"></a>
 
@@ -361,7 +355,7 @@ Rekomendasi yang berguna menjelaskan seperti apa gimnya, di mana mencobanya, dan
 | --- | --- |
 | Gim dan kreator | Judul gim dan tautan ke kreator atau tim aslinya |
 | Hal yang menarik | Satu kalimat tentang mekanisme utama tanpa promosi kosong |
-| Akses | Tautan yang bisa dimainkan atau repositori kode sumber publik dengan petunjuk menjalankan |
+| Akses | Tautan untuk langsung bermain di peramban tanpa unduhan, instalasi, penyiapan lokal, atau login |
 | Tangkapan layar permainan | Setidaknya satu tangkapan layar permainan asli dengan URL gambar yang dapat diakses publik |
 | Platform dan persyaratan | Peramban / desktop / seluler; jelaskan jika perlu membayar, login, atau memakai perangkat keras khusus |
 | Peran Astra | Pernyataan kreator, catatan pengembangan, atau catatan publik yang menjelaskan kontribusi GPT-6 Astra |

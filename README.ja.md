@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 43](https://img.shields.io/badge/Cases-43-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 42](https://img.shields.io/badge/Cases-42-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **GPT-6 Astra で作られた、遊んでみたくなるゲームを集めています。**
 
@@ -22,12 +22,12 @@
 
 ## はじめに
 
-現在、**43件のゲームとインタラクティブ作品**を掲載しています。三国志の領土戦略、木製の組木パズルとスライドパズル、柔らかい果物の合成、ワンボタン飛行、魔法の絨毯での戦闘、島の電力網を使うタワーディフェンス、荒野でのサバイバル、水中での魚捕り、寿司店経営と島での農作業、海湾サーキットのカートレース、ペリカンとの海岸サイクリング、卓上玩具の 3D ゲーム化、そして Orbital Garden。作品名をクリックすると、デモまたは実行手順付きのソースコードが開きます。
+現在、**42件のゲームとインタラクティブ作品**を掲載しています。三国志の領土戦略、木製の組木パズルとスライドパズル、柔らかい果物の合成、ワンボタン飛行、魔法の絨毯での戦闘、島の電力網を使うタワーディフェンス、荒野でのサバイバル、水中での魚捕り、寿司店経営と島での農作業、海湾サーキットのカートレース、ペリカンとの海岸サイクリング、卓上玩具の 3D ゲーム化、そして Orbital Garden。作品名をクリックすると、ブラウザーで直接遊べます。
 
 一覧更新日：**2026-09-09**。モデルの利用情報は作者または投稿者の説明に基づき、未確認の内容は各項目に明記しています。この日付は一覧の更新日であり、全作品を再度プレイテストした日ではありません。
 
 - **遊びたい方：** 下のジャンルから気になる作品を探してください。
-- **ゲームを作った方：** [作品を投稿](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml)し、遊べる URL またはソースコード、実際のゲーム画面のスクリーンショット、GPT-6 Astra の使い方の説明を添えてください。
+- **ゲームを作った方：** [作品を投稿](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml)し、ブラウザーで直接遊べる URL、実際のゲーム画面のスクリーンショット、GPT-6 Astra の使い方の説明を添えてください。
 - **面白い作品を見つけた方：** 他の方が公開している作品の推薦も歓迎します。元の作者を明記してください。
 
 この一覧はコミュニティが管理しており、OpenAI とは提携していません。掲載は作品を試すきっかけとしての紹介であり、性能評価や公式の推薦ではありません。
@@ -129,12 +129,6 @@
   - モデルの担当範囲: [制作記録](works/sunjing-puzzles/CREATION.md) — Codex でゲーム設計、手続き型の 3D グラフィックス、ルール、ソルバー、テストを繰り返し開発。GPT-6 Astra の具体的な利用は作者の確認待ちです（草稿としての投稿）。
   - 開発資料: [ソースコードと実行手順](works/sunjing-puzzles/README.md) · [要件の記録](works/sunjing-puzzles/PROMPTS.md) · 使用技術: React, Vinext/Vite, Three.js.
   - プレビュー: ![Sunjing の 6 部品の木製パズル。緑の 3D 作業台に、部品番号と引き抜き操作を表示しています。](assets/screenshots/sunjing-puzzles/gameplay.jpg)
-
-- **[二凤字阵 / Erfeng Glyph Formation](https://2feng.jay6697117.deno.net/)** — 漢字の組み合わせとタワーディフェンスを融合し、水墨風UIとキャラクター育成を備えます。
-  - 作者: [SteveZhang / jay6697117](https://github.com/jay6697117) · [X](https://x.com/stevezh10058543)
-  - 対応環境: Googleログイン必須。ログイン画面のみ確認し、ゲーム内容は作者の実機画像に基づきます。WeChat利用時はChromeでの認証を案内。
-  - GPT-6 Astra: [Issue #48](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/48) — 作者の説明： GPT-6 Astraがゲームロジック、UI配置の最適化、ゲームアート生成を担当。
-  - プレビュー: ![二凤字阵 / Erfeng Glyph Formation](https://github.com/user-attachments/assets/f237391f-1924-4607-b2a7-924cdab1dbc4)
 
 <a id="strategy-simulation"></a>
 
@@ -361,7 +355,7 @@
 | --- | --- |
 | ゲームと作者 | 作品名と、元の作者またはチームへのリンク |
 | 面白さのポイント | 中心となる遊びの仕組みを一文で説明。抽象的な宣伝文句は避けてください |
-| 体験方法 | 遊べる URL、または実行手順付きの公開ソースコードリポジトリ |
+| 体験方法 | ダウンロード、インストール、ローカル環境の準備、ログインなしでブラウザーから遊べる URL |
 | 実機スクリーンショット | 実際のゲーム画面を少なくとも 1 枚。誰でもアクセスできる画像 URL を添えてください |
 | 対応環境と条件 | ブラウザー / デスクトップ / モバイル。有料、ログイン、特殊なハードウェアなどの要件を明記してください |
 | Astra の担当範囲 | GPT-6 Astra が担当した作業を説明する、作者の声明、開発日誌、公開記録 |

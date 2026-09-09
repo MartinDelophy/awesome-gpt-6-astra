@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 43](https://img.shields.io/badge/Cases-43-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 42](https://img.shields.io/badge/Cases-42-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Una colección de juegos interesantes creados con GPT-6 Astra.**
 
@@ -22,12 +22,12 @@ Esta página es una traducción del [README en inglés](README.md). Consulta el 
 
 ## Empieza aquí
 
-Explora **43 juegos y proyectos interactivos**: estrategia territorial de los Tres Reinos, rompecabezas de madera entrelazada y de piezas deslizantes, fusión de frutas deformables, vuelo con un solo botón, combates en alfombra mágica, defensa de una isla mediante una red eléctrica, supervivencia en la naturaleza, pesca submarina, gestión de un restaurante de sushi y agricultura en una isla, carreras de karts en Bay Circuit, ciclismo costero con un pelícano, juguetes de mesa adaptados a 3D y Orbital Garden. Haz clic en un título para abrir su demo o el código fuente con instrucciones de ejecución.
+Explora **42 juegos y proyectos interactivos**: estrategia territorial de los Tres Reinos, rompecabezas de madera entrelazada y de piezas deslizantes, fusión de frutas deformables, vuelo con un solo botón, combates en alfombra mágica, defensa de una isla mediante una red eléctrica, supervivencia en la naturaleza, pesca submarina, gestión de un restaurante de sushi y agricultura en una isla, carreras de karts en Bay Circuit, ciclismo costero con un pelícano, juguetes de mesa adaptados a 3D y Orbital Garden. Haz clic en un título para jugar directamente en el navegador.
 
 Catálogo actualizado: **2026-09-09**. El uso del modelo se documenta según las declaraciones de los creadores o remitentes; los datos sin confirmar se señalan en cada entrada. Esta fecha corresponde al mantenimiento del catálogo, no a una nueva prueba de todos los juegos.
 
 - **¿Buscas algo para jugar?** Explora los géneros de abajo.
-- **¿Has creado un juego?** [Envía tu proyecto](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) con un enlace jugable o al código fuente, una captura del juego y una explicación de cómo utilizaste GPT-6 Astra.
+- **¿Has creado un juego?** [Envía tu proyecto](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) con un enlace directo al juego en el navegador, una captura del juego y una explicación de cómo utilizaste GPT-6 Astra.
 - **¿Has encontrado un gran proyecto?** Recomienda obras públicas de otras personas y menciona a sus creadores.
 
 Esta lista la mantiene la comunidad y no está afiliada a OpenAI. La inclusión es una invitación a explorar, no una prueba de rendimiento ni una recomendación oficial.
@@ -129,12 +129,6 @@ Acertijos de lógica, desafíos de física, juegos de palabras y pequeños mecan
   - Participación del modelo: [Registro de creación](works/sunjing-puzzles/CREATION.md) — Trabajo iterativo en Codex sobre diseño del juego, gráficos 3D procedurales, reglas, solucionador y pruebas; el uso concreto de GPT-6 Astra está pendiente de confirmación del creador (propuesta provisional).
   - Recursos: [Código fuente e instrucciones de ejecución](works/sunjing-puzzles/README.md) · [Requisitos](works/sunjing-puzzles/PROMPTS.md) · Tecnologías: React, Vinext/Vite, Three.js.
   - Vista previa: ![Rompecabezas de madera de seis piezas de Sunjing sobre un banco 3D verde, con piezas numeradas y controles de extracción.](assets/screenshots/sunjing-puzzles/gameplay.jpg)
-
-- **[二凤字阵 / Erfeng Glyph Formation](https://2feng.jay6697117.deno.net/)** — Defensa de torres basada en combinar caracteres chinos, con interfaz de tinta y progresión de personajes.
-  - Creador: [SteveZhang / jay6697117](https://github.com/jay6697117) · [X](https://x.com/stevezh10058543)
-  - Plataforma: Requiere Google. Solo se comprobó la pantalla de acceso; el juego se documenta con capturas del creador. En WeChat se indica autorizar desde Chrome.
-  - GPT-6 Astra: [Issue #48](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/48) — Según el creador: GPT-6 Astra para lógica, optimización de la interfaz y generación de arte.
-  - Vista previa: ![二凤字阵 / Erfeng Glyph Formation](https://github.com/user-attachments/assets/f237391f-1924-4607-b2a7-924cdab1dbc4)
 
 <a id="strategy-simulation"></a>
 
@@ -361,7 +355,7 @@ Una recomendación útil permite entender qué ofrece un juego, dónde probarlo 
 | --- | --- |
 | Juego y creador | El título del juego y un enlace a su creador o equipo original |
 | Qué lo hace interesante | Una frase sobre la mecánica principal, sin relleno publicitario |
-| Acceso | Un enlace jugable o un repositorio público de código fuente con instrucciones de ejecución |
+| Acceso | Un enlace para jugar en el navegador sin descargas, instalación, configuración local ni inicio de sesión |
 | Captura del juego | Al menos una captura real del juego con una URL de imagen accesible públicamente |
 | Plataforma y requisitos | Navegador / escritorio / móvil; indica si requiere pago, inicio de sesión o hardware especial |
 | Papel de Astra | Declaración del creador, diario de desarrollo o registro público que explique la contribución de GPT-6 Astra |

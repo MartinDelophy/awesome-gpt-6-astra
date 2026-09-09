@@ -1,5 +1,7 @@
 # Issue submissions checked on 2026-09-09
 
+Current status: Erfeng Glyph Formation (#48) has been removed from all catalogs because it requires Google sign-in before play. The remaining text records the original submission review; see the [direct-play cleanup](direct-play-audit-2026-09-09.md).
+
 Issues #48, #51 and #52 were submitted by jay6697117 (SteveZhang), matching the credited GitHub and X profiles. Each explicitly describes the model contribution. These are creator statements, not independent model audits.
 
 - #52 Toon Tank Arena: entered solo combat in Cream Meadow and observed score, core damage and respawn. Local co-op and 1v1/2v2 online modes are offered but were not tested.

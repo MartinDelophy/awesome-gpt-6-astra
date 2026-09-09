@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 63](https://img.shields.io/badge/Cases-63-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 58](https://img.shields.io/badge/Cases-58-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **收集用 GPT-6 Astra 制作的有趣游戏。**
 
@@ -20,14 +20,14 @@
 
 ## 从这里开始
 
-目前收录 **63 个游戏与互动作品**：三国领土策略、木锁拆解与华容道、半流体水果合成、单键飞行、魔毯战斗、五关弹幕射击、海岛电网塔防、荒野生存、水下捕鱼、寿司店经营与海岛种植、海湾卡丁车竞速、鹈鹕海岸骑行、桌面玩具的 3D 改编、3D 家居装修，以及轨道花园。点击作品名称可打开试玩或源码运行说明。
+目前收录 **58 个游戏与互动作品**：三国领土策略、木锁拆解与华容道、半流体水果合成、单键飞行、魔毯战斗、五关弹幕射击、海岛电网塔防、荒野生存、水下捕鱼、寿司店经营与海岛种植、海湾卡丁车竞速、鹈鹕海岸骑行、桌面玩具的 3D 改编、3D 家居装修，以及轨道花园。点击作品名称即可直接进入在线游戏。
 
 目录更新：**2026-09-09**。模型使用信息依据作者或投稿者的说明，未确认内容在具体条目中标注。此日期表示目录维护时间，不代表当天重新试玩了所有游戏。
 
-本次新增：[20 款在 X 上发现的游戏](docs/x-high-traffic-games-2026-09-09.md)，核验表按所观察到的帖子浏览量排序。
+本次新增：[16 款在 X 上发现的在线游戏](docs/x-high-traffic-games-2026-09-09.md)，核验表按所观察到的帖子浏览量排序。
 
 - **想玩游戏：** 从下面的分类寻找你喜欢的玩法。
-- **做了游戏：** [提交你的作品](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml)，附上试玩或源码入口、实机截图，以及使用 GPT-6 Astra 的说明。
+- **做了游戏：** [提交你的作品](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml)，附上在线游戏直达入口、实机截图，以及使用 GPT-6 Astra 的说明。
 - **发现好作品：** 欢迎推荐他人的公开作品，并注明原作者。
 
 这是一份社区维护的清单，与 OpenAI 无隶属关系。收录表示值得探索，不代表性能评测或官方推荐。
@@ -109,31 +109,18 @@
   - GPT-6 Astra: [X](https://x.com/satrio_d/status/2096022866097758500) — 作者说明 Astra 改进了已有的霹雳舞游戏及其视觉呈现。 [核验记录](assets/screenshots/breakdance/SOURCE.md).
   - 预览: ![限时霹雳舞场地中的布娃娃舞者、脚部目标与计分界面。](assets/screenshots/breakdance/gameplay.jpg)
 
-- **[Emberlight](https://pan.quark.cn/s/70894dcb80cc)** — 围绕锤击战斗、武器技能和近远程敌人展开的 3D Roguelike 原型，村庄场景带有昼夜与天气变化。
-  - 作者: [歸藏 / Guizang](https://x.com/op7418)
-  - 平台: 通过作者夸克网盘下载 Windows/macOS 版本，可能需要登录或网盘客户端；已核实两个 ZIP 文件，未运行可执行程序。
-  - GPT-6 Astra: [X](https://x.com/op7418/status/2096494840431386950) — 作者说明结合 Astra、Blender 与 Godot 制作关卡、模型、贴图、天气和战斗系统。 [核验记录](assets/screenshots/guizang-roguelike/SOURCE.md).
-  - 开发资料: [作者发布帖](https://x.com/op7418/status/2096522760520667414)
-  - 预览: ![作者实机视频中的 Emberlight 村庄、庭院入口与操作提示。](assets/screenshots/guizang-roguelike/gameplay.jpg)
-
 - **[Astral War](https://astralwar.io/)** — 二战题材浏览器 FPS，可选择士兵或僵尸外观、调整武器配置，并提供机器人训练与大厅模式。
   - 作者: [Rishi](https://x.com/0xRishi)
   - 平台: 桌面浏览器，键鼠操作；已无需登录进入机器人训练，未验证多人联机和手柄支持。
   - GPT-6 Astra: [X](https://x.com/0xRishi/status/2096079660605997264) — Rishi 说明使用 Astra、Three.js、Meshy 与 ElevenLabs 制作 Astral War；当前网站另有 Vesper 署名，详见核验记录。 [核验记录](assets/screenshots/astral-war/SOURCE.md).
   - 预览: ![Astral War 运行中的武器视角与战场操作界面。](assets/screenshots/astral-war/gameplay.jpg)
 
-- **[FLOP CLUB](https://bubucn.com/zh/ai-model-evals/flop-club)** — 从三种高度的跳台起跳，完成翻转和转体，对准漂浮圆环入水，挑战更高评分。
+- **[FLOP CLUB](https://bubucn.com/ai-model-evals/flop-club/game/index.html)** — 从三种高度的跳台起跳，完成翻转和转体，对准漂浮圆环入水，挑战更高评分。
   - 作者: [BubuAi](https://x.com/BubuStd)
-  - 平台: 浏览器，可直接游玩的嵌入式 HTML，支持键盘并提供触控操作说明；公开页面无需登录。
+  - 平台: 浏览器；独立游戏页无需登录或下载，2026-09-09 已开始跳水回合；支持键盘，说明提供触屏操作。
   - GPT-6 Astra: [X](https://x.com/BubuStd/status/2096402783805354091) — 作者说明使用 Astra Pro 与 Three.js，通过一条提示词制作。 [核验记录](assets/screenshots/flop-club/SOURCE.md).
-  - 开发资料: [独立试玩页](https://bubucn.com/ai-model-evals/flop-club/game/index.html)
+  - 开发资料: [作品介绍](https://bubucn.com/zh/ai-model-evals/flop-club)
   - 预览: ![跳水者、高台、水面目标圆环与入水操作界面。](assets/screenshots/flop-club/gameplay.jpg)
-
-- **[NEON SYNC BEAT](https://elemayu.itch.io/neon-sync-beat)** — 使用 D/F/J/K 演奏四键音轨，挑战四种难度，也可用本地 MP4 自动生成谱面。
-  - 作者: [SDAI / ELEMAYU](https://x.com/SDAI1807097011)
-  - 平台: itch.io 浏览器游戏，推荐键盘操作，也提供 HTML 构建下载；一次检查中嵌入播放器发生连接重置。
-  - GPT-6 Astra: [X](https://x.com/SDAI1807097011/status/2096396438758694933) — 作者说明这是使用 Astra 制作的音游，并介绍了个人音乐视频的导入玩法。 [核验记录](assets/screenshots/neon-sync-beat/SOURCE.md).
-  - 预览: ![NEON SYNC BEAT 的四条音轨、歌曲播放与计分界面。](assets/screenshots/neon-sync-beat/gameplay.jpg)
 
 - **[Vector Dive — Beyond the Signal](https://vector-dive.openai.chatgpt.site/)** — 驾驶飞行器穿越逐圈加速的霓虹线框赛道，利用加速与相位移动坚持更久。
   - 作者: [Thomas Ricouard](https://x.com/Dimillian)
@@ -164,12 +151,6 @@
   - 模型参与：[制作记录](works/sunjing-puzzles/CREATION.md) — 通过 Codex 多轮完成玩法、程序化 3D 画面、规则、求解器与测试；GPT-6 Astra 的具体使用归因待作者确认，本次为草稿投稿。
   - 开发资料：[源码与运行说明](works/sunjing-puzzles/README.md) · [需求记录](works/sunjing-puzzles/PROMPTS.md) · 技术：React、Vinext/Vite、Three.js。
   - 预览：![榫境实机画面：深绿色 3D 展台上的六构件木锁，旁边是木块编号与抽出操作。](assets/screenshots/sunjing-puzzles/gameplay.jpg)
-
-- **[二凤字阵 / Erfeng Glyph Formation](https://2feng.jay6697117.deno.net/)** — 将汉字拼字与塔防结合，采用水墨界面并包含角色养成。
-  - 作者: [SteveZhang / jay6697117](https://github.com/jay6697117) · [X](https://x.com/stevezh10058543)
-  - 平台: 浏览器，需 Google 登录；本次仅核对登录门槛，玩法依据作者实机截图。作者提示微信内访问时需在 Chrome 完成授权。
-  - GPT-6 Astra: [Issue #48](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/48) — 作者说明： GPT-6 Astra 完成游戏逻辑、UI 布局优化和游戏美术资产生成。
-  - 预览: ![二凤字阵 / Erfeng Glyph Formation](https://github.com/user-attachments/assets/f237391f-1924-4607-b2a7-924cdab1dbc4)
 
 ### 策略与模拟
 
@@ -314,12 +295,6 @@
   - 开发资料: [作者发布帖](https://x.com/TusharXo/status/2096741535891251261)
   - 预览: ![角色探索花草山谷，画面显示风之信收集目标。](assets/screenshots/crayon-adventure/gameplay.jpg)
 
-- **[Backrooms — Infinite Exploration](https://backrooms.exe.xyz/)** — 以第一人称探索程序生成、不断延伸的荧光灯走廊迷宫。
-  - 作者: [vogel](https://x.com/ryanvogel)
-  - 平台: 桌面浏览器；入口可打开，但本次检查遇到色彩变换资源加载错误。预览采用作者运行版本画面。
-  - GPT-6 Astra: [X](https://x.com/ryanvogel/status/2095596938502488207) — 作者明确说明程序生成的无限 Backrooms 浏览器游戏由 Astra 参与制作。 [核验记录](assets/screenshots/infinite-backrooms/SOURCE.md).
-  - 预览: ![Backrooms 运行入口中的黄色走廊迷宫。](assets/screenshots/infinite-backrooms/gameplay.jpg)
-
 - **[ALIBI — The Last Light](https://alibi-blackthorn-manor.vercel.app/)** — 在点击式谋杀谜案中调查 Blackthorn 庄园，检查场景并追踪线索，寻找凶手。
   - 作者: [Christos Antonopoulos](https://x.com/Christos_antono)
   - 平台: 浏览器；已无需登录打开可交互的庄园入口，未完整验证后续生成场景。
@@ -392,13 +367,6 @@
   - 平台: 浏览器，免费、无需登录；作者提示可能需要 VPN／代理。已验证单人启动，联机未实测。
   - GPT-6 Astra: [Issue #51](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/51) — 作者说明： 第一版使用 Qwen3.8 Max，第二版由 Astra 全面重构。
   - 预览: ![疾风赛道 / Kart Racing（跑跑卡丁车）](https://github.com/user-attachments/assets/015e0ca1-7032-4d0e-9391-ad3f40d84227)
-
-- **[SUNBREAK — Downhill Club](https://github.com/Imirushik/sunbreak-downhill-3D-game)** — 沿程序生成的 BMX 山地赛道与三名电脑车手竞速，结合特技、自行车物理和动态天气。
-  - 作者: [Irushi](https://x.com/Im_IrushiK)
-  - 平台: 下载公开源码后使用 Node.js 22.12+ 与 WebGL 2 浏览器本地运行；README 提供 npm install、npm run dev 步骤，未核实在线试玩站。
-  - GPT-6 Astra: [X](https://x.com/Im_IrushiK/status/2096280064019353891) — 作者将游戏开发归于 Astra；仓库说明使用 Three.js 程序生成几何、贴图与音频。 [核验记录](assets/screenshots/sunbreak-downhill/SOURCE.md).
-  - 开发资料: [源码与运行说明](https://github.com/Imirushik/sunbreak-downhill-3D-game)
-  - 预览: ![SUNBREAK 卡通渲染的森林下坡赛道与 BMX 车手。](assets/screenshots/sunbreak-downhill/gameplay.jpg)
 
 - **[TIDAL RUSH — Paradise GP](https://tidal-rush-paradise-gp.skirano.chatgpt.site/)** — 在热带卡丁车赛道上漂移、使用道具，经过三圈比赛与七名对手争夺名次。
   - 作者: [Pietro Schirano](https://x.com/skirano)
@@ -476,7 +444,7 @@
 | --- | --- |
 | 游戏与作者 | 作品名称、原作者或团队链接 |
 | 玩法亮点 | 一句话说明核心玩法，避免空泛宣传 |
-| 体验入口 | 试玩地址，或包含运行说明的公开源码仓库 |
+| 体验入口 | 无需下载、安装、本地搭建或强制登录的在线游戏直达入口 |
 | 实机截图 | 至少一张展示核心玩法的真实截图，附可公开访问的图片地址 |
 | 平台与条件 | 浏览器 / 桌面 / 移动端；注明付费、登录或特殊硬件要求 |
 | Astra 的参与 | 作者说明、开发日志或公开记录，说明 GPT-6 Astra 参与了哪些工作 |

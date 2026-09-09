@@ -6,13 +6,13 @@ You can submit your own game or recommend someone else's. Chinese and English su
 
 ## 什么样的作品适合收录 · What belongs here
 
-- 有可体验的试玩入口，或附有运行说明的公开源码；可玩的原型也可以。 / A playable demo or public source with setup instructions; playable prototypes count.
+- 游戏名称链接须直接打开可玩的在线游戏，无需下载、安装、本地搭建或强制登录；可玩的原型也可以。源码和开发记录可作为补充资料。 / The title must link directly to a playable browser game without downloads, installation, local setup or mandatory sign-in. Playable prototypes count; source code and devlogs are optional supporting resources.
 - 作者公开说明使用了 GPT-6 Astra，并能描述它在项目中的作用。 / A public creator statement identifies GPT-6 Astra and describes its role in the project.
 - 说明具体的玩法亮点，注明作者与访问条件。 / Explain the gameplay appeal, credit the creator, and disclose access requirements.
 
-不要求纯 AI 制作，不要求开源，也不按“用了多少 AI”排名。仅有概念图或宣传视频、没有可体验或可运行作品的项目，暂不收录。
+不要求纯 AI 制作，不要求开源，也不按“用了多少 AI”排名。只有网盘下载、安装包、源码仓库、概念图或宣传视频，以及当前无法进入游戏的项目，暂不收录。
 
-Games do not need to be entirely AI-made or open source. We do not rank them by how much AI they used. Concept art or promotional videos without a playable or runnable project are not ready for this list.
+Games do not need to be entirely AI-made or open source. We do not rank them by how much AI they used. Cloud-drive downloads, installers, source-only repositories, concept art and promotional videos do not qualify as game entry points. Games that cannot currently be entered are not ready for this list.
 
 ## 如何提交 · How to submit
 
@@ -24,14 +24,14 @@ The easiest path is the [game submission form](https://github.com/MartinDelophy/
 2. 用下面的格式写一条简短推荐，并删除该分类的空状态文字。 / Add a short entry using the format below and remove that category's empty-state text.
 3. 尽量同步默认英文版 [README.md](README.md) 和中文版 [README.zh-CN.md](README.zh-CN.md)，并更新开头的游戏数量；也欢迎同步其他译文。暂时只能提供一种语言也没关系。 / Update the default English [README.md](README.md), Chinese [README.zh-CN.md](README.zh-CN.md), and introductory game counts when possible. Updates to other translations are welcome; one language is fine for an initial submission.
 4. 新增游戏须提供至少一张实机截图，在 README 条目中添加预览图片，并在 PR 描述中展示。截图格式见下文。 / New games require at least one gameplay screenshot, embedded in the README entry and displayed in the PR description. See the requirements below.
-5. 打开链接确认能访问，并检查原作者署名与模型使用说明。 / Open the links and check creator credit and the model-use description.
+5. 打开游戏名称链接并开始游戏，确认无需下载、安装、本地搭建或登录；同时检查原作者署名与模型使用说明。 / Open the title link and start the game without downloading, installing, setting up locally or signing in; also check creator credit and the model-use description.
 
 ## 条目示例 · Entry examples
 
 中文 README（[README.zh-CN.md](README.zh-CN.md)）：
 
 ```markdown
-- **[游戏名称 / Game title](试玩或仓库 URL)** — 一句话说明核心玩法。
+- **[游戏名称 / Game title](在线游戏 URL)** — 一句话说明核心玩法。
   - 作者：[作者名称](作者 URL)
   - 平台：浏览器；免费，无需登录。
   - GPT-6 Astra：[作者说明或开发记录](记录 URL) — 简述模型参与的工作。
@@ -42,7 +42,7 @@ The easiest path is the [game submission form](https://github.com/MartinDelophy/
 Default English README ([README.md](README.md)):
 
 ```markdown
-- **[Game title](Demo or repository URL)** — One sentence about the core mechanic.
+- **[Game title](Direct browser game URL)** — One sentence about the core mechanic.
   - Creator: [Creator name](Creator URL)
   - Platform: Browser; free, no login.
   - GPT-6 Astra: [Creator statement or devlog](Record URL) — Briefly describe the model's role.

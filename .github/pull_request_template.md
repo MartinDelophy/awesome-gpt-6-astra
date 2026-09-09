@@ -6,7 +6,7 @@
 
 <!-- 新增游戏请填写真实链接；维护或规范修改可注明不适用。New games should provide real links; maintenance and policy changes can mark this section N/A. -->
 
-- 试玩或带运行说明的源码 / Demo or source with setup instructions:
+- 可直接在线玩的入口 / Direct browser game link:
 - 作者与模型参与说明 / Creator and model-use statement:
 
 ## 实机截图 / Gameplay screenshot
@@ -20,6 +20,7 @@ Also add the image to the README entry's Preview line. An attachment in this PR 
 ## 检查 / Quick check
 
 - [ ] 我已打开相关链接，并确认作者署名。 / I opened the relevant links and checked creator credit.
+- [ ] 如果新增游戏，已通过名称链接开始游戏，无需下载、安装、本地搭建或登录。 / For new games, I started the game through its title link without downloading, installing, setting up locally or signing in.
 - [ ] 如果新增游戏，已说明玩法、访问条件及 GPT-6 Astra 的参与依据。 / New games include gameplay, access requirements, and a source for GPT-6 Astra's role.
 - [ ] 如果新增游戏，README 条目和本 PR 均展示至少一张实机截图，图片可公开访问，且拍摄版本或日期已注明。 / New games show at least one publicly accessible gameplay screenshot in both the README entry and this PR, with its capture version or date noted.
 
