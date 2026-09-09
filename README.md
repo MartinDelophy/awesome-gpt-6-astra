@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 18](https://img.shields.io/badge/Cases-18-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 20](https://img.shields.io/badge/Cases-20-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **A collection of interesting games made with GPT-6 Astra.**
 
@@ -20,7 +20,7 @@ Playful ideas, games you can try, and development stories that inspire the next 
 
 ## Start here
 
-Explore **17 browser games and 1 interactive particle-art sandbox**: Three Kingdoms territory strategy, wooden interlocking and sliding puzzles, soft-body fruit merging, one-tap flight, magic-carpet combat, a five-stage bullet-hell shooter, island power-grid tower defense, wilderness survival, underwater fishing, sushi-restaurant management and island farming, Bay Circuit kart racing, coastal cycling with a pelican, tabletop toys turned into 3D games, and Orbital Garden. Click a title to open its demo or source with setup instructions.
+Explore **19 browser games and 1 interactive particle-art sandbox**: Three Kingdoms territory strategy, wooden interlocking and sliding puzzles, soft-body fruit merging, one-tap flight, magic-carpet combat, a five-stage bullet-hell shooter, island power-grid tower defense, wilderness survival, underwater fishing, sushi-restaurant management and island farming, Bay Circuit kart racing, coastal cycling with a pelican, tabletop toys turned into 3D games, and Orbital Garden. Click a title to open its demo or source with setup instructions.
 
 Catalog updated: **2026-09-09**. Model attribution is based on creator or submitter statements; unconfirmed details are marked in individual entries. This date records catalog maintenance, not a new play-test of every game.
 
@@ -70,6 +70,12 @@ Shooters, fighters, survival games, rhythm games, and anything that invites one 
   - GPT-6 Astra: GPT-6 Astra usage and contribution details await creator confirmation.
   - Preview: ![IRON BASTION / 钢铁防线 — Gameplay](assets/screenshots/iron-bastion/gameplay.jpg)
 
+- **[Stick Fighter](https://stick-fighter-production.up.railway.app/)** — A work-in-progress stick-figure fighting game with punches, kicks, uppercuts, ninja stars and parries; includes bot practice and online/friends menu options.
+  - Creator: [Dwayne](https://x.com/CtrlAltDwayne)
+  - Platform: Desktop browser, keyboard controls; bot practice works without sign-in. Online multiplayer and controller support were not independently tested.
+  - GPT-6 Astra: [X](https://x.com/CtrlAltDwayne/status/2097499157967818780) — The creator explicitly states that he built this multiplayer fighting game using GPT-6 Astra and describes it as a work in progress.
+  - Preview: ![Stick Fighter — Gameplay](assets/screenshots/stick-fighter/gameplay.jpg)
+
 ### Puzzles & brain games
 
 Logic puzzles, physics challenges, word games, and clever little mechanisms.
@@ -97,6 +103,12 @@ Logic puzzles, physics challenges, word games, and clever little mechanisms.
 ### Strategy & simulation
 
 Tower defense, strategic card games, management games, building, and simulation sandboxes.
+
+- **[Spy or Lie](https://spyorlie.com/)** — A hexagonal strategy board game against a computer opponent: place hidden agents, bluff, and surround enemy groups to trigger capture chains.
+  - Creator: [Nate Lorenzen](https://x.com/NateLorenzen)
+  - Platform: Browser, English UI; the opening human/computer turn was verified without login or payment.
+  - GPT-6 Astra: [X](https://x.com/NateLorenzen/status/2097504974683152559) — The creator says Astra turned his game design into a playable demo in one shot; this is a creator claim, not an independently audited development record.
+  - Preview: ![Spy or Lie — Gameplay](assets/screenshots/spy-or-lie/gameplay.jpg)
 
 - **[三分天下 · 百将风云 / Three Kingdoms: Hundred Heroes](https://sanguo-jiangshan.vercel.app)** — Lead Wei, Shu or Wu in a turn-based campaign across 15 cities, managing gold and grain and commanding a roster of 108 officers with individual AI-generated portraits as you compete with AI factions to unify the land.
   - Creator: [MartinDelophy](https://github.com/MartinDelophy) (project initiator and submitter).

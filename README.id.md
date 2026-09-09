@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 18](https://img.shields.io/badge/Cases-18-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 20](https://img.shields.io/badge/Cases-20-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Kumpulan gim menarik yang dibuat dengan GPT-6 Astra.**
 
@@ -22,7 +22,7 @@ Halaman ini merupakan terjemahan [README bahasa Inggris](README.md). Periksa ver
 
 ## Mulai di sini
 
-Jelajahi **17 gim peramban dan 1 sandbox seni partikel interaktif**: strategi wilayah Tiga Kerajaan, teka-teki kayu yang saling mengunci dan teka-teki balok geser, penggabungan buah yang lentur, penerbangan satu tombol, pertempuran karpet ajaib, pertahanan pulau dengan jaringan listrik, bertahan hidup di alam liar, menangkap ikan di bawah air, mengelola restoran sushi, dan bertani di pulau, balapan kart di Bay Circuit, bersepeda di pesisir bersama pelikan, mainan meja yang diadaptasi menjadi gim 3D, serta Orbital Garden. Klik judul untuk membuka demo atau kode sumber beserta petunjuk menjalankannya.
+Jelajahi **19 gim peramban dan 1 sandbox seni partikel interaktif**: strategi wilayah Tiga Kerajaan, teka-teki kayu yang saling mengunci dan teka-teki balok geser, penggabungan buah yang lentur, penerbangan satu tombol, pertempuran karpet ajaib, pertahanan pulau dengan jaringan listrik, bertahan hidup di alam liar, menangkap ikan di bawah air, mengelola restoran sushi, dan bertani di pulau, balapan kart di Bay Circuit, bersepeda di pesisir bersama pelikan, mainan meja yang diadaptasi menjadi gim 3D, serta Orbital Garden. Klik judul untuk membuka demo atau kode sumber beserta petunjuk menjalankannya.
 
 Katalog diperbarui: **2026-09-09**. Informasi penggunaan model berdasarkan pernyataan kreator atau pengirim; detail yang belum dikonfirmasi ditandai pada setiap entri. Tanggal ini menunjukkan pemeliharaan katalog, bukan pengujian ulang seluruh gim.
 
@@ -73,6 +73,12 @@ Gim tembak-menembak, pertarungan, bertahan hidup, ritme, dan apa pun yang membua
   - GPT-6 Astra: Penggunaan GPT-6 Astra dan perannya menunggu konfirmasi kreator.
   - Pratinjau: ![IRON BASTION / 钢铁防线 — Tangkapan permainan](assets/screenshots/iron-bastion/gameplay.jpg)
 
+- **[Stick Fighter](https://stick-fighter-production.up.railway.app/)** — Gim pertarungan manusia stik yang masih dikembangkan, dengan pukulan, tendangan, uppercut, bintang ninja, dan tangkisan; tersedia latihan bot serta menu daring/teman.
+  - Kreator: [Dwayne](https://x.com/CtrlAltDwayne)
+  - Platform: Peramban desktop, papan ketik; latihan bot tanpa login. Multipemain daring dan pengontrol belum diuji secara independen.
+  - GPT-6 Astra: [X](https://x.com/CtrlAltDwayne/status/2097499157967818780) — Kreator secara eksplisit menyatakan bahwa gim pertarungan multipemain ini dibuat dengan GPT-6 Astra dan masih dalam pengembangan.
+  - Pratinjau: ![Stick Fighter — Tangkapan permainan](assets/screenshots/stick-fighter/gameplay.jpg)
+
 <a id="puzzles"></a>
 
 ### Teka-teki dan asah otak
@@ -104,6 +110,12 @@ Teka-teki logika, tantangan fisika, permainan kata, dan mekanisme kecil yang kre
 ### Strategi dan simulasi
 
 Pertahanan menara, kartu strategi, pengelolaan, pembangunan, dan sandbox simulasi.
+
+- **[Spy or Lie](https://spyorlie.com/)** — Gim strategi papan heksagonal melawan komputer: tempatkan agen tersembunyi, lakukan gertakan, dan kepung kelompok musuh untuk memicu rangkaian penangkapan.
+  - Kreator: [Nate Lorenzen](https://x.com/NateLorenzen)
+  - Platform: Peramban, antarmuka Inggris; langkah pertama dan balasan komputer diverifikasi tanpa login atau pembayaran.
+  - GPT-6 Astra: [X](https://x.com/NateLorenzen/status/2097504974683152559) — Menurut kreator, Astra mengubah desain gimnya menjadi demo yang dapat dimainkan dalam satu percobaan; proses pengembangannya belum diaudit secara independen.
+  - Pratinjau: ![Spy or Lie — Tangkapan permainan](assets/screenshots/spy-or-lie/gameplay.jpg)
 
 - **[三分天下 · 百将风云 / Three Kingdoms: Hundred Heroes](https://sanguo-jiangshan.vercel.app)** — Pimpin Wei, Shu, atau Wu dalam kampanye berbasis giliran di 15 kota: kelola emas dan gandum, komandoi jajaran 108 perwira dengan potret unik buatan AI, dan bersaing dengan faksi AI untuk menyatukan negeri.
   - Kreator: [MartinDelophy](https://github.com/MartinDelophy) (penggagas proyek dan pengaju).
