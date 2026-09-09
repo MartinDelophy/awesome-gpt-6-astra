@@ -6,7 +6,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 31](https://img.shields.io/badge/Cases-31-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 39](https://img.shields.io/badge/Cases-39-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **مجموعة من الألعاب الممتعة المصنوعة باستخدام GPT-6 Astra.**
 
@@ -24,7 +24,7 @@
 
 ## ابدأ من هنا
 
-استكشف **30 لعبة للمتصفح وبيئة تفاعلية واحدة لفن الجسيمات**: استراتيجية السيطرة على الأراضي في عصر الممالك الثلاث، ألغاز خشبية متشابكة وألغاز الكتل المنزلقة، دمج الفواكه المرنة، والطيران بزر واحد، والقتال على بساط سحري، والدفاع عن جزيرة بشبكة كهربائية، والبقاء في البرية، وصيد الأسماك تحت الماء وإدارة مطعم سوشي والزراعة على جزيرة، وسباقات الكارت على حلبة الخليج، وركوب الدراجة مع بجع على الساحل، وألعاب طاولة محوّلة إلى ألعاب ثلاثية الأبعاد، وOrbital Garden. انقر على اسم العمل لفتح التجربة أو الشفرة المصدرية مع تعليمات التشغيل.
+استكشف **39 لعبة ومشروعًا تفاعليًا**: استراتيجية السيطرة على الأراضي في عصر الممالك الثلاث، ألغاز خشبية متشابكة وألغاز الكتل المنزلقة، دمج الفواكه المرنة، والطيران بزر واحد، والقتال على بساط سحري، والدفاع عن جزيرة بشبكة كهربائية، والبقاء في البرية، وصيد الأسماك تحت الماء وإدارة مطعم سوشي والزراعة على جزيرة، وسباقات الكارت على حلبة الخليج، وركوب الدراجة مع بجع على الساحل، وألعاب طاولة محوّلة إلى ألعاب ثلاثية الأبعاد، وOrbital Garden. انقر على اسم العمل لفتح التجربة أو الشفرة المصدرية مع تعليمات التشغيل.
 
 تحديث القائمة: **2026-09-09**. تستند معلومات استخدام النموذج إلى تصريحات المؤلفين أو مقدّمي الأعمال؛ وتُوضّح التفاصيل غير المؤكدة في كل بند. يشير هذا التاريخ إلى تحديث القائمة، وليس إلى إعادة اختبار جميع الألعاب.
 
@@ -93,6 +93,19 @@
   - GPT-6 Astra: [X](https://x.com/DantesClown/status/2096085439052452064) — يذكر المؤلف استخدام Astra في تطوير هذا المشروع. [ملاحظات التحقق (بالإنجليزية)](assets/screenshots/asteroids-deepfield/SOURCE.md).
   - معاينة: ![ASTEROIDS · Deepfield — لقطة من اللعبة](assets/screenshots/asteroids-deepfield/gameplay.jpg)
 
+- **[BLACKWATER · Silent Harbor](https://blackwater-roan.vercel.app/)** — تصويب تكتيكي في محطة شحن ممطرة، ببندقية مفصلة وواجهة قتالية وتسعة أعداء.
+  - المؤلف: [hiraeth](https://x.com/WoahWurdz)
+  - المنصة: متصفح سطح المكتب؛ فُتح دون تسجيل دخول أو دفع. لم يُختبر على الهاتف.
+  - GPT-6 Astra: [X](https://x.com/WoahWurdz/status/2095958882732355908) — يذكر المؤلف استخدام Astra في تطوير هذا المشروع. [ملاحظات التحقق (بالإنجليزية)](assets/screenshots/blackwater/SOURCE.md).
+  - الموارد: [GitHub](https://github.com/Hiraeth010/blackwater)
+  - معاينة: ![BLACKWATER · Silent Harbor](assets/screenshots/blackwater/gameplay.jpg)
+
+- **[Cinderfall · Fire, Shadow & Steel](https://rogue-omega.vercel.app/)** — ساحة مبارزة خيالية بأربعة أبطال وست قدرات لكل فئة، مع خصوم آليين وغرف عبر الإنترنت.
+  - المؤلف: [JUMPERZ](https://x.com/jumperz)
+  - المنصة: متصفح سطح المكتب؛ فُتح دون تسجيل دخول أو دفع. لم يُختبر على الهاتف.
+  - GPT-6 Astra: [X](https://x.com/jumperz/status/2096600055301984738) — يذكر المؤلف استخدام Astra في تطوير هذا المشروع. [ملاحظات التحقق (بالإنجليزية)](assets/screenshots/cinderfall/SOURCE.md).
+  - معاينة: ![Cinderfall · Fire, Shadow & Steel](assets/screenshots/cinderfall/gameplay.jpg)
+
 <a id="puzzles"></a>
 
 ### الألغاز والتفكير
@@ -124,6 +137,13 @@
 ### الاستراتيجية والمحاكاة
 
 الدفاع بالأبراج، وألعاب البطاقات الاستراتيجية، والإدارة والبناء، وبيئات المحاكاة الحرة.
+
+- **[Dwellcraft · 住进想象](https://dwellcraft.vercel.app/)** — أثث ثلاثة منازل ثلاثية الأبعاد، وعدّل الخامات والإضاءة ثم تجول داخلها؛ مع حفظ محلي واستيراد GLB.
+  - المؤلف: [Ryan-fm](https://github.com/Ryan-fm)
+  - المنصة: متصفح سطح مكتب يدعم WebGL؛ واجهة صينية وإنجليزية. مجاني ودون تسجيل دخول. لم يُختبر جهاز Quest فعلي.
+  - Codex: [GitHub](https://github.com/Ryan-fm/Dwellcraft/blob/main/docs/DEVELOPMENT.md) — توجد سجلات تطوير تكراري باستخدام Codex؛ نسبة العمل إلى GPT-6 Astra تحديدًا تنتظر تأكيد المؤلف.
+  - الموارد: [GitHub](https://github.com/Ryan-fm/Dwellcraft)
+  - معاينة: ![Dwellcraft](https://raw.githubusercontent.com/Ryan-fm/Dwellcraft/main/docs/screenshots/editor-en.png)
 
 - **[Little Kingdom Chess / 작은 왕국 체스](https://little-kingdom-chess.echo3042.chatgpt.site/)** — شطرنج ضد الكمبيوتر على لوحة ثلاثية الأبعاد قابلة للدوران، بشخصيات مصغرة وسجل حركات وتراجع.
   - المؤلف: [에코_eco](https://x.com/echo3042)
@@ -183,6 +203,19 @@
   - موارد التطوير: لم تُقدّم شفرة مصدرية عامة أو سجل تطوير منفصل.
   - معاينة: ![مشهد لعب من إعادة إنشاء Dave the Diver: غواص بين الأسماك، مع مؤشرات الأكسجين والعمق وحقيبة الأسماك المصطادة.](assets/screenshots/dave-the-diver/gameplay.jpg)
 
+- **[No Moat](https://no-moat.petergyang.chatgpt.site/)** — لعبة بطاقات روجلايك عن الشركات الناشئة: كوّن فريقًا وواجه المقلدين والأخطاء وفواتير السحابة.
+  - المؤلف: [Peter Yang](https://x.com/petergyang)
+  - المنصة: متصفح سطح المكتب؛ فُتح دون تسجيل دخول أو دفع. لم يُختبر على الهاتف.
+  - GPT-6 Astra: [X](https://x.com/petergyang/status/2096297378584375672) — يذكر المؤلف استخدام Astra في تطوير هذا المشروع. [ملاحظات التحقق (بالإنجليزية)](assets/screenshots/no-moat/SOURCE.md).
+  - معاينة: ![No Moat](assets/screenshots/no-moat/gameplay.jpg)
+
+- **[The Free Game](https://vale-dos-vinhedos.lucas579686.chatgpt.site/)** — ابنِ قرية من العصور الوسطى بتفاصيل ثلاثية الأبعاد، مع طرق وعمال وسلاسل إنتاج.
+  - المؤلف: [Lucas Marques, from Shiva](https://x.com/LucasMarquesSv)
+  - المنصة: متصفح سطح المكتب؛ فُتح دون تسجيل دخول أو دفع. لم يُختبر على الهاتف.
+  - GPT-6 Astra: [X](https://x.com/LucasMarquesSv/status/2096772160404504583) — يذكر المؤلف استخدام Astra في تطوير هذا المشروع. [ملاحظات التحقق (بالإنجليزية)](assets/screenshots/the-free-game/SOURCE.md).
+  - الموارد: [GitHub](https://github.com/LucasMarquesShiva/the-free-game)
+  - معاينة: ![The Free Game](assets/screenshots/the-free-game/gameplay.jpg)
+
 <a id="rpg-adventures"></a>
 
 ### تقمص الأدوار والمغامرات
@@ -201,6 +234,18 @@
   - GPT-6 Astra: [سجل التطوير](https://github.com/stackloomdev/silent-meridian/blob/main/docs/CREATION.md) — تعاون تكراري داخل Codex على القصة والألغاز والنصوص الثنائية اللغة والشفرة والتأثيرات ثلاثية الأبعاد المولدة برمجيًا والاختبارات.
   - الموارد: [المصدر وتعليمات التشغيل](https://github.com/stackloomdev/silent-meridian) · [مصدر الرسوم](https://github.com/stackloomdev/silent-meridian/blob/main/docs/ART.md) · التقنيات: JavaScript, WebGL, Web Audio.
   - معاينة: ![Silent Meridian أثناء اللعب: مرصد بآلية نحاسية ثلاثية الأبعاد وعلامات للأدلة وأزرار الحاضر والصدى ودفتر التحقيق.](assets/screenshots/silent-meridian/gameplay.png)
+
+- **[热血归来 · 八荒幻世 / Mir176 Dragon Warrior](https://mir176-dragon-warrior.geekcatxx.chatgpt.site/)** — لعبة أكشن وتقمص أدوار مستوحاة من Legend، بثلاث فئات ومعدات وزنزانات وقتال تلقائي.
+  - المؤلف: [知识猫AI实验室](https://x.com/GeekCatX)
+  - المنصة: متصفح سطح المكتب؛ فُتح دون تسجيل دخول أو دفع. لم يُختبر على الهاتف.
+  - GPT-6 Astra: [X](https://x.com/GeekCatX/status/2097530887558865115) — يذكر المؤلف استخدام Astra في تطوير هذا المشروع. [ملاحظات التحقق (بالإنجليزية)](assets/screenshots/mir176/SOURCE.md).
+  - معاينة: ![热血归来 · 八荒幻世 / Mir176 Dragon Warrior](assets/screenshots/mir176/gameplay.jpg)
+
+- **[Zork · The Great Underground Empire](https://zork-underground-empire.netlify.app/)** — اقتباس ثلاثي الأبعاد غير رسمي من Zork يجمع الاستكشاف بمنظور الشخص الأول والألغاز والقتال واليوميات.
+  - المؤلف: [Ethan Mollick](https://x.com/emollick)
+  - المنصة: متصفح سطح المكتب؛ فُتح دون تسجيل دخول أو دفع. لم يُختبر على الهاتف.
+  - GPT-6 Astra: [X](https://x.com/emollick/status/2096047660662722620) — يذكر المؤلف استخدام Astra في تطوير هذا المشروع. [ملاحظات التحقق (بالإنجليزية)](assets/screenshots/zork/SOURCE.md).
+  - معاينة: ![Zork · The Great Underground Empire](assets/screenshots/zork/gameplay.jpg)
 
 <a id="platformers-racing"></a>
 
@@ -277,6 +322,13 @@
   - GPT-6 Astra: [تصريح المبدع](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/24) — يذكر المبدع أن GPT-6 Astra نفّذ الألعاب واختبرها بصورة مستقلة انطلاقًا من أوصاف الألعاب ومتطلبات الوظائف.
   - موارد التطوير: [الشفرة المصدرية وتعليمات التشغيل](https://github.com/asmoyou/toy2game) · [ترخيص الاستخدام غير التجاري](https://github.com/asmoyou/toy2game/blob/main/LICENSE) — الشفرة متاحة للاطلاع؛ الاستخدام غير التجاري مجاني، والتجاري يتطلب موافقة خطية مسبقة من المؤلف. التقنيات: TypeScript, React, Vite, Three.js.
   - معاينة: ![نظرة عامة على Toy2Game تضم أربع لقطات فعلية ثلاثية الأبعاد: جليد البطريق، وفخاخ الأرانب، وتوازن رواد الفضاء، والخروج من موقف السيارات. الصورة من asmoyou.](https://raw.githubusercontent.com/asmoyou/toy2game/main/docs/images/toy2game-overview.png)
+
+- **[Jelly Baby](https://jelly.scottsun.io/)** — ملعب فيزيائي على طاولة مشمسة: اجعل الهلام يقفز ويتمدد ويلعب بالأرجوحة والترامبولين.
+  - المؤلف: [Scott](https://x.com/scottstts)
+  - المنصة: متصفح سطح المكتب؛ فُتح دون تسجيل دخول أو دفع. لم يُختبر على الهاتف.
+  - GPT-6 Astra: [X](https://x.com/scottstts/status/2096364764054131119) — يذكر المؤلف استخدام Astra في تطوير هذا المشروع. [ملاحظات التحقق (بالإنجليزية)](assets/screenshots/jelly-baby/SOURCE.md).
+  - الموارد: [GitHub](https://github.com/scottstts/Jelly-Baby)
+  - معاينة: ![Jelly Baby](assets/screenshots/jelly-baby/gameplay.jpg)
 
 ## ما الذي يتضمنه كل إدراج
 

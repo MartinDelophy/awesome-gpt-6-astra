@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 31](https://img.shields.io/badge/Cases-31-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 39](https://img.shields.io/badge/Cases-39-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **GPT-6 Astra로 만든 흥미로운 게임을 모았습니다.**
 
@@ -22,7 +22,7 @@
 
 ## 여기서 시작하기
 
-현재 **브라우저 게임 30개와 인터랙티브 파티클 아트 샌드박스 1개**를 소개합니다. 삼국지 영토 전략, 나무 결합 퍼즐과 슬라이딩 퍼즐, 부드러운 과일 합치기, 원버튼 비행, 마법 양탄자 전투, 섬의 전력망을 이용한 타워 디펜스, 야생 생존, 수중 낚시와 초밥집 경영 및 섬 농사, 베이 서킷 카트 레이싱, 펠리컨과 함께하는 해안 자전거 달리기, 탁상 장난감을 옮긴 3D 게임, 그리고 Orbital Garden을 만나 보세요. 작품명을 누르면 데모 또는 실행 안내가 포함된 소스 코드가 열립니다.
+현재 **게임 및 인터랙티브 작품 39개**를 소개합니다. 삼국지 영토 전략, 나무 결합 퍼즐과 슬라이딩 퍼즐, 부드러운 과일 합치기, 원버튼 비행, 마법 양탄자 전투, 섬의 전력망을 이용한 타워 디펜스, 야생 생존, 수중 낚시와 초밥집 경영 및 섬 농사, 베이 서킷 카트 레이싱, 펠리컨과 함께하는 해안 자전거 달리기, 탁상 장난감을 옮긴 3D 게임, 그리고 Orbital Garden을 만나 보세요. 작품명을 누르면 데모 또는 실행 안내가 포함된 소스 코드가 열립니다.
 
 목록 업데이트: **2026-09-09**. 모델 사용 정보는 제작자 또는 제출자의 설명을 바탕으로 하며, 미확인 내용은 각 항목에 표시합니다. 이 날짜는 목록 관리 날짜이며 모든 게임을 다시 플레이 테스트한 날짜가 아닙니다.
 
@@ -91,6 +91,19 @@
   - GPT-6 Astra: [X](https://x.com/DantesClown/status/2096085439052452064) — 제작자는 이 프로젝트 개발에 Astra를 사용했다고 밝혔습니다. [검증 기록 (영어)](assets/screenshots/asteroids-deepfield/SOURCE.md).
   - 미리보기: ![ASTEROIDS · Deepfield — 실제 게임 화면](assets/screenshots/asteroids-deepfield/gameplay.jpg)
 
+- **[BLACKWATER · Silent Harbor](https://blackwater-roan.vercel.app/)** — 비 내리는 화물 터미널에 잠입해 정교한 소총과 전투 HUD로 아홉 적과 싸우는 전술 FPS입니다.
+  - 제작자: [hiraeth](https://x.com/WoahWurdz)
+  - 플랫폼: 데스크톱 브라우저에서 로그인·결제 없이 열었습니다. 모바일은 미검증입니다.
+  - GPT-6 Astra: [X](https://x.com/WoahWurdz/status/2095958882732355908) — 제작자는 이 프로젝트 개발에 Astra를 사용했다고 밝혔습니다. [검증 기록 (영어)](assets/screenshots/blackwater/SOURCE.md).
+  - 개발 자료: [GitHub](https://github.com/Hiraeth010/blackwater)
+  - 미리보기: ![BLACKWATER · Silent Harbor](assets/screenshots/blackwater/gameplay.jpg)
+
+- **[Cinderfall · Fire, Shadow & Steel](https://rogue-omega.vercel.app/)** — 네 영웅과 직업별 여섯 기술로 싸우는 판타지 결투장입니다. AI 대전과 온라인 방을 제공합니다.
+  - 제작자: [JUMPERZ](https://x.com/jumperz)
+  - 플랫폼: 데스크톱 브라우저에서 로그인·결제 없이 열었습니다. 모바일은 미검증입니다.
+  - GPT-6 Astra: [X](https://x.com/jumperz/status/2096600055301984738) — 제작자는 이 프로젝트 개발에 Astra를 사용했다고 밝혔습니다. [검증 기록 (영어)](assets/screenshots/cinderfall/SOURCE.md).
+  - 미리보기: ![Cinderfall · Fire, Shadow & Steel](assets/screenshots/cinderfall/gameplay.jpg)
+
 <a id="puzzles"></a>
 
 ### 퍼즐 및 두뇌 게임
@@ -122,6 +135,13 @@
 ### 전략 및 시뮬레이션
 
 타워 디펜스, 전략 카드 게임, 경영, 건설, 시뮬레이션 샌드박스를 다룹니다.
+
+- **[Dwellcraft · 住进想象](https://dwellcraft.vercel.app/)** — 세 집에 가구를 놓고 재질과 조명을 조절한 뒤 1인칭으로 둘러보는 3D 인테리어 도구입니다. 로컬 저장과 GLB 가져오기를 지원합니다.
+  - 제작자: [Ryan-fm](https://github.com/Ryan-fm)
+  - 플랫폼: WebGL 데스크톱 브라우저, 중국어·영어 UI. 무료이며 로그인 불필요. Quest 실기기 미검증.
+  - Codex: [GitHub](https://github.com/Ryan-fm/Dwellcraft/blob/main/docs/DEVELOPMENT.md) — Codex 반복 개발 기록이 있으며 정확한 GPT-6 Astra 모델 사용 여부는 제작자 확인을 기다립니다.
+  - 개발 자료: [GitHub](https://github.com/Ryan-fm/Dwellcraft)
+  - 미리보기: ![Dwellcraft](https://raw.githubusercontent.com/Ryan-fm/Dwellcraft/main/docs/screenshots/editor-en.png)
 
 - **[Little Kingdom Chess / 작은 왕국 체스](https://little-kingdom-chess.echo3042.chatgpt.site/)** — 회전 가능한 3D 보드의 작은 캐릭터로 컴퓨터와 체스를 두며 기보와 되돌리기를 지원합니다.
   - 제작자: [에코_eco](https://x.com/echo3042)
@@ -181,6 +201,19 @@
   - 개발 자료: 공개 소스 코드나 별도의 개발 기록은 제공되지 않았습니다.
   - 미리보기: ![Dave the Diver 재현작의 실제 플레이 화면. 물고기 사이의 잠수부와 산소, 수심, 수확물 가방이 보입니다.](assets/screenshots/dave-the-diver/gameplay.jpg)
 
+- **[No Moat](https://no-moat.petergyang.chatgpt.site/)** — 팀을 영입하고 카드로 모방 기업, 버그, 클라우드 요금에 맞서는 창업 테마 로그라이크입니다.
+  - 제작자: [Peter Yang](https://x.com/petergyang)
+  - 플랫폼: 데스크톱 브라우저에서 로그인·결제 없이 열었습니다. 모바일은 미검증입니다.
+  - GPT-6 Astra: [X](https://x.com/petergyang/status/2096297378584375672) — 제작자는 이 프로젝트 개발에 Astra를 사용했다고 밝혔습니다. [검증 기록 (영어)](assets/screenshots/no-moat/SOURCE.md).
+  - 미리보기: ![No Moat](assets/screenshots/no-moat/gameplay.jpg)
+
+- **[The Free Game](https://vale-dos-vinhedos.lucas579686.chatgpt.site/)** — 정교한 3D 중세 마을에서 길을 놓고 일꾼을 훈련하며 생산망을 구축합니다.
+  - 제작자: [Lucas Marques, from Shiva](https://x.com/LucasMarquesSv)
+  - 플랫폼: 데스크톱 브라우저에서 로그인·결제 없이 열었습니다. 모바일은 미검증입니다.
+  - GPT-6 Astra: [X](https://x.com/LucasMarquesSv/status/2096772160404504583) — 제작자는 이 프로젝트 개발에 Astra를 사용했다고 밝혔습니다. [검증 기록 (영어)](assets/screenshots/the-free-game/SOURCE.md).
+  - 개발 자료: [GitHub](https://github.com/LucasMarquesShiva/the-free-game)
+  - 미리보기: ![The Free Game](assets/screenshots/the-free-game/gameplay.jpg)
+
 <a id="rpg-adventures"></a>
 
 ### RPG 및 어드벤처
@@ -199,6 +232,18 @@
   - GPT-6 Astra: [개발 기록](https://github.com/stackloomdev/silent-meridian/blob/main/docs/CREATION.md) — Codex에서 여러 차례 협업하며 이야기, 퍼즐, 이중 언어 문구, 코드, 절차적으로 생성한 3D 효과와 테스트에 활용.
   - 개발 자료: [소스 및 실행 방법](https://github.com/stackloomdev/silent-meridian) · [아트 제작 기록](https://github.com/stackloomdev/silent-meridian/blob/main/docs/ART.md) · 사용 기술: JavaScript, WebGL, Web Audio.
   - 미리보기: ![Silent Meridian 플레이 화면: 황동 3D 장치, 단서 표시, 현재와 메아리 전환 버튼, 조사 수첩이 보이는 관측소.](assets/screenshots/silent-meridian/gameplay.png)
+
+- **[热血归来 · 八荒幻世 / Mir176 Dragon Warrior](https://mir176-dragon-warrior.geekcatxx.chatgpt.site/)** — 전사·마법사·도사 세 직업, 장비, 던전과 자동 전투를 갖춘 전기풍 액션 RPG입니다.
+  - 제작자: [知识猫AI实验室](https://x.com/GeekCatX)
+  - 플랫폼: 데스크톱 브라우저에서 로그인·결제 없이 열었습니다. 모바일은 미검증입니다.
+  - GPT-6 Astra: [X](https://x.com/GeekCatX/status/2097530887558865115) — 제작자는 이 프로젝트 개발에 Astra를 사용했다고 밝혔습니다. [검증 기록 (영어)](assets/screenshots/mir176/SOURCE.md).
+  - 미리보기: ![热血归来 · 八荒幻世 / Mir176 Dragon Warrior](assets/screenshots/mir176/gameplay.jpg)
+
+- **[Zork · The Great Underground Empire](https://zork-underground-empire.netlify.app/)** — Zork의 비공식 3D 각색으로, 1인칭 탐험에 퍼즐, 전투, 모험 일지를 결합합니다.
+  - 제작자: [Ethan Mollick](https://x.com/emollick)
+  - 플랫폼: 데스크톱 브라우저에서 로그인·결제 없이 열었습니다. 모바일은 미검증입니다.
+  - GPT-6 Astra: [X](https://x.com/emollick/status/2096047660662722620) — 제작자는 이 프로젝트 개발에 Astra를 사용했다고 밝혔습니다. [검증 기록 (영어)](assets/screenshots/zork/SOURCE.md).
+  - 미리보기: ![Zork · The Great Underground Empire](assets/screenshots/zork/gameplay.jpg)
 
 <a id="platformers-racing"></a>
 
@@ -275,6 +320,13 @@
   - GPT-6 Astra: [제작자 설명](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/24) — 제작자는 장난감 설명과 기능 요구사항만 제공했으며, GPT-6 Astra가 게임 구현과 테스트를 자율적으로 수행했다고 밝혔습니다.
   - 개발 자료: [소스 코드 및 실행 안내](https://github.com/asmoyou/toy2game) · [비상업적 이용 라이선스](https://github.com/asmoyou/toy2game/blob/main/LICENSE) — 소스 코드를 공개하며 비상업적 이용은 무료입니다. 상업적 이용은 제작자의 사전 서면 허가가 필요합니다. 사용 기술: TypeScript, React, Vite, Three.js.
   - 미리보기: ![Toy2Game의 실제 3D 게임 화면 네 가지: 펭귄 얼음 깨기, 토끼 함정, 우주인 균형 잡기, 주차장 탈출. asmoyou 제공.](https://raw.githubusercontent.com/asmoyou/toy2game/main/docs/images/toy2game-overview.png)
+
+- **[Jelly Baby](https://jelly.scottsun.io/)** — 햇살 비치는 나무 탁자에서 젤리를 뛰게 하고 늘리며 그네와 트램펄린을 즐기는 물리 놀이터입니다.
+  - 제작자: [Scott](https://x.com/scottstts)
+  - 플랫폼: 데스크톱 브라우저에서 로그인·결제 없이 열었습니다. 모바일은 미검증입니다.
+  - GPT-6 Astra: [X](https://x.com/scottstts/status/2096364764054131119) — 제작자는 이 프로젝트 개발에 Astra를 사용했다고 밝혔습니다. [검증 기록 (영어)](assets/screenshots/jelly-baby/SOURCE.md).
+  - 개발 자료: [GitHub](https://github.com/scottstts/Jelly-Baby)
+  - 미리보기: ![Jelly Baby](assets/screenshots/jelly-baby/gameplay.jpg)
 
 ## 각 항목에 담는 정보
 
