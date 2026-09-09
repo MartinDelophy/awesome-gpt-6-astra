@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 20](https://img.shields.io/badge/Cases-20-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 30](https://img.shields.io/badge/Cases-30-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **GPT-6 Astra で作られた、遊んでみたくなるゲームを集めています。**
 
@@ -22,7 +22,7 @@
 
 ## はじめに
 
-現在、**ブラウザーゲーム 19 作品と、インタラクティブなパーティクルアートのサンドボックス 1 作品**を掲載しています。三国志の領土戦略、木製の組木パズルとスライドパズル、柔らかい果物の合成、ワンボタン飛行、魔法の絨毯での戦闘、島の電力網を使うタワーディフェンス、荒野でのサバイバル、水中での魚捕り、寿司店経営と島での農作業、海湾サーキットのカートレース、ペリカンとの海岸サイクリング、卓上玩具の 3D ゲーム化、そして Orbital Garden。作品名をクリックすると、デモまたは実行手順付きのソースコードが開きます。
+現在、**ブラウザーゲーム 29 作品と、インタラクティブなパーティクルアートのサンドボックス 1 作品**を掲載しています。三国志の領土戦略、木製の組木パズルとスライドパズル、柔らかい果物の合成、ワンボタン飛行、魔法の絨毯での戦闘、島の電力網を使うタワーディフェンス、荒野でのサバイバル、水中での魚捕り、寿司店経営と島での農作業、海湾サーキットのカートレース、ペリカンとの海岸サイクリング、卓上玩具の 3D ゲーム化、そして Orbital Garden。作品名をクリックすると、デモまたは実行手順付きのソースコードが開きます。
 
 一覧更新日：**2026-09-09**。モデルの利用情報は作者または投稿者の説明に基づき、未確認の内容は各項目に明記しています。この日付は一覧の更新日であり、全作品を再度プレイテストした日ではありません。
 
@@ -79,6 +79,18 @@
   - GPT-6 Astra: [X](https://x.com/CtrlAltDwayne/status/2097499157967818780) — 作者は GPT-6 Astra で制作した多人対戦格闘ゲームと明記し、開発中と説明しています。
   - プレビュー: ![Stick Fighter — 実際のゲーム画面](assets/screenshots/stick-fighter/gameplay.jpg)
 
+- **[Gogh Strike · Paint Clash](https://gogh-strike.surge.sh/)** — ゴッホ風の町で戦う一人称ペイントシューティング。6人の画家と専用武器で20点先取を競います。
+  - 作者: [Peter Gostev](https://x.com/petergostev)
+  - 対応環境: デスクトップブラウザー。ログイン・支払いなしで起動を確認。モバイルは未検証。
+  - GPT-6 Astra: [X](https://x.com/petergostev/status/2096015315209449578) — 作者は本作の開発に Astra を使用したと述べています。 [検証記録（英語）](assets/screenshots/gogh-strike/SOURCE.md).
+  - プレビュー: ![Gogh Strike · Paint Clash — 実際のゲーム画面](assets/screenshots/gogh-strike/gameplay.jpg)
+
+- **[ASTEROIDS · Deepfield](https://asteroids-deepfield-cockpit.dan200200.chatgpt.site/)** — 4方向カメラ、レーダー、双砲、慣性飛行を備えた小惑星シューティングのコックピット。
+  - 作者: [Eyes Wide Open](https://x.com/DantesClown)
+  - 対応環境: デスクトップブラウザー。ログイン・支払いなしで起動を確認。モバイルは未検証。
+  - GPT-6 Astra: [X](https://x.com/DantesClown/status/2096085439052452064) — 作者は本作の開発に Astra を使用したと述べています。 [検証記録（英語）](assets/screenshots/asteroids-deepfield/SOURCE.md).
+  - プレビュー: ![ASTEROIDS · Deepfield — 実際のゲーム画面](assets/screenshots/asteroids-deepfield/gameplay.jpg)
+
 <a id="puzzles"></a>
 
 ### パズル・頭脳ゲーム
@@ -110,6 +122,18 @@
 ### 戦略・シミュレーション
 
 タワーディフェンス、戦略カードゲーム、経営、建築、シミュレーションのサンドボックス。
+
+- **[Little Kingdom Chess / 작은 왕국 체스](https://little-kingdom-chess.echo3042.chatgpt.site/)** — ミニチュアの駒が並ぶ回転可能な3D盤でコンピューターとチェス。棋譜と取り消し機能付き。
+  - 作者: [에코_eco](https://x.com/echo3042)
+  - 対応環境: デスクトップブラウザー。ログイン・支払いなしで起動を確認。モバイルは未検証。
+  - GPT-6 Astra: [X](https://x.com/echo3042/status/2096123409029886250) — 作者は本作の開発に Astra を使用したと述べています。 [検証記録（英語）](assets/screenshots/little-kingdom-chess/SOURCE.md).
+  - プレビュー: ![Little Kingdom Chess / 작은 왕국 체스 — 実際のゲーム画面](assets/screenshots/little-kingdom-chess/gameplay.jpg)
+
+- **[JUNK RUN](https://junk-run.pages.dev/)** — 廃材から動力のない車を組み立て、重力で坂を下るゲーム。一人称の工房から始まります。
+  - 作者: [TheLabGuy](https://x.com/hermesailab)
+  - 対応環境: デスクトップブラウザー。ログイン・支払いなしで起動を確認。モバイルは未検証。
+  - GPT-6 Astra: [X](https://x.com/hermesailab/status/2097508053901840850) — 作者は本作の開発に Astra を使用したと述べています。 [検証記録（英語）](assets/screenshots/junk-run/SOURCE.md).
+  - プレビュー: ![JUNK RUN — 実際のゲーム画面](assets/screenshots/junk-run/gameplay.jpg)
 
 - **[Spy or Lie](https://spyorlie.com/)** — コンピューターと対戦する六角形の戦略ボードゲーム。正体を隠したエージェントを配置し、ブラフと包囲で連鎖的な捕獲を狙います。
   - 作者: [Nate Lorenzen](https://x.com/NateLorenzen)
@@ -163,13 +187,35 @@
 
 ロールプレイング、探索、物語を楽しむ冒険、インタラクティブなストーリー。
 
-*最初の作品をお待ちしています。*
+- **[Lumbridge / Elderwood Realms](https://elderwood-realms.rohannvarma.chatgpt.site/)** — 共有世界でスキル、採集、戦闘を楽しむレトロな多人数冒険。ゲストでも参加できます。
+  - 作者: [Rohan Varma](https://x.com/TheRohanVarma)
+  - 対応環境: デスクトップブラウザー。ログイン・支払いなしで起動を確認。モバイルは未検証。
+  - GPT-6 Astra: [X](https://x.com/TheRohanVarma/status/2096744577332068549) — 作者は本作の開発に Astra を使用したと述べています。 [検証記録（英語）](assets/screenshots/lumbridge/SOURCE.md).
+  - プレビュー: ![Lumbridge / Elderwood Realms — 実際のゲーム画面](assets/screenshots/lumbridge/gameplay.jpg)
 
 <a id="platformers-racing"></a>
 
 ### プラットフォーム・レース
 
 パルクール、足場を渡るアクション、レースなど、移動とルート選びが中心のゲーム。
+
+- **[STORM RACE](https://storm-race.vercel.app/)** — 部品を分解表示できるガレージ、ブースト、晴天・雨・嵐の路面を備えたミニ四駆レース。
+  - 作者: [BubuAi](https://x.com/BubuStd)
+  - 対応環境: デスクトップブラウザー。ログイン・支払いなしで起動を確認。モバイルは未検証。
+  - GPT-6 Astra: [X](https://x.com/BubuStd/status/2096587056755638553) — 作者は本作の開発に Astra を使用したと述べています。 [検証記録（英語）](assets/screenshots/storm-race/SOURCE.md).
+  - プレビュー: ![STORM RACE — 実際のゲーム画面](assets/screenshots/storm-race/gameplay.jpg)
+
+- **[FANG STARLIGHT RUN](https://fang-starlight-run.yosshy666.chatgpt.site/)** — 二段ジャンプとダッシュで3つの月夜のステージを進み、コインと星のかけらを集めるオオカミの冒険。
+  - 作者: [FANGプラス最強伝説🐺](https://x.com/FANGsaikyou)
+  - 対応環境: デスクトップブラウザー。ログイン・支払いなしで起動を確認。モバイルは未検証。
+  - GPT-6 Astra: [X](https://x.com/FANGsaikyou/status/2096192022596194588) — 作者は本作の開発に Astra を使用したと述べています。 [検証記録（英語）](assets/screenshots/fang-starlight-run/SOURCE.md).
+  - プレビュー: ![FANG STARLIGHT RUN — 実際のゲーム画面](assets/screenshots/fang-starlight-run/gameplay.jpg)
+
+- **[Blue Bajaj Rally](https://bajaj.guzo.tech/)** — エチオピア風の高地を三輪バジャージで走り、5台のAI車やタイムと競います。
+  - 作者: [Guzo Technologies](https://x.com/guzotech)
+  - 対応環境: デスクトップブラウザー。ログイン・支払いなしで起動を確認。モバイルは未検証。
+  - GPT-6 Astra: [X](https://x.com/guzotech/status/2096209787864088638) — 作者は本作の開発に Astra を使用したと述べています。 [検証記録（英語）](assets/screenshots/blue-bajaj-rally/SOURCE.md).
+  - プレビュー: ![Blue Bajaj Rally — 実際のゲーム画面](assets/screenshots/blue-bajaj-rally/gameplay.jpg)
 
 - **[APEX CLUB — Bay Kart Grand Prix](https://apex-club-racing.vercel.app)** — 海湾サーキットを 3 周するカートレース。6 種類のカートから選び、コーナーでミニターボをためて立ち上がりで加速し、個人順位や 4 対 4 のチーム得点を競います。
   - 作者: Ryan
@@ -196,6 +242,18 @@
 ### 実験的な作品・マルチプレイ
 
 新しい仕組み、オンライン対戦、協力プレイなどの体験。
+
+- **[ASTRA Arcade](https://astra-arcade.antonioleivag.chatgpt.site/)** — 山岳ラリー、スノーボード、反重力レースなど6作品を収めたブラウザーアーケード。コレクションとして1件に集計。
+  - 作者: [Antonio Leiva](https://x.com/antonioleivag)
+  - 対応環境: デスクトップブラウザー。ログイン・支払いなしで起動を確認。モバイルは未検証。
+  - GPT-6 Astra: [X](https://x.com/antonioleivag/status/2096509898481651770) — 作者は本作の開発に Astra を使用したと述べています。 [検証記録（英語）](assets/screenshots/astra-arcade/SOURCE.md).
+  - プレビュー: ![ASTRA Arcade — 実際のゲーム画面](assets/screenshots/astra-arcade/gameplay.jpg)
+
+- **[Chao Party](https://chao.party/)** — ソニックのキャラクターで庭を探索しチャオと触れ合う、非公式の多人数チャオガーデン作品。
+  - 作者: [Hank](https://x.com/h4nkdog)
+  - 対応環境: デスクトップブラウザー。ログイン・支払いなしで起動を確認。モバイルは未検証。
+  - GPT-6 Astra: [X](https://x.com/h4nkdog/status/2097308970431987857) — 作者は本作の開発に Astra を使用したと述べています。 [検証記録（英語）](assets/screenshots/chao-party/SOURCE.md).
+  - プレビュー: ![Chao Party — 実際のゲーム画面](assets/screenshots/chao-party/gameplay.jpg)
 
 - **[ORBITAL GARDEN · 轨道花园](https://orbital-garden-one.vercel.app)** — インタラクティブなパーティクルアートのサンドボックス。48,000 個の光の点を花、重力の輪、銀河へと変化させ、造形を揺らし、その瞬間をポスターとして書き出せます。
   - 作者: [jackroc](https://github.com/jackroc)

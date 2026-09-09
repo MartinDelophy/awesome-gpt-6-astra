@@ -6,7 +6,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 20](https://img.shields.io/badge/Cases-20-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 30](https://img.shields.io/badge/Cases-30-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **مجموعة من الألعاب الممتعة المصنوعة باستخدام GPT-6 Astra.**
 
@@ -24,7 +24,7 @@
 
 ## ابدأ من هنا
 
-استكشف **19 لعبة للمتصفح وبيئة تفاعلية واحدة لفن الجسيمات**: استراتيجية السيطرة على الأراضي في عصر الممالك الثلاث، ألغاز خشبية متشابكة وألغاز الكتل المنزلقة، دمج الفواكه المرنة، والطيران بزر واحد، والقتال على بساط سحري، والدفاع عن جزيرة بشبكة كهربائية، والبقاء في البرية، وصيد الأسماك تحت الماء وإدارة مطعم سوشي والزراعة على جزيرة، وسباقات الكارت على حلبة الخليج، وركوب الدراجة مع بجع على الساحل، وألعاب طاولة محوّلة إلى ألعاب ثلاثية الأبعاد، وOrbital Garden. انقر على اسم العمل لفتح التجربة أو الشفرة المصدرية مع تعليمات التشغيل.
+استكشف **29 لعبة للمتصفح وبيئة تفاعلية واحدة لفن الجسيمات**: استراتيجية السيطرة على الأراضي في عصر الممالك الثلاث، ألغاز خشبية متشابكة وألغاز الكتل المنزلقة، دمج الفواكه المرنة، والطيران بزر واحد، والقتال على بساط سحري، والدفاع عن جزيرة بشبكة كهربائية، والبقاء في البرية، وصيد الأسماك تحت الماء وإدارة مطعم سوشي والزراعة على جزيرة، وسباقات الكارت على حلبة الخليج، وركوب الدراجة مع بجع على الساحل، وألعاب طاولة محوّلة إلى ألعاب ثلاثية الأبعاد، وOrbital Garden. انقر على اسم العمل لفتح التجربة أو الشفرة المصدرية مع تعليمات التشغيل.
 
 تحديث القائمة: **2026-09-09**. تستند معلومات استخدام النموذج إلى تصريحات المؤلفين أو مقدّمي الأعمال؛ وتُوضّح التفاصيل غير المؤكدة في كل بند. يشير هذا التاريخ إلى تحديث القائمة، وليس إلى إعادة اختبار جميع الألعاب.
 
@@ -81,6 +81,18 @@
   - GPT-6 Astra: [X](https://x.com/CtrlAltDwayne/status/2097499157967818780) — يصرّح المؤلف بأنه استخدم GPT-6 Astra لإنشاء لعبة القتال الجماعية هذه وأنها لا تزال قيد التطوير.
   - معاينة: ![Stick Fighter — لقطة من اللعبة](assets/screenshots/stick-fighter/gameplay.jpg)
 
+- **[Gogh Strike · Paint Clash](https://gogh-strike.surge.sh/)** — قتال طلاء بمنظور الشخص الأول مستوحى من فان غوخ، بستة فنانين وأسلحة مميزة وهدف بلوغ 20 نقطة.
+  - المؤلف: [Peter Gostev](https://x.com/petergostev)
+  - المنصة: متصفح سطح المكتب؛ فُتح دون تسجيل دخول أو دفع. لم يُختبر على الهاتف.
+  - GPT-6 Astra: [X](https://x.com/petergostev/status/2096015315209449578) — يذكر المؤلف استخدام Astra في تطوير هذا المشروع. [ملاحظات التحقق (بالإنجليزية)](assets/screenshots/gogh-strike/SOURCE.md).
+  - معاينة: ![Gogh Strike · Paint Clash — لقطة من اللعبة](assets/screenshots/gogh-strike/gameplay.jpg)
+
+- **[ASTEROIDS · Deepfield](https://asteroids-deepfield-cockpit.dan200200.chatgpt.site/)** — قمرة قتال كويكبات بأربع كاميرات ورادار ومدفعين وطيران بالقصور الذاتي.
+  - المؤلف: [Eyes Wide Open](https://x.com/DantesClown)
+  - المنصة: متصفح سطح المكتب؛ فُتح دون تسجيل دخول أو دفع. لم يُختبر على الهاتف.
+  - GPT-6 Astra: [X](https://x.com/DantesClown/status/2096085439052452064) — يذكر المؤلف استخدام Astra في تطوير هذا المشروع. [ملاحظات التحقق (بالإنجليزية)](assets/screenshots/asteroids-deepfield/SOURCE.md).
+  - معاينة: ![ASTEROIDS · Deepfield — لقطة من اللعبة](assets/screenshots/asteroids-deepfield/gameplay.jpg)
+
 <a id="puzzles"></a>
 
 ### الألغاز والتفكير
@@ -112,6 +124,18 @@
 ### الاستراتيجية والمحاكاة
 
 الدفاع بالأبراج، وألعاب البطاقات الاستراتيجية، والإدارة والبناء، وبيئات المحاكاة الحرة.
+
+- **[Little Kingdom Chess / 작은 왕국 체스](https://little-kingdom-chess.echo3042.chatgpt.site/)** — شطرنج ضد الكمبيوتر على لوحة ثلاثية الأبعاد قابلة للدوران، بشخصيات مصغرة وسجل حركات وتراجع.
+  - المؤلف: [에코_eco](https://x.com/echo3042)
+  - المنصة: متصفح سطح المكتب؛ فُتح دون تسجيل دخول أو دفع. لم يُختبر على الهاتف.
+  - GPT-6 Astra: [X](https://x.com/echo3042/status/2096123409029886250) — يذكر المؤلف استخدام Astra في تطوير هذا المشروع. [ملاحظات التحقق (بالإنجليزية)](assets/screenshots/little-kingdom-chess/SOURCE.md).
+  - معاينة: ![Little Kingdom Chess / 작은 왕국 체스 — لقطة من اللعبة](assets/screenshots/little-kingdom-chess/gameplay.jpg)
+
+- **[JUNK RUN](https://junk-run.pages.dev/)** — ركّب مركبة بلا محرك من الخردة ثم انحدر بها مستعينًا بالجاذبية؛ البداية في ورشة بمنظور الشخص الأول.
+  - المؤلف: [TheLabGuy](https://x.com/hermesailab)
+  - المنصة: متصفح سطح المكتب؛ فُتح دون تسجيل دخول أو دفع. لم يُختبر على الهاتف.
+  - GPT-6 Astra: [X](https://x.com/hermesailab/status/2097508053901840850) — يذكر المؤلف استخدام Astra في تطوير هذا المشروع. [ملاحظات التحقق (بالإنجليزية)](assets/screenshots/junk-run/SOURCE.md).
+  - معاينة: ![JUNK RUN — لقطة من اللعبة](assets/screenshots/junk-run/gameplay.jpg)
 
 - **[Spy or Lie](https://spyorlie.com/)** — لعبة استراتيجية على لوحة سداسية ضد الكمبيوتر: ضع عملاء بهويات مخفية وخادع خصمك وحاصر مجموعاته لتنفيذ سلسلة من الاستحواذات.
   - المؤلف: [Nate Lorenzen](https://x.com/NateLorenzen)
@@ -165,13 +189,35 @@
 
 تقمص الأدوار والاستكشاف والمغامرات السردية والقصص التفاعلية.
 
-*بانتظار اللعبة الأولى.*
+- **[Lumbridge / Elderwood Realms](https://elderwood-realms.rohannvarma.chatgpt.site/)** — مغامرة جماعية بطابع كلاسيكي، مع عالم مشترك ومهارات وجمع موارد وقتال وإمكانية الدخول كضيف.
+  - المؤلف: [Rohan Varma](https://x.com/TheRohanVarma)
+  - المنصة: متصفح سطح المكتب؛ فُتح دون تسجيل دخول أو دفع. لم يُختبر على الهاتف.
+  - GPT-6 Astra: [X](https://x.com/TheRohanVarma/status/2096744577332068549) — يذكر المؤلف استخدام Astra في تطوير هذا المشروع. [ملاحظات التحقق (بالإنجليزية)](assets/screenshots/lumbridge/SOURCE.md).
+  - معاينة: ![Lumbridge / Elderwood Realms — لقطة من اللعبة](assets/screenshots/lumbridge/gameplay.jpg)
 
 <a id="platformers-racing"></a>
 
 ### المنصات والسباقات
 
 الباركور وتحديات المنصات والسباقات والألعاب التي تتمحور حول الحركة واختيار المسارات.
+
+- **[STORM RACE](https://storm-race.vercel.app/)** — سباقات سيارات دفع رباعي مصغرة مع عرض تفكيكي للقطع وتعزيز السرعة ومسارات جافة وممطرة وعاصفة.
+  - المؤلف: [BubuAi](https://x.com/BubuStd)
+  - المنصة: متصفح سطح المكتب؛ فُتح دون تسجيل دخول أو دفع. لم يُختبر على الهاتف.
+  - GPT-6 Astra: [X](https://x.com/BubuStd/status/2096587056755638553) — يذكر المؤلف استخدام Astra في تطوير هذا المشروع. [ملاحظات التحقق (بالإنجليزية)](assets/screenshots/storm-race/SOURCE.md).
+  - معاينة: ![STORM RACE — لقطة من اللعبة](assets/screenshots/storm-race/gameplay.jpg)
+
+- **[FANG STARLIGHT RUN](https://fang-starlight-run.yosshy666.chatgpt.site/)** — قد ذئبًا عبر ثلاث مراحل مضاءة بالقمر واجمع العملات وشظايا النجوم بالقفز المزدوج والاندفاع.
+  - المؤلف: [FANGプラス最強伝説🐺](https://x.com/FANGsaikyou)
+  - المنصة: متصفح سطح المكتب؛ فُتح دون تسجيل دخول أو دفع. لم يُختبر على الهاتف.
+  - GPT-6 Astra: [X](https://x.com/FANGsaikyou/status/2096192022596194588) — يذكر المؤلف استخدام Astra في تطوير هذا المشروع. [ملاحظات التحقق (بالإنجليزية)](assets/screenshots/fang-starlight-run/SOURCE.md).
+  - معاينة: ![FANG STARLIGHT RUN — لقطة من اللعبة](assets/screenshots/fang-starlight-run/gameplay.jpg)
+
+- **[Blue Bajaj Rally](https://bajaj.guzo.tech/)** — قد باجاج بثلاث عجلات على مضمار مستوحى من مرتفعات إثيوبيا ضد خمسة منافسين آليين أو الزمن.
+  - المؤلف: [Guzo Technologies](https://x.com/guzotech)
+  - المنصة: متصفح سطح المكتب؛ فُتح دون تسجيل دخول أو دفع. لم يُختبر على الهاتف.
+  - GPT-6 Astra: [X](https://x.com/guzotech/status/2096209787864088638) — يذكر المؤلف استخدام Astra في تطوير هذا المشروع. [ملاحظات التحقق (بالإنجليزية)](assets/screenshots/blue-bajaj-rally/SOURCE.md).
+  - معاينة: ![Blue Bajaj Rally — لقطة من اللعبة](assets/screenshots/blue-bajaj-rally/gameplay.jpg)
 
 - **[APEX CLUB — Bay Kart Grand Prix](https://apex-club-racing.vercel.app)** — تسابق لثلاث لفات على حلبة الخليج، واختر من بين ست سيارات كارت، واشحن دفعات التوربو الصغيرة للخروج من المنعطفات لتحسين ترتيبك الفردي أو جمع النقاط لفريق في سباق 4 ضد 4.
   - المبدع: Ryan
@@ -198,6 +244,18 @@
 ### الألعاب التجريبية ومتعددة اللاعبين
 
 آليات غير مألوفة ومنافسات عبر الإنترنت وتجارب تعاونية.
+
+- **[ASTRA Arcade](https://astra-arcade.antonioleivag.chatgpt.site/)** — ست ألعاب متصفح تشمل رالي الجبال والتزلج وسباق الجاذبية المضادة؛ تُحسب المجموعة كإدخال واحد.
+  - المؤلف: [Antonio Leiva](https://x.com/antonioleivag)
+  - المنصة: متصفح سطح المكتب؛ فُتح دون تسجيل دخول أو دفع. لم يُختبر على الهاتف.
+  - GPT-6 Astra: [X](https://x.com/antonioleivag/status/2096509898481651770) — يذكر المؤلف استخدام Astra في تطوير هذا المشروع. [ملاحظات التحقق (بالإنجليزية)](assets/screenshots/astra-arcade/SOURCE.md).
+  - معاينة: ![ASTRA Arcade — لقطة من اللعبة](assets/screenshots/astra-arcade/gameplay.jpg)
+
+- **[Chao Party](https://chao.party/)** — لعبة معجبين جماعية غير رسمية لـ Chao Garden: اختر شخصية Sonic واستكشف الحديقة وتفاعل مع Chao.
+  - المؤلف: [Hank](https://x.com/h4nkdog)
+  - المنصة: متصفح سطح المكتب؛ فُتح دون تسجيل دخول أو دفع. لم يُختبر على الهاتف.
+  - GPT-6 Astra: [X](https://x.com/h4nkdog/status/2097308970431987857) — يذكر المؤلف استخدام Astra في تطوير هذا المشروع. [ملاحظات التحقق (بالإنجليزية)](assets/screenshots/chao-party/SOURCE.md).
+  - معاينة: ![Chao Party — لقطة من اللعبة](assets/screenshots/chao-party/gameplay.jpg)
 
 - **[ORBITAL GARDEN · 轨道花园](https://orbital-garden-one.vercel.app)** — بيئة تفاعلية لفن الجسيمات: حوّل 48,000 نقطة ضوئية بين زهرة وحلقة جاذبية ومجرة، وحرّك التشكيل، وصدّر لحظة منه على هيئة ملصق.
   - المبدع: [jackroc](https://github.com/jackroc)

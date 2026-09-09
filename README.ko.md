@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 20](https://img.shields.io/badge/Cases-20-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 30](https://img.shields.io/badge/Cases-30-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **GPT-6 Astra로 만든 흥미로운 게임을 모았습니다.**
 
@@ -22,7 +22,7 @@
 
 ## 여기서 시작하기
 
-현재 **브라우저 게임 19개와 인터랙티브 파티클 아트 샌드박스 1개**를 소개합니다. 삼국지 영토 전략, 나무 결합 퍼즐과 슬라이딩 퍼즐, 부드러운 과일 합치기, 원버튼 비행, 마법 양탄자 전투, 섬의 전력망을 이용한 타워 디펜스, 야생 생존, 수중 낚시와 초밥집 경영 및 섬 농사, 베이 서킷 카트 레이싱, 펠리컨과 함께하는 해안 자전거 달리기, 탁상 장난감을 옮긴 3D 게임, 그리고 Orbital Garden을 만나 보세요. 작품명을 누르면 데모 또는 실행 안내가 포함된 소스 코드가 열립니다.
+현재 **브라우저 게임 29개와 인터랙티브 파티클 아트 샌드박스 1개**를 소개합니다. 삼국지 영토 전략, 나무 결합 퍼즐과 슬라이딩 퍼즐, 부드러운 과일 합치기, 원버튼 비행, 마법 양탄자 전투, 섬의 전력망을 이용한 타워 디펜스, 야생 생존, 수중 낚시와 초밥집 경영 및 섬 농사, 베이 서킷 카트 레이싱, 펠리컨과 함께하는 해안 자전거 달리기, 탁상 장난감을 옮긴 3D 게임, 그리고 Orbital Garden을 만나 보세요. 작품명을 누르면 데모 또는 실행 안내가 포함된 소스 코드가 열립니다.
 
 목록 업데이트: **2026-09-09**. 모델 사용 정보는 제작자 또는 제출자의 설명을 바탕으로 하며, 미확인 내용은 각 항목에 표시합니다. 이 날짜는 목록 관리 날짜이며 모든 게임을 다시 플레이 테스트한 날짜가 아닙니다.
 
@@ -79,6 +79,18 @@
   - GPT-6 Astra: [X](https://x.com/CtrlAltDwayne/status/2097499157967818780) — 제작자는 GPT-6 Astra로 만든 멀티플레이어 격투 게임이며 아직 개발 중이라고 명시했습니다.
   - 미리보기: ![Stick Fighter — 실제 게임 화면](assets/screenshots/stick-fighter/gameplay.jpg)
 
+- **[Gogh Strike · Paint Clash](https://gogh-strike.surge.sh/)** — 반 고흐풍 마을에서 여섯 화가와 전용 무기로 20점을 먼저 얻는 1인칭 페인트 슈팅입니다.
+  - 제작자: [Peter Gostev](https://x.com/petergostev)
+  - 플랫폼: 데스크톱 브라우저에서 로그인·결제 없이 열었습니다. 모바일은 미검증입니다.
+  - GPT-6 Astra: [X](https://x.com/petergostev/status/2096015315209449578) — 제작자는 이 프로젝트 개발에 Astra를 사용했다고 밝혔습니다. [검증 기록 (영어)](assets/screenshots/gogh-strike/SOURCE.md).
+  - 미리보기: ![Gogh Strike · Paint Clash — 실제 게임 화면](assets/screenshots/gogh-strike/gameplay.jpg)
+
+- **[ASTEROIDS · Deepfield](https://asteroids-deepfield-cockpit.dan200200.chatgpt.site/)** — 네 방향 카메라, 레이더, 쌍포와 관성 비행을 갖춘 소행성 슈팅 조종석입니다.
+  - 제작자: [Eyes Wide Open](https://x.com/DantesClown)
+  - 플랫폼: 데스크톱 브라우저에서 로그인·결제 없이 열었습니다. 모바일은 미검증입니다.
+  - GPT-6 Astra: [X](https://x.com/DantesClown/status/2096085439052452064) — 제작자는 이 프로젝트 개발에 Astra를 사용했다고 밝혔습니다. [검증 기록 (영어)](assets/screenshots/asteroids-deepfield/SOURCE.md).
+  - 미리보기: ![ASTEROIDS · Deepfield — 실제 게임 화면](assets/screenshots/asteroids-deepfield/gameplay.jpg)
+
 <a id="puzzles"></a>
 
 ### 퍼즐 및 두뇌 게임
@@ -110,6 +122,18 @@
 ### 전략 및 시뮬레이션
 
 타워 디펜스, 전략 카드 게임, 경영, 건설, 시뮬레이션 샌드박스를 다룹니다.
+
+- **[Little Kingdom Chess / 작은 왕국 체스](https://little-kingdom-chess.echo3042.chatgpt.site/)** — 회전 가능한 3D 보드의 작은 캐릭터로 컴퓨터와 체스를 두며 기보와 되돌리기를 지원합니다.
+  - 제작자: [에코_eco](https://x.com/echo3042)
+  - 플랫폼: 데스크톱 브라우저에서 로그인·결제 없이 열었습니다. 모바일은 미검증입니다.
+  - GPT-6 Astra: [X](https://x.com/echo3042/status/2096123409029886250) — 제작자는 이 프로젝트 개발에 Astra를 사용했다고 밝혔습니다. [검증 기록 (영어)](assets/screenshots/little-kingdom-chess/SOURCE.md).
+  - 미리보기: ![Little Kingdom Chess / 작은 왕국 체스 — 실제 게임 화면](assets/screenshots/little-kingdom-chess/gameplay.jpg)
+
+- **[JUNK RUN](https://junk-run.pages.dev/)** — 폐품으로 무동력 차량을 조립하고 중력으로 언덕을 내려갑니다. 1인칭 작업장에서 시작합니다.
+  - 제작자: [TheLabGuy](https://x.com/hermesailab)
+  - 플랫폼: 데스크톱 브라우저에서 로그인·결제 없이 열었습니다. 모바일은 미검증입니다.
+  - GPT-6 Astra: [X](https://x.com/hermesailab/status/2097508053901840850) — 제작자는 이 프로젝트 개발에 Astra를 사용했다고 밝혔습니다. [검증 기록 (영어)](assets/screenshots/junk-run/SOURCE.md).
+  - 미리보기: ![JUNK RUN — 실제 게임 화면](assets/screenshots/junk-run/gameplay.jpg)
 
 - **[Spy or Lie](https://spyorlie.com/)** — 컴퓨터와 대결하는 육각형 전략 보드게임입니다. 정체를 숨긴 요원을 배치하고 허세와 포위로 연쇄 점령을 노립니다.
   - 제작자: [Nate Lorenzen](https://x.com/NateLorenzen)
@@ -163,13 +187,35 @@
 
 롤플레잉, 탐험, 서사 중심의 모험, 인터랙티브 스토리를 다룹니다.
 
-*첫 번째 게임을 기다리고 있습니다.*
+- **[Lumbridge / Elderwood Realms](https://elderwood-realms.rohannvarma.chatgpt.site/)** — 공유 세계에서 기술, 채집, 전투를 즐기는 고전풍 멀티플레이어 모험으로 게스트 입장이 가능합니다.
+  - 제작자: [Rohan Varma](https://x.com/TheRohanVarma)
+  - 플랫폼: 데스크톱 브라우저에서 로그인·결제 없이 열었습니다. 모바일은 미검증입니다.
+  - GPT-6 Astra: [X](https://x.com/TheRohanVarma/status/2096744577332068549) — 제작자는 이 프로젝트 개발에 Astra를 사용했다고 밝혔습니다. [검증 기록 (영어)](assets/screenshots/lumbridge/SOURCE.md).
+  - 미리보기: ![Lumbridge / Elderwood Realms — 실제 게임 화면](assets/screenshots/lumbridge/gameplay.jpg)
 
 <a id="platformers-racing"></a>
 
 ### 플랫포머 및 레이싱
 
 파쿠르, 플랫폼 도전, 레이싱 등 이동과 경로 선택이 중심인 게임들입니다.
+
+- **[STORM RACE](https://storm-race.vercel.app/)** — 부품 분해 보기 차고, 부스트, 맑음·비·폭풍 노면을 갖춘 미니 사륜구동 레이싱입니다.
+  - 제작자: [BubuAi](https://x.com/BubuStd)
+  - 플랫폼: 데스크톱 브라우저에서 로그인·결제 없이 열었습니다. 모바일은 미검증입니다.
+  - GPT-6 Astra: [X](https://x.com/BubuStd/status/2096587056755638553) — 제작자는 이 프로젝트 개발에 Astra를 사용했다고 밝혔습니다. [검증 기록 (영어)](assets/screenshots/storm-race/SOURCE.md).
+  - 미리보기: ![STORM RACE — 실제 게임 화면](assets/screenshots/storm-race/gameplay.jpg)
+
+- **[FANG STARLIGHT RUN](https://fang-starlight-run.yosshy666.chatgpt.site/)** — 늑대가 이단 점프와 대시로 달빛 속 세 스테이지를 지나 코인과 별 조각을 모읍니다.
+  - 제작자: [FANGプラス最強伝説🐺](https://x.com/FANGsaikyou)
+  - 플랫폼: 데스크톱 브라우저에서 로그인·결제 없이 열었습니다. 모바일은 미검증입니다.
+  - GPT-6 Astra: [X](https://x.com/FANGsaikyou/status/2096192022596194588) — 제작자는 이 프로젝트 개발에 Astra를 사용했다고 밝혔습니다. [검증 기록 (영어)](assets/screenshots/fang-starlight-run/SOURCE.md).
+  - 미리보기: ![FANG STARLIGHT RUN — 실제 게임 화면](assets/screenshots/fang-starlight-run/gameplay.jpg)
+
+- **[Blue Bajaj Rally](https://bajaj.guzo.tech/)** — 에티오피아풍 고원 코스를 삼륜 바자지로 달리며 AI 다섯 대 또는 기록과 경쟁합니다.
+  - 제작자: [Guzo Technologies](https://x.com/guzotech)
+  - 플랫폼: 데스크톱 브라우저에서 로그인·결제 없이 열었습니다. 모바일은 미검증입니다.
+  - GPT-6 Astra: [X](https://x.com/guzotech/status/2096209787864088638) — 제작자는 이 프로젝트 개발에 Astra를 사용했다고 밝혔습니다. [검증 기록 (영어)](assets/screenshots/blue-bajaj-rally/SOURCE.md).
+  - 미리보기: ![Blue Bajaj Rally — 실제 게임 화면](assets/screenshots/blue-bajaj-rally/gameplay.jpg)
 
 - **[APEX CLUB — Bay Kart Grand Prix](https://apex-club-racing.vercel.app)** — 베이 서킷에서 3랩 카트 레이스를 펼칩니다. 6종의 카트 중 하나를 고르고 코너에서 미니 터보를 충전해 탈출할 때 가속하며, 개인 순위나 4 대 4 팀 점수를 겨룹니다.
   - 제작자: Ryan
@@ -196,6 +242,18 @@
 ### 실험적 게임 및 멀티플레이
 
 독특한 게임 방식, 온라인 경쟁, 협동 플레이를 다룹니다.
+
+- **[ASTRA Arcade](https://astra-arcade.antonioleivag.chatgpt.site/)** — 산악 랠리, 스노보드, 반중력 레이싱 등 여섯 브라우저 게임을 담은 아케이드로 하나의 모음으로 집계합니다.
+  - 제작자: [Antonio Leiva](https://x.com/antonioleivag)
+  - 플랫폼: 데스크톱 브라우저에서 로그인·결제 없이 열었습니다. 모바일은 미검증입니다.
+  - GPT-6 Astra: [X](https://x.com/antonioleivag/status/2096509898481651770) — 제작자는 이 프로젝트 개발에 Astra를 사용했다고 밝혔습니다. [검증 기록 (영어)](assets/screenshots/astra-arcade/SOURCE.md).
+  - 미리보기: ![ASTRA Arcade — 실제 게임 화면](assets/screenshots/astra-arcade/gameplay.jpg)
+
+- **[Chao Party](https://chao.party/)** — 소닉 캐릭터를 골라 정원을 탐험하고 차오와 교감하는 비공식 멀티플레이어 팬 게임입니다.
+  - 제작자: [Hank](https://x.com/h4nkdog)
+  - 플랫폼: 데스크톱 브라우저에서 로그인·결제 없이 열었습니다. 모바일은 미검증입니다.
+  - GPT-6 Astra: [X](https://x.com/h4nkdog/status/2097308970431987857) — 제작자는 이 프로젝트 개발에 Astra를 사용했다고 밝혔습니다. [검증 기록 (영어)](assets/screenshots/chao-party/SOURCE.md).
+  - 미리보기: ![Chao Party — 실제 게임 화면](assets/screenshots/chao-party/gameplay.jpg)
 
 - **[ORBITAL GARDEN · 轨道花园](https://orbital-garden-one.vercel.app)** — 인터랙티브 파티클 아트 샌드박스입니다. 48,000개의 빛 입자를 꽃, 중력 고리, 은하로 바꾸고 조형물을 흔들며 한순간을 포스터로 내보낼 수 있습니다.
   - 제작자: [jackroc](https://github.com/jackroc)

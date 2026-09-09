@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 20](https://img.shields.io/badge/Cases-20-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 30](https://img.shields.io/badge/Cases-30-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Подборка интересных игр, созданных с помощью GPT-6 Astra.**
 
@@ -22,7 +22,7 @@
 
 ## С чего начать
 
-Здесь собраны **19 браузерных игр и 1 интерактивная художественная песочница с частицами**: территориальная стратегия эпохи Троецарствия, деревянные головоломки со сцепленными деталями и сдвижными блоками, объединение мягких фруктов, полёт одной кнопкой, сражения на ковре-самолёте, защита острова с помощью электросети, выживание в дикой природе, подводная охота, управление суши-рестораном и фермерство на острове, гонки на картах по Bay Circuit, велопрогулка с пеликаном вдоль берега, настольные игрушки в 3D и Orbital Garden. Нажмите на название, чтобы открыть демоверсию или исходный код с инструкцией по запуску.
+Здесь собраны **29 браузерных игр и 1 интерактивная художественная песочница с частицами**: территориальная стратегия эпохи Троецарствия, деревянные головоломки со сцепленными деталями и сдвижными блоками, объединение мягких фруктов, полёт одной кнопкой, сражения на ковре-самолёте, защита острова с помощью электросети, выживание в дикой природе, подводная охота, управление суши-рестораном и фермерство на острове, гонки на картах по Bay Circuit, велопрогулка с пеликаном вдоль берега, настольные игрушки в 3D и Orbital Garden. Нажмите на название, чтобы открыть демоверсию или исходный код с инструкцией по запуску.
 
 Каталог обновлён: **2026-09-09**. Сведения об использовании модели основаны на заявлениях авторов или отправителей; неподтверждённые данные отмечены в соответствующих записях. Эта дата означает обновление каталога, а не повторное игровое тестирование всех проектов.
 
@@ -79,6 +79,18 @@
   - GPT-6 Astra: [X](https://x.com/CtrlAltDwayne/status/2097499157967818780) — Автор прямо сообщает об использовании GPT-6 Astra для этого многопользовательского файтинга и отмечает, что разработка продолжается.
   - Предпросмотр: ![Stick Fighter — Игровой скриншот](assets/screenshots/stick-fighter/gameplay.jpg)
 
+- **[Gogh Strike · Paint Clash](https://gogh-strike.surge.sh/)** — Красочный FPS в духе Ван Гога: шесть художников, особое оружие и матч до 20 очков.
+  - Автор: [Peter Gostev](https://x.com/petergostev)
+  - Платформа: Настольный браузер; открыто без входа и оплаты. Мобильная версия не проверялась.
+  - GPT-6 Astra: [X](https://x.com/petergostev/status/2096015315209449578) — Автор сообщает об использовании Astra при разработке проекта. [Запись проверки (английский)](assets/screenshots/gogh-strike/SOURCE.md).
+  - Предпросмотр: ![Gogh Strike · Paint Clash — Игровой скриншот](assets/screenshots/gogh-strike/gameplay.jpg)
+
+- **[ASTEROIDS · Deepfield](https://asteroids-deepfield-cockpit.dan200200.chatgpt.site/)** — Кабина в стиле Asteroids с четырьмя камерами, радаром, парными пушками и инерционным полётом.
+  - Автор: [Eyes Wide Open](https://x.com/DantesClown)
+  - Платформа: Настольный браузер; открыто без входа и оплаты. Мобильная версия не проверялась.
+  - GPT-6 Astra: [X](https://x.com/DantesClown/status/2096085439052452064) — Автор сообщает об использовании Astra при разработке проекта. [Запись проверки (английский)](assets/screenshots/asteroids-deepfield/SOURCE.md).
+  - Предпросмотр: ![ASTEROIDS · Deepfield — Игровой скриншот](assets/screenshots/asteroids-deepfield/gameplay.jpg)
+
 <a id="puzzles"></a>
 
 ### Головоломки и логические игры
@@ -110,6 +122,18 @@
 ### Стратегии и симуляторы
 
 Защита башнями, стратегические карточные игры, управление, строительство и симуляторы-песочницы.
+
+- **[Little Kingdom Chess / 작은 왕국 체스](https://little-kingdom-chess.echo3042.chatgpt.site/)** — Шахматы против компьютера на вращаемой 3D-доске с миниатюрными персонажами, историей и отменой ходов.
+  - Автор: [에코_eco](https://x.com/echo3042)
+  - Платформа: Настольный браузер; открыто без входа и оплаты. Мобильная версия не проверялась.
+  - GPT-6 Astra: [X](https://x.com/echo3042/status/2096123409029886250) — Автор сообщает об использовании Astra при разработке проекта. [Запись проверки (английский)](assets/screenshots/little-kingdom-chess/SOURCE.md).
+  - Предпросмотр: ![Little Kingdom Chess / 작은 왕국 체스 — Игровой скриншот](assets/screenshots/little-kingdom-chess/gameplay.jpg)
+
+- **[JUNK RUN](https://junk-run.pages.dev/)** — Соберите безмоторную машину из хлама и спуститесь с горы; игра начинается в мастерской от первого лица.
+  - Автор: [TheLabGuy](https://x.com/hermesailab)
+  - Платформа: Настольный браузер; открыто без входа и оплаты. Мобильная версия не проверялась.
+  - GPT-6 Astra: [X](https://x.com/hermesailab/status/2097508053901840850) — Автор сообщает об использовании Astra при разработке проекта. [Запись проверки (английский)](assets/screenshots/junk-run/SOURCE.md).
+  - Предпросмотр: ![JUNK RUN — Игровой скриншот](assets/screenshots/junk-run/gameplay.jpg)
 
 - **[Spy or Lie](https://spyorlie.com/)** — Стратегическая игра на шестиугольном поле против компьютера: размещайте тайных агентов, блефуйте и окружайте вражеские группы для цепных захватов.
   - Автор: [Nate Lorenzen](https://x.com/NateLorenzen)
@@ -163,13 +187,35 @@
 
 Ролевые игры, исследование мира, сюжетные приключения и интерактивные истории.
 
-*Ждём первую игру.*
+- **[Lumbridge / Elderwood Realms](https://elderwood-realms.rohannvarma.chatgpt.site/)** — Ретро-приключение с общей многопользовательской картой, навыками, сбором ресурсов и боями; доступен гостевой вход.
+  - Автор: [Rohan Varma](https://x.com/TheRohanVarma)
+  - Платформа: Настольный браузер; открыто без входа и оплаты. Мобильная версия не проверялась.
+  - GPT-6 Astra: [X](https://x.com/TheRohanVarma/status/2096744577332068549) — Автор сообщает об использовании Astra при разработке проекта. [Запись проверки (английский)](assets/screenshots/lumbridge/SOURCE.md).
+  - Предпросмотр: ![Lumbridge / Elderwood Realms — Игровой скриншот](assets/screenshots/lumbridge/gameplay.jpg)
 
 <a id="platformers-racing"></a>
 
 ### Платформеры и гонки
 
 Паркур, испытания с платформами, гонки и игры, построенные вокруг движения и выбора маршрута.
+
+- **[STORM RACE](https://storm-race.vercel.app/)** — Гонки мини-4WD с разборным видом деталей в гараже, ускорением и сухой, дождливой и штормовой трассой.
+  - Автор: [BubuAi](https://x.com/BubuStd)
+  - Платформа: Настольный браузер; открыто без входа и оплаты. Мобильная версия не проверялась.
+  - GPT-6 Astra: [X](https://x.com/BubuStd/status/2096587056755638553) — Автор сообщает об использовании Astra при разработке проекта. [Запись проверки (английский)](assets/screenshots/storm-race/SOURCE.md).
+  - Предпросмотр: ![STORM RACE — Игровой скриншот](assets/screenshots/storm-race/gameplay.jpg)
+
+- **[FANG STARLIGHT RUN](https://fang-starlight-run.yosshy666.chatgpt.site/)** — Волк проходит три лунных уровня, собирая монеты и осколки звёзд с помощью двойного прыжка и рывка.
+  - Автор: [FANGプラス最強伝説🐺](https://x.com/FANGsaikyou)
+  - Платформа: Настольный браузер; открыто без входа и оплаты. Мобильная версия не проверялась.
+  - GPT-6 Astra: [X](https://x.com/FANGsaikyou/status/2096192022596194588) — Автор сообщает об использовании Astra при разработке проекта. [Запись проверки (английский)](assets/screenshots/fang-starlight-run/SOURCE.md).
+  - Предпросмотр: ![FANG STARLIGHT RUN — Игровой скриншот](assets/screenshots/fang-starlight-run/gameplay.jpg)
+
+- **[Blue Bajaj Rally](https://bajaj.guzo.tech/)** — Трёхколёсный Bajaj на трассе в духе эфиопского нагорья: пять соперников с ИИ или гонка на время.
+  - Автор: [Guzo Technologies](https://x.com/guzotech)
+  - Платформа: Настольный браузер; открыто без входа и оплаты. Мобильная версия не проверялась.
+  - GPT-6 Astra: [X](https://x.com/guzotech/status/2096209787864088638) — Автор сообщает об использовании Astra при разработке проекта. [Запись проверки (английский)](assets/screenshots/blue-bajaj-rally/SOURCE.md).
+  - Предпросмотр: ![Blue Bajaj Rally — Игровой скриншот](assets/screenshots/blue-bajaj-rally/gameplay.jpg)
 
 - **[APEX CLUB — Bay Kart Grand Prix](https://apex-club-racing.vercel.app)** — Проедьте три круга по Bay Circuit, выберите один из шести картов и заряжайте мини-турбо для выхода из поворотов, чтобы подняться в личном зачёте или набрать очки для команды в формате 4 на 4.
   - Автор: Ryan
@@ -196,6 +242,18 @@
 ### Экспериментальные и многопользовательские игры
 
 Необычные механики, сетевые соревнования и совместное прохождение.
+
+- **[ASTRA Arcade](https://astra-arcade.antonioleivag.chatgpt.site/)** — Шесть браузерных игр, включая горное ралли, сноуборд и антигравитационные гонки; коллекция считается одной записью.
+  - Автор: [Antonio Leiva](https://x.com/antonioleivag)
+  - Платформа: Настольный браузер; открыто без входа и оплаты. Мобильная версия не проверялась.
+  - GPT-6 Astra: [X](https://x.com/antonioleivag/status/2096509898481651770) — Автор сообщает об использовании Astra при разработке проекта. [Запись проверки (английский)](assets/screenshots/astra-arcade/SOURCE.md).
+  - Предпросмотр: ![ASTRA Arcade — Игровой скриншот](assets/screenshots/astra-arcade/gameplay.jpg)
+
+- **[Chao Party](https://chao.party/)** — Неофициальная многопользовательская фан-игра Chao Garden: выберите героя Sonic и взаимодействуйте с чао в саду.
+  - Автор: [Hank](https://x.com/h4nkdog)
+  - Платформа: Настольный браузер; открыто без входа и оплаты. Мобильная версия не проверялась.
+  - GPT-6 Astra: [X](https://x.com/h4nkdog/status/2097308970431987857) — Автор сообщает об использовании Astra при разработке проекта. [Запись проверки (английский)](assets/screenshots/chao-party/SOURCE.md).
+  - Предпросмотр: ![Chao Party — Игровой скриншот](assets/screenshots/chao-party/gameplay.jpg)
 
 - **[ORBITAL GARDEN · 轨道花园](https://orbital-garden-one.vercel.app)** — Интерактивная художественная песочница с частицами: превращайте 48 000 светящихся точек в цветок, гравитационное кольцо или галактику, воздействуйте на скульптуру и сохраняйте выбранный момент как постер.
   - Автор: [jackroc](https://github.com/jackroc)
