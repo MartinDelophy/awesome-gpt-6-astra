@@ -193,9 +193,9 @@ RPG, exploração, aventuras narrativas e histórias interativas.
   - GPT-6 Astra: [X](https://x.com/TheRohanVarma/status/2096744577332068549) — O autor informa ter usado Astra no desenvolvimento deste projeto. [Notas de verificação (inglês)](assets/screenshots/lumbridge/SOURCE.md).
   - Prévia: ![Lumbridge / Elderwood Realms — Captura do jogo](assets/screenshots/lumbridge/gameplay.jpg)
 
-- **[Silent Meridian / 静默子午线](https://github.com/stackloomdev/silent-meridian)** — Uma aventura atmosférica de apontar e clicar, com quatro capítulos e treze quebra-cabeças: compare o Presente com seu Eco, reúna evidências e desvende o mistério de um observatório parado às 00:17.
+- **[Silent Meridian / 静默子午线](https://silent-meridian.stackloom.org/)** — Uma aventura atmosférica de apontar e clicar, com quatro capítulos e treze quebra-cabeças: compare o Presente com seu Eco, reúna evidências e desvende o mistério de um observatório parado às 00:17.
   - Criador: [stackloomdev](https://github.com/stackloomdev)
-  - Plataforma: Navegadores de computador e celular; chinês e inglês. Gratuito, sem login ou chave de API; funciona em servidor HTTP local ou hospedagem estática. Efeitos WebGL opcionais, com as ilustrações originais como alternativa.
+  - Plataforma: Navegadores de computador e celular; chinês e inglês. Jogue gratuitamente online, sem login, instalação ou chave de API. Efeitos WebGL opcionais, com as ilustrações originais como alternativa.
   - GPT-6 Astra: [Registro de desenvolvimento](https://github.com/stackloomdev/silent-meridian/blob/main/docs/CREATION.md) — Trabalho iterativo no Codex na história, nos quebra-cabeças, nos textos bilíngues, no código, nos efeitos 3D procedurais e nos testes.
   - Recursos: [Código e instruções de execução](https://github.com/stackloomdev/silent-meridian) · [Origem da arte](https://github.com/stackloomdev/silent-meridian/blob/main/docs/ART.md) · Tecnologias: JavaScript, WebGL, Web Audio.
   - Prévia: ![Silent Meridian em execução: observatório com mecanismo 3D de latão, marcadores de pistas, controles Presente/Eco e diário de investigação.](assets/screenshots/silent-meridian/gameplay.png)

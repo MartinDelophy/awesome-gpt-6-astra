@@ -193,9 +193,9 @@ Juegos de rol, exploración, aventuras narrativas e historias interactivas.
   - GPT-6 Astra: [X](https://x.com/TheRohanVarma/status/2096744577332068549) — El autor indica que utilizó Astra para desarrollar este proyecto. [Notas de verificación (inglés)](assets/screenshots/lumbridge/SOURCE.md).
   - Vista previa: ![Lumbridge / Elderwood Realms — Captura del juego](assets/screenshots/lumbridge/gameplay.jpg)
 
-- **[Silent Meridian / 静默子午线](https://github.com/stackloomdev/silent-meridian)** — Una aventura atmosférica de apuntar y hacer clic, con cuatro capítulos y trece puzles: compara el Presente con su Eco, reúne pruebas y desvela el misterio de un observatorio detenido a las 00:17.
+- **[Silent Meridian / 静默子午线](https://silent-meridian.stackloom.org/)** — Una aventura atmosférica de apuntar y hacer clic, con cuatro capítulos y trece puzles: compara el Presente con su Eco, reúne pruebas y desvela el misterio de un observatorio detenido a las 00:17.
   - Creador: [stackloomdev](https://github.com/stackloomdev)
-  - Plataforma: Navegadores de escritorio y móviles; chino e inglés. Gratis, sin iniciar sesión ni clave API; funciona con un servidor HTTP local o alojamiento estático. Efectos WebGL opcionales, con las ilustraciones originales como alternativa.
+  - Plataforma: Navegadores de escritorio y móviles; chino e inglés. Juega gratis en línea, sin iniciar sesión, instalar nada ni usar una clave API. Efectos WebGL opcionales, con las ilustraciones originales como alternativa.
   - GPT-6 Astra: [Registro de desarrollo](https://github.com/stackloomdev/silent-meridian/blob/main/docs/CREATION.md) — Trabajo iterativo en Codex sobre la historia, los puzles, los textos bilingües, el código, los efectos 3D procedurales y las pruebas.
   - Recursos: [Código y puesta en marcha](https://github.com/stackloomdev/silent-meridian) · [Procedencia del arte](https://github.com/stackloomdev/silent-meridian/blob/main/docs/ART.md) · Tecnologías: JavaScript, WebGL, Web Audio.
   - Vista previa: ![Silent Meridian en juego: observatorio con un mecanismo 3D de latón, marcadores de pistas, controles Presente/Eco y un diario de investigación.](assets/screenshots/silent-meridian/gameplay.png)

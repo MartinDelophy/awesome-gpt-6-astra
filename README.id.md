@@ -193,9 +193,9 @@ Permainan peran, eksplorasi, petualangan naratif, dan cerita interaktif.
   - GPT-6 Astra: [X](https://x.com/TheRohanVarma/status/2096744577332068549) — Kreator menyatakan menggunakan Astra dalam pengembangan proyek ini. [Catatan verifikasi (Inggris)](assets/screenshots/lumbridge/SOURCE.md).
   - Pratinjau: ![Lumbridge / Elderwood Realms — Tangkapan permainan](assets/screenshots/lumbridge/gameplay.jpg)
 
-- **[Silent Meridian / 静默子午线](https://github.com/stackloomdev/silent-meridian)** — Petualangan tunjuk-dan-klik bernuansa misterius dengan empat bab dan tiga belas teka-teki: bandingkan Masa Kini dengan Gemanya, kumpulkan bukti, dan ungkap misteri observatorium yang waktunya berhenti pada 00:17.
+- **[Silent Meridian / 静默子午线](https://silent-meridian.stackloom.org/)** — Petualangan tunjuk-dan-klik bernuansa misterius dengan empat bab dan tiga belas teka-teki: bandingkan Masa Kini dengan Gemanya, kumpulkan bukti, dan ungkap misteri observatorium yang waktunya berhenti pada 00:17.
   - Kreator: [stackloomdev](https://github.com/stackloomdev)
-  - Platform: Peramban komputer dan ponsel; bahasa Mandarin dan Inggris. Gratis, tanpa login atau kunci API; jalankan melalui server HTTP lokal atau hosting statis. Efek WebGL opsional, dengan ilustrasi asli sebagai pengganti jika tidak didukung.
+  - Platform: Peramban komputer dan ponsel; bahasa Mandarin dan Inggris. Mainkan langsung secara daring dan gratis, tanpa login, instalasi, atau kunci API. Efek WebGL opsional, dengan ilustrasi asli sebagai pengganti jika tidak didukung.
   - GPT-6 Astra: [Catatan pengembangan](https://github.com/stackloomdev/silent-meridian/blob/main/docs/CREATION.md) — Kolaborasi bertahap di Codex untuk cerita, teka-teki, teks dwibahasa, kode, efek 3D prosedural, dan pengujian.
   - Sumber daya: [Kode sumber dan petunjuk menjalankan](https://github.com/stackloomdev/silent-meridian) · [Asal karya visual](https://github.com/stackloomdev/silent-meridian/blob/main/docs/ART.md) · Teknologi: JavaScript, WebGL, Web Audio.
   - Pratinjau: ![Silent Meridian saat dimainkan: observatorium dengan mekanisme kuningan 3D, penanda petunjuk, kontrol Masa Kini/Gema, dan jurnal penyelidikan.](assets/screenshots/silent-meridian/gameplay.png)

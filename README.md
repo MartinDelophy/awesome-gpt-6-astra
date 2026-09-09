@@ -191,9 +191,9 @@ Role-playing, exploration, narrative adventures, and interactive stories.
   - GPT-6 Astra: [X](https://x.com/TheRohanVarma/status/2096744577332068549) — The creator reports using Astra to develop this project. [Verification notes (English)](assets/screenshots/lumbridge/SOURCE.md).
   - Preview: ![Lumbridge / Elderwood Realms — Gameplay](assets/screenshots/lumbridge/gameplay.jpg)
 
-- **[Silent Meridian / 静默子午线](https://github.com/stackloomdev/silent-meridian)** — An atmospheric point-and-click adventure with four chapters and thirteen puzzles: compare the Present with its Echo, gather evidence and unravel the mystery of an observatory trapped at 00:17.
+- **[Silent Meridian / 静默子午线](https://silent-meridian.stackloom.org/)** — An atmospheric point-and-click adventure with four chapters and thirteen puzzles: compare the Present with its Echo, gather evidence and unravel the mystery of an observatory trapped at 00:17.
   - Creator: [stackloomdev](https://github.com/stackloomdev)
-  - Platform: Desktop and mobile browsers; Chinese and English. Free, no login or API key; run from a local HTTP server or static host. Optional WebGL effects fall back to the original illustrations.
+  - Platform: Desktop and mobile browsers; Chinese and English. Play online for free, with no login, installation or API key. Optional WebGL effects fall back to the original illustrations.
   - GPT-6 Astra: [Development record](https://github.com/stackloomdev/silent-meridian/blob/main/docs/CREATION.md) — Iterative work in Codex on story, puzzles, bilingual text, code, procedural 3D effects and tests.
   - Resources: [Source and setup](https://github.com/stackloomdev/silent-meridian) · [Art provenance](https://github.com/stackloomdev/silent-meridian/blob/main/docs/ART.md) · Built with: JavaScript, WebGL, Web Audio.
   - Preview: ![Silent Meridian in action: the observatory with a brass 3D mechanism, clue markers, Present/Echo controls and a field journal.](assets/screenshots/silent-meridian/gameplay.png)

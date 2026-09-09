@@ -193,9 +193,9 @@
   - GPT-6 Astra: [X](https://x.com/TheRohanVarma/status/2096744577332068549) — लेखक ने इस परियोजना के विकास में Astra के उपयोग की जानकारी दी है। [जाँच विवरण (अंग्रेज़ी)](assets/screenshots/lumbridge/SOURCE.md).
   - पूर्वावलोकन: ![Lumbridge / Elderwood Realms — गेम का स्क्रीनशॉट](assets/screenshots/lumbridge/gameplay.jpg)
 
-- **[Silent Meridian / 静默子午线](https://github.com/stackloomdev/silent-meridian)** — चार अध्यायों और तेरह पहेलियों वाला रहस्यमय पॉइंट-एंड-क्लिक रोमांच: वर्तमान और उसकी प्रतिध्वनि के सुरागों की तुलना करें, सबूत जुटाएँ और 00:17 पर ठहरी वेधशाला का रहस्य सुलझाएँ।
+- **[Silent Meridian / 静默子午线](https://silent-meridian.stackloom.org/)** — चार अध्यायों और तेरह पहेलियों वाला रहस्यमय पॉइंट-एंड-क्लिक रोमांच: वर्तमान और उसकी प्रतिध्वनि के सुरागों की तुलना करें, सबूत जुटाएँ और 00:17 पर ठहरी वेधशाला का रहस्य सुलझाएँ।
   - रचनाकार: [stackloomdev](https://github.com/stackloomdev)
-  - प्लैटफ़ॉर्म: डेस्कटॉप और मोबाइल ब्राउज़र; चीनी और अंग्रेज़ी। मुफ़्त, लॉगिन या API कुंजी की ज़रूरत नहीं; स्थानीय HTTP सर्वर या स्थिर होस्टिंग से चलाएँ। WebGL प्रभाव वैकल्पिक हैं; समर्थन न होने पर मूल चित्र दिखाई देते हैं।
+  - प्लैटफ़ॉर्म: डेस्कटॉप और मोबाइल ब्राउज़र; चीनी और अंग्रेज़ी। मुफ़्त में सीधे ऑनलाइन खेलें; लॉगिन, इंस्टॉलेशन या API कुंजी की ज़रूरत नहीं। WebGL प्रभाव वैकल्पिक हैं; समर्थन न होने पर मूल चित्र दिखाई देते हैं।
   - GPT-6 Astra: [विकास विवरण](https://github.com/stackloomdev/silent-meridian/blob/main/docs/CREATION.md) — Codex में कई चरणों के सहयोग से कहानी, पहेलियाँ, द्विभाषी पाठ, कोड, प्रोग्राम द्वारा बनाए गए 3D प्रभाव और परीक्षण तैयार किए गए।
   - संसाधन: [स्रोत और चलाने के निर्देश](https://github.com/stackloomdev/silent-meridian) · [चित्रों का स्रोत](https://github.com/stackloomdev/silent-meridian/blob/main/docs/ART.md) · तकनीक: JavaScript, WebGL, Web Audio.
   - झलक: ![Silent Meridian का वास्तविक खेल दृश्य: पीतल का 3D यंत्र, सुरागों के निशान, वर्तमान और प्रतिध्वनि के नियंत्रण तथा जाँच की डायरी वाली वेधशाला।](assets/screenshots/silent-meridian/gameplay.png)
