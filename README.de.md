@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 30](https://img.shields.io/badge/Cases-30-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 31](https://img.shields.io/badge/Cases-31-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Eine Sammlung interessanter Spiele, die mit GPT-6 Astra entwickelt wurden.**
 
@@ -22,7 +22,7 @@ Diese Seite übersetzt die [englische README](README.md). Aktuelle Änderungen l
 
 ## Hier anfangen
 
-Entdecke **29 Browserspiele und 1 interaktiven Sandkasten für Partikelkunst**: Gebietsstrategie zur Zeit der Drei Reiche, Holz-Steckpuzzles und Schiebepuzzles lösen, weiche Früchte verschmelzen, mit einer Taste fliegen, auf einem fliegenden Teppich kämpfen, eine Insel mit einem Stromnetz verteidigen, in der Wildnis überleben, unter Wasser fischen, ein Sushi-Restaurant betreiben und eine Insel bewirtschaften, Kartrennen auf Bay Circuit, eine Küstenradtour mit einem Pelikan, Tischspielzeug als 3D-Spiele und Orbital Garden. Ein Klick auf einen Titel öffnet die Demo oder den Quellcode mit Startanleitung.
+Entdecke **30 Browserspiele und 1 interaktiven Sandkasten für Partikelkunst**: Gebietsstrategie zur Zeit der Drei Reiche, Holz-Steckpuzzles und Schiebepuzzles lösen, weiche Früchte verschmelzen, mit einer Taste fliegen, auf einem fliegenden Teppich kämpfen, eine Insel mit einem Stromnetz verteidigen, in der Wildnis überleben, unter Wasser fischen, ein Sushi-Restaurant betreiben und eine Insel bewirtschaften, Kartrennen auf Bay Circuit, eine Küstenradtour mit einem Pelikan, Tischspielzeug als 3D-Spiele und Orbital Garden. Ein Klick auf einen Titel öffnet die Demo oder den Quellcode mit Startanleitung.
 
 Katalog aktualisiert: **2026-09-09**. Angaben zur Modellnutzung beruhen auf Aussagen der Ersteller oder Einreichenden; unbestätigte Details sind im jeweiligen Eintrag markiert. Das Datum bezeichnet die Katalogpflege, keinen erneuten Spieltest aller Spiele.
 
@@ -192,6 +192,13 @@ Rollenspiele, Erkundung, erzählerische Abenteuer und interaktive Geschichten.
   - Plattform: Desktopbrowser; ohne Anmeldung oder Zahlung geöffnet. Mobil nicht getestet.
   - GPT-6 Astra: [X](https://x.com/TheRohanVarma/status/2096744577332068549) — Der Entwickler nennt Astra als Werkzeug für die Entwicklung dieses Projekts. [Prüfnotizen (Englisch)](assets/screenshots/lumbridge/SOURCE.md).
   - Vorschau: ![Lumbridge / Elderwood Realms — Spielaufnahme](assets/screenshots/lumbridge/gameplay.jpg)
+
+- **[Silent Meridian / 静默子午线](https://github.com/stackloomdev/silent-meridian)** — Ein atmosphärisches Point-and-Click-Abenteuer mit vier Kapiteln und dreizehn Rätseln: Hinweise aus Gegenwart und Echo vergleichen, Beweise sammeln und das Geheimnis einer um 00:17 erstarrten Sternwarte aufdecken.
+  - Ersteller: [stackloomdev](https://github.com/stackloomdev)
+  - Plattform: Desktop- und Mobilbrowser; Chinesisch und Englisch. Kostenlos, ohne Anmeldung oder API-Schlüssel; läuft auf einem lokalen HTTP-Server oder statischen Hosting. Optionale WebGL-Effekte, bei fehlender Unterstützung bleiben die Originalillustrationen sichtbar.
+  - GPT-6 Astra: [Entwicklungsbericht](https://github.com/stackloomdev/silent-meridian/blob/main/docs/CREATION.md) — Iterative Zusammenarbeit in Codex an Geschichte, Rätseln, zweisprachigen Texten, Code, prozeduralen 3D-Effekten und Tests.
+  - Ressourcen: [Quellcode und Startanleitung](https://github.com/stackloomdev/silent-meridian) · [Herkunft der Grafiken](https://github.com/stackloomdev/silent-meridian/blob/main/docs/ART.md) · Technik: JavaScript, WebGL, Web Audio.
+  - Vorschau: ![Silent Meridian im Spiel: Sternwarte mit einem 3D-Messingmechanismus, Hinweismarkierungen, Gegenwart/Echo-Umschaltung und Ermittlungsjournal.](assets/screenshots/silent-meridian/gameplay.png)
 
 <a id="platformers-racing"></a>
 

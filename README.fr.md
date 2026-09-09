@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 30](https://img.shields.io/badge/Cases-30-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 31](https://img.shields.io/badge/Cases-31-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Une sélection de jeux intéressants créés avec GPT-6 Astra.**
 
@@ -22,7 +22,7 @@ Cette page traduit le [README anglais](README.md). Consultez l’original pour v
 
 ## Pour commencer
 
-Découvrez **29 jeux pour navigateur et 1 bac à sable interactif d’art à particules** : stratégie territoriale des Trois Royaumes, puzzles en bois à emboîtement et à glissement, fusion de fruits déformables, vol à une touche, combats sur tapis volant, défense d’île par un réseau électrique, survie en pleine nature, pêche sous-marine, gestion d’un restaurant de sushis et agriculture insulaire, course de karts sur Bay Circuit, balade côtière à vélo avec un pélican, jouets de table adaptés en 3D et Orbital Garden. Cliquez sur un titre pour ouvrir la démo ou le code source avec ses instructions de lancement.
+Découvrez **30 jeux pour navigateur et 1 bac à sable interactif d’art à particules** : stratégie territoriale des Trois Royaumes, puzzles en bois à emboîtement et à glissement, fusion de fruits déformables, vol à une touche, combats sur tapis volant, défense d’île par un réseau électrique, survie en pleine nature, pêche sous-marine, gestion d’un restaurant de sushis et agriculture insulaire, course de karts sur Bay Circuit, balade côtière à vélo avec un pélican, jouets de table adaptés en 3D et Orbital Garden. Cliquez sur un titre pour ouvrir la démo ou le code source avec ses instructions de lancement.
 
 Mise à jour du catalogue : **2026-09-09**. L’utilisation du modèle est renseignée d’après les déclarations des créateurs ou des contributeurs ; les points non confirmés sont signalés dans chaque fiche. Cette date correspond à la maintenance du catalogue, pas à un nouveau test de tous les jeux.
 
@@ -192,6 +192,13 @@ Jeux de rôle, exploration, aventures narratives et histoires interactives.
   - Plateforme: Navigateur de bureau ; ouvert sans connexion ni paiement. Mobile non testé.
   - GPT-6 Astra: [X](https://x.com/TheRohanVarma/status/2096744577332068549) — Le créateur indique avoir utilisé Astra pour développer ce projet. [Notes de vérification (anglais)](assets/screenshots/lumbridge/SOURCE.md).
   - Aperçu: ![Lumbridge / Elderwood Realms — Capture du jeu](assets/screenshots/lumbridge/gameplay.jpg)
+
+- **[Silent Meridian / 静默子午线](https://github.com/stackloomdev/silent-meridian)** — Une aventure atmosphérique en pointer-cliquer, en quatre chapitres et treize énigmes : comparer le Présent à son Écho, recueillir des indices et percer le mystère d’un observatoire figé à 00:17.
+  - Créateur: [stackloomdev](https://github.com/stackloomdev)
+  - Plateforme: Navigateurs sur ordinateur et mobile ; chinois et anglais. Gratuit, sans connexion ni clé API ; fonctionne sur un serveur HTTP local ou un hébergement statique. Effets WebGL facultatifs, avec retour aux illustrations originales si nécessaire.
+  - GPT-6 Astra: [Journal de développement](https://github.com/stackloomdev/silent-meridian/blob/main/docs/CREATION.md) — Développement itératif dans Codex : récit, énigmes, textes bilingues, code, effets 3D procéduraux et tests.
+  - Ressources: [Source et lancement](https://github.com/stackloomdev/silent-meridian) · [Provenance des illustrations](https://github.com/stackloomdev/silent-meridian/blob/main/docs/ART.md) · Technologies: JavaScript, WebGL, Web Audio.
+  - Aperçu: ![Silent Meridian en jeu : observatoire avec mécanisme 3D en laiton, repères d’indices, commandes Présent/Écho et journal d’enquête.](assets/screenshots/silent-meridian/gameplay.png)
 
 <a id="platformers-racing"></a>
 

@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 30](https://img.shields.io/badge/Cases-30-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 31](https://img.shields.io/badge/Cases-31-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **GPT-6 Astra से बनाए गए दिलचस्प गेमों का संग्रह।**
 
@@ -22,7 +22,7 @@
 
 ## यहाँ से शुरू करें
 
-यहाँ **29 ब्राउज़र गेम और कणों से कला बनाने वाला 1 इंटरैक्टिव सैंडबॉक्स** शामिल हैं: तीन राज्यों की क्षेत्रीय रणनीति, एक-दूसरे में फँसे लकड़ी के टुकड़ों और खिसकने वाले ब्लॉकों की पहेलियाँ, मुलायम फलों को मिलाना, एक बटन से उड़ान, जादुई कालीन पर लड़ाई, बिजली के नेटवर्क से द्वीप की रक्षा, जंगल में जीवित रहना, पानी के नीचे मछली पकड़ना, सुशी रेस्तराँ चलाना और द्वीप पर खेती करना, Bay Circuit पर कार्ट रेसिंग, पेलिकन के साथ तट पर साइकिल चलाना, टेबलटॉप खिलौनों के 3D रूपांतरण और Orbital Garden। किसी शीर्षक पर क्लिक करके उसका डेमो या चलाने के निर्देशों सहित स्रोत कोड खोलें।
+यहाँ **30 ब्राउज़र गेम और कणों से कला बनाने वाला 1 इंटरैक्टिव सैंडबॉक्स** शामिल हैं: तीन राज्यों की क्षेत्रीय रणनीति, एक-दूसरे में फँसे लकड़ी के टुकड़ों और खिसकने वाले ब्लॉकों की पहेलियाँ, मुलायम फलों को मिलाना, एक बटन से उड़ान, जादुई कालीन पर लड़ाई, बिजली के नेटवर्क से द्वीप की रक्षा, जंगल में जीवित रहना, पानी के नीचे मछली पकड़ना, सुशी रेस्तराँ चलाना और द्वीप पर खेती करना, Bay Circuit पर कार्ट रेसिंग, पेलिकन के साथ तट पर साइकिल चलाना, टेबलटॉप खिलौनों के 3D रूपांतरण और Orbital Garden। किसी शीर्षक पर क्लिक करके उसका डेमो या चलाने के निर्देशों सहित स्रोत कोड खोलें।
 
 सूची अपडेट: **2026-09-09**। मॉडल के उपयोग की जानकारी रचनाकारों या प्रस्तुतकर्ताओं के कथनों पर आधारित है; अपुष्ट विवरण संबंधित प्रविष्टियों में चिह्नित हैं। यह तारीख सूची के रखरखाव की है, सभी गेमों के दोबारा परीक्षण की नहीं।
 
@@ -192,6 +192,13 @@
   - प्लेटफ़ॉर्म: डेस्कटॉप ब्राउज़र; बिना लॉगिन या भुगतान के खोला गया। मोबाइल परीक्षण नहीं हुआ।
   - GPT-6 Astra: [X](https://x.com/TheRohanVarma/status/2096744577332068549) — लेखक ने इस परियोजना के विकास में Astra के उपयोग की जानकारी दी है। [जाँच विवरण (अंग्रेज़ी)](assets/screenshots/lumbridge/SOURCE.md).
   - पूर्वावलोकन: ![Lumbridge / Elderwood Realms — गेम का स्क्रीनशॉट](assets/screenshots/lumbridge/gameplay.jpg)
+
+- **[Silent Meridian / 静默子午线](https://github.com/stackloomdev/silent-meridian)** — चार अध्यायों और तेरह पहेलियों वाला रहस्यमय पॉइंट-एंड-क्लिक रोमांच: वर्तमान और उसकी प्रतिध्वनि के सुरागों की तुलना करें, सबूत जुटाएँ और 00:17 पर ठहरी वेधशाला का रहस्य सुलझाएँ।
+  - रचनाकार: [stackloomdev](https://github.com/stackloomdev)
+  - प्लैटफ़ॉर्म: डेस्कटॉप और मोबाइल ब्राउज़र; चीनी और अंग्रेज़ी। मुफ़्त, लॉगिन या API कुंजी की ज़रूरत नहीं; स्थानीय HTTP सर्वर या स्थिर होस्टिंग से चलाएँ। WebGL प्रभाव वैकल्पिक हैं; समर्थन न होने पर मूल चित्र दिखाई देते हैं।
+  - GPT-6 Astra: [विकास विवरण](https://github.com/stackloomdev/silent-meridian/blob/main/docs/CREATION.md) — Codex में कई चरणों के सहयोग से कहानी, पहेलियाँ, द्विभाषी पाठ, कोड, प्रोग्राम द्वारा बनाए गए 3D प्रभाव और परीक्षण तैयार किए गए।
+  - संसाधन: [स्रोत और चलाने के निर्देश](https://github.com/stackloomdev/silent-meridian) · [चित्रों का स्रोत](https://github.com/stackloomdev/silent-meridian/blob/main/docs/ART.md) · तकनीक: JavaScript, WebGL, Web Audio.
+  - झलक: ![Silent Meridian का वास्तविक खेल दृश्य: पीतल का 3D यंत्र, सुरागों के निशान, वर्तमान और प्रतिध्वनि के नियंत्रण तथा जाँच की डायरी वाली वेधशाला।](assets/screenshots/silent-meridian/gameplay.png)
 
 <a id="platformers-racing"></a>
 

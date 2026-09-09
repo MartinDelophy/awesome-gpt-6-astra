@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 30](https://img.shields.io/badge/Cases-30-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 31](https://img.shields.io/badge/Cases-31-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **GPT-6 Astra で作られた、遊んでみたくなるゲームを集めています。**
 
@@ -22,7 +22,7 @@
 
 ## はじめに
 
-現在、**ブラウザーゲーム 29 作品と、インタラクティブなパーティクルアートのサンドボックス 1 作品**を掲載しています。三国志の領土戦略、木製の組木パズルとスライドパズル、柔らかい果物の合成、ワンボタン飛行、魔法の絨毯での戦闘、島の電力網を使うタワーディフェンス、荒野でのサバイバル、水中での魚捕り、寿司店経営と島での農作業、海湾サーキットのカートレース、ペリカンとの海岸サイクリング、卓上玩具の 3D ゲーム化、そして Orbital Garden。作品名をクリックすると、デモまたは実行手順付きのソースコードが開きます。
+現在、**ブラウザーゲーム 30 作品と、インタラクティブなパーティクルアートのサンドボックス 1 作品**を掲載しています。三国志の領土戦略、木製の組木パズルとスライドパズル、柔らかい果物の合成、ワンボタン飛行、魔法の絨毯での戦闘、島の電力網を使うタワーディフェンス、荒野でのサバイバル、水中での魚捕り、寿司店経営と島での農作業、海湾サーキットのカートレース、ペリカンとの海岸サイクリング、卓上玩具の 3D ゲーム化、そして Orbital Garden。作品名をクリックすると、デモまたは実行手順付きのソースコードが開きます。
 
 一覧更新日：**2026-09-09**。モデルの利用情報は作者または投稿者の説明に基づき、未確認の内容は各項目に明記しています。この日付は一覧の更新日であり、全作品を再度プレイテストした日ではありません。
 
@@ -192,6 +192,13 @@
   - 対応環境: デスクトップブラウザー。ログイン・支払いなしで起動を確認。モバイルは未検証。
   - GPT-6 Astra: [X](https://x.com/TheRohanVarma/status/2096744577332068549) — 作者は本作の開発に Astra を使用したと述べています。 [検証記録（英語）](assets/screenshots/lumbridge/SOURCE.md).
   - プレビュー: ![Lumbridge / Elderwood Realms — 実際のゲーム画面](assets/screenshots/lumbridge/gameplay.jpg)
+
+- **[Silent Meridian / 静默子午线](https://github.com/stackloomdev/silent-meridian)** — 全4章・13の謎を備えた、神秘的な雰囲気のポイント＆クリック型アドベンチャー。「現在」と「残響」の手がかりを照合し、証拠を集め、00:17で時が止まった観測所の謎を解き明かす。
+  - 作者: [stackloomdev](https://github.com/stackloomdev)
+  - プラットフォーム: PC・モバイルのブラウザー。中国語・英語に対応。無料、ログインやAPIキーは不要。ローカルHTTPサーバーまたは静的ホスティングで動作。WebGL演出は任意で、非対応時は元のイラストを表示。
+  - GPT-6 Astra: [開発記録](https://github.com/stackloomdev/silent-meridian/blob/main/docs/CREATION.md) — Codexで反復的に共同開発し、物語、謎解き、二言語の文章、コード、プログラム生成の3D演出、テストに使用。
+  - 開発資料: [ソースと起動手順](https://github.com/stackloomdev/silent-meridian) · [アートの制作記録](https://github.com/stackloomdev/silent-meridian/blob/main/docs/ART.md) · 使用技術: JavaScript, WebGL, Web Audio.
+  - プレビュー: ![Silent Meridianのプレイ画面。真鍮の3D装置、手がかりのマーカー、現在と残響の切り替え、調査手帳が見える観測所。](assets/screenshots/silent-meridian/gameplay.png)
 
 <a id="platformers-racing"></a>
 
