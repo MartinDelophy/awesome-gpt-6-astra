@@ -6,7 +6,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 46](https://img.shields.io/badge/Cases-46-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 47](https://img.shields.io/badge/Cases-47-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **مجموعة من الألعاب الممتعة المصنوعة باستخدام GPT-6 Astra.**
 
@@ -24,7 +24,7 @@
 
 ## ابدأ من هنا
 
-استكشف **46 لعبة ومشروعًا تفاعليًا**: استراتيجية السيطرة على الأراضي في عصر الممالك الثلاث، ألغاز خشبية متشابكة وألغاز الكتل المنزلقة، دمج الفواكه المرنة، والطيران بزر واحد، والقتال على بساط سحري، والدفاع عن جزيرة بشبكة كهربائية، والبقاء في البرية، وصيد الأسماك تحت الماء وإدارة مطعم سوشي والزراعة على جزيرة، وسباقات الكارت على حلبة الخليج، وركوب الدراجة مع بجع على الساحل، وألعاب طاولة محوّلة إلى ألعاب ثلاثية الأبعاد، وOrbital Garden. انقر على اسم العمل لفتح اللعبة مباشرة في المتصفح.
+استكشف **47 لعبة ومشروعًا تفاعليًا**: استراتيجية السيطرة على الأراضي في عصر الممالك الثلاث، ألغاز خشبية متشابكة وألغاز الكتل المنزلقة، دمج الفواكه المرنة، والطيران بزر واحد، والقتال على بساط سحري، والدفاع عن جزيرة بشبكة كهربائية، والبقاء في البرية، وصيد الأسماك تحت الماء وإدارة مطعم سوشي والزراعة على جزيرة، وسباقات الكارت على حلبة الخليج، وركوب الدراجة مع بجع على الساحل، وألعاب طاولة محوّلة إلى ألعاب ثلاثية الأبعاد، وOrbital Garden. انقر على اسم العمل لفتح اللعبة مباشرة في المتصفح.
 
 تحديث القائمة: **2026-09-10**. تستند معلومات استخدام النموذج إلى تصريحات المؤلفين أو مقدّمي الأعمال؛ وتُوضّح التفاصيل غير المؤكدة في كل بند. يشير هذا التاريخ إلى تحديث القائمة، وليس إلى إعادة اختبار جميع الألعاب.
 
@@ -240,6 +240,12 @@
 ### تقمص الأدوار والمغامرات
 
 تقمص الأدوار والاستكشاف والمغامرات السردية والقصص التفاعلية.
+
+- **[The Sunshard](https://mindblown.ai/games/the-sunshard)** — استكشف لعبة تقمص أدوار حركية بأسلوب فوكسل، وحارب Hollowborn بمهارتي Spark Bolt وSunburst، وتفادَ الخطر بالانتقال الآني وأيقظ بوابة الشمس.
+  - المؤلف: [Mindblown / @mind](https://mindblown.ai/@mind) · [Mindblown](https://mindblown.ai/) · [X](https://x.com/mindblown_ai)
+  - المنصة: متصفح سطح المكتب؛ لوحة مفاتيح وفأرة، دون تسجيل دخول إلزامي.
+  - GPT-6 Astra: استخدام النموذج غير مؤكد لهذه اللعبة؛ رد المؤلف المقدم يسمح بإدراجها لكنه لا يحدد النموذج أو دوره. [ملاحظات التحقق](assets/screenshots/the-sunshard/SOURCE.md).
+  - معاينة: ![The Sunshard — Golden Hollow](assets/screenshots/the-sunshard/gameplay.png)
 
 - **[Lumbridge / Elderwood Realms](https://elderwood-realms.rohannvarma.chatgpt.site/)** — مغامرة جماعية بطابع كلاسيكي، مع عالم مشترك ومهارات وجمع موارد وقتال وإمكانية الدخول كضيف.
   - المؤلف: [Rohan Varma](https://x.com/TheRohanVarma)

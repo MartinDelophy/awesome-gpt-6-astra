@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 46](https://img.shields.io/badge/Cases-46-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 47](https://img.shields.io/badge/Cases-47-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **GPT-6 Astra로 만든 흥미로운 게임을 모았습니다.**
 
@@ -238,6 +238,12 @@
 ### RPG 및 어드벤처
 
 롤플레잉, 탐험, 서사 중심의 모험, 인터랙티브 스토리를 다룹니다.
+
+- **[The Sunshard](https://mindblown.ai/games/the-sunshard)** — 복셀풍 액션 RPG에서 Spark Bolt와 Sunburst로 Hollowborn과 싸우고, 순간이동으로 위험을 피하며 태양의 문을 깨우세요.
+  - 제작자: [Mindblown / @mind](https://mindblown.ai/@mind) · [Mindblown](https://mindblown.ai/) · [X](https://x.com/mindblown_ai)
+  - 플랫폼: 데스크톱 브라우저, 키보드와 마우스 사용. 로그인 불필요.
+  - GPT-6 Astra: 이 게임의 모델 사용은 미확인입니다. 제공된 제작자 답글은 수록을 허용하지만 모델이나 역할은 명시하지 않습니다. [검증 기록](assets/screenshots/the-sunshard/SOURCE.md).
+  - 미리보기: ![The Sunshard — Golden Hollow](assets/screenshots/the-sunshard/gameplay.png)
 
 - **[Lumbridge / Elderwood Realms](https://elderwood-realms.rohannvarma.chatgpt.site/)** — 공유 세계에서 기술, 채집, 전투를 즐기는 고전풍 멀티플레이어 모험으로 게스트 입장이 가능합니다.
   - 제작자: [Rohan Varma](https://x.com/TheRohanVarma)

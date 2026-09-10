@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 46](https://img.shields.io/badge/Cases-46-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 47](https://img.shields.io/badge/Cases-47-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **GPT-6 Astra से बनाए गए दिलचस्प गेमों का संग्रह।**
 
@@ -22,7 +22,7 @@
 
 ## यहाँ से शुरू करें
 
-यहाँ **46 खेल और इंटरैक्टिव परियोजनाएँ** शामिल हैं: तीन राज्यों की क्षेत्रीय रणनीति, एक-दूसरे में फँसे लकड़ी के टुकड़ों और खिसकने वाले ब्लॉकों की पहेलियाँ, मुलायम फलों को मिलाना, एक बटन से उड़ान, जादुई कालीन पर लड़ाई, बिजली के नेटवर्क से द्वीप की रक्षा, जंगल में जीवित रहना, पानी के नीचे मछली पकड़ना, सुशी रेस्तराँ चलाना और द्वीप पर खेती करना, Bay Circuit पर कार्ट रेसिंग, पेलिकन के साथ तट पर साइकिल चलाना, टेबलटॉप खिलौनों के 3D रूपांतरण और Orbital Garden। किसी शीर्षक पर क्लिक करके सीधे ब्राउज़र में गेम खेलें।
+यहाँ **47 खेल और इंटरैक्टिव परियोजनाएँ** शामिल हैं: तीन राज्यों की क्षेत्रीय रणनीति, एक-दूसरे में फँसे लकड़ी के टुकड़ों और खिसकने वाले ब्लॉकों की पहेलियाँ, मुलायम फलों को मिलाना, एक बटन से उड़ान, जादुई कालीन पर लड़ाई, बिजली के नेटवर्क से द्वीप की रक्षा, जंगल में जीवित रहना, पानी के नीचे मछली पकड़ना, सुशी रेस्तराँ चलाना और द्वीप पर खेती करना, Bay Circuit पर कार्ट रेसिंग, पेलिकन के साथ तट पर साइकिल चलाना, टेबलटॉप खिलौनों के 3D रूपांतरण और Orbital Garden। किसी शीर्षक पर क्लिक करके सीधे ब्राउज़र में गेम खेलें।
 
 सूची अपडेट: **2026-09-10**। मॉडल के उपयोग की जानकारी रचनाकारों या प्रस्तुतकर्ताओं के कथनों पर आधारित है; अपुष्ट विवरण संबंधित प्रविष्टियों में चिह्नित हैं। यह तारीख सूची के रखरखाव की है, सभी गेमों के दोबारा परीक्षण की नहीं।
 
@@ -238,6 +238,12 @@
 ### RPG और रोमांच
 
 भूमिका निभाना, खोजबीन, कहानी-आधारित रोमांच और इंटरैक्टिव कहानियाँ।
+
+- **[The Sunshard](https://mindblown.ai/games/the-sunshard)** — वॉक्सेल शैली की एक्शन RPG में Spark Bolt और Sunburst से Hollowborn से लड़ें, टेलीपोर्ट करके खतरे से बचें और सूर्य-द्वार को जगाएँ।
+  - निर्माता: [Mindblown / @mind](https://mindblown.ai/@mind) · [Mindblown](https://mindblown.ai/) · [X](https://x.com/mindblown_ai)
+  - प्लेटफ़ॉर्म: डेस्कटॉप ब्राउज़र; कीबोर्ड और माउस, लॉगिन आवश्यक नहीं।
+  - GPT-6 Astra: इस गेम में मॉडल का उपयोग अपुष्ट है। दिए गए निर्माता के उत्तर में सूची में जोड़ने की अनुमति है, लेकिन मॉडल या उसकी भूमिका नहीं बताई गई है। [सत्यापन विवरण](assets/screenshots/the-sunshard/SOURCE.md).
+  - पूर्वावलोकन: ![The Sunshard — Golden Hollow](assets/screenshots/the-sunshard/gameplay.png)
 
 - **[Lumbridge / Elderwood Realms](https://elderwood-realms.rohannvarma.chatgpt.site/)** — साझा दुनिया, कौशल, संसाधन संग्रह और लड़ाई वाला रेट्रो मल्टीप्लेयर साहसिक खेल; अतिथि प्रवेश उपलब्ध है।
   - रचनाकार: [Rohan Varma](https://x.com/TheRohanVarma)
