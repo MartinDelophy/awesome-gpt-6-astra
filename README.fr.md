@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 44](https://img.shields.io/badge/Cases-44-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 46](https://img.shields.io/badge/Cases-46-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Une sélection de jeux intéressants créés avec GPT-6 Astra.**
 
@@ -22,9 +22,9 @@ Cette page traduit le [README anglais](README.md). Consultez l’original pour v
 
 ## Pour commencer
 
-Découvrez **44 jeux et projets interactifs** : stratégie territoriale des Trois Royaumes, puzzles en bois à emboîtement et à glissement, fusion de fruits déformables, vol à une touche, combats sur tapis volant, défense d’île par un réseau électrique, survie en pleine nature, pêche sous-marine, gestion d’un restaurant de sushis et agriculture insulaire, course de karts sur Bay Circuit, balade côtière à vélo avec un pélican, jouets de table adaptés en 3D et Orbital Garden. Cliquez sur un titre pour jouer directement dans le navigateur.
+Découvrez **46 jeux et projets interactifs** : stratégie territoriale des Trois Royaumes, puzzles en bois à emboîtement et à glissement, fusion de fruits déformables, vol à une touche, combats sur tapis volant, défense d’île par un réseau électrique, survie en pleine nature, pêche sous-marine, gestion d’un restaurant de sushis et agriculture insulaire, course de karts sur Bay Circuit, balade côtière à vélo avec un pélican, jouets de table adaptés en 3D et Orbital Garden. Cliquez sur un titre pour jouer directement dans le navigateur.
 
-Mise à jour du catalogue : **2026-09-09**. L’utilisation du modèle est renseignée d’après les déclarations des créateurs ou des contributeurs ; les points non confirmés sont signalés dans chaque fiche. Cette date correspond à la maintenance du catalogue, pas à un nouveau test de tous les jeux.
+Mise à jour du catalogue : **2026-09-10**. L’utilisation du modèle est renseignée d’après les déclarations des créateurs ou des contributeurs ; les points non confirmés sont signalés dans chaque fiche. Cette date correspond à la maintenance du catalogue, pas à un nouveau test de tous les jeux.
 
 - **Envie de jouer ?** Parcourez les genres ci-dessous.
 - **Vous avez créé un jeu ?** [Proposez votre projet](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) avec un lien direct vers le jeu dans le navigateur, une capture en jeu et une explication de votre utilisation de GPT-6 Astra.
@@ -53,6 +53,12 @@ Jeux de tir, de combat, de survie, de rythme et tous ceux qui donnent envie de r
   - GPT-6 Astra: [Tests en une seule génération et prompts d’origine du créateur](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - Ressources: [Code source](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/mosswing/src) · [HTML autonome](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/mosswing/mosswing.html)
   - Aperçu: ![Écran de démarrage de Mosswing avec le personnage volant et les passages entre les piliers de pierre.](assets/screenshots/mosswing/gameplay.jpg)
+
+- **[Stadium Elite — El Clásico](https://stadium-elite.mindblown.ai/)** — Jouez un match de football à onze entre Barcelone et le Real Madrid dans un stade 3D, avec passes, tirs et changement de joueur.
+  - Créateur: [Mindblown / @mind](https://mindblown.ai/@mind)
+  - Plateforme: Navigateur de bureau ; clavier et souris, sans connexion obligatoire.
+  - GPT-6 Astra: [Notes de vérification](assets/screenshots/stadium-elite/SOURCE.md) — La publication Mindblown fournie cite Three.js et GPT-6 Astra.
+  - Aperçu: ![Stadium Elite — El Clásico: Jouez un match de football à onze entre Barcelone et le Real Madrid dans un stade 3D, avec passes, tirs et changement de joueur.](assets/screenshots/stadium-elite/gameplay.png)
 
 - **[Magic Carpet Wizard — A Thousand Skies](https://threapchills.github.io/MagicCarpetWizard/)** — Pilotez un tapis volant autour d’un monde sphérique, traversez des anneaux, lancez des sorts et affrontez des ennemis et des boss.
   - Créateur: [threapchills](https://github.com/threapchills)
@@ -213,6 +219,12 @@ Défense de tours, cartes stratégiques, gestion, construction et bacs à sable 
   - GPT-6 Astra: [X](https://x.com/LucasMarquesSv/status/2096772160404504583) — Le créateur indique avoir utilisé Astra pour développer ce projet. [Notes de vérification (anglais)](assets/screenshots/the-free-game/SOURCE.md).
   - Ressources: [GitHub](https://github.com/LucasMarquesShiva/the-free-game)
   - Aperçu: ![The Free Game](assets/screenshots/the-free-game/gameplay.jpg)
+
+- **[DUST FRONT](https://dust-front.mustafaakin.dev/)** — Un RTS solo avec construction de base, capture de positions et commandement des forces terrestres et aériennes.
+  - Créateur: [Mustafa Akın](https://x.com/mustafaakin)
+  - Plateforme: Navigateur de bureau ; clavier et souris, sans connexion obligatoire.
+  - GPT-6 Astra: [Notes de vérification](assets/screenshots/dust-front/SOURCE.md) — La publication Mustafa Akın fournie indique ChatGPT Astra et Blender MCP, avec environ 40 prompts incluant la création des ressources.
+  - Aperçu: ![DUST FRONT: Un RTS solo avec construction de base, capture de positions et commandement des forces terrestres et aériennes.](assets/screenshots/dust-front/gameplay.png)
 
 - **[前线指令 / Frontline Command](https://fluffy-biscotti-dad318.netlify.app/)** — Construisez une base, disputez des zones de ressources et commandez chars, infanterie, avions et drones contre des armées contrôlées par l’IA dans un jeu de stratégie en temps réel de guerre moderne, avec espions et renseignement pour prendre l’avantage.
   - Créateur: [嘟啊嘟](https://x.com/HDLhN783wtLkpPR)

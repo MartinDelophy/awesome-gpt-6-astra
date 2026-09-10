@@ -6,7 +6,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 44](https://img.shields.io/badge/Cases-44-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 46](https://img.shields.io/badge/Cases-46-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **مجموعة من الألعاب الممتعة المصنوعة باستخدام GPT-6 Astra.**
 
@@ -24,9 +24,9 @@
 
 ## ابدأ من هنا
 
-استكشف **44 لعبة ومشروعًا تفاعليًا**: استراتيجية السيطرة على الأراضي في عصر الممالك الثلاث، ألغاز خشبية متشابكة وألغاز الكتل المنزلقة، دمج الفواكه المرنة، والطيران بزر واحد، والقتال على بساط سحري، والدفاع عن جزيرة بشبكة كهربائية، والبقاء في البرية، وصيد الأسماك تحت الماء وإدارة مطعم سوشي والزراعة على جزيرة، وسباقات الكارت على حلبة الخليج، وركوب الدراجة مع بجع على الساحل، وألعاب طاولة محوّلة إلى ألعاب ثلاثية الأبعاد، وOrbital Garden. انقر على اسم العمل لفتح اللعبة مباشرة في المتصفح.
+استكشف **46 لعبة ومشروعًا تفاعليًا**: استراتيجية السيطرة على الأراضي في عصر الممالك الثلاث، ألغاز خشبية متشابكة وألغاز الكتل المنزلقة، دمج الفواكه المرنة، والطيران بزر واحد، والقتال على بساط سحري، والدفاع عن جزيرة بشبكة كهربائية، والبقاء في البرية، وصيد الأسماك تحت الماء وإدارة مطعم سوشي والزراعة على جزيرة، وسباقات الكارت على حلبة الخليج، وركوب الدراجة مع بجع على الساحل، وألعاب طاولة محوّلة إلى ألعاب ثلاثية الأبعاد، وOrbital Garden. انقر على اسم العمل لفتح اللعبة مباشرة في المتصفح.
 
-تحديث القائمة: **2026-09-09**. تستند معلومات استخدام النموذج إلى تصريحات المؤلفين أو مقدّمي الأعمال؛ وتُوضّح التفاصيل غير المؤكدة في كل بند. يشير هذا التاريخ إلى تحديث القائمة، وليس إلى إعادة اختبار جميع الألعاب.
+تحديث القائمة: **2026-09-10**. تستند معلومات استخدام النموذج إلى تصريحات المؤلفين أو مقدّمي الأعمال؛ وتُوضّح التفاصيل غير المؤكدة في كل بند. يشير هذا التاريخ إلى تحديث القائمة، وليس إلى إعادة اختبار جميع الألعاب.
 
 - **تبحث عن لعبة؟** تصفح الأنواع أدناه.
 - **صنعت لعبة؟** [أرسل مشروعك](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) مع رابط مباشر للعب في المتصفح، ولقطة شاشة فعلية من اللعبة، وشرح لكيفية استخدامك GPT-6 Astra.
@@ -55,6 +55,12 @@
   - GPT-6 Astra: [اختبارات المبدع بالتوليد من طلب واحد والموجّهات الأصلية](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - موارد التطوير: [الشفرة المصدرية](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/mosswing/src) · [ملف HTML مستقل](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/mosswing/mosswing.html)
   - معاينة: ![شاشة بدء Mosswing وتظهر الشخصية الطائرة والفجوات بين الأعمدة الحجرية.](assets/screenshots/mosswing/gameplay.jpg)
+
+- **[Stadium Elite — El Clásico](https://stadium-elite.mindblown.ai/)** — العب مباراة كرة قدم 11 ضد 11 بين برشلونة وريال مدريد في ملعب ثلاثي الأبعاد، مع التمرير والتسديد وتبديل اللاعبين.
+  - المؤلف: [Mindblown / @mind](https://mindblown.ai/@mind)
+  - المنصة: متصفح سطح المكتب؛ لوحة مفاتيح وفأرة، دون تسجيل دخول إلزامي.
+  - GPT-6 Astra: [ملاحظات التحقق](assets/screenshots/stadium-elite/SOURCE.md) — يذكر منشور Mindblown المقدم استخدام Three.js وGPT-6 Astra.
+  - معاينة: ![Stadium Elite — El Clásico: العب مباراة كرة قدم 11 ضد 11 بين برشلونة وريال مدريد في ملعب ثلاثي الأبعاد، مع التمرير والتسديد وتبديل اللاعبين.](assets/screenshots/stadium-elite/gameplay.png)
 
 - **[Magic Carpet Wizard — A Thousand Skies](https://threapchills.github.io/MagicCarpetWizard/)** — حلّق على بساط سحري في عالم كروي، واعبر الحلقات، وألقِ التعويذات، وقاتل الأعداء والزعماء.
   - المبدع: [threapchills](https://github.com/threapchills)
@@ -215,6 +221,12 @@
   - GPT-6 Astra: [X](https://x.com/LucasMarquesSv/status/2096772160404504583) — يذكر المؤلف استخدام Astra في تطوير هذا المشروع. [ملاحظات التحقق (بالإنجليزية)](assets/screenshots/the-free-game/SOURCE.md).
   - الموارد: [GitHub](https://github.com/LucasMarquesShiva/the-free-game)
   - معاينة: ![The Free Game](assets/screenshots/the-free-game/gameplay.jpg)
+
+- **[DUST FRONT](https://dust-front.mustafaakin.dev/)** — لعبة استراتيجية آنية فردية لبناء القاعدة والسيطرة على المواقع وقيادة القوات البرية والجوية.
+  - المؤلف: [Mustafa Akın](https://x.com/mustafaakin)
+  - المنصة: متصفح سطح المكتب؛ لوحة مفاتيح وفأرة، دون تسجيل دخول إلزامي.
+  - GPT-6 Astra: [ملاحظات التحقق](assets/screenshots/dust-front/SOURCE.md) — يذكر منشور Mustafa Akın المقدم استخدام ChatGPT Astra وBlender MCP وحوالي 40 مطالبة تشمل إنشاء الأصول.
+  - معاينة: ![DUST FRONT: لعبة استراتيجية آنية فردية لبناء القاعدة والسيطرة على المواقع وقيادة القوات البرية والجوية.](assets/screenshots/dust-front/gameplay.png)
 
 - **[前线指令 / Frontline Command](https://fluffy-biscotti-dad318.netlify.app/)** — ابنِ قاعدة وتنافس على مناطق الموارد، وقُد الدبابات والمشاة والطائرات والمسيّرات ضد جيوش الذكاء الاصطناعي في لعبة استراتيجية آنية عن الحرب الحديثة، واستفد من الجواسيس والاستخبارات لتحقيق الأفضلية.
   - المبدع: [嘟啊嘟](https://x.com/HDLhN783wtLkpPR)

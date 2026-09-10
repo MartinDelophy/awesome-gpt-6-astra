@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 61](https://img.shields.io/badge/Cases-61-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 63](https://img.shields.io/badge/Cases-63-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **收集用 GPT-6 Astra 制作的有趣游戏。**
 
@@ -20,9 +20,9 @@
 
 ## 从这里开始
 
-目前收录 **61 个游戏与互动作品**：三国领土策略、木锁拆解与华容道、半流体水果合成、程序化城市建造 2048、单键飞行、魔毯战斗、五关弹幕射击、海岛电网塔防、荒野生存、水下捕鱼、寿司店经营与海岛种植、海湾卡丁车竞速、鹈鹕海岸骑行、桌面玩具的 3D 改编、3D 家居装修，以及轨道花园。点击作品名称即可直接进入在线游戏。
+目前收录 **63 个游戏与互动作品**：三国领土策略、木锁拆解与华容道、半流体水果合成、程序化城市建造 2048、单键飞行、魔毯战斗、五关弹幕射击、海岛电网塔防、荒野生存、水下捕鱼、寿司店经营与海岛种植、海湾卡丁车竞速、鹈鹕海岸骑行、桌面玩具的 3D 改编、3D 家居装修，以及轨道花园。点击作品名称即可直接进入在线游戏。
 
-目录更新：**2026-09-09**。模型使用信息依据作者或投稿者的说明，未确认内容在具体条目中标注。此日期表示目录维护时间，不代表当天重新试玩了所有游戏。
+目录更新：**2026-09-10**。模型使用信息依据作者或投稿者的说明，未确认内容在具体条目中标注。此日期表示目录维护时间，不代表当天重新试玩了所有游戏。
 
 本次新增：[16 款在 X 上发现的在线游戏](docs/x-high-traffic-games-2026-09-09.md)，核验表按所观察到的帖子浏览量排序。
 
@@ -51,6 +51,12 @@
   - GPT-6 Astra：[作者的 One Shot 测试与原始 Prompt](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md)。
   - 开发资料：[源码](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/mosswing/src) · [单文件 HTML](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/mosswing/mosswing.html)
   - 预览：![Mosswing 起始画面：飞行角色与石柱之间的障碍间隙。](assets/screenshots/mosswing/gameplay.jpg)
+
+- **[Stadium Elite — El Clásico](https://stadium-elite.mindblown.ai/)** — 在 3D 球场进行巴塞罗那对皇家马德里的 11 人制比赛，传球、射门并切换球员。
+  - 作者: [Mindblown / @mind](https://mindblown.ai/@mind)
+  - 平台: 桌面浏览器；键盘与鼠标，无需登录。
+  - GPT-6 Astra: [核验记录](assets/screenshots/stadium-elite/SOURCE.md) — 用户提供的 Mindblown 帖子注明 Three.js 与 GPT-6 Astra。
+  - 预览: ![Stadium Elite — El Clásico: 在 3D 球场进行巴塞罗那对皇家马德里的 11 人制比赛，传球、射门并切换球员。](assets/screenshots/stadium-elite/gameplay.png)
 
 - **[Magic Carpet Wizard — A Thousand Skies](https://threapchills.github.io/MagicCarpetWizard/)** — 驾驶魔毯探索球形世界，穿环、施法，并挑战敌人与 Boss。
   - 作者：[threapchills](https://github.com/threapchills)
@@ -258,6 +264,12 @@
   - 平台: 桌面浏览器；可免登录进入游客教程，保存进度需要登录；未独立验证多人联机。
   - GPT-6 Astra: [X](https://x.com/aidaniil/status/2096426970930106530) — 作者说明与弟弟使用 Astra、Blender MCP 和 Cloudflare Durable Objects 制作，灵感来自幸福工厂与围攻。 [核验记录](assets/screenshots/ironwood/SOURCE.md).
   - 预览: ![Ironwood 的工厂机器、传送带和资源管理教程。](assets/screenshots/ironwood/gameplay.jpg)
+
+- **[DUST FRONT](https://dust-front.mustafaakin.dev/)** — 单人即时战略：建设基地、占领据点，指挥地面与空中部队作战。
+  - 作者: [Mustafa Akın](https://x.com/mustafaakin)
+  - 平台: 桌面浏览器；键盘与鼠标，无需登录。
+  - GPT-6 Astra: [核验记录](assets/screenshots/dust-front/SOURCE.md) — 用户提供的 Mustafa Akın 帖子说明使用 ChatGPT Astra 与 Blender MCP，包含素材生成在内约 40 次提示。
+  - 预览: ![DUST FRONT: 单人即时战略：建设基地、占领据点，指挥地面与空中部队作战。](assets/screenshots/dust-front/gameplay.png)
 
 - **[前线指令 / Frontline Command](https://fluffy-biscotti-dad318.netlify.app/)** — 在现代战争题材的即时战略游戏中建设基地、争夺资源区，指挥坦克、步兵、飞机与无人机对抗电脑，并通过间谍和情报系统获取优势。
   - 作者: [嘟啊嘟](https://x.com/HDLhN783wtLkpPR)
