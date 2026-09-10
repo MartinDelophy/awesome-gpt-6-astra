@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 61](https://img.shields.io/badge/Cases-61-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 63](https://img.shields.io/badge/Cases-63-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **A collection of interesting games made with GPT-6 Astra.**
 
@@ -20,9 +20,9 @@ Playful ideas, games you can try, and development stories that inspire the next 
 
 ## Start here
 
-Explore **61 games and interactive projects**: Three Kingdoms territory strategy, wooden interlocking and sliding puzzles, soft-body fruit merging, procedural city-building 2048, one-tap flight, magic-carpet combat, a five-stage bullet-hell shooter, island power-grid tower defense, wilderness survival, underwater fishing, sushi-restaurant management and island farming, Bay Circuit kart racing, coastal cycling with a pelican, tabletop toys turned into 3D games, 3D home decoration, and Orbital Garden. Click a title to play directly in your browser.
+Explore **63 games and interactive projects**: Three Kingdoms territory strategy, wooden interlocking and sliding puzzles, soft-body fruit merging, procedural city-building 2048, one-tap flight, magic-carpet combat, a five-stage bullet-hell shooter, island power-grid tower defense, wilderness survival, underwater fishing, sushi-restaurant management and island farming, Bay Circuit kart racing, coastal cycling with a pelican, tabletop toys turned into 3D games, 3D home decoration, and Orbital Garden. Click a title to play directly in your browser.
 
-Catalog updated: **2026-09-09**. Model attribution is based on creator or submitter statements; unconfirmed details are marked in individual entries. This date records catalog maintenance, not a new play-test of every game.
+Catalog updated: **2026-09-10**. Model attribution is based on creator or submitter statements; unconfirmed details are marked in individual entries. This date records catalog maintenance, not a new play-test of every game.
 
 New additions: [16 browser games discovered on X](docs/x-high-traffic-games-2026-09-09.md), with a verification table ordered by observed post views.
 
@@ -51,6 +51,12 @@ Shooters, fighters, survival games, rhythm games, and anything that invites one 
   - GPT-6 Astra: [Creator's one-shot tests and original prompts](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - Resources: [Source](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/mosswing/src) · [Standalone HTML](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/mosswing/mosswing.html)
   - Preview: ![Mosswing start screen showing the flying character and gaps between stone pillars.](assets/screenshots/mosswing/gameplay.jpg)
+
+- **[Stadium Elite — El Clásico](https://stadium-elite.mindblown.ai/)** — Play an 11-a-side Barcelona–Real Madrid football match, passing, shooting and switching players in a 3D stadium.
+  - Creator: [Mindblown / @mind](https://mindblown.ai/@mind)
+  - Platform: Desktop browser; keyboard and mouse, no login required.
+  - GPT-6 Astra: [Verification notes](assets/screenshots/stadium-elite/SOURCE.md) — The supplied Mindblown post names Three.js and GPT-6 Astra.
+  - Preview: ![Stadium Elite — El Clásico: Play an 11-a-side Barcelona–Real Madrid football match, passing, shooting and switching players in a 3D stadium.](assets/screenshots/stadium-elite/gameplay.png)
 
 - **[Magic Carpet Wizard — A Thousand Skies](https://threapchills.github.io/MagicCarpetWizard/)** — Fly a magic carpet through a spherical world, thread rings, cast spells, and fight enemies and bosses.
   - Creator: [threapchills](https://github.com/threapchills)
@@ -258,6 +264,12 @@ Tower defense, strategic card games, management games, building, and simulation 
   - Platform: Desktop browser; a guest tutorial opens without sign-in, while saving progress requires login. Multiplayer was not independently tested.
   - GPT-6 Astra: [X](https://x.com/aidaniil/status/2096426970930106530) — The creator says he and his brother built it with Astra, Blender MCP and Cloudflare Durable Objects, inspired by Satisfactory and Besiege. [Verification notes](assets/screenshots/ironwood/SOURCE.md).
   - Preview: ![Ironwood’s factory machines, conveyor belts and resource-management tutorial.](assets/screenshots/ironwood/gameplay.jpg)
+
+- **[DUST FRONT](https://dust-front.mustafaakin.dev/)** — Command a single-player RTS army, build a base, capture sites and coordinate ground and air forces.
+  - Creator: [Mustafa Akın](https://x.com/mustafaakin)
+  - Platform: Desktop browser; keyboard and mouse, no login required.
+  - GPT-6 Astra: [Verification notes](assets/screenshots/dust-front/SOURCE.md) — The supplied Mustafa Akın post reports ChatGPT Astra and Blender MCP, with about 40 prompts including asset generation.
+  - Preview: ![DUST FRONT: Command a single-player RTS army, build a base, capture sites and coordinate ground and air forces.](assets/screenshots/dust-front/gameplay.png)
 
 - **[前线指令 / Frontline Command](https://fluffy-biscotti-dad318.netlify.app/)** — Build a base, contest resource zones and command tanks, infantry, aircraft and drones against AI armies in a modern-war RTS, using spies and intelligence to gain an advantage.
   - Creator: [嘟啊嘟](https://x.com/HDLhN783wtLkpPR)

@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 44](https://img.shields.io/badge/Cases-44-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 46](https://img.shields.io/badge/Cases-46-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Una colección de juegos interesantes creados con GPT-6 Astra.**
 
@@ -22,9 +22,9 @@ Esta página es una traducción del [README en inglés](README.md). Consulta el 
 
 ## Empieza aquí
 
-Explora **44 juegos y proyectos interactivos**: estrategia territorial de los Tres Reinos, rompecabezas de madera entrelazada y de piezas deslizantes, fusión de frutas deformables, vuelo con un solo botón, combates en alfombra mágica, defensa de una isla mediante una red eléctrica, supervivencia en la naturaleza, pesca submarina, gestión de un restaurante de sushi y agricultura en una isla, carreras de karts en Bay Circuit, ciclismo costero con un pelícano, juguetes de mesa adaptados a 3D y Orbital Garden. Haz clic en un título para jugar directamente en el navegador.
+Explora **46 juegos y proyectos interactivos**: estrategia territorial de los Tres Reinos, rompecabezas de madera entrelazada y de piezas deslizantes, fusión de frutas deformables, vuelo con un solo botón, combates en alfombra mágica, defensa de una isla mediante una red eléctrica, supervivencia en la naturaleza, pesca submarina, gestión de un restaurante de sushi y agricultura en una isla, carreras de karts en Bay Circuit, ciclismo costero con un pelícano, juguetes de mesa adaptados a 3D y Orbital Garden. Haz clic en un título para jugar directamente en el navegador.
 
-Catálogo actualizado: **2026-09-09**. El uso del modelo se documenta según las declaraciones de los creadores o remitentes; los datos sin confirmar se señalan en cada entrada. Esta fecha corresponde al mantenimiento del catálogo, no a una nueva prueba de todos los juegos.
+Catálogo actualizado: **2026-09-10**. El uso del modelo se documenta según las declaraciones de los creadores o remitentes; los datos sin confirmar se señalan en cada entrada. Esta fecha corresponde al mantenimiento del catálogo, no a una nueva prueba de todos los juegos.
 
 - **¿Buscas algo para jugar?** Explora los géneros de abajo.
 - **¿Has creado un juego?** [Envía tu proyecto](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) con un enlace directo al juego en el navegador, una captura del juego y una explicación de cómo utilizaste GPT-6 Astra.
@@ -53,6 +53,12 @@ Juegos de disparos, lucha, supervivencia, ritmo y cualquier propuesta que invite
   - GPT-6 Astra: [Pruebas en una sola generación y prompts originales del creador](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - Recursos: [Código fuente](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/mosswing/src) · [HTML independiente](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/mosswing/mosswing.html)
   - Vista previa: ![Pantalla de inicio de Mosswing con el personaje volador y los huecos entre pilares de piedra.](assets/screenshots/mosswing/gameplay.jpg)
+
+- **[Stadium Elite — El Clásico](https://stadium-elite.mindblown.ai/)** — Juega un partido de fútbol de once contra once entre Barcelona y Real Madrid en un estadio 3D, con pases, tiros y cambio de jugador.
+  - Creador: [Mindblown / @mind](https://mindblown.ai/@mind)
+  - Plataforma: Navegador de escritorio; teclado y ratón, sin inicio de sesión obligatorio.
+  - GPT-6 Astra: [Notas de verificación](assets/screenshots/stadium-elite/SOURCE.md) — La publicación de Mindblown proporcionada menciona Three.js y GPT-6 Astra.
+  - Vista previa: ![Stadium Elite — El Clásico: Juega un partido de fútbol de once contra once entre Barcelona y Real Madrid en un estadio 3D, con pases, tiros y cambio de jugador.](assets/screenshots/stadium-elite/gameplay.png)
 
 - **[Magic Carpet Wizard — A Thousand Skies](https://threapchills.github.io/MagicCarpetWizard/)** — Pilota una alfombra mágica por un mundo esférico, atraviesa aros, lanza hechizos y combate contra enemigos y jefes.
   - Creador: [threapchills](https://github.com/threapchills)
@@ -213,6 +219,12 @@ Defensa de torres, cartas estratégicas, gestión, construcción y simulación d
   - GPT-6 Astra: [X](https://x.com/LucasMarquesSv/status/2096772160404504583) — El autor indica que utilizó Astra para desarrollar este proyecto. [Notas de verificación (inglés)](assets/screenshots/the-free-game/SOURCE.md).
   - Recursos: [GitHub](https://github.com/LucasMarquesShiva/the-free-game)
   - Vista previa: ![The Free Game](assets/screenshots/the-free-game/gameplay.jpg)
+
+- **[DUST FRONT](https://dust-front.mustafaakin.dev/)** — Un RTS para un jugador con construcción de bases, captura de posiciones y mando de fuerzas terrestres y aéreas.
+  - Creador: [Mustafa Akın](https://x.com/mustafaakin)
+  - Plataforma: Navegador de escritorio; teclado y ratón, sin inicio de sesión obligatorio.
+  - GPT-6 Astra: [Notas de verificación](assets/screenshots/dust-front/SOURCE.md) — La publicación de Mustafa Akın proporcionada indica ChatGPT Astra y Blender MCP, con unos 40 prompts incluyendo la creación de recursos.
+  - Vista previa: ![DUST FRONT: Un RTS para un jugador con construcción de bases, captura de posiciones y mando de fuerzas terrestres y aéreas.](assets/screenshots/dust-front/gameplay.png)
 
 - **[前线指令 / Frontline Command](https://fluffy-biscotti-dad318.netlify.app/)** — Construye una base, disputa zonas de recursos y dirige tanques, infantería, aviones y drones contra ejércitos de IA en un juego de estrategia en tiempo real de guerra moderna, con espías e inteligencia para obtener ventaja.
   - Creador: [嘟啊嘟](https://x.com/HDLhN783wtLkpPR)

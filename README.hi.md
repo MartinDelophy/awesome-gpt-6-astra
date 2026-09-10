@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 44](https://img.shields.io/badge/Cases-44-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 46](https://img.shields.io/badge/Cases-46-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **GPT-6 Astra से बनाए गए दिलचस्प गेमों का संग्रह।**
 
@@ -22,9 +22,9 @@
 
 ## यहाँ से शुरू करें
 
-यहाँ **44 खेल और इंटरैक्टिव परियोजनाएँ** शामिल हैं: तीन राज्यों की क्षेत्रीय रणनीति, एक-दूसरे में फँसे लकड़ी के टुकड़ों और खिसकने वाले ब्लॉकों की पहेलियाँ, मुलायम फलों को मिलाना, एक बटन से उड़ान, जादुई कालीन पर लड़ाई, बिजली के नेटवर्क से द्वीप की रक्षा, जंगल में जीवित रहना, पानी के नीचे मछली पकड़ना, सुशी रेस्तराँ चलाना और द्वीप पर खेती करना, Bay Circuit पर कार्ट रेसिंग, पेलिकन के साथ तट पर साइकिल चलाना, टेबलटॉप खिलौनों के 3D रूपांतरण और Orbital Garden। किसी शीर्षक पर क्लिक करके सीधे ब्राउज़र में गेम खेलें।
+यहाँ **46 खेल और इंटरैक्टिव परियोजनाएँ** शामिल हैं: तीन राज्यों की क्षेत्रीय रणनीति, एक-दूसरे में फँसे लकड़ी के टुकड़ों और खिसकने वाले ब्लॉकों की पहेलियाँ, मुलायम फलों को मिलाना, एक बटन से उड़ान, जादुई कालीन पर लड़ाई, बिजली के नेटवर्क से द्वीप की रक्षा, जंगल में जीवित रहना, पानी के नीचे मछली पकड़ना, सुशी रेस्तराँ चलाना और द्वीप पर खेती करना, Bay Circuit पर कार्ट रेसिंग, पेलिकन के साथ तट पर साइकिल चलाना, टेबलटॉप खिलौनों के 3D रूपांतरण और Orbital Garden। किसी शीर्षक पर क्लिक करके सीधे ब्राउज़र में गेम खेलें।
 
-सूची अपडेट: **2026-09-09**। मॉडल के उपयोग की जानकारी रचनाकारों या प्रस्तुतकर्ताओं के कथनों पर आधारित है; अपुष्ट विवरण संबंधित प्रविष्टियों में चिह्नित हैं। यह तारीख सूची के रखरखाव की है, सभी गेमों के दोबारा परीक्षण की नहीं।
+सूची अपडेट: **2026-09-10**। मॉडल के उपयोग की जानकारी रचनाकारों या प्रस्तुतकर्ताओं के कथनों पर आधारित है; अपुष्ट विवरण संबंधित प्रविष्टियों में चिह्नित हैं। यह तारीख सूची के रखरखाव की है, सभी गेमों के दोबारा परीक्षण की नहीं।
 
 - **खेलने के लिए कुछ ढूँढ़ रहे हैं?** नीचे दी गई श्रेणियाँ देखें।
 - **आपने कोई गेम बनाया है?** [अपना प्रोजेक्ट भेजें](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) और साथ में सीधे ब्राउज़र में खेलने का लिंक, वास्तविक गेमप्ले का स्क्रीनशॉट और GPT-6 Astra के उपयोग का विवरण दें।
@@ -53,6 +53,12 @@
   - GPT-6 Astra: [रचनाकार के एक ही अनुरोध से निर्माण के परीक्षण और मूल प्रॉम्प्ट](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - विकास संसाधन: [स्रोत कोड](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/mosswing/src) · [स्वतंत्र HTML फ़ाइल](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/mosswing/mosswing.html)
   - पूर्वावलोकन: ![Mosswing की शुरुआती स्क्रीन पर उड़ता पात्र और पत्थर के खंभों के बीच के रास्ते दिखते हैं।](assets/screenshots/mosswing/gameplay.jpg)
+
+- **[Stadium Elite — El Clásico](https://stadium-elite.mindblown.ai/)** — 3D स्टेडियम में बार्सिलोना और रियल मैड्रिड का 11 बनाम 11 फुटबॉल मैच खेलें; पास दें, शॉट लगाएँ और खिलाड़ी बदलें।
+  - निर्माता: [Mindblown / @mind](https://mindblown.ai/@mind)
+  - प्लेटफ़ॉर्म: डेस्कटॉप ब्राउज़र; कीबोर्ड और माउस, लॉगिन आवश्यक नहीं।
+  - GPT-6 Astra: [सत्यापन विवरण](assets/screenshots/stadium-elite/SOURCE.md) — दिए गए Mindblown पोस्ट में Three.js और GPT-6 Astra का उल्लेख है।
+  - पूर्वावलोकन: ![Stadium Elite — El Clásico: 3D स्टेडियम में बार्सिलोना और रियल मैड्रिड का 11 बनाम 11 फुटबॉल मैच खेलें; पास दें, शॉट लगाएँ और खिलाड़ी बदलें।](assets/screenshots/stadium-elite/gameplay.png)
 
 - **[Magic Carpet Wizard — A Thousand Skies](https://threapchills.github.io/MagicCarpetWizard/)** — जादुई कालीन पर गोलाकार दुनिया में उड़ें, छल्लों से गुज़रें, जादू करें और दुश्मनों व बॉस से लड़ें।
   - रचनाकार: [threapchills](https://github.com/threapchills)
@@ -213,6 +219,12 @@
   - GPT-6 Astra: [X](https://x.com/LucasMarquesSv/status/2096772160404504583) — लेखक ने इस परियोजना के विकास में Astra के उपयोग की जानकारी दी है। [जाँच विवरण (अंग्रेज़ी)](assets/screenshots/the-free-game/SOURCE.md).
   - संसाधन: [GitHub](https://github.com/LucasMarquesShiva/the-free-game)
   - पूर्वावलोकन: ![The Free Game](assets/screenshots/the-free-game/gameplay.jpg)
+
+- **[DUST FRONT](https://dust-front.mustafaakin.dev/)** — एकल-खिलाड़ी RTS में बेस बनाएँ, ठिकानों पर कब्ज़ा करें और ज़मीनी व हवाई सेना को निर्देश दें।
+  - निर्माता: [Mustafa Akın](https://x.com/mustafaakin)
+  - प्लेटफ़ॉर्म: डेस्कटॉप ब्राउज़र; कीबोर्ड और माउस, लॉगिन आवश्यक नहीं।
+  - GPT-6 Astra: [सत्यापन विवरण](assets/screenshots/dust-front/SOURCE.md) — दिए गए Mustafa Akın पोस्ट के अनुसार ChatGPT Astra और Blender MCP से एसेट निर्माण सहित लगभग 40 प्रॉम्प्ट में काम किया गया।
+  - पूर्वावलोकन: ![DUST FRONT: एकल-खिलाड़ी RTS में बेस बनाएँ, ठिकानों पर कब्ज़ा करें और ज़मीनी व हवाई सेना को निर्देश दें।](assets/screenshots/dust-front/gameplay.png)
 
 - **[前线指令 / Frontline Command](https://fluffy-biscotti-dad318.netlify.app/)** — आधुनिक युद्ध पर आधारित रियल-टाइम रणनीति गेम में बेस बनाएँ, संसाधन क्षेत्रों के लिए लड़ें और AI सेनाओं के विरुद्ध टैंक, पैदल सेना, विमान और ड्रोन की कमान सँभालें। जासूसों और खुफिया तंत्र से बढ़त हासिल करें।
   - रचनाकार: [嘟啊嘟](https://x.com/HDLhN783wtLkpPR)

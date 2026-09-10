@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 44](https://img.shields.io/badge/Cases-44-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 46](https://img.shields.io/badge/Cases-46-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Uma coleção de jogos interessantes feitos com GPT-6 Astra.**
 
@@ -22,9 +22,9 @@ Esta página é uma tradução do [README em inglês](README.md). Consulte o ori
 
 ## Comece por aqui
 
-Explore **44 jogos e projetos interativos**: estratégia territorial dos Três Reinos, quebra-cabeças de madeira com encaixes e peças deslizantes, fusão de frutas deformáveis, voo com um toque, combates em tapete mágico, defesa de uma ilha com uma rede elétrica, sobrevivência na natureza, pesca submarina, gestão de um restaurante de sushi e cultivo em uma ilha, corridas de kart no Bay Circuit, ciclismo pela costa com um pelicano, brinquedos de mesa adaptados para 3D e Orbital Garden. Clique em um título para jogar diretamente no navegador.
+Explore **46 jogos e projetos interativos**: estratégia territorial dos Três Reinos, quebra-cabeças de madeira com encaixes e peças deslizantes, fusão de frutas deformáveis, voo com um toque, combates em tapete mágico, defesa de uma ilha com uma rede elétrica, sobrevivência na natureza, pesca submarina, gestão de um restaurante de sushi e cultivo em uma ilha, corridas de kart no Bay Circuit, ciclismo pela costa com um pelicano, brinquedos de mesa adaptados para 3D e Orbital Garden. Clique em um título para jogar diretamente no navegador.
 
-Catálogo atualizado: **2026-09-09**. O uso do modelo é informado com base nas declarações dos criadores ou responsáveis pelas submissões; detalhes não confirmados são sinalizados em cada entrada. Esta data registra a manutenção do catálogo, não um novo teste de todos os jogos.
+Catálogo atualizado: **2026-09-10**. O uso do modelo é informado com base nas declarações dos criadores ou responsáveis pelas submissões; detalhes não confirmados são sinalizados em cada entrada. Esta data registra a manutenção do catálogo, não um novo teste de todos os jogos.
 
 - **Procurando algo para jogar?** Explore os gêneros abaixo.
 - **Criou um jogo?** [Envie seu projeto](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) com um link direto para jogar no navegador, uma captura de tela do jogo e uma descrição de como você usou GPT-6 Astra.
@@ -53,6 +53,12 @@ Jogos de tiro, luta, sobrevivência, ritmo e qualquer experiência que dê vonta
   - GPT-6 Astra: [Testes em uma única geração e prompts originais do criador](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - Recursos: [Código-fonte](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/mosswing/src) · [HTML independente](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/mosswing/mosswing.html)
   - Prévia: ![Tela inicial de Mosswing com o personagem voador e os espaços entre pilares de pedra.](assets/screenshots/mosswing/gameplay.jpg)
+
+- **[Stadium Elite — El Clásico](https://stadium-elite.mindblown.ai/)** — Jogue uma partida de futebol de onze contra onze entre Barcelona e Real Madrid em um estádio 3D, com passes, chutes e troca de jogadores.
+  - Criador: [Mindblown / @mind](https://mindblown.ai/@mind)
+  - Plataforma: Navegador desktop; teclado e mouse, sem login obrigatório.
+  - GPT-6 Astra: [Notas de verificação](assets/screenshots/stadium-elite/SOURCE.md) — A publicação fornecida de Mindblown menciona Three.js e GPT-6 Astra.
+  - Prévia: ![Stadium Elite — El Clásico: Jogue uma partida de futebol de onze contra onze entre Barcelona e Real Madrid em um estádio 3D, com passes, chutes e troca de jogadores.](assets/screenshots/stadium-elite/gameplay.png)
 
 - **[Magic Carpet Wizard — A Thousand Skies](https://threapchills.github.io/MagicCarpetWizard/)** — Voe em um tapete mágico por um mundo esférico, atravesse anéis, lance feitiços e enfrente inimigos e chefes.
   - Criador: [threapchills](https://github.com/threapchills)
@@ -213,6 +219,12 @@ Defesa de torres, cartas estratégicas, gerenciamento, construção e simulaçã
   - GPT-6 Astra: [X](https://x.com/LucasMarquesSv/status/2096772160404504583) — O autor informa ter usado Astra no desenvolvimento deste projeto. [Notas de verificação (inglês)](assets/screenshots/the-free-game/SOURCE.md).
   - Recursos: [GitHub](https://github.com/LucasMarquesShiva/the-free-game)
   - Prévia: ![The Free Game](assets/screenshots/the-free-game/gameplay.jpg)
+
+- **[DUST FRONT](https://dust-front.mustafaakin.dev/)** — RTS para um jogador com construção de base, captura de pontos e comando de forças terrestres e aéreas.
+  - Criador: [Mustafa Akın](https://x.com/mustafaakin)
+  - Plataforma: Navegador desktop; teclado e mouse, sem login obrigatório.
+  - GPT-6 Astra: [Notas de verificação](assets/screenshots/dust-front/SOURCE.md) — A publicação fornecida de Mustafa Akın informa ChatGPT Astra e Blender MCP, com cerca de 40 prompts incluindo a criação dos recursos.
+  - Prévia: ![DUST FRONT: RTS para um jogador com construção de base, captura de pontos e comando de forças terrestres e aéreas.](assets/screenshots/dust-front/gameplay.png)
 
 - **[前线指令 / Frontline Command](https://fluffy-biscotti-dad318.netlify.app/)** — Construa uma base, dispute áreas de recursos e comande tanques, infantaria, aviões e drones contra exércitos de IA em um jogo de estratégia em tempo real de guerra moderna, usando espiões e inteligência para obter vantagem.
   - Criador: [嘟啊嘟](https://x.com/HDLhN783wtLkpPR)

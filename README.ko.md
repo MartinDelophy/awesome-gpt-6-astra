@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 44](https://img.shields.io/badge/Cases-44-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 46](https://img.shields.io/badge/Cases-46-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **GPT-6 Astra로 만든 흥미로운 게임을 모았습니다.**
 
@@ -24,7 +24,7 @@
 
 현재 **게임 및 인터랙티브 작품 44개**를 소개합니다. 삼국지 영토 전략, 나무 결합 퍼즐과 슬라이딩 퍼즐, 부드러운 과일 합치기, 원버튼 비행, 마법 양탄자 전투, 섬의 전력망을 이용한 타워 디펜스, 야생 생존, 수중 낚시와 초밥집 경영 및 섬 농사, 베이 서킷 카트 레이싱, 펠리컨과 함께하는 해안 자전거 달리기, 탁상 장난감을 옮긴 3D 게임, 그리고 Orbital Garden을 만나 보세요. 작품명을 누르면 브라우저에서 바로 플레이할 수 있습니다.
 
-목록 업데이트: **2026-09-09**. 모델 사용 정보는 제작자 또는 제출자의 설명을 바탕으로 하며, 미확인 내용은 각 항목에 표시합니다. 이 날짜는 목록 관리 날짜이며 모든 게임을 다시 플레이 테스트한 날짜가 아닙니다.
+목록 업데이트: **2026-09-10**. 모델 사용 정보는 제작자 또는 제출자의 설명을 바탕으로 하며, 미확인 내용은 각 항목에 표시합니다. 이 날짜는 목록 관리 날짜이며 모든 게임을 다시 플레이 테스트한 날짜가 아닙니다.
 
 - **할 게임을 찾고 있나요?** 아래 장르에서 마음에 드는 작품을 찾아보세요.
 - **게임을 만들었나요?** [프로젝트를 제출](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml)할 때 브라우저에서 바로 플레이할 수 있는 링크, 실제 게임 화면, GPT-6 Astra를 어떻게 활용했는지에 대한 설명을 첨부해 주세요.
@@ -53,6 +53,12 @@
   - GPT-6 Astra: [제작자의 원샷 테스트와 최초 프롬프트](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - 개발 자료: [소스 코드](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/mosswing/src) · [단일 HTML 파일](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/mosswing/mosswing.html)
   - 미리보기: ![Mosswing 시작 화면에 날아다니는 캐릭터와 돌기둥 사이의 틈이 보입니다.](assets/screenshots/mosswing/gameplay.jpg)
+
+- **[Stadium Elite — El Clásico](https://stadium-elite.mindblown.ai/)** — 3D 경기장에서 바르셀로나와 레알 마드리드의 11인제 축구를 즐기며 패스, 슛, 선수 전환을 조작합니다.
+  - 제작자: [Mindblown / @mind](https://mindblown.ai/@mind)
+  - 플랫폼: 데스크톱 브라우저, 키보드와 마우스 사용. 로그인 불필요.
+  - GPT-6 Astra: [검증 기록](assets/screenshots/stadium-elite/SOURCE.md) — 제공된 Mindblown 게시물에 Three.js와 GPT-6 Astra 사용이 명시되어 있습니다.
+  - 미리보기: ![Stadium Elite — El Clásico: 3D 경기장에서 바르셀로나와 레알 마드리드의 11인제 축구를 즐기며 패스, 슛, 선수 전환을 조작합니다.](assets/screenshots/stadium-elite/gameplay.png)
 
 - **[Magic Carpet Wizard — A Thousand Skies](https://threapchills.github.io/MagicCarpetWizard/)** — 마법 양탄자를 타고 구형 세계를 탐험하며 고리를 통과하고 주문을 사용해 적과 보스를 상대합니다.
   - 제작자: [threapchills](https://github.com/threapchills)
@@ -213,6 +219,12 @@
   - GPT-6 Astra: [X](https://x.com/LucasMarquesSv/status/2096772160404504583) — 제작자는 이 프로젝트 개발에 Astra를 사용했다고 밝혔습니다. [검증 기록 (영어)](assets/screenshots/the-free-game/SOURCE.md).
   - 개발 자료: [GitHub](https://github.com/LucasMarquesShiva/the-free-game)
   - 미리보기: ![The Free Game](assets/screenshots/the-free-game/gameplay.jpg)
+
+- **[DUST FRONT](https://dust-front.mustafaakin.dev/)** — 기지 건설, 거점 점령, 지상군과 공군 지휘를 즐기는 싱글 플레이 RTS입니다.
+  - 제작자: [Mustafa Akın](https://x.com/mustafaakin)
+  - 플랫폼: 데스크톱 브라우저, 키보드와 마우스 사용. 로그인 불필요.
+  - GPT-6 Astra: [검증 기록](assets/screenshots/dust-front/SOURCE.md) — 제공된 Mustafa Akın 게시물에 따르면 ChatGPT Astra와 Blender MCP로 에셋 생성을 포함해 약 40회의 프롬프트를 사용했습니다.
+  - 미리보기: ![DUST FRONT: 기지 건설, 거점 점령, 지상군과 공군 지휘를 즐기는 싱글 플레이 RTS입니다.](assets/screenshots/dust-front/gameplay.png)
 
 - **[前线指令 / Frontline Command](https://fluffy-biscotti-dad318.netlify.app/)** — 현대전 배경의 실시간 전략 게임입니다. 기지를 건설하고 자원 지역을 두고 경쟁하며, 탱크·보병·항공기·드론을 지휘해 AI 군대와 싸웁니다. 스파이와 정보 시스템으로 우위를 확보할 수 있습니다.
   - 제작자: [嘟啊嘟](https://x.com/HDLhN783wtLkpPR)
