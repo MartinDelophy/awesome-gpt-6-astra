@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 63](https://img.shields.io/badge/Cases-63-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 73](https://img.shields.io/badge/Cases-73-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **收集用 GPT-6 Astra 制作的有趣游戏。**
 
@@ -20,11 +20,11 @@
 
 ## 从这里开始
 
-目前收录 **63 个游戏与互动作品**：三国领土策略、木锁拆解与华容道、半流体水果合成、程序化城市建造 2048、单键飞行、魔毯战斗、五关弹幕射击、海岛电网塔防、荒野生存、水下捕鱼、寿司店经营与海岛种植、海湾卡丁车竞速、鹈鹕海岸骑行、桌面玩具的 3D 改编、3D 家居装修，以及轨道花园。点击作品名称即可直接进入在线游戏。
+目前收录 **73 个游戏与互动作品**：三国领土策略、木锁拆解与华容道、半流体水果合成、程序化城市建造 2048、单键飞行、魔毯战斗、五关弹幕射击、海岛电网塔防、荒野生存、水下捕鱼、寿司店经营与海岛种植、海湾卡丁车竞速、鹈鹕海岸骑行、桌面玩具的 3D 改编、3D 家居装修，以及轨道花园。点击作品名称即可直接进入在线游戏。
 
 目录更新：**2026-09-10**。模型使用信息依据作者或投稿者的说明，未确认内容在具体条目中标注。此日期表示目录维护时间，不代表当天重新试玩了所有游戏。
 
-本次新增：[16 款在 X 上发现的在线游戏](docs/x-high-traffic-games-2026-09-09.md)，核验表按所观察到的帖子浏览量排序。
+最新新增：[10 款在 X 上发现的在线游戏](docs/direct-play-x-games-2026-09-10.md)，附实机截图与入口核验。[此前新增的 16 款](docs/x-high-traffic-games-2026-09-09.md)。
 
 - **想玩游戏：** 从下面的分类寻找你喜欢的玩法。
 - **做了游戏：** [提交你的作品](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml)，附上在线游戏直达入口、实机截图，以及使用 GPT-6 Astra 的说明。
@@ -134,6 +134,39 @@
   - GPT-6 Astra: [X](https://x.com/Dimillian/status/2097188900888322323) — 作者说明 Astra 根据霓虹、合成器波与线框视觉要求和概念图完成游戏及音乐。 [核验记录](assets/screenshots/vector-dive/SOURCE.md).
   - 预览: ![Vector Dive 的霓虹飞行赛道、玩家飞船与状态界面。](assets/screenshots/vector-dive/gameplay.jpg)
 
+- **[Harbor Skirmish](https://gpt6astra-game.vercel.app/)** — 在海边小镇抵御一波波兔子入侵，切换三种武器，利用屋顶路线、冲刺与钩索周旋。
+  - 作者: [OpenDesign](https://x.com/OpenDesignHQ)
+  - 平台: 桌面浏览器；键盘与鼠标，无需登录或下载。
+  - GPT-6 Astra: [作者说明](https://x.com/OpenDesignHQ/status/2097635757917983223) — OpenDesign 在双模型对比帖中明确将此 Three.js 游戏标为 GPT-6 Astra 版本。 [核验记录](assets/screenshots/harbor-skirmish/SOURCE.md).
+  - 预览: ![海滨小镇中的第一人称步枪视角、靠近的兔子、波次计数与武器操作栏。](assets/screenshots/harbor-skirmish/gameplay.jpg)
+
+- **[UNDERGROUND — 地下拳场](https://iamsonic.net/2026/mini-games/underground-boxing.html)** — 在地下 3D 拳台进行三回合限时对决，平衡出拳、格挡、闪避与体力消耗。
+  - 作者: [Sonic的奇思妙想](https://x.com/sonic0828)
+  - 平台: 桌面浏览器；WASD 移动，J/K 出拳，L 格挡，空格闪避，无需登录或下载。
+  - GPT-6 Astra: [作者说明](https://x.com/sonic0828/status/2097601232877781344) — 作者合集帖明确说明使用 GPT-6 Astra 生成小游戏，其中地下拳击回复提供了此版本链接。 [核验记录](assets/screenshots/underground-boxing/SOURCE.md).
+  - 开发资料: [作者发布链接](https://x.com/sonic0828/status/2097601584410796401)
+  - 预览: ![两名拳手在地下灯光拳台交战，顶部显示回合计时、生命及体力。](assets/screenshots/underground-boxing/gameplay.jpg)
+
+- **[街头小子 · Urban Champion 3D](https://iamsonic.net/2026/mini-games/urban-champion.html)** — 在日落街区交替使用高低拳与格挡，将对手逼入井口，同时留意从楼上掉落的花盆。
+  - 作者: [Sonic的奇思妙想](https://x.com/sonic0828)
+  - 平台: 桌面浏览器；A/D 移动，J/K 出拳，U/I 格挡，空格闪避，无需登录。
+  - GPT-6 Astra: [作者说明](https://x.com/sonic0828/status/2097601232877781344) — 作者的 GPT-6 Astra 合集附有独立发布回复，指向这款街头格斗游戏。 [核验记录](assets/screenshots/urban-champion-3d/SOURCE.md).
+  - 开发资料: [作者发布链接](https://x.com/sonic0828/status/2097601861658587376)
+  - 预览: ![蓝红两名格斗者在 Sunset Mart 门外对拳，上方显示回合计时与耐力条。](assets/screenshots/urban-champion-3d/gameplay.jpg)
+
+- **[零点街区 · 弹壳特攻队 3D](https://iamsonic.net/2026/mini-games/shells-3d/play.html)** — 在城市围攻中坚持三分钟，以自动射击配合走位躲避敌群，拾取经验并选择升级能力。
+  - 作者: [Sonic的奇思妙想](https://x.com/sonic0828)
+  - 平台: 浏览器；WASD 或拖动移动，自动瞄准，无需登录或下载。
+  - GPT-6 Astra: [作者说明](https://x.com/sonic0828/status/2097601232877781344) — 作者在合集发布帖中说明使用 GPT-6 Astra，并在弹壳特攻队 3D 的独立回复中给出此版本链接。 [核验记录](assets/screenshots/zero-district-shells-3d/SOURCE.md).
+  - 开发资料: [作者发布链接](https://x.com/sonic0828/status/2097602391122264310)
+  - 预览: ![幸存者在城市街道自动射击周围敌人，顶部显示已击败 14 个敌人、剩余 166 秒。](assets/screenshots/zero-district-shells-3d/gameplay.jpg)
+
+- **[ASCII DISTRICT](https://ascii-district.vercel.app/)** — 在由 ASCII 字符构成的第一人称竞技场迎战病毒敌人，利用冲刺、跳跃和滑行应对连续波次。
+  - 作者: [Acker Code](https://x.com/acker_code)
+  - 平台: 桌面浏览器；键盘与鼠标，无需登录，点击场景捕获鼠标，Esc 释放。
+  - GPT-6 Astra: [作者说明](https://x.com/acker_code/status/2097542957070975286) — 作者明确说明使用 Codex 与 GPT-6 Astra 制作这款 ASCII 字符画射击游戏。 [核验记录](assets/screenshots/ascii-district/SOURCE.md).
+  - 预览: ![ASCII 庭院中的病毒敌人向玩家靠近，步枪 HUD 显示开火后剩余 29 发子弹。](assets/screenshots/ascii-district/gameplay.jpg)
+
 ### 解谜与益智
 
 逻辑谜题、物理解谜、文字游戏与巧妙的小机关。
@@ -164,6 +197,12 @@
   - GPT-6 Astra：[制作记录](https://github.com/derek-wangpch/OpenCityMaker/blob/master/docs/CREATION.md) — 作者说明 132 个建筑模型的程序化几何均由 GPT-6 Astra 生成，流程为多视角资料检索、先定轮廓体块再加细节、并对照参考图逐轮校验；并非一次性生成测试。
   - 开发资料：[源码与运行说明](https://github.com/derek-wangpch/OpenCityMaker) · [验收记录](https://github.com/derek-wangpch/OpenCityMaker/blob/master/QA.md) · 技术：React、TypeScript、Vite 与 Three.js；132 个建筑模型均为原创程序化几何。
   - 预览：![CityMaker 实机画面：4×4 棋盘上的低多边形香港建筑，旁边是分数、城市列表与旋转控制。](assets/screenshots/citymaker/gameplay.png)
+
+- **[Bonkshot](https://bonkshot.com/)** — 拖动弹弓发射小角色，击中木制支撑，让结构倒塌并清除目标。
+  - 作者: [edmund5](https://x.com/edmund5)
+  - 平台: 浏览器；拖动瞄准、松开发射，无需登录即可玩，Google 登录为可选功能。
+  - GPT-6 Astra: [作者说明](https://x.com/edmund5/status/2097603093819261002) — 作者说明游戏使用 GPT-6 Astra 与 Three.js 制作，背景音乐由 Suno 生成。 [核验记录](assets/screenshots/bonkshot/SOURCE.md).
+  - 预览: ![草原首关发射后的局面：木塔部分倒塌，剩余一个目标，得分 2,200。](assets/screenshots/bonkshot/gameplay.jpg)
 
 ### 策略与模拟
 
@@ -339,6 +378,19 @@
   - GPT-6 Astra: [X](https://x.com/dharmautomo/status/2096573649235091967) — 作者说明 GPT-6 Astra 协助制作了这款 3D 冒险，并分享孩子试玩的视频。 [核验记录](assets/screenshots/anna-leo-starstone/SOURCE.md).
   - 预览: ![Anna 与 Leo 的 3D 冒险世界和任务界面。](assets/screenshots/anna-leo-starstone/gameplay.jpg)
 
+- **[The Legend of Deller](https://rain-court-js.umodeler-inc-4323.chatgpt.site/)** — 探索雨雾庇护所，再向地牢进发，运用剑技连段、元素技能和闪避展开冒险。
+  - 作者: [UModeler X PicoBerry](https://x.com/UModeler)
+  - 平台: 桌面浏览器；键盘与鼠标，无需登录，首次进入需等待 3D 资源加载。
+  - GPT-6 Astra: [作者说明](https://x.com/UModeler/status/2097792348407099553) — 作者说明由 PicoBerry 生成素材，再由 GPT-6 Astra 制作围绕这些素材运行的 Three.js 动作 RPG。 [核验记录](assets/screenshots/the-legend-of-deller/SOURCE.md).
+  - 开发资料: [作者发布链接](https://x.com/UModeler/status/2097792351129178451)
+  - 预览: ![Deller 在喷泉与集市摊位旁闪避移动，下方显示生命、法力及技能栏。](assets/screenshots/the-legend-of-deller/gameplay.jpg)
+
+- **[Dungeon of Astra](https://wavedash.com/games/dungeon-of-astra)** — 招募冒险小队，深入百层地下城，结合剑击、火球与队友职业能力，挑战带永久死亡机制的冒险。
+  - 作者: [tonysuri / @tonysurix](https://x.com/tonysurix)
+  - 平台: Wavedash 桌面浏览器版；基础游戏无需登录即可开始，另有可选账号功能与付费提前解锁角色。
+  - GPT-6 Astra: [作者说明](https://x.com/tonysurix/status/2097873333551616355) — 作者明确说明这款小队地下城游戏使用 GPT-6 Astra 制作。 [核验记录](assets/screenshots/dungeon-of-astra/SOURCE.md).
+  - 预览: ![英雄与招募的骑士在地牢第一层施放火球，界面显示队伍生命与小地图。](assets/screenshots/dungeon-of-astra/gameplay.jpg)
+
 ### 平台跳跃与竞速
 
 跑酷、平台闯关、赛车，以及考验路线与操作的游戏。
@@ -427,6 +479,19 @@
   - 素材说明: 非官方同人作品；经典角色、图像和音乐的权利归各自权利人所有，具体素材说明见原游戏页面。
   - 预览: ![混合马里奥Ⅱ — 作者提供的视频封面，非实机截图。](https://aha-xiaoq.github.io/games/mario-mix-2/cover.jpg)
   - 截图: ![混合马里奥Ⅱ：坦克在 1-2 关入口开炮；运行版本 1.0，拍摄于 2026-09-09。](assets/screenshots/mario-mix-2/gameplay.jpg)
+
+- **[Bengaluru ORR Rush](https://orr-rush-bengaluru.ravitheja.chatgpt.site/)** — 穿行班加罗尔的拥堵道路，避开坑洼和外卖摩托，利用加速与侧向挥击争取超车空间。
+  - 作者: [Ravi Theja](https://x.com/ravithejads)
+  - 平台: 桌面浏览器；键盘操作，可选自动油门，无需登录。
+  - GPT-6 Astra: [作者说明](https://x.com/ravithejads/status/2097181044625887392) — 作者明确说明使用 GPT-6 Astra 制作这款班加罗尔公路竞速游戏。 [核验记录](assets/screenshots/bengaluru-orr-rush/SOURCE.md).
+  - 预览: ![班加罗尔道路上的蓝色玩家车辆，画面显示比赛名次、速度、计时及操作提示。](assets/screenshots/bengaluru-orr-rush/gameplay.jpg)
+
+- **[SKICROSS · 极地速降](https://iamsonic.net/2026/mini-games/skicross.html)** — 与三名对手沿雪山竞速，穿越旗门与障碍，并在雪崩追上之前冲向终点。
+  - 作者: [Sonic的奇思妙想](https://x.com/sonic0828)
+  - 平台: 桌面浏览器；A/D 转向，空格跳跃，Shift 冲刺，无需登录或下载。
+  - GPT-6 Astra: [作者说明](https://x.com/sonic0828/status/2097601232877781344) — 作者将该小游戏合集归因于 GPT-6 Astra，并在滑雪竞速回复中提供此游戏入口。 [核验记录](assets/screenshots/skicross/SOURCE.md).
+  - 开发资料: [作者发布链接](https://x.com/sonic0828/status/2097601732297814300)
+  - 预览: ![四名滑雪者在雪道竞速，画面显示过门奖励、名次、速度和雪崩距离。](assets/screenshots/skicross/gameplay.jpg)
 
 ### 实验玩法与多人游戏
 
