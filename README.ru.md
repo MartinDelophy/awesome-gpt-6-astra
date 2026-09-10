@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 46](https://img.shields.io/badge/Cases-46-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 47](https://img.shields.io/badge/Cases-47-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Подборка интересных игр, созданных с помощью GPT-6 Astra.**
 
@@ -22,7 +22,7 @@
 
 ## С чего начать
 
-Здесь собраны **46 игры и интерактивных проекта**: территориальная стратегия эпохи Троецарствия, деревянные головоломки со сцепленными деталями и сдвижными блоками, объединение мягких фруктов, полёт одной кнопкой, сражения на ковре-самолёте, защита острова с помощью электросети, выживание в дикой природе, подводная охота, управление суши-рестораном и фермерство на острове, гонки на картах по Bay Circuit, велопрогулка с пеликаном вдоль берега, настольные игрушки в 3D и Orbital Garden. Нажмите на название, чтобы играть прямо в браузере.
+Здесь собраны **47 игры и интерактивных проекта**: территориальная стратегия эпохи Троецарствия, деревянные головоломки со сцепленными деталями и сдвижными блоками, объединение мягких фруктов, полёт одной кнопкой, сражения на ковре-самолёте, защита острова с помощью электросети, выживание в дикой природе, подводная охота, управление суши-рестораном и фермерство на острове, гонки на картах по Bay Circuit, велопрогулка с пеликаном вдоль берега, настольные игрушки в 3D и Orbital Garden. Нажмите на название, чтобы играть прямо в браузере.
 
 Каталог обновлён: **2026-09-10**. Сведения об использовании модели основаны на заявлениях авторов или отправителей; неподтверждённые данные отмечены в соответствующих записях. Эта дата означает обновление каталога, а не повторное игровое тестирование всех проектов.
 
@@ -238,6 +238,12 @@
 ### Ролевые игры и приключения
 
 Ролевые игры, исследование мира, сюжетные приключения и интерактивные истории.
+
+- **[The Sunshard](https://mindblown.ai/games/the-sunshard)** — Исследуйте воксельную экшен-RPG, сражайтесь с Hollowborn с помощью Spark Bolt и Sunburst, уклоняйтесь телепортацией и пробудите солнечные врата.
+  - Автор: [Mindblown / @mind](https://mindblown.ai/@mind) · [Mindblown](https://mindblown.ai/) · [X](https://x.com/mindblown_ai)
+  - Платформа: Настольный браузер; клавиатура и мышь, вход в аккаунт не требуется.
+  - GPT-6 Astra: Для этой игры использование не подтверждено: предоставленный ответ автора разрешает включение, но не указывает модель и её роль. [Заметки о проверке](assets/screenshots/the-sunshard/SOURCE.md).
+  - Предпросмотр: ![The Sunshard — Golden Hollow](assets/screenshots/the-sunshard/gameplay.png)
 
 - **[Lumbridge / Elderwood Realms](https://elderwood-realms.rohannvarma.chatgpt.site/)** — Ретро-приключение с общей многопользовательской картой, навыками, сбором ресурсов и боями; доступен гостевой вход.
   - Автор: [Rohan Varma](https://x.com/TheRohanVarma)

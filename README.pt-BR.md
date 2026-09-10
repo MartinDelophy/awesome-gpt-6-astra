@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 46](https://img.shields.io/badge/Cases-46-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 47](https://img.shields.io/badge/Cases-47-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Uma coleção de jogos interessantes feitos com GPT-6 Astra.**
 
@@ -22,7 +22,7 @@ Esta página é uma tradução do [README em inglês](README.md). Consulte o ori
 
 ## Comece por aqui
 
-Explore **46 jogos e projetos interativos**: estratégia territorial dos Três Reinos, quebra-cabeças de madeira com encaixes e peças deslizantes, fusão de frutas deformáveis, voo com um toque, combates em tapete mágico, defesa de uma ilha com uma rede elétrica, sobrevivência na natureza, pesca submarina, gestão de um restaurante de sushi e cultivo em uma ilha, corridas de kart no Bay Circuit, ciclismo pela costa com um pelicano, brinquedos de mesa adaptados para 3D e Orbital Garden. Clique em um título para jogar diretamente no navegador.
+Explore **47 jogos e projetos interativos**: estratégia territorial dos Três Reinos, quebra-cabeças de madeira com encaixes e peças deslizantes, fusão de frutas deformáveis, voo com um toque, combates em tapete mágico, defesa de uma ilha com uma rede elétrica, sobrevivência na natureza, pesca submarina, gestão de um restaurante de sushi e cultivo em uma ilha, corridas de kart no Bay Circuit, ciclismo pela costa com um pelicano, brinquedos de mesa adaptados para 3D e Orbital Garden. Clique em um título para jogar diretamente no navegador.
 
 Catálogo atualizado: **2026-09-10**. O uso do modelo é informado com base nas declarações dos criadores ou responsáveis pelas submissões; detalhes não confirmados são sinalizados em cada entrada. Esta data registra a manutenção do catálogo, não um novo teste de todos os jogos.
 
@@ -238,6 +238,12 @@ Defesa de torres, cartas estratégicas, gerenciamento, construção e simulaçã
 ### RPG e aventura
 
 RPG, exploração, aventuras narrativas e histórias interativas.
+
+- **[The Sunshard](https://mindblown.ai/games/the-sunshard)** — Explore um RPG de ação com visual voxel, enfrente Hollowborn com Spark Bolt e Sunburst, escape com teletransporte e desperte o portal solar.
+  - Criador: [Mindblown / @mind](https://mindblown.ai/@mind) · [Mindblown](https://mindblown.ai/) · [X](https://x.com/mindblown_ai)
+  - Plataforma: Navegador desktop; teclado e mouse, sem login obrigatório.
+  - GPT-6 Astra: Uso não confirmado neste jogo: a resposta fornecida do criador permite a inclusão, mas não identifica o modelo nem sua função. [Notas de verificação](assets/screenshots/the-sunshard/SOURCE.md).
+  - Prévia: ![The Sunshard — Golden Hollow](assets/screenshots/the-sunshard/gameplay.png)
 
 - **[Lumbridge / Elderwood Realms](https://elderwood-realms.rohannvarma.chatgpt.site/)** — Aventura multijogador retrô com mundo compartilhado, habilidades, coleta e combate; permite entrar como visitante.
   - Criador: [Rohan Varma](https://x.com/TheRohanVarma)

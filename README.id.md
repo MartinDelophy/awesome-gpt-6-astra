@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 46](https://img.shields.io/badge/Cases-46-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 47](https://img.shields.io/badge/Cases-47-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Kumpulan gim menarik yang dibuat dengan GPT-6 Astra.**
 
@@ -22,7 +22,7 @@ Halaman ini merupakan terjemahan [README bahasa Inggris](README.md). Periksa ver
 
 ## Mulai di sini
 
-Jelajahi **46 gim dan proyek interaktif**: strategi wilayah Tiga Kerajaan, teka-teki kayu yang saling mengunci dan teka-teki balok geser, penggabungan buah yang lentur, penerbangan satu tombol, pertempuran karpet ajaib, pertahanan pulau dengan jaringan listrik, bertahan hidup di alam liar, menangkap ikan di bawah air, mengelola restoran sushi, dan bertani di pulau, balapan kart di Bay Circuit, bersepeda di pesisir bersama pelikan, mainan meja yang diadaptasi menjadi gim 3D, serta Orbital Garden. Klik judul untuk langsung bermain di peramban.
+Jelajahi **47 gim dan proyek interaktif**: strategi wilayah Tiga Kerajaan, teka-teki kayu yang saling mengunci dan teka-teki balok geser, penggabungan buah yang lentur, penerbangan satu tombol, pertempuran karpet ajaib, pertahanan pulau dengan jaringan listrik, bertahan hidup di alam liar, menangkap ikan di bawah air, mengelola restoran sushi, dan bertani di pulau, balapan kart di Bay Circuit, bersepeda di pesisir bersama pelikan, mainan meja yang diadaptasi menjadi gim 3D, serta Orbital Garden. Klik judul untuk langsung bermain di peramban.
 
 Katalog diperbarui: **2026-09-10**. Informasi penggunaan model berdasarkan pernyataan kreator atau pengirim; detail yang belum dikonfirmasi ditandai pada setiap entri. Tanggal ini menunjukkan pemeliharaan katalog, bukan pengujian ulang seluruh gim.
 
@@ -238,6 +238,12 @@ Pertahanan menara, kartu strategi, pengelolaan, pembangunan, dan sandbox simulas
 ### RPG dan petualangan
 
 Permainan peran, eksplorasi, petualangan naratif, dan cerita interaktif.
+
+- **[The Sunshard](https://mindblown.ai/games/the-sunshard)** — Jelajahi RPG aksi bergaya voxel, lawan Hollowborn dengan Spark Bolt dan Sunburst, hindari bahaya lewat teleportasi dan bangunkan gerbang matahari.
+  - Pembuat: [Mindblown / @mind](https://mindblown.ai/@mind) · [Mindblown](https://mindblown.ai/) · [X](https://x.com/mindblown_ai)
+  - Platform: Browser desktop; keyboard dan mouse, tanpa login wajib.
+  - GPT-6 Astra: Penggunaan model untuk game ini belum terkonfirmasi; balasan kreator yang diberikan mengizinkan pencantuman, tetapi tidak menyebut model atau perannya. [Catatan verifikasi](assets/screenshots/the-sunshard/SOURCE.md).
+  - Pratinjau: ![The Sunshard — Golden Hollow](assets/screenshots/the-sunshard/gameplay.png)
 
 - **[Lumbridge / Elderwood Realms](https://elderwood-realms.rohannvarma.chatgpt.site/)** — Petualangan multipemain retro dengan dunia bersama, keterampilan, pengumpulan sumber daya dan pertarungan; tersedia akses tamu.
   - Kreator: [Rohan Varma](https://x.com/TheRohanVarma)

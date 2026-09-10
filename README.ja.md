@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 46](https://img.shields.io/badge/Cases-46-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 47](https://img.shields.io/badge/Cases-47-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **GPT-6 Astra で作られた、遊んでみたくなるゲームを集めています。**
 
@@ -22,7 +22,7 @@
 
 ## はじめに
 
-現在、**46件のゲームとインタラクティブ作品**を掲載しています。三国志の領土戦略、木製の組木パズルとスライドパズル、柔らかい果物の合成、ワンボタン飛行、魔法の絨毯での戦闘、島の電力網を使うタワーディフェンス、荒野でのサバイバル、水中での魚捕り、寿司店経営と島での農作業、海湾サーキットのカートレース、ペリカンとの海岸サイクリング、卓上玩具の 3D ゲーム化、そして Orbital Garden。作品名をクリックすると、ブラウザーで直接遊べます。
+現在、**47件のゲームとインタラクティブ作品**を掲載しています。三国志の領土戦略、木製の組木パズルとスライドパズル、柔らかい果物の合成、ワンボタン飛行、魔法の絨毯での戦闘、島の電力網を使うタワーディフェンス、荒野でのサバイバル、水中での魚捕り、寿司店経営と島での農作業、海湾サーキットのカートレース、ペリカンとの海岸サイクリング、卓上玩具の 3D ゲーム化、そして Orbital Garden。作品名をクリックすると、ブラウザーで直接遊べます。
 
 一覧更新日：**2026-09-10**。モデルの利用情報は作者または投稿者の説明に基づき、未確認の内容は各項目に明記しています。この日付は一覧の更新日であり、全作品を再度プレイテストした日ではありません。
 
@@ -238,6 +238,12 @@
 ### RPG・アドベンチャー
 
 ロールプレイング、探索、物語を楽しむ冒険、インタラクティブなストーリー。
+
+- **[The Sunshard](https://mindblown.ai/games/the-sunshard)** — ボクセル風アクションRPG。Spark BoltとSunburstでHollowbornと戦い、瞬間移動で危険を避け、太陽の門を目覚めさせる。
+  - 作者: [Mindblown / @mind](https://mindblown.ai/@mind) · [Mindblown](https://mindblown.ai/) · [X](https://x.com/mindblown_ai)
+  - 対応環境: デスクトップブラウザー。キーボードとマウス、ログイン不要。
+  - GPT-6 Astra: 本作での利用は未確認。提供された作者の返信は掲載を許可していますが、モデルや役割は明記していません。 [検証記録](assets/screenshots/the-sunshard/SOURCE.md).
+  - プレビュー: ![The Sunshard — Golden Hollow](assets/screenshots/the-sunshard/gameplay.png)
 
 - **[Lumbridge / Elderwood Realms](https://elderwood-realms.rohannvarma.chatgpt.site/)** — 共有世界でスキル、採集、戦闘を楽しむレトロな多人数冒険。ゲストでも参加できます。
   - 作者: [Rohan Varma](https://x.com/TheRohanVarma)
