@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 63](https://img.shields.io/badge/Cases-63-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 73](https://img.shields.io/badge/Cases-73-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **A collection of interesting games made with GPT-6 Astra.**
 
@@ -20,11 +20,11 @@ Playful ideas, games you can try, and development stories that inspire the next 
 
 ## Start here
 
-Explore **63 games and interactive projects**: Three Kingdoms territory strategy, wooden interlocking and sliding puzzles, soft-body fruit merging, procedural city-building 2048, one-tap flight, magic-carpet combat, a five-stage bullet-hell shooter, island power-grid tower defense, wilderness survival, underwater fishing, sushi-restaurant management and island farming, Bay Circuit kart racing, coastal cycling with a pelican, tabletop toys turned into 3D games, 3D home decoration, and Orbital Garden. Click a title to play directly in your browser.
+Explore **73 games and interactive projects**: Three Kingdoms territory strategy, wooden interlocking and sliding puzzles, soft-body fruit merging, procedural city-building 2048, one-tap flight, magic-carpet combat, a five-stage bullet-hell shooter, island power-grid tower defense, wilderness survival, underwater fishing, sushi-restaurant management and island farming, Bay Circuit kart racing, coastal cycling with a pelican, tabletop toys turned into 3D games, 3D home decoration, and Orbital Garden. Click a title to play directly in your browser.
 
 Catalog updated: **2026-09-10**. Model attribution is based on creator or submitter statements; unconfirmed details are marked in individual entries. This date records catalog maintenance, not a new play-test of every game.
 
-New additions: [16 browser games discovered on X](docs/x-high-traffic-games-2026-09-09.md), with a verification table ordered by observed post views.
+Latest additions: [10 more browser games discovered on X](docs/direct-play-x-games-2026-09-10.md), with gameplay screenshots and access checks. [Previous 16 additions](docs/x-high-traffic-games-2026-09-09.md).
 
 - **Looking for something to play?** Browse the genres below.
 - **Built a game?** [Submit your project](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) with a direct browser game link, a gameplay screenshot, and a description of how you used GPT-6 Astra.
@@ -134,6 +134,39 @@ Shooters, fighters, survival games, rhythm games, and anything that invites one 
   - GPT-6 Astra: [X](https://x.com/Dimillian/status/2097188900888322323) — The creator says Astra built the game and music from a neon/synthwave visual brief and concept art. [Verification notes](assets/screenshots/vector-dive/SOURCE.md).
   - Preview: ![Vector Dive’s neon flight course with the player craft and gameplay HUD.](assets/screenshots/vector-dive/gameplay.jpg)
 
+- **[Harbor Skirmish](https://gpt6astra-game.vercel.app/)** — Defend a seaside town from waves of unruly rabbits with three weapons, rooftop routes, dashes and a grapple.
+  - Creator: [OpenDesign](https://x.com/OpenDesignHQ)
+  - Platform: Desktop browser; keyboard and mouse, no login or download.
+  - GPT-6 Astra: [Creator statement](https://x.com/OpenDesignHQ/status/2097635757917983223) — OpenDesign identifies this Three.js game as the GPT-6 Astra build in its two-model comparison. [Verification notes](assets/screenshots/harbor-skirmish/SOURCE.md).
+  - Preview: ![A first-person rifle view of Seabreeze town, approaching rabbits, wave counter and weapon controls.](assets/screenshots/harbor-skirmish/gameplay.jpg)
+
+- **[UNDERGROUND — Underground Boxing](https://iamsonic.net/2026/mini-games/underground-boxing.html)** — Box through three timed rounds in a 3D underground ring, balancing punches, blocks, dodges and stamina.
+  - Creator: [Sonic的奇思妙想](https://x.com/sonic0828)
+  - Platform: Desktop browser; WASD movement, J/K punches, L block and Space dodge; no login or download.
+  - GPT-6 Astra: [Creator statement](https://x.com/sonic0828/status/2097601232877781344) — The creator's showcase thread names GPT-6 Astra as the tool used to generate these mini-games; its boxing reply links this build. [Verification notes](assets/screenshots/underground-boxing/SOURCE.md).
+  - Resources: [Creator's release link](https://x.com/sonic0828/status/2097601584410796401)
+  - Preview: ![Two boxers exchanging blows in a lit underground ring with round timer, health bars and stamina.](assets/screenshots/underground-boxing/gameplay.jpg)
+
+- **[Urban Champion 3D](https://iamsonic.net/2026/mini-games/urban-champion.html)** — Trade high and low punches on a sunset street, block counterattacks and force your rival into a manhole while avoiding falling flowerpots.
+  - Creator: [Sonic的奇思妙想](https://x.com/sonic0828)
+  - Platform: Desktop browser; A/D movement, J/K punches, U/I blocks and Space dodge; no login.
+  - GPT-6 Astra: [Creator statement](https://x.com/sonic0828/status/2097601232877781344) — The creator's GPT-6 Astra showcase includes a separate release reply linking this street-fighting game. [Verification notes](assets/screenshots/urban-champion-3d/SOURCE.md).
+  - Resources: [Creator's release link](https://x.com/sonic0828/status/2097601861658587376)
+  - Preview: ![The blue and red fighters trading punches outside Sunset Mart, with round timer and stamina bars.](assets/screenshots/urban-champion-3d/gameplay.jpg)
+
+- **[Zero District — Shells 3D](https://iamsonic.net/2026/mini-games/shells-3d/play.html)** — Survive a three-minute city siege with automatic shooting, movement-based dodging, experience pickups and a choice of upgrades.
+  - Creator: [Sonic的奇思妙想](https://x.com/sonic0828)
+  - Platform: Browser; WASD or drag-to-move controls, automatic aiming; no login or download.
+  - GPT-6 Astra: [Creator statement](https://x.com/sonic0828/status/2097601232877781344) — The creator names GPT-6 Astra in the collection announcement and links this 3D survival build in its own reply. [Verification notes](assets/screenshots/zero-district-shells-3d/SOURCE.md).
+  - Resources: [Creator's release link](https://x.com/sonic0828/status/2097602391122264310)
+  - Preview: ![A survivor firing automatically at surrounding enemies in a city street, with 14 defeats and 166 seconds remaining.](assets/screenshots/zero-district-shells-3d/gameplay.jpg)
+
+- **[ASCII DISTRICT](https://ascii-district.vercel.app/)** — Fight waves of computer-virus enemies in a first-person arena rendered with ASCII characters, with sprinting, jumping and sliding.
+  - Creator: [Acker Code](https://x.com/acker_code)
+  - Platform: Desktop browser; keyboard and mouse, no login. Click the arena to capture the mouse; Esc releases it.
+  - GPT-6 Astra: [Creator statement](https://x.com/acker_code/status/2097542957070975286) — The creator explicitly credits Codex and GPT-6 Astra for building this ASCII-art shooter. [Verification notes](assets/screenshots/ascii-district/SOURCE.md).
+  - Preview: ![An ASCII courtyard with approaching virus enemies and the rifle HUD showing 29 rounds after firing.](assets/screenshots/ascii-district/gameplay.jpg)
+
 ### Puzzles & brain games
 
 Logic puzzles, physics challenges, word games, and clever little mechanisms.
@@ -164,6 +197,12 @@ Logic puzzles, physics challenges, word games, and clever little mechanisms.
   - GPT-6 Astra: [Creation record](https://github.com/derek-wangpch/OpenCityMaker/blob/master/docs/CREATION.md) — The creator reports using GPT-6 Astra to generate the procedural geometry for all 132 building models, through a reference-driven workflow of multi-view research, silhouette-first massing and screenshot validation; not a one-shot test.
   - Resources: [Source and setup](https://github.com/derek-wangpch/OpenCityMaker) · [Verification notes](https://github.com/derek-wangpch/OpenCityMaker/blob/master/QA.md) · Built with: React, TypeScript, Vite and Three.js; all 132 building models are original procedural geometry.
   - Preview: ![CityMaker gameplay: a Hong Kong board of low-poly 3D buildings on a 4×4 grid, with score, city rail and rotation controls.](assets/screenshots/citymaker/gameplay.png)
+
+- **[Bonkshot](https://bonkshot.com/)** — Pull back a slingshot and launch little Bonkers into wooden supports to topple structures and clear targets.
+  - Creator: [edmund5](https://x.com/edmund5)
+  - Platform: Browser; drag to aim and release to launch. Playable without signing in; Google sign-in is optional.
+  - GPT-6 Astra: [Creator statement](https://x.com/edmund5/status/2097603093819261002) — The creator credits GPT-6 Astra and Three.js for the game, with background music made using Suno. [Verification notes](assets/screenshots/bonkshot/SOURCE.md).
+  - Preview: ![The first Grasslands puzzle after a launch, showing a partly collapsed wooden tower, one remaining target and 2,200 points.](assets/screenshots/bonkshot/gameplay.jpg)
 
 ### Strategy & simulation
 
@@ -339,6 +378,19 @@ Role-playing, exploration, narrative adventures, and interactive stories.
   - GPT-6 Astra: [X](https://x.com/dharmautomo/status/2096573649235091967) — The creator says GPT-6 Astra helped him build the 3D adventure and shares a video of his children play-testing it. [Verification notes](assets/screenshots/anna-leo-starstone/SOURCE.md).
   - Preview: ![Anna and Leo’s 3D adventure world and quest interface.](assets/screenshots/anna-leo-starstone/gameplay.jpg)
 
+- **[The Legend of Deller](https://rain-court-js.umodeler-inc-4323.chatgpt.site/)** — Explore Rainmist Haven and venture toward dungeons with sword combos, elemental skills and evasive movement.
+  - Creator: [UModeler X PicoBerry](https://x.com/UModeler)
+  - Platform: Desktop browser; keyboard and mouse, no login. Allow the initial 3D assets to finish loading.
+  - GPT-6 Astra: [Creator statement](https://x.com/UModeler/status/2097792348407099553) — The creator says PicoBerry generated the assets and GPT-6 Astra built the surrounding Three.js action RPG. [Verification notes](assets/screenshots/the-legend-of-deller/SOURCE.md).
+  - Resources: [Creator's release link](https://x.com/UModeler/status/2097792351129178451)
+  - Preview: ![Deller dodging across Rainmist Haven beside a fountain and market stalls, with health, mana and skill controls.](assets/screenshots/the-legend-of-deller/gameplay.jpg)
+
+- **[Dungeon of Astra](https://wavedash.com/games/dungeon-of-astra)** — Recruit a party, descend a hundred-floor dungeon and combine sword attacks, fireballs and companion roles in a run with permadeath.
+  - Creator: [tonysuri / @tonysurix](https://x.com/tonysurix)
+  - Platform: Desktop browser on Wavedash; base game starts without sign-in. Optional accounts and paid early character unlocks are available.
+  - GPT-6 Astra: [Creator statement](https://x.com/tonysurix/status/2097873333551616355) — The creator explicitly says the party dungeon crawler was created with GPT-6 Astra. [Verification notes](assets/screenshots/dungeon-of-astra/SOURCE.md).
+  - Preview: ![The hero and a hired knight casting a fireball in the first dungeon floor, with party health and a minimap.](assets/screenshots/dungeon-of-astra/gameplay.jpg)
+
 ### Platformers & racing
 
 Parkour, platform challenges, racing, and games built around movement and routes.
@@ -427,6 +479,19 @@ Parkour, platform challenges, racing, and games built around movement and routes
   - Rights: Unofficial fan game; classic characters, images and music retain their respective owners’ rights. See the original game’s material credits.
   - Preview: ![Mario Mix II — video cover supplied by the creator, not a gameplay capture.](https://aha-xiaoq.github.io/games/mario-mix-2/cover.jpg)
   - Screenshot: ![Mario Mix II tank firing at the World 1-2 entrance; running version 1.0, captured 2026-09-09.](assets/screenshots/mario-mix-2/gameplay.jpg)
+
+- **[Bengaluru ORR Rush](https://orr-rush-bengaluru.ravitheja.chatgpt.site/)** — Race through Bengaluru traffic, dodge potholes and delivery bikes, and use boost or a sideways swing to make space.
+  - Creator: [Ravi Theja](https://x.com/ravithejads)
+  - Platform: Desktop browser; keyboard controls with optional auto-throttle, no login.
+  - GPT-6 Astra: [Creator statement](https://x.com/ravithejads/status/2097181044625887392) — The creator attributes the Bengaluru road-racing game to GPT-6 Astra. [Verification notes](assets/screenshots/bengaluru-orr-rush/SOURCE.md).
+  - Preview: ![The blue player car in Bengaluru traffic with race position, speed, timer and control hints visible.](assets/screenshots/bengaluru-orr-rush/gameplay.jpg)
+
+- **[SKICROSS — Alpine Downhill](https://iamsonic.net/2026/mini-games/skicross.html)** — Race three skiers down a mountain, clear gates and obstacles, and stay ahead of the avalanche.
+  - Creator: [Sonic的奇思妙想](https://x.com/sonic0828)
+  - Platform: Desktop browser; A/D steering, Space jump and Shift boost; no login or download.
+  - GPT-6 Astra: [Creator statement](https://x.com/sonic0828/status/2097601232877781344) — The creator attributes the mini-game collection to GPT-6 Astra and supplies this skiing game in a dedicated reply. [Verification notes](assets/screenshots/skicross/SOURCE.md).
+  - Resources: [Creator's release link](https://x.com/sonic0828/status/2097601732297814300)
+  - Preview: ![Four skiers on a snowy course with a gate bonus, race ranking, speed and avalanche-distance indicators.](assets/screenshots/skicross/gameplay.jpg)
 
 ### Experimental & multiplayer
 
