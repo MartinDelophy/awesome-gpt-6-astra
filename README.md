@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 74](https://img.shields.io/badge/Cases-74-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 84](https://img.shields.io/badge/Cases-84-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **A collection of interesting games made with GPT-6 Astra.**
 
@@ -20,11 +20,11 @@ Playful ideas, games you can try, and development stories that inspire the next 
 
 ## Start here
 
-Explore **74 games and interactive projects**: Three Kingdoms territory strategy, wooden interlocking and sliding puzzles, soft-body fruit merging, procedural city-building 2048, one-tap flight, magic-carpet combat, a five-stage bullet-hell shooter, island power-grid tower defense, wilderness survival, underwater fishing, sushi-restaurant management and island farming, Bay Circuit kart racing, coastal cycling with a pelican, tabletop toys turned into 3D games, 3D home decoration, and Orbital Garden. Click a title to play directly in your browser.
+Explore **84 games and interactive projects**: Three Kingdoms territory strategy, wooden interlocking and sliding puzzles, soft-body fruit merging, procedural city-building 2048, one-tap flight, magic-carpet combat, a five-stage bullet-hell shooter, island power-grid tower defense, wilderness survival, underwater fishing, sushi-restaurant management and island farming, Bay Circuit kart racing, coastal cycling with a pelican, tabletop toys turned into 3D games, 3D home decoration, and Orbital Garden. Click a title to play directly in your browser.
 
-Catalog updated: **2026-09-10**. Model attribution is based on creator or submitter statements; unconfirmed details are marked in individual entries. This date records catalog maintenance, not a new play-test of every game.
+Catalog updated: **2026-09-11**. Model attribution is based on creator or submitter statements; unconfirmed details are marked in individual entries. This date records catalog maintenance, not a new play-test of every game.
 
-Latest additions: [10 more browser games discovered on X](docs/direct-play-x-games-2026-09-10.md), with gameplay screenshots and access checks. [Previous 16 additions](docs/x-high-traffic-games-2026-09-09.md).
+Latest additions: [10 browser games from creator blogs, game communities and X](docs/browser-games-2026-09-11.md), with gameplay screenshots and access checks. [Previous 10 additions](docs/direct-play-x-games-2026-09-10.md) · [Earlier 16 additions](docs/x-high-traffic-games-2026-09-09.md).
 
 - **Looking for something to play?** Browse the genres below.
 - **Built a game?** [Submit your project](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) with a direct browser game link, a gameplay screenshot, and a description of how you used GPT-6 Astra.
@@ -167,6 +167,12 @@ Shooters, fighters, survival games, rhythm games, and anything that invites one 
   - GPT-6 Astra: [Creator statement](https://x.com/acker_code/status/2097542957070975286) — The creator explicitly credits Codex and GPT-6 Astra for building this ASCII-art shooter. [Verification notes](assets/screenshots/ascii-district/SOURCE.md).
   - Preview: ![An ASCII courtyard with approaching virus enemies and the rifle HUD showing 29 rounds after firing.](assets/screenshots/ascii-district/gameplay.jpg)
 
+- **[Aura Farming: Unbothered](https://www.aigameshare.com/games/aura-farming-game)** — Balance a dancing capybara on a dragonboat, lean against waves, and complete six moves before the 40-second timer expires.
+  - Creator: [nilni / @nil](https://www.aigameshare.com/profile/nil)
+  - Platform: Desktop browser; free play without sign-in. Click Play; account features are optional.
+  - GPT-6 Astra: [Creator listing](https://www.aigameshare.com/games/aura-farming-game) — The creator credits GPT-6 Astra and Codex for the game, alongside Blender, Three.js, ImageGen and WebAudio. [Verification notes](assets/screenshots/aura-farming/SOURCE.md).
+  - Preview: ![A capybara dancing on a dragonboat, with lean and brace controls and a six-move challenge HUD.](assets/screenshots/aura-farming/gameplay.jpg)
+
 ### Puzzles & brain games
 
 Logic puzzles, physics challenges, word games, and clever little mechanisms.
@@ -203,6 +209,12 @@ Logic puzzles, physics challenges, word games, and clever little mechanisms.
   - Platform: Browser; drag to aim and release to launch. Playable without signing in; Google sign-in is optional.
   - GPT-6 Astra: [Creator statement](https://x.com/edmund5/status/2097603093819261002) — The creator credits GPT-6 Astra and Three.js for the game, with background music made using Suno. [Verification notes](assets/screenshots/bonkshot/SOURCE.md).
   - Preview: ![The first Grasslands puzzle after a launch, showing a partly collapsed wooden tower, one remaining target and 2,200 points.](assets/screenshots/bonkshot/gameplay.jpg)
+
+- **[Greenhouse Escape Room: The Last Seed](https://www.aigameshare.com/games/greenhouse-escape-room)** — Explore a sealed greenhouse, restore copper water pipes, arrange plants and reflected light, and rescue its final seed.
+  - Creator: [nilni / @nil](https://www.aigameshare.com/profile/nil)
+  - Platform: Browser; click Play, then Begin. Free, no sign-in; English and Chinese controls.
+  - GPT-6 Astra: [Creator listing](https://www.aigameshare.com/games/greenhouse-escape-room) — The creator identifies GPT-6 Astra and Codex as development tools, with ImageGen and WebAudio. [Verification notes](assets/screenshots/greenhouse-escape-room/SOURCE.md).
+  - Preview: ![The Waterworks room of the greenhouse escape game, with a nine-tile pipe apparatus, timer and inventory.](assets/screenshots/greenhouse-escape-room/gameplay.jpg)
 
 ### Strategy & simulation
 
@@ -317,6 +329,18 @@ Tower defense, strategic card games, management games, building, and simulation 
   - References: [Submission](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/66) · [Verification notes](assets/screenshots/frontline-command/SOURCE.md)
   - Preview: ![Frontline Command: a base, three selected tanks and power-plant placement during a live match; v0.8, captured 2026-09-09.](assets/screenshots/frontline-command/gameplay.jpg)
 
+- **[Coin Pusher Roguelite: Mintfall](https://www.aigameshare.com/games/coin-pusher-roguelite-mintfall)** — Aim a 3D coin pusher, combine special coins and relics, and clear six rounds with limited drops and score targets.
+  - Creator: [nilni / @nil](https://www.aigameshare.com/profile/nil)
+  - Platform: Browser; click Play, free and no sign-in. Optional account saves.
+  - GPT-6 Astra: [Creator listing](https://www.aigameshare.com/games/coin-pusher-roguelite-mintfall) — The creator credits GPT-6 Astra together with GPT-5.6 Sol and Codex; the listing does not separate their contributions. [Verification notes](assets/screenshots/mintfall/SOURCE.md).
+  - Preview: ![Mintfall's 3D coin tray during round 1, showing 33 points, 44 drops and special-coin controls.](assets/screenshots/mintfall/gameplay.jpg)
+
+- **[Westward — The Oregon Trail](https://biswaz.me/westward/)** — Guide a wagon party west, ration food, manage repairs and hunting, and make decisions along the Oregon Trail.
+  - Creator: [Biswas](https://x.com/bis_waz)
+  - Platform: Desktop browser; start with the supplied fictional party, no sign-in or installation.
+  - GPT-6 Astra: [X](https://x.com/bis_waz/status/2098023593468907747) — Biswas says he used GPT-6 Astra to build this modern 3D version of The Oregon Trail and links the playable game. [Verification notes](assets/screenshots/westward/SOURCE.md).
+  - Preview: ![A wagon and oxen on the road to Kansas River, with 25 miles travelled and the expedition supply panel.](assets/screenshots/westward/gameplay.jpg)
+
 ### RPGs & adventures
 
 Role-playing, exploration, narrative adventures, and interactive stories.
@@ -396,6 +420,18 @@ Role-playing, exploration, narrative adventures, and interactive stories.
   - Platform: Desktop browser on Wavedash; base game starts without sign-in. Optional accounts and paid early character unlocks are available.
   - GPT-6 Astra: [Creator statement](https://x.com/tonysurix/status/2097873333551616355) — The creator explicitly says the party dungeon crawler was created with GPT-6 Astra. [Verification notes](assets/screenshots/dungeon-of-astra/SOURCE.md).
   - Preview: ![The hero and a hired knight casting a fireball in the first dungeon floor, with party health and a minimap.](assets/screenshots/dungeon-of-astra/gameplay.jpg)
+
+- **[Sunlandia — The Forgotten Shore](https://sunlandia.smallweblab.com/)** — Explore an island after a shipwreck, investigate clues in first person, and solve environmental puzzles on the way to the lighthouse.
+  - Creator: [Ramon Linares / Small Web Lab](https://github.com/RamonLinares)
+  - Platform: Desktop browser; wait for the island, then Begin expedition. Free, no account or installation.
+  - GPT-6 Astra: [Creator devlog](https://smallweblab.com/posts/sunlandia/) — The creator started with GPT-5.6 Sol, used help from Fable, and finished the game with GPT-6 Astra. [Verification notes](assets/screenshots/sunlandia/SOURCE.md).
+  - Preview: ![Sunlandia's first-person shore, showing the wreck, broken dock and the objective to look for help.](assets/screenshots/sunlandia/gameplay.jpg)
+
+- **[NÁCAR](https://nacar-microcosmo.preda2005.chatgpt.site/)** — Grow a microscopic organism inside a flooded snail shell, gather nutrients, and develop new body parts as you explore.
+  - Creator: [Marcio Lima / @Preda2005](https://x.com/Preda2005)
+  - Platform: Browser; free beta, no sign-in, with five UI languages including Chinese.
+  - GPT-6 Astra: [Creator thread](https://x.com/Preda2005/status/2097954217180921928) — Marcio says he described this organism-evolution idea to GPT-6 Astra and developed it into the linked beta. [Verification notes](assets/screenshots/nacar/SOURCE.md).
+  - Preview: ![A small cell among coloured nutrients, with biomass, evolution, inventory and explored-water controls.](assets/screenshots/nacar/gameplay.jpg)
 
 ### Platformers & racing
 
@@ -499,6 +535,24 @@ Parkour, platform challenges, racing, and games built around movement and routes
   - Resources: [Creator's release link](https://x.com/sonic0828/status/2097601732297814300)
   - Preview: ![Four skiers on a snowy course with a gate bonus, race ranking, speed and avalanche-distance indicators.](assets/screenshots/skicross/gameplay.jpg)
 
+- **[Itsy Bitsy Spider · One More Climb](https://game-bench.piccini.app/games/gpt-6-astra/)** — Climb a mossy wall, catch flies to restore grip, and hide in shelter holes before rain washes the spider away.
+  - Creator: [Luiz Piccini](https://piccini.app/)
+  - Platform: Browser; free, no sign-in. WASD or the on-screen joystick.
+  - GPT-6 Astra: [Creator's Game Bench](https://game-bench.piccini.app/) — Game Bench labels this published artifact GPT-6 Astra canary, high, dated 2026-09-05, built from its shared game brief. [Verification notes](assets/screenshots/itsy-bitsy-spider/SOURCE.md).
+  - Preview: ![A spider climbing a mossy brick wall at 2 metres, with grip, flies, a shelter and the movement joystick.](assets/screenshots/itsy-bitsy-spider/gameplay.jpg)
+
+- **[Desi Mayhem](https://desimayhem.com/)** — Race motorcycles through Indian city traffic, weaving around buses and autos while using kicks, punches and boosts.
+  - Creator: [Kishore](https://x.com/GetKishore)
+  - Platform: Desktop browser; free, no account. Accept or edit the generated rider nickname before the first ride.
+  - GPT-6 Astra: [Creator build thread](https://x.com/GetKishore/status/2097906401159102811) — Kishore describes iterating on the Astra-built 3D game using street references and repeated tests of traffic, crashes and rider combat. [Verification notes](assets/screenshots/desi-mayhem/SOURCE.md).
+  - Preview: ![A Chennai motorcycle race with the player rider, city traffic, minimap, position and race timer.](assets/screenshots/desi-mayhem/gameplay.jpg)
+
+- **[Cosmic Tides](https://app.usecrayon.ai/play/362ae1e7-29bd-4fbc-9103-00649265d942)** — Ride a craft across a galactic ocean, follow glowing gates, and choose a two-lap race or an endless drift.
+  - Creator: [Aniket J](https://x.com/aniketjart)
+  - Platform: Browser; wait for 3D assets, then Ride the current. Free, no sign-in.
+  - GPT-6 Astra: [X](https://x.com/aniketjart/status/2098207146647433534) — Aniket credits GPT-6 Astra, Blender MCP and Crayon for the game; he describes it as an experiment with further gameplay iteration planned. [Verification notes](assets/screenshots/cosmic-tides/SOURCE.md).
+  - Preview: ![Cosmic Tides in a running race, approaching a glowing gate over a galactic sea with lap and speed indicators.](assets/screenshots/cosmic-tides/gameplay.jpg)
+
 ### Experimental & multiplayer
 
 Unusual mechanics, online competition, and cooperative experiences.
@@ -541,6 +595,12 @@ Unusual mechanics, online competition, and cooperative experiences.
   - Platform: Browser; free, no login. Creator reports VPN/proxy access may be needed. Solo start checked; multiplayer not tested.
   - GPT-6 Astra: [Issue #52](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/52) — Creator reports: GPT-6 Astra Pro built the first version; GPT-6 Astra in Codex handled later improvements.
   - Preview: ![泡泡坦克大作战联机版 / Toon Tank Arena](https://github.com/user-attachments/assets/713d44f3-a77c-452c-ba6d-1231882dc670)
+
+- **[Above the Rooftops](https://app.usecrayon.ai/play/d09bb865-2259-42e2-86cc-fb609a9d6f28)** — Paint a kite and fly above city rooftops, balancing string tension in free flight or a timed sky-light challenge.
+  - Creator: [Tushar / @TusharXo](https://x.com/TusharXo)
+  - Platform: Browser; choose a character, enter the rooftop and select Fly. Free, no sign-in.
+  - GPT-6 Astra: [X](https://x.com/TusharXo/status/2098156783181467801) — Tushar explicitly credits GPT-6 Astra and Crayon for this Three.js kite game and mentions Images 2.5 for visuals. [Verification notes](assets/screenshots/above-the-rooftops/SOURCE.md).
+  - Preview: ![A kite-flying challenge above the city, with height, string tension, sky-light progress and steering controls.](assets/screenshots/above-the-rooftops/gameplay.jpg)
 
 ## What an entry includes
 
