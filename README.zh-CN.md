@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 74](https://img.shields.io/badge/Cases-74-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 84](https://img.shields.io/badge/Cases-84-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **收集用 GPT-6 Astra 制作的有趣游戏。**
 
@@ -20,11 +20,11 @@
 
 ## 从这里开始
 
-目前收录 **74 个游戏与互动作品**：三国领土策略、木锁拆解与华容道、半流体水果合成、程序化城市建造 2048、单键飞行、魔毯战斗、五关弹幕射击、海岛电网塔防、荒野生存、水下捕鱼、寿司店经营与海岛种植、海湾卡丁车竞速、鹈鹕海岸骑行、桌面玩具的 3D 改编、3D 家居装修，以及轨道花园。点击作品名称即可直接进入在线游戏。
+目前收录 **84 个游戏与互动作品**：三国领土策略、木锁拆解与华容道、半流体水果合成、程序化城市建造 2048、单键飞行、魔毯战斗、五关弹幕射击、海岛电网塔防、荒野生存、水下捕鱼、寿司店经营与海岛种植、海湾卡丁车竞速、鹈鹕海岸骑行、桌面玩具的 3D 改编、3D 家居装修，以及轨道花园。点击作品名称即可直接进入在线游戏。
 
-目录更新：**2026-09-10**。模型使用信息依据作者或投稿者的说明，未确认内容在具体条目中标注。此日期表示目录维护时间，不代表当天重新试玩了所有游戏。
+目录更新：**2026-09-11**。模型使用信息依据作者或投稿者的说明，未确认内容在具体条目中标注。此日期表示目录维护时间，不代表当天重新试玩了所有游戏。
 
-最新新增：[10 款在 X 上发现的在线游戏](docs/direct-play-x-games-2026-09-10.md)，附实机截图与入口核验。[此前新增的 16 款](docs/x-high-traffic-games-2026-09-09.md)。
+最新新增：[10 款来自作者博客、游戏社区与 X 的在线游戏](docs/browser-games-2026-09-11.md)，附实机截图与入口核验。[上一批 10 款](docs/direct-play-x-games-2026-09-10.md) · [此前新增的 16 款](docs/x-high-traffic-games-2026-09-09.md)。
 
 - **想玩游戏：** 从下面的分类寻找你喜欢的玩法。
 - **做了游戏：** [提交你的作品](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml)，附上在线游戏直达入口、实机截图，以及使用 GPT-6 Astra 的说明。
@@ -167,6 +167,12 @@
   - GPT-6 Astra: [作者说明](https://x.com/acker_code/status/2097542957070975286) — 作者明确说明使用 Codex 与 GPT-6 Astra 制作这款 ASCII 字符画射击游戏。 [核验记录](assets/screenshots/ascii-district/SOURCE.md).
   - 预览: ![ASCII 庭院中的病毒敌人向玩家靠近，步枪 HUD 显示开火后剩余 29 发子弹。](assets/screenshots/ascii-district/gameplay.jpg)
 
+- **[Aura Farming: Unbothered](https://www.aigameshare.com/games/aura-farming-game)** — 让跳舞的水豚在龙舟船头保持平衡，逆着波浪调整重心，在 40 秒内完成六个动作。
+  - 作者：[nilni / @nil](https://www.aigameshare.com/profile/nil)
+  - 平台：桌面浏览器；点击 Play 即可免费开玩，无需登录，账号功能可选。
+  - GPT-6 Astra：[作者发布页](https://www.aigameshare.com/games/aura-farming-game) — 作者注明使用 GPT-6 Astra 与 Codex 制作游戏，并列出 Blender、Three.js、ImageGen 和 WebAudio。 [核验记录](assets/screenshots/aura-farming/SOURCE.md)。
+  - 预览：![水豚在龙舟上跳舞，画面显示重心、左右倾斜与稳住按钮，以及六个动作的挑战进度。](assets/screenshots/aura-farming/gameplay.jpg)
+
 ### 解谜与益智
 
 逻辑谜题、物理解谜、文字游戏与巧妙的小机关。
@@ -203,6 +209,12 @@
   - 平台: 浏览器；拖动瞄准、松开发射，无需登录即可玩，Google 登录为可选功能。
   - GPT-6 Astra: [作者说明](https://x.com/edmund5/status/2097603093819261002) — 作者说明游戏使用 GPT-6 Astra 与 Three.js 制作，背景音乐由 Suno 生成。 [核验记录](assets/screenshots/bonkshot/SOURCE.md).
   - 预览: ![草原首关发射后的局面：木塔部分倒塌，剩余一个目标，得分 2,200。](assets/screenshots/bonkshot/gameplay.jpg)
+
+- **[Greenhouse Escape Room: The Last Seed](https://www.aigameshare.com/games/greenhouse-escape-room)** — 探索被风暴封闭的温室，通过修复铜水管、摆放植物与反射光线等谜题，救出最后一颗种子。
+  - 作者：[nilni / @nil](https://www.aigameshare.com/profile/nil)
+  - 平台：浏览器；点击 Play 后选择 Begin，免费且无需登录，支持中英文界面。
+  - GPT-6 Astra：[作者发布页](https://www.aigameshare.com/games/greenhouse-escape-room) — 作者将 GPT-6 Astra 与 Codex 列为开发工具，并注明使用 ImageGen 和 WebAudio。 [核验记录](assets/screenshots/greenhouse-escape-room/SOURCE.md)。
+  - 预览：![温室密室逃脱的 Waterworks 房间，展示九格水路装置、计时器与物品栏。](assets/screenshots/greenhouse-escape-room/gameplay.jpg)
 
 ### 策略与模拟
 
@@ -317,6 +329,18 @@
   - 相关资料: [投稿](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/66) · [核验记录（英文）](assets/screenshots/frontline-command/SOURCE.md)
   - 预览: ![前线指令实机画面：基地、三辆已选坦克与发电站放置操作；v0.8，拍摄于 2026-09-09。](assets/screenshots/frontline-command/gameplay.jpg)
 
+- **[Coin Pusher Roguelite: Mintfall](https://www.aigameshare.com/games/coin-pusher-roguelite-mintfall)** — 在 3D 推币机中瞄准投币，组合特殊硬币与遗物，用有限投币次数完成六轮分数目标。
+  - 作者：[nilni / @nil](https://www.aigameshare.com/profile/nil)
+  - 平台：浏览器；点击 Play 免费开玩，无需登录，账号存档为可选功能。
+  - GPT-6 Astra：[作者发布页](https://www.aigameshare.com/games/coin-pusher-roguelite-mintfall) — 作者明确列出 GPT-6 Astra、GPT-5.6 Sol 与 Codex，未逐项区分各模型的贡献。 [核验记录](assets/screenshots/mintfall/SOURCE.md)。
+  - 预览：![Mintfall 第一轮的 3D 推币盘，显示 33 分、44 次投币机会及特殊硬币操作。](assets/screenshots/mintfall/gameplay.jpg)
+
+- **[Westward — The Oregon Trail](https://biswaz.me/westward/)** — 带领马车队沿俄勒冈小道西行，分配食物、安排狩猎与修理，并处理旅途中的选择。
+  - 作者：[Biswas](https://x.com/bis_waz)
+  - 平台：桌面浏览器；可使用预填的虚构队员直接出发，无需登录或安装。
+  - GPT-6 Astra：[X](https://x.com/bis_waz/status/2098023593468907747) — Biswas 明确说明使用 GPT-6 Astra 制作这个现代 3D 版 Oregon Trail，并提供游戏入口。 [核验记录](assets/screenshots/westward/SOURCE.md)。
+  - 预览：![马车与牛沿通往 Kansas River 的道路前进，展示 25 英里进度及远征物资面板。](assets/screenshots/westward/gameplay.jpg)
+
 ### RPG 与冒险
 
 角色扮演、探索、叙事冒险与互动故事。
@@ -396,6 +420,18 @@
   - 平台: Wavedash 桌面浏览器版；基础游戏无需登录即可开始，另有可选账号功能与付费提前解锁角色。
   - GPT-6 Astra: [作者说明](https://x.com/tonysurix/status/2097873333551616355) — 作者明确说明这款小队地下城游戏使用 GPT-6 Astra 制作。 [核验记录](assets/screenshots/dungeon-of-astra/SOURCE.md).
   - 预览: ![英雄与招募的骑士在地牢第一层施放火球，界面显示队伍生命与小地图。](assets/screenshots/dungeon-of-astra/gameplay.jpg)
+
+- **[Sunlandia — The Forgotten Shore](https://sunlandia.smallweblab.com/)** — 以第一人称探索沉船后的孤岛，调查线索、解开环境谜题，并寻找通往灯塔的道路。
+  - 作者：[Ramon Linares / Small Web Lab](https://github.com/RamonLinares)
+  - 平台：桌面浏览器；等待岛屿加载后点击 Begin expedition。免费，无需账号或安装。
+  - GPT-6 Astra：[作者开发日志](https://smallweblab.com/posts/sunlandia/) — 作者说明项目先用 GPT-5.6 Sol 开发，期间获得 Fable 协助，最终使用 GPT-6 Astra 完成。 [核验记录](assets/screenshots/sunlandia/SOURCE.md)。
+  - 预览：![Sunlandia 第一人称海岸画面，展示沉船、破损码头与寻找援助的任务。](assets/screenshots/sunlandia/gameplay.jpg)
+
+- **[NÁCAR](https://nacar-microcosmo.preda2005.chatgpt.site/)** — 在浸水的蜗牛壳中扮演微生物，吞食营养、探索微观水域，并逐渐进化出新的身体部件。
+  - 作者：[Marcio Lima / @Preda2005](https://x.com/Preda2005)
+  - 平台：浏览器；免费测试版，无需登录，提供包括中文在内的五种界面语言。
+  - GPT-6 Astra：[作者发布串](https://x.com/Preda2005/status/2097954217180921928) — Marcio 说明将这个微生物进化创意交给 GPT-6 Astra，并逐步制作成公开的游戏测试版。 [核验记录](assets/screenshots/nacar/SOURCE.md)。
+  - 预览：![小细胞位于彩色营养物之间，画面显示生物量、进化入口、背包与已探索水域。](assets/screenshots/nacar/gameplay.jpg)
 
 ### 平台跳跃与竞速
 
@@ -499,6 +535,24 @@
   - 开发资料: [作者发布链接](https://x.com/sonic0828/status/2097601732297814300)
   - 预览: ![四名滑雪者在雪道竞速，画面显示过门奖励、名次、速度和雪崩距离。](assets/screenshots/skicross/gameplay.jpg)
 
+- **[Itsy Bitsy Spider · One More Climb](https://game-bench.piccini.app/games/gpt-6-astra/)** — 爬上长满苔藓的墙壁，捕食飞虫恢复抓力，并在雨水到来前藏进洞穴。
+  - 作者：[Luiz Piccini](https://piccini.app/)
+  - 平台：浏览器；免费，无需登录，可用 WASD 或屏幕摇杆操作。
+  - GPT-6 Astra：[作者 Game Bench 页面](https://game-bench.piccini.app/) — Game Bench 将这个公开作品标记为 GPT-6 Astra canary、high，运行日期为 2026-09-05，依据统一游戏题目制作。 [核验记录](assets/screenshots/itsy-bitsy-spider/SOURCE.md)。
+  - 预览：![蜘蛛爬到苔藓砖墙的 2 米位置，旁边显示抓力、飞虫、躲雨洞穴与移动摇杆。](assets/screenshots/itsy-bitsy-spider/gameplay.jpg)
+
+- **[Desi Mayhem](https://desimayhem.com/)** — 骑摩托穿行印度城市道路，在公交车与三轮车之间竞速，并使用踢击、拳击和加速。
+  - 作者：[Kishore](https://x.com/GetKishore)
+  - 平台：桌面浏览器；免费，无需账号，首次骑行需确认系统生成的骑手昵称，也可修改。
+  - GPT-6 Astra：[作者开发串](https://x.com/GetKishore/status/2097906401159102811) — Kishore 记录了使用 Astra 制作 3D 游戏，再结合街道参考图反复调整交通、碰撞与骑手战斗的过程。 [核验记录](assets/screenshots/desi-mayhem/SOURCE.md)。
+  - 预览：![Chennai 摩托竞速实机画面，包含玩家骑手、城市交通、地图、名次与比赛倒计时。](assets/screenshots/desi-mayhem/gameplay.jpg)
+
+- **[Cosmic Tides](https://app.usecrayon.ai/play/362ae1e7-29bd-4fbc-9103-00649265d942)** — 驾驶载具穿越银河海面，追逐发光路线门，可选择两圈竞速或无尽漂流。
+  - 作者：[Aniket J](https://x.com/aniketjart)
+  - 平台：浏览器；等待 3D 资源加载后点击 Ride the current，免费且无需登录。
+  - GPT-6 Astra：[X](https://x.com/aniketjart/status/2098207146647433534) — Aniket 说明游戏使用 GPT-6 Astra、Blender MCP 与 Crayon 制作，并表示仍会继续迭代玩法。 [核验记录](assets/screenshots/cosmic-tides/SOURCE.md)。
+  - 预览：![Cosmic Tides 竞速中的银河海面与发光路线门，画面显示圈数、速度和剩余距离。](assets/screenshots/cosmic-tides/gameplay.jpg)
+
 ### 实验玩法与多人游戏
 
 难以归类的新玩法、联机对战与合作体验。
@@ -541,6 +595,12 @@
   - 平台: 浏览器，免费、无需登录；作者提示可能需要 VPN／代理。已验证单人启动，联机未实测。
   - GPT-6 Astra: [Issue #52](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/52) — 作者说明： 第一版由 GPT-6 Astra Pro 完成，后续由 Codex 中的 GPT-6 Astra 优化。
   - 预览: ![泡泡坦克大作战联机版 / Toon Tank Arena](https://github.com/user-attachments/assets/713d44f3-a77c-452c-ba6d-1231882dc670)
+
+- **[Above the Rooftops](https://app.usecrayon.ai/play/d09bb865-2259-42e2-86cc-fb609a9d6f28)** — 涂绘风筝并在城市屋顶上放飞，控制风筝线张力，体验自由飞行或限时收集天空光点的挑战。
+  - 作者：[Tushar / @TusharXo](https://x.com/TusharXo)
+  - 平台：浏览器；选择角色进入屋顶，再选择 Fly 开玩。免费，无需登录。
+  - GPT-6 Astra：[X](https://x.com/TusharXo/status/2098156783181467801) — Tushar 明确说明使用 GPT-6 Astra 与 Crayon 制作这个 Three.js 风筝游戏，并提到 Images 2.5 的视觉素材。 [核验记录](assets/screenshots/above-the-rooftops/SOURCE.md)。
+  - 预览：![城市屋顶上的风筝挑战，展示高度、线张力、天空光点进度与转向控制。](assets/screenshots/above-the-rooftops/gameplay.jpg)
 
 ## 每个作品记录什么
 
