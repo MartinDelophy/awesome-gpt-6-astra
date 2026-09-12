@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 49](https://img.shields.io/badge/Cases-49-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 86](https://img.shields.io/badge/Cases-86-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **GPT-6 Astra से बनाए गए दिलचस्प गेमों का संग्रह।**
 
@@ -22,7 +22,7 @@
 
 ## यहाँ से शुरू करें
 
-यहाँ **49 खेल और इंटरैक्टिव परियोजनाएँ** शामिल हैं: तीन राज्यों की क्षेत्रीय रणनीति, एक-दूसरे में फँसे लकड़ी के टुकड़ों और खिसकने वाले ब्लॉकों की पहेलियाँ, मुलायम फलों को मिलाना, एक बटन से उड़ान, जादुई कालीन पर लड़ाई, बिजली के नेटवर्क से द्वीप की रक्षा, जंगल में जीवित रहना, पानी के नीचे मछली पकड़ना, सुशी रेस्तराँ चलाना और द्वीप पर खेती करना, Bay Circuit पर कार्ट रेसिंग, पेलिकन के साथ तट पर साइकिल चलाना, टेबलटॉप खिलौनों के 3D रूपांतरण और Orbital Garden। किसी शीर्षक पर क्लिक करके सीधे ब्राउज़र में गेम खेलें।
+यहाँ **86 खेल और इंटरैक्टिव परियोजनाएँ** शामिल हैं: तीन राज्यों की क्षेत्रीय रणनीति, एक-दूसरे में फँसे लकड़ी के टुकड़ों और खिसकने वाले ब्लॉकों की पहेलियाँ, मुलायम फलों को मिलाना, प्रक्रियात्मक शहर निर्माण वाला 2048, एक बटन से उड़ान, जादुई कालीन पर लड़ाई, पाँच स्तरों वाला बुलेट-हेल शूटर, बिजली के नेटवर्क से द्वीप की रक्षा, जंगल में जीवित रहना, पानी के नीचे मछली पकड़ना, सुशी रेस्तराँ चलाना और द्वीप पर खेती करना, Bay Circuit पर कार्ट रेसिंग, पेलिकन के साथ तट पर साइकिल चलाना, टेबलटॉप खिलौनों के 3D रूपांतरण, 3D घर की सजावट और Orbital Garden। किसी शीर्षक पर क्लिक करके सीधे ब्राउज़र में गेम खेलें।
 
 सूची अपडेट: **2026-09-12**। मॉडल के उपयोग की जानकारी रचनाकारों या प्रस्तुतकर्ताओं के कथनों पर आधारित है; अपुष्ट विवरण संबंधित प्रविष्टियों में चिह्नित हैं। यह तारीख सूची के रखरखाव की है, सभी गेमों के दोबारा परीक्षण की नहीं।
 
@@ -110,6 +110,70 @@
   - GPT-6 Astra: [X](https://x.com/jumperz/status/2096600055301984738) — लेखक ने इस परियोजना के विकास में Astra के उपयोग की जानकारी दी है। [जाँच विवरण (अंग्रेज़ी)](assets/screenshots/cinderfall/SOURCE.md).
   - पूर्वावलोकन: ![Cinderfall · Fire, Shadow & Steel](assets/screenshots/cinderfall/gameplay.jpg)
 
+- **[Oz Breakdance](https://satriodewantono.com/breakdance/)** — ढीले जोड़ों वाले रैगडॉल नर्तक के हाथ-पैर खींचकर सही लक्ष्यों तक पहुँचाएँ, अंक पाएँ और समय-सीमित ब्रेकडांस राउंड को लंबा करें।
+  - निर्माता: [Satrio](https://x.com/satrio_d)
+  - प्लैटफ़ॉर्म: डेस्कटॉप ब्राउज़र, माउस नियंत्रण; बिना साइन इन किए समय-सीमित राउंड शुरू हुआ।
+  - GPT-6 Astra: [X](https://x.com/satrio_d/status/2096022866097758500) — निर्माता के अनुसार Astra ने उनके पहले से बने ब्रेकडांस गेम और उसकी प्रस्तुति को बेहतर किया। [सत्यापन टिप्पणियाँ](assets/screenshots/breakdance/SOURCE.md).
+  - पूर्वावलोकन: ![समय-सीमित ब्रेकडांस अखाड़े में पैर के लक्ष्य तक पहुँचने की कोशिश करता रैगडॉल नर्तक।](assets/screenshots/breakdance/gameplay.jpg)
+
+- **[Astral War](https://astralwar.io/)** — द्वितीय विश्व युद्ध की थीम वाला ब्राउज़र FPS, जिसमें सैनिक और ज़ॉम्बी के रूप, हथियारों के लोडआउट, बॉट प्रशिक्षण और लॉबी विकल्प हैं।
+  - निर्माता: [Rishi](https://x.com/0xRishi)
+  - प्लैटफ़ॉर्म: डेस्कटॉप ब्राउज़र, कीबोर्ड और माउस; बिना साइन इन किए बॉट प्रशिक्षण शुरू हुआ। मल्टीप्लेयर और कंट्रोलर समर्थन का परीक्षण नहीं किया गया।
+  - GPT-6 Astra: [X](https://x.com/0xRishi/status/2096079660605997264) — Rishi के अनुसार Astral War को Astra, Three.js, Meshy और ElevenLabs से बनाया गया। मौजूदा साइट में Vesper का भी श्रेय है; योगदान संबंधी टिप्पणी देखें। [सत्यापन टिप्पणियाँ](assets/screenshots/astral-war/SOURCE.md).
+  - पूर्वावलोकन: ![Astral War में चल रही लड़ाई का दृश्य, हथियार और युद्धक्षेत्र के नियंत्रण।](assets/screenshots/astral-war/gameplay.jpg)
+
+- **[FLOP CLUB](https://bubucn.com/ai-model-evals/flop-club/game/index.html)** — तीन ऊँचाइयों वाले मंचों से गोता लगाएँ, कलाबाज़ियाँ और घुमाव करें, और पानी में तैरते छल्ले को निशाना बनाकर उतरने का स्कोर बढ़ाएँ।
+  - निर्माता: [BubuAi](https://x.com/BubuStd)
+  - प्लैटफ़ॉर्म: ब्राउज़र; गेम का स्वतंत्र पेज बिना साइन इन या डाउनलोड के सीधे शुरू होता है। 2026-09-09 की जाँच में गोता शुरू किया गया; कीबोर्ड और दस्तावेज़ों में बताए गए टच नियंत्रण उपलब्ध हैं।
+  - GPT-6 Astra: [X](https://x.com/BubuStd/status/2096402783805354091) — निर्माता के अनुसार यह Three.js का इस्तेमाल करके Astra Pro को एक ही प्रॉम्प्ट देकर बनाया गया था। [सत्यापन टिप्पणियाँ](assets/screenshots/flop-club/SOURCE.md).
+  - संसाधन: [प्रोजेक्ट परिचय](https://bubucn.com/zh/ai-model-evals/flop-club)
+  - पूर्वावलोकन: ![लक्ष्य वाले छल्ले के ऊपर ऊँचे मंच पर खड़ा गोताखोर और पानी में उतरने के नियंत्रण।](assets/screenshots/flop-club/gameplay.jpg)
+
+- **[Vector Dive — Beyond the Signal](https://vector-dive.openai.chatgpt.site/)** — हर चक्कर के साथ तेज़ होते नियोन वायरफ़्रेम रास्तों पर उड़ान भरें और बूस्ट व फ़ेज़ मूव का समय साधकर अधिक देर तक टिके रहें।
+  - निर्माता: [Thomas Ricouard](https://x.com/Dimillian)
+  - प्लैटफ़ॉर्म: डेस्कटॉप ब्राउज़र; बिना साइन इन किए स्कोर वाली उड़ान शुरू हुई। WASD से उड़ान, Space से बूस्ट और Shift से फ़ेज़ मूव।
+  - GPT-6 Astra: [X](https://x.com/Dimillian/status/2097188900888322323) — निर्माता के अनुसार Astra ने नियोन/सिंथवेव शैली के दृश्य निर्देश और कॉन्सेप्ट आर्ट से गेम और संगीत बनाया। [सत्यापन टिप्पणियाँ](assets/screenshots/vector-dive/SOURCE.md).
+  - पूर्वावलोकन: ![खिलाड़ी के यान और गेम HUD के साथ Vector Dive का नियोन उड़ान मार्ग।](assets/screenshots/vector-dive/gameplay.jpg)
+
+- **[Harbor Skirmish](https://gpt6astra-game.vercel.app/)** — तीन हथियारों, छतों वाले रास्तों, डैश और ग्रैपल हुक से समुद्रतटीय कस्बे को उत्पाती खरगोशों की लहरों से बचाएँ।
+  - निर्माता: [OpenDesign](https://x.com/OpenDesignHQ)
+  - प्लैटफ़ॉर्म: डेस्कटॉप ब्राउज़र; कीबोर्ड और माउस, बिना लॉगिन या डाउनलोड के।
+  - GPT-6 Astra: [निर्माता का वक्तव्य](https://x.com/OpenDesignHQ/status/2097635757917983223) — OpenDesign ने दो मॉडलों की तुलना में इस Three.js गेम को GPT-6 Astra से बना संस्करण बताया है। [सत्यापन टिप्पणियाँ](assets/screenshots/harbor-skirmish/SOURCE.md).
+  - पूर्वावलोकन: ![Seabreeze कस्बे का प्रथम-व्यक्ति राइफ़ल दृश्य, पास आते खरगोश, लहरों का काउंटर और हथियार नियंत्रण।](assets/screenshots/harbor-skirmish/gameplay.jpg)
+
+- **[UNDERGROUND — Underground Boxing](https://iamsonic.net/2026/mini-games/underground-boxing.html)** — भूमिगत 3D रिंग में तीन समय-सीमित बॉक्सिंग राउंड खेलें और मुक्कों, बचाव, चकमा देने तथा स्टैमिना के बीच संतुलन रखें।
+  - निर्माता: [Sonic的奇思妙想](https://x.com/sonic0828)
+  - प्लैटफ़ॉर्म: डेस्कटॉप ब्राउज़र; WASD से चलें, J/K से मुक्के मारें, L से बचाव और Space से चकमा दें; लॉगिन या डाउनलोड नहीं चाहिए।
+  - GPT-6 Astra: [निर्माता का वक्तव्य](https://x.com/sonic0828/status/2097601232877781344) — निर्माता ने अपनी गेम प्रदर्शन पोस्ट शृंखला में इन मिनी-गेमों को बनाने के लिए GPT-6 Astra का नाम दिया है; बॉक्सिंग वाला जवाब इसी संस्करण का लिंक देता है। [सत्यापन टिप्पणियाँ](assets/screenshots/underground-boxing/SOURCE.md).
+  - संसाधन: [निर्माता का रिलीज़ लिंक](https://x.com/sonic0828/status/2097601584410796401)
+  - पूर्वावलोकन: ![रोशन भूमिगत रिंग में मुक्के लड़ाते दो बॉक्सर, राउंड टाइमर, स्वास्थ्य पट्टियाँ और स्टैमिना।](assets/screenshots/underground-boxing/gameplay.jpg)
+
+- **[Urban Champion 3D](https://iamsonic.net/2026/mini-games/urban-champion.html)** — सूर्यास्त के समय सड़क पर ऊँचे और नीचे मुक्के चलाएँ, जवाबी वार रोकें और गिरते गमलों से बचते हुए प्रतिद्वंद्वी को मैनहोल में धकेलें।
+  - निर्माता: [Sonic的奇思妙想](https://x.com/sonic0828)
+  - प्लैटफ़ॉर्म: डेस्कटॉप ब्राउज़र; A/D से चलें, J/K से मुक्के, U/I से बचाव और Space से चकमा; लॉगिन नहीं चाहिए।
+  - GPT-6 Astra: [निर्माता का वक्तव्य](https://x.com/sonic0828/status/2097601232877781344) — निर्माता की GPT-6 Astra गेम प्रदर्शनी में इस सड़क की लड़ाई वाले गेम के लिंक के साथ अलग रिलीज़ जवाब शामिल है। [सत्यापन टिप्पणियाँ](assets/screenshots/urban-champion-3d/SOURCE.md).
+  - संसाधन: [निर्माता का रिलीज़ लिंक](https://x.com/sonic0828/status/2097601861658587376)
+  - पूर्वावलोकन: ![Sunset Mart के सामने लड़ते नीले और लाल पात्र, राउंड टाइमर और स्टैमिना पट्टियाँ।](assets/screenshots/urban-champion-3d/gameplay.jpg)
+
+- **[Zero District — Shells 3D](https://iamsonic.net/2026/mini-games/shells-3d/play.html)** — स्वचालित गोलीबारी, चलकर चकमा देने, अनुभव बटोरने और अपग्रेड चुनने के साथ शहर की तीन मिनट की घेराबंदी में जीवित रहें।
+  - निर्माता: [Sonic的奇思妙想](https://x.com/sonic0828)
+  - प्लैटफ़ॉर्म: ब्राउज़र; WASD या खींचकर चलने का नियंत्रण, स्वचालित निशाना; लॉगिन या डाउनलोड नहीं चाहिए।
+  - GPT-6 Astra: [निर्माता का वक्तव्य](https://x.com/sonic0828/status/2097601232877781344) — निर्माता ने संग्रह की घोषणा में GPT-6 Astra का नाम दिया और अलग जवाब में इस 3D सर्वाइवल संस्करण का लिंक साझा किया। [सत्यापन टिप्पणियाँ](assets/screenshots/zero-district-shells-3d/SOURCE.md).
+  - संसाधन: [निर्माता का रिलीज़ लिंक](https://x.com/sonic0828/status/2097602391122264310)
+  - पूर्वावलोकन: ![शहर की सड़क पर घिरे दुश्मनों पर अपने-आप गोली चलाता पात्र, 14 पराजित दुश्मन और 166 सेकंड शेष।](assets/screenshots/zero-district-shells-3d/gameplay.jpg)
+
+- **[ASCII DISTRICT](https://ascii-district.vercel.app/)** — ASCII अक्षरों से बने प्रथम-व्यक्ति अखाड़े में दौड़ने, कूदने और फिसलने का इस्तेमाल कर कंप्यूटर वायरस दुश्मनों की लहरों से लड़ें।
+  - निर्माता: [Acker Code](https://x.com/acker_code)
+  - प्लैटफ़ॉर्म: डेस्कटॉप ब्राउज़र; कीबोर्ड और माउस, बिना लॉगिन के। माउस लॉक करने के लिए अखाड़े पर क्लिक करें; Esc से छोड़ें।
+  - GPT-6 Astra: [निर्माता का वक्तव्य](https://x.com/acker_code/status/2097542957070975286) — निर्माता ने इस ASCII कला वाले शूटर को बनाने के लिए स्पष्ट रूप से Codex और GPT-6 Astra को श्रेय दिया है। [सत्यापन टिप्पणियाँ](assets/screenshots/ascii-district/SOURCE.md).
+  - पूर्वावलोकन: ![पास आते वायरस दुश्मनों वाला ASCII आँगन, और गोली चलाने के बाद 29 कारतूस दिखाता राइफ़ल HUD।](assets/screenshots/ascii-district/gameplay.jpg)
+
+- **[Aura Farming: Unbothered](https://www.aigameshare.com/games/aura-farming-game)** — ड्रैगन बोट पर नाचते कैपीबारा का संतुलन बनाएँ, लहरों के विरुद्ध झुकें और 40 सेकंड का टाइमर समाप्त होने से पहले छह चालें पूरी करें।
+  - निर्माता: [nilni / @nil](https://www.aigameshare.com/profile/nil)
+  - प्लैटफ़ॉर्म: डेस्कटॉप ब्राउज़र; बिना साइन इन किए मुफ़्त खेलें। Play क्लिक करें; खाते की सुविधाएँ वैकल्पिक हैं।
+  - GPT-6 Astra: [निर्माता का गेम पेज](https://www.aigameshare.com/games/aura-farming-game) — निर्माता ने गेम के लिए GPT-6 Astra और Codex के साथ Blender, Three.js, ImageGen और WebAudio को श्रेय दिया है। [सत्यापन टिप्पणियाँ](assets/screenshots/aura-farming/SOURCE.md).
+  - पूर्वावलोकन: ![ड्रैगन बोट पर नाचता कैपीबारा, झुकने और टिके रहने के नियंत्रण, तथा छह चालों की चुनौती का HUD।](assets/screenshots/aura-farming/gameplay.jpg)
+
 <a id="puzzles"></a>
 
 ### पहेलियाँ और दिमागी खेल
@@ -135,6 +199,25 @@
   - मॉडल की भागीदारी: [निर्माण का रिकॉर्ड](works/sunjing-puzzles/CREATION.md) — Codex में गेम डिज़ाइन, प्रक्रियात्मक 3D ग्राफ़िक्स, नियम, पहेली हल करने की प्रणाली और परीक्षणों पर कई चरणों में काम किया गया। GPT-6 Astra के सटीक उपयोग की पुष्टि रचनाकार से होनी बाकी है (प्रारूप के रूप में प्रस्तुति)।
   - विकास संसाधन: [स्रोत कोड और चलाने के निर्देश](works/sunjing-puzzles/README.md) · [आवश्यकताएँ](works/sunjing-puzzles/PROMPTS.md) · तकनीक: React, Vinext/Vite, Three.js.
   - पूर्वावलोकन: ![हरे 3D कार्यमेज पर Sunjing की छह टुकड़ों वाली लकड़ी की पहेली, टुकड़ों के नंबर और उन्हें निकालने के नियंत्रण।](assets/screenshots/sunjing-puzzles/gameplay.jpg)
+
+- **[CityMaker](https://citymaker.0to1app.com)** — 4×4 शहरी ब्लॉक पर खेला जाने वाला 2048 पज़ल: एक जैसे भवन जोड़कर हर शहर में पारंपरिक घरों से पहचानी जाने वाली स्काईलाइन तक ग्यारह वास्तु स्तर चढ़ें। बारह शहर उपलब्ध हैं और दृश्य को हर बार 45° घुमाया जा सकता है।
+  - निर्माता: [Derek Wang](https://github.com/derek-wangpch)
+  - प्लैटफ़ॉर्म: WebGL वाले डेस्कटॉप और मोबाइल ब्राउज़र; अंग्रेज़ी, सरलीकृत चीनी और पारंपरिक चीनी। मुफ़्त, बिना लॉगिन या API कुंजी के; हर शहर की प्रगति मौजूदा ब्राउज़र में सहेजी जाती है। iOS की होम स्क्रीन पर इंस्टॉल किया जा सकता है।
+  - GPT-6 Astra: [निर्माण का विवरण](https://github.com/derek-wangpch/OpenCityMaker/blob/master/docs/CREATION.md) — निर्माता के अनुसार सभी 132 भवन मॉडलों की प्रक्रियात्मक ज्यामिति GPT-6 Astra से बनाई गई। संदर्भों पर आधारित प्रक्रिया में कई कोणों से अध्ययन, पहले बाहरी आकृति के अनुसार भवन के आयतन बनाना और स्क्रीनशॉट से सत्यापन शामिल था; यह एक ही प्रॉम्प्ट वाला परीक्षण नहीं था।
+  - संसाधन: [स्रोत कोड और सेटअप](https://github.com/derek-wangpch/OpenCityMaker) · [सत्यापन टिप्पणियाँ](https://github.com/derek-wangpch/OpenCityMaker/blob/master/QA.md) · इस्तेमाल की गई तकनीकें: React, TypeScript, Vite और Three.js; सभी 132 भवन मॉडल मौलिक प्रक्रियात्मक ज्यामिति से बने हैं।
+  - पूर्वावलोकन: ![CityMaker का हांगकांग बोर्ड: 4×4 ग्रिड पर कम-पॉलीगॉन वाले 3D भवन, स्कोर, शहर चुनने की पट्टी और घुमाने के नियंत्रण।](assets/screenshots/citymaker/gameplay.png)
+
+- **[Bonkshot](https://bonkshot.com/)** — गुलेल पीछे खींचें और छोटे Bonker को लकड़ी के सहारों पर छोड़कर ढाँचे गिराएँ और लक्ष्य हटाएँ।
+  - निर्माता: [edmund5](https://x.com/edmund5)
+  - प्लैटफ़ॉर्म: ब्राउज़र; निशाना लगाने के लिए खींचें और छोड़कर दागें। बिना साइन इन किए खेल सकते हैं; Google साइन इन वैकल्पिक है।
+  - GPT-6 Astra: [निर्माता का वक्तव्य](https://x.com/edmund5/status/2097603093819261002) — निर्माता ने गेम के लिए GPT-6 Astra और Three.js को श्रेय दिया है, जबकि पृष्ठभूमि संगीत Suno से बनाया गया। [सत्यापन टिप्पणियाँ](assets/screenshots/bonkshot/SOURCE.md).
+  - पूर्वावलोकन: ![पहले Grasslands पज़ल में प्रक्षेपण के बाद आंशिक रूप से गिरा लकड़ी का टावर, एक बचा लक्ष्य और 2,200 अंक।](assets/screenshots/bonkshot/gameplay.jpg)
+
+- **[Greenhouse Escape Room: The Last Seed](https://www.aigameshare.com/games/greenhouse-escape-room)** — बंद ग्रीनहाउस का अन्वेषण करें, ताँबे की पानी की पाइपें ठीक करें, पौधों और परावर्तित प्रकाश को व्यवस्थित करें और उसका अंतिम बीज बचाएँ।
+  - निर्माता: [nilni / @nil](https://www.aigameshare.com/profile/nil)
+  - प्लैटफ़ॉर्म: ब्राउज़र; Play, फिर Begin क्लिक करें। मुफ़्त, बिना साइन इन के; अंग्रेज़ी और चीनी में नियंत्रण।
+  - GPT-6 Astra: [निर्माता का गेम पेज](https://www.aigameshare.com/games/greenhouse-escape-room) — निर्माता ने GPT-6 Astra और Codex को विकास के उपकरण बताया है, साथ में ImageGen और WebAudio भी हैं। [सत्यापन टिप्पणियाँ](assets/screenshots/greenhouse-escape-room/SOURCE.md).
+  - पूर्वावलोकन: ![ग्रीनहाउस एस्केप गेम का Waterworks कमरा, नौ टाइलों वाला पाइप उपकरण, टाइमर और इन्वेंटरी।](assets/screenshots/greenhouse-escape-room/gameplay.jpg)
 
 <a id="strategy-simulation"></a>
 
@@ -227,6 +310,24 @@
   - संसाधन: [GitHub](https://github.com/LucasMarquesShiva/the-free-game)
   - पूर्वावलोकन: ![The Free Game](assets/screenshots/the-free-game/gameplay.jpg)
 
+- **[AGI of Empires — The Compute Wars](https://agiofempires.com/)** — फ़ंडिंग और GPU जुटाएँ, डेटा सेंटर और सेनाएँ बनाएँ, और प्रतिद्वंद्वी AI प्रयोगशालाओं से पहले ASI तक पहुँचें या उनके मुख्यालय नष्ट करें।
+  - निर्माता: [timour kosters](https://x.com/timourxyz)
+  - प्लैटफ़ॉर्म: डेस्कटॉप ब्राउज़र; मुफ़्त व्यंग्यात्मक रीयल-टाइम रणनीति गेम। कंप्यूटर के विरुद्ध शुरुआती मैच और संसाधन संग्रह को बिना साइन इन किए सत्यापित किया गया।
+  - GPT-6 Astra: [X](https://x.com/timourxyz/status/2096662786692776293) — निर्माता के अनुसार उन्होंने Age of Empires से प्रेरित यह गेम Astra के साथ दो दिनों में विकसित किया। [सत्यापन टिप्पणियाँ](assets/screenshots/agi-of-empires/SOURCE.md).
+  - पूर्वावलोकन: ![AGI of Empires का युद्धक्षेत्र, संसाधन काउंटर और मुख्यालय।](assets/screenshots/agi-of-empires/gameplay.jpg)
+
+- **[Atlas Go](https://atlas-go.borisxp.chatgpt.site/)** — सड़कों के नेटवर्क और अनोखे ग्राफ़ बोर्ड पर गो खेलें; एक ही डिवाइस पर बारी-बारी खेलने और दोस्तों के साथ मैच के विकल्प हैं।
+  - निर्माता: [Boris Power](https://x.com/BorisMPower)
+  - प्लैटफ़ॉर्म: ब्राउज़र; स्थानीय बोर्ड बिना साइन इन किए खुला। दोस्तों के साथ ऑनलाइन मैच का परीक्षण नहीं किया गया।
+  - GPT-6 Astra: [X](https://x.com/BorisMPower/status/2096784808399843582) — निर्माता के अनुसार मनमाने ग्राफ़ पर चलने वाला यह मल्टीप्लेयर गो गेम Astra को एक ही प्रॉम्प्ट देकर बनाया गया। [सत्यापन टिप्पणियाँ](assets/screenshots/atlas-go/SOURCE.md).
+  - पूर्वावलोकन: ![Atlas Go के मधुमक्खी के छत्ते जैसे ग्राफ़ बोर्ड पर काले और सफ़ेद मोहरे।](assets/screenshots/atlas-go/gameplay.jpg)
+
+- **[Ironwood — The Art of Industry](https://ironwood.sparkles.dev/)** — कच्चा माल इकट्ठा करें, मशीनों को बिजली दें और कन्वेयर बेल्ट जोड़कर खुली जगह को चलती हुई फ़ैक्टरी में बदलें।
+  - निर्माता: [Dan](https://x.com/aidaniil)
+  - प्लैटफ़ॉर्म: डेस्कटॉप ब्राउज़र; अतिथि ट्यूटोरियल बिना साइन इन के खुलता है, लेकिन प्रगति सहेजने के लिए लॉगिन ज़रूरी है। मल्टीप्लेयर का स्वतंत्र परीक्षण नहीं किया गया।
+  - GPT-6 Astra: [X](https://x.com/aidaniil/status/2096426970930106530) — निर्माता के अनुसार उन्होंने अपने भाई के साथ Satisfactory और Besiege से प्रेरणा लेकर Astra, Blender MCP और Cloudflare Durable Objects से इसे बनाया। [सत्यापन टिप्पणियाँ](assets/screenshots/ironwood/SOURCE.md).
+  - पूर्वावलोकन: ![Ironwood की फ़ैक्टरी मशीनें, कन्वेयर बेल्ट और संसाधन प्रबंधन का ट्यूटोरियल।](assets/screenshots/ironwood/gameplay.jpg)
+
 - **[DUST FRONT](https://dust-front.mustafaakin.dev/)** — एकल-खिलाड़ी RTS में बेस बनाएँ, ठिकानों पर कब्ज़ा करें और ज़मीनी व हवाई सेना को निर्देश दें।
   - निर्माता: [Mustafa Akın](https://x.com/mustafaakin)
   - प्लेटफ़ॉर्म: डेस्कटॉप ब्राउज़र; कीबोर्ड और माउस, लॉगिन आवश्यक नहीं।
@@ -239,6 +340,18 @@
   - GPT-6 Astra: [X](https://x.com/HDLhN783wtLkpPR/status/2097321360641122393) — लिंक की गई पोस्ट में रचनाकार ने इस RTS को बनाने का श्रेय “GPT Astra” को दिया है; मॉडल का सटीक संस्करण और विकास की विस्तृत प्रक्रिया नहीं बताई गई है।
   - संदर्भ: [प्रस्तुति](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/66) · [सत्यापन के नोट्स (अंग्रेज़ी)](assets/screenshots/frontline-command/SOURCE.md)
   - पूर्वावलोकन: ![Frontline Command के चल रहे मैच में बेस, तीन चुने हुए टैंक और बिजलीघर रखने की क्रिया; v0.8, 2026-09-09 को लिया गया।](assets/screenshots/frontline-command/gameplay.jpg)
+
+- **[Coin Pusher Roguelite: Mintfall](https://www.aigameshare.com/games/coin-pusher-roguelite-mintfall)** — 3D कॉइन पुशर में निशाना लगाएँ, विशेष सिक्कों और अवशेषों का मेल बनाएँ, और सीमित सिक्के डालने के मौकों में लक्ष्य स्कोर पाकर छह राउंड पार करें।
+  - निर्माता: [nilni / @nil](https://www.aigameshare.com/profile/nil)
+  - प्लैटफ़ॉर्म: ब्राउज़र; Play क्लिक करें, मुफ़्त और बिना साइन इन के। खाते से सेव करने का विकल्प उपलब्ध है।
+  - GPT-6 Astra: [निर्माता का गेम पेज](https://www.aigameshare.com/games/coin-pusher-roguelite-mintfall) — निर्माता ने GPT-6 Astra के साथ GPT-5.6 Sol और Codex को श्रेय दिया है; गेम पेज उनके अलग-अलग योगदान स्पष्ट नहीं करता। [सत्यापन टिप्पणियाँ](assets/screenshots/mintfall/SOURCE.md).
+  - पूर्वावलोकन: ![Mintfall के पहले राउंड की 3D सिक्का ट्रे, 33 अंक, 44 बार सिक्के डालने का संकेत और विशेष सिक्कों के नियंत्रण।](assets/screenshots/mintfall/gameplay.jpg)
+
+- **[Westward — The Oregon Trail](https://biswaz.me/westward/)** — वैगन दल को पश्चिम की ओर ले जाएँ, भोजन का राशन बाँटें, मरम्मत और शिकार सँभालें, और Oregon Trail पर निर्णय लें।
+  - निर्माता: [Biswas](https://x.com/bis_waz)
+  - प्लैटफ़ॉर्म: डेस्कटॉप ब्राउज़र; दिए गए काल्पनिक दल से शुरू करें, बिना साइन इन या इंस्टॉलेशन के।
+  - GPT-6 Astra: [X](https://x.com/bis_waz/status/2098023593468907747) — Biswas के अनुसार उन्होंने GPT-6 Astra से The Oregon Trail का यह आधुनिक 3D संस्करण बनाया और खेलने योग्य गेम का लिंक दिया है। [सत्यापन टिप्पणियाँ](assets/screenshots/westward/SOURCE.md).
+  - पूर्वावलोकन: ![Kansas River की ओर जाते वैगन और बैल, तय की गई दूरी 25 मील और अभियान की आपूर्ति वाला पैनल।](assets/screenshots/westward/gameplay.jpg)
 
 <a id="rpg-adventures"></a>
 
@@ -276,6 +389,63 @@
   - प्लेटफ़ॉर्म: डेस्कटॉप ब्राउज़र; बिना लॉगिन या भुगतान के खोला गया। मोबाइल परीक्षण नहीं हुआ।
   - GPT-6 Astra: [X](https://x.com/emollick/status/2096047660662722620) — लेखक ने इस परियोजना के विकास में Astra के उपयोग की जानकारी दी है। [जाँच विवरण (अंग्रेज़ी)](assets/screenshots/zork/SOURCE.md).
   - पूर्वावलोकन: ![Zork · The Great Underground Empire](assets/screenshots/zork/gameplay.jpg)
+
+- **[The Simpsons: Hit & Run — Browser Recreation](https://vheissu.github.io/hit-and-run-web/)** — मिशन, ट्रैफ़िक और पुलिस की पीछा-दौड़ वाले इस अनौपचारिक ब्राउज़र पुनर्निर्माण में पैदल और कार से Springfield घूमें।
+  - निर्माता: [Dwayne](https://x.com/CtrlAltDwayne)
+  - प्लैटफ़ॉर्म: डेस्कटॉप ब्राउज़र; शुरुआती बड़े एसेट डाउनलोड के बाद पहला मिशन बिना साइन इन किए लोड हुआ। पूरे अभियान को पूरा करने का परीक्षण नहीं किया गया।
+  - GPT-6 Astra: [X](https://x.com/CtrlAltDwayne/status/2096872309936287887) — निर्माता ने GPT-6 Astra से गेम को वेब के लिए दोबारा बनाने का विवरण दिया है; रिपॉज़िटरी में लोडिंग के लिए Claude की सहायता का भी श्रेय है। मूल गेम एसेट के अधिकार उनके अधिकारधारकों के पास रहते हैं। [सत्यापन टिप्पणियाँ](assets/screenshots/hit-and-run-web/SOURCE.md).
+  - संसाधन: [स्रोत कोड और सेटअप](https://github.com/Vheissu/hit-and-run-web)
+  - पूर्वावलोकन: ![Springfield में Homer, पहले मिशन का उद्देश्य और मिनीमैप दिखाई देते हुए।](assets/screenshots/hit-and-run-web/gameplay.jpg)
+
+- **[Where the Wind Wanders](https://app.usecrayon.ai/play/a9a3c165-74b3-4ff6-9588-ad97f829ddb5)** — धूप से भरी 2.5D घाटी में रास्तों पर घूमें और शांत अन्वेषण वाले इस रोमांच में हवा के तीन पत्र इकट्ठा करें।
+  - निर्माता: [Tushar](https://x.com/TusharXo)
+  - प्लैटफ़ॉर्म: ब्राउज़र, Crayon पर होस्ट किया गया; सार्वजनिक गेम पेज और उसमें लगे प्लेयर की जाँच की गई।
+  - GPT-6 Astra: [X](https://x.com/TusharXo/status/2096037482739683574) — Tushar ने Astra से रास्ते और एसेट बनाने का विवरण दिया है; बाद की पोस्ट Astra, Three.js और Crayon से बने खेलने योग्य संस्करण की घोषणा करती है। [सत्यापन टिप्पणियाँ](assets/screenshots/crayon-adventure/SOURCE.md).
+  - संसाधन: [निर्माता की रिलीज़ घोषणा](https://x.com/TusharXo/status/2096741535891251261)
+  - पूर्वावलोकन: ![फूलों से भरी घाटी में घूमता पात्र और हवा के पत्रों का उद्देश्य।](assets/screenshots/crayon-adventure/gameplay.jpg)
+
+- **[ALIBI — The Last Light](https://alibi-blackthorn-manor.vercel.app/)** — पॉइंट-एंड-क्लिक हत्या रहस्य में Blackthorn Manor की जाँच करें, दृश्यों को परखें और सुरागों से हत्यारे का पता लगाएँ।
+  - निर्माता: [Christos Antonopoulos](https://x.com/Christos_antono)
+  - प्लैटफ़ॉर्म: ब्राउज़र; इंटरैक्टिव हवेली का प्रवेश बिना साइन इन किए खुला। बाद में उत्पन्न होने वाले दृश्यों का पूरा परीक्षण नहीं किया गया।
+  - GPT-6 Astra: [X](https://x.com/Christos_antono/status/2096435122669297892) — निर्माता ने इस जनरेटिव जासूसी गेम के लिए GPT Astra और H3 Max दोनों को श्रेय दिया है। [सत्यापन टिप्पणियाँ](assets/screenshots/alibi-blackthorn-manor/SOURCE.md).
+  - पूर्वावलोकन: ![क्लिक करने योग्य दरवाज़े और शुरुआती जाँच के पाठ के साथ हवेली का प्रवेश।](assets/screenshots/alibi-blackthorn-manor/gameplay.jpg)
+
+- **[Skyward: The Gathering](https://edge-city-skyward-quests.vercel.app/)** — तैरते द्वीपों का अन्वेषण करें, बस्तियों के बीच कूदें और ग्लाइड करें, और निवासियों के लिए मिशन पूरे करें।
+  - निर्माता: [timour kosters](https://x.com/timourxyz)
+  - प्लैटफ़ॉर्म: डेस्कटॉप ब्राउज़र, कीबोर्ड और माउस; मिशन वाले संस्करण के पेज और नियंत्रणों की जाँच की गई।
+  - GPT-6 Astra: [X](https://x.com/timourxyz/status/2096379521926840339) — निर्माता के अनुसार Astra ने Edge City की जगहों से प्रेरित NPC और मिशन वाला खेलने योग्य 3D गेम बनाया। [सत्यापन टिप्पणियाँ](assets/screenshots/skyward-gathering/SOURCE.md).
+  - पूर्वावलोकन: ![Skyward के तैरते द्वीपों का व्यापक दृश्य, अन्वेषण और जर्नल नियंत्रण।](assets/screenshots/skyward-gathering/gameplay.jpg)
+
+- **[Anna & Leo · The Starstone Adventure](https://anna-leo-starstone.vercel.app/)** — Anna के संगीत वाले जादू और Leo की महाशक्तियों के बीच बदलकर सुरों वाले फूल जगाएँ और Wonder Garden का अन्वेषण करें।
+  - निर्माता: [Dharma Utomo](https://x.com/dharmautomo)
+  - प्लैटफ़ॉर्म: ब्राउज़र; शुरुआती मिशन बिना साइन इन किए शुरू हुआ। WASD से चलें, Space से कूदें, E से शक्ति और Tab से नायक बदलें।
+  - GPT-6 Astra: [X](https://x.com/dharmautomo/status/2096573649235091967) — निर्माता के अनुसार GPT-6 Astra ने इस 3D रोमांच को बनाने में मदद की; उन्होंने अपने बच्चों के खेलने के परीक्षण का वीडियो भी साझा किया। [सत्यापन टिप्पणियाँ](assets/screenshots/anna-leo-starstone/SOURCE.md).
+  - पूर्वावलोकन: ![Anna और Leo की 3D साहसिक दुनिया और मिशन इंटरफ़ेस।](assets/screenshots/anna-leo-starstone/gameplay.jpg)
+
+- **[The Legend of Deller](https://rain-court-js.umodeler-inc-4323.chatgpt.site/)** — Rainmist Haven घूमें और तलवार के कॉम्बो, तत्त्व-आधारित कौशल तथा बचाव की चालों के साथ कालकोठरियों की ओर बढ़ें।
+  - निर्माता: [UModeler X PicoBerry](https://x.com/UModeler)
+  - प्लैटफ़ॉर्म: डेस्कटॉप ब्राउज़र; कीबोर्ड और माउस, बिना लॉगिन के। शुरुआती 3D एसेट पूरी तरह लोड होने दें।
+  - GPT-6 Astra: [निर्माता का वक्तव्य](https://x.com/UModeler/status/2097792348407099553) — निर्माता के अनुसार PicoBerry ने एसेट बनाए और GPT-6 Astra ने उन्हें इस्तेमाल करने वाला Three.js एक्शन RPG बनाया। [सत्यापन टिप्पणियाँ](assets/screenshots/the-legend-of-deller/SOURCE.md).
+  - संसाधन: [निर्माता का रिलीज़ लिंक](https://x.com/UModeler/status/2097792351129178451)
+  - पूर्वावलोकन: ![Rainmist Haven में फव्वारे और बाज़ार की दुकानों के पास चकमा देता Deller, स्वास्थ्य, माना और कौशल नियंत्रण।](assets/screenshots/the-legend-of-deller/gameplay.jpg)
+
+- **[Dungeon of Astra](https://wavedash.com/games/dungeon-of-astra)** — दल में साथी भर्ती करें, सौ मंज़िला कालकोठरी में उतरें और स्थायी मृत्यु वाले अभियान में तलवार, आग के गोलों और साथियों की भूमिकाओं को मिलाएँ।
+  - निर्माता: [tonysuri / @tonysurix](https://x.com/tonysurix)
+  - प्लैटफ़ॉर्म: Wavedash पर डेस्कटॉप ब्राउज़र; मूल गेम बिना साइन इन किए शुरू होता है। वैकल्पिक खाते और पैसे देकर पात्रों को समय से पहले खोलने की सुविधा उपलब्ध है।
+  - GPT-6 Astra: [निर्माता का वक्तव्य](https://x.com/tonysurix/status/2097873333551616355) — निर्माता ने स्पष्ट कहा है कि यह दल के साथ कालकोठरी खोजने वाला गेम GPT-6 Astra से बनाया गया। [सत्यापन टिप्पणियाँ](assets/screenshots/dungeon-of-astra/SOURCE.md).
+  - पूर्वावलोकन: ![कालकोठरी की पहली मंज़िल पर आग के गोले का इस्तेमाल करते नायक और किराए का शूरवीर, दल का स्वास्थ्य और मिनीमैप।](assets/screenshots/dungeon-of-astra/gameplay.jpg)
+
+- **[Sunlandia — The Forgotten Shore](https://sunlandia.smallweblab.com/)** — जहाज़ डूबने के बाद एक द्वीप खोजें, प्रथम-व्यक्ति दृष्टि से सुराग जाँचें और प्रकाशस्तंभ की ओर जाते हुए परिवेश की पहेलियाँ सुलझाएँ।
+  - निर्माता: [Ramon Linares / Small Web Lab](https://github.com/RamonLinares)
+  - प्लैटफ़ॉर्म: डेस्कटॉप ब्राउज़र; द्वीप लोड होने दें, फिर Begin expedition चुनें। मुफ़्त, बिना खाते या इंस्टॉलेशन के।
+  - GPT-6 Astra: [निर्माता की विकास डायरी](https://smallweblab.com/posts/sunlandia/) — निर्माता ने GPT-5.6 Sol से शुरुआत की, Fable की मदद ली और GPT-6 Astra से गेम पूरा किया। [सत्यापन टिप्पणियाँ](assets/screenshots/sunlandia/SOURCE.md).
+  - पूर्वावलोकन: ![Sunlandia का प्रथम-व्यक्ति तट दृश्य, जहाज़ का मलबा, टूटा घाट और मदद खोजने का उद्देश्य।](assets/screenshots/sunlandia/gameplay.jpg)
+
+- **[NÁCAR](https://nacar-microcosmo.preda2005.chatgpt.site/)** — पानी से भरे घोंघे के खोल के भीतर एक सूक्ष्म जीव बढ़ाएँ, पोषक तत्व जुटाएँ और अन्वेषण के साथ शरीर के नए अंग विकसित करें।
+  - निर्माता: [Marcio Lima / @Preda2005](https://x.com/Preda2005)
+  - प्लैटफ़ॉर्म: ब्राउज़र; मुफ़्त बीटा, बिना साइन इन के; चीनी सहित पाँच इंटरफ़ेस भाषाएँ।
+  - GPT-6 Astra: [निर्माता की पोस्ट शृंखला](https://x.com/Preda2005/status/2097954217180921928) — Marcio के अनुसार उन्होंने जीव के विकास का यह विचार GPT-6 Astra को समझाया और इसे लिंक किए गए बीटा में विकसित किया। [सत्यापन टिप्पणियाँ](assets/screenshots/nacar/SOURCE.md).
+  - पूर्वावलोकन: ![रंगीन पोषक तत्वों के बीच छोटी कोशिका, बायोमास, विकास, इन्वेंटरी और खोजे गए जलक्षेत्र के नियंत्रण।](assets/screenshots/nacar/gameplay.jpg)
 
 <a id="platformers-racing"></a>
 
@@ -341,6 +511,31 @@
   - GPT-6 Astra: [Issue #51](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/51) — निर्माता के अनुसार: पहला संस्करण Qwen3.8 Max से; दूसरा Astra से पूरी तरह पुनर्निर्मित।
   - पूर्वावलोकन: ![疾风赛道 / Kart Racing（跑跑卡丁车）](https://github.com/user-attachments/assets/015e0ca1-7032-4d0e-9391-ad3f40d84227)
 
+- **[TIDAL RUSH — Paradise GP](https://tidal-rush-paradise-gp.skirano.chatgpt.site/)** — उष्णकटिबंधीय कार्ट ट्रैक पर ड्रिफ़्ट करें, आइटम इस्तेमाल करें और तीन चक्करों में सात प्रतिद्वंद्वियों से रेस करें।
+  - निर्माता: [Pietro Schirano](https://x.com/skirano)
+  - प्लैटफ़ॉर्म: ब्राउज़र; तीन चक्करों की रेस बिना साइन इन किए शुरू हुई। ड्राइविंग, ड्रिफ़्ट और आइटम के लिए कीबोर्ड नियंत्रण, साथ में स्क्रीन पर टच बटन।
+  - GPT-6 Astra: [मॉडल के उपयोग का प्रमाण](https://openai.com/index/gpt-6-astra/) — OpenAI के Astra लॉन्च पेज में इस इंटरैक्टिव कार्ट गेम का लिंक है और Pietro Schirano को श्रेय दिया गया है। X पर इसकी जानकारी देने वाली पोस्ट समुदाय की साझा पोस्ट है, निर्माता की अपनी पोस्ट नहीं। [सत्यापन टिप्पणियाँ](assets/screenshots/tidal-rush/SOURCE.md).
+  - संसाधन: [X पर गेम की जानकारी](https://x.com/alexgetmancom/status/2095598460921614825)
+  - पूर्वावलोकन: ![Tidal Rush का उष्णकटिबंधीय कार्ट ट्रैक, रेस की स्थिति और ड्रिफ़्ट नियंत्रण।](assets/screenshots/tidal-rush/gameplay.jpg)
+
+- **[LUNA — Crimson Requiem / 紅月のレクイエム](https://luna-crimson-requiem.ponsuke.chatgpt.site/)** — गॉथिक पिक्सेल आर्ट वाले स्तर में कूदें, दुश्मनों पर वार करें, ऊपर से कूदकर उन्हें कुचलें या हमला बुलाएँ—एक छोटा साइड-स्क्रॉलिंग रोमांच।
+  - निर्माता: [音羽ぽんすけ](https://x.com/ponsuke_otowa)
+  - प्लैटफ़ॉर्म: ब्राउज़र, जापानी इंटरफ़ेस; कीबोर्ड नियंत्रण और निर्माता द्वारा बताया गया स्मार्टफ़ोन समर्थन। एक स्तर उपलब्ध है।
+  - GPT-6 Astra: [X](https://x.com/ponsuke_otowa/status/2096531744933425299) — निर्माता के अनुसार Astra से विकास में लगभग 25 मिनट लगे और चलने के एनीमेशन में एक सुधार किया गया; संगीत का श्रेय अलग से Suno को है। [सत्यापन टिप्पणियाँ](assets/screenshots/luna-crimson-requiem/SOURCE.md).
+  - पूर्वावलोकन: ![लाल चाँद वाली गॉथिक सड़क पर लड़ती LUNA, स्वास्थ्य और समन मीटर।](assets/screenshots/luna-crimson-requiem/gameplay.jpg)
+
+- **[Strange Orbit](https://app.usecrayon.ai/play/47df78e2-1410-45d1-833c-196e1161c0b8)** — ग्रह के छल्लों पर अंतरिक्ष यात्री साइकिल चालकों की रेस करें, तारों की धूल इकट्ठा करें, प्रतिद्वंद्वियों के पीछे चलकर हवा का प्रतिरोध घटाएँ और Orbital Cup में बूस्ट लें।
+  - निर्माता: [Crayon](https://x.com/usecrayon)
+  - प्लैटफ़ॉर्म: Crayon पर ब्राउज़र; कीबोर्ड और दस्तावेज़ों में बताए गए टच नियंत्रण। सार्वजनिक पेज में रेस, समय-परीक्षण और अंतहीन भ्रमण के मोड हैं।
+  - GPT-6 Astra: [X](https://x.com/usecrayon/status/2097468975995302167) — Crayon ने इस अंतरिक्ष साइकिल गेम के लिए GPT-6 Astra, Crayon Pro और Three.js को श्रेय दिया है। [सत्यापन टिप्पणियाँ](assets/screenshots/crayon-space-bike/SOURCE.md).
+  - पूर्वावलोकन: ![ग्रह के छल्ले पर रेस करते अंतरिक्ष यात्री साइकिल चालक, चक्कर, स्थिति और तारों की धूल के संकेतक।](assets/screenshots/crayon-space-bike/gameplay.jpg)
+
+- **[One More Vine — Into the Wild](https://onemorevine.bennash.dev/)** — जंगल के चार स्तरों में दौड़ें, कूदें और बेलों पर झूलें, खज़ाने जुटाएँ, मगरमच्छों से बचें और अपना समय सुधारें।
+  - निर्माता: [Ben Nash](https://x.com/bennash)
+  - प्लैटफ़ॉर्म: ब्राउज़र, कीबोर्ड और स्क्रीन पर गति नियंत्रण; पहला स्तर और निर्देश बिना साइन इन किए लोड हुए।
+  - GPT-6 Astra: [X](https://x.com/bennash/status/2096282758930645170) — निर्माता ने स्पष्ट रूप से इसे GPT-6 Astra से बना, Pitfall से प्रेरित चार स्तरों वाला गेम बताया है। [सत्यापन टिप्पणियाँ](assets/screenshots/one-more-vine/SOURCE.md).
+  - पूर्वावलोकन: ![लटकती बेलों, खज़ानों, गड्ढों और मगरमच्छों वाला जंगल का प्लेटफ़ॉर्म स्तर।](assets/screenshots/one-more-vine/gameplay.jpg)
+
 - **[混合马里奥Ⅱ · 忍者龙剑传 × 坦克大战 / Mario Mix II](https://aha-xiaoq.github.io/games/mario-mix-2/play.html)** — Ninja Gaiden के Ryu Hayabusa और Battle City के टैंक के साथ Mario की भूमिगत दुनिया 1-2 में जाएँ: र्यू के साथ साइड-स्क्रॉलिंग में कूदें, दीवारें चढ़ें और लड़ें, टैंक के साथ ऊपर से दिखने वाली लड़ाइयाँ खेलें, या निंजा से टैंक तक की रिले में राजकुमारी को बचाएँ।
   - रचनाकार: [在下_小Q（Aha-xiaoQ）](https://github.com/Aha-xiaoQ)
   - प्लैटफ़ॉर्म: कंप्यूटर का ब्राउज़र, चीनी इंटरफ़ेस, कीबोर्ड का उपयोग सुझाया गया है; मुफ़्त, लॉगिन या इंस्टॉलेशन की ज़रूरत नहीं।
@@ -349,6 +544,37 @@
   - अधिकार: यह अनौपचारिक फ़ैन गेम है; पुराने पात्रों, चित्रों और संगीत के अधिकार उनके संबंधित अधिकारधारकों के पास हैं। सामग्री का श्रेय मूल गेम के पृष्ठ पर दिया गया है।
   - पूर्वावलोकन: ![Mario Mix II — रचनाकार का दिया हुआ वीडियो कवर, गेमप्ले का स्क्रीनशॉट नहीं।](https://aha-xiaoq.github.io/games/mario-mix-2/cover.jpg)
   - स्क्रीनशॉट: ![Mario Mix II का टैंक दुनिया 1-2 के प्रवेश पर गोली चला रहा है; चल रहा संस्करण 1.0, 2026-09-09 को लिया गया।](assets/screenshots/mario-mix-2/gameplay.jpg)
+
+- **[Bengaluru ORR Rush](https://orr-rush-bengaluru.ravitheja.chatgpt.site/)** — बेंगलुरु के ट्रैफ़िक में रेस करें, गड्ढों और डिलीवरी बाइकों से बचें और जगह बनाने के लिए बूस्ट या बगल की ओर झटका इस्तेमाल करें।
+  - निर्माता: [Ravi Theja](https://x.com/ravithejads)
+  - प्लैटफ़ॉर्म: डेस्कटॉप ब्राउज़र; कीबोर्ड नियंत्रण और वैकल्पिक ऑटो-थ्रॉटल, बिना लॉगिन के।
+  - GPT-6 Astra: [निर्माता का वक्तव्य](https://x.com/ravithejads/status/2097181044625887392) — निर्माता ने बेंगलुरु की सड़क रेसिंग वाले इस गेम का श्रेय GPT-6 Astra को दिया है। [सत्यापन टिप्पणियाँ](assets/screenshots/bengaluru-orr-rush/SOURCE.md).
+  - पूर्वावलोकन: ![बेंगलुरु के ट्रैफ़िक में खिलाड़ी की नीली कार, रेस स्थिति, गति, टाइमर और नियंत्रण संकेत।](assets/screenshots/bengaluru-orr-rush/gameplay.jpg)
+
+- **[SKICROSS — Alpine Downhill](https://iamsonic.net/2026/mini-games/skicross.html)** — तीन स्की खिलाड़ियों के विरुद्ध पहाड़ से नीचे रेस करें, गेट और बाधाएँ पार करें, और हिमस्खलन से आगे रहें।
+  - निर्माता: [Sonic的奇思妙想](https://x.com/sonic0828)
+  - प्लैटफ़ॉर्म: डेस्कटॉप ब्राउज़र; A/D से दिशा, Space से छलाँग और Shift से बूस्ट; लॉगिन या डाउनलोड नहीं चाहिए।
+  - GPT-6 Astra: [निर्माता का वक्तव्य](https://x.com/sonic0828/status/2097601232877781344) — निर्माता ने मिनी-गेम संग्रह का श्रेय GPT-6 Astra को दिया और अलग जवाब में यह स्की गेम साझा किया। [सत्यापन टिप्पणियाँ](assets/screenshots/skicross/SOURCE.md).
+  - संसाधन: [निर्माता का रिलीज़ लिंक](https://x.com/sonic0828/status/2097601732297814300)
+  - पूर्वावलोकन: ![बर्फ़ीले ट्रैक पर चार स्की खिलाड़ी, गेट बोनस, रेस रैंकिंग, गति और हिमस्खलन की दूरी के संकेतक।](assets/screenshots/skicross/gameplay.jpg)
+
+- **[Itsy Bitsy Spider · One More Climb](https://game-bench.piccini.app/games/gpt-6-astra/)** — काई वाली दीवार चढ़ें, पकड़ की ताकत लौटाने के लिए मक्खियाँ पकड़ें और बारिश के मकड़ी को बहा देने से पहले आश्रय वाले छेदों में छिपें।
+  - निर्माता: [Luiz Piccini](https://piccini.app/)
+  - प्लैटफ़ॉर्म: ब्राउज़र; मुफ़्त, बिना साइन इन के। WASD या स्क्रीन वाला जॉयस्टिक।
+  - GPT-6 Astra: [निर्माता का Game Bench](https://game-bench.piccini.app/) — Game Bench ने इस प्रकाशित परिणाम को GPT-6 Astra canary, high, दिनांक 2026-09-05 के रूप में चिह्नित किया है; यह उसके साझा गेम निर्देशों से बना है। [सत्यापन टिप्पणियाँ](assets/screenshots/itsy-bitsy-spider/SOURCE.md).
+  - पूर्वावलोकन: ![काई वाली ईंट की दीवार पर 2 मीटर ऊँचाई पर चढ़ती मकड़ी, पकड़, मक्खियाँ, आश्रय और गति का जॉयस्टिक।](assets/screenshots/itsy-bitsy-spider/gameplay.jpg)
+
+- **[Desi Mayhem](https://desimayhem.com/)** — भारतीय शहरों के ट्रैफ़िक में मोटरसाइकिल रेस करें, बसों और ऑटो के बीच निकलें और लात, मुक्के तथा बूस्ट इस्तेमाल करें।
+  - निर्माता: [Kishore](https://x.com/GetKishore)
+  - प्लैटफ़ॉर्म: डेस्कटॉप ब्राउज़र; मुफ़्त, बिना खाते के। पहली सवारी से पहले बनाए गए राइडर उपनाम को स्वीकारें या बदलें।
+  - GPT-6 Astra: [निर्माता की विकास संबंधी पोस्ट शृंखला](https://x.com/GetKishore/status/2097906401159102811) — Kishore ने सड़क के संदर्भों और ट्रैफ़िक, टक्करों व राइडर की लड़ाई के बार-बार परीक्षण से Astra में बने 3D गेम को सुधारने का विवरण दिया है। [सत्यापन टिप्पणियाँ](assets/screenshots/desi-mayhem/SOURCE.md).
+  - पूर्वावलोकन: ![चेन्नई की मोटरसाइकिल रेस, खिलाड़ी का राइडर, शहर का ट्रैफ़िक, मिनीमैप, स्थिति और रेस टाइमर।](assets/screenshots/desi-mayhem/gameplay.jpg)
+
+- **[Cosmic Tides](https://app.usecrayon.ai/play/362ae1e7-29bd-4fbc-9103-00649265d942)** — आकाशगंगीय महासागर पर यान चलाएँ, चमकते गेटों का रास्ता पकड़ें और दो चक्करों की रेस या अंतहीन बहाव में से चुनें।
+  - निर्माता: [Aniket J](https://x.com/aniketjart)
+  - प्लैटफ़ॉर्म: ब्राउज़र; 3D एसेट लोड होने दें, फिर Ride the current चुनें। मुफ़्त, बिना साइन इन के।
+  - GPT-6 Astra: [X](https://x.com/aniketjart/status/2098207146647433534) — Aniket ने गेम के लिए GPT-6 Astra, Blender MCP और Crayon को श्रेय दिया है; उनके अनुसार यह एक प्रयोग है जिसमें गेमप्ले को आगे सुधारने की योजना है। [सत्यापन टिप्पणियाँ](assets/screenshots/cosmic-tides/SOURCE.md).
+  - पूर्वावलोकन: ![Cosmic Tides की चलती रेस, आकाशगंगीय समुद्र पर चमकते गेट की ओर बढ़ता यान, चक्कर और गति के संकेतक।](assets/screenshots/cosmic-tides/gameplay.jpg)
 
 <a id="experimental-multiplayer"></a>
 
@@ -394,6 +620,12 @@
   - प्लेटफ़ॉर्म: ब्राउज़र, मुफ़्त, बिना खाते के। निर्माता के अनुसार VPN/प्रॉक्सी आवश्यक हो सकता है। सोलो शुरुआत जाँची गई; मल्टीप्लेयर नहीं।
   - GPT-6 Astra: [Issue #52](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/52) — निर्माता के अनुसार: पहला संस्करण GPT-6 Astra Pro से; बाद के सुधार Codex में GPT-6 Astra से।
   - पूर्वावलोकन: ![泡泡坦克大作战联机版 / Toon Tank Arena](https://github.com/user-attachments/assets/713d44f3-a77c-452c-ba6d-1231882dc670)
+
+- **[Above the Rooftops](https://app.usecrayon.ai/play/d09bb865-2259-42e2-86cc-fb609a9d6f28)** — पतंग रंगें और शहर की छतों के ऊपर उड़ाएँ; स्वतंत्र उड़ान या समय-सीमित आसमानी रोशनी की चुनौती में डोर का तनाव संतुलित रखें।
+  - निर्माता: [Tushar / @TusharXo](https://x.com/TusharXo)
+  - प्लैटफ़ॉर्म: ब्राउज़र; पात्र चुनें, छत पर जाएँ और Fly चुनें। मुफ़्त, बिना साइन इन के।
+  - GPT-6 Astra: [X](https://x.com/TusharXo/status/2098156783181467801) — Tushar ने इस Three.js पतंग गेम के लिए स्पष्ट रूप से GPT-6 Astra और Crayon को श्रेय दिया है और दृश्यों के लिए Images 2.5 का उल्लेख किया है। [सत्यापन टिप्पणियाँ](assets/screenshots/above-the-rooftops/SOURCE.md).
+  - पूर्वावलोकन: ![शहर के ऊपर पतंग की चुनौती, ऊँचाई, डोर का तनाव, आसमानी रोशनी की प्रगति और दिशा नियंत्रण।](assets/screenshots/above-the-rooftops/gameplay.jpg)
 
 ## हर प्रविष्टि में क्या शामिल है
 

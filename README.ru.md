@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 49](https://img.shields.io/badge/Cases-49-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 86](https://img.shields.io/badge/Cases-86-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Подборка интересных игр, созданных с помощью GPT-6 Astra.**
 
@@ -22,7 +22,7 @@
 
 ## С чего начать
 
-Здесь собраны **49 игр и интерактивных проектов**: территориальная стратегия эпохи Троецарствия, деревянные головоломки со сцепленными деталями и сдвижными блоками, объединение мягких фруктов, полёт одной кнопкой, сражения на ковре-самолёте, защита острова с помощью электросети, выживание в дикой природе, подводная охота, управление суши-рестораном и фермерство на острове, гонки на картах по Bay Circuit, велопрогулка с пеликаном вдоль берега, настольные игрушки в 3D и Orbital Garden. Нажмите на название, чтобы играть прямо в браузере.
+Здесь собраны **86 игр и интерактивных проектов**: территориальная стратегия эпохи Троецарствия, деревянные головоломки со сцепленными деталями и сдвижными блоками, объединение мягких фруктов, 2048 с процедурным строительством городов, полёт одной кнопкой, сражения на ковре-самолёте, шутер с завесами пуль и пятью уровнями, защита острова с помощью электросети, выживание в дикой природе, подводная охота, управление суши-рестораном и фермерство на острове, гонки на картах по Bay Circuit, велопрогулка с пеликаном вдоль берега, настольные игрушки в 3D, оформление дома в 3D и Orbital Garden. Нажмите на название, чтобы играть прямо в браузере.
 
 Каталог обновлён: **2026-09-12**. Сведения об использовании модели основаны на заявлениях авторов или отправителей; неподтверждённые данные отмечены в соответствующих записях. Эта дата означает обновление каталога, а не повторное игровое тестирование всех проектов.
 
@@ -110,6 +110,70 @@
   - GPT-6 Astra: [X](https://x.com/jumperz/status/2096600055301984738) — Автор сообщает об использовании Astra при разработке проекта. [Запись проверки (английский)](assets/screenshots/cinderfall/SOURCE.md).
   - Предпросмотр: ![Cinderfall · Fire, Shadow & Steel](assets/screenshots/cinderfall/gameplay.jpg)
 
+- **[Oz Breakdance](https://satriodewantono.com/breakdance/)** — Перетаскивайте конечности тряпичного танцора к соответствующим целям, чтобы набирать очки и продлевать раунд брейк-данса на время.
+  - Автор: [Satrio](https://x.com/satrio_d)
+  - Платформа: Браузер на компьютере, управление мышью; раунд на время запустился без входа в аккаунт.
+  - GPT-6 Astra: [X](https://x.com/satrio_d/status/2096022866097758500) — Автор сообщает, что Astra помогла улучшить его существующую игру о брейк-дансе и её оформление. [Примечания к проверке](assets/screenshots/breakdance/SOURCE.md).
+  - Предпросмотр: ![Тряпичный танцор тянется ногой к цели на арене брейк-данса с таймером.](assets/screenshots/breakdance/gameplay.jpg)
+
+- **[Astral War](https://astralwar.io/)** — Браузерный шутер от первого лица в тематике Второй мировой войны с обликами солдат и зомби, наборами оружия, тренировкой с ботами и настройками лобби.
+  - Автор: [Rishi](https://x.com/0xRishi)
+  - Платформа: Браузер на компьютере, клавиатура и мышь; тренировка с ботами запустилась без входа в аккаунт. Мультиплеер и поддержка контроллера не проверялись.
+  - GPT-6 Astra: [X](https://x.com/0xRishi/status/2096079660605997264) — Rishi сообщает, что создал Astral War с помощью Astra, Three.js, Meshy и ElevenLabs. На текущем сайте также указана Vesper; подробности приведены в примечании об участии моделей. [Примечания к проверке](assets/screenshots/astral-war/SOURCE.md).
+  - Предпросмотр: ![Боевой экран Astral War с оружием и элементами управления на поле боя.](assets/screenshots/astral-war/gameplay.jpg)
+
+- **[FLOP CLUB](https://bubucn.com/ai-model-evals/flop-club/game/index.html)** — Ныряйте с платформ трёх высот, делайте сальто и вращения и цельтесь в плавающее кольцо, чтобы повысить оценку за вход в воду.
+  - Автор: [BubuAi](https://x.com/BubuStd)
+  - Платформа: Браузер; отдельная страница игры запускается сразу, без входа в аккаунт и загрузок. Во время проверки 2026-09-09 был начат прыжок; доступны клавиатура и описанное в документации сенсорное управление.
+  - GPT-6 Astra: [X](https://x.com/BubuStd/status/2096402783805354091) — По словам автора, игра создана одним запросом к Astra Pro с использованием Three.js. [Примечания к проверке](assets/screenshots/flop-club/SOURCE.md).
+  - Материалы: [Описание проекта](https://bubucn.com/zh/ai-model-evals/flop-club)
+  - Предпросмотр: ![Прыгун на высокой платформе над кольцом-мишенью и элементы управления приземлением в воду.](assets/screenshots/flop-club/gameplay.jpg)
+
+- **[Vector Dive — Beyond the Signal](https://vector-dive.openai.chatgpt.site/)** — Летайте по неоновым каркасным трассам, которые ускоряются с каждым кругом, вовремя используя ускорение и фазовое перемещение, чтобы продержаться дольше.
+  - Автор: [Thomas Ricouard](https://x.com/Dimillian)
+  - Платформа: Браузер на компьютере; полёт с подсчётом очков запустился без входа в аккаунт. WASD — полёт, Space — ускорение, Shift — фазовое перемещение.
+  - GPT-6 Astra: [X](https://x.com/Dimillian/status/2097188900888322323) — Автор сообщает, что Astra создала игру и музыку по визуальному заданию в стиле неона и синтвейва и концепт-артам. [Примечания к проверке](assets/screenshots/vector-dive/SOURCE.md).
+  - Предпросмотр: ![Неоновая трасса Vector Dive с кораблём игрока и игровым интерфейсом.](assets/screenshots/vector-dive/gameplay.jpg)
+
+- **[Harbor Skirmish](https://gpt6astra-game.vercel.app/)** — Защищайте приморский город от волн буйных кроликов, используя три вида оружия, маршруты по крышам, рывки и крюк-кошку.
+  - Автор: [OpenDesign](https://x.com/OpenDesignHQ)
+  - Платформа: Браузер на компьютере; клавиатура и мышь, без входа в аккаунт и загрузок.
+  - GPT-6 Astra: [Заявление автора](https://x.com/OpenDesignHQ/status/2097635757917983223) — OpenDesign указывает, что в сравнении двух моделей эта игра на Three.js представляет версию, созданную с GPT-6 Astra. [Примечания к проверке](assets/screenshots/harbor-skirmish/SOURCE.md).
+  - Предпросмотр: ![Вид от первого лица с винтовкой на город Seabreeze, приближающихся кроликов, счётчик волн и управление оружием.](assets/screenshots/harbor-skirmish/gameplay.jpg)
+
+- **[UNDERGROUND — Underground Boxing](https://iamsonic.net/2026/mini-games/underground-boxing.html)** — Проведите три раунда на время в подпольном 3D-ринге, сочетая удары, блоки, уклонения и расход выносливости.
+  - Автор: [Sonic的奇思妙想](https://x.com/sonic0828)
+  - Платформа: Браузер на компьютере; WASD — движение, J/K — удары, L — блок, Space — уклонение; без входа в аккаунт и загрузок.
+  - GPT-6 Astra: [Заявление автора](https://x.com/sonic0828/status/2097601232877781344) — В ветке с подборкой автор называет GPT-6 Astra инструментом создания этих мини-игр; ответ о боксе содержит ссылку на эту версию. [Примечания к проверке](assets/screenshots/underground-boxing/SOURCE.md).
+  - Материалы: [Ссылка автора на релиз](https://x.com/sonic0828/status/2097601584410796401)
+  - Предпросмотр: ![Два боксёра обмениваются ударами на освещённом подпольном ринге; видны таймер раунда, здоровье и выносливость.](assets/screenshots/underground-boxing/gameplay.jpg)
+
+- **[Urban Champion 3D](https://iamsonic.net/2026/mini-games/urban-champion.html)** — Обменивайтесь верхними и нижними ударами на улице на закате, блокируйте контратаки и загоняйте соперника в люк, избегая падающих цветочных горшков.
+  - Автор: [Sonic的奇思妙想](https://x.com/sonic0828)
+  - Платформа: Браузер на компьютере; A/D — движение, J/K — удары, U/I — блоки, Space — уклонение; без входа в аккаунт.
+  - GPT-6 Astra: [Заявление автора](https://x.com/sonic0828/status/2097601232877781344) — В подборке автора, посвящённой GPT-6 Astra, есть отдельный ответ о релизе со ссылкой на эту уличную драку. [Примечания к проверке](assets/screenshots/urban-champion-3d/SOURCE.md).
+  - Материалы: [Ссылка автора на релиз](https://x.com/sonic0828/status/2097601861658587376)
+  - Предпросмотр: ![Синий и красный бойцы обмениваются ударами у Sunset Mart; видны таймер раунда и шкалы выносливости.](assets/screenshots/urban-champion-3d/gameplay.jpg)
+
+- **[Zero District — Shells 3D](https://iamsonic.net/2026/mini-games/shells-3d/play.html)** — Переживите трёхминутную осаду города с автоматической стрельбой, уклонением за счёт движения, сбором опыта и выбором улучшений.
+  - Автор: [Sonic的奇思妙想](https://x.com/sonic0828)
+  - Платформа: Браузер; движение через WASD или перетаскивание, автоматическое прицеливание; без входа в аккаунт и загрузок.
+  - GPT-6 Astra: [Заявление автора](https://x.com/sonic0828/status/2097601232877781344) — Автор указывает GPT-6 Astra в анонсе подборки и публикует ссылку на эту 3D-игру на выживание в отдельном ответе. [Примечания к проверке](assets/screenshots/zero-district-shells-3d/SOURCE.md).
+  - Материалы: [Ссылка автора на релиз](https://x.com/sonic0828/status/2097602391122264310)
+  - Предпросмотр: ![Выживший автоматически стреляет по окружающим врагам на городской улице; 14 побеждённых противников и 166 секунд до конца.](assets/screenshots/zero-district-shells-3d/gameplay.jpg)
+
+- **[ASCII DISTRICT](https://ascii-district.vercel.app/)** — Сражайтесь с волнами компьютерных вирусов на арене от первого лица, изображённой символами ASCII, используя бег, прыжки и скольжение.
+  - Автор: [Acker Code](https://x.com/acker_code)
+  - Платформа: Браузер на компьютере; клавиатура и мышь, без входа в аккаунт. Щелчок по арене захватывает указатель мыши, Esc освобождает его.
+  - GPT-6 Astra: [Заявление автора](https://x.com/acker_code/status/2097542957070975286) — Автор прямо указывает Codex и GPT-6 Astra как инструменты создания этого ASCII-шутера. [Примечания к проверке](assets/screenshots/ascii-district/SOURCE.md).
+  - Предпросмотр: ![Двор из ASCII-символов с приближающимися вирусами; после выстрела интерфейс винтовки показывает 29 патронов.](assets/screenshots/ascii-district/gameplay.jpg)
+
+- **[Aura Farming: Unbothered](https://www.aigameshare.com/games/aura-farming-game)** — Удерживайте равновесие танцующей капибары на лодке-драконе, наклоняйтесь навстречу волнам и выполните шесть движений за 40 секунд.
+  - Автор: [nilni / @nil](https://www.aigameshare.com/profile/nil)
+  - Платформа: Браузер на компьютере; бесплатно, без входа в аккаунт. Нажмите Play; функции аккаунта необязательны.
+  - GPT-6 Astra: [Страница автора с игрой](https://www.aigameshare.com/games/aura-farming-game) — Автор указывает GPT-6 Astra и Codex наряду с Blender, Three.js, ImageGen и WebAudio как инструменты создания игры. [Примечания к проверке](assets/screenshots/aura-farming/SOURCE.md).
+  - Предпросмотр: ![Капибара танцует на лодке-драконе; видны управление наклоном и упором и интерфейс испытания из шести движений.](assets/screenshots/aura-farming/gameplay.jpg)
+
 <a id="puzzles"></a>
 
 ### Головоломки и логические игры
@@ -135,6 +199,25 @@
   - Участие модели: [История создания](works/sunjing-puzzles/CREATION.md) — Итеративная работа в Codex над дизайном игры, процедурной 3D-графикой, правилами, решателем и тестами; точное использование GPT-6 Astra ожидает подтверждения автора (черновая заявка).
   - Материалы: [Исходный код и инструкция по запуску](works/sunjing-puzzles/README.md) · [Требования](works/sunjing-puzzles/PROMPTS.md) · Технологии: React, Vinext/Vite, Three.js.
   - Предпросмотр: ![Деревянная головоломка Sunjing из шести деталей на зелёном 3D-верстаке с номерами деталей и кнопками извлечения.](assets/screenshots/sunjing-puzzles/gameplay.jpg)
+
+- **[CityMaker](https://citymaker.0to1app.com)** — Головоломка 2048 на городском участке 4×4: объединяйте одинаковые здания, проходя 11 архитектурных уровней в каждом из 12 городов — от традиционных домов до узнаваемого силуэта города. Вид можно поворачивать с шагом 45°.
+  - Автор: [Derek Wang](https://github.com/derek-wangpch)
+  - Платформа: Браузеры на компьютерах и мобильных устройствах с WebGL; английский, упрощённый и традиционный китайский. Бесплатно, без входа в аккаунт и API-ключа; прогресс сохраняется отдельно для каждого города в текущем браузере. Игру можно установить на домашний экран iOS.
+  - GPT-6 Astra: [История создания](https://github.com/derek-wangpch/OpenCityMaker/blob/master/docs/CREATION.md) — Автор сообщает, что использовал GPT-6 Astra для создания процедурной геометрии всех 132 моделей зданий, изучая референсы с разных ракурсов, сначала выстраивая объёмы по силуэту и проверяя результат по скриншотам; это не тест с единственным запросом.
+  - Материалы: [Исходный код и настройка](https://github.com/derek-wangpch/OpenCityMaker) · [Примечания к проверке](https://github.com/derek-wangpch/OpenCityMaker/blob/master/QA.md) · Технологии: React, TypeScript, Vite и Three.js; все 132 модели зданий — оригинальная процедурная геометрия.
+  - Предпросмотр: ![Поле Гонконга в CityMaker: низкополигональные 3D-здания на сетке 4×4, счёт, панель выбора городов и управление поворотом.](assets/screenshots/citymaker/gameplay.png)
+
+- **[Bonkshot](https://bonkshot.com/)** — Натягивайте рогатку и запускайте маленьких Bonker в деревянные опоры, чтобы обрушить сооружения и убрать цели.
+  - Автор: [edmund5](https://x.com/edmund5)
+  - Платформа: Браузер; тяните для прицеливания и отпускайте для выстрела. Можно играть без входа в аккаунт; вход через Google необязателен.
+  - GPT-6 Astra: [Заявление автора](https://x.com/edmund5/status/2097603093819261002) — Автор указывает GPT-6 Astra и Three.js как инструменты создания игры, а Suno — для фоновой музыки. [Примечания к проверке](assets/screenshots/bonkshot/SOURCE.md).
+  - Предпросмотр: ![Первая головоломка Grasslands после выстрела: частично разрушенная деревянная башня, одна оставшаяся цель и 2 200 очков.](assets/screenshots/bonkshot/gameplay.jpg)
+
+- **[Greenhouse Escape Room: The Last Seed](https://www.aigameshare.com/games/greenhouse-escape-room)** — Исследуйте запертую теплицу, восстановите медные водопроводные трубы, расположите растения и отражённый свет и спасите последнее семя.
+  - Автор: [nilni / @nil](https://www.aigameshare.com/profile/nil)
+  - Платформа: Браузер; нажмите Play, затем Begin. Бесплатно, без входа в аккаунт; элементы управления на английском и китайском.
+  - GPT-6 Astra: [Страница автора с игрой](https://www.aigameshare.com/games/greenhouse-escape-room) — Автор называет GPT-6 Astra и Codex инструментами разработки наряду с ImageGen и WebAudio. [Примечания к проверке](assets/screenshots/greenhouse-escape-room/SOURCE.md).
+  - Предпросмотр: ![Комната Waterworks в игре о побеге из теплицы: трубный механизм из девяти плиток, таймер и инвентарь.](assets/screenshots/greenhouse-escape-room/gameplay.jpg)
 
 <a id="strategy-simulation"></a>
 
@@ -227,6 +310,24 @@
   - Ресурсы: [GitHub](https://github.com/LucasMarquesShiva/the-free-game)
   - Предпросмотр: ![The Free Game](assets/screenshots/the-free-game/gameplay.jpg)
 
+- **[AGI of Empires — The Compute Wars](https://agiofempires.com/)** — Собирайте финансирование и GPU, стройте дата-центры и армии, чтобы обогнать конкурирующие ИИ-лаборатории в достижении ASI или уничтожить их штаб-квартиры.
+  - Автор: [timour kosters](https://x.com/timourxyz)
+  - Платформа: Браузер на компьютере; бесплатная сатирическая стратегия в реальном времени. Начальный матч против компьютера и сбор ресурсов проверены без входа в аккаунт.
+  - GPT-6 Astra: [X](https://x.com/timourxyz/status/2096662786692776293) — Автор сообщает, что за два дня разработал эту игру, вдохновлённую Age of Empires, с помощью Astra. [Примечания к проверке](assets/screenshots/agi-of-empires/SOURCE.md).
+  - Предпросмотр: ![Поле боя AGI of Empires, счётчики ресурсов и штаб-квартира.](assets/screenshots/agi-of-empires/gameplay.jpg)
+
+- **[Atlas Go](https://atlas-go.borisxp.chatgpt.site/)** — Играйте в го на уличных сетях и необычных графовых досках; доступны поочерёдная игра на одном устройстве и партии с друзьями.
+  - Автор: [Boris Power](https://x.com/BorisMPower)
+  - Платформа: Браузер; локальная доска открылась без входа в аккаунт. Онлайн-партии с друзьями не проверялись.
+  - GPT-6 Astra: [X](https://x.com/BorisMPower/status/2096784808399843582) — Автор описывает многопользовательское го на произвольных графах как результат одного запроса к Astra. [Примечания к проверке](assets/screenshots/atlas-go/SOURCE.md).
+  - Предпросмотр: ![Чёрные и белые камни на сотовой графовой доске Atlas Go.](assets/screenshots/atlas-go/gameplay.jpg)
+
+- **[Ironwood — The Art of Industry](https://ironwood.sparkles.dev/)** — Собирайте сырьё, снабжайте машины энергией и соединяйте конвейеры, чтобы превратить поляну в работающую фабрику.
+  - Автор: [Dan](https://x.com/aidaniil)
+  - Платформа: Браузер на компьютере; гостевой учебный режим открывается без входа в аккаунт, но для сохранения прогресса вход необходим. Мультиплеер независимо не проверялся.
+  - GPT-6 Astra: [X](https://x.com/aidaniil/status/2096426970930106530) — Автор сообщает, что вместе с братом создал игру с Astra, Blender MCP и Cloudflare Durable Objects, вдохновляясь Satisfactory и Besiege. [Примечания к проверке](assets/screenshots/ironwood/SOURCE.md).
+  - Предпросмотр: ![Машины фабрики Ironwood, конвейеры и обучение управлению ресурсами.](assets/screenshots/ironwood/gameplay.jpg)
+
 - **[DUST FRONT](https://dust-front.mustafaakin.dev/)** — Одиночная RTS со строительством базы, захватом точек и управлением наземными и воздушными силами.
   - Автор: [Mustafa Akın](https://x.com/mustafaakin)
   - Платформа: Настольный браузер; клавиатура и мышь, вход в аккаунт не требуется.
@@ -239,6 +340,18 @@
   - GPT-6 Astra: [X](https://x.com/HDLhN783wtLkpPR/status/2097321360641122393) — В указанной публикации автор сообщает, что создал эту RTS с помощью «GPT Astra»; точная версия модели и подробный процесс разработки не указаны.
   - Ссылки: [Заявка](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/66) · [Заметки о проверке (английский)](assets/screenshots/frontline-command/SOURCE.md)
   - Предпросмотр: ![Frontline Command: база, три выбранных танка и размещение электростанции во время матча; v0.8, снимок от 2026-09-09.](assets/screenshots/frontline-command/gameplay.jpg)
+
+- **[Coin Pusher Roguelite: Mintfall](https://www.aigameshare.com/games/coin-pusher-roguelite-mintfall)** — Цельтесь в 3D-автомате, сталкивающем монеты, комбинируйте особые монеты и реликвии и пройдите шесть раундов с ограничением на броски и целевым количеством очков.
+  - Автор: [nilni / @nil](https://www.aigameshare.com/profile/nil)
+  - Платформа: Браузер; нажмите Play, бесплатно и без входа в аккаунт. По желанию можно сохранять прогресс через аккаунт.
+  - GPT-6 Astra: [Страница автора с игрой](https://www.aigameshare.com/games/coin-pusher-roguelite-mintfall) — Автор указывает GPT-6 Astra вместе с GPT-5.6 Sol и Codex; на странице игры их вклад не разделён. [Примечания к проверке](assets/screenshots/mintfall/SOURCE.md).
+  - Предпросмотр: ![3D-лоток с монетами Mintfall в первом раунде: 33 очка, 44 броска и управление особыми монетами.](assets/screenshots/mintfall/gameplay.jpg)
+
+- **[Westward — The Oregon Trail](https://biswaz.me/westward/)** — Ведите обоз на запад, распределяйте еду, занимайтесь ремонтом и охотой и принимайте решения на Орегонской тропе.
+  - Автор: [Biswas](https://x.com/bis_waz)
+  - Платформа: Браузер на компьютере; начните с предложенной вымышленной команды, без входа в аккаунт и установки.
+  - GPT-6 Astra: [X](https://x.com/bis_waz/status/2098023593468907747) — Biswas сообщает, что с помощью GPT-6 Astra создал эту современную 3D-версию The Oregon Trail, и даёт ссылку на игру. [Примечания к проверке](assets/screenshots/westward/SOURCE.md).
+  - Предпросмотр: ![Повозка и волы на пути к Kansas River; пройдено 25 миль, видна панель припасов экспедиции.](assets/screenshots/westward/gameplay.jpg)
 
 <a id="rpg-adventures"></a>
 
@@ -276,6 +389,63 @@
   - Платформа: Настольный браузер; открыто без входа и оплаты. Мобильная версия не проверялась.
   - GPT-6 Astra: [X](https://x.com/emollick/status/2096047660662722620) — Автор сообщает об использовании Astra при разработке проекта. [Запись проверки (английский)](assets/screenshots/zork/SOURCE.md).
   - Предпросмотр: ![Zork · The Great Underground Empire](assets/screenshots/zork/gameplay.jpg)
+
+- **[The Simpsons: Hit & Run — Browser Recreation](https://vheissu.github.io/hit-and-run-web/)** — Исследуйте Springfield пешком и на машине в неофициальной браузерной реконструкции с миссиями, дорожным движением и полицейскими погонями.
+  - Автор: [Dwayne](https://x.com/CtrlAltDwayne)
+  - Платформа: Браузер на компьютере; первая миссия загрузилась без входа в аккаунт после первоначальной загрузки большого объёма ресурсов. Полное прохождение кампании не проверялось.
+  - GPT-6 Astra: [X](https://x.com/CtrlAltDwayne/status/2096872309936287887) — Автор описывает воссоздание игры для веба с GPT-6 Astra; в репозитории также указана помощь Claude с загрузкой. Права на ресурсы оригинальной игры сохраняются за их правообладателями. [Примечания к проверке](assets/screenshots/hit-and-run-web/SOURCE.md).
+  - Материалы: [Исходный код и настройка](https://github.com/Vheissu/hit-and-run-web)
+  - Предпросмотр: ![Homer в Springfield; видны цель первой миссии и мини-карта.](assets/screenshots/hit-and-run-web/gameplay.jpg)
+
+- **[Where the Wind Wanders](https://app.usecrayon.ai/play/a9a3c165-74b3-4ff6-9588-ad97f829ddb5)** — Бродите по залитой солнцем долине в 2.5D, следуйте тропам и соберите три письма ветра в спокойном приключении об исследовании мира.
+  - Автор: [Tushar](https://x.com/TusharXo)
+  - Платформа: Браузер, размещение на Crayon; проверены публичная страница игры и встроенный проигрыватель.
+  - GPT-6 Astra: [X](https://x.com/TusharXo/status/2096037482739683574) — Tushar описывает создание путей и ресурсов с Astra; в следующей публикации он объявляет о доступной для игры версии на Astra, Three.js и Crayon. [Примечания к проверке](assets/screenshots/crayon-adventure/SOURCE.md).
+  - Материалы: [Публикация автора о релизе](https://x.com/TusharXo/status/2096741535891251261)
+  - Предпросмотр: ![Персонаж исследует долину, полную цветов; видна цель по сбору писем ветра.](assets/screenshots/crayon-adventure/gameplay.jpg)
+
+- **[ALIBI — The Last Light](https://alibi-blackthorn-manor.vercel.app/)** — Расследуйте убийство в Blackthorn Manor в приключении с управлением мышью: осматривайте сцены и следуйте уликам, чтобы найти убийцу.
+  - Автор: [Christos Antonopoulos](https://x.com/Christos_antono)
+  - Платформа: Браузер; интерактивный вход в особняк открылся без входа в аккаунт. Последующие генерируемые сцены не проверялись полностью.
+  - GPT-6 Astra: [X](https://x.com/Christos_antono/status/2096435122669297892) — Автор указывает GPT Astra и H3 Max как инструменты создания этой генеративной детективной игры. [Примечания к проверке](assets/screenshots/alibi-blackthorn-manor/SOURCE.md).
+  - Предпросмотр: ![Вход в особняк с кликабельной дверью и начальным текстом расследования.](assets/screenshots/alibi-blackthorn-manor/gameplay.jpg)
+
+- **[Skyward: The Gathering](https://edge-city-skyward-quests.vercel.app/)** — Исследуйте парящие острова, прыгайте и планируйте между поселениями и выполняйте задания жителей.
+  - Автор: [timour kosters](https://x.com/timourxyz)
+  - Платформа: Браузер на компьютере, клавиатура и мышь; проверены страница версии с заданиями и управление.
+  - GPT-6 Astra: [X](https://x.com/timourxyz/status/2096379521926840339) — По словам автора, Astra создала доступную для игры 3D-игру с NPC и заданиями, вдохновлёнными местами Edge City. [Примечания к проверке](assets/screenshots/skyward-gathering/SOURCE.md).
+  - Предпросмотр: ![Общий вид парящих островов Skyward и элементы управления исследованием и журналом.](assets/screenshots/skyward-gathering/gameplay.jpg)
+
+- **[Anna & Leo · The Starstone Adventure](https://anna-leo-starstone.vercel.app/)** — Переключайтесь между музыкальной магией Anna и суперспособностями Leo, чтобы пробуждать цветы-мелодии и исследовать Wonder Garden.
+  - Автор: [Dharma Utomo](https://x.com/dharmautomo)
+  - Платформа: Браузер; начальное задание запустилось без входа в аккаунт. WASD — движение, Space — прыжок, E — способность, Tab — смена героя.
+  - GPT-6 Astra: [X](https://x.com/dharmautomo/status/2096573649235091967) — Автор сообщает, что GPT-6 Astra помогла создать 3D-приключение, и делится видео, где его дети тестируют игру. [Примечания к проверке](assets/screenshots/anna-leo-starstone/SOURCE.md).
+  - Предпросмотр: ![3D-мир приключений Anna и Leo и интерфейс заданий.](assets/screenshots/anna-leo-starstone/gameplay.jpg)
+
+- **[The Legend of Deller](https://rain-court-js.umodeler-inc-4323.chatgpt.site/)** — Исследуйте Rainmist Haven и отправляйтесь к подземельям, используя серии ударов мечом, стихийные умения и уклонения.
+  - Автор: [UModeler X PicoBerry](https://x.com/UModeler)
+  - Платформа: Браузер на компьютере; клавиатура и мышь, без входа в аккаунт. Дождитесь первоначальной загрузки 3D-ресурсов.
+  - GPT-6 Astra: [Заявление автора](https://x.com/UModeler/status/2097792348407099553) — Автор сообщает, что PicoBerry сгенерировала ресурсы, а GPT-6 Astra построила вокруг них экшен-RPG на Three.js. [Примечания к проверке](assets/screenshots/the-legend-of-deller/SOURCE.md).
+  - Материалы: [Ссылка автора на релиз](https://x.com/UModeler/status/2097792351129178451)
+  - Предпросмотр: ![Deller уклоняется возле фонтана и рыночных прилавков Rainmist Haven; видны здоровье, мана и управление умениями.](assets/screenshots/the-legend-of-deller/gameplay.jpg)
+
+- **[Dungeon of Astra](https://wavedash.com/games/dungeon-of-astra)** — Наберите отряд, спуститесь в подземелье из ста этажей и сочетайте удары мечом, огненные шары и роли спутников в забеге с необратимой смертью.
+  - Автор: [tonysuri / @tonysurix](https://x.com/tonysurix)
+  - Платформа: Браузер на компьютере, Wavedash; основная игра запускается без входа в аккаунт. Доступны необязательные аккаунты и платное раннее открытие персонажей.
+  - GPT-6 Astra: [Заявление автора](https://x.com/tonysurix/status/2097873333551616355) — Автор прямо сообщает, что эта игра с отрядом и исследованием подземелий создана с GPT-6 Astra. [Примечания к проверке](assets/screenshots/dungeon-of-astra/SOURCE.md).
+  - Предпросмотр: ![Герой и нанятый рыцарь на первом этаже подземелья во время атаки огненным шаром; здоровье отряда и мини-карта.](assets/screenshots/dungeon-of-astra/gameplay.jpg)
+
+- **[Sunlandia — The Forgotten Shore](https://sunlandia.smallweblab.com/)** — Исследуйте остров после кораблекрушения, ищите улики от первого лица и решайте загадки окружения на пути к маяку.
+  - Автор: [Ramon Linares / Small Web Lab](https://github.com/RamonLinares)
+  - Платформа: Браузер на компьютере; дождитесь острова, затем нажмите Begin expedition. Бесплатно, без аккаунта и установки.
+  - GPT-6 Astra: [Дневник разработки автора](https://smallweblab.com/posts/sunlandia/) — Автор начал с GPT-5.6 Sol, воспользовался помощью Fable и завершил игру с GPT-6 Astra. [Примечания к проверке](assets/screenshots/sunlandia/SOURCE.md).
+  - Предпросмотр: ![Берег Sunlandia от первого лица: обломки корабля, сломанный причал и цель найти помощь.](assets/screenshots/sunlandia/gameplay.jpg)
+
+- **[NÁCAR](https://nacar-microcosmo.preda2005.chatgpt.site/)** — Выращивайте микроскопический организм внутри затопленной раковины улитки, собирайте питательные вещества и развивайте новые части тела по мере исследования.
+  - Автор: [Marcio Lima / @Preda2005](https://x.com/Preda2005)
+  - Платформа: Браузер; бесплатная бета без входа в аккаунт, пять языков интерфейса, включая китайский.
+  - GPT-6 Astra: [Ветка автора](https://x.com/Preda2005/status/2097954217180921928) — Marcio сообщает, что описал GPT-6 Astra идею эволюции организма и развил её в доступную по ссылке бету. [Примечания к проверке](assets/screenshots/nacar/SOURCE.md).
+  - Предпросмотр: ![Маленькая клетка среди цветных питательных частиц; биомасса, эволюция, инвентарь и элементы интерфейса исследованных вод.](assets/screenshots/nacar/gameplay.jpg)
 
 <a id="platformers-racing"></a>
 
@@ -341,6 +511,31 @@
   - GPT-6 Astra: [Issue #51](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/51) — По словам автора: Первая версия — Qwen3.8 Max, вторая полностью переработана с Astra.
   - Предпросмотр: ![疾风赛道 / Kart Racing（跑跑卡丁车）](https://github.com/user-attachments/assets/015e0ca1-7032-4d0e-9391-ad3f40d84227)
 
+- **[TIDAL RUSH — Paradise GP](https://tidal-rush-paradise-gp.skirano.chatgpt.site/)** — Дрифтуйте на тропической картинговой трассе, применяйте предметы и соревнуйтесь с семью соперниками на протяжении трёх кругов.
+  - Автор: [Pietro Schirano](https://x.com/skirano)
+  - Платформа: Браузер; гонка на три круга запустилась без входа в аккаунт. Клавиатурное управление ездой, дрифтом и предметами, а также сенсорные кнопки на экране.
+  - GPT-6 Astra: [Подтверждение использования модели](https://openai.com/index/gpt-6-astra/) — На странице запуска Astra от OpenAI есть ссылка на эту интерактивную картинговую игру с указанием Pietro Schirano как автора. Публикация в X — это сообщение участника сообщества, а не самого автора игры. [Примечания к проверке](assets/screenshots/tidal-rush/SOURCE.md).
+  - Материалы: [Публикация об игре в X](https://x.com/alexgetmancom/status/2095598460921614825)
+  - Предпросмотр: ![Тропическая трасса Tidal Rush с позицией в гонке и управлением дрифтом.](assets/screenshots/tidal-rush/gameplay.jpg)
+
+- **[LUNA — Crimson Requiem / 紅月のレクイエム](https://luna-crimson-requiem.ponsuke.chatgpt.site/)** — Прыгайте по готическому пиксельному уровню, рубите врагов, прыгайте им на головы или призывайте атаку в коротком приключении с боковой прокруткой.
+  - Автор: [音羽ぽんすけ](https://x.com/ponsuke_otowa)
+  - Платформа: Браузер, японский интерфейс; клавиатурное управление и заявленная автором поддержка смартфонов. Доступен один уровень.
+  - GPT-6 Astra: [X](https://x.com/ponsuke_otowa/status/2096531744933425299) — Автор сообщает примерно о 25 минутах разработки с Astra и одной правке анимации ходьбы; музыка отдельно приписана Suno. [Примечания к проверке](assets/screenshots/luna-crimson-requiem/SOURCE.md).
+  - Предпросмотр: ![LUNA сражается на готической улице под красной луной; видны шкалы здоровья и призыва.](assets/screenshots/luna-crimson-requiem/gameplay.jpg)
+
+- **[Strange Orbit](https://app.usecrayon.ai/play/47df78e2-1410-45d1-833c-196e1161c0b8)** — Гоняйте на велосипедах с астронавтами по кольцам планеты, собирайте звёздную пыль, используйте воздушный след соперников и ускоряйтесь в Orbital Cup.
+  - Автор: [Crayon](https://x.com/usecrayon)
+  - Платформа: Браузер на Crayon; клавиатура и описанное в документации сенсорное управление. Публичная страница предлагает гонку, заезд на время и бесконечное странствие.
+  - GPT-6 Astra: [X](https://x.com/usecrayon/status/2097468975995302167) — Crayon указывает GPT-6 Astra, Crayon Pro и Three.js как инструменты создания космической велогонки. [Примечания к проверке](assets/screenshots/crayon-space-bike/SOURCE.md).
+  - Предпросмотр: ![Астронавты-велосипедисты на кольце планеты; индикаторы круга, позиции и звёздной пыли.](assets/screenshots/crayon-space-bike/gameplay.jpg)
+
+- **[One More Vine — Into the Wild](https://onemorevine.bennash.dev/)** — Бегите, прыгайте и раскачивайтесь на лианах на четырёх уровнях джунглей, собирайте сокровища и избегайте крокодилов, улучшая время прохождения.
+  - Автор: [Ben Nash](https://x.com/bennash)
+  - Платформа: Браузер, клавиатура и экранное управление движением; начальный уровень и инструкции загрузились без входа в аккаунт.
+  - GPT-6 Astra: [X](https://x.com/bennash/status/2096282758930645170) — Автор прямо называет её игрой из четырёх уровней, вдохновлённой Pitfall и созданной с GPT-6 Astra. [Примечания к проверке](assets/screenshots/one-more-vine/SOURCE.md).
+  - Предпросмотр: ![Уровень платформера в джунглях с висящими лианами, сокровищами, ямами и крокодилами.](assets/screenshots/one-more-vine/gameplay.jpg)
+
 - **[混合马里奥Ⅱ · 忍者龙剑传 × 坦克大战 / Mario Mix II](https://aha-xiaoq.github.io/games/mario-mix-2/play.html)** — Пройдите подземный мир 1-2 из Mario за Рю Хаябусу из Ninja Gaiden и танк из Battle City: прыжки, лазание по стенам и бои с видом сбоку за Рю, сражения с видом сверху за танк или эстафета от ниндзя к танку ради спасения принцессы.
   - Автор: [在下_小Q（Aha-xiaoQ）](https://github.com/Aha-xiaoQ)
   - Платформа: Браузер на компьютере, китайский интерфейс, рекомендуется клавиатура; бесплатно, без входа в аккаунт и установки.
@@ -349,6 +544,37 @@
   - Права: Неофициальная фанатская игра; права на классических персонажей, изображения и музыку остаются у соответствующих правообладателей. Источники материалов указаны на странице оригинальной игры.
   - Предпросмотр: ![Mario Mix II — предоставленная автором обложка видео, а не снимок игрового процесса.](https://aha-xiaoq.github.io/games/mario-mix-2/cover.jpg)
   - Скриншот: ![Танк в Mario Mix II стреляет у входа в мир 1-2; запущенная версия 1.0, снимок от 2026-09-09.](assets/screenshots/mario-mix-2/gameplay.jpg)
+
+- **[Bengaluru ORR Rush](https://orr-rush-bengaluru.ravitheja.chatgpt.site/)** — Мчитесь сквозь трафик Bengaluru, объезжайте выбоины и мотоциклы курьеров, используя ускорение или боковой рывок, чтобы освободить себе путь.
+  - Автор: [Ravi Theja](https://x.com/ravithejads)
+  - Платформа: Браузер на компьютере; клавиатурное управление с необязательной автоматической подачей газа, без входа в аккаунт.
+  - GPT-6 Astra: [Заявление автора](https://x.com/ravithejads/status/2097181044625887392) — Автор указывает GPT-6 Astra как инструмент создания гонки по дорогам Bengaluru. [Примечания к проверке](assets/screenshots/bengaluru-orr-rush/SOURCE.md).
+  - Предпросмотр: ![Синяя машина игрока в трафике Bengaluru; видны позиция, скорость, таймер и подсказки управления.](assets/screenshots/bengaluru-orr-rush/gameplay.jpg)
+
+- **[SKICROSS — Alpine Downhill](https://iamsonic.net/2026/mini-games/skicross.html)** — Соревнуйтесь с тремя лыжниками на спуске с горы, проходите ворота и препятствия и не дайте лавине вас догнать.
+  - Автор: [Sonic的奇思妙想](https://x.com/sonic0828)
+  - Платформа: Браузер на компьютере; A/D — поворот, Space — прыжок, Shift — ускорение; без входа в аккаунт и загрузок.
+  - GPT-6 Astra: [Заявление автора](https://x.com/sonic0828/status/2097601232877781344) — Автор связывает создание подборки мини-игр с GPT-6 Astra и публикует эту лыжную игру в отдельном ответе. [Примечания к проверке](assets/screenshots/skicross/SOURCE.md).
+  - Материалы: [Ссылка автора на релиз](https://x.com/sonic0828/status/2097601732297814300)
+  - Предпросмотр: ![Четыре лыжника на снежной трассе; бонус за ворота, места в гонке, скорость и расстояние до лавины.](assets/screenshots/skicross/gameplay.jpg)
+
+- **[Itsy Bitsy Spider · One More Climb](https://game-bench.piccini.app/games/gpt-6-astra/)** — Взбирайтесь по мшистой стене, ловите мух, чтобы восстановить хватку, и прячьтесь в укрытиях-отверстиях, пока дождь не смыл паука.
+  - Автор: [Luiz Piccini](https://piccini.app/)
+  - Платформа: Браузер; бесплатно, без входа в аккаунт. WASD или экранный джойстик.
+  - GPT-6 Astra: [Game Bench автора](https://game-bench.piccini.app/) — Game Bench помечает этот опубликованный результат как GPT-6 Astra canary, high, с датой 2026-09-05; он создан по общему игровому заданию платформы. [Примечания к проверке](assets/screenshots/itsy-bitsy-spider/SOURCE.md).
+  - Предпросмотр: ![Паук на высоте 2 метра на мшистой кирпичной стене; хватка, мухи, укрытие и джойстик движения.](assets/screenshots/itsy-bitsy-spider/gameplay.jpg)
+
+- **[Desi Mayhem](https://desimayhem.com/)** — Участвуйте в мотогонках среди индийского городского трафика, лавируйте между автобусами и авторикшами и используйте удары ногами, кулаками и ускорения.
+  - Автор: [Kishore](https://x.com/GetKishore)
+  - Платформа: Браузер на компьютере; бесплатно, без аккаунта. Перед первым заездом примите или измените сгенерированный псевдоним гонщика.
+  - GPT-6 Astra: [Ветка автора о разработке](https://x.com/GetKishore/status/2097906401159102811) — Kishore описывает доработку 3D-игры, созданной с Astra, с помощью уличных референсов и повторных проверок трафика, столкновений и боёв гонщиков. [Примечания к проверке](assets/screenshots/desi-mayhem/SOURCE.md).
+  - Предпросмотр: ![Мотогонка в Chennai: гонщик игрока, городской трафик, мини-карта, позиция и таймер гонки.](assets/screenshots/desi-mayhem/gameplay.jpg)
+
+- **[Cosmic Tides](https://app.usecrayon.ai/play/362ae1e7-29bd-4fbc-9103-00649265d942)** — Управляйте аппаратом над галактическим океаном, следуйте через светящиеся ворота и выберите гонку на два круга или бесконечный дрейф.
+  - Автор: [Aniket J](https://x.com/aniketjart)
+  - Платформа: Браузер; дождитесь 3D-ресурсов, затем нажмите Ride the current. Бесплатно, без входа в аккаунт.
+  - GPT-6 Astra: [X](https://x.com/aniketjart/status/2098207146647433534) — Aniket указывает GPT-6 Astra, Blender MCP и Crayon как инструменты создания игры и описывает её как эксперимент с планами дальнейшей доработки игрового процесса. [Примечания к проверке](assets/screenshots/cosmic-tides/SOURCE.md).
+  - Предпросмотр: ![Идущая гонка Cosmic Tides: приближение к светящимся воротам над галактическим морем, индикаторы круга и скорости.](assets/screenshots/cosmic-tides/gameplay.jpg)
 
 <a id="experimental-multiplayer"></a>
 
@@ -394,6 +620,12 @@
   - Платформа: Браузер, бесплатно, без регистрации. По словам автора, может понадобиться VPN/прокси. Одиночный запуск проверен; мультиплеер не проверялся.
   - GPT-6 Astra: [Issue #52](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/52) — По словам автора: Первая версия — GPT-6 Astra Pro, доработки — GPT-6 Astra в Codex.
   - Предпросмотр: ![泡泡坦克大作战联机版 / Toon Tank Arena](https://github.com/user-attachments/assets/713d44f3-a77c-452c-ba6d-1231882dc670)
+
+- **[Above the Rooftops](https://app.usecrayon.ai/play/d09bb865-2259-42e2-86cc-fb609a9d6f28)** — Раскрасьте воздушного змея и запускайте его над городскими крышами, регулируя натяжение нити в свободном полёте или испытании со сбором небесных огней на время.
+  - Автор: [Tushar / @TusharXo](https://x.com/TusharXo)
+  - Платформа: Браузер; выберите персонажа, выйдите на крышу и нажмите Fly. Бесплатно, без входа в аккаунт.
+  - GPT-6 Astra: [X](https://x.com/TusharXo/status/2098156783181467801) — Tushar прямо указывает GPT-6 Astra и Crayon как инструменты создания этой игры о воздушном змее на Three.js и упоминает Images 2.5 для визуальных материалов. [Примечания к проверке](assets/screenshots/above-the-rooftops/SOURCE.md).
+  - Предпросмотр: ![Испытание с воздушным змеем над городом; высота, натяжение нити, прогресс сбора небесных огней и управление направлением.](assets/screenshots/above-the-rooftops/gameplay.jpg)
 
 ## Что содержит запись
 

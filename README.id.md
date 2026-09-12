@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 49](https://img.shields.io/badge/Cases-49-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 86](https://img.shields.io/badge/Cases-86-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Kumpulan gim menarik yang dibuat dengan GPT-6 Astra.**
 
@@ -22,7 +22,7 @@ Halaman ini merupakan terjemahan [README bahasa Inggris](README.md). Periksa ver
 
 ## Mulai di sini
 
-Jelajahi **49 gim dan proyek interaktif**: strategi wilayah Tiga Kerajaan, teka-teki kayu yang saling mengunci dan teka-teki balok geser, penggabungan buah yang lentur, penerbangan satu tombol, pertempuran karpet ajaib, pertahanan pulau dengan jaringan listrik, bertahan hidup di alam liar, menangkap ikan di bawah air, mengelola restoran sushi, dan bertani di pulau, balapan kart di Bay Circuit, bersepeda di pesisir bersama pelikan, mainan meja yang diadaptasi menjadi gim 3D, serta Orbital Garden. Klik judul untuk langsung bermain di peramban.
+Jelajahi **86 gim dan proyek interaktif**: strategi wilayah Tiga Kerajaan, teka-teki kayu yang saling mengunci dan teka-teki balok geser, penggabungan buah yang lentur, 2048 pembangunan kota dengan generasi prosedural, penerbangan satu tombol, pertempuran karpet ajaib, gim tembak-menembak dengan hujan peluru dalam lima level, pertahanan pulau dengan jaringan listrik, bertahan hidup di alam liar, menangkap ikan di bawah air, mengelola restoran sushi, dan bertani di pulau, balapan kart di Bay Circuit, bersepeda di pesisir bersama pelikan, mainan meja yang diadaptasi menjadi gim 3D, dekorasi rumah 3D, serta Orbital Garden. Klik judul untuk langsung bermain di peramban.
 
 Katalog diperbarui: **2026-09-12**. Informasi penggunaan model berdasarkan pernyataan kreator atau pengirim; detail yang belum dikonfirmasi ditandai pada setiap entri. Tanggal ini menunjukkan pemeliharaan katalog, bukan pengujian ulang seluruh gim.
 
@@ -110,6 +110,70 @@ Gim tembak-menembak, pertarungan, bertahan hidup, ritme, dan apa pun yang membua
   - GPT-6 Astra: [X](https://x.com/jumperz/status/2096600055301984738) — Kreator menyatakan menggunakan Astra dalam pengembangan proyek ini. [Catatan verifikasi (Inggris)](assets/screenshots/cinderfall/SOURCE.md).
   - Pratinjau: ![Cinderfall · Fire, Shadow & Steel](assets/screenshots/cinderfall/gameplay.jpg)
 
+- **[Oz Breakdance](https://satriodewantono.com/breakdance/)** — Seret anggota tubuh penari ragdoll ke sasaran yang sesuai untuk meraih poin dan memperpanjang ronde breakdance berbatas waktu.
+  - Kreator: [Satrio](https://x.com/satrio_d)
+  - Platform: Browser desktop, kontrol mouse; ronde berbatas waktu berhasil dimulai tanpa login.
+  - GPT-6 Astra: [X](https://x.com/satrio_d/status/2096022866097758500) — Kreator menyatakan bahwa Astra menyempurnakan game breakdance yang sudah ia buat beserta tampilannya. [Catatan verifikasi](assets/screenshots/breakdance/SOURCE.md).
+  - Pratinjau: ![Penari ragdoll membidik sasaran kaki di arena breakdance dengan batas waktu.](assets/screenshots/breakdance/gameplay.jpg)
+
+- **[Astral War](https://astralwar.io/)** — FPS browser bertema Perang Dunia II dengan penampilan prajurit dan zombi, pilihan perlengkapan senjata, latihan melawan bot, dan opsi lobi.
+  - Kreator: [Rishi](https://x.com/0xRishi)
+  - Platform: Browser desktop, keyboard dan mouse; latihan bot berhasil dimulai tanpa login. Multipemain dan dukungan kontroler belum diuji.
+  - GPT-6 Astra: [X](https://x.com/0xRishi/status/2096079660605997264) — Rishi menyatakan bahwa Astral War dibuat dengan Astra, Three.js, Meshy, dan ElevenLabs. Situs saat ini juga mencantumkan Vesper; lihat catatan atribusi. [Catatan verifikasi](assets/screenshots/astral-war/SOURCE.md).
+  - Pratinjau: ![Tampilan pertempuran Astral War yang sedang berjalan, dengan senjata dan kontrol medan perang.](assets/screenshots/astral-war/gameplay.jpg)
+
+- **[FLOP CLUB](https://bubucn.com/ai-model-evals/flop-club/game/index.html)** — Terjun dari tiga ketinggian platform, lakukan salto dan putaran, lalu bidik cincin yang mengapung untuk meningkatkan skor masuk ke air.
+  - Kreator: [BubuAi](https://x.com/BubuStd)
+  - Platform: Browser; halaman game mandiri langsung berjalan tanpa login atau unduhan. Lompatan terjun berhasil dimulai pada pemeriksaan 2026-09-09; tersedia kontrol keyboard dan kontrol sentuh yang dijelaskan dalam dokumentasi.
+  - GPT-6 Astra: [X](https://x.com/BubuStd/status/2096402783805354091) — Kreator melaporkan pembuatan dengan satu prompt Astra Pro menggunakan Three.js. [Catatan verifikasi](assets/screenshots/flop-club/SOURCE.md).
+  - Referensi: [Pengenalan proyek](https://bubucn.com/zh/ai-model-evals/flop-club)
+  - Pratinjau: ![Penerjun di platform tinggi di atas cincin sasaran dan kontrol pendaratan di air.](assets/screenshots/flop-club/gameplay.jpg)
+
+- **[Vector Dive — Beyond the Signal](https://vector-dive.openai.chatgpt.site/)** — Terbang melintasi sirkuit kerangka neon yang makin cepat setiap putaran, atur waktu dorongan dan perpindahan fase untuk bertahan lebih lama.
+  - Kreator: [Thomas Ricouard](https://x.com/Dimillian)
+  - Platform: Browser desktop; penerbangan dengan perhitungan skor berhasil dimulai tanpa login. WASD untuk terbang, Space untuk dorongan, dan Shift untuk perpindahan fase.
+  - GPT-6 Astra: [X](https://x.com/Dimillian/status/2097188900888322323) — Kreator menyatakan bahwa Astra membuat game dan musiknya berdasarkan arahan visual neon/synthwave serta seni konsep. [Catatan verifikasi](assets/screenshots/vector-dive/SOURCE.md).
+  - Pratinjau: ![Lintasan terbang neon Vector Dive dengan pesawat pemain dan HUD permainan.](assets/screenshots/vector-dive/gameplay.jpg)
+
+- **[Harbor Skirmish](https://gpt6astra-game.vercel.app/)** — Lindungi kota pesisir dari gelombang kelinci liar dengan tiga senjata, rute di atas atap, gerakan melesat, dan kait penarik.
+  - Kreator: [OpenDesign](https://x.com/OpenDesignHQ)
+  - Platform: Browser desktop; keyboard dan mouse, tanpa login atau unduhan.
+  - GPT-6 Astra: [Pernyataan kreator](https://x.com/OpenDesignHQ/status/2097635757917983223) — OpenDesign menyebut game Three.js ini sebagai versi buatan GPT-6 Astra dalam perbandingan dua modelnya. [Catatan verifikasi](assets/screenshots/harbor-skirmish/SOURCE.md).
+  - Pratinjau: ![Pandangan senapan orang pertama ke kota Seabreeze, kelinci yang mendekat, penghitung gelombang, dan kontrol senjata.](assets/screenshots/harbor-skirmish/gameplay.jpg)
+
+- **[UNDERGROUND — Underground Boxing](https://iamsonic.net/2026/mini-games/underground-boxing.html)** — Bertinju selama tiga ronde berbatas waktu di ring bawah tanah 3D, sambil menyeimbangkan pukulan, tangkisan, penghindaran, dan stamina.
+  - Kreator: [Sonic的奇思妙想](https://x.com/sonic0828)
+  - Platform: Browser desktop; WASD untuk bergerak, J/K untuk memukul, L untuk menangkis, dan Space untuk menghindar; tanpa login atau unduhan.
+  - GPT-6 Astra: [Pernyataan kreator](https://x.com/sonic0828/status/2097601232877781344) — Utas pameran kreator menyebut GPT-6 Astra sebagai alat untuk menghasilkan kumpulan mini-game ini; balasan tentang tinju menautkan versi ini. [Catatan verifikasi](assets/screenshots/underground-boxing/SOURCE.md).
+  - Referensi: [Tautan rilis dari kreator](https://x.com/sonic0828/status/2097601584410796401)
+  - Pratinjau: ![Dua petinju saling memukul di ring bawah tanah yang diterangi lampu, dengan penghitung waktu ronde, bilah kesehatan, dan stamina.](assets/screenshots/underground-boxing/gameplay.jpg)
+
+- **[Urban Champion 3D](https://iamsonic.net/2026/mini-games/urban-champion.html)** — Saling melancarkan pukulan atas dan bawah di jalan saat senja, tangkis serangan balasan, dan desak lawan ke lubang saluran sambil menghindari pot bunga yang jatuh.
+  - Kreator: [Sonic的奇思妙想](https://x.com/sonic0828)
+  - Platform: Browser desktop; A/D untuk bergerak, J/K untuk memukul, U/I untuk menangkis, dan Space untuk menghindar; tanpa login.
+  - GPT-6 Astra: [Pernyataan kreator](https://x.com/sonic0828/status/2097601232877781344) — Pameran karya GPT-6 Astra dari kreator mencakup balasan rilis terpisah yang menautkan game pertarungan jalanan ini. [Catatan verifikasi](assets/screenshots/urban-champion-3d/SOURCE.md).
+  - Referensi: [Tautan rilis dari kreator](https://x.com/sonic0828/status/2097601861658587376)
+  - Pratinjau: ![Petarung biru dan merah saling memukul di depan Sunset Mart, dengan penghitung waktu ronde dan bilah stamina.](assets/screenshots/urban-champion-3d/gameplay.jpg)
+
+- **[Zero District — Shells 3D](https://iamsonic.net/2026/mini-games/shells-3d/play.html)** — Bertahan dari pengepungan kota selama tiga menit dengan tembakan otomatis, menghindar melalui gerakan, mengumpulkan pengalaman, dan memilih peningkatan.
+  - Kreator: [Sonic的奇思妙想](https://x.com/sonic0828)
+  - Platform: Browser; bergerak dengan WASD atau menyeret, bidikan otomatis; tanpa login atau unduhan.
+  - GPT-6 Astra: [Pernyataan kreator](https://x.com/sonic0828/status/2097601232877781344) — Kreator menyebut GPT-6 Astra dalam pengumuman koleksi dan menautkan versi bertahan hidup 3D ini dalam balasan tersendiri. [Catatan verifikasi](assets/screenshots/zero-district-shells-3d/SOURCE.md).
+  - Referensi: [Tautan rilis dari kreator](https://x.com/sonic0828/status/2097602391122264310)
+  - Pratinjau: ![Penyintas menembak otomatis ke arah musuh di sekelilingnya di jalan kota, dengan 14 musuh dikalahkan dan sisa waktu 166 detik.](assets/screenshots/zero-district-shells-3d/gameplay.jpg)
+
+- **[ASCII DISTRICT](https://ascii-district.vercel.app/)** — Lawan gelombang musuh virus komputer di arena orang pertama yang digambar dengan karakter ASCII, dengan kemampuan berlari cepat, melompat, dan meluncur.
+  - Kreator: [Acker Code](https://x.com/acker_code)
+  - Platform: Browser desktop; keyboard dan mouse, tanpa login. Klik arena untuk mengunci mouse; Esc untuk melepasnya.
+  - GPT-6 Astra: [Pernyataan kreator](https://x.com/acker_code/status/2097542957070975286) — Kreator secara eksplisit menyebut Codex dan GPT-6 Astra sebagai alat pembuatan game tembak-menembak bergaya ASCII ini. [Catatan verifikasi](assets/screenshots/ascii-district/SOURCE.md).
+  - Pratinjau: ![Halaman berkarakter ASCII dengan musuh virus yang mendekat dan HUD senapan menunjukkan 29 peluru setelah menembak.](assets/screenshots/ascii-district/gameplay.jpg)
+
+- **[Aura Farming: Unbothered](https://www.aigameshare.com/games/aura-farming-game)** — Jaga keseimbangan kapibara yang menari di perahu naga, miringkan tubuh melawan ombak, dan selesaikan enam gerakan sebelum waktu 40 detik habis.
+  - Kreator: [nilni / @nil](https://www.aigameshare.com/profile/nil)
+  - Platform: Browser desktop; gratis tanpa login. Klik Play; fitur akun bersifat opsional.
+  - GPT-6 Astra: [Halaman game dari kreator](https://www.aigameshare.com/games/aura-farming-game) — Kreator mencantumkan GPT-6 Astra dan Codex untuk game ini, bersama Blender, Three.js, ImageGen, dan WebAudio. [Catatan verifikasi](assets/screenshots/aura-farming/SOURCE.md).
+  - Pratinjau: ![Kapibara menari di perahu naga, dengan kontrol memiringkan tubuh dan menahan posisi serta HUD tantangan enam gerakan.](assets/screenshots/aura-farming/gameplay.jpg)
+
 <a id="puzzles"></a>
 
 ### Teka-teki dan asah otak
@@ -135,6 +199,25 @@ Teka-teki logika, tantangan fisika, permainan kata, dan mekanisme kecil yang kre
   - Keterlibatan model: [Catatan pembuatan](works/sunjing-puzzles/CREATION.md) — Pengembangan berulang melalui Codex untuk desain gim, visual 3D prosedural, aturan, pemecah teka-teki, dan pengujian; penggunaan spesifik GPT-6 Astra masih menunggu konfirmasi kreator (pengajuan draf).
   - Materi pengembangan: [Kode sumber dan petunjuk menjalankan](works/sunjing-puzzles/README.md) · [Kebutuhan](works/sunjing-puzzles/PROMPTS.md) · Teknologi: React, Vinext/Vite, Three.js.
   - Pratinjau: ![Teka-teki kayu enam bagian Sunjing di meja kerja 3D hijau dengan nomor bagian dan kontrol penarikan.](assets/screenshots/sunjing-puzzles/gameplay.jpg)
+
+- **[CityMaker](https://citymaker.0to1app.com)** — Puzzle 2048 di blok kota 4×4: gabungkan bangunan sejenis untuk menapaki sebelas tingkat arsitektur di tiap kota, dari rumah tradisional hingga cakrawala kota yang khas. Tersedia dua belas kota dengan sudut pandang yang dapat diputar 45° sekali putar.
+  - Kreator: [Derek Wang](https://github.com/derek-wangpch)
+  - Platform: Browser desktop dan seluler dengan WebGL; bahasa Inggris, Mandarin Sederhana, dan Mandarin Tradisional. Gratis, tanpa login atau kunci API; progres tiap kota tersimpan di browser yang digunakan. Dapat dipasang ke Layar Utama iOS.
+  - GPT-6 Astra: [Catatan pembuatan](https://github.com/derek-wangpch/OpenCityMaker/blob/master/docs/CREATION.md) — Kreator melaporkan penggunaan GPT-6 Astra untuk menghasilkan geometri prosedural seluruh 132 model bangunan, melalui alur berbasis referensi: riset dari berbagai sudut, pembentukan massa bangunan yang mendahulukan siluet, dan validasi tangkapan layar; bukan percobaan satu kali prompt.
+  - Referensi: [Kode sumber dan penyiapan](https://github.com/derek-wangpch/OpenCityMaker) · [Catatan verifikasi](https://github.com/derek-wangpch/OpenCityMaker/blob/master/QA.md) · Dibuat dengan: React, TypeScript, Vite, dan Three.js; seluruh 132 model bangunan merupakan geometri prosedural orisinal.
+  - Pratinjau: ![Papan Hong Kong di CityMaker dengan bangunan 3D low-poly pada kisi 4×4, skor, deretan pilihan kota, dan kontrol rotasi.](assets/screenshots/citymaker/gameplay.png)
+
+- **[Bonkshot](https://bonkshot.com/)** — Tarik ketapel dan lontarkan Bonker kecil ke penyangga kayu untuk merobohkan bangunan dan menyingkirkan sasaran.
+  - Kreator: [edmund5](https://x.com/edmund5)
+  - Platform: Browser; seret untuk membidik dan lepaskan untuk menembak. Bisa dimainkan tanpa login; login Google opsional.
+  - GPT-6 Astra: [Pernyataan kreator](https://x.com/edmund5/status/2097603093819261002) — Kreator menyebut GPT-6 Astra dan Three.js untuk game ini, dengan musik latar yang dibuat menggunakan Suno. [Catatan verifikasi](assets/screenshots/bonkshot/SOURCE.md).
+  - Pratinjau: ![Puzzle Grasslands pertama setelah tembakan, menampilkan menara kayu yang sebagian runtuh, satu sasaran tersisa, dan 2.200 poin.](assets/screenshots/bonkshot/gameplay.jpg)
+
+- **[Greenhouse Escape Room: The Last Seed](https://www.aigameshare.com/games/greenhouse-escape-room)** — Jelajahi rumah kaca yang terkunci, pulihkan pipa air tembaga, atur tanaman dan pantulan cahaya, lalu selamatkan benih terakhirnya.
+  - Kreator: [nilni / @nil](https://www.aigameshare.com/profile/nil)
+  - Platform: Browser; klik Play, lalu Begin. Gratis, tanpa login; kontrol dalam bahasa Inggris dan Mandarin.
+  - GPT-6 Astra: [Halaman game dari kreator](https://www.aigameshare.com/games/greenhouse-escape-room) — Kreator menyebut GPT-6 Astra dan Codex sebagai alat pengembangan, bersama ImageGen dan WebAudio. [Catatan verifikasi](assets/screenshots/greenhouse-escape-room/SOURCE.md).
+  - Pratinjau: ![Ruang Waterworks dalam game pelarian rumah kaca, dengan perangkat pipa sembilan petak, penghitung waktu, dan inventaris.](assets/screenshots/greenhouse-escape-room/gameplay.jpg)
 
 <a id="strategy-simulation"></a>
 
@@ -227,6 +310,24 @@ Pertahanan menara, kartu strategi, pengelolaan, pembangunan, dan sandbox simulas
   - Sumber daya: [GitHub](https://github.com/LucasMarquesShiva/the-free-game)
   - Pratinjau: ![The Free Game](assets/screenshots/the-free-game/gameplay.jpg)
 
+- **[AGI of Empires — The Compute Wars](https://agiofempires.com/)** — Kumpulkan pendanaan dan GPU, bangun pusat data dan pasukan, lalu dahului laboratorium AI pesaing dalam mencapai ASI atau hancurkan markas mereka.
+  - Kreator: [timour kosters](https://x.com/timourxyz)
+  - Platform: Browser desktop; game strategi waktu nyata satiris yang gratis. Pertandingan awal melawan komputer dan pengumpulan sumber daya telah diverifikasi tanpa login.
+  - GPT-6 Astra: [X](https://x.com/timourxyz/status/2096662786692776293) — Kreator menyatakan bahwa ia mengembangkan game yang terinspirasi Age of Empires ini dengan Astra selama dua hari. [Catatan verifikasi](assets/screenshots/agi-of-empires/SOURCE.md).
+  - Pratinjau: ![Medan perang AGI of Empires, penghitung sumber daya, dan markas.](assets/screenshots/agi-of-empires/gameplay.jpg)
+
+- **[Atlas Go](https://atlas-go.borisxp.chatgpt.site/)** — Mainkan Go pada jaringan jalan dan papan graf yang tidak biasa, dengan opsi bergantian pada satu perangkat dan bermain bersama teman.
+  - Kreator: [Boris Power](https://x.com/BorisMPower)
+  - Platform: Browser; papan lokal terbuka tanpa login. Pertandingan daring bersama teman belum diuji.
+  - GPT-6 Astra: [X](https://x.com/BorisMPower/status/2096784808399843582) — Kreator menyebut game Go multipemain pada graf sembarang ini sebagai hasil satu prompt Astra. [Catatan verifikasi](assets/screenshots/atlas-go/SOURCE.md).
+  - Pratinjau: ![Batu hitam dan putih pada papan graf sarang lebah Atlas Go.](assets/screenshots/atlas-go/gameplay.jpg)
+
+- **[Ironwood — The Art of Industry](https://ironwood.sparkles.dev/)** — Kumpulkan bahan mentah, alirkan daya ke mesin, dan sambungkan ban berjalan untuk mengubah lahan kosong menjadi pabrik yang beroperasi.
+  - Kreator: [Dan](https://x.com/aidaniil)
+  - Platform: Browser desktop; tutorial tamu terbuka tanpa login, tetapi penyimpanan progres memerlukan login. Multipemain belum diuji secara independen.
+  - GPT-6 Astra: [X](https://x.com/aidaniil/status/2096426970930106530) — Kreator menyatakan bahwa ia dan saudaranya membuat game ini dengan Astra, Blender MCP, dan Cloudflare Durable Objects, terinspirasi oleh Satisfactory dan Besiege. [Catatan verifikasi](assets/screenshots/ironwood/SOURCE.md).
+  - Pratinjau: ![Mesin pabrik Ironwood, ban berjalan, dan tutorial pengelolaan sumber daya.](assets/screenshots/ironwood/gameplay.jpg)
+
 - **[DUST FRONT](https://dust-front.mustafaakin.dev/)** — RTS pemain tunggal dengan pembangunan markas, perebutan lokasi serta komando pasukan darat dan udara.
   - Pembuat: [Mustafa Akın](https://x.com/mustafaakin)
   - Platform: Browser desktop; keyboard dan mouse, tanpa login wajib.
@@ -239,6 +340,18 @@ Pertahanan menara, kartu strategi, pengelolaan, pembangunan, dan sandbox simulas
   - GPT-6 Astra: [X](https://x.com/HDLhN783wtLkpPR/status/2097321360641122393) — Dalam unggahan yang ditautkan, kreator menyatakan menggunakan “GPT Astra” untuk membuat RTS ini; versi model yang tepat dan alur pengembangan terperinci tidak disebutkan.
   - Referensi: [Kiriman](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/66) · [Catatan verifikasi (bahasa Inggris)](assets/screenshots/frontline-command/SOURCE.md)
   - Pratinjau: ![Frontline Command: pangkalan, tiga tank terpilih, dan penempatan pembangkit listrik dalam pertandingan yang sedang berjalan; v0.8, diambil pada 2026-09-09.](assets/screenshots/frontline-command/gameplay.jpg)
+
+- **[Coin Pusher Roguelite: Mintfall](https://www.aigameshare.com/games/coin-pusher-roguelite-mintfall)** — Bidik mesin pendorong koin 3D, padukan koin khusus dan relik, lalu selesaikan enam ronde dengan jumlah jatuhan terbatas dan target skor.
+  - Kreator: [nilni / @nil](https://www.aigameshare.com/profile/nil)
+  - Platform: Browser; klik Play, gratis tanpa login. Penyimpanan melalui akun bersifat opsional.
+  - GPT-6 Astra: [Halaman game dari kreator](https://www.aigameshare.com/games/coin-pusher-roguelite-mintfall) — Kreator mencantumkan GPT-6 Astra bersama GPT-5.6 Sol dan Codex; halaman game tidak memisahkan kontribusi masing-masing. [Catatan verifikasi](assets/screenshots/mintfall/SOURCE.md).
+  - Pratinjau: ![Baki koin 3D Mintfall pada ronde pertama, menampilkan 33 poin, 44 jatuhan, dan kontrol koin khusus.](assets/screenshots/mintfall/gameplay.jpg)
+
+- **[Westward — The Oregon Trail](https://biswaz.me/westward/)** — Pimpin rombongan kereta ke barat, atur jatah makanan, perbaikan, dan perburuan, lalu buat keputusan sepanjang Oregon Trail.
+  - Kreator: [Biswas](https://x.com/bis_waz)
+  - Platform: Browser desktop; mulai dengan rombongan fiktif yang disediakan, tanpa login atau instalasi.
+  - GPT-6 Astra: [X](https://x.com/bis_waz/status/2098023593468907747) — Biswas menyatakan bahwa ia memakai GPT-6 Astra untuk membuat versi 3D modern The Oregon Trail ini dan menautkan game yang bisa dimainkan. [Catatan verifikasi](assets/screenshots/westward/SOURCE.md).
+  - Pratinjau: ![Kereta dan lembu di jalan menuju Kansas River, dengan jarak tempuh 25 mil dan panel perbekalan ekspedisi.](assets/screenshots/westward/gameplay.jpg)
 
 <a id="rpg-adventures"></a>
 
@@ -276,6 +389,63 @@ Permainan peran, eksplorasi, petualangan naratif, dan cerita interaktif.
   - Platform: Peramban desktop; dibuka tanpa login atau pembayaran. Seluler belum diuji.
   - GPT-6 Astra: [X](https://x.com/emollick/status/2096047660662722620) — Kreator menyatakan menggunakan Astra dalam pengembangan proyek ini. [Catatan verifikasi (Inggris)](assets/screenshots/zork/SOURCE.md).
   - Pratinjau: ![Zork · The Great Underground Empire](assets/screenshots/zork/gameplay.jpg)
+
+- **[The Simpsons: Hit & Run — Browser Recreation](https://vheissu.github.io/hit-and-run-web/)** — Jelajahi Springfield dengan berjalan kaki dan mengendarai mobil dalam versi buatan ulang tidak resmi untuk browser yang memiliki misi, lalu lintas, dan kejaran polisi.
+  - Kreator: [Dwayne](https://x.com/CtrlAltDwayne)
+  - Platform: Browser desktop; misi pertama berhasil dimuat tanpa login setelah pemuatan awal aset berukuran besar. Penyelesaian seluruh kampanye belum diuji.
+  - GPT-6 Astra: [X](https://x.com/CtrlAltDwayne/status/2096872309936287887) — Kreator menjelaskan pembangunan ulang game untuk web dengan GPT-6 Astra; repositori juga mencantumkan bantuan Claude dalam pemuatan. Hak atas aset game asli tetap milik pemegang haknya. [Catatan verifikasi](assets/screenshots/hit-and-run-web/SOURCE.md).
+  - Referensi: [Kode sumber dan penyiapan](https://github.com/Vheissu/hit-and-run-web)
+  - Pratinjau: ![Homer di Springfield dengan tujuan misi pertama dan peta mini yang terlihat.](assets/screenshots/hit-and-run-web/gameplay.jpg)
+
+- **[Where the Wind Wanders](https://app.usecrayon.ai/play/a9a3c165-74b3-4ff6-9588-ad97f829ddb5)** — Susuri lembah 2.5D bermandikan sinar matahari, ikuti jalur, dan kumpulkan tiga surat angin dalam petualangan eksplorasi yang tenang.
+  - Kreator: [Tushar](https://x.com/TusharXo)
+  - Platform: Browser, dihosting di Crayon; halaman game publik dan pemutar tersemat telah diperiksa.
+  - GPT-6 Astra: [X](https://x.com/TusharXo/status/2096037482739683574) — Tushar menjelaskan penggunaan Astra untuk menghasilkan jalur dan aset; unggahan lanjutan mengumumkan rilis yang bisa dimainkan dengan Astra, Three.js, dan Crayon. [Catatan verifikasi](assets/screenshots/crayon-adventure/SOURCE.md).
+  - Referensi: [Pengumuman rilis kreator](https://x.com/TusharXo/status/2096741535891251261)
+  - Pratinjau: ![Karakter menjelajahi lembah penuh bunga dengan tujuan pengumpulan surat angin yang terlihat.](assets/screenshots/crayon-adventure/gameplay.jpg)
+
+- **[ALIBI — The Last Light](https://alibi-blackthorn-manor.vercel.app/)** — Selidiki Blackthorn Manor dalam misteri pembunuhan tunjuk-dan-klik, periksa lokasi dan ikuti petunjuk untuk menemukan pembunuhnya.
+  - Kreator: [Christos Antonopoulos](https://x.com/Christos_antono)
+  - Platform: Browser; pintu masuk manor yang interaktif terbuka tanpa login. Adegan lanjutan yang dihasilkan belum diuji sepenuhnya.
+  - GPT-6 Astra: [X](https://x.com/Christos_antono/status/2096435122669297892) — Kreator mencantumkan GPT Astra dan H3 Max untuk game detektif generatif ini. [Catatan verifikasi](assets/screenshots/alibi-blackthorn-manor/SOURCE.md).
+  - Pratinjau: ![Pintu masuk manor dengan pintu yang dapat diklik dan teks pembuka penyelidikan.](assets/screenshots/alibi-blackthorn-manor/gameplay.jpg)
+
+- **[Skyward: The Gathering](https://edge-city-skyward-quests.vercel.app/)** — Jelajahi pulau-pulau terapung, melompat dan melayang antarkomunitas, serta selesaikan misi untuk para penghuninya.
+  - Kreator: [timour kosters](https://x.com/timourxyz)
+  - Platform: Browser desktop, keyboard dan mouse; halaman edisi misi dan kontrolnya telah diperiksa.
+  - GPT-6 Astra: [X](https://x.com/timourxyz/status/2096379521926840339) — Kreator menyatakan bahwa Astra membuat game 3D yang bisa dimainkan dengan NPC dan misi yang terinspirasi lokasi-lokasi Edge City. [Catatan verifikasi](assets/screenshots/skyward-gathering/SOURCE.md).
+  - Pratinjau: ![Gambaran pulau terapung Skyward dengan kontrol eksplorasi dan jurnal.](assets/screenshots/skyward-gathering/gameplay.jpg)
+
+- **[Anna & Leo · The Starstone Adventure](https://anna-leo-starstone.vercel.app/)** — Beralih antara sihir musik Anna dan kekuatan super Leo untuk membangunkan bunga melodi dan menjelajahi Wonder Garden.
+  - Kreator: [Dharma Utomo](https://x.com/dharmautomo)
+  - Platform: Browser; misi pembuka berhasil dimulai tanpa login. WASD untuk bergerak, Space untuk melompat, E untuk kekuatan, dan Tab untuk berganti pahlawan.
+  - GPT-6 Astra: [X](https://x.com/dharmautomo/status/2096573649235091967) — Kreator menyatakan bahwa GPT-6 Astra membantunya membuat petualangan 3D ini dan membagikan video anak-anaknya menguji game tersebut. [Catatan verifikasi](assets/screenshots/anna-leo-starstone/SOURCE.md).
+  - Pratinjau: ![Dunia petualangan 3D Anna dan Leo beserta antarmuka misinya.](assets/screenshots/anna-leo-starstone/gameplay.jpg)
+
+- **[The Legend of Deller](https://rain-court-js.umodeler-inc-4323.chatgpt.site/)** — Jelajahi Rainmist Haven dan menuju ruang bawah tanah dengan kombo pedang, keterampilan elemen, dan gerakan menghindar.
+  - Kreator: [UModeler X PicoBerry](https://x.com/UModeler)
+  - Platform: Browser desktop; keyboard dan mouse, tanpa login. Tunggu pemuatan awal aset 3D hingga selesai.
+  - GPT-6 Astra: [Pernyataan kreator](https://x.com/UModeler/status/2097792348407099553) — Kreator menyatakan bahwa PicoBerry menghasilkan aset, sementara GPT-6 Astra membangun RPG aksi berbasis Three.js yang menggunakan aset tersebut. [Catatan verifikasi](assets/screenshots/the-legend-of-deller/SOURCE.md).
+  - Referensi: [Tautan rilis dari kreator](https://x.com/UModeler/status/2097792351129178451)
+  - Pratinjau: ![Deller menghindar di Rainmist Haven dekat air mancur dan kios pasar, dengan kesehatan, mana, dan kontrol keterampilan.](assets/screenshots/the-legend-of-deller/gameplay.jpg)
+
+- **[Dungeon of Astra](https://wavedash.com/games/dungeon-of-astra)** — Rekrut kelompok, turuni ruang bawah tanah seratus lantai, dan gabungkan serangan pedang, bola api, serta peran rekan dalam petualangan dengan kematian permanen.
+  - Kreator: [tonysuri / @tonysurix](https://x.com/tonysurix)
+  - Platform: Browser desktop di Wavedash; game dasar dimulai tanpa login. Tersedia akun opsional dan pembukaan karakter lebih awal yang berbayar.
+  - GPT-6 Astra: [Pernyataan kreator](https://x.com/tonysurix/status/2097873333551616355) — Kreator secara eksplisit menyatakan bahwa game penjelajahan dungeon berkelompok ini dibuat dengan GPT-6 Astra. [Catatan verifikasi](assets/screenshots/dungeon-of-astra/SOURCE.md).
+  - Pratinjau: ![Pahlawan dan kesatria sewaan menggunakan bola api di lantai dungeon pertama, dengan kesehatan kelompok dan peta mini.](assets/screenshots/dungeon-of-astra/gameplay.jpg)
+
+- **[Sunlandia — The Forgotten Shore](https://sunlandia.smallweblab.com/)** — Jelajahi pulau setelah kapal karam, telusuri petunjuk dari sudut pandang orang pertama, dan pecahkan teka-teki lingkungan dalam perjalanan menuju mercusuar.
+  - Kreator: [Ramon Linares / Small Web Lab](https://github.com/RamonLinares)
+  - Platform: Browser desktop; tunggu pulau dimuat, lalu pilih Begin expedition. Gratis, tanpa akun atau instalasi.
+  - GPT-6 Astra: [Catatan pengembangan kreator](https://smallweblab.com/posts/sunlandia/) — Kreator memulai dengan GPT-5.6 Sol, mendapat bantuan dari Fable, dan menyelesaikan game dengan GPT-6 Astra. [Catatan verifikasi](assets/screenshots/sunlandia/SOURCE.md).
+  - Pratinjau: ![Pantai Sunlandia dari sudut pandang orang pertama, dengan bangkai kapal, dermaga rusak, dan tujuan mencari bantuan.](assets/screenshots/sunlandia/gameplay.jpg)
+
+- **[NÁCAR](https://nacar-microcosmo.preda2005.chatgpt.site/)** — Tumbuhkan organisme mikroskopis di dalam cangkang siput yang terendam, kumpulkan nutrisi, dan kembangkan bagian tubuh baru saat menjelajah.
+  - Kreator: [Marcio Lima / @Preda2005](https://x.com/Preda2005)
+  - Platform: Browser; beta gratis tanpa login, dengan lima bahasa antarmuka termasuk Mandarin.
+  - GPT-6 Astra: [Utas kreator](https://x.com/Preda2005/status/2097954217180921928) — Marcio menyatakan bahwa ia menjelaskan gagasan evolusi organisme ini kepada GPT-6 Astra dan mengembangkannya menjadi beta yang ditautkan. [Catatan verifikasi](assets/screenshots/nacar/SOURCE.md).
+  - Pratinjau: ![Sel kecil di antara nutrisi berwarna, dengan biomassa, evolusi, inventaris, dan kontrol wilayah air yang telah dijelajahi.](assets/screenshots/nacar/gameplay.jpg)
 
 <a id="platformers-racing"></a>
 
@@ -341,6 +511,31 @@ Parkour, tantangan platform, balapan, serta gim yang berfokus pada gerakan dan r
   - GPT-6 Astra: [Issue #51](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/51) — Menurut pembuat: Versi pertama dengan Qwen3.8 Max; versi kedua dibangun ulang sepenuhnya dengan Astra.
   - Pratinjau: ![疾风赛道 / Kart Racing（跑跑卡丁车）](https://github.com/user-attachments/assets/015e0ca1-7032-4d0e-9391-ad3f40d84227)
 
+- **[TIDAL RUSH — Paradise GP](https://tidal-rush-paradise-gp.skirano.chatgpt.site/)** — Lakukan drift di sirkuit kart tropis, gunakan item, dan hadapi tujuh pesaing selama tiga putaran.
+  - Kreator: [Pietro Schirano](https://x.com/skirano)
+  - Platform: Browser; balapan tiga putaran berhasil dimulai tanpa login. Kontrol keyboard untuk mengemudi, drift, dan item, ditambah tombol sentuh di layar.
+  - GPT-6 Astra: [Bukti penggunaan model](https://openai.com/index/gpt-6-astra/) — Halaman peluncuran Astra dari OpenAI menautkan game kart interaktif ini dan mencantumkan Pietro Schirano sebagai kreatornya. Unggahan penemuan di X merupakan kiriman komunitas, bukan unggahan kreator sendiri. [Catatan verifikasi](assets/screenshots/tidal-rush/SOURCE.md).
+  - Referensi: [Temuan di X](https://x.com/alexgetmancom/status/2095598460921614825)
+  - Pratinjau: ![Lintasan kart tropis Tidal Rush dengan posisi balapan dan kontrol drift.](assets/screenshots/tidal-rush/gameplay.jpg)
+
+- **[LUNA — Crimson Requiem / 紅月のレクイエム](https://luna-crimson-requiem.ponsuke.chatgpt.site/)** — Lompati level seni piksel gotik, tebas atau injak musuh, atau panggil serangan dalam petualangan singkat dengan gulir samping.
+  - Kreator: [音羽ぽんすけ](https://x.com/ponsuke_otowa)
+  - Platform: Browser, antarmuka Jepang; kontrol keyboard dan dukungan ponsel yang dilaporkan kreator. Tersedia satu level.
+  - GPT-6 Astra: [X](https://x.com/ponsuke_otowa/status/2096531744933425299) — Kreator melaporkan sekitar 25 menit pengembangan dengan Astra dan satu perbaikan animasi berjalan; musik dikreditkan secara terpisah kepada Suno. [Catatan verifikasi](assets/screenshots/luna-crimson-requiem/SOURCE.md).
+  - Pratinjau: ![LUNA bertarung di jalan gotik di bawah bulan merah, dengan meter kesehatan dan pemanggilan.](assets/screenshots/luna-crimson-requiem/gameplay.jpg)
+
+- **[Strange Orbit](https://app.usecrayon.ai/play/47df78e2-1410-45d1-833c-196e1161c0b8)** — Balapkan pesepeda astronaut di cincin planet, kumpulkan debu bintang, manfaatkan aliran udara di belakang pesaing, dan melaju dengan dorongan dalam Orbital Cup.
+  - Kreator: [Crayon](https://x.com/usecrayon)
+  - Platform: Browser di Crayon; kontrol keyboard dan kontrol sentuh yang dijelaskan dalam dokumentasi. Halaman publik menawarkan mode balapan, uji waktu, dan penjelajahan tanpa akhir.
+  - GPT-6 Astra: [X](https://x.com/usecrayon/status/2097468975995302167) — Crayon mencantumkan GPT-6 Astra, Crayon Pro, dan Three.js untuk game bersepeda luar angkasa ini. [Catatan verifikasi](assets/screenshots/crayon-space-bike/SOURCE.md).
+  - Pratinjau: ![Pesepeda astronaut berlomba di cincin planet, dengan indikator putaran, posisi, dan debu bintang.](assets/screenshots/crayon-space-bike/gameplay.jpg)
+
+- **[One More Vine — Into the Wild](https://onemorevine.bennash.dev/)** — Berlari, melompat, dan berayun melintasi empat level hutan, kumpulkan harta, dan hindari buaya sambil memperbaiki catatan waktu.
+  - Kreator: [Ben Nash](https://x.com/bennash)
+  - Platform: Browser, keyboard dan kontrol gerakan di layar; level pembuka dan petunjuk dimuat tanpa login.
+  - GPT-6 Astra: [X](https://x.com/bennash/status/2096282758930645170) — Kreator secara eksplisit menyebutnya game empat level yang terinspirasi Pitfall dan dibuat dengan GPT-6 Astra. [Catatan verifikasi](assets/screenshots/one-more-vine/SOURCE.md).
+  - Pratinjau: ![Level platformer hutan dengan sulur menggantung, harta, lubang, dan buaya.](assets/screenshots/one-more-vine/gameplay.jpg)
+
 - **[混合马里奥Ⅱ · 忍者龙剑传 × 坦克大战 / Mario Mix II](https://aha-xiaoq.github.io/games/mario-mix-2/play.html)** — Jelajahi dunia bawah tanah 1-2 dari Mario bersama Ryu Hayabusa dari Ninja Gaiden dan tank Battle City: melompat, memanjat dinding, dan bertarung dengan tampilan samping sebagai Ryu, bertempur dari sudut pandang atas sebagai tank, atau menyelamatkan putri lewat estafet ninja lalu tank.
   - Kreator: [在下_小Q（Aha-xiaoQ）](https://github.com/Aha-xiaoQ)
   - Platform: Peramban desktop, antarmuka bahasa Mandarin, papan ketik disarankan; gratis, tanpa login atau instalasi.
@@ -349,6 +544,37 @@ Parkour, tantangan platform, balapan, serta gim yang berfokus pada gerakan dan r
   - Hak: Gim penggemar tidak resmi; hak atas karakter, gambar, dan musik klasik tetap milik pemegang hak masing-masing. Kredit materi tersedia di halaman gim asli.
   - Pratinjau: ![Mario Mix II — sampul video yang diberikan kreator, bukan tangkapan permainan.](https://aha-xiaoq.github.io/games/mario-mix-2/cover.jpg)
   - Tangkapan layar: ![Tank Mario Mix II menembak di pintu masuk dunia 1-2; versi 1.0 sedang berjalan, diambil pada 2026-09-09.](assets/screenshots/mario-mix-2/gameplay.jpg)
+
+- **[Bengaluru ORR Rush](https://orr-rush-bengaluru.ravitheja.chatgpt.site/)** — Balapan di tengah lalu lintas Bengaluru, hindari jalan berlubang dan motor pengantar, lalu gunakan dorongan atau ayunan ke samping untuk membuka ruang.
+  - Kreator: [Ravi Theja](https://x.com/ravithejads)
+  - Platform: Browser desktop; kontrol keyboard dengan gas otomatis opsional, tanpa login.
+  - GPT-6 Astra: [Pernyataan kreator](https://x.com/ravithejads/status/2097181044625887392) — Kreator mengaitkan pembuatan game balap jalanan Bengaluru ini dengan GPT-6 Astra. [Catatan verifikasi](assets/screenshots/bengaluru-orr-rush/SOURCE.md).
+  - Pratinjau: ![Mobil biru pemain di lalu lintas Bengaluru, dengan posisi balapan, kecepatan, penghitung waktu, dan petunjuk kontrol.](assets/screenshots/bengaluru-orr-rush/gameplay.jpg)
+
+- **[SKICROSS — Alpine Downhill](https://iamsonic.net/2026/mini-games/skicross.html)** — Balapan menuruni gunung melawan tiga pemain ski, lewati gerbang dan rintangan, serta tetap mendahului longsoran salju.
+  - Kreator: [Sonic的奇思妙想](https://x.com/sonic0828)
+  - Platform: Browser desktop; A/D untuk mengarahkan, Space untuk melompat, dan Shift untuk dorongan; tanpa login atau unduhan.
+  - GPT-6 Astra: [Pernyataan kreator](https://x.com/sonic0828/status/2097601232877781344) — Kreator menyebut GPT-6 Astra untuk koleksi mini-game ini dan membagikan game ski tersebut dalam balasan khusus. [Catatan verifikasi](assets/screenshots/skicross/SOURCE.md).
+  - Referensi: [Tautan rilis dari kreator](https://x.com/sonic0828/status/2097601732297814300)
+  - Pratinjau: ![Empat pemain ski di lintasan bersalju, dengan bonus gerbang, peringkat, kecepatan, dan indikator jarak longsoran.](assets/screenshots/skicross/gameplay.jpg)
+
+- **[Itsy Bitsy Spider · One More Climb](https://game-bench.piccini.app/games/gpt-6-astra/)** — Panjat dinding berlumut, tangkap lalat untuk memulihkan daya cengkeram, dan bersembunyilah di lubang perlindungan sebelum hujan menghanyutkan laba-laba.
+  - Kreator: [Luiz Piccini](https://piccini.app/)
+  - Platform: Browser; gratis tanpa login. WASD atau joystick di layar.
+  - GPT-6 Astra: [Game Bench milik kreator](https://game-bench.piccini.app/) — Game Bench memberi label karya terbit ini sebagai GPT-6 Astra canary, high, bertanggal 2026-09-05, dibuat dari arahan game bersama milik platform tersebut. [Catatan verifikasi](assets/screenshots/itsy-bitsy-spider/SOURCE.md).
+  - Pratinjau: ![Laba-laba memanjat dinding bata berlumut pada ketinggian 2 meter, dengan daya cengkeram, lalat, tempat berlindung, dan joystick gerakan.](assets/screenshots/itsy-bitsy-spider/gameplay.jpg)
+
+- **[Desi Mayhem](https://desimayhem.com/)** — Balapkan sepeda motor di tengah lalu lintas kota India, selip di antara bus dan bajaj sambil memakai tendangan, pukulan, dan dorongan.
+  - Kreator: [Kishore](https://x.com/GetKishore)
+  - Platform: Browser desktop; gratis tanpa akun. Terima atau edit nama panggilan pengendara yang dihasilkan sebelum perjalanan pertama.
+  - GPT-6 Astra: [Utas pengembangan kreator](https://x.com/GetKishore/status/2097906401159102811) — Kishore menjelaskan penyempurnaan game 3D buatan Astra dengan referensi jalanan serta pengujian berulang terhadap lalu lintas, tabrakan, dan pertarungan pengendara. [Catatan verifikasi](assets/screenshots/desi-mayhem/SOURCE.md).
+  - Pratinjau: ![Balapan motor di Chennai dengan pengendara pemain, lalu lintas kota, peta mini, posisi, dan penghitung waktu balapan.](assets/screenshots/desi-mayhem/gameplay.jpg)
+
+- **[Cosmic Tides](https://app.usecrayon.ai/play/362ae1e7-29bd-4fbc-9103-00649265d942)** — Kendarai wahana melintasi samudra galaktik, ikuti gerbang bercahaya, dan pilih balapan dua putaran atau hanyut tanpa akhir.
+  - Kreator: [Aniket J](https://x.com/aniketjart)
+  - Platform: Browser; tunggu aset 3D, lalu pilih Ride the current. Gratis tanpa login.
+  - GPT-6 Astra: [X](https://x.com/aniketjart/status/2098207146647433534) — Aniket mencantumkan GPT-6 Astra, Blender MCP, dan Crayon untuk game ini; ia menyebutnya eksperimen dengan rencana penyempurnaan gameplay lebih lanjut. [Catatan verifikasi](assets/screenshots/cosmic-tides/SOURCE.md).
+  - Pratinjau: ![Balapan Cosmic Tides yang sedang berlangsung, mendekati gerbang bercahaya di atas laut galaktik dengan indikator putaran dan kecepatan.](assets/screenshots/cosmic-tides/gameplay.jpg)
 
 <a id="experimental-multiplayer"></a>
 
@@ -394,6 +620,12 @@ Mekanisme tidak biasa, kompetisi daring, dan pengalaman bermain kooperatif.
   - Platform: Peramban, gratis, tanpa akun. Pembuat menyebut VPN/proksi mungkin diperlukan. Awal solo diuji; multipemain belum diuji.
   - GPT-6 Astra: [Issue #52](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/52) — Menurut pembuat: Versi pertama dengan GPT-6 Astra Pro; perbaikan berikutnya dengan GPT-6 Astra di Codex.
   - Pratinjau: ![泡泡坦克大作战联机版 / Toon Tank Arena](https://github.com/user-attachments/assets/713d44f3-a77c-452c-ba6d-1231882dc670)
+
+- **[Above the Rooftops](https://app.usecrayon.ai/play/d09bb865-2259-42e2-86cc-fb609a9d6f28)** — Warnai layang-layang dan terbangkan di atas atap kota, atur ketegangan benang dalam penerbangan bebas atau tantangan mengumpulkan cahaya langit berbatas waktu.
+  - Kreator: [Tushar / @TusharXo](https://x.com/TusharXo)
+  - Platform: Browser; pilih karakter, masuk ke atap, lalu pilih Fly. Gratis tanpa login.
+  - GPT-6 Astra: [X](https://x.com/TusharXo/status/2098156783181467801) — Tushar secara eksplisit menyebut GPT-6 Astra dan Crayon untuk game layang-layang Three.js ini serta Images 2.5 untuk visualnya. [Catatan verifikasi](assets/screenshots/above-the-rooftops/SOURCE.md).
+  - Pratinjau: ![Tantangan layang-layang di atas kota, dengan ketinggian, ketegangan benang, progres cahaya langit, dan kontrol arah.](assets/screenshots/above-the-rooftops/gameplay.jpg)
 
 ## Isi setiap entri
 
