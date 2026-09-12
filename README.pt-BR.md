@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 47](https://img.shields.io/badge/Cases-47-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 49](https://img.shields.io/badge/Cases-49-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Uma coleção de jogos interessantes feitos com GPT-6 Astra.**
 
@@ -22,9 +22,9 @@ Esta página é uma tradução do [README em inglês](README.md). Consulte o ori
 
 ## Comece por aqui
 
-Explore **47 jogos e projetos interativos**: estratégia territorial dos Três Reinos, quebra-cabeças de madeira com encaixes e peças deslizantes, fusão de frutas deformáveis, voo com um toque, combates em tapete mágico, defesa de uma ilha com uma rede elétrica, sobrevivência na natureza, pesca submarina, gestão de um restaurante de sushi e cultivo em uma ilha, corridas de kart no Bay Circuit, ciclismo pela costa com um pelicano, brinquedos de mesa adaptados para 3D e Orbital Garden. Clique em um título para jogar diretamente no navegador.
+Explore **49 jogos e projetos interativos**: estratégia territorial dos Três Reinos, quebra-cabeças de madeira com encaixes e peças deslizantes, fusão de frutas deformáveis, voo com um toque, combates em tapete mágico, defesa de uma ilha com uma rede elétrica, sobrevivência na natureza, pesca submarina, gestão de um restaurante de sushi e cultivo em uma ilha, corridas de kart no Bay Circuit, ciclismo pela costa com um pelicano, brinquedos de mesa adaptados para 3D e Orbital Garden. Clique em um título para jogar diretamente no navegador.
 
-Catálogo atualizado: **2026-09-10**. O uso do modelo é informado com base nas declarações dos criadores ou responsáveis pelas submissões; detalhes não confirmados são sinalizados em cada entrada. Esta data registra a manutenção do catálogo, não um novo teste de todos os jogos.
+Catálogo atualizado: **2026-09-12**. O uso do modelo é informado com base nas declarações dos criadores ou responsáveis pelas submissões; detalhes não confirmados são sinalizados em cada entrada. Esta data registra a manutenção do catálogo, não um novo teste de todos os jogos.
 
 - **Procurando algo para jogar?** Explore os gêneros abaixo.
 - **Criou um jogo?** [Envie seu projeto](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) com um link direto para jogar no navegador, uma captura de tela do jogo e uma descrição de como você usou GPT-6 Astra.
@@ -141,6 +141,13 @@ Desafios de lógica e física, jogos de palavras e pequenos mecanismos engenhoso
 ### Estratégia e simulação
 
 Defesa de torres, cartas estratégicas, gerenciamento, construção e simulação no estilo sandbox.
+
+- **[Tidehook](https://tidehook-mallow.vercel.app/)** — Pilote o pequeno rebocador Mallow em três viagens costeiras: reboque objetos cujo peso altera a aceleração e as curvas, entregue-os ao guindaste do porto e, por fim, recupere uma lente de farol.
+  - Criador: [Emile du Toit / Mafuta Games](https://mafuta.itch.io/)
+  - Plataforma: Navegador de computador ou notebook, interface em inglês; grátis, sem login ou instalação. Pilotagem por teclado ou cliques na água, com progresso salvo no navegador atual. Uso em celulares não verificado.
+  - GPT-6 Astra: [Declaração do criador](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/74) — O criador usou GPT-6 Astra no Codex para desenvolver e aperfeiçoar em várias iterações o jogo Canvas, a física do reboque, a entrega ao guindaste, a interface, o clima e o áudio, assumindo a direção e os testes de jogabilidade. A arte foi produzida separadamente por geração de imagens; música e efeitos sonoros são sintetizados com Web Audio.
+  - Recursos: [itch.io](https://mafuta.itch.io/tidehook) · [Trailer de jogabilidade](https://youtu.be/wlEh8gnDOnU) · JavaScript nativo, Canvas 2D, Vite e Web Audio; repositório de código privado. [Verificação e fonte da captura (inglês)](assets/screenshots/tidehook/SOURCE.md)
+  - Prévia: ![Captura fornecida pelo criador, versão de 2026-09-11: Mallow rebocando uma carga pesada entre as ilhas de The Old Sound, com distância até o porto e minimapa.](assets/screenshots/tidehook/gameplay.png)
 
 - **[Dwellcraft · 住进想象](https://dwellcraft.vercel.app/)** — Decore três casas em 3D, ajuste materiais e iluminação e caminhe por elas; com salvamento local e importação GLB.
   - Criador: [Ryan-fm](https://github.com/Ryan-fm)
@@ -275,6 +282,13 @@ RPG, exploração, aventuras narrativas e histórias interativas.
 ### Plataforma e corrida
 
 Parkour, desafios de plataforma, corridas e jogos baseados em movimento e trajetos.
+
+- **[Barrelbound: The Lost Cargo](https://barrelbound.vercel.app/)** — Escolha Rocco ou Pip para três fases de plataforma na selva: use salto duplo, arremesse barris e ande de vagoneta para recuperar a carga perdida e chegar ao chefe final.
+  - Criador: [Emile du Toit / Mafuta Games](https://mafuta.itch.io/)
+  - Plataforma: Navegador de computador ou notebook, interface em inglês; grátis, sem login ou instalação. Comandos de teclado; suporte a controle informado pelo criador.
+  - GPT-6 Astra: [Declaração do criador](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/73) — O criador usou GPT-6 Astra no Codex para implementação, mecânicas, iterações e testes, assumindo pessoalmente a direção e os testes de jogabilidade. A arte foi produzida separadamente por geração de imagens; música e efeitos sonoros são sintetizados com Web Audio.
+  - Recursos: [itch.io](https://mafuta.itch.io/barrelbound) · [Trailer de jogabilidade](https://youtu.be/X87UqF_n3ro) · Phaser 3, Vite e Web Audio; repositório de código privado. [Verificação e fonte da captura (inglês)](assets/screenshots/barrelbound/SOURCE.md)
+  - Prévia: ![Captura fornecida pelo criador, versão de setembro de 2026: Rocco, barris e trilhas de bananas nas plataformas de madeira de Jungle Dock Dash.](assets/screenshots/barrelbound/gameplay.jpg)
 
 - **[STORM RACE](https://storm-race.vercel.app/)** — Corridas de mini 4×4 com garagem de peças em vista explodida, turbo e pistas com sol, chuva e tempestade.
   - Criador: [BubuAi](https://x.com/BubuStd)

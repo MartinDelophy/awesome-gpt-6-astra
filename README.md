@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 84](https://img.shields.io/badge/Cases-84-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 86](https://img.shields.io/badge/Cases-86-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **A collection of interesting games made with GPT-6 Astra.**
 
@@ -20,11 +20,11 @@ Playful ideas, games you can try, and development stories that inspire the next 
 
 ## Start here
 
-Explore **84 games and interactive projects**: Three Kingdoms territory strategy, wooden interlocking and sliding puzzles, soft-body fruit merging, procedural city-building 2048, one-tap flight, magic-carpet combat, a five-stage bullet-hell shooter, island power-grid tower defense, wilderness survival, underwater fishing, sushi-restaurant management and island farming, Bay Circuit kart racing, coastal cycling with a pelican, tabletop toys turned into 3D games, 3D home decoration, and Orbital Garden. Click a title to play directly in your browser.
+Explore **86 games and interactive projects**: Three Kingdoms territory strategy, wooden interlocking and sliding puzzles, soft-body fruit merging, procedural city-building 2048, one-tap flight, magic-carpet combat, a five-stage bullet-hell shooter, island power-grid tower defense, wilderness survival, underwater fishing, sushi-restaurant management and island farming, Bay Circuit kart racing, coastal cycling with a pelican, tabletop toys turned into 3D games, 3D home decoration, and Orbital Garden. Click a title to play directly in your browser.
 
-Catalog updated: **2026-09-11**. Model attribution is based on creator or submitter statements; unconfirmed details are marked in individual entries. This date records catalog maintenance, not a new play-test of every game.
+Catalog updated: **2026-09-12**. Model attribution is based on creator or submitter statements; unconfirmed details are marked in individual entries. This date records catalog maintenance, not a new play-test of every game.
 
-Latest additions: [10 browser games from creator blogs, game communities and X](docs/browser-games-2026-09-11.md), with gameplay screenshots and access checks. [Previous 10 additions](docs/direct-play-x-games-2026-09-10.md) · [Earlier 16 additions](docs/x-high-traffic-games-2026-09-09.md).
+Latest additions: [Barrelbound: The Lost Cargo](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/73) and [Tidehook](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/74), with entries in all 12 README languages. Previous additions: [10 browser games from creator blogs, game communities and X](docs/browser-games-2026-09-11.md), with gameplay screenshots and access checks. [Previous 10 additions](docs/direct-play-x-games-2026-09-10.md) · [Earlier 16 additions](docs/x-high-traffic-games-2026-09-09.md).
 
 - **Looking for something to play?** Browse the genres below.
 - **Built a game?** [Submit your project](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) with a direct browser game link, a gameplay screenshot, and a description of how you used GPT-6 Astra.
@@ -219,6 +219,13 @@ Logic puzzles, physics challenges, word games, and clever little mechanisms.
 ### Strategy & simulation
 
 Tower defense, strategic card games, management games, building, and simulation sandboxes.
+
+- **[Tidehook](https://tidehook-mallow.vercel.app/)** — Pilot the little tug Mallow through three coastal voyages, towing salvage whose weight changes acceleration and turning, delivering it to a harbour crane and eventually recovering a lighthouse lens.
+  - Creator: [Emile du Toit / Mafuta Games](https://mafuta.itch.io/)
+  - Platform: Desktop/laptop browser, English interface; free, no login or installation. Keyboard or click-to-steer controls and progress saved in the current browser; phone play is unverified.
+  - GPT-6 Astra: [Creator statement](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/74) — The creator used GPT-6 Astra in Codex to iteratively build and refine the Canvas game, towing physics, crane delivery, interface, weather and audio, with human design direction and playtesting. Artwork was generated separately; music and sound effects use Web Audio synthesis.
+  - Resources: [itch.io](https://mafuta.itch.io/tidehook) · [Gameplay trailer](https://youtu.be/wlEh8gnDOnU) · Vanilla JavaScript, Canvas 2D, Vite and Web Audio; source repository is private. [Verification and screenshot source (English)](assets/screenshots/tidehook/SOURCE.md)
+  - Preview: ![Creator-supplied screenshot from the 2026-09-11 release: Mallow towing heavy salvage between islands in The Old Sound, with distance to harbour and a minimap.](assets/screenshots/tidehook/gameplay.png)
 
 - **[Dwellcraft · 住进想象](https://dwellcraft.vercel.app/)** — Furnish three homes by dragging furniture into a 3D layout, customize materials and lighting, then walk through the result at eye level; includes local saves and personal GLB model imports.
   - Creator: [Ryan-fm](https://github.com/Ryan-fm).
@@ -436,6 +443,13 @@ Role-playing, exploration, narrative adventures, and interactive stories.
 ### Platformers & racing
 
 Parkour, platform challenges, racing, and games built around movement and routes.
+
+- **[Barrelbound: The Lost Cargo](https://barrelbound.vercel.app/)** — Choose Rocco or Pip for three jungle platforming courses: double-jump, throw barrels, ride a mine cart and recover lost cargo on the way to the final boss.
+  - Creator: [Emile du Toit / Mafuta Games](https://mafuta.itch.io/)
+  - Platform: Desktop/laptop browser, English interface; free, no login or installation. Keyboard controls; controller support is reported by the creator.
+  - GPT-6 Astra: [Creator statement](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/73) — The creator used GPT-6 Astra in Codex for implementation, gameplay mechanics, iteration and testing, with human direction and playtesting. Artwork was generated separately; music and sound effects use Web Audio synthesis.
+  - Resources: [itch.io](https://mafuta.itch.io/barrelbound) · [Gameplay trailer](https://youtu.be/X87UqF_n3ro) · Phaser 3, Vite and Web Audio; source repository is private. [Verification and screenshot source (English)](assets/screenshots/barrelbound/SOURCE.md)
+  - Preview: ![Creator-supplied screenshot from the September 2026 release: Rocco, barrels and banana trails on the wooden platforms of Jungle Dock Dash.](assets/screenshots/barrelbound/gameplay.jpg)
 
 - **[STORM RACE](https://storm-race.vercel.app/)** — Mini 4WD racing with an exploded-parts garage, boost and changing dry, rainy and stormy track conditions.
   - Creator: [BubuAi](https://x.com/BubuStd)

@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 47](https://img.shields.io/badge/Cases-47-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 49](https://img.shields.io/badge/Cases-49-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Kumpulan gim menarik yang dibuat dengan GPT-6 Astra.**
 
@@ -22,9 +22,9 @@ Halaman ini merupakan terjemahan [README bahasa Inggris](README.md). Periksa ver
 
 ## Mulai di sini
 
-Jelajahi **47 gim dan proyek interaktif**: strategi wilayah Tiga Kerajaan, teka-teki kayu yang saling mengunci dan teka-teki balok geser, penggabungan buah yang lentur, penerbangan satu tombol, pertempuran karpet ajaib, pertahanan pulau dengan jaringan listrik, bertahan hidup di alam liar, menangkap ikan di bawah air, mengelola restoran sushi, dan bertani di pulau, balapan kart di Bay Circuit, bersepeda di pesisir bersama pelikan, mainan meja yang diadaptasi menjadi gim 3D, serta Orbital Garden. Klik judul untuk langsung bermain di peramban.
+Jelajahi **49 gim dan proyek interaktif**: strategi wilayah Tiga Kerajaan, teka-teki kayu yang saling mengunci dan teka-teki balok geser, penggabungan buah yang lentur, penerbangan satu tombol, pertempuran karpet ajaib, pertahanan pulau dengan jaringan listrik, bertahan hidup di alam liar, menangkap ikan di bawah air, mengelola restoran sushi, dan bertani di pulau, balapan kart di Bay Circuit, bersepeda di pesisir bersama pelikan, mainan meja yang diadaptasi menjadi gim 3D, serta Orbital Garden. Klik judul untuk langsung bermain di peramban.
 
-Katalog diperbarui: **2026-09-10**. Informasi penggunaan model berdasarkan pernyataan kreator atau pengirim; detail yang belum dikonfirmasi ditandai pada setiap entri. Tanggal ini menunjukkan pemeliharaan katalog, bukan pengujian ulang seluruh gim.
+Katalog diperbarui: **2026-09-12**. Informasi penggunaan model berdasarkan pernyataan kreator atau pengirim; detail yang belum dikonfirmasi ditandai pada setiap entri. Tanggal ini menunjukkan pemeliharaan katalog, bukan pengujian ulang seluruh gim.
 
 - **Mencari gim untuk dimainkan?** Jelajahi genre di bawah ini.
 - **Sudah membuat gim?** [Ajukan proyek Anda](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) dengan tautan langsung ke gim di peramban, tangkapan layar permainan, dan penjelasan tentang penggunaan GPT-6 Astra.
@@ -141,6 +141,13 @@ Teka-teki logika, tantangan fisika, permainan kata, dan mekanisme kecil yang kre
 ### Strategi dan simulasi
 
 Pertahanan menara, kartu strategi, pengelolaan, pembangunan, dan sandbox simulasi.
+
+- **[Tidehook](https://tidehook-mallow.vercel.app/)** — Kemudikan kapal tunda kecil Mallow dalam tiga pelayaran pesisir: tarik barang temuan yang bobotnya memengaruhi akselerasi dan belokan, serahkan ke derek pelabuhan, lalu pulihkan lensa mercusuar.
+  - Kreator: [Emile du Toit / Mafuta Games](https://mafuta.itch.io/)
+  - Platform: Browser komputer desktop atau laptop, antarmuka bahasa Inggris; gratis, tanpa login atau instalasi. Kendali dengan keyboard atau klik pada air; progres disimpan di browser saat ini. Permainan pada ponsel belum diverifikasi.
+  - GPT-6 Astra: [Pernyataan kreator](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/74) — Kreator menggunakan GPT-6 Astra di Codex untuk membangun dan menyempurnakan game Canvas, fisika penarikan, penyerahan ke derek, antarmuka, cuaca dan audio secara bertahap, sambil menentukan arah desain dan mencoba permainan sendiri. Grafis dibuat terpisah melalui generasi gambar; musik dan efek suara disintesis dengan Web Audio.
+  - Sumber: [itch.io](https://mafuta.itch.io/tidehook) · [Cuplikan permainan](https://youtu.be/wlEh8gnDOnU) · JavaScript murni, Canvas 2D, Vite dan Web Audio; repositori kode sumber bersifat privat. [Verifikasi dan sumber tangkapan layar (bahasa Inggris)](assets/screenshots/tidehook/SOURCE.md)
+  - Pratinjau: ![Tangkapan layar dari kreator untuk rilis 2026-09-11: Mallow menarik muatan berat di antara pulau-pulau The Old Sound, dengan jarak ke pelabuhan dan peta mini.](assets/screenshots/tidehook/gameplay.png)
 
 - **[Dwellcraft · 住进想象](https://dwellcraft.vercel.app/)** — Tata tiga rumah 3D, ubah material dan pencahayaan lalu jelajahi dari sudut pandang mata; dengan penyimpanan lokal dan impor GLB.
   - Kreator: [Ryan-fm](https://github.com/Ryan-fm)
@@ -275,6 +282,13 @@ Permainan peran, eksplorasi, petualangan naratif, dan cerita interaktif.
 ### Platformer dan balapan
 
 Parkour, tantangan platform, balapan, serta gim yang berfokus pada gerakan dan rute.
+
+- **[Barrelbound: The Lost Cargo](https://barrelbound.vercel.app/)** — Pilih Rocco atau Pip untuk tiga lintasan platformer di hutan: lakukan lompatan ganda, lempar tong, naik gerobak tambang, dan kumpulkan muatan yang hilang menuju pertarungan bos terakhir.
+  - Kreator: [Emile du Toit / Mafuta Games](https://mafuta.itch.io/)
+  - Platform: Browser komputer desktop atau laptop, antarmuka bahasa Inggris; gratis, tanpa login atau instalasi. Kontrol keyboard; dukungan kontroler berdasarkan keterangan kreator.
+  - GPT-6 Astra: [Pernyataan kreator](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/73) — Kreator menggunakan GPT-6 Astra di Codex untuk implementasi, mekanik permainan, penyempurnaan bertahap dan pengujian, sambil menentukan arah desain dan mencoba permainan sendiri. Grafis dibuat terpisah melalui generasi gambar; musik dan efek suara disintesis dengan Web Audio.
+  - Sumber: [itch.io](https://mafuta.itch.io/barrelbound) · [Cuplikan permainan](https://youtu.be/X87UqF_n3ro) · Phaser 3, Vite dan Web Audio; repositori kode sumber bersifat privat. [Verifikasi dan sumber tangkapan layar (bahasa Inggris)](assets/screenshots/barrelbound/SOURCE.md)
+  - Pratinjau: ![Tangkapan layar dari kreator untuk rilis September 2026: Rocco, tong dan jalur pisang di platform kayu Jungle Dock Dash.](assets/screenshots/barrelbound/gameplay.jpg)
 
 - **[STORM RACE](https://storm-race.vercel.app/)** — Balapan mini 4WD dengan tampilan komponen terurai di garasi, boost serta lintasan kering, hujan dan badai.
   - Kreator: [BubuAi](https://x.com/BubuStd)
