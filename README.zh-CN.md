@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 84](https://img.shields.io/badge/Cases-84-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 86](https://img.shields.io/badge/Cases-86-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **收集用 GPT-6 Astra 制作的有趣游戏。**
 
@@ -20,11 +20,11 @@
 
 ## 从这里开始
 
-目前收录 **84 个游戏与互动作品**：三国领土策略、木锁拆解与华容道、半流体水果合成、程序化城市建造 2048、单键飞行、魔毯战斗、五关弹幕射击、海岛电网塔防、荒野生存、水下捕鱼、寿司店经营与海岛种植、海湾卡丁车竞速、鹈鹕海岸骑行、桌面玩具的 3D 改编、3D 家居装修，以及轨道花园。点击作品名称即可直接进入在线游戏。
+目前收录 **86 个游戏与互动作品**：三国领土策略、木锁拆解与华容道、半流体水果合成、程序化城市建造 2048、单键飞行、魔毯战斗、五关弹幕射击、海岛电网塔防、荒野生存、水下捕鱼、寿司店经营与海岛种植、海湾卡丁车竞速、鹈鹕海岸骑行、桌面玩具的 3D 改编、3D 家居装修，以及轨道花园。点击作品名称即可直接进入在线游戏。
 
-目录更新：**2026-09-11**。模型使用信息依据作者或投稿者的说明，未确认内容在具体条目中标注。此日期表示目录维护时间，不代表当天重新试玩了所有游戏。
+目录更新：**2026-09-12**。模型使用信息依据作者或投稿者的说明，未确认内容在具体条目中标注。此日期表示目录维护时间，不代表当天重新试玩了所有游戏。
 
-最新新增：[10 款来自作者博客、游戏社区与 X 的在线游戏](docs/browser-games-2026-09-11.md)，附实机截图与入口核验。[上一批 10 款](docs/direct-play-x-games-2026-09-10.md) · [此前新增的 16 款](docs/x-high-traffic-games-2026-09-09.md)。
+最新新增：[Barrelbound: The Lost Cargo](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/73) 与 [Tidehook](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/74)，已同步全部 12 种 README 语言。此前新增：[10 款来自作者博客、游戏社区与 X 的在线游戏](docs/browser-games-2026-09-11.md)，附实机截图与入口核验。[上一批 10 款](docs/direct-play-x-games-2026-09-10.md) · [此前新增的 16 款](docs/x-high-traffic-games-2026-09-09.md)。
 
 - **想玩游戏：** 从下面的分类寻找你喜欢的玩法。
 - **做了游戏：** [提交你的作品](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml)，附上在线游戏直达入口、实机截图，以及使用 GPT-6 Astra 的说明。
@@ -219,6 +219,13 @@
 ### 策略与模拟
 
 塔防、卡牌策略、经营建造与模拟沙盒。
+
+- **[Tidehook](https://tidehook-mallow.vercel.app/)** — 驾驶小拖船 Mallow 完成三段海岸航程，拖回会影响加速与转向的不同重量打捞物，交给港口起重机，并最终找回灯塔透镜。
+  - 作者: [Emile du Toit / Mafuta Games](https://mafuta.itch.io/)
+  - 平台: 桌面或笔记本浏览器，英文界面；免费，无需登录或安装。支持键盘或点击水面驾驶，进度保存在当前浏览器；手机实机体验尚未核验。
+  - GPT-6 Astra: [作者说明](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/74) — 作者在 Codex 中使用 GPT-6 Astra 多轮开发和完善 Canvas 游戏、拖曳物理、起重机交付、界面、天气与音频，并自行指导设计和试玩。美术由图像生成另行提供，音乐与音效通过 Web Audio 合成。
+  - 开发资料: [itch.io](https://mafuta.itch.io/tidehook) · [实机预告片](https://youtu.be/wlEh8gnDOnU) · 原生 JavaScript、Canvas 2D、Vite 与 Web Audio；源码仓库未公开。 [核验与截图来源（英文）](assets/screenshots/tidehook/SOURCE.md)
+  - 预览: ![作者提供的 2026-09-11 发布版本截图：Mallow 在 The Old Sound 的岛屿间拖曳重物，显示距港口距离与小地图。](assets/screenshots/tidehook/gameplay.png)
 
 - **[Dwellcraft · 住进想象](https://dwellcraft.vercel.app/)** — 从家具库拖入物件，自由装修三个住宅，调整材质与光照，再以第一人称走进自己的设计；支持本机存档和自有 GLB 模型导入。
   - 作者：[Ryan-fm](https://github.com/Ryan-fm)。
@@ -436,6 +443,13 @@
 ### 平台跳跃与竞速
 
 跑酷、平台闯关、赛车，以及考验路线与操作的游戏。
+
+- **[Barrelbound: The Lost Cargo](https://barrelbound.vercel.app/)** — 选择 Rocco 或 Pip，在三个丛林平台关卡中二段跳、投掷木桶、搭乘矿车，找回遗失的货物并挑战最终首领。
+  - 作者: [Emile du Toit / Mafuta Games](https://mafuta.itch.io/)
+  - 平台: 桌面或笔记本浏览器，英文界面；免费，无需登录或安装。支持键盘操作；手柄支持依据作者说明。
+  - GPT-6 Astra: [作者说明](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/73) — 作者在 Codex 中使用 GPT-6 Astra 完成代码实现、玩法机制、迭代与测试，并自行指导设计和试玩。美术由图像生成另行提供，音乐与音效通过 Web Audio 合成。
+  - 开发资料: [itch.io](https://mafuta.itch.io/barrelbound) · [实机预告片](https://youtu.be/X87UqF_n3ro) · Phaser 3、Vite 与 Web Audio；源码仓库未公开。 [核验与截图来源（英文）](assets/screenshots/barrelbound/SOURCE.md)
+  - 预览: ![作者提供的 2026 年 9 月发布版本截图：Jungle Dock Dash 木质平台上的 Rocco、木桶与香蕉路线。](assets/screenshots/barrelbound/gameplay.jpg)
 
 - **[STORM RACE](https://storm-race.vercel.app/)** — 迷你四驱车竞速，包含零件拆解车库、加速和晴天、雨天、暴风雨赛道变化。
   - 作者: [BubuAi](https://x.com/BubuStd)

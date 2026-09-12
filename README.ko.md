@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 47](https://img.shields.io/badge/Cases-47-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 49](https://img.shields.io/badge/Cases-49-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **GPT-6 Astra로 만든 흥미로운 게임을 모았습니다.**
 
@@ -22,9 +22,9 @@
 
 ## 여기서 시작하기
 
-현재 **게임 및 인터랙티브 작품 44개**를 소개합니다. 삼국지 영토 전략, 나무 결합 퍼즐과 슬라이딩 퍼즐, 부드러운 과일 합치기, 원버튼 비행, 마법 양탄자 전투, 섬의 전력망을 이용한 타워 디펜스, 야생 생존, 수중 낚시와 초밥집 경영 및 섬 농사, 베이 서킷 카트 레이싱, 펠리컨과 함께하는 해안 자전거 달리기, 탁상 장난감을 옮긴 3D 게임, 그리고 Orbital Garden을 만나 보세요. 작품명을 누르면 브라우저에서 바로 플레이할 수 있습니다.
+현재 **게임 및 인터랙티브 작품 49개**를 소개합니다. 삼국지 영토 전략, 나무 결합 퍼즐과 슬라이딩 퍼즐, 부드러운 과일 합치기, 원버튼 비행, 마법 양탄자 전투, 섬의 전력망을 이용한 타워 디펜스, 야생 생존, 수중 낚시와 초밥집 경영 및 섬 농사, 베이 서킷 카트 레이싱, 펠리컨과 함께하는 해안 자전거 달리기, 탁상 장난감을 옮긴 3D 게임, 그리고 Orbital Garden을 만나 보세요. 작품명을 누르면 브라우저에서 바로 플레이할 수 있습니다.
 
-목록 업데이트: **2026-09-10**. 모델 사용 정보는 제작자 또는 제출자의 설명을 바탕으로 하며, 미확인 내용은 각 항목에 표시합니다. 이 날짜는 목록 관리 날짜이며 모든 게임을 다시 플레이 테스트한 날짜가 아닙니다.
+목록 업데이트: **2026-09-12**. 모델 사용 정보는 제작자 또는 제출자의 설명을 바탕으로 하며, 미확인 내용은 각 항목에 표시합니다. 이 날짜는 목록 관리 날짜이며 모든 게임을 다시 플레이 테스트한 날짜가 아닙니다.
 
 - **할 게임을 찾고 있나요?** 아래 장르에서 마음에 드는 작품을 찾아보세요.
 - **게임을 만들었나요?** [프로젝트를 제출](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml)할 때 브라우저에서 바로 플레이할 수 있는 링크, 실제 게임 화면, GPT-6 Astra를 어떻게 활용했는지에 대한 설명을 첨부해 주세요.
@@ -141,6 +141,13 @@
 ### 전략 및 시뮬레이션
 
 타워 디펜스, 전략 카드 게임, 경영, 건설, 시뮬레이션 샌드박스를 다룹니다.
+
+- **[Tidehook](https://tidehook-mallow.vercel.app/)** — 작은 예인선 Mallow로 세 번의 해안 항해를 떠납니다. 무게에 따라 가속과 회전이 달라지는 인양물을 끌어 항구 크레인에 넘기고 마지막에는 등대 렌즈를 회수합니다.
+  - 제작자: [Emile du Toit / Mafuta Games](https://mafuta.itch.io/)
+  - 플랫폼: 데스크톱·노트북 브라우저, 영어 UI. 무료이며 로그인이나 설치가 필요 없습니다. 키보드 또는 수면 클릭으로 조종하고 진행 상황은 현재 브라우저에 저장됩니다. 실제 휴대전화에서의 플레이는 확인하지 않았습니다.
+  - GPT-6 Astra: [제작자 설명](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/74) — 제작자는 Codex의 GPT-6 Astra로 Canvas 게임, 예인 물리, 크레인 인계, UI, 날씨와 오디오를 반복 개발·개선하고 직접 디자인 방향과 플레이 테스트를 맡았습니다. 그래픽은 별도의 이미지 생성으로 제작했으며 음악과 효과음은 Web Audio로 합성합니다.
+  - 개발 자료: [itch.io](https://mafuta.itch.io/tidehook) · [게임플레이 영상](https://youtu.be/wlEh8gnDOnU) · 바닐라 JavaScript, Canvas 2D, Vite, Web Audio. 소스 저장소는 비공개입니다. [검증 및 스크린샷 출처(영어)](assets/screenshots/tidehook/SOURCE.md)
+  - 미리보기: ![제작자가 제공한 2026-09-11 출시 버전 화면: The Old Sound의 섬 사이에서 무거운 인양물을 끄는 Mallow와 항구까지의 거리, 미니맵.](assets/screenshots/tidehook/gameplay.png)
 
 - **[Dwellcraft · 住进想象](https://dwellcraft.vercel.app/)** — 세 집에 가구를 놓고 재질과 조명을 조절한 뒤 1인칭으로 둘러보는 3D 인테리어 도구입니다. 로컬 저장과 GLB 가져오기를 지원합니다.
   - 제작자: [Ryan-fm](https://github.com/Ryan-fm)
@@ -275,6 +282,13 @@
 ### 플랫포머 및 레이싱
 
 파쿠르, 플랫폼 도전, 레이싱 등 이동과 경로 선택이 중심인 게임들입니다.
+
+- **[Barrelbound: The Lost Cargo](https://barrelbound.vercel.app/)** — Rocco 또는 Pip을 골라 세 개의 정글 플랫폼 스테이지에서 이단 점프, 통 던지기, 광산 수레를 활용해 잃어버린 화물을 찾고 마지막 보스에 도전합니다.
+  - 제작자: [Emile du Toit / Mafuta Games](https://mafuta.itch.io/)
+  - 플랫폼: 데스크톱·노트북 브라우저, 영어 UI. 무료이며 로그인이나 설치가 필요 없습니다. 키보드로 조작하며 컨트롤러 지원은 제작자 설명에 따릅니다.
+  - GPT-6 Astra: [제작자 설명](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/73) — 제작자는 Codex의 GPT-6 Astra로 코드 구현, 게임 시스템, 반복 개선과 테스트를 진행하고 직접 디자인 방향과 플레이 테스트를 맡았습니다. 그래픽은 별도의 이미지 생성으로 제작했으며 음악과 효과음은 Web Audio로 합성합니다.
+  - 개발 자료: [itch.io](https://mafuta.itch.io/barrelbound) · [게임플레이 영상](https://youtu.be/X87UqF_n3ro) · Phaser 3, Vite, Web Audio. 소스 저장소는 비공개입니다. [검증 및 스크린샷 출처(영어)](assets/screenshots/barrelbound/SOURCE.md)
+  - 미리보기: ![제작자가 제공한 2026년 9월 출시 버전 화면: Jungle Dock Dash의 나무 플랫폼 위 Rocco, 통, 바나나 경로.](assets/screenshots/barrelbound/gameplay.jpg)
 
 - **[STORM RACE](https://storm-race.vercel.app/)** — 부품 분해 보기 차고, 부스트, 맑음·비·폭풍 노면을 갖춘 미니 사륜구동 레이싱입니다.
   - 제작자: [BubuAi](https://x.com/BubuStd)

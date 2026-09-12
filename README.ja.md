@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 47](https://img.shields.io/badge/Cases-47-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 49](https://img.shields.io/badge/Cases-49-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **GPT-6 Astra で作られた、遊んでみたくなるゲームを集めています。**
 
@@ -22,9 +22,9 @@
 
 ## はじめに
 
-現在、**47件のゲームとインタラクティブ作品**を掲載しています。三国志の領土戦略、木製の組木パズルとスライドパズル、柔らかい果物の合成、ワンボタン飛行、魔法の絨毯での戦闘、島の電力網を使うタワーディフェンス、荒野でのサバイバル、水中での魚捕り、寿司店経営と島での農作業、海湾サーキットのカートレース、ペリカンとの海岸サイクリング、卓上玩具の 3D ゲーム化、そして Orbital Garden。作品名をクリックすると、ブラウザーで直接遊べます。
+現在、**49件のゲームとインタラクティブ作品**を掲載しています。三国志の領土戦略、木製の組木パズルとスライドパズル、柔らかい果物の合成、ワンボタン飛行、魔法の絨毯での戦闘、島の電力網を使うタワーディフェンス、荒野でのサバイバル、水中での魚捕り、寿司店経営と島での農作業、海湾サーキットのカートレース、ペリカンとの海岸サイクリング、卓上玩具の 3D ゲーム化、そして Orbital Garden。作品名をクリックすると、ブラウザーで直接遊べます。
 
-一覧更新日：**2026-09-10**。モデルの利用情報は作者または投稿者の説明に基づき、未確認の内容は各項目に明記しています。この日付は一覧の更新日であり、全作品を再度プレイテストした日ではありません。
+一覧更新日：**2026-09-12**。モデルの利用情報は作者または投稿者の説明に基づき、未確認の内容は各項目に明記しています。この日付は一覧の更新日であり、全作品を再度プレイテストした日ではありません。
 
 - **遊びたい方：** 下のジャンルから気になる作品を探してください。
 - **ゲームを作った方：** [作品を投稿](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml)し、ブラウザーで直接遊べる URL、実際のゲーム画面のスクリーンショット、GPT-6 Astra の使い方の説明を添えてください。
@@ -141,6 +141,13 @@
 ### 戦略・シミュレーション
 
 タワーディフェンス、戦略カードゲーム、経営、建築、シミュレーションのサンドボックス。
+
+- **[Tidehook](https://tidehook-mallow.vercel.app/)** — 小さなタグボート Mallow で 3 つの沿岸航海へ。重さによって加速や旋回が変わる漂流物を曳航して港のクレーンへ届け、最後に灯台のレンズを回収します。
+  - 作者: [Emile du Toit / Mafuta Games](https://mafuta.itch.io/)
+  - プラットフォーム: デスクトップ・ノート PC のブラウザー、英語 UI。無料で、ログインやインストールは不要です。キーボードまたは水面クリックで操船し、進行状況は現在のブラウザーに保存されます。スマートフォン実機でのプレイは未確認です。
+  - GPT-6 Astra: [作者の説明](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/74) — 作者は Codex の GPT-6 Astra で Canvas ゲーム、曳航の物理挙動、クレーンへの引き渡し、UI、天候、音声を繰り返し開発・改善し、自ら設計方針とプレイテストを担当しました。画像素材は別途画像生成で制作され、音楽と効果音は Web Audio による合成です。
+  - 開発資料: [itch.io](https://mafuta.itch.io/tidehook) · [ゲームプレイ動画](https://youtu.be/wlEh8gnDOnU) · 素の JavaScript、Canvas 2D、Vite、Web Audio。ソースリポジトリは非公開です。 [検証とスクリーンショットの出典（英語）](assets/screenshots/tidehook/SOURCE.md)
+  - プレビュー: ![作者提供の 2026-09-11 リリース版の画像：The Old Sound の島々の間で重い漂流物を曳航する Mallow。港までの距離とミニマップも表示。](assets/screenshots/tidehook/gameplay.png)
 
 - **[Dwellcraft · 住进想象](https://dwellcraft.vercel.app/)** — 3つの家に家具を配置し、素材や照明を調整して一人称で歩ける3Dインテリア制作。ローカル保存とGLB読み込みに対応。
   - 作者: [Ryan-fm](https://github.com/Ryan-fm)
@@ -275,6 +282,13 @@
 ### プラットフォーム・レース
 
 パルクール、足場を渡るアクション、レースなど、移動とルート選びが中心のゲーム。
+
+- **[Barrelbound: The Lost Cargo](https://barrelbound.vercel.app/)** — Rocco または Pip を選び、3 つのジャングルステージで二段ジャンプ、樽投げ、トロッコを使って失われた荷物を回収し、最後のボスに挑みます。
+  - 作者: [Emile du Toit / Mafuta Games](https://mafuta.itch.io/)
+  - プラットフォーム: デスクトップ・ノート PC のブラウザー、英語 UI。無料で、ログインやインストールは不要です。キーボード操作に対応し、コントローラー対応は作者の説明に基づきます。
+  - GPT-6 Astra: [作者の説明](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/73) — 作者は Codex の GPT-6 Astra を実装、ゲームの仕組み、反復改善、テストに使用し、自ら設計方針とプレイテストを担当しました。画像素材は別途画像生成で制作され、音楽と効果音は Web Audio による合成です。
+  - 開発資料: [itch.io](https://mafuta.itch.io/barrelbound) · [ゲームプレイ動画](https://youtu.be/X87UqF_n3ro) · Phaser 3、Vite、Web Audio。ソースリポジトリは非公開です。 [検証とスクリーンショットの出典（英語）](assets/screenshots/barrelbound/SOURCE.md)
+  - プレビュー: ![作者提供の 2026 年 9 月リリース版の画像：Jungle Dock Dash の木製足場にいる Rocco、樽、バナナの道筋。](assets/screenshots/barrelbound/gameplay.jpg)
 
 - **[STORM RACE](https://storm-race.vercel.app/)** — 部品を分解表示できるガレージ、ブースト、晴天・雨・嵐の路面を備えたミニ四駆レース。
   - 作者: [BubuAi](https://x.com/BubuStd)
