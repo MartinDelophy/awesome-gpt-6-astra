@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 86](https://img.shields.io/badge/Cases-86-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 87](https://img.shields.io/badge/Cases-87-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **GPT-6 Astra で作られた、遊んでみたくなるゲームを集めています。**
 
@@ -22,9 +22,9 @@
 
 ## はじめに
 
-現在、**86件のゲームとインタラクティブ作品**を掲載しています。三国志の領土戦略、木製の組木パズルとスライドパズル、柔らかい果物の合成、プロシージャルな都市建設 2048、ワンボタン飛行、魔法の絨毯での戦闘、全5ステージの弾幕シューティング、島の電力網を使うタワーディフェンス、荒野でのサバイバル、水中での魚捕り、寿司店経営と島での農作業、海湾サーキットのカートレース、ペリカンとの海岸サイクリング、卓上玩具の 3D ゲーム化、3D の室内装飾、そして Orbital Garden。作品名をクリックすると、ブラウザーで直接遊べます。
+現在、**87件のゲームとインタラクティブ作品**を掲載しています。三国志の領土戦略、木製の組木パズルとスライドパズル、柔らかい果物の合成、プロシージャルな都市建設 2048、ワンボタン飛行、魔法の絨毯での戦闘、全5ステージの弾幕シューティング、島の電力網を使うタワーディフェンス、荒野でのサバイバル、水中での魚捕り、寿司店経営と島での農作業、海湾サーキットのカートレース、ペリカンとの海岸サイクリング、卓上玩具の 3D ゲーム化、3D の室内装飾、そして Orbital Garden。作品名をクリックすると、ブラウザーで直接遊べます。
 
-一覧更新日：**2026-09-12**。モデルの利用情報は作者または投稿者の説明に基づき、未確認の内容は各項目に明記しています。この日付は一覧の更新日であり、全作品を再度プレイテストした日ではありません。
+一覧更新日：**2026-09-14**。モデルの利用情報は作者または投稿者の説明に基づき、未確認の内容は各項目に明記しています。この日付は一覧の更新日であり、全作品を再度プレイテストした日ではありません。
 
 - **遊びたい方：** 下のジャンルから気になる作品を探してください。
 - **ゲームを作った方：** [作品を投稿](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml)し、ブラウザーで直接遊べる URL、実際のゲーム画面のスクリーンショット、GPT-6 Astra の使い方の説明を添えてください。
@@ -179,6 +179,13 @@
 ### パズル・頭脳ゲーム
 
 論理パズル、物理の仕掛け、言葉遊び、工夫を凝らした小さな仕組み。
+
+- **[Mystery Town](https://playableworld.itch.io/mystery-town)** — 小さな3D世界を観察し、物を調べて操作しながら、正しい因果関係を見つけて環境パズルを解く。
+  - 作者: [PlayableWorld](https://playableworld.itch.io/)
+  - 対応環境: ブラウザー、無料、WebGL必須。マウスまたはタッチ。デスクトップで確認。ソースコードは非公開。
+  - GPT-6 Astra: [Issue #80](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/80) — 投稿者によると、Astraが主な開発エージェントとしてゲームプレイ、3Dシーンと素材、テスト、改良を担当し、人間が指示とレビューを行った。
+  - 検証記録: [TypeScript · Vite · Three.js · Blender](assets/screenshots/mystery-town/SOURCE.md)
+  - プレビュー: ![Mystery Town — The Borrowed Light Study](assets/screenshots/mystery-town/gameplay.png)
 
 - **[瓜体实验室 / Melon Lab](https://melon-game.jack-514.chatgpt.site/)** — 柔らかい果物の変形と衝突を取り入れた、スイカ合成ゲーム。
   - 作者: [Ayi1337](https://github.com/Ayi1337)

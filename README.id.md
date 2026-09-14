@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 86](https://img.shields.io/badge/Cases-86-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 87](https://img.shields.io/badge/Cases-87-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Kumpulan gim menarik yang dibuat dengan GPT-6 Astra.**
 
@@ -22,9 +22,9 @@ Halaman ini merupakan terjemahan [README bahasa Inggris](README.md). Periksa ver
 
 ## Mulai di sini
 
-Jelajahi **86 gim dan proyek interaktif**: strategi wilayah Tiga Kerajaan, teka-teki kayu yang saling mengunci dan teka-teki balok geser, penggabungan buah yang lentur, 2048 pembangunan kota dengan generasi prosedural, penerbangan satu tombol, pertempuran karpet ajaib, gim tembak-menembak dengan hujan peluru dalam lima level, pertahanan pulau dengan jaringan listrik, bertahan hidup di alam liar, menangkap ikan di bawah air, mengelola restoran sushi, dan bertani di pulau, balapan kart di Bay Circuit, bersepeda di pesisir bersama pelikan, mainan meja yang diadaptasi menjadi gim 3D, dekorasi rumah 3D, serta Orbital Garden. Klik judul untuk langsung bermain di peramban.
+Jelajahi **87 gim dan proyek interaktif**: strategi wilayah Tiga Kerajaan, teka-teki kayu yang saling mengunci dan teka-teki balok geser, penggabungan buah yang lentur, 2048 pembangunan kota dengan generasi prosedural, penerbangan satu tombol, pertempuran karpet ajaib, gim tembak-menembak dengan hujan peluru dalam lima level, pertahanan pulau dengan jaringan listrik, bertahan hidup di alam liar, menangkap ikan di bawah air, mengelola restoran sushi, dan bertani di pulau, balapan kart di Bay Circuit, bersepeda di pesisir bersama pelikan, mainan meja yang diadaptasi menjadi gim 3D, dekorasi rumah 3D, serta Orbital Garden. Klik judul untuk langsung bermain di peramban.
 
-Katalog diperbarui: **2026-09-12**. Informasi penggunaan model berdasarkan pernyataan kreator atau pengirim; detail yang belum dikonfirmasi ditandai pada setiap entri. Tanggal ini menunjukkan pemeliharaan katalog, bukan pengujian ulang seluruh gim.
+Katalog diperbarui: **2026-09-14**. Informasi penggunaan model berdasarkan pernyataan kreator atau pengirim; detail yang belum dikonfirmasi ditandai pada setiap entri. Tanggal ini menunjukkan pemeliharaan katalog, bukan pengujian ulang seluruh gim.
 
 - **Mencari gim untuk dimainkan?** Jelajahi genre di bawah ini.
 - **Sudah membuat gim?** [Ajukan proyek Anda](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) dengan tautan langsung ke gim di peramban, tangkapan layar permainan, dan penjelasan tentang penggunaan GPT-6 Astra.
@@ -179,6 +179,13 @@ Gim tembak-menembak, pertarungan, bertahan hidup, ritme, dan apa pun yang membua
 ### Teka-teki dan asah otak
 
 Teka-teki logika, tantangan fisika, permainan kata, dan mekanisme kecil yang kreatif.
+
+- **[Mystery Town](https://playableworld.itch.io/mystery-town)** — Amati dunia miniatur 3D, periksa dan manipulasi objek, lalu pecahkan teka-teki lingkungan dengan menemukan urutan sebab-akibat yang tepat.
+  - Pembuat: [PlayableWorld](https://playableworld.itch.io/)
+  - Platform: Browser; gratis, memerlukan WebGL. Mouse atau sentuh; desktop diperiksa. Kode sumber tidak publik.
+  - GPT-6 Astra: [Issue #80](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/80) — Menurut pengirim, Astra menjadi agen pengembangan utama untuk gameplay, adegan dan aset 3D, pengujian dan penyempurnaan, dengan arahan serta tinjauan manusia.
+  - Catatan verifikasi: [TypeScript · Vite · Three.js · Blender](assets/screenshots/mystery-town/SOURCE.md)
+  - Pratinjau: ![Mystery Town — The Borrowed Light Study](assets/screenshots/mystery-town/gameplay.png)
 
 - **[瓜体实验室 / Melon Lab](https://melon-game.jack-514.chatgpt.site/)** — Gim penggabungan semangka yang menggunakan perubahan bentuk dan tumbukan buah yang lentur.
   - Kreator: [Ayi1337](https://github.com/Ayi1337)

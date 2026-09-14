@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 86](https://img.shields.io/badge/Cases-86-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 87](https://img.shields.io/badge/Cases-87-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Uma coleção de jogos interessantes feitos com GPT-6 Astra.**
 
@@ -22,9 +22,9 @@ Esta página é uma tradução do [README em inglês](README.md). Consulte o ori
 
 ## Comece por aqui
 
-Explore **86 jogos e projetos interativos**: estratégia territorial dos Três Reinos, quebra-cabeças de madeira com encaixes e peças deslizantes, fusão de frutas deformáveis, 2048 de construção de cidades com geração procedural, voo com um toque, combates em tapete mágico, um jogo de tiro com chuva de balas e cinco fases, defesa de uma ilha com uma rede elétrica, sobrevivência na natureza, pesca submarina, gestão de um restaurante de sushi e cultivo em uma ilha, corridas de kart no Bay Circuit, ciclismo pela costa com um pelicano, brinquedos de mesa adaptados para 3D, decoração de casas em 3D e Orbital Garden. Clique em um título para jogar diretamente no navegador.
+Explore **87 jogos e projetos interativos**: estratégia territorial dos Três Reinos, quebra-cabeças de madeira com encaixes e peças deslizantes, fusão de frutas deformáveis, 2048 de construção de cidades com geração procedural, voo com um toque, combates em tapete mágico, um jogo de tiro com chuva de balas e cinco fases, defesa de uma ilha com uma rede elétrica, sobrevivência na natureza, pesca submarina, gestão de um restaurante de sushi e cultivo em uma ilha, corridas de kart no Bay Circuit, ciclismo pela costa com um pelicano, brinquedos de mesa adaptados para 3D, decoração de casas em 3D e Orbital Garden. Clique em um título para jogar diretamente no navegador.
 
-Catálogo atualizado: **2026-09-12**. O uso do modelo é informado com base nas declarações dos criadores ou responsáveis pelas submissões; detalhes não confirmados são sinalizados em cada entrada. Esta data registra a manutenção do catálogo, não um novo teste de todos os jogos.
+Catálogo atualizado: **2026-09-14**. O uso do modelo é informado com base nas declarações dos criadores ou responsáveis pelas submissões; detalhes não confirmados são sinalizados em cada entrada. Esta data registra a manutenção do catálogo, não um novo teste de todos os jogos.
 
 - **Procurando algo para jogar?** Explore os gêneros abaixo.
 - **Criou um jogo?** [Envie seu projeto](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) com um link direto para jogar no navegador, uma captura de tela do jogo e uma descrição de como você usou GPT-6 Astra.
@@ -179,6 +179,13 @@ Jogos de tiro, luta, sobrevivência, ritmo e qualquer experiência que dê vonta
 ### Quebra-cabeças e raciocínio
 
 Desafios de lógica e física, jogos de palavras e pequenos mecanismos engenhosos.
+
+- **[Mystery Town](https://playableworld.itch.io/mystery-town)** — Observe mundos 3D em miniatura, examine e manipule objetos e resolva quebra-cabeças ambientais descobrindo a sequência causal correta.
+  - Criador: [PlayableWorld](https://playableworld.itch.io/)
+  - Plataforma: Navegador; gratuito, requer WebGL. Mouse ou toque; desktop verificado. Código-fonte não público.
+  - GPT-6 Astra: [Issue #80](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/80) — Segundo a submissão, Astra foi o principal agente de desenvolvimento da jogabilidade, cenas e recursos 3D, testes e melhorias, com orientação e revisão humanas.
+  - Notas de verificação: [TypeScript · Vite · Three.js · Blender](assets/screenshots/mystery-town/SOURCE.md)
+  - Prévia: ![Mystery Town — The Borrowed Light Study](assets/screenshots/mystery-town/gameplay.png)
 
 - **[瓜体实验室 / Melon Lab](https://melon-game.jack-514.chatgpt.site/)** — Um jogo de juntar melancias baseado na deformação e nas colisões de frutas macias.
   - Criador: [Ayi1337](https://github.com/Ayi1337)

@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 96](https://img.shields.io/badge/Cases-96-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 97](https://img.shields.io/badge/Cases-97-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **A collection of interesting games made with GPT-6 Astra.**
 
@@ -20,9 +20,9 @@ Playful ideas, games you can try, and development stories that inspire the next 
 
 ## Start here
 
-Explore **96 games and interactive projects**: Three Kingdoms territory strategy, wooden interlocking and sliding puzzles, soft-body fruit merging, procedural city-building 2048, one-tap flight, magic-carpet combat, a five-stage bullet-hell shooter, island power-grid tower defense, wilderness survival, underwater fishing, sushi-restaurant management and island farming, Bay Circuit kart racing, coastal cycling with a pelican, tabletop toys turned into 3D games, 3D home decoration, and Orbital Garden. Click a title to play directly in your browser.
+Explore **97 games and interactive projects**: Three Kingdoms territory strategy, wooden interlocking and sliding puzzles, soft-body fruit merging, procedural city-building 2048, one-tap flight, magic-carpet combat, a five-stage bullet-hell shooter, island power-grid tower defense, wilderness survival, underwater fishing, sushi-restaurant management and island farming, Bay Circuit kart racing, coastal cycling with a pelican, tabletop toys turned into 3D games, 3D home decoration, and Orbital Garden. Click a title to play directly in your browser.
 
-Catalog updated: **2026-09-12**. Model attribution is based on creator or submitter statements; unconfirmed details are marked in individual entries. This date records catalog maintenance, not a new play-test of every game.
+Catalog updated: **2026-09-14**. Model attribution is based on creator or submitter statements; unconfirmed details are marked in individual entries. This date records catalog maintenance, not a new play-test of every game.
 
 Latest additions: [10 browser games from creator sites, Reddit and X](docs/browser-games-2026-09-12.md), with gameplay screenshots and access checks. Previous additions: [Barrelbound: The Lost Cargo](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/73) and [Tidehook](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/74), with entries in all 12 README languages. [September 11's 10 additions](docs/browser-games-2026-09-11.md) · [September 10's 10 additions](docs/direct-play-x-games-2026-09-10.md) · [Earlier 16 additions](docs/x-high-traffic-games-2026-09-09.md).
 
@@ -194,6 +194,13 @@ Shooters, fighters, survival games, rhythm games, and anything that invites one 
 ### Puzzles & brain games
 
 Logic puzzles, physics challenges, word games, and clever little mechanisms.
+
+- **[Mystery Town](https://playableworld.itch.io/mystery-town)** — Observe miniature 3D worlds, inspect and manipulate objects, and solve environmental puzzles by discovering the right causal sequence.
+  - Creator: [PlayableWorld](https://playableworld.itch.io/)
+  - Platform: Browser; free, WebGL required. Mouse or touch; desktop checked. Source code is not public.
+  - GPT-6 Astra: [Issue #80](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/80) — The submitter reports Astra as the primary development agent for gameplay, 3D scenes and assets, testing and refinement, under human direction and review.
+  - Verification notes: [TypeScript · Vite · Three.js · Blender](assets/screenshots/mystery-town/SOURCE.md)
+  - Preview: ![Mystery Town — The Borrowed Light Study](assets/screenshots/mystery-town/gameplay.png)
 
 - **[瓜体实验室 / Melon Lab](https://melon-game.jack-514.chatgpt.site/)** — A watermelon merging game built around soft-body fruit deformation and collisions.
   - Creator: [Ayi1337](https://github.com/Ayi1337)

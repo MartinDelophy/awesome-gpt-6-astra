@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 86](https://img.shields.io/badge/Cases-86-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 87](https://img.shields.io/badge/Cases-87-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Eine Sammlung interessanter Spiele, die mit GPT-6 Astra entwickelt wurden.**
 
@@ -22,9 +22,9 @@ Diese Seite übersetzt die [englische README](README.md). Aktuelle Änderungen l
 
 ## Hier anfangen
 
-Entdecke **86 Spiele und interaktive Projekte**: Gebietsstrategie zur Zeit der Drei Reiche, Holz-Steckpuzzles und Schiebepuzzles lösen, weiche Früchte verschmelzen, 2048 mit prozeduralem Städtebau, mit einer Taste fliegen, auf einem fliegenden Teppich kämpfen, ein Bullet-Hell-Shooter mit fünf Stufen, eine Insel mit einem Stromnetz verteidigen, in der Wildnis überleben, unter Wasser fischen, ein Sushi-Restaurant betreiben und eine Insel bewirtschaften, Kartrennen auf Bay Circuit, eine Küstenradtour mit einem Pelikan, Tischspielzeug als 3D-Spiele, 3D-Wohnraumgestaltung und Orbital Garden. Ein Klick auf einen Titel öffnet das Spiel direkt im Browser.
+Entdecke **87 Spiele und interaktive Projekte**: Gebietsstrategie zur Zeit der Drei Reiche, Holz-Steckpuzzles und Schiebepuzzles lösen, weiche Früchte verschmelzen, 2048 mit prozeduralem Städtebau, mit einer Taste fliegen, auf einem fliegenden Teppich kämpfen, ein Bullet-Hell-Shooter mit fünf Stufen, eine Insel mit einem Stromnetz verteidigen, in der Wildnis überleben, unter Wasser fischen, ein Sushi-Restaurant betreiben und eine Insel bewirtschaften, Kartrennen auf Bay Circuit, eine Küstenradtour mit einem Pelikan, Tischspielzeug als 3D-Spiele, 3D-Wohnraumgestaltung und Orbital Garden. Ein Klick auf einen Titel öffnet das Spiel direkt im Browser.
 
-Katalog aktualisiert: **2026-09-12**. Angaben zur Modellnutzung beruhen auf Aussagen der Ersteller oder Einreichenden; unbestätigte Details sind im jeweiligen Eintrag markiert. Das Datum bezeichnet die Katalogpflege, keinen erneuten Spieltest aller Spiele.
+Katalog aktualisiert: **2026-09-14**. Angaben zur Modellnutzung beruhen auf Aussagen der Ersteller oder Einreichenden; unbestätigte Details sind im jeweiligen Eintrag markiert. Das Datum bezeichnet die Katalogpflege, keinen erneuten Spieltest aller Spiele.
 
 - **Du möchtest spielen?** Stöbere in den Genres unten.
 - **Du hast ein Spiel entwickelt?** [Reiche dein Projekt ein](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) und füge einen direkten Link zum Browserspiel, einen Screenshot aus dem Spiel und eine Beschreibung deiner Nutzung von GPT-6 Astra hinzu.
@@ -179,6 +179,13 @@ Shooter, Kampf-, Überlebens- und Rhythmusspiele sowie alles, was zu einer weite
 ### Rätsel und Denkspiele
 
 Logikrätsel, Physikaufgaben, Wortspiele und raffinierte kleine Mechaniken.
+
+- **[Mystery Town](https://playableworld.itch.io/mystery-town)** — Untersuche kleine 3D-Welten, betrachte und bewege Gegenstände und löse Umgebungsrätsel durch die richtige Abfolge von Ursache und Wirkung.
+  - Entwickler: [PlayableWorld](https://playableworld.itch.io/)
+  - Plattform: Browser; kostenlos, WebGL erforderlich. Maus oder Touch; am Desktop geprüft. Quellcode nicht öffentlich.
+  - GPT-6 Astra: [Issue #80](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/80) — Laut Einreichung war Astra der Hauptentwicklungsagent für Gameplay, 3D-Szenen und Assets, Tests und Verbesserungen unter menschlicher Anleitung und Prüfung.
+  - Prüfnotizen: [TypeScript · Vite · Three.js · Blender](assets/screenshots/mystery-town/SOURCE.md)
+  - Vorschau: ![Mystery Town — The Borrowed Light Study](assets/screenshots/mystery-town/gameplay.png)
 
 - **[瓜体实验室 / Melon Lab](https://melon-game.jack-514.chatgpt.site/)** — Ein Wassermelonen-Fusionsspiel, dessen Spielmechanik auf der Verformung und den Zusammenstößen weicher Früchte beruht.
   - Entwickler: [Ayi1337](https://github.com/Ayi1337)

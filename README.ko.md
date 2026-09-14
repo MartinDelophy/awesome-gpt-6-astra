@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 86](https://img.shields.io/badge/Cases-86-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 87](https://img.shields.io/badge/Cases-87-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **GPT-6 Astra로 만든 흥미로운 게임을 모았습니다.**
 
@@ -24,7 +24,7 @@
 
 현재 **게임 및 인터랙티브 작품 86개**를 소개합니다. 삼국지 영토 전략, 나무 결합 퍼즐과 슬라이딩 퍼즐, 부드러운 과일 합치기, 절차적 도시 건설 2048, 원버튼 비행, 마법 양탄자 전투, 5개 스테이지의 탄막 슈팅, 섬의 전력망을 이용한 타워 디펜스, 야생 생존, 수중 낚시와 초밥집 경영 및 섬 농사, 베이 서킷 카트 레이싱, 펠리컨과 함께하는 해안 자전거 달리기, 탁상 장난감을 옮긴 3D 게임, 3D 집 꾸미기, 그리고 Orbital Garden을 만나 보세요. 작품명을 누르면 브라우저에서 바로 플레이할 수 있습니다.
 
-목록 업데이트: **2026-09-12**. 모델 사용 정보는 제작자 또는 제출자의 설명을 바탕으로 하며, 미확인 내용은 각 항목에 표시합니다. 이 날짜는 목록 관리 날짜이며 모든 게임을 다시 플레이 테스트한 날짜가 아닙니다.
+목록 업데이트: **2026-09-14**. 모델 사용 정보는 제작자 또는 제출자의 설명을 바탕으로 하며, 미확인 내용은 각 항목에 표시합니다. 이 날짜는 목록 관리 날짜이며 모든 게임을 다시 플레이 테스트한 날짜가 아닙니다.
 
 - **할 게임을 찾고 있나요?** 아래 장르에서 마음에 드는 작품을 찾아보세요.
 - **게임을 만들었나요?** [프로젝트를 제출](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml)할 때 브라우저에서 바로 플레이할 수 있는 링크, 실제 게임 화면, GPT-6 Astra를 어떻게 활용했는지에 대한 설명을 첨부해 주세요.
@@ -179,6 +179,13 @@
 ### 퍼즐 및 두뇌 게임
 
 논리 퍼즐, 물리 문제, 단어 게임, 기발한 작은 장치들을 다룹니다.
+
+- **[Mystery Town](https://playableworld.itch.io/mystery-town)** — 미니어처 3D 세계를 관찰하고 물체를 살펴보며 조작해, 올바른 인과 순서를 찾아 환경 퍼즐을 해결합니다.
+  - 제작자: [PlayableWorld](https://playableworld.itch.io/)
+  - 플랫폼: 브라우저, 무료, WebGL 필요. 마우스 또는 터치. 데스크톱 확인 완료. 소스 비공개.
+  - GPT-6 Astra: [Issue #80](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/80) — 제출자에 따르면 Astra가 주요 개발 에이전트로 게임플레이, 3D 장면과 에셋, 테스트 및 개선을 담당했으며 사람이 지시하고 검토했습니다.
+  - 검증 기록: [TypeScript · Vite · Three.js · Blender](assets/screenshots/mystery-town/SOURCE.md)
+  - 미리보기: ![Mystery Town — The Borrowed Light Study](assets/screenshots/mystery-town/gameplay.png)
 
 - **[瓜体实验室 / Melon Lab](https://melon-game.jack-514.chatgpt.site/)** — 부드러운 과일의 변형과 충돌을 이용하는 수박 합치기 게임입니다.
   - 제작자: [Ayi1337](https://github.com/Ayi1337)
