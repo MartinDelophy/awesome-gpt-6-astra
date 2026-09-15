@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 87](https://img.shields.io/badge/Cases-87-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 88](https://img.shields.io/badge/Cases-88-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Une sélection de jeux intéressants créés avec GPT-6 Astra.**
 
@@ -22,9 +22,9 @@ Cette page traduit le [README anglais](README.md). Consultez l’original pour v
 
 ## Pour commencer
 
-Découvrez **87 jeux et projets interactifs** : stratégie territoriale des Trois Royaumes, puzzles en bois à emboîtement et à glissement, fusion de fruits déformables, 2048 de construction urbaine avec génération procédurale, vol à une touche, combats sur tapis volant, un jeu de tir à rideaux de balles en cinq niveaux, défense d’île par un réseau électrique, survie en pleine nature, pêche sous-marine, gestion d’un restaurant de sushis et agriculture insulaire, course de karts sur Bay Circuit, balade côtière à vélo avec un pélican, jouets de table adaptés en 3D, décoration intérieure en 3D et Orbital Garden. Cliquez sur un titre pour jouer directement dans le navigateur.
+Découvrez **88 jeux et projets interactifs** : stratégie territoriale des Trois Royaumes, puzzles en bois à emboîtement et à glissement, fusion de fruits déformables, 2048 de construction urbaine avec génération procédurale, vol à une touche, combats sur tapis volant, un jeu de tir à rideaux de balles en cinq niveaux, défense d’île par un réseau électrique, survie en pleine nature, pêche sous-marine, gestion d’un restaurant de sushis et agriculture insulaire, course de karts sur Bay Circuit, balade côtière à vélo avec un pélican, jouets de table adaptés en 3D, décoration intérieure en 3D et Orbital Garden. Cliquez sur un titre pour jouer directement dans le navigateur.
 
-Mise à jour du catalogue : **2026-09-14**. L’utilisation du modèle est renseignée d’après les déclarations des créateurs ou des contributeurs ; les points non confirmés sont signalés dans chaque fiche. Cette date correspond à la maintenance du catalogue, pas à un nouveau test de tous les jeux.
+Mise à jour du catalogue : **2026-09-15**. L’utilisation du modèle est renseignée d’après les déclarations des créateurs ou des contributeurs ; les points non confirmés sont signalés dans chaque fiche. Cette date correspond à la maintenance du catalogue, pas à un nouveau test de tous les jeux.
 
 - **Envie de jouer ?** Parcourez les genres ci-dessous.
 - **Vous avez créé un jeu ?** [Proposez votre projet](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) avec un lien direct vers le jeu dans le navigateur, une capture en jeu et une explication de votre utilisation de GPT-6 Astra.
@@ -179,6 +179,13 @@ Jeux de tir, de combat, de survie, de rythme et tous ceux qui donnent envie de r
 ### Casse-têtes et réflexion
 
 Énigmes logiques, défis de physique, jeux de mots et petits mécanismes ingénieux.
+
+- **[Vesper: The Last Light](https://vesper.mansgullberg.chatgpt.site/)** — Explorez des jardins engloutis et des machines célestes dans une aventure à énigmes à la troisième personne. Gérez la lumière comme santé, munitions et monnaie pour restaurer trois sceaux.
+  - Créateur: [kvickan](https://buymeacoffee.com/kvickan)
+  - Plateforme: Navigateur de bureau ; clavier et souris, sans connexion. Le créateur déconseille actuellement le mobile.
+  - GPT-6 Astra: [Issue #82](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/82) — Le créateur rapporte 40–50 heures de travail avec Astra dans Codex, avec les réglages de raisonnement medium/high/extra-high et une direction humaine.
+  - Notes de vérification: [2026-09-15](assets/screenshots/vesper/SOURCE.md)
+  - Aperçu: ![Vesper — The Flooded Gate](assets/screenshots/vesper/gameplay.png)
 
 - **[Mystery Town](https://playableworld.itch.io/mystery-town)** — Observez des mondes miniatures en 3D, examinez et manipulez les objets, puis résolvez les énigmes en découvrant le bon enchaînement causal.
   - Créateur: [PlayableWorld](https://playableworld.itch.io/)

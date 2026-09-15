@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 97](https://img.shields.io/badge/Cases-97-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 98](https://img.shields.io/badge/Cases-98-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **收集用 GPT-6 Astra 制作的有趣游戏。**
 
@@ -20,9 +20,9 @@
 
 ## 从这里开始
 
-目前收录 **97 个游戏与互动作品**：三国领土策略、木锁拆解与华容道、半流体水果合成、程序化城市建造 2048、单键飞行、魔毯战斗、五关弹幕射击、海岛电网塔防、荒野生存、水下捕鱼、寿司店经营与海岛种植、海湾卡丁车竞速、鹈鹕海岸骑行、桌面玩具的 3D 改编、3D 家居装修，以及轨道花园。点击作品名称即可直接进入在线游戏。
+目前收录 **98 个游戏与互动作品**：三国领土策略、木锁拆解与华容道、半流体水果合成、程序化城市建造 2048、单键飞行、魔毯战斗、五关弹幕射击、海岛电网塔防、荒野生存、水下捕鱼、寿司店经营与海岛种植、海湾卡丁车竞速、鹈鹕海岸骑行、桌面玩具的 3D 改编、3D 家居装修，以及轨道花园。点击作品名称即可直接进入在线游戏。
 
-目录更新：**2026-09-14**。模型使用信息依据作者或投稿者的说明，未确认内容在具体条目中标注。此日期表示目录维护时间，不代表当天重新试玩了所有游戏。
+目录更新：**2026-09-15**。模型使用信息依据作者或投稿者的说明，未确认内容在具体条目中标注。此日期表示目录维护时间，不代表当天重新试玩了所有游戏。
 
 最新新增：[10 款来自作者站点、Reddit 与 X 的在线游戏](docs/browser-games-2026-09-12.md)，附实机截图与入口核验。此前新增：[Barrelbound: The Lost Cargo](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/73) 与 [Tidehook](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/74)，已同步全部 12 种 README 语言。[9 月 11 日新增的 10 款](docs/browser-games-2026-09-11.md) · [9 月 10 日新增的 10 款](docs/direct-play-x-games-2026-09-10.md) · [此前新增的 16 款](docs/x-high-traffic-games-2026-09-09.md)。
 
@@ -194,6 +194,13 @@
 ### 解谜与益智
 
 逻辑谜题、物理解谜、文字游戏与巧妙的小机关。
+
+- **[Vesper: The Last Light](https://vesper.mansgullberg.chatgpt.site/)** — 第三人称解谜冒险：探索淹没的花园与天体机械，把光作为生命、弹药和货币来管理，修复三道封印。
+  - 作者: [kvickan](https://buymeacoffee.com/kvickan)
+  - 平台: 桌面浏览器；键盘与鼠标，无需登录。作者暂不推荐移动端。
+  - GPT-6 Astra: [Issue #82](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/82) — 作者说明在 Codex 中使用 Astra 的中、高及超高推理设置，在人类指导下持续开发约 40–50 小时。
+  - 核验记录: [2026-09-15](assets/screenshots/vesper/SOURCE.md)
+  - 预览: ![Vesper — The Flooded Gate](assets/screenshots/vesper/gameplay.png)
 
 - **[Mystery Town](https://playableworld.itch.io/mystery-town)** — 观察微缩 3D 世界，检查并操作物体，通过正确的因果顺序破解环境谜题。
   - 作者: [PlayableWorld](https://playableworld.itch.io/)
