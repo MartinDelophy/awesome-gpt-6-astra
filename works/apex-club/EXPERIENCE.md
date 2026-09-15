@@ -35,3 +35,11 @@ Original synthesized music, engine/tyre audio and prompt sounds have separate vo
 43 automated tests cover existing manual steering, recovery and mobile sensor isolation plus teaching, records, medals, ghosts, EMP and the two route layouts. A test-only controller completes both full splines and checks for persistent wall contact; it is never imported by the game. Browser checks covered Chinese lobby/settings, teaching entry/skip, pause help, both routes, desktop rendering, and landscape layout; no rendering errors were reported in those checks.
 
 These checks do not establish first-time human corner success, real-phone frame rates/gyro behavior, or a complete subjective audio mix assessment. Those require hands-on playtesting. Full keyboard completion of the tutorial and multiple full races in a real browser remain manual acceptance checks; pure teaching transitions and both full route traversals are automated.
+
+## Club garage lobby
+
+The homepage now uses a physical maintenance bay with a rolling door, tool chest, tire stacks, overhead lighting and a raised maintenance platform. A wide desktop layout separates the primary vehicle, six-car collection strip and compact race console. Phone layouts use a horizontally scrollable collection and fixed launch button; landscape phones retain a side console.
+
+Car thumbnails render the actual models using the existing WebGL renderer. The selected track gets a live scene thumbnail; previously visited tracks use their cached thumbnails and unvisited tracks show their authored route outline. Car/team/mode choices survive scene changes. Vehicle titles, local medal and selected-car best lap are reflected in the lobby. Entry, selection and a short shutter/camera launch transition respect Reduced camera motion.
+
+Browser validation covered desktop 1280×800, portrait 390×844 and landscape 844×390, model selection, race launch, scene switching and preview-to-scene correspondence. These are browser layout checks, not physical phone performance measurements.

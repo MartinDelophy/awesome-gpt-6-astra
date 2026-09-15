@@ -353,7 +353,8 @@ function colorKart(kart,color){if(kart===player&&selectedMode==='solo'&&document
 function setCraft(i){
   if(race&&race.phase!=='finished')return;
   if(!Number.isInteger(i)||!craftDefs[i])return;
-  craftIndex=i;const d=craftDefs[i];configureKart(player,d);
+  craftIndex=i;const d=craftDefs[i];configureKart(player,d);showroom.select();
+  document.querySelector('#heroKartName').textContent=d.name;document.querySelector('#heroKartType').textContent=d.title;updateLobbyRecord();
   colorKart(player,selectedMode==='team'?TEAM_COLORS[selectedTeam]:d.color);
   document.querySelectorAll('[data-craft]').forEach(el=>{const active=Number(el.dataset.craft)===i;el.classList.toggle('active',active);el.setAttribute('aria-pressed',String(active));});
   document.querySelector('#craftName').textContent=d.name;
@@ -530,7 +531,7 @@ function updateHUD(){
 // Course map uses the same spline as the playable circuit.
 const mapPoints=Array.from({length:161},(_,i)=>{const p=curve.getPointAt(i/160);return `${(p.x/1350*63+90).toFixed(1)},${(p.z/1350*63+70).toFixed(1)}`}).join(' ');
 document.querySelector('#mapPath').setAttribute('points',mapPoints);
-document.querySelector('.kart-options').innerHTML=craftDefs.map((d,i)=>`<button data-craft="${i}" aria-pressed="false" style="--kart-color:#${d.color.toString(16).padStart(6,'0')}"><span>${String(i+1).padStart(2,'0')}<i class="kart-swatch"></i></span><strong>${d.name}</strong><small>${d.tag}</small></button>`).join('');
+document.querySelector('.kart-options').innerHTML=craftDefs.map((d,i)=>`<button data-craft="${i}" aria-pressed="false" style="--kart-color:#${d.color.toString(16).padStart(6,'0')}"><span>${String(i+1).padStart(2,'0')}<i class="kart-swatch"></i></span><img alt="" width="216" height="124"><strong>${d.name}</strong><small>${d.tag}</small></button>`).join('');
 document.querySelectorAll('[data-craft]').forEach(el=>el.addEventListener('click',()=>setCraft(Number(el.dataset.craft))));
 const beforeBayDecor=new Set(scene.children);
 // A soft sky gradient, sculpted islands and trackside props give the course a readable scale.
@@ -584,7 +585,7 @@ for(let i=0;i<34;i++){
 const bayDecor=scene.children.filter(o=>!beforeBayDecor.has(o)&&!o.userData.sharedTrack);
 let citadel=null,selectedScene='bay';const showroom=createShowroom();let lobbyTime=0;
 function selectScene(name){
- if(name!==requestedScene){const url=new URL(location.href);url.searchParams.set('scene',name);location.assign(url);return;}
+ if(name!==requestedScene){const url=new URL(location.href);url.searchParams.set('scene',name);try{sessionStorage.setItem('apex-lobby-choice',JSON.stringify({craft:craftIndex,mode:selectedMode,team:selectedTeam}));}catch{}location.assign(url);return;}
  selectedScene=name==='citadel'?'citadel':'bay';const ancient=selectedScene==='citadel';
  if(ancient&&!citadel){citadel=createCitadel(trackFrame,trackLength,t=>roadHalfWidth(requestedScene,t));scene.add(citadel);}
  if(citadel)citadel.visible=ancient;
@@ -594,12 +595,12 @@ function selectScene(name){
  scene.traverse(o=>{if(o.isMesh&&o.material?.isMeshStandardMaterial&&!o.material.transparent){o.castShadow=true;o.receiveShadow=true;}});ghost.traverse(o=>o.castShadow=false);
  trackMat.uniforms.citadel.value=ancient?1:0;
  document.body.dataset.scene=selectedScene;
- document.querySelectorAll('[data-scene]').forEach(b=>{const on=b.dataset.scene===selectedScene;b.classList.toggle('active',on);b.setAttribute('aria-pressed',String(on));});
+ document.querySelectorAll('button[data-scene]').forEach(b=>{const on=b.dataset.scene===selectedScene;b.classList.toggle('active',on);b.setAttribute('aria-pressed',String(on));});
  document.querySelector('.track-title').textContent=ancient?'Jade Citadel':'Bay Circuit';
  document.querySelector('#sceneCaption').textContent=ancient?'JADE CITADEL / ANCIENT WALL RUN':'BAY CIRCUIT / COASTAL GRAND PRIX';
  document.querySelector('.navigation .label').textContent=ancient?'JADE CITADEL / LIVE MAP':'BAY CIRCUIT / LIVE MAP';
 }
-document.querySelectorAll('[data-scene]').forEach(b=>b.addEventListener('click',()=>selectScene(b.dataset.scene)));
+document.querySelectorAll('button[data-scene]').forEach(b=>b.addEventListener('click',()=>selectScene(b.dataset.scene)));
 const rivalLabels=document.createElement('div');rivalLabels.id='rivalLabels';document.querySelector('.race-ui').append(rivalLabels);
 const nameTags=ai.map(()=>{const el=document.createElement('div');el.className='rival-tag';rivalLabels.append(el);return el;});
 const mapDots=ai.map(()=>{const circle=document.createElementNS('http://www.w3.org/2000/svg','circle');circle.setAttribute('r','2.7');document.querySelector('#mapRivals').append(circle);return circle;});
@@ -646,7 +647,7 @@ function finishRace(){
 }
 function formatTime(t){return `${Math.floor(t/60).toString().padStart(2,'0')}:${(t%60).toFixed(2).padStart(5,'0')}`;}
 function returnLobby(){lesson=null;document.querySelector('#lessonHUD').hidden=true;document.body.classList.remove('in-lesson');ghost.visible=false;empRing.visible=false;race=null;helpOpen=false;keys.clear();actions.clear();mobile.clear();document.querySelector('#lobby').hidden=false;document.querySelector('#results').hidden=true;document.querySelector('#controlsPanel').hidden=true;document.body.classList.remove('in-race','boosting','drifting','charged');raceEffects.reset();streaks.material.opacity=0;setCraft(craftIndex);document.querySelector('#raceStart').focus();}
-document.querySelector('#raceStart').addEventListener('click',()=>{let trained=false;try{trained=localStorage.getItem('apex-trained')==='yes';}catch{}if(trained)reset();else startLesson();});
+document.querySelector('#raceStart').addEventListener('click',()=>{let trained=false;try{trained=localStorage.getItem('apex-trained')==='yes';}catch{}beginLaunch(trained?reset:startLesson);});
 document.querySelector('#raceAgain').addEventListener('click',reset);
 document.querySelectorAll('[data-lobby]').forEach(el=>el.addEventListener('click',returnLobby));
 document.querySelectorAll('[data-mode]').forEach(el=>el.addEventListener('click',()=>{selectedMode=el.dataset.mode;document.querySelectorAll('[data-mode]').forEach(b=>{b.classList.toggle('active',b===el);b.setAttribute('aria-pressed',String(b===el));});document.querySelector('#teamChoice').hidden=selectedMode!=='team';setCraft(craftIndex);}));
@@ -666,7 +667,8 @@ function loop(){
   if(!race){
     audio.update(0,false,false,false);
     lobbyTime+=elapsed;
-    showroom.render(renderer,player,lobbyTime,reducedMotion);
+    if(launchElapsed!==null){launchElapsed+=elapsed;document.body.classList.toggle('launch-cut',launchElapsed>.75);if(launchElapsed>=1.05){const action=launchAction;launchElapsed=null;launchAction=null;document.body.classList.remove('is-launching');document.querySelector('#raceStart').disabled=false;action();setTimeout(()=>document.body.classList.remove('launch-cut'),100);return;}}
+    showroom.render(renderer,player,lobbyTime,reducedMotion,launchElapsed===null?0:Math.min(1,launchElapsed/.85));
     return;
   }else{
     let meta;const steps=Math.max(1,Math.ceil(dt/(1/120))),step=dt/steps;
@@ -742,6 +744,39 @@ function setupExperience(){
  const rules=document.createElement('p');rules.className='challenge-rules';rules.textContent=tr('Bronze: finish. Silver: finish with ≤3 collisions. Gold: also complete 6 drifts and 6 mini boosts.');document.querySelector('[data-settings-panel="controls"]').append(rules);
 }
 
+let launchElapsed=null,launchAction=null;
+function beginLaunch(action){
+ if(launchElapsed!==null)return;
+ if(reducedMotion){action();return;}
+ launchElapsed=0;launchAction=action;document.body.classList.add('is-launching');document.querySelector('#raceStart').disabled=true;audio.start();audio.cue('complete');
+}
+function updateLobbyRecord(){
+ const names=['CLUB DRIVER','BRONZE DRIVER','SILVER DRIVER','GOLD DRIVER'];let medal=0,record=null;
+ try{medal=Math.min(3,Number(localStorage.getItem('apex-medal')||0));record=JSON.parse(localStorage.getItem(`apex-best-v2-${requestedScene}-${craftIndex}-${document.querySelector('#beginnerSetting').checked?'assisted':'standard'}`)||'null');}catch{}
+ document.querySelector('#profileMedal').textContent=names[medal]||names[0];document.querySelector('#sceneBest').textContent=record?.time?`PERSONAL BEST ${formatTime(record.time)}`:'PERSONAL BEST —';
+}
+function setupClubLobby(){
+ showroom.scene.environment=scene.environment;
+ for(const type of ['bay','citadel']){
+  const route=new THREE.CatmullRomCurve3(circuitPoints(type).map(p=>new THREE.Vector3(...p)),true,'catmullrom',.35);
+  document.querySelector(`button[data-scene="${type}"] polyline`).setAttribute('points',Array.from({length:101},(_,i)=>{const p=route.getPointAt(i/100);return `${90+p.x/1350*63},${70+p.z/1350*63}`;}).join(' '));
+  try{const cached=localStorage.getItem(`apex-lobby-preview-v2-${type}`);if(cached?.startsWith('data:image/png;base64,')){const image=document.querySelector(`button[data-scene="${type}"] img`);image.src=cached;image.hidden=false;}}catch{}
+ }
+ const snapshot=(s,c,width,height)=>{
+  const target=new THREE.WebGLRenderTarget(width,height);target.texture.colorSpace=THREE.SRGBColorSpace;const previous=renderer.getRenderTarget();
+  renderer.setRenderTarget(target);renderer.render(s,c);const pixels=new Uint8Array(width*height*4);renderer.readRenderTargetPixels(target,0,0,width,height,pixels);renderer.setRenderTarget(previous);target.dispose();
+  const canvas=document.createElement('canvas');canvas.width=width;canvas.height=height;const ctx=canvas.getContext('2d'),data=ctx.createImageData(width,height);
+  for(let y=0;y<height;y++)data.data.set(pixels.subarray((height-y-1)*width*4,(height-y)*width*4),y*width*4);ctx.putImageData(data,0,0);return canvas.toDataURL('image/png');
+ };
+ const miniScene=new THREE.Scene();miniScene.background=new THREE.Color(0x102635);miniScene.environment=scene.environment;miniScene.add(new THREE.HemisphereLight(0xd8efff,0x293646,2));const light=new THREE.DirectionalLight(0xffe8c6,3);light.position.set(12,22,18);miniScene.add(light);
+ const miniCamera=new THREE.PerspectiveCamera(38,216/124,.1,150);miniCamera.position.set(26,16,35);miniCamera.lookAt(0,0,0);const kart=makeCraft(0xffffff,1);miniScene.add(kart);
+ for(let i=0;i<craftDefs.length;i++){configureKart(kart,craftDefs[i]);colorKart(kart,craftDefs[i].color);document.querySelector(`[data-craft="${i}"] img`).src=snapshot(miniScene,miniCamera,216,124);}
+ const geometries=new Set(),materials=new Set();kart.traverse(o=>{if(o.geometry)geometries.add(o.geometry);if(o.material)materials.add(o.material);});geometries.forEach(g=>g.dispose());materials.forEach(m=>m.dispose());
+ const f=trackFrame(.025),previewCamera=new THREE.PerspectiveCamera(55,432/200,.1,9000);previewCamera.position.copy(f.p).addScaledVector(f.tan,-145).addScaledVector(f.side,25).addScaledVector(f.normal,60);previewCamera.lookAt(f.p.clone().addScaledVector(f.tan,75).addScaledVector(f.normal,18));
+ const url=snapshot(scene,previewCamera,432,200),image=document.querySelector(`button[data-scene="${requestedScene}"] img`);image.src=url;image.hidden=false;try{localStorage.setItem(`apex-lobby-preview-v2-${requestedScene}`,url);}catch{}
+ updateLobbyRecord();
+}
+
 let driverMounted=false;
 function showDriver(){if(driverMounted)return;try{mountDriverStudio(document.querySelector('#driverStudio'),()=>!race&&document.querySelector('#settingsDialog').open&&!document.querySelector('[data-settings-panel=driver]').hidden);driverMounted=true;}catch{document.querySelector('#driverStudio .driver-action').textContent='3D preview unavailable on this device';}}
 
@@ -758,9 +793,11 @@ document.querySelector('#qualitySetting').addEventListener('change',applyQuality
 applyQuality();
 renderer.domElement.addEventListener('webglcontextlost',e=>{e.preventDefault();toggleControls(true);document.querySelector('#runtimeError').hidden=false;});
 document.addEventListener('visibilitychange',()=>{if(document.hidden&&race?.phase==='racing')toggleControls(true);});
+try{const choice=JSON.parse(sessionStorage.getItem('apex-lobby-choice')||'null');if(choice&&craftDefs[choice.craft]){craftIndex=choice.craft;selectedMode=choice.mode==='solo'?'solo':'team';selectedTeam=choice.team==='red'?'red':'blue';document.querySelectorAll('[data-mode]').forEach(b=>{const on=b.dataset.mode===selectedMode;b.classList.toggle('active',on);b.setAttribute('aria-pressed',String(on));});document.querySelectorAll('[data-team]').forEach(b=>{const on=b.dataset.team===selectedTeam;b.classList.toggle('active',on);b.setAttribute('aria-pressed',String(on));});document.querySelector('#teamChoice').hidden=selectedMode==='solo';}}catch{}
 setCraft(craftIndex);
 selectScene(requestedScene);
 setupExperience();
+setupClubLobby();
 setupLanguage();
 loop();
 

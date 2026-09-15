@@ -1,25 +1,7 @@
 import * as THREE from 'three';
 import {createGateBuilder} from './citadel-gate.js';
 
-export function createShowroom(){
- const scene=new THREE.Scene();scene.background=new THREE.Color('#080d17');scene.fog=new THREE.Fog('#080d17',65,180);
- const camera=new THREE.PerspectiveCamera(42,1,.1,300);
- scene.add(new THREE.HemisphereLight(0xcbdcff,0x161b30,2));
- for(const [color,intensity,x,y,z] of [[0xe3efff,4,15,30,20],[0x70aaff,5,-25,10,-15],[0xff914d,3,25,8,-20]]){const light=new THREE.DirectionalLight(color,intensity);light.position.set(x,y,z);scene.add(light);}
- const plinth=new THREE.Mesh(new THREE.CylinderGeometry(18,19,1,96),new THREE.MeshStandardMaterial({color:0x202a38,metalness:.8,roughness:.28}));plinth.position.y=-4;scene.add(plinth);
- const ring=new THREE.Mesh(new THREE.TorusGeometry(18,.09,8,128),new THREE.MeshBasicMaterial({color:0xe8ad66}));ring.rotation.x=Math.PI/2;ring.position.y=-3.45;scene.add(ring);
- const floor=new THREE.Mesh(new THREE.PlaneGeometry(400,400),new THREE.MeshStandardMaterial({color:0x0b111d,roughness:.65,metalness:.3}));floor.rotation.x=-Math.PI/2;floor.position.y=-4.55;scene.add(floor);
- const grid=new THREE.GridHelper(200,40,0x30435e,0x182333);grid.position.y=-4.5;scene.add(grid);
- for(const x of [-35,35]){const strip=new THREE.Mesh(new THREE.BoxGeometry(.12,25,.12),new THREE.MeshBasicMaterial({color:0x597db2}));strip.position.set(x,8,-35);scene.add(strip);}
- return {scene,camera,render(renderer,player,time,reduced){
-  if(player.parent!==scene)scene.add(player);
-  player.position.set(0,0,0);player.rotation.set(0,-.5+(reduced?0:Math.sin(time*.18)*.35),0);
-  const {width,height}=renderer.domElement.getBoundingClientRect();camera.aspect=width/height;camera.fov=width>1024?42:65;
-  camera.position.set(30,18,40);camera.lookAt(0,-1,0);
-  camera.setViewOffset(width,height,width>1024?width*.19:0,width>1024?-height*.09:height*.25,width,height);camera.updateProjectionMatrix();
-  renderer.render(scene,camera);
- }};
-}
+export {createClubShowroom as createShowroom} from './showroom-design.js';
 
 export function createCitadel(trackFrame,trackLength,halfWidth=()=>38){
  const group=new THREE.Group();group.name='Jade Citadel';
