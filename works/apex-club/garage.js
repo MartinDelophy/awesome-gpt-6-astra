@@ -1,3 +1,5 @@
+import {setupLanguage} from './localization.js';
+setupLanguage();
 import * as THREE from 'three';
 import {createArmoredKart} from './armored-kart.js';
 try{

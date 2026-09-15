@@ -76,15 +76,15 @@ export function createMobileControls({action,active,pause,handheld=isHandheldDev
     try{await document.documentElement.requestFullscreen?.();await screen.orientation?.lock?.('landscape');}catch{}
     document.querySelector('#screenHint').textContent='Rotate your phone sideways. If needed, turn off rotation lock.';
   });
-  return {clear,update({boost,nitro,weapon,drift}){
+  return {clear,update({boost,nitro,weapon,drift,empCooldown=0}){
     const count=Math.floor(boost*3+.01),ready=boost>=.333&&nitro<=0;
     nitroButton.classList.toggle('unavailable',!ready&&nitro<=0);nitroButton.classList.toggle('firing',nitro>0);
     nitroButton.setAttribute('aria-disabled',String(!ready));nitroButton.setAttribute('aria-label',`Nitro, ${count} charges${nitro>0?', boosting':''}`);
     nitroCount.textContent=count;nitroState.textContent=nitro>0?`${nitro.toFixed(1)}s BOOST`:count?'TAP TO BOOST':'DRIFT TO FILL';
     pips.forEach((p,i)=>p.classList.toggle('full',i<count));
     driftButton.style.setProperty('--drift-charge',Math.round(drift.charge*100));
-    driftState.textContent=drift.active?(drift.charge>=.32?'RELEASE TO BOOST':'CHARGING'):'HOLD TO SLIDE';
-    empButton.classList.toggle('unavailable',weapon<=.34);empButton.setAttribute('aria-disabled',String(weapon<=.34));empState.textContent=weapon>.34?'READY':`${Math.ceil((.34-weapon)/.018)}s`;
+    driftState.textContent=drift.active?(drift.charge>=.32?'RELEASE → MINI':'CHARGING'):'HOLD TO SLIDE';
+    const unavailable=weapon<.34||empCooldown>0;empButton.classList.toggle('unavailable',unavailable);empButton.setAttribute('aria-disabled',String(unavailable));empState.textContent=empCooldown>0?`${Math.ceil(empCooldown)}s`:weapon>=.34?'READY':`${Math.ceil((.34-weapon)/.018)}s`;
   },down:name=>[...held.values()].includes(name),steer(dt){
     const touch=Number(this.down('right'))-Number(this.down('left'));
     if(this.down('right')||this.down('left'))return touch;

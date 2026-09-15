@@ -118,8 +118,9 @@ export function createArmoredKart(teamColor=0x44baff,{driver=true}={}){
   const bolts=new THREE.InstancedMesh(new THREE.CylinderGeometry(.10,.10,.12,6),alloy,24),pose=new THREE.Object3D();
   for(let i=0;i<24;i++){const s=i%2?1:-1;pose.position.set(s*(i<12?4.2:5.3),i<12?3.65:3.87,i<12?2.3+Math.floor(i/2)*.9:-3.2-Math.floor((i-12)/2)*.72);pose.updateMatrix();bolts.setMatrixAt(i,pose.matrix);}details.add(bolts);
   if(driver){
-    const occupant=group('Race driver');ball(occupant,trim,0,4.35,-1.65,1,1.25,.8);ball(occupant,alloy,0,6.25,-1.4,1.22,1.25,1.2);ball(occupant,glass,0,6.32,-.44,1.03,.48,.4);
-    for(const s of [-1,1])rod(occupant,dark,[s*.85,4.65,-1.1],[s*.74,4.35,-.1],.27);
+    const occupant=group('Race driver');ball(occupant,trim,0,4.35,-1.65,1,1.25,.8);ball(occupant,new THREE.MeshPhysicalMaterial({color:0xeee8d8,metalness:.08,roughness:.28,clearcoat:.8}),0,6.25,-1.4,1.22,1.25,1.2);ball(occupant,glass,0,6.32,-.44,1.03,.48,.4);
+    for(const s of [-1,1]){rod(occupant,trim,[s*.85,4.65,-1.1],[s*.74,4.35,-.1],.3);ball(occupant,dark,s*.74,4.35,-.1,.34,.3,.35);box(occupant,alloy,s*.37,4.45,-.86,.16,1.5,.12,.03);disc(occupant,alloy,s*1.18,6.25,-1.3,.2,.09,'x');}
+    const stripe=[];for(let i=0;i<=12;i++){const a=-1.1+i/12*2.2;stripe.push([0,6.25+Math.cos(a)*1.26,-1.4+Math.sin(a)*1.21]);}tube(occupant,trim,stripe,.09);
   }
   model.userData={wheels,engines,parts,fx:{wheelX:7.2,wheelZ:-5.55,nozzleX:2.8,nozzleY:.1,nozzleZ:-9}};
   return model;

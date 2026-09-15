@@ -21,7 +21,7 @@ export function createShowroom(){
  }};
 }
 
-export function createCitadel(trackFrame,trackLength){
+export function createCitadel(trackFrame,trackLength,halfWidth=()=>38){
  const group=new THREE.Group();group.name='Jade Citadel';
  const buildGate=createGateBuilder();
  const stone=new THREE.MeshStandardMaterial({color:0x687474,roughness:.95});
@@ -37,9 +37,9 @@ export function createCitadel(trackFrame,trackLength){
  for(let i=0;i<320;i++){
   const f=trackFrame(i/320);orient.makeBasis(f.side.clone().negate(),f.normal,f.tan);pose.quaternion.setFromRotationMatrix(orient);
   for(const side of [-1,1]){
-   pose.position.copy(f.p).addScaledVector(f.side,side*43).addScaledVector(f.normal,-20);pose.scale.set(10,50,trackLength/320+2);pose.updateMatrix();walls.setMatrixAt(wi++,pose.matrix);
-   for(const offset of [-.25,.25]){pose.position.copy(f.p).addScaledVector(f.side,side*43).addScaledVector(f.tan,offset*trackLength/320).addScaledVector(f.normal,9);pose.scale.set(10,8,trackLength/320*.23);pose.updateMatrix();merlons.setMatrixAt(mi++,pose.matrix);}
-   for(const y of [-34,-18,-2]){pose.position.copy(f.p).addScaledVector(f.side,side*43).addScaledVector(f.normal,y);pose.scale.set(10.3,.6,trackLength/320+2);pose.updateMatrix();courses.setMatrixAt(ci++,pose.matrix);}
+   pose.position.copy(f.p).addScaledVector(f.side,side*(halfWidth(i/320)+5)).addScaledVector(f.normal,-20);pose.scale.set(10,50,trackLength/320+2);pose.updateMatrix();walls.setMatrixAt(wi++,pose.matrix);
+   for(const offset of [-.25,.25]){pose.position.copy(f.p).addScaledVector(f.side,side*(halfWidth(i/320)+5)).addScaledVector(f.tan,offset*trackLength/320).addScaledVector(f.normal,9);pose.scale.set(10,8,trackLength/320*.23);pose.updateMatrix();merlons.setMatrixAt(mi++,pose.matrix);}
+   for(const y of [-34,-18,-2]){pose.position.copy(f.p).addScaledVector(f.side,side*(halfWidth(i/320)+5)).addScaledVector(f.normal,y);pose.scale.set(10.3,.6,trackLength/320+2);pose.updateMatrix();courses.setMatrixAt(ci++,pose.matrix);}
   }
  }
  const box=(parent,mat,x,y,z,sx,sy,sz)=>{const m=new THREE.Mesh(cube,mat);m.position.set(x,y,z);m.scale.set(sx,sy,sz);parent.add(m);return m;};
@@ -66,10 +66,11 @@ export function createCitadel(trackFrame,trackLength){
    box(tower,red,x,14,12,1,28,1);box(tower,gold,x,27,12,9,.7,1);
    const lantern=new THREE.Mesh(new THREE.SphereGeometry(3.2,10,8),glow);lantern.scale.y=1.35;lantern.position.set(x+(x<0?3:-3),23,12);tower.add(lantern);
    box(tower,gold,lantern.position.x,17,12,.3,5,.3);
+   if(i%3===0){const light=new THREE.PointLight(0xffa348,75,55,2);light.position.copy(lantern.position);tower.add(light);}
   }
  }
- const mountainMat=new THREE.MeshStandardMaterial({color:0x617578,roughness:1,flatShading:true});
- const mountainGeo=new THREE.IcosahedronGeometry(1,1);
+ const mountainMat=new THREE.MeshStandardMaterial({color:0x4f697f,roughness:1,flatShading:false});
+ const mountainGeo=new THREE.IcosahedronGeometry(1,2);
  for(let i=0;i<32;i++){const a=i/32*Math.PI*2,m=new THREE.Mesh(mountainGeo,mountainMat);m.position.set(Math.cos(a)*2300,-150,Math.sin(a)*2300);m.rotation.y=i*1.7;m.scale.set(350+i%4*110,280+i%5*95,320);group.add(m);}
  const land=new THREE.Mesh(new THREE.PlaneGeometry(10000,10000),new THREE.MeshStandardMaterial({color:0x626c59,roughness:1}));land.rotation.x=-Math.PI/2;land.position.y=-170;group.add(land);
  return group;

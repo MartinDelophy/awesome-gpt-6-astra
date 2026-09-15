@@ -55,7 +55,7 @@ export function createRaceEffects(scene) {
             }
             v.copy(frame.normal).multiplyScalar(3).addScaledVector(frame.tan,-5);emit(wheel.clone().addScaledVector(frame.normal,1.6),v,new THREE.Color(.65,.73,.75),2+Math.random()*1.5,.5);
           }else previous[idx]=null;
-          if(boosting){
+          if(boosting&&!state.drift.active){
             p.set(side*(fx?.nozzleX??2.1),fx?.nozzleY??-1.3,fx?.nozzleZ??-9).applyQuaternion(player.quaternion).add(player.position);
             v.copy(frame.tan).multiplyScalar(-22).addScaledVector(frame.normal,Math.random()*2);
             emit(p,v,tint.setHex(state.nitro>0?0x43cfff:0xffa83e),1.6,.23);
