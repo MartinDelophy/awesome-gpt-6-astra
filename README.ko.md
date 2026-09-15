@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 88](https://img.shields.io/badge/Cases-88-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 89](https://img.shields.io/badge/Cases-89-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **GPT-6 Astra로 만든 흥미로운 게임을 모았습니다.**
 
@@ -22,7 +22,7 @@
 
 ## 여기서 시작하기
 
-현재 **게임 및 인터랙티브 작품 86개**를 소개합니다. 삼국지 영토 전략, 나무 결합 퍼즐과 슬라이딩 퍼즐, 부드러운 과일 합치기, 절차적 도시 건설 2048, 원버튼 비행, 마법 양탄자 전투, 5개 스테이지의 탄막 슈팅, 섬의 전력망을 이용한 타워 디펜스, 야생 생존, 수중 낚시와 초밥집 경영 및 섬 농사, 베이 서킷 카트 레이싱, 펠리컨과 함께하는 해안 자전거 달리기, 탁상 장난감을 옮긴 3D 게임, 3D 집 꾸미기, 그리고 Orbital Garden을 만나 보세요. 작품명을 누르면 브라우저에서 바로 플레이할 수 있습니다.
+현재 **게임 및 인터랙티브 작품 89개**를 소개합니다. 삼국지 영토 전략, 나무 결합 퍼즐과 슬라이딩 퍼즐, 부드러운 과일 합치기, 절차적 도시 건설 2048, 원버튼 비행, 마법 양탄자 전투, 5개 스테이지의 탄막 슈팅, 섬의 전력망을 이용한 타워 디펜스, 야생 생존, 수중 낚시와 초밥집 경영 및 섬 농사, 베이 서킷 카트 레이싱, 펠리컨과 함께하는 해안 자전거 달리기, 탁상 장난감을 옮긴 3D 게임, 3D 집 꾸미기, 그리고 Orbital Garden을 만나 보세요. 작품명을 누르면 브라우저에서 바로 플레이할 수 있습니다.
 
 목록 업데이트: **2026-09-15**. 모델 사용 정보는 제작자 또는 제출자의 설명을 바탕으로 하며, 미확인 내용은 각 항목에 표시합니다. 이 날짜는 목록 관리 날짜이며 모든 게임을 다시 플레이 테스트한 날짜가 아닙니다.
 
@@ -173,6 +173,12 @@
   - 플랫폼: 데스크톱 브라우저. 로그인 없이 무료로 플레이할 수 있습니다. Play를 클릭하며 계정 기능은 선택 사항입니다.
   - GPT-6 Astra: [제작자 등록 페이지](https://www.aigameshare.com/games/aura-farming-game) — 제작자는 게임 제작에 GPT-6 Astra와 Codex를 사용했으며 Blender, Three.js, ImageGen, WebAudio도 함께 명시합니다. [검증 기록](assets/screenshots/aura-farming/SOURCE.md).
   - 미리보기: ![용선 위에서 춤추는 카피바라와 기울이기·버티기 조작, 여섯 동작 도전 HUD.](assets/screenshots/aura-farming/gameplay.jpg)
+
+- **[Thornwake](https://thornwake-moth-descent.ltodd.chatgpt.site/)** — 곤충 테마의 액션 로그라이트입니다. 바늘로 싸우고 뿌리가 가득한 방을 점프와 대시로 이동하며, 반복해서 내려가는 여정에서 실과 잿불 씨앗을 모으세요.
+  - 제작자: [Lehiem / LiamTodd98](https://github.com/LiamTodd98)
+  - 플랫폼: 데스크톱 브라우저. 키보드 조작, 무료이며 로그인이나 설치가 필요 없습니다. 초반 전투를 확인했습니다.
+  - GPT-6 Astra: [제작자 제출 글](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/92) — 제작자는 Astra에 Silksong 스타일의 게임을 요청한 다음 두 번의 추가 프롬프트로 게임플레이를 다듬었다고 설명합니다. [검증 기록](assets/screenshots/thornwake/SOURCE.md).
+  - 미리보기: ![Thornwake의 첫 방 The Pale Undergrowth. 곤충 적, 발판, 체력과 실 게이지 및 키보드 조작 안내가 보입니다. 2026-09-15 촬영.](assets/screenshots/thornwake/gameplay.jpg)
 
 <a id="puzzles"></a>
 

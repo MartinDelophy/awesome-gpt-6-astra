@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 88](https://img.shields.io/badge/Cases-88-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 89](https://img.shields.io/badge/Cases-89-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Uma coleção de jogos interessantes feitos com GPT-6 Astra.**
 
@@ -22,7 +22,7 @@ Esta página é uma tradução do [README em inglês](README.md). Consulte o ori
 
 ## Comece por aqui
 
-Explore **88 jogos e projetos interativos**: estratégia territorial dos Três Reinos, quebra-cabeças de madeira com encaixes e peças deslizantes, fusão de frutas deformáveis, 2048 de construção de cidades com geração procedural, voo com um toque, combates em tapete mágico, um jogo de tiro com chuva de balas e cinco fases, defesa de uma ilha com uma rede elétrica, sobrevivência na natureza, pesca submarina, gestão de um restaurante de sushi e cultivo em uma ilha, corridas de kart no Bay Circuit, ciclismo pela costa com um pelicano, brinquedos de mesa adaptados para 3D, decoração de casas em 3D e Orbital Garden. Clique em um título para jogar diretamente no navegador.
+Explore **89 jogos e projetos interativos**: estratégia territorial dos Três Reinos, quebra-cabeças de madeira com encaixes e peças deslizantes, fusão de frutas deformáveis, 2048 de construção de cidades com geração procedural, voo com um toque, combates em tapete mágico, um jogo de tiro com chuva de balas e cinco fases, defesa de uma ilha com uma rede elétrica, sobrevivência na natureza, pesca submarina, gestão de um restaurante de sushi e cultivo em uma ilha, corridas de kart no Bay Circuit, ciclismo pela costa com um pelicano, brinquedos de mesa adaptados para 3D, decoração de casas em 3D e Orbital Garden. Clique em um título para jogar diretamente no navegador.
 
 Catálogo atualizado: **2026-09-15**. O uso do modelo é informado com base nas declarações dos criadores ou responsáveis pelas submissões; detalhes não confirmados são sinalizados em cada entrada. Esta data registra a manutenção do catálogo, não um novo teste de todos os jogos.
 
@@ -173,6 +173,12 @@ Jogos de tiro, luta, sobrevivência, ritmo e qualquer experiência que dê vonta
   - Plataforma: Navegador de computador; jogo grátis sem login. Clique em Play; recursos de conta são opcionais.
   - GPT-6 Astra: [Página do criador](https://www.aigameshare.com/games/aura-farming-game) — O criador credita GPT-6 Astra e Codex, além de Blender, Three.js, ImageGen e WebAudio. [Notas de verificação](assets/screenshots/aura-farming/SOURCE.md).
   - Prévia: ![Capivara dançando num barco-dragão, com controles de inclinação e apoio e desafio de seis movimentos.](assets/screenshots/aura-farming/gameplay.jpg)
+
+- **[Thornwake](https://thornwake-moth-descent.ltodd.chatgpt.site/)** — Um roguelite de ação com insetos: lute com uma agulha, salte e avance com arrancadas por câmaras cheias de raízes e colete seda e sementes de brasa em descidas sucessivas.
+  - Criador: [Lehiem / LiamTodd98](https://github.com/LiamTodd98)
+  - Plataforma: Navegador de computador; controles pelo teclado, gratuito, sem login nem instalação. Combate inicial verificado.
+  - GPT-6 Astra: [Submissão do criador](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/92) — O criador relata ter pedido à Astra um jogo no estilo de Silksong e depois refinado a jogabilidade com dois prompts adicionais. [Notas de verificação](assets/screenshots/thornwake/SOURCE.md).
+  - Prévia: ![A primeira câmara de Thornwake, The Pale Undergrowth, com inimigos insetos, plataformas, indicadores de vida e seda e controles do teclado. Captura de 2026-09-15.](assets/screenshots/thornwake/gameplay.jpg)
 
 <a id="puzzles"></a>
 

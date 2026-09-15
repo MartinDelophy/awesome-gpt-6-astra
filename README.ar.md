@@ -6,7 +6,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 88](https://img.shields.io/badge/Cases-88-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 89](https://img.shields.io/badge/Cases-89-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **مجموعة من الألعاب الممتعة المصنوعة باستخدام GPT-6 Astra.**
 
@@ -24,7 +24,7 @@
 
 ## ابدأ من هنا
 
-استكشف **88 لعبة ومشروعًا تفاعليًا**: استراتيجية السيطرة على الأراضي في عصر الممالك الثلاث، ألغاز خشبية متشابكة وألغاز الكتل المنزلقة، دمج الفواكه المرنة، ولعبة 2048 لبناء المدن بالتوليد الإجرائي، والطيران بزر واحد، والقتال على بساط سحري، ولعبة تصويب كثيفة الرصاص من خمس مراحل، والدفاع عن جزيرة بشبكة كهربائية، والبقاء في البرية، وصيد الأسماك تحت الماء وإدارة مطعم سوشي والزراعة على جزيرة، وسباقات الكارت على حلبة الخليج، وركوب الدراجة مع بجع على الساحل، وألعاب طاولة محوّلة إلى ألعاب ثلاثية الأبعاد، وتصميم ديكور المنازل ثلاثي الأبعاد، وOrbital Garden. انقر على اسم العمل لفتح اللعبة مباشرة في المتصفح.
+استكشف **89 لعبة ومشروعًا تفاعليًا**: استراتيجية السيطرة على الأراضي في عصر الممالك الثلاث، ألغاز خشبية متشابكة وألغاز الكتل المنزلقة، دمج الفواكه المرنة، ولعبة 2048 لبناء المدن بالتوليد الإجرائي، والطيران بزر واحد، والقتال على بساط سحري، ولعبة تصويب كثيفة الرصاص من خمس مراحل، والدفاع عن جزيرة بشبكة كهربائية، والبقاء في البرية، وصيد الأسماك تحت الماء وإدارة مطعم سوشي والزراعة على جزيرة، وسباقات الكارت على حلبة الخليج، وركوب الدراجة مع بجع على الساحل، وألعاب طاولة محوّلة إلى ألعاب ثلاثية الأبعاد، وتصميم ديكور المنازل ثلاثي الأبعاد، وOrbital Garden. انقر على اسم العمل لفتح اللعبة مباشرة في المتصفح.
 
 تحديث القائمة: **2026-09-15**. تستند معلومات استخدام النموذج إلى تصريحات المؤلفين أو مقدّمي الأعمال؛ وتُوضّح التفاصيل غير المؤكدة في كل بند. يشير هذا التاريخ إلى تحديث القائمة، وليس إلى إعادة اختبار جميع الألعاب.
 
@@ -175,6 +175,12 @@
   - المنصة: متصفح على الحاسوب؛ لعب مجاني دون تسجيل الدخول. انقر Play؛ مزايا الحساب اختيارية.
   - GPT-6 Astra: [صفحة اللعبة من المبدع](https://www.aigameshare.com/games/aura-farming-game) — يذكر المبدع GPT-6 Astra وCodex ضمن أدوات اللعبة، إلى جانب Blender وThree.js وImageGen وWebAudio. [ملاحظات التحقق](assets/screenshots/aura-farming/SOURCE.md).
   - معاينة: ![كابيبارا ترقص على قارب تنين، مع تحكم بالميل والتثبيت وواجهة تحدي الحركات الست.](assets/screenshots/aura-farming/gameplay.jpg)
+
+- **[Thornwake](https://thornwake-moth-descent.ltodd.chatgpt.site/)** — لعبة أكشن روجلايت بطابع الحشرات: قاتل بإبرة، واقفز واندفع عبر حجرات مليئة بالجذور، واجمع الحرير وبذور الجمر خلال رحلات نزول متكررة.
+  - المبدع: [Lehiem / LiamTodd98](https://github.com/LiamTodd98)
+  - المنصة: متصفح على الحاسوب؛ تحكم بلوحة المفاتيح، مجاني دون تسجيل الدخول أو تثبيت. جرى التحقق من القتال الافتتاحي.
+  - GPT-6 Astra: [مشاركة المبدع](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/92) — يقول المبدع إنه طلب من Astra لعبة بأسلوب Silksong، ثم حسّن أسلوب اللعب بطلبين إضافيين. [ملاحظات التحقق](assets/screenshots/thornwake/SOURCE.md).
+  - معاينة: ![الحجرة الأولى في Thornwake، المسماة The Pale Undergrowth، مع أعداء من الحشرات ومنصات ومؤشرات الصحة والحرير وتعليمات لوحة المفاتيح. التُقطت في 2026-09-15.](assets/screenshots/thornwake/gameplay.jpg)
 
 <a id="puzzles"></a>
 

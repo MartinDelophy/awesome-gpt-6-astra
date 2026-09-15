@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 108](https://img.shields.io/badge/Cases-108-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 109](https://img.shields.io/badge/Cases-109-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **A collection of interesting games made with GPT-6 Astra.**
 
@@ -20,7 +20,7 @@ Playful ideas, games you can try, and development stories that inspire the next 
 
 ## Start here
 
-Explore **108 games and interactive projects**: Three Kingdoms territory strategy, wooden interlocking and sliding puzzles, soft-body fruit merging, procedural city-building 2048, one-tap flight, magic-carpet combat, a five-stage bullet-hell shooter, island power-grid tower defense, wilderness survival, underwater fishing, sushi-restaurant management and island farming, Bay Circuit kart racing, coastal cycling with a pelican, tabletop toys turned into 3D games, 3D home decoration, and Orbital Garden. Click a title to play directly in your browser.
+Explore **109 games and interactive projects**: Three Kingdoms territory strategy, wooden interlocking and sliding puzzles, soft-body fruit merging, procedural city-building 2048, one-tap flight, magic-carpet combat, a five-stage bullet-hell shooter, island power-grid tower defense, wilderness survival, underwater fishing, sushi-restaurant management and island farming, Bay Circuit kart racing, coastal cycling with a pelican, tabletop toys turned into 3D games, 3D home decoration, and Orbital Garden. Click a title to play directly in your browser.
 
 Catalog updated: **2026-09-15**. Model attribution is based on creator or submitter statements; unconfirmed details are marked in individual entries. This date records catalog maintenance, not a new play-test of every game.
 
@@ -210,6 +210,12 @@ Shooters, fighters, survival games, rhythm games, and anything that invites one 
   - GPT-6 Astra: [LINUX DO](https://linux.do/t/topic/2857361) — The creator describes using Astra first to model the desert map, then to add FPS rules, bots, weapons, four game modes and optional assists. [Verification notes](assets/screenshots/dust-ii-ops/SOURCE.md).
   - Resources: [Original map and prompts](https://linux.do/t/topic/2857326).
   - Preview: ![A live free-for-all match on the desert map, with AK-47, tactical radar, bot kill feed and the invincibility assist enabled.](assets/screenshots/dust-ii-ops/gameplay.jpg)
+
+- **[Thornwake](https://thornwake-moth-descent.ltodd.chatgpt.site/)** — An insect action roguelite: fight with a needle, jump and dash through root-filled chambers, and collect silk and ember seeds across repeated descents.
+  - Creator: [Lehiem / LiamTodd98](https://github.com/LiamTodd98)
+  - Platform: Desktop browser; keyboard controls, free, no login or installation. Opening combat verified.
+  - GPT-6 Astra: [Creator submission](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/92) — The creator reports asking Astra for a Silksong-style game, then refining the gameplay with two additional prompts. [Verification notes](assets/screenshots/thornwake/SOURCE.md).
+  - Preview: ![Thornwake's first chamber, The Pale Undergrowth, with insect enemies, platforms, health and silk meters, and keyboard controls. Captured on 2026-09-15.](assets/screenshots/thornwake/gameplay.jpg)
 
 ### Puzzles & brain games
 

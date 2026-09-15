@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 88](https://img.shields.io/badge/Cases-88-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 89](https://img.shields.io/badge/Cases-89-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Una colección de juegos interesantes creados con GPT-6 Astra.**
 
@@ -22,7 +22,7 @@ Esta página es una traducción del [README en inglés](README.md). Consulta el 
 
 ## Empieza aquí
 
-Explora **88 juegos y proyectos interactivos**: estrategia territorial de los Tres Reinos, rompecabezas de madera entrelazada y de piezas deslizantes, fusión de frutas deformables, 2048 de construcción de ciudades con generación procedural, vuelo con un solo botón, combates en alfombra mágica, un shooter de lluvia de balas con cinco niveles, defensa de una isla mediante una red eléctrica, supervivencia en la naturaleza, pesca submarina, gestión de un restaurante de sushi y agricultura en una isla, carreras de karts en Bay Circuit, ciclismo costero con un pelícano, juguetes de mesa adaptados a 3D, decoración de hogares en 3D y Orbital Garden. Haz clic en un título para jugar directamente en el navegador.
+Explora **89 juegos y proyectos interactivos**: estrategia territorial de los Tres Reinos, rompecabezas de madera entrelazada y de piezas deslizantes, fusión de frutas deformables, 2048 de construcción de ciudades con generación procedural, vuelo con un solo botón, combates en alfombra mágica, un shooter de lluvia de balas con cinco niveles, defensa de una isla mediante una red eléctrica, supervivencia en la naturaleza, pesca submarina, gestión de un restaurante de sushi y agricultura en una isla, carreras de karts en Bay Circuit, ciclismo costero con un pelícano, juguetes de mesa adaptados a 3D, decoración de hogares en 3D y Orbital Garden. Haz clic en un título para jugar directamente en el navegador.
 
 Catálogo actualizado: **2026-09-15**. El uso del modelo se documenta según las declaraciones de los creadores o remitentes; los datos sin confirmar se señalan en cada entrada. Esta fecha corresponde al mantenimiento del catálogo, no a una nueva prueba de todos los juegos.
 
@@ -173,6 +173,12 @@ Juegos de disparos, lucha, supervivencia, ritmo y cualquier propuesta que invite
   - Plataforma: Navegador de escritorio; juego gratuito sin iniciar sesión. Pulsa Play; las funciones de cuenta son opcionales.
   - GPT-6 Astra: [Ficha del creador](https://www.aigameshare.com/games/aura-farming-game) — El creador acredita a GPT-6 Astra y Codex, junto con Blender, Three.js, ImageGen y WebAudio. [Notas de verificación](assets/screenshots/aura-farming/SOURCE.md).
   - Vista previa: ![Una capibara baila sobre un barco dragón, con controles de inclinación y apoyo e indicadores del reto de seis movimientos.](assets/screenshots/aura-farming/gameplay.jpg)
+
+- **[Thornwake](https://thornwake-moth-descent.ltodd.chatgpt.site/)** — Un roguelite de acción protagonizado por insectos: combate con una aguja, salta y esquiva con impulsos por cámaras llenas de raíces, y reúne seda y semillas de brasa en descensos sucesivos.
+  - Creador: [Lehiem / LiamTodd98](https://github.com/LiamTodd98)
+  - Plataforma: Navegador de escritorio; controles de teclado, gratis, sin inicio de sesión ni instalación. Combate inicial verificado.
+  - GPT-6 Astra: [Envío del creador](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/92) — El creador afirma que pidió a Astra un juego al estilo de Silksong y después refinó la jugabilidad con dos prompts adicionales. [Notas de verificación](assets/screenshots/thornwake/SOURCE.md).
+  - Vista previa: ![La primera cámara de Thornwake, The Pale Undergrowth, con enemigos insectos, plataformas, indicadores de salud y seda, y controles de teclado. Captura del 2026-09-15.](assets/screenshots/thornwake/gameplay.jpg)
 
 <a id="puzzles"></a>
 

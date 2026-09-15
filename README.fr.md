@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 88](https://img.shields.io/badge/Cases-88-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 89](https://img.shields.io/badge/Cases-89-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Une sélection de jeux intéressants créés avec GPT-6 Astra.**
 
@@ -22,7 +22,7 @@ Cette page traduit le [README anglais](README.md). Consultez l’original pour v
 
 ## Pour commencer
 
-Découvrez **88 jeux et projets interactifs** : stratégie territoriale des Trois Royaumes, puzzles en bois à emboîtement et à glissement, fusion de fruits déformables, 2048 de construction urbaine avec génération procédurale, vol à une touche, combats sur tapis volant, un jeu de tir à rideaux de balles en cinq niveaux, défense d’île par un réseau électrique, survie en pleine nature, pêche sous-marine, gestion d’un restaurant de sushis et agriculture insulaire, course de karts sur Bay Circuit, balade côtière à vélo avec un pélican, jouets de table adaptés en 3D, décoration intérieure en 3D et Orbital Garden. Cliquez sur un titre pour jouer directement dans le navigateur.
+Découvrez **89 jeux et projets interactifs** : stratégie territoriale des Trois Royaumes, puzzles en bois à emboîtement et à glissement, fusion de fruits déformables, 2048 de construction urbaine avec génération procédurale, vol à une touche, combats sur tapis volant, un jeu de tir à rideaux de balles en cinq niveaux, défense d’île par un réseau électrique, survie en pleine nature, pêche sous-marine, gestion d’un restaurant de sushis et agriculture insulaire, course de karts sur Bay Circuit, balade côtière à vélo avec un pélican, jouets de table adaptés en 3D, décoration intérieure en 3D et Orbital Garden. Cliquez sur un titre pour jouer directement dans le navigateur.
 
 Mise à jour du catalogue : **2026-09-15**. L’utilisation du modèle est renseignée d’après les déclarations des créateurs ou des contributeurs ; les points non confirmés sont signalés dans chaque fiche. Cette date correspond à la maintenance du catalogue, pas à un nouveau test de tous les jeux.
 
@@ -173,6 +173,12 @@ Jeux de tir, de combat, de survie, de rythme et tous ceux qui donnent envie de r
   - Plateforme: Navigateur sur ordinateur ; jeu gratuit sans compte. Cliquez sur Play ; les fonctions de compte sont facultatives.
   - GPT-6 Astra: [Fiche du créateur](https://www.aigameshare.com/games/aura-farming-game) — Le créateur crédite GPT-6 Astra et Codex, ainsi que Blender, Three.js, ImageGen et WebAudio. [Notes de vérification](assets/screenshots/aura-farming/SOURCE.md).
   - Aperçu: ![Un capybara danse sur un bateau-dragon, avec commandes d’inclinaison et d’appui et défi de six figures.](assets/screenshots/aura-farming/gameplay.jpg)
+
+- **[Thornwake](https://thornwake-moth-descent.ltodd.chatgpt.site/)** — Un roguelite d’action sur le thème des insectes : combattez à l’aiguille, sautez et foncez dans des salles envahies de racines, et récoltez soie et graines de braise au fil des descentes.
+  - Créateur: [Lehiem / LiamTodd98](https://github.com/LiamTodd98)
+  - Plateforme: Navigateur de bureau ; commandes au clavier, gratuit, sans connexion à un compte ni installation. Combat initial vérifié.
+  - GPT-6 Astra: [Proposition du créateur](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/92) — Le créateur indique avoir demandé à Astra un jeu dans le style de Silksong, puis affiné le gameplay avec deux prompts supplémentaires. [Notes de vérification](assets/screenshots/thornwake/SOURCE.md).
+  - Aperçu: ![La première salle de Thornwake, The Pale Undergrowth, avec des ennemis insectes, des plateformes, les jauges de santé et de soie et les commandes au clavier. Capture du 2026-09-15.](assets/screenshots/thornwake/gameplay.jpg)
 
 <a id="puzzles"></a>
 

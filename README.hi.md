@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 88](https://img.shields.io/badge/Cases-88-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 89](https://img.shields.io/badge/Cases-89-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **GPT-6 Astra से बनाए गए दिलचस्प गेमों का संग्रह।**
 
@@ -22,7 +22,7 @@
 
 ## यहाँ से शुरू करें
 
-यहाँ **88 खेल और इंटरैक्टिव परियोजनाएँ** शामिल हैं: तीन राज्यों की क्षेत्रीय रणनीति, एक-दूसरे में फँसे लकड़ी के टुकड़ों और खिसकने वाले ब्लॉकों की पहेलियाँ, मुलायम फलों को मिलाना, प्रक्रियात्मक शहर निर्माण वाला 2048, एक बटन से उड़ान, जादुई कालीन पर लड़ाई, पाँच स्तरों वाला बुलेट-हेल शूटर, बिजली के नेटवर्क से द्वीप की रक्षा, जंगल में जीवित रहना, पानी के नीचे मछली पकड़ना, सुशी रेस्तराँ चलाना और द्वीप पर खेती करना, Bay Circuit पर कार्ट रेसिंग, पेलिकन के साथ तट पर साइकिल चलाना, टेबलटॉप खिलौनों के 3D रूपांतरण, 3D घर की सजावट और Orbital Garden। किसी शीर्षक पर क्लिक करके सीधे ब्राउज़र में गेम खेलें।
+यहाँ **89 खेल और इंटरैक्टिव परियोजनाएँ** शामिल हैं: तीन राज्यों की क्षेत्रीय रणनीति, एक-दूसरे में फँसे लकड़ी के टुकड़ों और खिसकने वाले ब्लॉकों की पहेलियाँ, मुलायम फलों को मिलाना, प्रक्रियात्मक शहर निर्माण वाला 2048, एक बटन से उड़ान, जादुई कालीन पर लड़ाई, पाँच स्तरों वाला बुलेट-हेल शूटर, बिजली के नेटवर्क से द्वीप की रक्षा, जंगल में जीवित रहना, पानी के नीचे मछली पकड़ना, सुशी रेस्तराँ चलाना और द्वीप पर खेती करना, Bay Circuit पर कार्ट रेसिंग, पेलिकन के साथ तट पर साइकिल चलाना, टेबलटॉप खिलौनों के 3D रूपांतरण, 3D घर की सजावट और Orbital Garden। किसी शीर्षक पर क्लिक करके सीधे ब्राउज़र में गेम खेलें।
 
 सूची अपडेट: **2026-09-15**। मॉडल के उपयोग की जानकारी रचनाकारों या प्रस्तुतकर्ताओं के कथनों पर आधारित है; अपुष्ट विवरण संबंधित प्रविष्टियों में चिह्नित हैं। यह तारीख सूची के रखरखाव की है, सभी गेमों के दोबारा परीक्षण की नहीं।
 
@@ -173,6 +173,12 @@
   - प्लैटफ़ॉर्म: डेस्कटॉप ब्राउज़र; बिना साइन इन किए मुफ़्त खेलें। Play क्लिक करें; खाते की सुविधाएँ वैकल्पिक हैं।
   - GPT-6 Astra: [निर्माता का गेम पेज](https://www.aigameshare.com/games/aura-farming-game) — निर्माता ने गेम के लिए GPT-6 Astra और Codex के साथ Blender, Three.js, ImageGen और WebAudio को श्रेय दिया है। [सत्यापन टिप्पणियाँ](assets/screenshots/aura-farming/SOURCE.md).
   - पूर्वावलोकन: ![ड्रैगन बोट पर नाचता कैपीबारा, झुकने और टिके रहने के नियंत्रण, तथा छह चालों की चुनौती का HUD।](assets/screenshots/aura-farming/gameplay.jpg)
+
+- **[Thornwake](https://thornwake-moth-descent.ltodd.chatgpt.site/)** — कीटों की थीम वाला एक्शन रोगलाइट: सुई से लड़ें, जड़ों से भरे कमरों में कूदें और डैश करें, और बार-बार नीचे उतरते हुए रेशम तथा अंगार बीज इकट्ठा करें।
+  - निर्माता: [Lehiem / LiamTodd98](https://github.com/LiamTodd98)
+  - प्लैटफ़ॉर्म: डेस्कटॉप ब्राउज़र; कीबोर्ड नियंत्रण, मुफ़्त, बिना लॉगिन या इंस्टॉलेशन के। शुरुआती लड़ाई सत्यापित की गई।
+  - GPT-6 Astra: [निर्माता की प्रस्तुति](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/92) — निर्माता के अनुसार उन्होंने Astra से Silksong शैली का गेम बनाने को कहा और फिर दो अतिरिक्त प्रॉम्प्ट से गेमप्ले सुधारा। [सत्यापन टिप्पणियाँ](assets/screenshots/thornwake/SOURCE.md).
+  - पूर्वावलोकन: ![Thornwake का पहला कमरा The Pale Undergrowth, कीट दुश्मनों, प्लेटफ़ॉर्मों, स्वास्थ्य और रेशम मीटर तथा कीबोर्ड निर्देशों के साथ। 2026-09-15 को लिया गया।](assets/screenshots/thornwake/gameplay.jpg)
 
 <a id="puzzles"></a>
 

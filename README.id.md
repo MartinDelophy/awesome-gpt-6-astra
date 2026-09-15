@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 88](https://img.shields.io/badge/Cases-88-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 89](https://img.shields.io/badge/Cases-89-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Kumpulan gim menarik yang dibuat dengan GPT-6 Astra.**
 
@@ -22,7 +22,7 @@ Halaman ini merupakan terjemahan [README bahasa Inggris](README.md). Periksa ver
 
 ## Mulai di sini
 
-Jelajahi **88 gim dan proyek interaktif**: strategi wilayah Tiga Kerajaan, teka-teki kayu yang saling mengunci dan teka-teki balok geser, penggabungan buah yang lentur, 2048 pembangunan kota dengan generasi prosedural, penerbangan satu tombol, pertempuran karpet ajaib, gim tembak-menembak dengan hujan peluru dalam lima level, pertahanan pulau dengan jaringan listrik, bertahan hidup di alam liar, menangkap ikan di bawah air, mengelola restoran sushi, dan bertani di pulau, balapan kart di Bay Circuit, bersepeda di pesisir bersama pelikan, mainan meja yang diadaptasi menjadi gim 3D, dekorasi rumah 3D, serta Orbital Garden. Klik judul untuk langsung bermain di peramban.
+Jelajahi **89 gim dan proyek interaktif**: strategi wilayah Tiga Kerajaan, teka-teki kayu yang saling mengunci dan teka-teki balok geser, penggabungan buah yang lentur, 2048 pembangunan kota dengan generasi prosedural, penerbangan satu tombol, pertempuran karpet ajaib, gim tembak-menembak dengan hujan peluru dalam lima level, pertahanan pulau dengan jaringan listrik, bertahan hidup di alam liar, menangkap ikan di bawah air, mengelola restoran sushi, dan bertani di pulau, balapan kart di Bay Circuit, bersepeda di pesisir bersama pelikan, mainan meja yang diadaptasi menjadi gim 3D, dekorasi rumah 3D, serta Orbital Garden. Klik judul untuk langsung bermain di peramban.
 
 Katalog diperbarui: **2026-09-15**. Informasi penggunaan model berdasarkan pernyataan kreator atau pengirim; detail yang belum dikonfirmasi ditandai pada setiap entri. Tanggal ini menunjukkan pemeliharaan katalog, bukan pengujian ulang seluruh gim.
 
@@ -173,6 +173,12 @@ Gim tembak-menembak, pertarungan, bertahan hidup, ritme, dan apa pun yang membua
   - Platform: Browser desktop; gratis tanpa login. Klik Play; fitur akun bersifat opsional.
   - GPT-6 Astra: [Halaman game dari kreator](https://www.aigameshare.com/games/aura-farming-game) — Kreator mencantumkan GPT-6 Astra dan Codex untuk game ini, bersama Blender, Three.js, ImageGen, dan WebAudio. [Catatan verifikasi](assets/screenshots/aura-farming/SOURCE.md).
   - Pratinjau: ![Kapibara menari di perahu naga, dengan kontrol memiringkan tubuh dan menahan posisi serta HUD tantangan enam gerakan.](assets/screenshots/aura-farming/gameplay.jpg)
+
+- **[Thornwake](https://thornwake-moth-descent.ltodd.chatgpt.site/)** — Roguelite aksi bertema serangga: bertarung dengan jarum, melompat dan melesat melalui ruangan penuh akar, lalu kumpulkan sutra dan benih bara dalam penjelajahan turun yang berulang.
+  - Kreator: [Lehiem / LiamTodd98](https://github.com/LiamTodd98)
+  - Platform: Browser desktop; kontrol keyboard, gratis, tanpa login atau instalasi. Pertarungan awal telah diverifikasi.
+  - GPT-6 Astra: [Kiriman kreator](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/92) — Kreator menyatakan bahwa ia meminta Astra membuat game bergaya Silksong, lalu menyempurnakan gameplay dengan dua prompt tambahan. [Catatan verifikasi](assets/screenshots/thornwake/SOURCE.md).
+  - Pratinjau: ![Ruangan pertama Thornwake, The Pale Undergrowth, dengan musuh serangga, platform, meter kesehatan dan sutra, serta petunjuk keyboard. Diambil pada 2026-09-15.](assets/screenshots/thornwake/gameplay.jpg)
 
 <a id="puzzles"></a>
 

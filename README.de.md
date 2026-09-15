@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 88](https://img.shields.io/badge/Cases-88-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 89](https://img.shields.io/badge/Cases-89-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Eine Sammlung interessanter Spiele, die mit GPT-6 Astra entwickelt wurden.**
 
@@ -22,7 +22,7 @@ Diese Seite übersetzt die [englische README](README.md). Aktuelle Änderungen l
 
 ## Hier anfangen
 
-Entdecke **88 Spiele und interaktive Projekte**: Gebietsstrategie zur Zeit der Drei Reiche, Holz-Steckpuzzles und Schiebepuzzles lösen, weiche Früchte verschmelzen, 2048 mit prozeduralem Städtebau, mit einer Taste fliegen, auf einem fliegenden Teppich kämpfen, ein Bullet-Hell-Shooter mit fünf Stufen, eine Insel mit einem Stromnetz verteidigen, in der Wildnis überleben, unter Wasser fischen, ein Sushi-Restaurant betreiben und eine Insel bewirtschaften, Kartrennen auf Bay Circuit, eine Küstenradtour mit einem Pelikan, Tischspielzeug als 3D-Spiele, 3D-Wohnraumgestaltung und Orbital Garden. Ein Klick auf einen Titel öffnet das Spiel direkt im Browser.
+Entdecke **89 Spiele und interaktive Projekte**: Gebietsstrategie zur Zeit der Drei Reiche, Holz-Steckpuzzles und Schiebepuzzles lösen, weiche Früchte verschmelzen, 2048 mit prozeduralem Städtebau, mit einer Taste fliegen, auf einem fliegenden Teppich kämpfen, ein Bullet-Hell-Shooter mit fünf Stufen, eine Insel mit einem Stromnetz verteidigen, in der Wildnis überleben, unter Wasser fischen, ein Sushi-Restaurant betreiben und eine Insel bewirtschaften, Kartrennen auf Bay Circuit, eine Küstenradtour mit einem Pelikan, Tischspielzeug als 3D-Spiele, 3D-Wohnraumgestaltung und Orbital Garden. Ein Klick auf einen Titel öffnet das Spiel direkt im Browser.
 
 Katalog aktualisiert: **2026-09-15**. Angaben zur Modellnutzung beruhen auf Aussagen der Ersteller oder Einreichenden; unbestätigte Details sind im jeweiligen Eintrag markiert. Das Datum bezeichnet die Katalogpflege, keinen erneuten Spieltest aller Spiele.
 
@@ -173,6 +173,12 @@ Shooter, Kampf-, Überlebens- und Rhythmusspiele sowie alles, was zu einer weite
   - Plattform: Desktop-Browser; kostenlos ohne Anmeldung. Play anklicken; Kontofunktionen sind optional.
   - GPT-6 Astra: [Eintrag des Entwicklers](https://www.aigameshare.com/games/aura-farming-game) — Der Entwickler nennt GPT-6 Astra und Codex sowie Blender, Three.js, ImageGen und WebAudio. [Prüfnotizen](assets/screenshots/aura-farming/SOURCE.md).
   - Vorschau: ![Tanzendes Wasserschwein auf einem Drachenboot mit Neigungs- und Abstützsteuerung sowie Sechs-Bewegungen-Aufgabe.](assets/screenshots/aura-farming/gameplay.jpg)
+
+- **[Thornwake](https://thornwake-moth-descent.ltodd.chatgpt.site/)** — Ein Action-Roguelite mit Insekten: Kämpfe mit einer Nadel, springe und sprinte durch wurzelreiche Kammern und sammle bei wiederholten Abstiegen Seide und Glutsamen.
+  - Ersteller: [Lehiem / LiamTodd98](https://github.com/LiamTodd98)
+  - Plattform: Desktop-Browser; Tastatursteuerung, kostenlos, ohne Anmeldung oder Installation. Der erste Kampf wurde überprüft.
+  - GPT-6 Astra: [Einreichung des Erstellers](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/92) — Der Ersteller berichtet, Astra zunächst um ein Spiel im Stil von Silksong gebeten und das Gameplay anschließend mit zwei weiteren Prompts verfeinert zu haben. [Prüfnotizen](assets/screenshots/thornwake/SOURCE.md).
+  - Vorschau: ![Thornwakes erste Kammer, The Pale Undergrowth, mit Insektengegnern, Plattformen, Lebens- und Seidenanzeigen sowie Tastatursteuerung. Aufgenommen am 2026-09-15.](assets/screenshots/thornwake/gameplay.jpg)
 
 <a id="puzzles"></a>
 
