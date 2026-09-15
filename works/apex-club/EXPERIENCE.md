@@ -51,3 +51,9 @@ PC defaults now follow a two-hand kart layout: arrows drive, Shift drifts, Ctrl 
 Settings → Controls offers ten remappable actions, duplicate-key validation, Esc cancellation, automatic local saving and a restore-default button. Letters, numbers, arrows, Space, Shift and Ctrl are supported; both physical sides of Shift/Ctrl share a binding. Help, race hints and lesson instructions use the saved keys. Touch actions and gyro eligibility remain independent.
 
 Validation: 49 tests including countdown input, held-key release, alias overlap, modifier normalization, preset separation, persistence validation and translated hints. Desktop browser verified conflict rejection, remapping, cancellation, persistence, remapped pause and live help. Physical keyboard rollover varies by hardware; no claim of testing every keyboard or operating-system shortcut combination.
+
+## In-page map switching
+
+Map selection swaps cached route geometry in the existing renderer instead of navigating/reloading the document. Track meshes, decorations, gate layout, collision samples, pickup positions, minimap and record context change together. The garage, selected kart/team, settings and lobby scroll remain in place. Only Bay and Citadel are cached; revisiting a map reuses its assets and preview. URL history supports Back/Forward, including cancelling a pending launch before switching back.
+
+Validation: desktop and 390 × 844 browser checks for repeated Bay/Citadel selection, retained car/team and lobby state, Back navigation and actual Citadel race launch. Three route-switch regression tests cover cache reuse, inactive visibility, geometry/URL updates and race/launch guards. No physical-phone memory or GPU benchmark was performed.
