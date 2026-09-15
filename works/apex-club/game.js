@@ -1,3 +1,5 @@
+import {loadBindings,createKeyboardState,formatKeys} from './keyboard-controls.js';
+import {mountKeyboardSettings} from './keyboard-settings.js';
 import {setupLanguage,tr} from './localization.js';
 import {circuitPoints,roadHalfWidth} from './track-layout.js';
 import {createLesson,stepLesson,createLapRecord,recordLap,ghostPose,medals,empTargets,assistedInput} from './race-experience.js';
@@ -44,7 +46,10 @@ function ensureComposer(){
 const world = new THREE.Group(); scene.add(world);
 const up = new THREE.Vector3(0,1,0);
 const clock = new THREE.Clock();
-const keys = new Set();
+let bindings=loadBindings(null);try{bindings=loadBindings(localStorage.getItem('apex-keybindings'));}catch{}
+const keyboard=createKeyboardState(()=>bindings);
+const keys=keyboard.keys;
+const keyText=text=>formatKeys(text,bindings,tr);
 const actions=new Set();
 let driftLatched=false,lastSteer=0;
 const audio=createRaceAudio();
@@ -53,12 +58,13 @@ let helpOpen=false,simulationTime=0,race=null,selectedMode='team',selectedTeam='
 const mobile=createMobileControls({active:()=>race?.phase==='racing'&&!helpOpen,action:name=>actions.add(name==='nitro'?'ShiftLeft':name==='mini'?'KeyE':'KeyQ'),pause:()=>toggleControls(true)});
 function toggleControls(open=!helpOpen){
   if(!race || race.phase==='finished')return;
-  helpOpen=open;keys.clear();actions.clear();mobile.clear();driftLatched=false;document.querySelector('#controlsPanel').hidden=!open;
+  helpOpen=open;keyboard.clear();actions.clear();mobile.clear();driftLatched=false;document.querySelector('#controlsPanel').hidden=!open;
   document.querySelector('#controlsToggle').setAttribute('aria-expanded',String(open));
   if(open)document.querySelector('#startDriving').focus();else renderer.domElement.focus();
 }
 renderer.domElement.tabIndex=0;
-renderer.domElement.setAttribute('aria-label','3D kart racing. WASD to drive, SPACE plus steering to drift, H to pause.');
+function updateKeyboardDescription(){renderer.domElement.setAttribute('aria-label',keyText('W / ↑ to accelerate, S / ↓ to brake / reverse, A / D or ← / → to steer.')+' '+keyText('Press H at any time to pause or resume.'));}
+updateKeyboardDescription();
 document.querySelector('#controlsToggle').addEventListener('click',()=>toggleControls());
 document.querySelector('#startDriving').addEventListener('click',()=>toggleControls(false));
 document.querySelector('#recoverCar').addEventListener('click',()=>{
@@ -76,21 +82,22 @@ addEventListener('keydown', e => {
     const buttons=[...dialog.querySelectorAll('button')];const i=buttons.indexOf(document.activeElement);
     e.preventDefault();buttons[(i+(e.shiftKey?-1:1)+buttons.length)%buttons.length].focus();return;
   }
-  if((e.code==='KeyH'||e.code==='Escape')&&!e.repeat){toggleControls();return;}
-  if(helpOpen||!race||!['countdown','racing'].includes(race.phase))return;
-  // Keep held driving keys through the countdown; one-shot actions still wait for GO.
-  if(['KeyW','KeyS','KeyA','KeyD','ArrowUp','ArrowDown','ArrowLeft','ArrowRight'].includes(e.code)){
-    e.preventDefault();keys.add(e.code);
-  }
+  if(e.metaKey||e.altKey)return;
+  if(e.code==='Escape'&&!e.repeat){toggleControls();return;}
+  if(!race||race.phase==='finished')return;
+  const input=keyboard.press(e);if(!input)return;
+  const {code,fresh}=input;
+  if(code==='KeyH'){e.preventDefault();if(fresh)toggleControls();return;}
+  if(helpOpen){keyboard.clear();return;}
+  e.preventDefault();
   if(race.phase!=='racing')return;
-  if(['KeyA','ArrowLeft'].includes(e.code))lastSteer=-1;
-  if(['KeyD','ArrowRight'].includes(e.code))lastSteer=1;
-  if(e.code==='Space'&&!e.repeat&&document.querySelector('#toggleDrift').checked)driftLatched=!driftLatched;
-  if(!e.repeat&&['KeyE','KeyQ','KeyR','ShiftLeft','ShiftRight'].includes(e.code))actions.add(e.code);
-  if(['Space','ArrowUp','ArrowDown','ArrowLeft','ArrowRight'].includes(e.code))e.preventDefault();keys.add(e.code);
+  if(code==='KeyA')lastSteer=-1;
+  if(code==='KeyD')lastSteer=1;
+  if(code==='Space'&&fresh&&document.querySelector('#toggleDrift').checked)driftLatched=!driftLatched;
+  if(fresh&&['KeyE','KeyQ','KeyR','ShiftLeft'].includes(code))actions.add(code);
 });
-addEventListener('keyup',e=>keys.delete(e.code));
-addEventListener('blur',()=>{keys.clear();actions.clear();mobile.clear();if(race?.phase==='racing')toggleControls(true);});
+addEventListener('keyup',e=>keyboard.release(e.code));
+addEventListener('blur',()=>{keyboard.clear();actions.clear();mobile.clear();if(race?.phase==='racing')toggleControls(true);});
 
 // Bay Circuit: a closed coastal course with gentle elevation changes.
 const requestedScene=new URLSearchParams(location.search).get('scene')==='citadel'?'citadel':'bay';
@@ -367,7 +374,7 @@ function reset(){
  resetExperience();
   Object.assign(stunts,createStunts());
   scene.add(player);
-  audio.start();raceEffects.reset();driftLatched=false;lastSteer=0;keys.clear();actions.clear();mobile.clear();helpOpen=false;simulationTime=0;cameraReady=false;qWas=false;
+  audio.start();raceEffects.reset();driftLatched=false;lastSteer=0;keyboard.clear();actions.clear();mobile.clear();helpOpen=false;simulationTime=0;cameraReady=false;qWas=false;
   race=createRace(selectedMode,selectedTeam);
   msg.textContent='';msg.style.opacity=0;
   Object.assign(state,{yaw:0,hop:0,t:(race.racers[0].progress+1)%1,lane:race.racers[0].lane,laneVel:0,speed:0,reverseHold:0,wallContact:0,boost:1/3,shield:1,weapon:1,lap:1,rank:1,hit:0,bank:0,miniTurbo:0,nitro:0,drift:{active:false,charge:0,direction:0}});
@@ -473,7 +480,7 @@ function updateCombat(dt){
     state.weapon-=.34;empCooldown=5;empPulse=.55;targets.forEach(({a})=>a.stun=1.1);audio.cue('hit');ping(targets.length?`EMP HIT: ${targets.length}`:'NO TARGETS','#ff8caf');
   }
   qWas=q;state.weapon=Math.min(1,state.weapon+.018*dt);
-  document.querySelector('#empStatus').textContent=empCooldown>0?`COOLDOWN ${empCooldown.toFixed(1)}s`:`EMP: ${targets.length} TARGETS · Q`;
+  document.querySelector('#empStatus').textContent=empCooldown>0?`COOLDOWN ${empCooldown.toFixed(1)}s`:keyText(`EMP: ${targets.length} TARGETS · Q`);
   document.querySelector('[data-drive="emp"]').setAttribute('aria-disabled',String(empCooldown>0||state.weapon<.34));
   empRing.visible=empPulse>0||(targets.length>0&&empCooldown===0&&state.weapon>=.34);empRing.position.set(state.x,trackFrame(state.t).p.y+.7,state.z);empRing.scale.setScalar(1+(1-empPulse/.55)*.1);empRing.material.opacity=empPulse>0?empPulse/.55*.55:.12;
 }
@@ -612,15 +619,15 @@ function updateRaceHUD(){
   miniButton.setAttribute('aria-disabled',String(!opportunity));miniButton.classList.toggle('ready',!!opportunity);
   document.querySelector('#miniState').textContent=opportunity||'WAIT FOR WINDOW';
   if(opportunity&&!lastOpportunity)audio.cue('ready');lastOpportunity=opportunity;
-  const prompt=document.querySelector('#stuntPrompt');prompt.hidden=!opportunity;prompt.textContent=opportunity+' · '+(mobileDevice?'TAP MINI':'PRESS E');
+  const prompt=document.querySelector('#stuntPrompt');prompt.hidden=!opportunity;prompt.textContent=opportunity+' · '+(mobileDevice?tr('TAP MINI'):keyText('PRESS E'));
   document.body.classList.toggle('drifting',state.drift.active);document.body.classList.toggle('charged',state.drift.charge>.78);
   document.querySelector('#boostValue').textContent=`${Math.floor(state.boost*3+.01)} / 3`;
   document.querySelector('#driftFill').style.width=`${state.drift.charge*100}%`;
   document.querySelector('#driftPercent').textContent=state.nitro>0?`${state.nitro.toFixed(1)}s`:state.miniTurbo>0?`${state.miniTurbo.toFixed(1)}s`:`${Math.round(state.drift.charge*100)}%`;
   document.querySelector('#boostCountdown').style.transform=`scaleX(${state.nitro>0?state.nitro/2.1:state.miniTurbo/1.5})`;
   document.querySelector('#boostTitle').textContent=state.nitro>0?'NITRO':state.miniTurbo>0?'MINI TURBO':'TURBO';document.querySelector('.boost-status').setAttribute('aria-hidden',String(state.nitro<=0&&state.miniTurbo<=0));
-  document.querySelector('#driftLabel').textContent=state.nitro>0?'NITRO BOOST':state.miniTurbo>0?'MINI TURBO':state.drift.active?(state.drift.charge>=.78?'CHARGE → RELEASE → E':state.drift.charge>=.32?'CHARGE → RELEASE → E':'DRIFT / CHARGING'):(matchMedia('(pointer:coarse), (max-width:950px)').matches?'HOLD DRIFT + STEER':'HOLD SPACE + STEER');
-  document.querySelector('#driftHint').textContent=state.drift.charge>.78?(document.querySelector('#toggleDrift').checked?'Tap SPACE again, then press E':'Release drift, then press E to boost'):state.drift.charge>.32?'Turbo ready · Keep charging to upgrade':(document.querySelector('#toggleDrift').checked?'Tap SPACE again, then press E':'Release drift, then press E to boost');
+  document.querySelector('#driftLabel').textContent=keyText(state.nitro>0?'NITRO BOOST':state.miniTurbo>0?'MINI TURBO':state.drift.active?(state.drift.charge>=.78?'CHARGE → RELEASE → E':state.drift.charge>=.32?'CHARGE → RELEASE → E':'DRIFT / CHARGING'):(matchMedia('(pointer:coarse), (max-width:950px)').matches?'HOLD DRIFT + STEER':'HOLD SPACE + STEER'));
+  document.querySelector('#driftHint').textContent=keyText(state.drift.charge>.78?(document.querySelector('#toggleDrift').checked?'Tap SPACE again, then press E':'Release drift, then press E to boost'):state.drift.charge>.32?'Turbo ready · Keep charging to upgrade':(document.querySelector('#toggleDrift').checked?'Tap SPACE again, then press E':'Release drift, then press E to boost'));
   if(Math.abs(race.elapsed-lastRaceUI)<.1&&race.phase==='racing')return;lastRaceUI=race.elapsed;
   const ordered=standings(race),scores=teamScores(race);
   document.querySelector('#blueScore').textContent=scores.blue;document.querySelector('#redScore').textContent=scores.red;
@@ -638,7 +645,7 @@ function updateRaceHUD(){
 
 function finishRace(){
  finishExperience();
-  race.phase='finished';keys.clear();actions.clear();mobile.clear();document.querySelector('#results').hidden=false;document.querySelector('#raceAgain').focus();
+  race.phase='finished';keyboard.clear();actions.clear();mobile.clear();document.querySelector('#results').hidden=false;document.querySelector('#raceAgain').focus();
   const scores=teamScores(race,true),ordered=standings(race);
   const winner=scores.blue===scores.red?'DRAW':scores.blue>scores.red?'BLUE TEAM WINS':'RED TEAM WINS';
   document.querySelector('#resultTitle').textContent=race.mode==='team'?winner:ordered[0].id===0?'YOU WIN!':'Race complete';
@@ -646,7 +653,7 @@ function finishRace(){
   document.querySelector('#resultRows').innerHTML=ordered.map((r,i)=>`<tr class="${r.id===0?'you':''}"><td>${String(i+1).padStart(2,'0')}</td><td><i class="team-dot ${race.mode==='team'?r.team:'solo'}"></i>${r.name}${r.id===0?' / YOU':' / AI'}</td><td>${r.finishTime===null?'DNF':formatTime(r.finishTime)}</td><td>${r.finishTime===null?0:SCORE_TABLE[i]}</td></tr>`).join('');
 }
 function formatTime(t){return `${Math.floor(t/60).toString().padStart(2,'0')}:${(t%60).toFixed(2).padStart(5,'0')}`;}
-function returnLobby(){lesson=null;document.querySelector('#lessonHUD').hidden=true;document.body.classList.remove('in-lesson');ghost.visible=false;empRing.visible=false;race=null;helpOpen=false;keys.clear();actions.clear();mobile.clear();document.querySelector('#lobby').hidden=false;document.querySelector('#results').hidden=true;document.querySelector('#controlsPanel').hidden=true;document.body.classList.remove('in-race','boosting','drifting','charged');raceEffects.reset();streaks.material.opacity=0;setCraft(craftIndex);document.querySelector('#raceStart').focus();}
+function returnLobby(){lesson=null;document.querySelector('#lessonHUD').hidden=true;document.body.classList.remove('in-lesson');ghost.visible=false;empRing.visible=false;race=null;helpOpen=false;keyboard.clear();actions.clear();mobile.clear();document.querySelector('#lobby').hidden=false;document.querySelector('#results').hidden=true;document.querySelector('#controlsPanel').hidden=true;document.body.classList.remove('in-race','boosting','drifting','charged');raceEffects.reset();streaks.material.opacity=0;setCraft(craftIndex);document.querySelector('#raceStart').focus();}
 document.querySelector('#raceStart').addEventListener('click',()=>{let trained=false;try{trained=localStorage.getItem('apex-trained')==='yes';}catch{}beginLaunch(trained?reset:startLesson);});
 document.querySelector('#raceAgain').addEventListener('click',reset);
 document.querySelectorAll('[data-lobby]').forEach(el=>el.addEventListener('click',returnLobby));
@@ -703,11 +710,11 @@ function updateLesson(dt,input){
  if(advanced){audio.cue('complete');ping('STEP COMPLETE','#a2f1d6');if(before<2)placeLesson();}
  const titles=['TURN LEFT / RIGHT','BRAKE TO SLOW DOWN','CHARGE A DRIFT','RELEASE, THEN PRESS E'];
  const instructions=['Use A / D or touch arrows.','Hold S or BRAKE until speed drops.','Hold SPACE / DRIFT with steering until the bar turns blue.','Release SPACE / DRIFT, then press E / MINI while ready.'];
- document.querySelector('#lessonTitle').textContent=lesson.done?'PRACTICE COMPLETE':`${lesson.step+1} / 4 · ${tr(titles[lesson.step])}`;
- document.querySelector('#lessonInstruction').textContent=lesson.timedOut?'Practice paused. Retry or skip to race.':lesson.done?'PRACTICE COMPLETE':instructions[lesson.step];
+ document.querySelector('#lessonTitle').textContent=lesson.done?'PRACTICE COMPLETE':`${lesson.step+1} / 4 · ${keyText(titles[lesson.step])}`;
+ document.querySelector('#lessonInstruction').textContent=lesson.timedOut?'Practice paused. Retry or skip to race.':lesson.done?'PRACTICE COMPLETE':keyText(instructions[lesson.step]);
  document.querySelector('#lessonTime').textContent=`${Math.max(0,Math.ceil(55-lesson.elapsed))}s`;document.querySelector('#lessonProgress').value=lesson.step;
  if(lesson.step===3&&!state.drift.active&&!boostOpportunity(stunts)&&!input.fired&&!lesson.done){lesson.step=2;ping('CHARGE A DRIFT','#a2f1d6');}
- if(lesson.timedOut){document.querySelector('#retryLesson').hidden=false;keys.clear();mobile.clear();audio.update(0,0,false,false);}
+ if(lesson.timedOut){document.querySelector('#retryLesson').hidden=false;keyboard.clear();mobile.clear();audio.update(0,0,false,false);}
  if(lesson.done)lessonFinished=true;
 }
 function updateExperience(dt){
@@ -798,6 +805,7 @@ setCraft(craftIndex);
 selectScene(requestedScene);
 setupExperience();
 setupClubLobby();
+mountKeyboardSettings({getBindings:()=>bindings,setBindings:next=>{bindings=next;keyboard.clear();actions.clear();driftLatched=false;updateKeyboardDescription();try{localStorage.setItem('apex-keybindings',JSON.stringify(next));return true;}catch{return false;}}});
 setupLanguage();
 loop();
 

@@ -43,3 +43,11 @@ The homepage now uses a physical maintenance bay with a rolling door, tool chest
 Car thumbnails render the actual models using the existing WebGL renderer. The selected track gets a live scene thumbnail; previously visited tracks use their cached thumbnails and unvisited tracks show their authored route outline. Car/team/mode choices survive scene changes. Vehicle titles, local medal and selected-car best lap are reflected in the lobby. Entry, selection and a short shutter/camera launch transition respect Reduced camera motion.
 
 Browser validation covered desktop 1280×800, portrait 390×844 and landscape 844×390, model selection, race launch, scene switching and preview-to-scene correspondence. These are browser layout checks, not physical phone performance measurements.
+
+## Custom keyboard controls
+
+PC defaults now follow a two-hand kart layout: arrows drive, Shift drifts, Ctrl fires nitro, W triggers a ready mini/air/landing boost, Q fires EMP, H pauses and R restarts. A/D/S remain fallback steering/brake keys unless explicitly rebound. Space is unassigned by default. Tap and release Ctrl before W to avoid browser Ctrl+W shortcuts. Command/Alt shortcuts are not consumed. Esc always pauses/resumes.
+
+Settings → Controls offers ten remappable actions, duplicate-key validation, Esc cancellation, automatic local saving and a restore-default button. Letters, numbers, arrows, Space, Shift and Ctrl are supported; both physical sides of Shift/Ctrl share a binding. Help, race hints and lesson instructions use the saved keys. Touch actions and gyro eligibility remain independent.
+
+Validation: 49 tests including countdown input, held-key release, alias overlap, modifier normalization, preset separation, persistence validation and translated hints. Desktop browser verified conflict rejection, remapping, cancellation, persistence, remapped pause and live help. Physical keyboard rollover varies by hardware; no claim of testing every keyboard or operating-system shortcut combination.
