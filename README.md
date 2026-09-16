@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 109](https://img.shields.io/badge/Cases-109-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 119](https://img.shields.io/badge/Cases-119-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **A collection of interesting games made with GPT-6 Astra.**
 
@@ -20,11 +20,11 @@ Playful ideas, games you can try, and development stories that inspire the next 
 
 ## Start here
 
-Explore **109 games and interactive projects**: Three Kingdoms territory strategy, wooden interlocking and sliding puzzles, soft-body fruit merging, procedural city-building 2048, one-tap flight, magic-carpet combat, a five-stage bullet-hell shooter, island power-grid tower defense, wilderness survival, underwater fishing, sushi-restaurant management and island farming, Bay Circuit kart racing, coastal cycling with a pelican, tabletop toys turned into 3D games, 3D home decoration, and Orbital Garden. Click a title to play directly in your browser.
+Explore **119 games and interactive projects**: Three Kingdoms territory strategy, wooden interlocking and sliding puzzles, soft-body fruit merging, procedural city-building 2048, one-tap flight, magic-carpet combat, a five-stage bullet-hell shooter, island power-grid tower defense, wilderness survival, underwater fishing, sushi-restaurant management and island farming, Bay Circuit kart racing, coastal cycling with a pelican, tabletop toys turned into 3D games, 3D home decoration, and Orbital Garden. Click a title to play directly in your browser.
 
-Catalog updated: **2026-09-15**. Model attribution is based on creator or submitter statements; unconfirmed details are marked in individual entries. This date records catalog maintenance, not a new play-test of every game.
+Catalog updated: **2026-09-16**. Model attribution is based on creator or submitter statements; unconfirmed details are marked in individual entries. This date records catalog maintenance, not a new play-test of every game.
 
-Latest additions: [10 browser games from Reddit, GitHub, LINUX DO and X](docs/browser-games-2026-09-15.md), with gameplay screenshots and access checks. [September 12's 10 additions](docs/browser-games-2026-09-12.md). Previous additions: [Barrelbound: The Lost Cargo](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/73) and [Tidehook](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/74), with entries in all 12 README languages. [September 11's 10 additions](docs/browser-games-2026-09-11.md) · [September 10's 10 additions](docs/direct-play-x-games-2026-09-10.md) · [Earlier 16 additions](docs/x-high-traffic-games-2026-09-09.md).
+Latest additions: [10 more browser games discovered across the web](docs/browser-games-2026-09-16.md), with gameplay screenshots, creator sources and access checks. [September 15's 10 additions](docs/browser-games-2026-09-15.md). [September 12's 10 additions](docs/browser-games-2026-09-12.md). Previous additions: [Barrelbound: The Lost Cargo](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/73) and [Tidehook](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/74), with entries in all 12 README languages. [September 11's 10 additions](docs/browser-games-2026-09-11.md) · [September 10's 10 additions](docs/direct-play-x-games-2026-09-10.md) · [Earlier 16 additions](docs/x-high-traffic-games-2026-09-09.md).
 
 - **Looking for something to play?** Browse the genres below.
 - **Built a game?** [Submit your project](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) with a direct browser game link, a gameplay screenshot, and a description of how you used GPT-6 Astra.
@@ -217,6 +217,30 @@ Shooters, fighters, survival games, rhythm games, and anything that invites one 
   - GPT-6 Astra: [Creator submission](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/92) — The creator reports asking Astra for a Silksong-style game, then refining the gameplay with two additional prompts. [Verification notes](assets/screenshots/thornwake/SOURCE.md).
   - Preview: ![Thornwake's first chamber, The Pale Undergrowth, with insect enemies, platforms, health and silk meters, and keyboard controls. Captured on 2026-09-15.](assets/screenshots/thornwake/gameplay.jpg)
 
+- **[DEAD END — Oakridge](https://dead-end.replit.app/)** — Survive infected waves in Oakridge; its 3D sector adds three repairable relays, flares and an evacuation objective to the neighborhood firefight.
+  - Creator: [Minsang Daniel Kim](https://x.com/msdkim0424)
+  - Platform: Desktop browser; choose Oakridge 2D or 3D. Keyboard/mouse; drag-to-look fallback if mouse capture fails. Free, no login.
+  - GPT-6 Astra: [X](https://x.com/msdkim0424/status/2099852357660262425) — The creator used Astra for the 3D level, guns and enemies, with imported Three.js Assets scenery. The menu credits Oakridge to Astra; Vice Beach uses a different model. [Verification notes](assets/screenshots/dead-end/SOURCE.md).
+  - Preview: ![Oakridge 3D wave 1 with shotgun selected, two flares remaining and the three-relay objective.](assets/screenshots/dead-end/gameplay.jpg)
+
+- **[Anime Rift — The Crossover Arena](https://anime-rift-cade.theyounganimation.chatgpt.site/)** — Fight with 13 anime-inspired and original fighters across three arenas, using flight, specials and ring-outs; solo CPU practice is available.
+  - Creator: [Cade Louis Mack](https://x.com/Cade_Animation)
+  - Platform: Browser; keyboard controls. Free CPU practice without an account; online rooms, gamepads and mobile were not tested.
+  - GPT-6 Astra: [X](https://x.com/Cade_Animation/status/2099718119287668901) — The creator attributes this 2D crossover fighting game to Astra. [Verification notes](assets/screenshots/anime-rift/SOURCE.md).
+  - Preview: ![Cade and CPU Gojo fighting above floating platforms, with damage, stocks and match time visible.](assets/screenshots/anime-rift/gameplay.jpg)
+
+- **[VeilFall — God’s Heart](https://veilfall.replit.app/play)** — Explore a lush 3D valley and begin a three-wave combat trial as the Crimson Dreadlord; this MOBA-inspired project is still a prototype.
+  - Creator: [Shehnoor Ansari (Noni)](https://x.com/Noni_Shehnoor)
+  - Platform: Desktop browser; direct play-page link, free and no login. Only the solo trial was checked.
+  - GPT-6 Astra: [X](https://x.com/Noni_Shehnoor/status/2099641097030959469) — The creator describes building this project in Replit and tags the release with GPT-6 and Astra. [Verification notes](assets/screenshots/veilfall/SOURCE.md).
+  - Preview: ![Crimson Dreadlord in the valley's first trial wave with three foes and the attack control.](assets/screenshots/veilfall/gameplay.jpg)
+
+- **[Butterball Run — Dinner Has Other Plans](https://butterball-run.jeraldine-t.chatgpt.site/)** — Steer a butterball around a dinner plate, rescue eight mussels within 60 seconds and dodge moving asparagus before losing all your butter power.
+  - Creator: [Seolyeon / SecretSeoul](https://x.com/SecretSeoul)
+  - Platform: Browser; drag or use arrow keys. Free, no login; a touch-friendly interface is provided, but physical mobile devices were not tested.
+  - GPT-6 Astra: [X](https://x.com/SecretSeoul/status/2097315757931811081) — The creator names Astra Light and shares the dinner-photo prompt for a Blender and Three.js browser game. [Verification notes](assets/screenshots/butterball-run/SOURCE.md).
+  - Preview: ![Butterball after rescuing one mussel, with 30 seconds and one unit of butter power remaining.](assets/screenshots/butterball-run/gameplay.jpg)
+
 ### Puzzles & brain games
 
 Logic puzzles, physics challenges, word games, and clever little mechanisms.
@@ -286,6 +310,12 @@ Logic puzzles, physics challenges, word games, and clever little mechanisms.
   - GPT-6 Astra: [GitHub README](https://github.com/MiaAI-Lab/GPT-6-Astra-100-HTML-Files/blob/main/README.md) — The creator identifies the collection's standalone HTML studies as generated with GPT-6 Astra; the game's public prompt specifies a twelve-card memory game with move tracking, matching and reset behavior. [Verification notes](assets/screenshots/pixel-orchard/SOURCE.md).
   - Resources: [Game prompt](https://github.com/MiaAI-Lab/GPT-6-Astra-100-HTML-Files/blob/main/013-pixel-orchard.txt).
   - Preview: ![Pixel Orchard after three turns, showing the matched diamond pair and the 1/6 pairs counter.](assets/screenshots/pixel-orchard/gameplay.jpg)
+
+- **[Lantern Cove — The Borrowed Light](https://lantern-cove.akartit.chatgpt.site/)** — Guide Mara through a painted harbor, talk to its keeper and combine clues and objects to recover the lighthouse's missing lens.
+  - Creator: [AK / akartit](https://x.com/akartit)
+  - Platform: Browser; point-and-click controls, free and no login. A playable prototype with rough edges.
+  - GPT-6 Astra: [X](https://x.com/akartit/status/2096520784449613981) — The creator used GPT-6 Astra in Codex to build this Monkey Island-inspired prototype with walking, dialogue and puzzles. [Verification notes](assets/screenshots/lantern-cove/SOURCE.md).
+  - Preview: ![Mara talking to Otis in Lantern Harbor, with branching dialogue, the rope and locked chest visible.](assets/screenshots/lantern-cove/gameplay.jpg)
 
 ### Strategy & simulation
 
@@ -455,6 +485,25 @@ Tower defense, strategic card games, management games, building, and simulation 
   - GPT-6 Astra: [X](https://x.com/aniketjart/status/2099652426559369311) — In the release update and embedded announcement, the creator says he built the train simulation using GPT-6 Astra, Crayon for its UI and Three.js. [Verification notes](assets/screenshots/last-train-to-the-sea/SOURCE.md).
   - Preview: ![Hearthwing at Mango Tide, with four passengers, a 1 km/h speed reading, balance bar and power controls.](assets/screenshots/last-train-to-the-sea/gameplay.jpg)
 
+- **[Realm of Seratari](https://dragonwild.seranotte.chatgpt.site/)** — Raise a dragon in a generated realm, hunt and gather gold, and choose how to coexist with towns that grow, defend themselves and form rivalries.
+  - Creator: [Nightstar31415](https://www.reddit.com/user/Nightstar31415/)
+  - Platform: Browser; click the map to move, with keyboard shortcuts. Free, no mandatory account.
+  - GPT-6 Astra: [Reddit](https://www.reddit.com/r/aigamedev/comments/1wh6npd/from_idea_to_game_dev_in_a_week/) — The creator says Astra generated the game and assets through roughly 200 rounds of feature work, bug fixes and performance improvements. [Verification notes](assets/screenshots/realm-of-seratari/SOURCE.md).
+  - Preview: ![Fire dragon above Clover Nook after flying from its mountain lair, with health, stamina and hunger visible.](assets/screenshots/realm-of-seratari/gameplay.jpg)
+
+- **[Monopoly City — A Board Worth Exploring](https://monopoly-city.eekosystems.chatgpt.site/)** — Roll dice against three CPU rivals on a miniature 3D city board, resolve Chance cards, trade properties and switch between board and street views.
+  - Creator: [Thomas Unise](https://x.com/thomasunise)
+  - Platform: Browser; mouse controls, free with no login. Progress saves on the current device; unofficial fan game.
+  - GPT-6 Astra: [X](https://x.com/thomasunise/status/2097121832159609145) — The creator says a single GPT-6 Astra prompt produced this walkable Three.js board game. [Verification notes](assets/screenshots/monopoly-city/SOURCE.md).
+  - Preview: ![3D city board after a Chance card, showing updated player balances and End turn.](assets/screenshots/monopoly-city/gameplay.jpg)
+
+- **[MUST. MAKE. PAPERCLIPS.](https://wavedash.com/games/must-make-paperclips)** — Defend a wasteland paperclip factory by placing and upgrading turrets, with optional first-person combat bursts and permanent research across six missions.
+  - Creator: [Danny Limanseta](https://x.com/DannyLimanseta)
+  - Platform: Desktop browser on Wavedash; keyboard/mouse, free guest play. Large initial Godot asset load; optional account features and donations.
+  - GPT-6 Astra: [X](https://x.com/DannyLimanseta/status/2096977746891247758) — The creator started with Grok 4.6, then finished with Fable 5.1 and Astra. Astra contributed environment models and UI; Tripo supplied creatures. [Verification notes](assets/screenshots/must-make-paperclips/SOURCE.md).
+  - Resources: [Creator's model breakdown](https://x.com/DannyLimanseta/status/2096991875463053698)
+  - Preview: ![First Spark's first wave with a built nailgun turret and enemies approaching the paperclip factory.](assets/screenshots/must-make-paperclips/gameplay.jpg)
+
 ### RPGs & adventures
 
 Role-playing, exploration, narrative adventures, and interactive stories.
@@ -559,6 +608,13 @@ Role-playing, exploration, narrative adventures, and interactive stories.
   - GPT-6 Astra: [Reddit](https://www.reddit.com/r/aigamedev/comments/1wc4713/working_on_a_cinematic_game_set_in_arabia/) — The creator describes directing Astra to build the procedural Arabian world; a follow-up devlog identifies PlayCanvas and a mix of licensed assets and Astra-generated NPC models. [Verification notes](assets/screenshots/road-to-kufa/SOURCE.md).
   - Resources: [Playable release and development notes](https://www.reddit.com/r/aigamedev/comments/1weyznt/week_1_of_my_adventure_game_set_in_arabia/).
   - Preview: ![The mounted traveler exploring Medina near an oasis market, with region map, daylight clock and solo-session controls.](assets/screenshots/road-to-kufa/gameplay.jpg)
+
+- **[Grand Theft Auto VI — PS1 Demake](https://origozero.ai/play/ad25322f-fdfe-49c0-9ee9-82608c8f9ff7)** — Explore a compact Vice City with driving, partner characters, missions and police chases in an unofficial fan demake with PlayStation-era visuals.
+  - Creator: [Deata / wannabestraight](https://origozero.ai/users/Deata)
+  - Platform: Desktop browser; keyboard and mouse. Direct OrigoZero play link, free with no sign-in; allow time for the initial assets.
+  - GPT-6 Astra: [Reddit](https://www.reddit.com/r/OpenAI/comments/1wble8s/agi_is_solved_just_asked_astra_to_make_me_gta_vi/) — The creator reports using GPT-6 Astra on high effort to build the Luau gameplay and in-engine trailer for the Zero engine. [Verification notes](assets/screenshots/gta-vi-ps1-demake/SOURCE.md).
+  - Resources: [Creator's world page](https://origozero.ai/world/Deata/gta-vi-psx)
+  - Preview: ![Lucia in the playable Vice City street with SMG, police and a one-star wanted indicator.](assets/screenshots/gta-vi-ps1-demake/gameplay.jpg)
 
 ### Platformers & racing
 
@@ -712,6 +768,13 @@ Parkour, platform challenges, racing, and games built around movement and routes
   - GPT-6 Astra: [X](https://x.com/you1873118/status/2098421955296931931) — The creator says he used Astra to develop the game through its second chapter, then used Grok Bot to move the project to GitHub. [Verification notes](assets/screenshots/dual-realms/SOURCE.md).
   - Resources: [Source and devlog](https://github.com/sgyno09-source/dual-realms).
   - Preview: ![Baiyi in the opening Old Town street, with the running stage timer, health and combat controls.](assets/screenshots/dual-realms/gameplay.jpg)
+
+- **[Race Jimothy](https://tayttm.github.io/race-jimothy/)** — Draw a challenger and watch it race Jimothy the raccoon along a 30-m track, then revise the doodle for another duel.
+  - Creator: [Yuting_M / tayttm](https://x.com/YutingM84881)
+  - Platform: Browser; mouse, stylus or touch drawing, with a sample doodle available. Free, no login.
+  - GPT-6 Astra: [X](https://x.com/YutingM84881/status/2099737945414750718) — The creator explicitly says they built this drawing-and-racing game with GPT-6 Astra. [Verification notes](assets/screenshots/race-jimothy/SOURCE.md).
+  - Resources: [Source](https://github.com/tayttm/race-jimothy)
+  - Preview: ![A doodled challenger at 21 m racing Jimothy at the 30 m finish line.](assets/screenshots/race-jimothy/gameplay.jpg)
 
 ### Experimental & multiplayer
 

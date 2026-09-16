@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 109](https://img.shields.io/badge/Cases-109-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 119](https://img.shields.io/badge/Cases-119-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **收集用 GPT-6 Astra 制作的有趣游戏。**
 
@@ -20,11 +20,11 @@
 
 ## 从这里开始
 
-目前收录 **109 个游戏与互动作品**：三国领土策略、木锁拆解与华容道、半流体水果合成、程序化城市建造 2048、单键飞行、魔毯战斗、五关弹幕射击、海岛电网塔防、荒野生存、水下捕鱼、寿司店经营与海岛种植、海湾卡丁车竞速、鹈鹕海岸骑行、桌面玩具的 3D 改编、3D 家居装修，以及轨道花园。点击作品名称即可直接进入在线游戏。
+目前收录 **119 个游戏与互动作品**：三国领土策略、木锁拆解与华容道、半流体水果合成、程序化城市建造 2048、单键飞行、魔毯战斗、五关弹幕射击、海岛电网塔防、荒野生存、水下捕鱼、寿司店经营与海岛种植、海湾卡丁车竞速、鹈鹕海岸骑行、桌面玩具的 3D 改编、3D 家居装修，以及轨道花园。点击作品名称即可直接进入在线游戏。
 
-目录更新：**2026-09-15**。模型使用信息依据作者或投稿者的说明，未确认内容在具体条目中标注。此日期表示目录维护时间，不代表当天重新试玩了所有游戏。
+目录更新：**2026-09-16**。模型使用信息依据作者或投稿者的说明，未确认内容在具体条目中标注。此日期表示目录维护时间，不代表当天重新试玩了所有游戏。
 
-最新新增：[10 款来自 Reddit、GitHub、LINUX DO 与 X 的在线游戏](docs/browser-games-2026-09-15.md)，附实机截图与入口核验。[9 月 12 日新增的 10 款](docs/browser-games-2026-09-12.md)。此前新增：[Barrelbound: The Lost Cargo](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/73) 与 [Tidehook](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/74)，已同步全部 12 种 README 语言。[9 月 11 日新增的 10 款](docs/browser-games-2026-09-11.md) · [9 月 10 日新增的 10 款](docs/direct-play-x-games-2026-09-10.md) · [此前新增的 16 款](docs/x-high-traffic-games-2026-09-09.md)。
+最新新增：[全网搜索后追加的 10 款在线游戏](docs/browser-games-2026-09-16.md)，附实机截图、作者依据与入口核验。[9 月 15 日新增的 10 款](docs/browser-games-2026-09-15.md)。[9 月 12 日新增的 10 款](docs/browser-games-2026-09-12.md)。此前新增：[Barrelbound: The Lost Cargo](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/73) 与 [Tidehook](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/74)，已同步全部 12 种 README 语言。[9 月 11 日新增的 10 款](docs/browser-games-2026-09-11.md) · [9 月 10 日新增的 10 款](docs/direct-play-x-games-2026-09-10.md) · [此前新增的 16 款](docs/x-high-traffic-games-2026-09-09.md)。
 
 - **想玩游戏：** 从下面的分类寻找你喜欢的玩法。
 - **做了游戏：** [提交你的作品](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml)，附上在线游戏直达入口、实机截图，以及使用 GPT-6 Astra 的说明。
@@ -217,6 +217,30 @@
   - GPT-6 Astra: [作者投稿](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/92) — 作者表示，先让 Astra 制作一款 Silksong 风格的游戏，再通过两轮追加提示调整玩法。 [核验记录](assets/screenshots/thornwake/SOURCE.md).
   - 预览: ![Thornwake 的首个房间 The Pale Undergrowth，展示昆虫敌人、平台、生命值与丝线计量，以及键盘操作提示。拍摄于 2026-09-15。](assets/screenshots/thornwake/gameplay.jpg)
 
+- **[DEAD END — Oakridge](https://dead-end.replit.app/)** — 在 Oakridge 社区抵御感染者波次；3D 模式加入三个待修复中继站、照明弹和撤离目标。
+  - 作者：[Minsang Daniel Kim](https://x.com/msdkim0424)
+  - 平台：桌面浏览器；选择 Oakridge 2D 或 3D，键鼠操作，鼠标锁定失败时可拖动视角。免费，无需登录。
+  - GPT-6 Astra：[X](https://x.com/msdkim0424/status/2099852357660262425) — 作者使用 Astra 制作 3D 关卡、枪械和敌人，并导入 Three.js Assets 场景素材；菜单将 Oakridge 归于 Astra，Vice Beach 使用其他模型。[核验记录](assets/screenshots/dead-end/SOURCE.md)。
+  - 预览：![Oakridge 3D 第一波，已切换霰弹枪，剩余两颗照明弹并显示中继站目标。](assets/screenshots/dead-end/gameplay.jpg)
+
+- **[Anime Rift — The Crossover Arena](https://anime-rift-cade.theyounganimation.chatgpt.site/)** — 使用 13 名动漫与原创角色，在三座竞技场中施展飞行、特殊技和击飞出界，提供单人人机练习。
+  - 作者：[Cade Louis Mack](https://x.com/Cade_Animation)
+  - 平台：浏览器；键盘操作，免费人机练习无需账号；未测试在线房间、手柄和移动端。
+  - GPT-6 Astra：[X](https://x.com/Cade_Animation/status/2099718119287668901) — 作者明确说明使用 Astra 制作这款 2D 动漫跨界格斗游戏。[核验记录](assets/screenshots/anime-rift/SOURCE.md)。
+  - 预览：![Cade 与 CPU Gojo 在浮空平台上方交战，显示伤害、生命次数和计时。](assets/screenshots/anime-rift/gameplay.jpg)
+
+- **[VeilFall — God’s Heart](https://veilfall.replit.app/play)** — 探索茂密的 3D 山谷，以 Crimson Dreadlord 开始三波战斗试炼；这是仍在开发的 MOBA 风格原型。
+  - 作者：[Shehnoor Ansari (Noni)](https://x.com/Noni_Shehnoor)
+  - 平台：桌面浏览器；直达游玩页，免费且无需登录。本次仅核验单人试炼。
+  - GPT-6 Astra：[X](https://x.com/Noni_Shehnoor/status/2099641097030959469) — 作者说明在 Replit 中制作该项目，并在发布帖中标注 GPT-6 与 Astra。[核验记录](assets/screenshots/veilfall/SOURCE.md)。
+  - 预览：![Crimson Dreadlord 位于山谷试炼第一波，显示三名敌人和攻击按钮。](assets/screenshots/veilfall/gameplay.jpg)
+
+- **[Butterball Run — Dinner Has Other Plans](https://butterball-run.jeraldine-t.chatgpt.site/)** — 操控黄油球绕餐盘移动，在 60 秒内救出八只贻贝，躲避移动的芦笋并保住黄油能量。
+  - 作者：[Seolyeon / SecretSeoul](https://x.com/SecretSeoul)
+  - 平台：浏览器；拖动或方向键操作，免费且无需登录，提供触屏界面，未在实体手机上测试。
+  - GPT-6 Astra：[X](https://x.com/SecretSeoul/status/2097315757931811081) — 作者标注 Astra Light，并公开了将晚餐照片通过 Blender 与 Three.js 变成浏览器游戏的提示。[核验记录](assets/screenshots/butterball-run/SOURCE.md)。
+  - 预览：![黄油球已救出一只贻贝，剩余 30 秒和一格能量。](assets/screenshots/butterball-run/gameplay.jpg)
+
 ### 解谜与益智
 
 逻辑谜题、物理解谜、文字游戏与巧妙的小机关。
@@ -286,6 +310,12 @@
   - GPT-6 Astra：[GitHub README](https://github.com/MiaAI-Lab/GPT-6-Astra-100-HTML-Files/blob/main/README.md) — 作者将这组独立 HTML 作品归于 GPT-6 Astra 生成；本游戏公开的提示词指定了十二张卡片、计步、配对和重开机制。[核验记录](assets/screenshots/pixel-orchard/SOURCE.md)。
   - 开发资料：[游戏提示词](https://github.com/MiaAI-Lab/GPT-6-Astra-100-HTML-Files/blob/main/013-pixel-orchard.txt)。
   - 预览：![三轮翻牌后的 Pixel Orchard，显示已配对的菱形卡和 1/6 对计数。](assets/screenshots/pixel-orchard/gameplay.jpg)
+
+- **[Lantern Cove — The Borrowed Light](https://lantern-cove.akartit.chatgpt.site/)** — 带领 Mara 探索手绘港口，与守卫对话，结合线索和物品寻找灯塔遗失的透镜。
+  - 作者：[AK / akartit](https://x.com/akartit)
+  - 平台：浏览器；点击式操作，免费且无需登录，为仍有待打磨的可玩原型。
+  - GPT-6 Astra：[X](https://x.com/akartit/status/2096520784449613981) — 作者使用 Codex 中的 GPT-6 Astra 制作这款受《猴岛》启发、包含行走、对话与解谜的原型。[核验记录](assets/screenshots/lantern-cove/SOURCE.md)。
+  - 预览：![Mara 在港口与 Otis 对话，画面包含对话分支、绳索和锁住的宝箱。](assets/screenshots/lantern-cove/gameplay.jpg)
 
 ### 策略与模拟
 
@@ -455,6 +485,25 @@
   - GPT-6 Astra：[X](https://x.com/aniketjart/status/2099652426559369311) — 作者在上线更新及其引用的公告中说明，使用 GPT-6 Astra、负责 UI 的 Crayon 和 Three.js 制作这款火车模拟游戏。[核验记录](assets/screenshots/last-train-to-the-sea/SOURCE.md)。
   - 预览：![Mango Tide 的 Hearthwing 电车，显示四名乘客、1 km/h 速度、平衡条与动力按钮。](assets/screenshots/last-train-to-the-sea/gameplay.jpg)
 
+- **[Realm of Seratari](https://dragonwild.seranotte.chatgpt.site/)** — 在程序生成的世界中养育巨龙、狩猎与收集金币，决定如何与会成长、防御和结盟的城镇相处。
+  - 作者：[Nightstar31415](https://www.reddit.com/user/Nightstar31415/)
+  - 平台：浏览器；点击地图移动，支持键盘快捷操作。免费，无需强制登录。
+  - GPT-6 Astra：[Reddit](https://www.reddit.com/r/aigamedev/comments/1wh6npd/from_idea_to_game_dev_in_a_week/) — 作者称使用 Astra 生成游戏及素材，并进行了约 200 轮功能、修复和性能迭代。[核验记录](assets/screenshots/realm-of-seratari/SOURCE.md)。
+  - 预览：![火龙从山中巢穴飞到 Clover Nook，画面显示生命、体力和饥饿。](assets/screenshots/realm-of-seratari/gameplay.jpg)
+
+- **[Monopoly City — A Board Worth Exploring](https://monopoly-city.eekosystems.chatgpt.site/)** — 在微缩 3D 城市棋盘上与三名电脑对手掷骰对局，处理机会卡、交易地产，并切换棋盘与街道视角。
+  - 作者：[Thomas Unise](https://x.com/thomasunise)
+  - 平台：浏览器；鼠标操作，免费且无需登录，进度保存在当前设备；非官方粉丝游戏。
+  - GPT-6 Astra：[X](https://x.com/thomasunise/status/2097121832159609145) — 作者称使用一次 GPT-6 Astra 提示生成这款可步行探索的 Three.js 地产棋游戏。[核验记录](assets/screenshots/monopoly-city/SOURCE.md)。
+  - 预览：![机会卡结算后的 3D 城市棋盘，显示更新的余额和结束回合按钮。](assets/screenshots/monopoly-city/gameplay.jpg)
+
+- **[MUST. MAKE. PAPERCLIPS.](https://wavedash.com/games/must-make-paperclips)** — 布置、升级炮塔守卫废土上的回形针工厂，穿插第一人称战斗，并通过永久研究挑战六个任务。
+  - 作者：[Danny Limanseta](https://x.com/DannyLimanseta)
+  - 平台：Wavedash 桌面浏览器；键鼠操作，可免费匿名开玩。首次 Godot 素材加载较大，账号功能和捐赠均可选。
+  - GPT-6 Astra：[X](https://x.com/DannyLimanseta/status/2096977746891247758) — 作者先用 Grok 4.6 开发，再由 Fable 5.1 与 Astra 完成；Astra 参与环境模型和 UI，Tripo 提供生物模型。[核验记录](assets/screenshots/must-make-paperclips/SOURCE.md)。
+  - 开发资料：[作者模型分工说明](https://x.com/DannyLimanseta/status/2096991875463053698)
+  - 预览：![First Spark 第一波，已建造钉枪塔，敌人正在接近回形针工厂。](assets/screenshots/must-make-paperclips/gameplay.jpg)
+
 ### RPG 与冒险
 
 角色扮演、探索、叙事冒险与互动故事。
@@ -559,6 +608,13 @@
   - GPT-6 Astra：[Reddit](https://www.reddit.com/r/aigamedev/comments/1wc4713/working_on_a_cinematic_game_set_in_arabia/) — 作者说明持续指导 Astra 构建程序化阿拉伯世界；后续开发记录注明使用 PlayCanvas，并混合使用授权素材和 Astra 生成的 NPC 模型。[核验记录](assets/screenshots/road-to-kufa/SOURCE.md)。
   - 开发资料：[试玩发布与开发记录](https://www.reddit.com/r/aigamedev/comments/1weyznt/week_1_of_my_adventure_game_set_in_arabia/)。
   - 预览：![骑马旅人在 Medina 的绿洲市集附近探索，可见区域地图、日间时钟和单人模式控件。](assets/screenshots/road-to-kufa/gameplay.jpg)
+
+- **[Grand Theft Auto VI — PS1 Demake](https://origozero.ai/play/ad25322f-fdfe-49c0-9ee9-82608c8f9ff7)** — 在 PlayStation 风格画面中探索小型 Vice City，体验驾驶、双主角、任务和警察追逐；为非官方粉丝改编。
+  - 作者：[Deata / wannabestraight](https://origozero.ai/users/Deata)
+  - 平台：桌面浏览器；键鼠操作，直达 OrigoZero 游玩页，免费且无需登录，首次需等待素材加载。
+  - GPT-6 Astra：[Reddit](https://www.reddit.com/r/OpenAI/comments/1wble8s/agi_is_solved_just_asked_astra_to_make_me_gta_vi/) — 作者称使用 GPT-6 Astra 高推理档为 Zero 引擎制作 Luau 玩法与引擎内预告片。[核验记录](assets/screenshots/gta-vi-ps1-demake/SOURCE.md)。
+  - 开发资料：[作者作品页](https://origozero.ai/world/Deata/gta-vi-psx)
+  - 预览：![Lucia 位于可玩的 Vice City 街区，显示冲锋枪、警察及一星通缉。](assets/screenshots/gta-vi-ps1-demake/gameplay.jpg)
 
 ### 平台跳跃与竞速
 
@@ -712,6 +768,13 @@
   - GPT-6 Astra：[X](https://x.com/you1873118/status/2098421955296931931) — 作者说明持续使用 Astra 将游戏开发到第二关，再借助 Grok Bot 将项目迁移到 GitHub。[核验记录](assets/screenshots/dual-realms/SOURCE.md)。
   - 开发资料：[源码与开发日志](https://github.com/sgyno09-source/dual-realms)。
   - 预览：![白衣位于旧城区首段街道，可见持续计时、生命和战斗操作按钮。](assets/screenshots/dual-realms/gameplay.jpg)
+
+- **[Race Jimothy](https://tayttm.github.io/race-jimothy/)** — 画出挑战者，让它与浣熊 Jimothy 在 30 米赛道上竞速，再修改涂鸦发起下一场对决。
+  - 作者：[Yuting_M / tayttm](https://x.com/YutingM84881)
+  - 平台：浏览器；鼠标、触控笔或触屏绘画，也可使用示例涂鸦。免费，无需登录。
+  - GPT-6 Astra：[X](https://x.com/YutingM84881/status/2099737945414750718) — 作者明确说明使用 GPT-6 Astra 制作这款涂鸦竞速游戏，演示视频也由 Astra 制作。[核验记录](assets/screenshots/race-jimothy/SOURCE.md)。
+  - 开发资料：[源码](https://github.com/tayttm/race-jimothy)
+  - 预览：![涂鸦挑战者跑到 21 米，Jimothy 到达 30 米终点。](assets/screenshots/race-jimothy/gameplay.jpg)
 
 ### 实验玩法与多人游戏
 
