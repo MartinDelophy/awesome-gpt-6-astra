@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 119](https://img.shields.io/badge/Cases-119-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 129](https://img.shields.io/badge/Cases-129-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **A collection of interesting games made with GPT-6 Astra.**
 
@@ -20,11 +20,11 @@ Playful ideas, games you can try, and development stories that inspire the next 
 
 ## Start here
 
-Explore **119 games and interactive projects**: Three Kingdoms territory strategy, wooden interlocking and sliding puzzles, soft-body fruit merging, procedural city-building 2048, one-tap flight, magic-carpet combat, a five-stage bullet-hell shooter, island power-grid tower defense, wilderness survival, underwater fishing, sushi-restaurant management and island farming, Bay Circuit kart racing, coastal cycling with a pelican, tabletop toys turned into 3D games, 3D home decoration, and Orbital Garden. Click a title to play directly in your browser.
+Explore **129 games and interactive projects**: Three Kingdoms territory strategy, wooden interlocking and sliding puzzles, soft-body fruit merging, procedural city-building 2048, one-tap flight, magic-carpet combat, a five-stage bullet-hell shooter, island power-grid tower defense, wilderness survival, underwater fishing, sushi-restaurant management and island farming, Bay Circuit kart racing, coastal cycling with a pelican, tabletop toys turned into 3D games, 3D home decoration, and Orbital Garden. Click a title to play directly in your browser.
 
-Catalog updated: **2026-09-16**. Model attribution is based on creator or submitter statements; unconfirmed details are marked in individual entries. This date records catalog maintenance, not a new play-test of every game.
+Catalog updated: **2026-09-17**. Model attribution is based on creator or submitter statements; unconfirmed details are marked in individual entries. This date records catalog maintenance, not a new play-test of every game.
 
-Latest additions: [10 more browser games discovered across the web](docs/browser-games-2026-09-16.md), with gameplay screenshots, creator sources and access checks. [September 15's 10 additions](docs/browser-games-2026-09-15.md). [September 12's 10 additions](docs/browser-games-2026-09-12.md). Previous additions: [Barrelbound: The Lost Cargo](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/73) and [Tidehook](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/74), with entries in all 12 README languages. [September 11's 10 additions](docs/browser-games-2026-09-11.md) · [September 10's 10 additions](docs/direct-play-x-games-2026-09-10.md) · [Earlier 16 additions](docs/x-high-traffic-games-2026-09-09.md).
+Latest additions: [10 more browser games discovered across the web](docs/browser-games-2026-09-17.md), with gameplay screenshots, creator sources and access checks. [September 16's 10 additions](docs/browser-games-2026-09-16.md). [September 15's 10 additions](docs/browser-games-2026-09-15.md). [September 12's 10 additions](docs/browser-games-2026-09-12.md). Previous additions: [Barrelbound: The Lost Cargo](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/73) and [Tidehook](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/74), with entries in all 12 README languages. [September 11's 10 additions](docs/browser-games-2026-09-11.md) · [September 10's 10 additions](docs/direct-play-x-games-2026-09-10.md) · [Earlier 16 additions](docs/x-high-traffic-games-2026-09-09.md).
 
 - **Looking for something to play?** Browse the genres below.
 - **Built a game?** [Submit your project](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) with a direct browser game link, a gameplay screenshot, and a description of how you used GPT-6 Astra.
@@ -240,6 +240,24 @@ Shooters, fighters, survival games, rhythm games, and anything that invites one 
   - Platform: Browser; drag or use arrow keys. Free, no login; a touch-friendly interface is provided, but physical mobile devices were not tested.
   - GPT-6 Astra: [X](https://x.com/SecretSeoul/status/2097315757931811081) — The creator names Astra Light and shares the dinner-photo prompt for a Blender and Three.js browser game. [Verification notes](assets/screenshots/butterball-run/SOURCE.md).
   - Preview: ![Butterball after rescuing one mussel, with 30 seconds and one unit of butter power remaining.](assets/screenshots/butterball-run/gameplay.jpg)
+
+- **[Tideglass Hunt](https://tideglass-hunt.timothee-leborgne.ohmyunicorn.com/)** — Choose steel, storm or frost abilities and explore a coastal combat arena with monsters, skill builds and timed hunts that can start solo.
+  - Creator: [Timothée Le Borgne](https://x.com/Tim_LB)
+  - Platform: Browser; free, no account. Create a hunt and choose Start Solo; an online connection is required even for solo play.
+  - GPT-6 Astra: [X](https://x.com/Tim_LB/status/2100212668778828172) — The creator used Astra, Fable 5.1 and DeepSeek 4.1 Flash together for Blender assets, gameplay, networking and a custom Three.js engine; individual model contributions are not separated. [Verification notes](assets/screenshots/tideglass-hunt/SOURCE.md).
+  - Preview: ![A steel hunter on a coastal causeway after Cleave, with 92 stamina and a skill cooldown.](assets/screenshots/tideglass-hunt/gameplay.jpg)
+
+- **[Canteen Crashers](https://wavedash.com/games/canteen-crashers)** — Search food-court crates for three recipes, return them to the crew kitchen and evade the Chef with equipment and tray slides; the demo includes three bot teammates.
+  - Creator: [Chong-U / chongdashu](https://x.com/chongdashu)
+  - Platform: Browser; requires WebGPU support. Free anonymous play on Wavedash; its account prompt is optional. This is an early demo.
+  - GPT-6 Astra: [X](https://x.com/chongdashu/status/2100207494375285029) — The creator credits GPT-6 Astra and Blender for the game and its 3D assets. [Verification notes](assets/screenshots/canteen-crashers/SOURCE.md).
+  - Preview: ![A runner tray-sliding near the crew kitchen, with one of three recipes banked and 1:58 remaining.](assets/screenshots/canteen-crashers/gameplay.jpg)
+
+- **[こもれびの木の実あつめ / Komorebi Nut Gathering](https://komorebi-kinomi-0916.inu03550.chatgpt.site/)** — Move a tiny forest spirit under falling nuts and sparkles, avoid leaves and aim for 300 points during a gentle 60-second collecting round.
+  - Creator: [Kazumi](https://x.com/Kazumib0)
+  - Platform: Browser; Japanese interface, with mouse, touch and arrow-key controls. Free, no login.
+  - GPT-6 Astra: [X](https://x.com/Kazumib0/status/2100129970236334179) — The creator supplied character artwork and used GPT-6 Astra in Codex to turn it into the browser collection game. [Verification notes](assets/screenshots/komorebi-kinomi/SOURCE.md).
+  - Preview: ![A forest spirit catching falling nuts, with 10 points and 16 seconds remaining.](assets/screenshots/komorebi-kinomi/gameplay.jpg)
 
 ### Puzzles & brain games
 
@@ -503,6 +521,12 @@ Tower defense, strategic card games, management games, building, and simulation 
   - GPT-6 Astra: [X](https://x.com/DannyLimanseta/status/2096977746891247758) — The creator started with Grok 4.6, then finished with Fable 5.1 and Astra. Astra contributed environment models and UI; Tripo supplied creatures. [Verification notes](assets/screenshots/must-make-paperclips/SOURCE.md).
   - Resources: [Creator's model breakdown](https://x.com/DannyLimanseta/status/2096991875463053698)
   - Preview: ![First Spark's first wave with a built nailgun turret and enemies approaching the paperclip factory.](assets/screenshots/must-make-paperclips/gameplay.jpg)
+
+- **[Sundrift — Take the Slow Way Home](https://wesche.com/lab/astra/boat-explorer/)** — Pilot a small motorboat through golden-hour island waters, follow the local chart and discover shores in an unhurried exploration sandbox.
+  - Creator: [Wësche](https://x.com/WescheNex1q)
+  - Platform: Browser; WASD/arrows steer and throttle, Space brakes, and dragging changes the view. Free, no login.
+  - GPT-6 Astra: [X](https://x.com/WescheNex1q/status/2100043868565561533) — The creator compared four models on the same Three.js boat-game prompt and explicitly identifies this URL as the Astra version. [Verification notes](assets/screenshots/sundrift/SOURCE.md).
+  - Preview: ![A small motorboat between sunlit islands, with a nearby-water chart and distance sailed.](assets/screenshots/sundrift/gameplay.jpg)
 
 ### RPGs & adventures
 
@@ -776,6 +800,24 @@ Parkour, platform challenges, racing, and games built around movement and routes
   - Resources: [Source](https://github.com/tayttm/race-jimothy)
   - Preview: ![A doodled challenger at 21 m racing Jimothy at the 30 m finish line.](assets/screenshots/race-jimothy/gameplay.jpg)
 
+- **[Glider — One Throw. Endless Sky.](https://glider.game/)** — Launch a paper plane into an expanding 3D landscape, steer through rings, boost and explore different biomes in free flight.
+  - Creator: [mrtwizzles](https://www.reddit.com/user/mrtwizzles/)
+  - Platform: Browser; mouse, keyboard or on-screen controls. Free play without login; cross-device cloud saves are optional.
+  - GPT-6 Astra: [Reddit](https://www.reddit.com/r/ChatGPT/comments/1we6ws0/glidergame_gpt6_astra_xhigh_with_34_hours_of_my/) — The creator used Astra xHigh for the game and mobile-control iterations, then refined the interface and added licensed music. [Verification notes](assets/screenshots/glider-game/SOURCE.md).
+  - Preview: ![A paper plane flying above moonlit water, with speed, altitude, distance and boost instruments.](assets/screenshots/glider-game/gameplay.jpg)
+
+- **[Duck Off](https://duckoff.fun/)** — Tap to paddle a small duck down a river, dodge logs and whirlpools, and charge boosts in solo practice or shared race rooms.
+  - Creator: [swarnim.eth](https://x.com/swarnimodi)
+  - Platform: Browser; tap/click to paddle and arrow keys to steer. Free; anonymous solo practice is available.
+  - GPT-6 Astra: [X](https://x.com/swarnimodi/status/2100196454367437275) — The creator credits Astra and Fable together for building the duck-racing game during a twelve-hour project. [Verification notes](assets/screenshots/duck-off/SOURCE.md).
+  - Preview: ![A yellow duck on a river with obstacles, a ×20 paddle combo and the boost meter.](assets/screenshots/duck-off/gameplay.jpg)
+
+- **[Wildwake Rally](https://wildwake-rally.vercel.app/)** — Drive an orange rally car through a low-poly mountain circuit, with a two-lap solo practice mode and a public leaderboard.
+  - Creator: [DefyEntropyV](https://x.com/DefyEntropyV)
+  - Platform: Browser; desktop keyboard controls. Free, no mandatory account; Practice solo starts without entering a driver name.
+  - GPT-6 Astra: [X](https://x.com/DefyEntropyV/status/2100226359649820721) — The creator identifies Astra as the model used to create this rally game and links the playable build. [Verification notes](assets/screenshots/wildwake-rally/SOURCE.md).
+  - Preview: ![An orange rally car on a mountain road during lap one, with timer and speed visible.](assets/screenshots/wildwake-rally/gameplay.jpg)
+
 ### Experimental & multiplayer
 
 Unusual mechanics, online competition, and cooperative experiences.
@@ -824,6 +866,24 @@ Unusual mechanics, online competition, and cooperative experiences.
   - Platform: Browser; choose a character, enter the rooftop and select Fly. Free, no sign-in.
   - GPT-6 Astra: [X](https://x.com/TusharXo/status/2098156783181467801) — Tushar explicitly credits GPT-6 Astra and Crayon for this Three.js kite game and mentions Images 2.5 for visuals. [Verification notes](assets/screenshots/above-the-rooftops/SOURCE.md).
   - Preview: ![A kite-flying challenge above the city, with height, string tension, sky-light progress and steering controls.](assets/screenshots/above-the-rooftops/gameplay.jpg)
+
+- **[Starship Foundry — Isometric Flight Lab](https://allaiinc.org/Starship-Foundry-Isometric-Flight-Lab.html)** — Assemble a ship from modular parts in this building game, inspect its connected systems and fly ring stunts, jumps or an isometric shooting mode.
+  - Creator: [Aaron Wacker](https://x.com/Aaron_Wacker)
+  - Platform: Browser; keyboard and on-screen flight controls. Free, no account or imported assets required to use the starter ship.
+  - GPT-6 Astra: [X](https://x.com/Aaron_Wacker/status/2100382539697254828) — The creator credits Astra and Three.js for the ship-building and flight-game project. [Verification notes](assets/screenshots/starship-foundry/SOURCE.md).
+  - Preview: ![The starter modular ship flying toward a series of rings in the Stunts course.](assets/screenshots/starship-foundry/gameplay.jpg)
+
+- **[POCKET_01 — Personal Game System](https://devoshub.com/)** — Switch on a virtual monochrome handheld and choose from twelve small games, including Snake, Blocks, Breakout, Mines and an eight-level Sokoban.
+  - Creator: [Haris Memic](https://x.com/LeHari_eth)
+  - Platform: Browser; click the power switch, then use the on-screen D-pad and A/B buttons. Free at the time of checking; no login.
+  - GPT-6 Astra: [X](https://x.com/LeHari_eth/status/2100392850823471600) — The creator says Astra assisted the coding and design of this browser-based retro console project. [Verification notes](assets/screenshots/pocket-01/SOURCE.md).
+  - Preview: ![The virtual handheld showing Sokoban level two after completing the first puzzle.](assets/screenshots/pocket-01/gameplay.jpg)
+
+- **[Super Mario Bros. + Duck Hunt — Browser Port](https://mario-duck-hunt-mobile.astral-bead-6514.chatgpt.site/)** — Play two unofficial game ports, Mario platforming and Duck Hunt, in one browser cartridge interface with on-screen movement, jumping and tap-to-shoot controls.
+  - Creator: [Trust Me Bro / TrustMeOrElse](https://x.com/TrustMeOrElse)
+  - Platform: Browser; free, no login or download. On-screen controls and controller setup are provided; counted as one collection.
+  - GPT-6 Astra: [X](https://x.com/TrustMeOrElse/status/2097974925365485946) — The creator identifies the port and its updates as a GPT-6 Astra project. This attribution concerns the browser port, not the original Nintendo games or assets. [Verification notes](assets/screenshots/mario-duck-hunt/SOURCE.md).
+  - Preview: ![Mario airborne in World 1-1 with the browser port's virtual D-pad and jump controls.](assets/screenshots/mario-duck-hunt/gameplay.jpg)
 
 ## What an entry includes
 

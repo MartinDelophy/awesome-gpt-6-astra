@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 119](https://img.shields.io/badge/Cases-119-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 129](https://img.shields.io/badge/Cases-129-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **收集用 GPT-6 Astra 制作的有趣游戏。**
 
@@ -20,11 +20,11 @@
 
 ## 从这里开始
 
-目前收录 **119 个游戏与互动作品**：三国领土策略、木锁拆解与华容道、半流体水果合成、程序化城市建造 2048、单键飞行、魔毯战斗、五关弹幕射击、海岛电网塔防、荒野生存、水下捕鱼、寿司店经营与海岛种植、海湾卡丁车竞速、鹈鹕海岸骑行、桌面玩具的 3D 改编、3D 家居装修，以及轨道花园。点击作品名称即可直接进入在线游戏。
+目前收录 **129 个游戏与互动作品**：三国领土策略、木锁拆解与华容道、半流体水果合成、程序化城市建造 2048、单键飞行、魔毯战斗、五关弹幕射击、海岛电网塔防、荒野生存、水下捕鱼、寿司店经营与海岛种植、海湾卡丁车竞速、鹈鹕海岸骑行、桌面玩具的 3D 改编、3D 家居装修，以及轨道花园。点击作品名称即可直接进入在线游戏。
 
-目录更新：**2026-09-16**。模型使用信息依据作者或投稿者的说明，未确认内容在具体条目中标注。此日期表示目录维护时间，不代表当天重新试玩了所有游戏。
+目录更新：**2026-09-17**。模型使用信息依据作者或投稿者的说明，未确认内容在具体条目中标注。此日期表示目录维护时间，不代表当天重新试玩了所有游戏。
 
-最新新增：[全网搜索后追加的 10 款在线游戏](docs/browser-games-2026-09-16.md)，附实机截图、作者依据与入口核验。[9 月 15 日新增的 10 款](docs/browser-games-2026-09-15.md)。[9 月 12 日新增的 10 款](docs/browser-games-2026-09-12.md)。此前新增：[Barrelbound: The Lost Cargo](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/73) 与 [Tidehook](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/74)，已同步全部 12 种 README 语言。[9 月 11 日新增的 10 款](docs/browser-games-2026-09-11.md) · [9 月 10 日新增的 10 款](docs/direct-play-x-games-2026-09-10.md) · [此前新增的 16 款](docs/x-high-traffic-games-2026-09-09.md)。
+最新新增：[全网搜索后追加的 10 款在线游戏](docs/browser-games-2026-09-17.md)，附实机截图、作者依据与入口核验。[9 月 16 日新增的 10 款](docs/browser-games-2026-09-16.md)。[9 月 15 日新增的 10 款](docs/browser-games-2026-09-15.md)。[9 月 12 日新增的 10 款](docs/browser-games-2026-09-12.md)。此前新增：[Barrelbound: The Lost Cargo](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/73) 与 [Tidehook](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/74)，已同步全部 12 种 README 语言。[9 月 11 日新增的 10 款](docs/browser-games-2026-09-11.md) · [9 月 10 日新增的 10 款](docs/direct-play-x-games-2026-09-10.md) · [此前新增的 16 款](docs/x-high-traffic-games-2026-09-09.md)。
 
 - **想玩游戏：** 从下面的分类寻找你喜欢的玩法。
 - **做了游戏：** [提交你的作品](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml)，附上在线游戏直达入口、实机截图，以及使用 GPT-6 Astra 的说明。
@@ -240,6 +240,24 @@
   - 平台：浏览器；拖动或方向键操作，免费且无需登录，提供触屏界面，未在实体手机上测试。
   - GPT-6 Astra：[X](https://x.com/SecretSeoul/status/2097315757931811081) — 作者标注 Astra Light，并公开了将晚餐照片通过 Blender 与 Three.js 变成浏览器游戏的提示。[核验记录](assets/screenshots/butterball-run/SOURCE.md)。
   - 预览：![黄油球已救出一只贻贝，剩余 30 秒和一格能量。](assets/screenshots/butterball-run/gameplay.jpg)
+
+- **[Tideglass Hunt](https://tideglass-hunt.timothee-leborgne.ohmyunicorn.com/)** — 选择钢铁、风暴或冰霜能力，在海岸战斗场景中探索，搭配技能对付怪物；限时狩猎可由单人开局。
+  - 作者：[Timothée Le Borgne](https://x.com/Tim_LB)
+  - 平台：浏览器；免费，无需账号。创建狩猎房间后可选 Start Solo；单人模式也需要联网。
+  - GPT-6 Astra：[X](https://x.com/Tim_LB/status/2100212668778828172) — 作者共同使用 Astra、Fable 5.1 与 DeepSeek 4.1 Flash 制作 Blender 资源、玩法、联网和自定义 Three.js 引擎，未逐项区分模型贡献。 [核验记录](assets/screenshots/tideglass-hunt/SOURCE.md)。
+  - 预览：![钢铁猎人在海岸堤道释放 Cleave 后，体力为 92，技能显示冷却。](assets/screenshots/tideglass-hunt/gameplay.jpg)
+
+- **[Canteen Crashers](https://wavedash.com/games/canteen-crashers)** — 在食堂箱子中寻找三份食谱并带回厨房，利用装备与托盘滑行躲避主厨；演示版提供三名电脑队友。
+  - 作者：[Chong-U / chongdashu](https://x.com/chongdashu)
+  - 平台：浏览器；需要 WebGPU 支持。在 Wavedash 可免费匿名游玩，账号提示为可选项；当前为早期演示版。
+  - GPT-6 Astra：[X](https://x.com/chongdashu/status/2100207494375285029) — 作者说明游戏与 3D 素材使用 GPT-6 Astra 和 Blender 制作。 [核验记录](assets/screenshots/canteen-crashers/SOURCE.md)。
+  - 预览：![角色在团队厨房附近用托盘滑行，已存入一份食谱，剩余 1:58。](assets/screenshots/canteen-crashers/gameplay.jpg)
+
+- **[こもれびの木の実あつめ / Komorebi Nut Gathering](https://komorebi-kinomi-0916.inu03550.chatgpt.site/)** — 左右移动小森林精灵接住木果与闪光、避开落叶，在 60 秒内挑战 300 分采集目标。
+  - 作者：[Kazumi](https://x.com/Kazumib0)
+  - 平台：浏览器；日文界面，支持鼠标、触摸与方向键。免费，无需登录。
+  - GPT-6 Astra：[X](https://x.com/Kazumib0/status/2100129970236334179) — 作者提供角色图片，再使用 Codex 中的 GPT-6 Astra 将其制作成浏览器采集游戏。 [核验记录](assets/screenshots/komorebi-kinomi/SOURCE.md)。
+  - 预览：![森林精灵接住落下的木果，显示 10 分与剩余 16 秒。](assets/screenshots/komorebi-kinomi/gameplay.jpg)
 
 ### 解谜与益智
 
@@ -503,6 +521,12 @@
   - GPT-6 Astra：[X](https://x.com/DannyLimanseta/status/2096977746891247758) — 作者先用 Grok 4.6 开发，再由 Fable 5.1 与 Astra 完成；Astra 参与环境模型和 UI，Tripo 提供生物模型。[核验记录](assets/screenshots/must-make-paperclips/SOURCE.md)。
   - 开发资料：[作者模型分工说明](https://x.com/DannyLimanseta/status/2096991875463053698)
   - 预览：![First Spark 第一波，已建造钉枪塔，敌人正在接近回形针工厂。](assets/screenshots/must-make-paperclips/gameplay.jpg)
+
+- **[Sundrift — Take the Slow Way Home](https://wesche.com/lab/astra/boat-explorer/)** — 驾驶小艇探索夕照中的群岛海域，结合局部海图寻找海岸，在没有限时目标的航行沙盒中漫游。
+  - 作者：[Wësche](https://x.com/WescheNex1q)
+  - 平台：浏览器；WASD 或方向键控制转向与油门，空格减速，拖动改变视角。免费，无需登录。
+  - GPT-6 Astra：[X](https://x.com/WescheNex1q/status/2100043868565561533) — 作者用同一 Three.js 船艇游戏提示对比四个模型，明确将此入口标注为 Astra 版本。 [核验记录](assets/screenshots/sundrift/SOURCE.md)。
+  - 预览：![小艇航行在夕照群岛之间，显示局部海图与累计航程。](assets/screenshots/sundrift/gameplay.jpg)
 
 ### RPG 与冒险
 
@@ -776,6 +800,24 @@
   - 开发资料：[源码](https://github.com/tayttm/race-jimothy)
   - 预览：![涂鸦挑战者跑到 21 米，Jimothy 到达 30 米终点。](assets/screenshots/race-jimothy/gameplay.jpg)
 
+- **[Glider — One Throw. Endless Sky.](https://glider.game/)** — 发射纸飞机，在不断延展的 3D 地貌中转向、加速与穿环，或自由探索不同生态区域。
+  - 作者：[mrtwizzles](https://www.reddit.com/user/mrtwizzles/)
+  - 平台：浏览器；支持鼠标、键盘与屏幕按钮。免费游玩，无需登录；跨设备云存档为可选功能。
+  - GPT-6 Astra：[Reddit](https://www.reddit.com/r/ChatGPT/comments/1we6ws0/glidergame_gpt6_astra_xhigh_with_34_hours_of_my/) — 作者使用 Astra xHigh 生成游戏并迭代移动端操作，随后调整界面并加入授权音乐。 [核验记录](assets/screenshots/glider-game/SOURCE.md)。
+  - 预览：![纸飞机飞过月光下的水面，界面显示速度、高度、距离与加速条。](assets/screenshots/glider-game/gameplay.jpg)
+
+- **[Duck Off](https://duckoff.fun/)** — 点击划水推动小鸭前进，躲开木桩与漩涡、积攒加速，支持单人练习与房间竞速。
+  - 作者：[swarnim.eth](https://x.com/swarnimodi)
+  - 平台：浏览器；点击划水、方向键转向。免费，支持匿名单人练习。
+  - GPT-6 Astra：[X](https://x.com/swarnimodi/status/2100196454367437275) — 作者说明这款鸭子竞速游戏在约 12 小时的项目中使用 Astra 与 Fable 共同制作。 [核验记录](assets/screenshots/duck-off/SOURCE.md)。
+  - 预览：![黄色小鸭在有障碍物的河道中划水，显示 ×20 连击与加速条。](assets/screenshots/duck-off/gameplay.jpg)
+
+- **[Wildwake Rally](https://wildwake-rally.vercel.app/)** — 驾驶橙色拉力赛车穿越低多边形山地赛道，提供两圈单人练习与公开排行榜。
+  - 作者：[DefyEntropyV](https://x.com/DefyEntropyV)
+  - 平台：浏览器；桌面键盘操作。免费，无需账号；不填写车手名也能进入 Practice solo。
+  - GPT-6 Astra：[X](https://x.com/DefyEntropyV/status/2100226359649820721) — 作者将这款拉力赛车标注为使用 Astra 创建，并在原帖提供在线版本。 [核验记录](assets/screenshots/wildwake-rally/SOURCE.md)。
+  - 预览：![橙色赛车位于山地公路第一圈，界面显示计时与速度。](assets/screenshots/wildwake-rally/gameplay.jpg)
+
 ### 实验玩法与多人游戏
 
 难以归类的新玩法、联机对战与合作体验。
@@ -824,6 +866,24 @@
   - 平台：浏览器；选择角色进入屋顶，再选择 Fly 开玩。免费，无需登录。
   - GPT-6 Astra：[X](https://x.com/TusharXo/status/2098156783181467801) — Tushar 明确说明使用 GPT-6 Astra 与 Crayon 制作这个 Three.js 风筝游戏，并提到 Images 2.5 的视觉素材。 [核验记录](assets/screenshots/above-the-rooftops/SOURCE.md)。
   - 预览：![城市屋顶上的风筝挑战，展示高度、线张力、天空光点进度与转向控制。](assets/screenshots/above-the-rooftops/gameplay.jpg)
+
+- **[Starship Foundry — Isometric Flight Lab](https://allaiinc.org/Starship-Foundry-Isometric-Flight-Lab.html)** — 用模块拼装飞船，检查连接、动力与推力，再带着作品进入穿环、跳跃或等距视角射击模式。
+  - 作者：[Aaron Wacker](https://x.com/Aaron_Wacker)
+  - 平台：浏览器；键盘与屏幕飞行按钮操作。免费，使用起始飞船无需账号或导入素材。
+  - GPT-6 Astra：[X](https://x.com/Aaron_Wacker/status/2100382539697254828) — 作者说明这款飞船建造与飞行项目使用 Astra 和 Three.js 制作。 [核验记录](assets/screenshots/starship-foundry/SOURCE.md)。
+  - 预览：![模块化起始飞船在 Stunts 赛道中朝连续圆环飞行。](assets/screenshots/starship-foundry/gameplay.jpg)
+
+- **[POCKET_01 — Personal Game System](https://devoshub.com/)** — 打开虚拟单色掌机，在 12 款小游戏中选择贪吃蛇、方块、打砖块、扫雷或八关推箱子等玩法。
+  - 作者：[Haris Memic](https://x.com/LeHari_eth)
+  - 平台：浏览器；打开电源开关，再用屏幕方向键及 A/B 键操作。检查时免费，无需登录。
+  - GPT-6 Astra：[X](https://x.com/LeHari_eth/status/2100392850823471600) — 作者说明 Astra 参与这款浏览器复古掌机的代码与设计工作。 [核验记录](assets/screenshots/pocket-01/SOURCE.md)。
+  - 预览：![虚拟掌机显示推箱子第二关，第一关已经完成。](assets/screenshots/pocket-01/gameplay.jpg)
+
+- **[Super Mario Bros. + Duck Hunt — Browser Port](https://mario-duck-hunt-mobile.astral-bead-6514.chatgpt.site/)** — 在同一卡带界面切换非官方马里奥平台跳跃与 Duck Hunt 移植游戏，提供屏幕移动、跳跃和点击射击操作。
+  - 作者：[Trust Me Bro / TrustMeOrElse](https://x.com/TrustMeOrElse)
+  - 平台：浏览器；免费，无需登录或下载。提供屏幕按钮与手柄设置；整套合集只计一项。
+  - GPT-6 Astra：[X](https://x.com/TrustMeOrElse/status/2097974925365485946) — 作者将移植版及其更新标注为 GPT-6 Astra 项目；模型归属指浏览器移植工作，不代表任天堂原作或素材由模型创建。 [核验记录](assets/screenshots/mario-duck-hunt/SOURCE.md)。
+  - 预览：![马里奥在 World 1-1 腾空跳跃，旁边是移植版的虚拟方向键与跳跃按钮。](assets/screenshots/mario-duck-hunt/gameplay.jpg)
 
 ## 每个作品记录什么
 
