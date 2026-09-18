@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 129](https://img.shields.io/badge/Cases-129-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 139](https://img.shields.io/badge/Cases-139-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **A collection of interesting games made with GPT-6 Astra.**
 
@@ -20,11 +20,11 @@ Playful ideas, games you can try, and development stories that inspire the next 
 
 ## Start here
 
-Explore **129 games and interactive projects**: Three Kingdoms territory strategy, wooden interlocking and sliding puzzles, soft-body fruit merging, procedural city-building 2048, one-tap flight, magic-carpet combat, a five-stage bullet-hell shooter, island power-grid tower defense, wilderness survival, underwater fishing, sushi-restaurant management and island farming, Bay Circuit kart racing, coastal cycling with a pelican, tabletop toys turned into 3D games, 3D home decoration, and Orbital Garden. Click a title to play directly in your browser.
+Explore **139 games and interactive projects**: Three Kingdoms territory strategy, wooden interlocking and sliding puzzles, soft-body fruit merging, procedural city-building 2048, one-tap flight, magic-carpet combat, a five-stage bullet-hell shooter, island power-grid tower defense, wilderness survival, underwater fishing, sushi-restaurant management and island farming, Bay Circuit kart racing, coastal cycling with a pelican, tabletop toys turned into 3D games, 3D home decoration, and Orbital Garden. Click a title to play directly in your browser.
 
-Catalog updated: **2026-09-17**. Model attribution is based on creator or submitter statements; unconfirmed details are marked in individual entries. This date records catalog maintenance, not a new play-test of every game.
+Catalog updated: **2026-09-18**. Model attribution is based on creator or submitter statements; unconfirmed details are marked in individual entries. This date records catalog maintenance, not a new play-test of every game.
 
-Latest additions: [10 more browser games discovered across the web](docs/browser-games-2026-09-17.md), with gameplay screenshots, creator sources and access checks. [September 16's 10 additions](docs/browser-games-2026-09-16.md). [September 15's 10 additions](docs/browser-games-2026-09-15.md). [September 12's 10 additions](docs/browser-games-2026-09-12.md). Previous additions: [Barrelbound: The Lost Cargo](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/73) and [Tidehook](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/74), with entries in all 12 README languages. [September 11's 10 additions](docs/browser-games-2026-09-11.md) · [September 10's 10 additions](docs/direct-play-x-games-2026-09-10.md) · [Earlier 16 additions](docs/x-high-traffic-games-2026-09-09.md).
+Latest additions: [10 more browser games discovered across the web](docs/browser-games-2026-09-18.md), with gameplay screenshots, creator sources and access checks. [September 17's 10 additions](docs/browser-games-2026-09-17.md). [September 16's 10 additions](docs/browser-games-2026-09-16.md). [September 15's 10 additions](docs/browser-games-2026-09-15.md). [September 12's 10 additions](docs/browser-games-2026-09-12.md). Previous additions: [Barrelbound: The Lost Cargo](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/73) and [Tidehook](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/74), with entries in all 12 README languages. [September 11's 10 additions](docs/browser-games-2026-09-11.md) · [September 10's 10 additions](docs/direct-play-x-games-2026-09-10.md) · [Earlier 16 additions](docs/x-high-traffic-games-2026-09-09.md).
 
 - **Looking for something to play?** Browse the genres below.
 - **Built a game?** [Submit your project](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) with a direct browser game link, a gameplay screenshot, and a description of how you used GPT-6 Astra.
@@ -258,6 +258,36 @@ Shooters, fighters, survival games, rhythm games, and anything that invites one 
   - Platform: Browser; Japanese interface, with mouse, touch and arrow-key controls. Free, no login.
   - GPT-6 Astra: [X](https://x.com/Kazumib0/status/2100129970236334179) — The creator supplied character artwork and used GPT-6 Astra in Codex to turn it into the browser collection game. [Verification notes](assets/screenshots/komorebi-kinomi/SOURCE.md).
   - Preview: ![A forest spirit catching falling nuts, with 10 points and 16 seconds remaining.](assets/screenshots/komorebi-kinomi/gameplay.jpg)
+
+- **[PATCH](https://agentgames.dev/play/patch)** — Guide a mochi explorer out of safe territory and close loops to claim land while fourteen computer rivals threaten exposed trails.
+  - Creator: [Drakoniux](https://agentgames.dev/u/Drakoniux)
+  - Platform: Browser; keyboard or touch, free anonymous play. Run scores are sent to a public leaderboard.
+  - GPT-6 Astra: [Creator listing](https://agentgames.dev/play/patch) — The creator's listing identifies GPT-6 Astra as the coding model and publishes the territory-capture game brief. [Verification notes](assets/screenshots/patch/SOURCE.md).
+  - Preview: ![PATCH's lime mochi, starting territory and neighborhood ranking.](assets/screenshots/patch/gameplay.jpg)
+
+- **[DEADBLOCK: Outbreak](https://agentgames.dev/play/deadblock-outbreak)** — Survive escalating zombie waves across six maps, scavenge supplies and unlock weapons, barricades and field upgrades.
+  - Creator: [Drakoniux](https://agentgames.dev/u/Drakoniux)
+  - Platform: Browser; keyboard/mouse or touch, free without login. Run scores are automatically sent to Agent Games.
+  - GPT-6 Astra: [Creator listing](https://agentgames.dev/play/deadblock-outbreak) — The creator's listing attributes the browser shooter code to GPT-6 Astra and supplies its build-and-refine prompt. [Verification notes](assets/screenshots/deadblock-outbreak/SOURCE.md).
+  - Preview: ![Rook in Green Acres with pistol inventory, minimap and wave HUD.](assets/screenshots/deadblock-outbreak/gameplay.jpg)
+
+- **[Dropzone Royale](https://agentgames.dev/play/dropzone-royale)** — Drop onto an island against 39 bots, search buildings for equipment and stay ahead of a shrinking storm in a top-down battle royale.
+  - Creator: [Drakoniux](https://agentgames.dev/u/Drakoniux)
+  - Platform: Desktop browser; keyboard and mouse, free without login. Career kills feed a public leaderboard.
+  - GPT-6 Astra: [Creator listing](https://agentgames.dev/play/dropzone-royale) — The creator's listing names GPT-6 Astra as the coding model and publishes the battle-royale development prompt. [Verification notes](assets/screenshots/dropzone-royale/SOURCE.md).
+  - Preview: ![Rookie inside a supply building with loose equipment, inventory and storm countdown.](assets/screenshots/dropzone-royale/gameplay.jpg)
+
+- **[Mog Mode](https://yesterdayarcade.com/games/mog-mode/)** — Choose a caricatured tech CEO and time five handshakes against an oversized rival; four successful shakes win the photo-op in this unofficial parody.
+  - Creator: [Dylan Elder / Yesterday Arcade](https://x.com/YesterdayArcade)
+  - Platform: Browser; tap or Space, free without login.
+  - GPT-6 Astra: [X](https://x.com/YesterdayArcade/status/2100510743422734658) — The creator identifies this original parody timing game as built with GPT-6 Astra in Codex. [Verification notes](assets/screenshots/mog-mode/SOURCE.md).
+  - Preview: ![Mog Mode parody handshake, round 4 of 5 and timing bar.](assets/screenshots/mog-mode/gameplay.jpg)
+
+- **[The Crownless](https://www.spawn.co/@izkimar/the-crownless/play)** — Fight up a sandstone citadel with brawler combos, reap souls for new powers and build a run toward the king, losing combat progress on death.
+  - Creator: [Izkimar](https://x.com/Izkimar)
+  - Platform: Browser with WebGPU; keyboard and mouse. The checked public run started without an account; online service required.
+  - GPT-6 Astra: [X](https://x.com/Izkimar/status/2100753871903855095) — The creator credits Astra inside Spawn for building this action roguelike and iterating on it while playing. [Verification notes](assets/screenshots/the-crownless/SOURCE.md).
+  - Preview: ![The Crownless at the sandstone citadel entrance with health, camp objective and fighting arts.](assets/screenshots/the-crownless/gameplay.jpg)
 
 ### Puzzles & brain games
 
@@ -528,6 +558,24 @@ Tower defense, strategic card games, management games, building, and simulation 
   - GPT-6 Astra: [X](https://x.com/WescheNex1q/status/2100043868565561533) — The creator compared four models on the same Three.js boat-game prompt and explicitly identifies this URL as the Astra version. [Verification notes](assets/screenshots/sundrift/SOURCE.md).
   - Preview: ![A small motorboat between sunlit islands, with a nearby-water chart and distance sailed.](assets/screenshots/sundrift/gameplay.jpg)
 
+- **[VeilFall: The Hollow War](https://agentgames.dev/play/veilfall)** — Play Ilyra in a three-lane 5v5 bot battle, cast light spells, buy relics and push towers toward the enemy core.
+  - Creator: [aronewshop](https://agentgames.dev/u/aronewshop)
+  - Platform: Desktop browser; keyboard and mouse, free without login. Early prototype with bots; no online multiplayer.
+  - GPT-6 Astra: [Creator listing](https://agentgames.dev/play/veilfall) — The creator's listing identifies GPT-6 Astra as the model that wrote this single-player MOBA prototype. [Verification notes](assets/screenshots/veilfall-hollow-war/SOURCE.md).
+  - Preview: ![Ilyra beside the home core with Thorn Prism equipped and attack 58.](assets/screenshots/veilfall-hollow-war/gameplay.jpg)
+
+- **[Minimum Rage](https://minimum-rage.fastandlucid.chatgpt.site/)** — Help Kevin keep his restaurant job by taking orders, fetching food and serving eight customers before too many leave.
+  - Creator: [fastandlucid](https://x.com/FastandLucid)
+  - Platform: Browser; keyboard or click-to-move controls, free without login.
+  - GPT-6 Astra: [X](https://x.com/FastandLucid/status/2100594128547704950) — The creator reports building this 3D world with mini-games and side quests in two days using GPT-6 Astra. [Verification notes](assets/screenshots/minimum-rage/SOURCE.md).
+  - Preview: ![Kevin's voxel restaurant with three customers and a fries order ticket.](assets/screenshots/minimum-rage/gameplay.jpg)
+
+- **[Cabsolutely](https://cabsolutely.vercel.app/)** — Drive a taxi around San Francisco's Financial District, collect passengers and work toward a daily fare target while watching the cab's condition.
+  - Creator: [ilker](https://x.com/ailker)
+  - Platform: Desktop browser; free without login. Initial district assets are about 175 MB; the first load failed here and Retry succeeded.
+  - GPT-6 Astra: [X](https://x.com/ailker/status/2100705949468000655) — The creator credits GPT-6 Astra together with fal for making this taxi game and shares its playable build and code. [Verification notes](assets/screenshots/cabsolutely/SOURCE.md).
+  - Preview: ![Cabsolutely taxi on Mission Street, traffic, minimap and daily fare target.](assets/screenshots/cabsolutely/gameplay.jpg)
+
 ### RPGs & adventures
 
 Role-playing, exploration, narrative adventures, and interactive stories.
@@ -639,6 +687,12 @@ Role-playing, exploration, narrative adventures, and interactive stories.
   - GPT-6 Astra: [Reddit](https://www.reddit.com/r/OpenAI/comments/1wble8s/agi_is_solved_just_asked_astra_to_make_me_gta_vi/) — The creator reports using GPT-6 Astra on high effort to build the Luau gameplay and in-engine trailer for the Zero engine. [Verification notes](assets/screenshots/gta-vi-ps1-demake/SOURCE.md).
   - Resources: [Creator's world page](https://origozero.ai/world/Deata/gta-vi-psx)
   - Preview: ![Lucia in the playable Vice City street with SMG, police and a one-star wanted indicator.](assets/screenshots/gta-vi-ps1-demake/gameplay.jpg)
+
+- **[Don't Look Away — Saint Orison](https://weeping-angels.vercel.app/)** — Restore power and find an escape key in a dark chapel while stone angels approach whenever you cannot see them, making every blink a risk.
+  - Creator: [Blendi](https://x.com/BlendiByl)
+  - Platform: Desktop browser; keyboard and mouse, headphones recommended. Free without login or API keys; contains horror imagery.
+  - GPT-6 Astra: [X](https://x.com/BlendiByl/status/2100442177159729336) — The creator used GPT-6 Astra in Codex to iterate on gameplay, lighting and audio; fal tools supplied assets, with Blender cleanup and Three.js integration. [Verification notes](assets/screenshots/dont-look-away/SOURCE.md).
+  - Preview: ![Saint Orison's chapel aisle, stone angels, flashlight and electrical-panel objective.](assets/screenshots/dont-look-away/gameplay.jpg)
 
 ### Platformers & racing
 
@@ -817,6 +871,12 @@ Parkour, platform challenges, racing, and games built around movement and routes
   - Platform: Browser; desktop keyboard controls. Free, no mandatory account; Practice solo starts without entering a driver name.
   - GPT-6 Astra: [X](https://x.com/DefyEntropyV/status/2100226359649820721) — The creator identifies Astra as the model used to create this rally game and links the playable build. [Verification notes](assets/screenshots/wildwake-rally/SOURCE.md).
   - Preview: ![An orange rally car on a mountain road during lap one, with timer and speed visible.](assets/screenshots/wildwake-rally/gameplay.jpg)
+
+- **[Icy Tower — Frostbound](https://icy-tower-frostbound.netlify.app/)** — Climb an icy tower by chaining jumps and wall jumps, building momentum and escaping the rising frost, with classic and daily challenges.
+  - Creator: [Tahsin Safa Elmalı](https://x.com/SafaElmali)
+  - Platform: Browser; keyboard or on-screen controls, free without login.
+  - GPT-6 Astra: [X](https://x.com/SafaElmali/status/2100562918937165996) — The creator explicitly credits GPT-6 Astra for developing this Icy Tower-inspired game, including wall jumps, combo boosts and daily towers. [Verification notes](assets/screenshots/frostbound/SOURCE.md).
+  - Preview: ![Frostbound's starting ice platforms, climber, floor counter and climb goal.](assets/screenshots/frostbound/gameplay.jpg)
 
 ### Experimental & multiplayer
 
