@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 89](https://img.shields.io/badge/Cases-89-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 90](https://img.shields.io/badge/Cases-90-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **GPT-6 Astra से बनाए गए दिलचस्प गेमों का संग्रह।**
 
@@ -22,9 +22,9 @@
 
 ## यहाँ से शुरू करें
 
-यहाँ **89 खेल और इंटरैक्टिव परियोजनाएँ** शामिल हैं: तीन राज्यों की क्षेत्रीय रणनीति, एक-दूसरे में फँसे लकड़ी के टुकड़ों और खिसकने वाले ब्लॉकों की पहेलियाँ, मुलायम फलों को मिलाना, प्रक्रियात्मक शहर निर्माण वाला 2048, एक बटन से उड़ान, जादुई कालीन पर लड़ाई, पाँच स्तरों वाला बुलेट-हेल शूटर, बिजली के नेटवर्क से द्वीप की रक्षा, जंगल में जीवित रहना, पानी के नीचे मछली पकड़ना, सुशी रेस्तराँ चलाना और द्वीप पर खेती करना, Bay Circuit पर कार्ट रेसिंग, पेलिकन के साथ तट पर साइकिल चलाना, टेबलटॉप खिलौनों के 3D रूपांतरण, 3D घर की सजावट और Orbital Garden। किसी शीर्षक पर क्लिक करके सीधे ब्राउज़र में गेम खेलें।
+यहाँ **90 खेल और इंटरैक्टिव परियोजनाएँ** शामिल हैं: तीन राज्यों की क्षेत्रीय रणनीति, एक-दूसरे में फँसे लकड़ी के टुकड़ों और खिसकने वाले ब्लॉकों की पहेलियाँ, मुलायम फलों को मिलाना, प्रक्रियात्मक शहर निर्माण वाला 2048, एक बटन से उड़ान, जादुई कालीन पर लड़ाई, पाँच स्तरों वाला बुलेट-हेल शूटर, बिजली के नेटवर्क से द्वीप की रक्षा, जंगल में जीवित रहना, पानी के नीचे मछली पकड़ना, सुशी रेस्तराँ चलाना और द्वीप पर खेती करना, Bay Circuit पर कार्ट रेसिंग, पेलिकन के साथ तट पर साइकिल चलाना, टेबलटॉप खिलौनों के 3D रूपांतरण, 3D घर की सजावट और Orbital Garden। किसी शीर्षक पर क्लिक करके सीधे ब्राउज़र में गेम खेलें।
 
-सूची अपडेट: **2026-09-15**। मॉडल के उपयोग की जानकारी रचनाकारों या प्रस्तुतकर्ताओं के कथनों पर आधारित है; अपुष्ट विवरण संबंधित प्रविष्टियों में चिह्नित हैं। यह तारीख सूची के रखरखाव की है, सभी गेमों के दोबारा परीक्षण की नहीं।
+सूची अपडेट: **2026-09-18**। मॉडल के उपयोग की जानकारी रचनाकारों या प्रस्तुतकर्ताओं के कथनों पर आधारित है; अपुष्ट विवरण संबंधित प्रविष्टियों में चिह्नित हैं। यह तारीख सूची के रखरखाव की है, सभी गेमों के दोबारा परीक्षण की नहीं।
 
 - **खेलने के लिए कुछ ढूँढ़ रहे हैं?** नीचे दी गई श्रेणियाँ देखें।
 - **आपने कोई गेम बनाया है?** [अपना प्रोजेक्ट भेजें](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) और साथ में सीधे ब्राउज़र में खेलने का लिंक, वास्तविक गेमप्ले का स्क्रीनशॉट और GPT-6 Astra के उपयोग का विवरण दें।
@@ -53,6 +53,13 @@
   - GPT-6 Astra: [रचनाकार के एक ही अनुरोध से निर्माण के परीक्षण और मूल प्रॉम्प्ट](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - विकास संसाधन: [स्रोत कोड](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/mosswing/src) · [स्वतंत्र HTML फ़ाइल](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/mosswing/mosswing.html)
   - पूर्वावलोकन: ![Mosswing की शुरुआती स्क्रीन पर उड़ता पात्र और पत्थर के खंभों के बीच के रास्ते दिखते हैं।](assets/screenshots/mosswing/gameplay.jpg)
+
+- **[Astra Floor](https://astrafloor.berochlu.workers.dev/)** — रिकॉइल नियंत्रण, स्टैमिना प्रबंधन और कटाना हमलों के साथ बढ़ती ज़ॉम्बी लहरों और अंतिम बॉस का सामना करने वाला 3D प्रथम-व्यक्ति सर्वाइवल शूटर।
+  - रचनाकार: [BEROCHLU](https://github.com/BEROCHLU)
+  - प्लैटफ़ॉर्म: WebGL वाला डेस्कटॉप ब्राउज़र; कीबोर्ड और माउस। निर्माता के अनुसार मुफ़्त, बिना लॉगिन या इंस्टॉलेशन।
+  - GPT-6 Astra: [Issue #96](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/96) — निर्माता के अनुसार GPT-6 Astra ने संरचना, प्रक्रियात्मक 3D निर्माण और Web Audio ध्वनि संश्लेषण में मदद की; Antigravity 2.0 का उपयोग बाकी कार्यान्वयन और सुधार में हुआ।
+  - विकास संसाधन: [सोर्स कोड](https://github.com/BEROCHLU/astrafloor) · React, Three.js, TypeScript, Web Audio · [2026-09-18](assets/screenshots/astra-floor/SOURCE.md)
+  - पूर्वावलोकन: ![निर्माता का गेमप्ले चित्र: राइफल से ज़ॉम्बी लहर का सामना।](assets/screenshots/astra-floor/gameplay.png)
 
 - **[Stadium Elite — El Clásico](https://stadium-elite.mindblown.ai/)** — 3D स्टेडियम में बार्सिलोना और रियल मैड्रिड का 11 बनाम 11 फुटबॉल मैच खेलें; पास दें, शॉट लगाएँ और खिलाड़ी बदलें।
   - निर्माता: [Mindblown / @mind](https://mindblown.ai/@mind)

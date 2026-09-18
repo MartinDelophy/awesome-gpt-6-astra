@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 89](https://img.shields.io/badge/Cases-89-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 90](https://img.shields.io/badge/Cases-90-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **GPT-6 Astra로 만든 흥미로운 게임을 모았습니다.**
 
@@ -22,9 +22,9 @@
 
 ## 여기서 시작하기
 
-현재 **게임 및 인터랙티브 작품 89개**를 소개합니다. 삼국지 영토 전략, 나무 결합 퍼즐과 슬라이딩 퍼즐, 부드러운 과일 합치기, 절차적 도시 건설 2048, 원버튼 비행, 마법 양탄자 전투, 5개 스테이지의 탄막 슈팅, 섬의 전력망을 이용한 타워 디펜스, 야생 생존, 수중 낚시와 초밥집 경영 및 섬 농사, 베이 서킷 카트 레이싱, 펠리컨과 함께하는 해안 자전거 달리기, 탁상 장난감을 옮긴 3D 게임, 3D 집 꾸미기, 그리고 Orbital Garden을 만나 보세요. 작품명을 누르면 브라우저에서 바로 플레이할 수 있습니다.
+현재 **게임 및 인터랙티브 작품 90개**를 소개합니다. 삼국지 영토 전략, 나무 결합 퍼즐과 슬라이딩 퍼즐, 부드러운 과일 합치기, 절차적 도시 건설 2048, 원버튼 비행, 마법 양탄자 전투, 5개 스테이지의 탄막 슈팅, 섬의 전력망을 이용한 타워 디펜스, 야생 생존, 수중 낚시와 초밥집 경영 및 섬 농사, 베이 서킷 카트 레이싱, 펠리컨과 함께하는 해안 자전거 달리기, 탁상 장난감을 옮긴 3D 게임, 3D 집 꾸미기, 그리고 Orbital Garden을 만나 보세요. 작품명을 누르면 브라우저에서 바로 플레이할 수 있습니다.
 
-목록 업데이트: **2026-09-15**. 모델 사용 정보는 제작자 또는 제출자의 설명을 바탕으로 하며, 미확인 내용은 각 항목에 표시합니다. 이 날짜는 목록 관리 날짜이며 모든 게임을 다시 플레이 테스트한 날짜가 아닙니다.
+목록 업데이트: **2026-09-18**. 모델 사용 정보는 제작자 또는 제출자의 설명을 바탕으로 하며, 미확인 내용은 각 항목에 표시합니다. 이 날짜는 목록 관리 날짜이며 모든 게임을 다시 플레이 테스트한 날짜가 아닙니다.
 
 - **할 게임을 찾고 있나요?** 아래 장르에서 마음에 드는 작품을 찾아보세요.
 - **게임을 만들었나요?** [프로젝트를 제출](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml)할 때 브라우저에서 바로 플레이할 수 있는 링크, 실제 게임 화면, GPT-6 Astra를 어떻게 활용했는지에 대한 설명을 첨부해 주세요.
@@ -53,6 +53,13 @@
   - GPT-6 Astra: [제작자의 원샷 테스트와 최초 프롬프트](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - 개발 자료: [소스 코드](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/mosswing/src) · [단일 HTML 파일](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/mosswing/mosswing.html)
   - 미리보기: ![Mosswing 시작 화면에 날아다니는 캐릭터와 돌기둥 사이의 틈이 보입니다.](assets/screenshots/mosswing/gameplay.jpg)
+
+- **[Astra Floor](https://astrafloor.berochlu.workers.dev/)** — 반동 제어, 체력 관리, 카타나 공격으로 점점 강해지는 좀비 무리와 최종 보스에 맞서는 3D 1인칭 생존 슈팅 게임.
+  - 제작자: [BEROCHLU](https://github.com/BEROCHLU)
+  - 플랫폼: WebGL 지원 데스크톱 브라우저, 키보드와 마우스. 제작자에 따르면 무료이며 로그인이나 설치가 필요 없음.
+  - GPT-6 Astra: [Issue #96](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/96) — 제작자는 GPT-6 Astra를 구조 설계, 절차적 3D 생성과 Web Audio 음향 합성에, Antigravity 2.0을 추가 구현과 개선에 사용했다고 설명함.
+  - 개발 자료: [소스 코드](https://github.com/BEROCHLU/astrafloor) · React, Three.js, TypeScript, Web Audio · [2026-09-18](assets/screenshots/astra-floor/SOURCE.md)
+  - 미리보기: ![제작자 제공 게임 화면: 소총으로 좀비 무리와 전투.](assets/screenshots/astra-floor/gameplay.png)
 
 - **[Stadium Elite — El Clásico](https://stadium-elite.mindblown.ai/)** — 3D 경기장에서 바르셀로나와 레알 마드리드의 11인제 축구를 즐기며 패스, 슛, 선수 전환을 조작합니다.
   - 제작자: [Mindblown / @mind](https://mindblown.ai/@mind)

@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 139](https://img.shields.io/badge/Cases-139-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 140](https://img.shields.io/badge/Cases-140-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **收集用 GPT-6 Astra 制作的有趣游戏。**
 
@@ -20,7 +20,7 @@
 
 ## 从这里开始
 
-目前收录 **139 个游戏与互动作品**：三国领土策略、木锁拆解与华容道、半流体水果合成、程序化城市建造 2048、单键飞行、魔毯战斗、五关弹幕射击、海岛电网塔防、荒野生存、水下捕鱼、寿司店经营与海岛种植、海湾卡丁车竞速、鹈鹕海岸骑行、桌面玩具的 3D 改编、3D 家居装修，以及轨道花园。点击作品名称即可直接进入在线游戏。
+目前收录 **140 个游戏与互动作品**：三国领土策略、木锁拆解与华容道、半流体水果合成、程序化城市建造 2048、单键飞行、魔毯战斗、五关弹幕射击、海岛电网塔防、荒野生存、水下捕鱼、寿司店经营与海岛种植、海湾卡丁车竞速、鹈鹕海岸骑行、桌面玩具的 3D 改编、3D 家居装修，以及轨道花园。点击作品名称即可直接进入在线游戏。
 
 目录更新：**2026-09-18**。模型使用信息依据作者或投稿者的说明，未确认内容在具体条目中标注。此日期表示目录维护时间，不代表当天重新试玩了所有游戏。
 
@@ -51,6 +51,13 @@
   - GPT-6 Astra：[作者的 One Shot 测试与原始 Prompt](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md)。
   - 开发资料：[源码](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/mosswing/src) · [单文件 HTML](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/mosswing/mosswing.html)
   - 预览：![Mosswing 起始画面：飞行角色与石柱之间的障碍间隙。](assets/screenshots/mosswing/gameplay.jpg)
+
+- **[Astra Floor](https://astrafloor.berochlu.workers.dev/)** — 3D 第一人称僵尸生存射击：控制后坐力、管理冲刺体力，使用武士刀抵御逐渐增强的敌潮并挑战最终首领。
+  - 作者: [BEROCHLU](https://github.com/BEROCHLU)
+  - 平台: 支持 WebGL 的桌面浏览器；键盘与鼠标。作者说明免费、无需登录或安装。
+  - GPT-6 Astra: [Issue #96](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/96) — 作者说明 GPT-6 Astra 参与项目架构、程序化 3D 生成和 Web Audio 音效合成，Antigravity 2.0 参与其余实现与迭代完善。
+  - 开发资料: [源码](https://github.com/BEROCHLU/astrafloor) · React, Three.js, TypeScript, Web Audio · [2026-09-18](assets/screenshots/astra-floor/SOURCE.md)
+  - 预览: ![作者提供的实机截图：使用步枪迎战僵尸群。](assets/screenshots/astra-floor/gameplay.png)
 
 - **[Stadium Elite — El Clásico](https://stadium-elite.mindblown.ai/)** — 在 3D 球场进行巴塞罗那对皇家马德里的 11 人制比赛，传球、射门并切换球员。
   - 作者: [Mindblown / @mind](https://mindblown.ai/@mind)

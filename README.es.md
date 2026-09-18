@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 89](https://img.shields.io/badge/Cases-89-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 90](https://img.shields.io/badge/Cases-90-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Una colección de juegos interesantes creados con GPT-6 Astra.**
 
@@ -22,9 +22,9 @@ Esta página es una traducción del [README en inglés](README.md). Consulta el 
 
 ## Empieza aquí
 
-Explora **89 juegos y proyectos interactivos**: estrategia territorial de los Tres Reinos, rompecabezas de madera entrelazada y de piezas deslizantes, fusión de frutas deformables, 2048 de construcción de ciudades con generación procedural, vuelo con un solo botón, combates en alfombra mágica, un shooter de lluvia de balas con cinco niveles, defensa de una isla mediante una red eléctrica, supervivencia en la naturaleza, pesca submarina, gestión de un restaurante de sushi y agricultura en una isla, carreras de karts en Bay Circuit, ciclismo costero con un pelícano, juguetes de mesa adaptados a 3D, decoración de hogares en 3D y Orbital Garden. Haz clic en un título para jugar directamente en el navegador.
+Explora **90 juegos y proyectos interactivos**: estrategia territorial de los Tres Reinos, rompecabezas de madera entrelazada y de piezas deslizantes, fusión de frutas deformables, 2048 de construcción de ciudades con generación procedural, vuelo con un solo botón, combates en alfombra mágica, un shooter de lluvia de balas con cinco niveles, defensa de una isla mediante una red eléctrica, supervivencia en la naturaleza, pesca submarina, gestión de un restaurante de sushi y agricultura en una isla, carreras de karts en Bay Circuit, ciclismo costero con un pelícano, juguetes de mesa adaptados a 3D, decoración de hogares en 3D y Orbital Garden. Haz clic en un título para jugar directamente en el navegador.
 
-Catálogo actualizado: **2026-09-15**. El uso del modelo se documenta según las declaraciones de los creadores o remitentes; los datos sin confirmar se señalan en cada entrada. Esta fecha corresponde al mantenimiento del catálogo, no a una nueva prueba de todos los juegos.
+Catálogo actualizado: **2026-09-18**. El uso del modelo se documenta según las declaraciones de los creadores o remitentes; los datos sin confirmar se señalan en cada entrada. Esta fecha corresponde al mantenimiento del catálogo, no a una nueva prueba de todos los juegos.
 
 - **¿Buscas algo para jugar?** Explora los géneros de abajo.
 - **¿Has creado un juego?** [Envía tu proyecto](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) con un enlace directo al juego en el navegador, una captura del juego y una explicación de cómo utilizaste GPT-6 Astra.
@@ -53,6 +53,13 @@ Juegos de disparos, lucha, supervivencia, ritmo y cualquier propuesta que invite
   - GPT-6 Astra: [Pruebas en una sola generación y prompts originales del creador](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - Recursos: [Código fuente](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/mosswing/src) · [HTML independiente](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/mosswing/mosswing.html)
   - Vista previa: ![Pantalla de inicio de Mosswing con el personaje volador y los huecos entre pilares de piedra.](assets/screenshots/mosswing/gameplay.jpg)
+
+- **[Astra Floor](https://astrafloor.berochlu.workers.dev/)** — Sobrevive a oleadas de zombis y un jefe final en un FPS 3D con control del retroceso, gestión de resistencia y ataques con katana.
+  - Creador: [BEROCHLU](https://github.com/BEROCHLU)
+  - Plataforma: Navegador de escritorio con WebGL, teclado y ratón. Gratis, sin iniciar sesión ni instalar nada, según el creador.
+  - GPT-6 Astra: [Issue #96](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/96) — El creador atribuye a GPT-6 Astra la arquitectura, la generación 3D procedural y la síntesis Web Audio; Antigravity 2.0 participó en la implementación restante y las mejoras.
+  - Recursos: [Código fuente](https://github.com/BEROCHLU/astrafloor) · React, Three.js, TypeScript, Web Audio · [2026-09-18](assets/screenshots/astra-floor/SOURCE.md)
+  - Vista previa: ![Captura del creador: combate con rifle contra una oleada de zombis.](assets/screenshots/astra-floor/gameplay.png)
 
 - **[Stadium Elite — El Clásico](https://stadium-elite.mindblown.ai/)** — Juega un partido de fútbol de once contra once entre Barcelona y Real Madrid en un estadio 3D, con pases, tiros y cambio de jugador.
   - Creador: [Mindblown / @mind](https://mindblown.ai/@mind)
