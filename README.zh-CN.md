@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 150](https://img.shields.io/badge/Cases-150-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 160](https://img.shields.io/badge/Cases-160-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **收集用 GPT-6 Astra 制作的有趣游戏。**
 
@@ -20,11 +20,11 @@
 
 ## 从这里开始
 
-目前收录 **150 个游戏与互动作品**：三国领土策略、木锁拆解与华容道、半流体水果合成、程序化城市建造 2048、单键飞行、魔毯战斗、五关弹幕射击、海岛电网塔防、荒野生存、水下捕鱼、寿司店经营与海岛种植、海湾卡丁车竞速、鹈鹕海岸骑行、桌面玩具的 3D 改编、3D 家居装修，以及轨道花园。点击作品名称即可直接进入在线游戏。
+目前收录 **160 个游戏与互动作品**：三国领土策略、木锁拆解与华容道、半流体水果合成、程序化城市建造 2048、单键飞行、魔毯战斗、五关弹幕射击、海岛电网塔防、荒野生存、水下捕鱼、寿司店经营与海岛种植、海湾卡丁车竞速、鹈鹕海岸骑行、桌面玩具的 3D 改编、3D 家居装修，以及轨道花园。点击作品名称即可直接进入在线游戏。
 
-目录更新：**2026-09-20**。模型使用信息依据作者或投稿者的说明，未确认内容在具体条目中标注。此日期表示目录维护时间，不代表当天重新试玩了所有游戏。
+目录更新：**2026-09-21**。模型使用信息依据作者或投稿者的说明，未确认内容在具体条目中标注。此日期表示目录维护时间，不代表当天重新试玩了所有游戏。
 
-最新新增：[9 月 20 日追加的 10 款直达在线游戏](docs/browser-games-2026-09-20.md)。上一批：[全网搜索后追加的 10 款在线游戏](docs/browser-games-2026-09-18.md)，附实机截图、作者依据与入口核验。[9 月 17 日新增的 10 款](docs/browser-games-2026-09-17.md)。[9 月 16 日新增的 10 款](docs/browser-games-2026-09-16.md)。[9 月 15 日新增的 10 款](docs/browser-games-2026-09-15.md)。[9 月 12 日新增的 10 款](docs/browser-games-2026-09-12.md)。此前新增：[Barrelbound: The Lost Cargo](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/73) 与 [Tidehook](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/74)，已同步全部 12 种 README 语言。[9 月 11 日新增的 10 款](docs/browser-games-2026-09-11.md) · [9 月 10 日新增的 10 款](docs/direct-play-x-games-2026-09-10.md) · [此前新增的 16 款](docs/x-high-traffic-games-2026-09-09.md)。
+最新新增：[9 月 21 日追加的 10 款直达在线游戏](docs/browser-games-2026-09-21.md)。上一批：[9 月 20 日追加的 10 款直达在线游戏](docs/browser-games-2026-09-20.md)。更早批次：[全网搜索后追加的 10 款在线游戏](docs/browser-games-2026-09-18.md)，附实机截图、作者依据与入口核验。[9 月 17 日新增的 10 款](docs/browser-games-2026-09-17.md)。[9 月 16 日新增的 10 款](docs/browser-games-2026-09-16.md)。[9 月 15 日新增的 10 款](docs/browser-games-2026-09-15.md)。[9 月 12 日新增的 10 款](docs/browser-games-2026-09-12.md)。此前新增：[Barrelbound: The Lost Cargo](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/73) 与 [Tidehook](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/74)，已同步全部 12 种 README 语言。[9 月 11 日新增的 10 款](docs/browser-games-2026-09-11.md) · [9 月 10 日新增的 10 款](docs/direct-play-x-games-2026-09-10.md) · [此前新增的 16 款](docs/x-high-traffic-games-2026-09-09.md)。
 
 - **想玩游戏：** 从下面的分类寻找你喜欢的玩法。
 - **做了游戏：** [提交你的作品](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml)，附上在线游戏直达入口、实机截图，以及使用 GPT-6 Astra 的说明。
@@ -320,6 +320,24 @@
   - GPT-6 Astra：[作者说明](https://x.com/illscience/status/2097059547328241971) — 作者说明使用 Astra 制作这款周末魂斗罗风格实验，并在回复中发布在线版本。 [核验记录](assets/screenshots/runner-stage-1/SOURCE.md)。
   - 预览：![RUNNER — Stage 1 实机画面](assets/screenshots/runner-stage-1/gameplay.jpg)
 
+- **[DRONE.IO — Proving Grounds](https://drone-io.vercel.app/)** — 驾驶无人机在本地竞技场躲避电脑对手，利用雷达寻找机会并逐步升级。
+  - 作者：[Angello](https://x.com/OMASMohamad)
+  - 平台：桌面浏览器；键鼠操作，免费免登录。
+  - GPT-6 Astra：[作者说明](https://x.com/OMASMohamad/status/2101830659358478516) — 作者说明使用 Astra 与 Three.js 制作 HTML5 竞技场原型。 [核验记录](assets/screenshots/drone-io/SOURCE.md)。
+  - 预览：![DRONE.IO — Proving Grounds 实机画面](assets/screenshots/drone-io/gameplay.jpg)
+
+- **[Neural Sight](https://monstercameron.github.io/Neural-Sight/)** — 在高斯泼溅实景构成的第一人称游戏原型中探索，体验武器影像、感染者与可投掷弹力球。
+  - 作者：[Earl Cameron](https://x.com/monstercameron)
+  - 平台：现代桌面浏览器，推荐 WebGPU；键鼠操作，免费免登录。首次媒体加载约 59 MiB，另需流式加载关卡。
+  - GPT-6 Astra：[作者说明](https://x.com/monstercameron/status/2097117275127959629) — 作者说明以 GPT-6 Astra 在约 24 小时内结合实景世界与 AI 生成的武器影像。 [核验记录](assets/screenshots/neural-sight/SOURCE.md)。
+  - 预览：![Neural Sight 实机画面](assets/screenshots/neural-sight/gameplay.jpg)
+
+- **[Knightmare — Medusa’s Temple](https://knightmare-medusa-3d.robin-hwang.chatgpt.site/)** — 在 Knightmare 的非官方 3D 首领战改编中射击、闪避，并释放净化迎战美杜莎。
+  - 作者：[MinHo Hwang](https://x.com/MinHoHwang1)
+  - 平台：浏览器；键鼠或屏幕动作按钮，免费免登录。韩文界面，非官方同人演示。
+  - GPT-6 Astra：[作者说明](https://x.com/MinHoHwang1/status/2096984386566815920) — 作者先用 ChatGPT 重构经典玩法，再使用 GPT-6 Astra 将其推进为可玩的演示。 [核验记录](assets/screenshots/knightmare-medusa/SOURCE.md)。
+  - 预览：![Knightmare — Medusa’s Temple 实机画面](assets/screenshots/knightmare-medusa/gameplay.jpg)
+
 ### 解谜与益智
 
 逻辑谜题、物理解谜、文字游戏与巧妙的小机关。
@@ -613,6 +631,24 @@
   - GPT-6 Astra：[作者说明](https://x.com/chrisjdimarco/status/2098919328368197682) — 作者使用 Astra Medium 与 High 制作微缩越野摩托模拟器，包括车手能力和赛道塑造。 [核验记录](assets/screenshots/mini-moto/SOURCE.md)。
   - 预览：![Mini Moto — Pine Ridge Park 实机画面](assets/screenshots/mini-moto/gameplay.jpg)
 
+- **[DASH / DINNER](https://play.agentgames.dev/g/g_Gkna3a8DsdOR3NCL/index.html)** — 接受限时外卖订单，以第一人称穿行城市，管理配送员体力并逐步升级交通工具。
+  - 作者：[Drakoniux](https://agentgames.dev/u/Drakoniux)
+  - 平台：桌面浏览器；键鼠操作，免费免登录。
+  - GPT-6 Astra：[作者说明](https://agentgames.dev/play/dash-dinner) — 作者在 AgentGames 页面明确将 GPT-6 Astra 标为编程模型，并公开配送游戏提示词。 [核验记录](assets/screenshots/dash-dinner/SOURCE.md)。
+  - 预览：![DASH / DINNER 实机画面](assets/screenshots/dash-dinner/gameplay.jpg)
+
+- **[Aegis Flora](https://murderszn.github.io/aegis-flora/game.html)** — 放置太阳朋克防御塔以改变敌人路径，在连续进攻中保护核心。
+  - 作者：[Joshua Ray / murderszn](https://x.com/jahflyx)
+  - 平台：桌面浏览器；键鼠操作，免费免登录。
+  - GPT-6 Astra：[作者说明](https://x.com/jahflyx/status/2101774133121958000) — 作者说明使用 Astra 制作带动态敌人寻路的塔防游戏。 [核验记录](assets/screenshots/aegis-flora/SOURCE.md)。
+  - 预览：![Aegis Flora 实机画面](assets/screenshots/aegis-flora/gameplay.jpg)
+
+- **[Stillwater · Aquarium](https://fish.kennyatx.com/)** — 照料淡水水族箱、投喂小鱼，通过水草与更大栖息地逐步扩展鱼缸。
+  - 作者：[Kenny Johnson](https://x.com/KennyJohnsonATX)
+  - 平台：浏览器；鼠标或触控操作，免费免登录；进度保存在当前设备。
+  - GPT-6 Astra：[作者说明](https://x.com/KennyJohnsonATX/status/2101744240095076416) — 作者说明使用 Astra 制作并在 Cloudflare 托管这款温馨水族馆游戏。 [核验记录](assets/screenshots/stillwater-aquarium/SOURCE.md)。
+  - 预览：![Stillwater · Aquarium 实机画面](assets/screenshots/stillwater-aquarium/gameplay.jpg)
+
 ### RPG 与冒险
 
 角色扮演、探索、叙事冒险与互动故事。
@@ -730,6 +766,12 @@
   - 平台：桌面浏览器；键鼠操作，建议佩戴耳机。免费免登录或 API 密钥，含恐怖画面。
   - GPT-6 Astra：[X](https://x.com/BlendiByl/status/2100442177159729336) — 作者使用 Codex 中的 GPT-6 Astra 迭代玩法、光照与音频；素材由 fal 工具生成，经 Blender 整理后导入 Three.js。 [核验记录](assets/screenshots/dont-look-away/SOURCE.md)。
   - 预览：![Saint Orison's chapel aisle, stone angels, flashlight and electrical-panel objective.](assets/screenshots/dont-look-away/gameplay.jpg)
+
+- **[Europe, the Game](https://play.justmovetoeurope.com/)** — 探索欧洲城市街区，在工作、体力、社交与虚拟日常预算之间进行取舍。
+  - 作者：[Lara Avci](https://x.com/laraavci_)
+  - 平台：浏览器；键鼠操作，免费免登录。可使用示例预算，无需输入个人信息。
+  - GPT-6 Astra：[作者说明](https://x.com/laraavci_/status/2100908545919123708) — 作者说明使用 Astra 制作覆盖十二座欧洲城市的游戏。 [核验记录](assets/screenshots/europe-the-game/SOURCE.md)。
+  - 预览：![Europe, the Game 实机画面](assets/screenshots/europe-the-game/gameplay.jpg)
 
 ### 平台跳跃与竞速
 
@@ -939,6 +981,18 @@
   - GPT-6 Astra：[作者说明](https://x.com/1banke/status/2096394721115390301) — 作者明确说明 GPT-6 Astra 通过快速制作与迭代将创意变为浏览器游戏。 [核验记录](assets/screenshots/duskline-canyon-circuit/SOURCE.md)。
   - 预览：![DUSKLINE — Canyon Circuit 实机画面](assets/screenshots/duskline-canyon-circuit/gameplay.jpg)
 
+- **[RED FLAG GAME](https://seimusic.info/file/red_flag_game.html)** — 驾车往返机场与家，留意限速、红绿灯和剩余驾照分数。
+  - 作者：[SEI](https://x.com/seimusic)
+  - 平台：浏览器；键盘或屏幕驾驶按钮，免费免登录。日文界面，非官方同人游戏。
+  - GPT-6 Astra：[作者说明](https://x.com/seimusic/status/2098045891781480757) — 作者说明这款驾驶游戏是在 GPT-6 Astra 发布时开始制作的 ChatGPT 项目。 [核验记录](assets/screenshots/red-flag-game/SOURCE.md)。
+  - 预览：![RED FLAG GAME 实机画面](assets/screenshots/red-flag-game/gameplay.jpg)
+
+- **[Flappy Bird · Click to Fly](https://flappy-click-arcade-sept26.wesley-blomquist96.chatgpt.site/)** — 通过适时点击或轻触让小鸟保持飞行，穿过水管间隙，体验简洁的街机改编。
+  - 作者：[Wesley Blomquist](https://x.com/Chief1496)
+  - 平台：浏览器；点击、轻触、空格或向上键拍翅，免费免登录。非官方改编。
+  - GPT-6 Astra：[作者说明](https://x.com/Chief1496/status/2096347522226684105) — 作者在征集 Astra 作品的原帖下直接回复，分享了这款约五分钟制作的 Flappy Bird 改编。 [核验记录](assets/screenshots/flappy-click-to-fly/SOURCE.md)。
+  - 预览：![Flappy Bird · Click to Fly 实机画面](assets/screenshots/flappy-click-to-fly/gameplay.jpg)
+
 ### 实验玩法与多人游戏
 
 难以归类的新玩法、联机对战与合作体验。
@@ -1011,6 +1065,12 @@
   - 平台：桌面浏览器；键鼠操作，免费免登录。
   - GPT-6 Astra：[作者说明](https://x.com/crtvTeknologist/status/2096980188126986533) — 作者说明使用 Astra 与 Three.js 制作泡泡纸游乐场。 [核验记录](assets/screenshots/bubble-wrap-simulator/SOURCE.md)。
   - 预览：![Bubble Wrap Simulator 实机画面](assets/screenshots/bubble-wrap-simulator/gameplay.jpg)
+
+- **[Loulou’s Apartment](https://loulous-apartment.vercel.app/)** — 探索温馨的公寓游戏，与日常物品互动，并抚摸小狗 Maggie。
+  - 作者：[Louise de Sadeleer](https://x.com/LouiseDSadeleer)
+  - 平台：浏览器；鼠标与键盘操作，免费免登录。
+  - GPT-6 Astra：[作者说明](https://x.com/LouiseDSadeleer/status/2098340442500653368) — 作者说明使用 GPT-6 Astra 将自己的公寓与日常习惯制作成游戏。 [核验记录](assets/screenshots/loulous-apartment/SOURCE.md)。
+  - 预览：![Loulou’s Apartment 实机画面](assets/screenshots/loulous-apartment/gameplay.jpg)
 
 ## 每个作品记录什么
 
