@@ -45,13 +45,6 @@ This is a community-maintained list with no affiliation to OpenAI. Inclusion is 
 
 Shooters, fighters, survival games, rhythm games, and anything that invites one more round.
 
-- **[Clock Out Unseen / 准点下班，别被发现](https://www.bilibili.com/toy/clockout-unseen/index.html)** — Sneak out of an office across three timed levels, using furniture, coffee distractions and a six-second folder disguise to evade patrols and reach the elevator.
-  - Creator: [Ryan-fm](https://github.com/Ryan-fm)
-  - Platform: Desktop and mobile browsers; Chinese UI, keyboard or touch controls. Free, no installation or mandatory sign-in; hosted on Bilibili Toy. Single-player with local best times.
-  - GPT-6 Astra: [Creator's development record](https://github.com/Ryan-fm/clockout-unseen/blob/main/docs/DEVELOPMENT.md) — Iterative gameplay design, React/Canvas implementation, collision and sightline logic, patrols, three-level progression and tests in Codex. Artwork was produced with a separate image-generation tool; not a one-shot build.
-  - Resources: [Source and setup](https://github.com/Ryan-fm/clockout-unseen) · [Selected prompts](https://github.com/Ryan-fm/clockout-unseen/blob/main/docs/DEVELOPMENT.md) · Built with: React, Vite, Canvas 2D and Web Audio.
-  - Preview: ![Published three-level version, captured 2026-09-22: the player behind office desks, yellow patrol sight cones, a folder pickup and the elevator exit.](https://raw.githubusercontent.com/Ryan-fm/clockout-unseen/main/docs/gameplay.jpg)
-
 - **[Mosswing](https://mosswing-quiet-flight.jack-514.chatgpt.site/)** — A 3D tap-to-flap game about flying through gaps and building your score.
   - Creator: [Ayi1337](https://github.com/Ayi1337)
   - Platform: Browser, designed for mobile.
@@ -344,6 +337,13 @@ Shooters, fighters, survival games, rhythm games, and anything that invites one 
   - Platform: Browser; keyboard/mouse or on-screen action buttons, free without login. Korean interface; unofficial fan demo.
   - GPT-6 Astra: [Creator statement](https://x.com/MinHoHwang1/status/2096984386566815920) — The creator used ChatGPT for the initial reimagining and GPT-6 Astra to develop it further into a playable demo. [Verification notes](assets/screenshots/knightmare-medusa/SOURCE.md).
   - Preview: ![Player casting purification opposite Medusa, with score, health and cooldown HUD.](assets/screenshots/knightmare-medusa/gameplay.jpg)
+
+- **[Clock Out Unseen / 准点下班，别被发现](https://www.bilibili.com/toy/clockout-unseen/index.html)** — Sneak out of an office across three timed levels, using furniture, coffee distractions and a six-second folder disguise to evade patrols and reach the elevator.
+  - Creator: [Ryan-fm](https://github.com/Ryan-fm)
+  - Platform: Desktop and mobile browsers; Chinese UI, keyboard or touch controls. Free, no installation or mandatory sign-in; hosted on Bilibili Toy. Single-player with local best times.
+  - GPT-6 Astra: [Creator's development record](https://github.com/Ryan-fm/clockout-unseen/blob/main/docs/DEVELOPMENT.md) — Iterative gameplay design, React/Canvas implementation, collision and sightline logic, patrols, three-level progression and tests in Codex. Artwork was produced with a separate image-generation tool; not a one-shot build.
+  - Resources: [Source and setup](https://github.com/Ryan-fm/clockout-unseen) · [Selected prompts](https://github.com/Ryan-fm/clockout-unseen/blob/main/docs/DEVELOPMENT.md) · Built with: React, Vite, Canvas 2D and Web Audio.
+  - Preview: ![Published three-level version, captured 2026-09-22: the player behind office desks, yellow patrol sight cones, a folder pickup and the elevator exit.](https://raw.githubusercontent.com/Ryan-fm/clockout-unseen/main/docs/gameplay.jpg)
 
 ### Puzzles & brain games
 

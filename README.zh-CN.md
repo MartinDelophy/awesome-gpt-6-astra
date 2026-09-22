@@ -45,13 +45,6 @@
 
 射击、格斗、生存、节奏，以及追求“再来一局”的作品。
 
-- **[准点下班，别被发现 / Clock Out Unseen](https://www.bilibili.com/toy/clockout-unseen/index.html)** — 在三关限时办公室潜行中，借助家具掩体、咖啡机和六秒文件夹伪装避开巡逻，赶到电梯下班。
-  - 作者：[Ryan-fm](https://github.com/Ryan-fm)
-  - 平台：电脑和手机浏览器；中文界面，键盘或触控操作。免费，无需安装或强制登录；B站 Toy 托管。单人，本机保存最快成绩。
-  - GPT-6 Astra：[作者开发记录](https://github.com/Ryan-fm/clockout-unseen/blob/main/docs/DEVELOPMENT.md) — 在 Codex 中迭代完成玩法设计、React/Canvas 实现、碰撞与视野检测、巡逻、三关流程和测试；美术使用独立图像生成工具，不是一次提示生成。
-  - 开发资料：[源码与运行说明](https://github.com/Ryan-fm/clockout-unseen) · [需求提示词摘录](https://github.com/Ryan-fm/clockout-unseen/blob/main/docs/DEVELOPMENT.md) · 技术：React、Vite、Canvas 2D、Web Audio。
-  - 预览：![2026-09-22 截取的三关正式版：玩家躲在办公桌后，主管黄色巡逻视野、文件夹拾取点与电梯出口清晰可见。](https://raw.githubusercontent.com/Ryan-fm/clockout-unseen/main/docs/gameplay.jpg)
-
 - **[Mosswing](https://mosswing-quiet-flight.jack-514.chatgpt.site/)** — 3D 单键飞行，控制小翼穿越障碍间隙得分。
   - 作者：[Ayi1337](https://github.com/Ayi1337)
   - 平台：浏览器，面向移动端设计。
@@ -344,6 +337,13 @@
   - 平台：浏览器；键鼠或屏幕动作按钮，免费免登录。韩文界面，非官方同人演示。
   - GPT-6 Astra：[作者说明](https://x.com/MinHoHwang1/status/2096984386566815920) — 作者先用 ChatGPT 重构经典玩法，再使用 GPT-6 Astra 将其推进为可玩的演示。 [核验记录](assets/screenshots/knightmare-medusa/SOURCE.md)。
   - 预览：![Knightmare — Medusa’s Temple 实机画面](assets/screenshots/knightmare-medusa/gameplay.jpg)
+
+- **[准点下班，别被发现 / Clock Out Unseen](https://www.bilibili.com/toy/clockout-unseen/index.html)** — 在三关限时办公室潜行中，借助家具掩体、咖啡机和六秒文件夹伪装避开巡逻，赶到电梯下班。
+  - 作者：[Ryan-fm](https://github.com/Ryan-fm)
+  - 平台：电脑和手机浏览器；中文界面，键盘或触控操作。免费，无需安装或强制登录；B站 Toy 托管。单人，本机保存最快成绩。
+  - GPT-6 Astra：[作者开发记录](https://github.com/Ryan-fm/clockout-unseen/blob/main/docs/DEVELOPMENT.md) — 在 Codex 中迭代完成玩法设计、React/Canvas 实现、碰撞与视野检测、巡逻、三关流程和测试；美术使用独立图像生成工具，不是一次提示生成。
+  - 开发资料：[源码与运行说明](https://github.com/Ryan-fm/clockout-unseen) · [需求提示词摘录](https://github.com/Ryan-fm/clockout-unseen/blob/main/docs/DEVELOPMENT.md) · 技术：React、Vite、Canvas 2D、Web Audio。
+  - 预览：![2026-09-22 截取的三关正式版：玩家躲在办公桌后，主管黄色巡逻视野、文件夹拾取点与电梯出口清晰可见。](https://raw.githubusercontent.com/Ryan-fm/clockout-unseen/main/docs/gameplay.jpg)
 
 ### 解谜与益智
 
