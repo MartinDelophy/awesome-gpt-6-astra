@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 90](https://img.shields.io/badge/Cases-90-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 91](https://img.shields.io/badge/Cases-91-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Eine Sammlung interessanter Spiele, die mit GPT-6 Astra entwickelt wurden.**
 
@@ -22,9 +22,9 @@ Diese Seite übersetzt die [englische README](README.md). Aktuelle Änderungen l
 
 ## Hier anfangen
 
-Entdecke **90 Spiele und interaktive Projekte**: Gebietsstrategie zur Zeit der Drei Reiche, Holz-Steckpuzzles und Schiebepuzzles lösen, weiche Früchte verschmelzen, 2048 mit prozeduralem Städtebau, mit einer Taste fliegen, auf einem fliegenden Teppich kämpfen, ein Bullet-Hell-Shooter mit fünf Stufen, eine Insel mit einem Stromnetz verteidigen, in der Wildnis überleben, unter Wasser fischen, ein Sushi-Restaurant betreiben und eine Insel bewirtschaften, Kartrennen auf Bay Circuit, eine Küstenradtour mit einem Pelikan, Tischspielzeug als 3D-Spiele, 3D-Wohnraumgestaltung und Orbital Garden. Ein Klick auf einen Titel öffnet das Spiel direkt im Browser.
+Entdecke **91 Spiele und interaktive Projekte**: Gebietsstrategie zur Zeit der Drei Reiche, Holz-Steckpuzzles und Schiebepuzzles lösen, weiche Früchte verschmelzen, 2048 mit prozeduralem Städtebau, mit einer Taste fliegen, auf einem fliegenden Teppich kämpfen, ein Bullet-Hell-Shooter mit fünf Stufen, eine Insel mit einem Stromnetz verteidigen, in der Wildnis überleben, unter Wasser fischen, ein Sushi-Restaurant betreiben und eine Insel bewirtschaften, Kartrennen auf Bay Circuit, eine Küstenradtour mit einem Pelikan, Tischspielzeug als 3D-Spiele, 3D-Wohnraumgestaltung und Orbital Garden. Ein Klick auf einen Titel öffnet das Spiel direkt im Browser.
 
-Katalog aktualisiert: **2026-09-18**. Angaben zur Modellnutzung beruhen auf Aussagen der Ersteller oder Einreichenden; unbestätigte Details sind im jeweiligen Eintrag markiert. Das Datum bezeichnet die Katalogpflege, keinen erneuten Spieltest aller Spiele.
+Katalog aktualisiert: **2026-09-26**. Angaben zur Modellnutzung beruhen auf Aussagen der Ersteller oder Einreichenden; unbestätigte Details sind im jeweiligen Eintrag markiert. Das Datum bezeichnet die Katalogpflege, keinen erneuten Spieltest aller Spiele.
 
 - **Du möchtest spielen?** Stöbere in den Genres unten.
 - **Du hast ein Spiel entwickelt?** [Reiche dein Projekt ein](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) und füge einen direkten Link zum Browserspiel, einen Screenshot aus dem Spiel und eine Beschreibung deiner Nutzung von GPT-6 Astra hinzu.
@@ -53,6 +53,13 @@ Shooter, Kampf-, Überlebens- und Rhythmusspiele sowie alles, was zu einer weite
   - GPT-6 Astra: [One-Shot-Tests und ursprüngliche Prompts des Entwicklers](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - Materialien: [Quellcode](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/mosswing/src) · [Eigenständige HTML-Datei](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/mosswing/mosswing.html)
   - Vorschau: ![Mosswing-Startbildschirm mit der fliegenden Spielfigur und den Lücken zwischen Steinsäulen.](assets/screenshots/mosswing/gameplay.jpg)
+
+- **[JellyBlob.win](https://jellyblob.win/)** — Sammle Tropfen, schneide Rivalen mit verbundenen Spuren den Weg ab und überspringe Gefahren in einer Multiplayer-Gelee-Arena, in der geschickte Positionierung auch kleine Spieler gewinnen lässt.
+  - Entwickler: [kvickan](https://buymeacoffee.com/kvickan)
+  - Plattform: Desktop-/Mobilbrowser mit WebGL; Tastatur/Maus oder Touch, laut Entwickler ohne Anmeldung.
+  - GPT-6 Astra: [Issue #103](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/103) — Der Entwickler berichtet von drei umfangreichen Entwicklungssitzungen mit GPT-6 Astra.
+  - Materialien: [v0.9.5 · 2026-09-25](assets/screenshots/jellyblob/SOURCE.md)
+  - Vorschau: ![Vom Entwickler bereitgestellte Spiel-Lobby, v0.9.5 (2026-09-25).](assets/screenshots/jellyblob/gameplay.jpg)
 
 - **[Astra Floor](https://astrafloor.berochlu.workers.dev/)** — Überlebe immer stärkere Zombiewellen und einen Endboss in einem 3D-Ego-Shooter mit Rückstoßkontrolle, Ausdauerverwaltung und Katana-Angriffen.
   - Entwickler: [BEROCHLU](https://github.com/BEROCHLU)
