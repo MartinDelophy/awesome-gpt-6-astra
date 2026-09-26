@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 90](https://img.shields.io/badge/Cases-90-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 91](https://img.shields.io/badge/Cases-91-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Une sélection de jeux intéressants créés avec GPT-6 Astra.**
 
@@ -22,9 +22,9 @@ Cette page traduit le [README anglais](README.md). Consultez l’original pour v
 
 ## Pour commencer
 
-Découvrez **90 jeux et projets interactifs** : stratégie territoriale des Trois Royaumes, puzzles en bois à emboîtement et à glissement, fusion de fruits déformables, 2048 de construction urbaine avec génération procédurale, vol à une touche, combats sur tapis volant, un jeu de tir à rideaux de balles en cinq niveaux, défense d’île par un réseau électrique, survie en pleine nature, pêche sous-marine, gestion d’un restaurant de sushis et agriculture insulaire, course de karts sur Bay Circuit, balade côtière à vélo avec un pélican, jouets de table adaptés en 3D, décoration intérieure en 3D et Orbital Garden. Cliquez sur un titre pour jouer directement dans le navigateur.
+Découvrez **91 jeux et projets interactifs** : stratégie territoriale des Trois Royaumes, puzzles en bois à emboîtement et à glissement, fusion de fruits déformables, 2048 de construction urbaine avec génération procédurale, vol à une touche, combats sur tapis volant, un jeu de tir à rideaux de balles en cinq niveaux, défense d’île par un réseau électrique, survie en pleine nature, pêche sous-marine, gestion d’un restaurant de sushis et agriculture insulaire, course de karts sur Bay Circuit, balade côtière à vélo avec un pélican, jouets de table adaptés en 3D, décoration intérieure en 3D et Orbital Garden. Cliquez sur un titre pour jouer directement dans le navigateur.
 
-Mise à jour du catalogue : **2026-09-18**. L’utilisation du modèle est renseignée d’après les déclarations des créateurs ou des contributeurs ; les points non confirmés sont signalés dans chaque fiche. Cette date correspond à la maintenance du catalogue, pas à un nouveau test de tous les jeux.
+Mise à jour du catalogue : **2026-09-26**. L’utilisation du modèle est renseignée d’après les déclarations des créateurs ou des contributeurs ; les points non confirmés sont signalés dans chaque fiche. Cette date correspond à la maintenance du catalogue, pas à un nouveau test de tous les jeux.
 
 - **Envie de jouer ?** Parcourez les genres ci-dessous.
 - **Vous avez créé un jeu ?** [Proposez votre projet](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) avec un lien direct vers le jeu dans le navigateur, une capture en jeu et une explication de votre utilisation de GPT-6 Astra.
@@ -53,6 +53,13 @@ Jeux de tir, de combat, de survie, de rythme et tous ceux qui donnent envie de r
   - GPT-6 Astra: [Tests en une seule génération et prompts d’origine du créateur](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - Ressources: [Code source](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/mosswing/src) · [HTML autonome](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/mosswing/mosswing.html)
   - Aperçu: ![Écran de démarrage de Mosswing avec le personnage volant et les passages entre les piliers de pierre.](assets/screenshots/mosswing/gameplay.jpg)
+
+- **[JellyBlob.win](https://jellyblob.win/)** — Ramassez des gouttes, bloquez vos rivaux avec vos traînées et sautez par-dessus le danger dans une arène multijoueur où le placement permet aux petits de battre les grands.
+  - Créateur: [kvickan](https://buymeacoffee.com/kvickan)
+  - Plateforme: Navigateur ordinateur/mobile avec WebGL ; clavier/souris ou tactile, sans connexion selon le créateur.
+  - GPT-6 Astra: [Issue #103](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/103) — Le créateur indique avoir développé le jeu en trois longues sessions avec GPT-6 Astra.
+  - Ressources: [v0.9.5 · 2026-09-25](assets/screenshots/jellyblob/SOURCE.md)
+  - Aperçu: ![Lobby du jeu fourni par le créateur, v0.9.5 (2026-09-25).](assets/screenshots/jellyblob/gameplay.jpg)
 
 - **[Astra Floor](https://astrafloor.berochlu.workers.dev/)** — Affrontez des vagues de zombies et un boss final dans un FPS 3D mêlant contrôle du recul, gestion de l’endurance et attaques au katana.
   - Créateur: [BEROCHLU](https://github.com/BEROCHLU)
