@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 91](https://img.shields.io/badge/Cases-91-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 92](https://img.shields.io/badge/Cases-92-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **GPT-6 Astra से बनाए गए दिलचस्प गेमों का संग्रह।**
 
@@ -22,9 +22,9 @@
 
 ## यहाँ से शुरू करें
 
-यहाँ **91 खेल और इंटरैक्टिव परियोजनाएँ** शामिल हैं: तीन राज्यों की क्षेत्रीय रणनीति, एक-दूसरे में फँसे लकड़ी के टुकड़ों और खिसकने वाले ब्लॉकों की पहेलियाँ, मुलायम फलों को मिलाना, प्रक्रियात्मक शहर निर्माण वाला 2048, एक बटन से उड़ान, जादुई कालीन पर लड़ाई, पाँच स्तरों वाला बुलेट-हेल शूटर, बिजली के नेटवर्क से द्वीप की रक्षा, जंगल में जीवित रहना, पानी के नीचे मछली पकड़ना, सुशी रेस्तराँ चलाना और द्वीप पर खेती करना, Bay Circuit पर कार्ट रेसिंग, पेलिकन के साथ तट पर साइकिल चलाना, टेबलटॉप खिलौनों के 3D रूपांतरण, 3D घर की सजावट और Orbital Garden। किसी शीर्षक पर क्लिक करके सीधे ब्राउज़र में गेम खेलें।
+यहाँ **92 खेल और इंटरैक्टिव परियोजनाएँ** शामिल हैं: तीन राज्यों की क्षेत्रीय रणनीति, एक-दूसरे में फँसे लकड़ी के टुकड़ों और खिसकने वाले ब्लॉकों की पहेलियाँ, मुलायम फलों को मिलाना, प्रक्रियात्मक शहर निर्माण वाला 2048, एक बटन से उड़ान, जादुई कालीन पर लड़ाई, पाँच स्तरों वाला बुलेट-हेल शूटर, बिजली के नेटवर्क से द्वीप की रक्षा, जंगल में जीवित रहना, पानी के नीचे मछली पकड़ना, सुशी रेस्तराँ चलाना और द्वीप पर खेती करना, Bay Circuit पर कार्ट रेसिंग, पेलिकन के साथ तट पर साइकिल चलाना, टेबलटॉप खिलौनों के 3D रूपांतरण, 3D घर की सजावट और Orbital Garden। किसी शीर्षक पर क्लिक करके सीधे ब्राउज़र में गेम खेलें।
 
-सूची अपडेट: **2026-09-26**। मॉडल के उपयोग की जानकारी रचनाकारों या प्रस्तुतकर्ताओं के कथनों पर आधारित है; अपुष्ट विवरण संबंधित प्रविष्टियों में चिह्नित हैं। यह तारीख सूची के रखरखाव की है, सभी गेमों के दोबारा परीक्षण की नहीं।
+सूची अपडेट: **2026-09-28**। मॉडल के उपयोग की जानकारी रचनाकारों या प्रस्तुतकर्ताओं के कथनों पर आधारित है; अपुष्ट विवरण संबंधित प्रविष्टियों में चिह्नित हैं। यह तारीख सूची के रखरखाव की है, सभी गेमों के दोबारा परीक्षण की नहीं।
 
 - **खेलने के लिए कुछ ढूँढ़ रहे हैं?** नीचे दी गई श्रेणियाँ देखें।
 - **आपने कोई गेम बनाया है?** [अपना प्रोजेक्ट भेजें](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) और साथ में सीधे ब्राउज़र में खेलने का लिंक, वास्तविक गेमप्ले का स्क्रीनशॉट और GPT-6 Astra के उपयोग का विवरण दें।
@@ -53,6 +53,13 @@
   - GPT-6 Astra: [रचनाकार के एक ही अनुरोध से निर्माण के परीक्षण और मूल प्रॉम्प्ट](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - विकास संसाधन: [स्रोत कोड](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/mosswing/src) · [स्वतंत्र HTML फ़ाइल](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/mosswing/mosswing.html)
   - पूर्वावलोकन: ![Mosswing की शुरुआती स्क्रीन पर उड़ता पात्र और पत्थर के खंभों के बीच के रास्ते दिखते हैं।](assets/screenshots/mosswing/gameplay.jpg)
+
+- **[SURGE for Oinja](https://oinja-game.vercel.app/)** — स्वचालित हमलों वाला तीसरे व्यक्ति का सर्वाइवल गेम: विद्युत क्षमताओं और सहायक मशीनों को जोड़ें, दो नक्शों पर सुविधाएँ ठीक करें और बॉस के लिए तैयार हों।
+  - रचनाकार: [Olivia](https://github.com/Olivia295)
+  - प्लैटफ़ॉर्म: डेस्कटॉप WebGL ब्राउज़र और कीबोर्ड; निर्माता के अनुसार मुफ़्त, बिना इंस्टॉलेशन, लॉगिन या API कुंजी। मोबाइल टच समर्थित नहीं।
+  - GPT-6 Astra: [Issue #106](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/106) — निर्माता ने मूल Oinja दुनिया, रचनात्मक दिशा और परीक्षण दिए; Codex में Astra ने लड़ाई, क्षमता संयोजन, परिवेश, UI और डिबगिंग में मदद की।
+  - विकास संसाधन: [GitHub](https://github.com/Olivia295/SURGE-for-Oinja) · [Oinja](https://oinja-website.vercel.app/) · TypeScript, Three.js, Rapier, Vite · [2026-09-28](assets/screenshots/surge-for-oinja/SOURCE.md)
+  - पूर्वावलोकन: ![निर्माता का Tidal Observatory गेमप्ले चित्र, सहायक मशीन के साथ।](assets/screenshots/surge-for-oinja/observatory.png)
 
 - **[JellyBlob.win](https://jellyblob.win/)** — बूँदें इकट्ठी करें, जुड़े हुए निशानों से प्रतिद्वंद्वियों का रास्ता रोकें और खतरे के ऊपर कूदें। इस मल्टीप्लेयर जेली एरीना में सही स्थिति से छोटे खिलाड़ी भी बड़े खिलाड़ियों को हरा सकते हैं।
   - रचनाकार: [kvickan](https://buymeacoffee.com/kvickan)

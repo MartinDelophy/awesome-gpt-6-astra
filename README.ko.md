@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 91](https://img.shields.io/badge/Cases-91-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 92](https://img.shields.io/badge/Cases-92-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **GPT-6 Astra로 만든 흥미로운 게임을 모았습니다.**
 
@@ -22,9 +22,9 @@
 
 ## 여기서 시작하기
 
-현재 **게임 및 인터랙티브 작품 91개**를 소개합니다. 삼국지 영토 전략, 나무 결합 퍼즐과 슬라이딩 퍼즐, 부드러운 과일 합치기, 절차적 도시 건설 2048, 원버튼 비행, 마법 양탄자 전투, 5개 스테이지의 탄막 슈팅, 섬의 전력망을 이용한 타워 디펜스, 야생 생존, 수중 낚시와 초밥집 경영 및 섬 농사, 베이 서킷 카트 레이싱, 펠리컨과 함께하는 해안 자전거 달리기, 탁상 장난감을 옮긴 3D 게임, 3D 집 꾸미기, 그리고 Orbital Garden을 만나 보세요. 작품명을 누르면 브라우저에서 바로 플레이할 수 있습니다.
+현재 **게임 및 인터랙티브 작품 92개**를 소개합니다. 삼국지 영토 전략, 나무 결합 퍼즐과 슬라이딩 퍼즐, 부드러운 과일 합치기, 절차적 도시 건설 2048, 원버튼 비행, 마법 양탄자 전투, 5개 스테이지의 탄막 슈팅, 섬의 전력망을 이용한 타워 디펜스, 야생 생존, 수중 낚시와 초밥집 경영 및 섬 농사, 베이 서킷 카트 레이싱, 펠리컨과 함께하는 해안 자전거 달리기, 탁상 장난감을 옮긴 3D 게임, 3D 집 꾸미기, 그리고 Orbital Garden을 만나 보세요. 작품명을 누르면 브라우저에서 바로 플레이할 수 있습니다.
 
-목록 업데이트: **2026-09-26**. 모델 사용 정보는 제작자 또는 제출자의 설명을 바탕으로 하며, 미확인 내용은 각 항목에 표시합니다. 이 날짜는 목록 관리 날짜이며 모든 게임을 다시 플레이 테스트한 날짜가 아닙니다.
+목록 업데이트: **2026-09-28**. 모델 사용 정보는 제작자 또는 제출자의 설명을 바탕으로 하며, 미확인 내용은 각 항목에 표시합니다. 이 날짜는 목록 관리 날짜이며 모든 게임을 다시 플레이 테스트한 날짜가 아닙니다.
 
 - **할 게임을 찾고 있나요?** 아래 장르에서 마음에 드는 작품을 찾아보세요.
 - **게임을 만들었나요?** [프로젝트를 제출](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml)할 때 브라우저에서 바로 플레이할 수 있는 링크, 실제 게임 화면, GPT-6 Astra를 어떻게 활용했는지에 대한 설명을 첨부해 주세요.
@@ -53,6 +53,13 @@
   - GPT-6 Astra: [제작자의 원샷 테스트와 최초 프롬프트](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - 개발 자료: [소스 코드](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/mosswing/src) · [단일 HTML 파일](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/mosswing/mosswing.html)
   - 미리보기: ![Mosswing 시작 화면에 날아다니는 캐릭터와 돌기둥 사이의 틈이 보입니다.](assets/screenshots/mosswing/gameplay.jpg)
+
+- **[SURGE for Oinja](https://oinja-game.vercel.app/)** — 자동 공격 기반의 3인칭 생존 게임. 전기 능력과 지원 기계를 조합하고 두 맵의 시설을 복구하며 보스전에 대비합니다.
+  - 제작자: [Olivia](https://github.com/Olivia295)
+  - 플랫폼: 데스크톱 WebGL 브라우저와 키보드. 제작자에 따르면 무료이며 설치·로그인·API 키 불필요. 모바일 터치 미지원.
+  - GPT-6 Astra: [Issue #106](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/106) — 제작자가 독창적인 Oinja 세계관과 방향, 테스트를 맡고 Codex의 Astra로 전투, 능력 연계, 환경, UI와 디버깅을 반복 개발했습니다.
+  - 개발 자료: [GitHub](https://github.com/Olivia295/SURGE-for-Oinja) · [Oinja](https://oinja-website.vercel.app/) · TypeScript, Three.js, Rapier, Vite · [2026-09-28](assets/screenshots/surge-for-oinja/SOURCE.md)
+  - 미리보기: ![제작자 제공 Tidal Observatory 게임 화면과 지원 기계.](assets/screenshots/surge-for-oinja/observatory.png)
 
 - **[JellyBlob.win](https://jellyblob.win/)** — 물방울을 모으고 연결된 궤적으로 상대를 막으며 점프로 위험을 피하는 멀티플레이 젤리 아레나. 작은 플레이어도 위치 선정으로 큰 상대를 이길 수 있습니다.
   - 제작자: [kvickan](https://buymeacoffee.com/kvickan)

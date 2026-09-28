@@ -6,7 +6,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 91](https://img.shields.io/badge/Cases-91-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 92](https://img.shields.io/badge/Cases-92-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **مجموعة من الألعاب الممتعة المصنوعة باستخدام GPT-6 Astra.**
 
@@ -24,9 +24,9 @@
 
 ## ابدأ من هنا
 
-استكشف **91 لعبة ومشروعًا تفاعليًا**: استراتيجية السيطرة على الأراضي في عصر الممالك الثلاث، ألغاز خشبية متشابكة وألغاز الكتل المنزلقة، دمج الفواكه المرنة، ولعبة 2048 لبناء المدن بالتوليد الإجرائي، والطيران بزر واحد، والقتال على بساط سحري، ولعبة تصويب كثيفة الرصاص من خمس مراحل، والدفاع عن جزيرة بشبكة كهربائية، والبقاء في البرية، وصيد الأسماك تحت الماء وإدارة مطعم سوشي والزراعة على جزيرة، وسباقات الكارت على حلبة الخليج، وركوب الدراجة مع بجع على الساحل، وألعاب طاولة محوّلة إلى ألعاب ثلاثية الأبعاد، وتصميم ديكور المنازل ثلاثي الأبعاد، وOrbital Garden. انقر على اسم العمل لفتح اللعبة مباشرة في المتصفح.
+استكشف **92 لعبة ومشروعًا تفاعليًا**: استراتيجية السيطرة على الأراضي في عصر الممالك الثلاث، ألغاز خشبية متشابكة وألغاز الكتل المنزلقة، دمج الفواكه المرنة، ولعبة 2048 لبناء المدن بالتوليد الإجرائي، والطيران بزر واحد، والقتال على بساط سحري، ولعبة تصويب كثيفة الرصاص من خمس مراحل، والدفاع عن جزيرة بشبكة كهربائية، والبقاء في البرية، وصيد الأسماك تحت الماء وإدارة مطعم سوشي والزراعة على جزيرة، وسباقات الكارت على حلبة الخليج، وركوب الدراجة مع بجع على الساحل، وألعاب طاولة محوّلة إلى ألعاب ثلاثية الأبعاد، وتصميم ديكور المنازل ثلاثي الأبعاد، وOrbital Garden. انقر على اسم العمل لفتح اللعبة مباشرة في المتصفح.
 
-تحديث القائمة: **2026-09-26**. تستند معلومات استخدام النموذج إلى تصريحات المؤلفين أو مقدّمي الأعمال؛ وتُوضّح التفاصيل غير المؤكدة في كل بند. يشير هذا التاريخ إلى تحديث القائمة، وليس إلى إعادة اختبار جميع الألعاب.
+تحديث القائمة: **2026-09-28**. تستند معلومات استخدام النموذج إلى تصريحات المؤلفين أو مقدّمي الأعمال؛ وتُوضّح التفاصيل غير المؤكدة في كل بند. يشير هذا التاريخ إلى تحديث القائمة، وليس إلى إعادة اختبار جميع الألعاب.
 
 - **تبحث عن لعبة؟** تصفح الأنواع أدناه.
 - **صنعت لعبة؟** [أرسل مشروعك](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) مع رابط مباشر للعب في المتصفح، ولقطة شاشة فعلية من اللعبة، وشرح لكيفية استخدامك GPT-6 Astra.
@@ -55,6 +55,13 @@
   - GPT-6 Astra: [اختبارات المبدع بالتوليد من طلب واحد والموجّهات الأصلية](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - موارد التطوير: [الشفرة المصدرية](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/mosswing/src) · [ملف HTML مستقل](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/mosswing/mosswing.html)
   - معاينة: ![شاشة بدء Mosswing وتظهر الشخصية الطائرة والفجوات بين الأعمدة الحجرية.](assets/screenshots/mosswing/gameplay.jpg)
+
+- **[SURGE for Oinja](https://oinja-game.vercel.app/)** — لعبة بقاء من منظور الشخص الثالث بهجمات تلقائية: اجمع القدرات الكهربائية وآلات الدعم وأصلح المنشآت في خريطتين واستعد للزعيم.
+  - المبدع: [Olivia](https://github.com/Olivia295)
+  - المنصة: متصفح حاسوب يدعم WebGL ولوحة مفاتيح؛ مجانية دون تثبيت أو تسجيل دخول أو مفتاح API بحسب المؤلفة. لا تدعم اللمس على الهاتف.
+  - GPT-6 Astra: [Issue #106](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/106) — قدمت المؤلفة عالم Oinja الأصلي والتوجيه والاختبارات؛ وساعد Astra في Codex في القتال وتآزر القدرات والبيئات والواجهة وتصحيح الأخطاء.
+  - موارد التطوير: [GitHub](https://github.com/Olivia295/SURGE-for-Oinja) · [Oinja](https://oinja-website.vercel.app/) · TypeScript, Three.js, Rapier, Vite · [2026-09-28](assets/screenshots/surge-for-oinja/SOURCE.md)
+  - معاينة: ![صورة من المؤلفة: Tidal Observatory مع آلة دعم.](assets/screenshots/surge-for-oinja/observatory.png)
 
 - **[JellyBlob.win](https://jellyblob.win/)** — اجمع القطرات واقطع طريق المنافسين بمسارات متصلة واقفز فوق الخطر في ساحة هلامية متعددة اللاعبين، حيث يتيح التموضع الجيد للصغار هزيمة الكبار.
   - المبدع: [kvickan](https://buymeacoffee.com/kvickan)

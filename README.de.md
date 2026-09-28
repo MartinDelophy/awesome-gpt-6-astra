@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 91](https://img.shields.io/badge/Cases-91-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 92](https://img.shields.io/badge/Cases-92-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Eine Sammlung interessanter Spiele, die mit GPT-6 Astra entwickelt wurden.**
 
@@ -22,9 +22,9 @@ Diese Seite übersetzt die [englische README](README.md). Aktuelle Änderungen l
 
 ## Hier anfangen
 
-Entdecke **91 Spiele und interaktive Projekte**: Gebietsstrategie zur Zeit der Drei Reiche, Holz-Steckpuzzles und Schiebepuzzles lösen, weiche Früchte verschmelzen, 2048 mit prozeduralem Städtebau, mit einer Taste fliegen, auf einem fliegenden Teppich kämpfen, ein Bullet-Hell-Shooter mit fünf Stufen, eine Insel mit einem Stromnetz verteidigen, in der Wildnis überleben, unter Wasser fischen, ein Sushi-Restaurant betreiben und eine Insel bewirtschaften, Kartrennen auf Bay Circuit, eine Küstenradtour mit einem Pelikan, Tischspielzeug als 3D-Spiele, 3D-Wohnraumgestaltung und Orbital Garden. Ein Klick auf einen Titel öffnet das Spiel direkt im Browser.
+Entdecke **92 Spiele und interaktive Projekte**: Gebietsstrategie zur Zeit der Drei Reiche, Holz-Steckpuzzles und Schiebepuzzles lösen, weiche Früchte verschmelzen, 2048 mit prozeduralem Städtebau, mit einer Taste fliegen, auf einem fliegenden Teppich kämpfen, ein Bullet-Hell-Shooter mit fünf Stufen, eine Insel mit einem Stromnetz verteidigen, in der Wildnis überleben, unter Wasser fischen, ein Sushi-Restaurant betreiben und eine Insel bewirtschaften, Kartrennen auf Bay Circuit, eine Küstenradtour mit einem Pelikan, Tischspielzeug als 3D-Spiele, 3D-Wohnraumgestaltung und Orbital Garden. Ein Klick auf einen Titel öffnet das Spiel direkt im Browser.
 
-Katalog aktualisiert: **2026-09-26**. Angaben zur Modellnutzung beruhen auf Aussagen der Ersteller oder Einreichenden; unbestätigte Details sind im jeweiligen Eintrag markiert. Das Datum bezeichnet die Katalogpflege, keinen erneuten Spieltest aller Spiele.
+Katalog aktualisiert: **2026-09-28**. Angaben zur Modellnutzung beruhen auf Aussagen der Ersteller oder Einreichenden; unbestätigte Details sind im jeweiligen Eintrag markiert. Das Datum bezeichnet die Katalogpflege, keinen erneuten Spieltest aller Spiele.
 
 - **Du möchtest spielen?** Stöbere in den Genres unten.
 - **Du hast ein Spiel entwickelt?** [Reiche dein Projekt ein](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) und füge einen direkten Link zum Browserspiel, einen Screenshot aus dem Spiel und eine Beschreibung deiner Nutzung von GPT-6 Astra hinzu.
@@ -53,6 +53,13 @@ Shooter, Kampf-, Überlebens- und Rhythmusspiele sowie alles, was zu einer weite
   - GPT-6 Astra: [One-Shot-Tests und ursprüngliche Prompts des Entwicklers](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - Materialien: [Quellcode](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/mosswing/src) · [Eigenständige HTML-Datei](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/mosswing/mosswing.html)
   - Vorschau: ![Mosswing-Startbildschirm mit der fliegenden Spielfigur und den Lücken zwischen Steinsäulen.](assets/screenshots/mosswing/gameplay.jpg)
+
+- **[SURGE for Oinja](https://oinja-game.vercel.app/)** — Ein Survivors-Spiel aus der dritten Person mit automatischen Angriffen: Kombiniere elektrische Fähigkeiten und Unterstützungsmaschinen, repariere Anlagen auf zwei Karten und bereite dich auf den Boss vor.
+  - Entwickler: [Olivia](https://github.com/Olivia295)
+  - Plattform: Desktop-WebGL-Browser und Tastatur; laut Entwicklerin kostenlos, ohne Installation, Anmeldung oder API-Schlüssel. Keine mobile Touchsteuerung.
+  - GPT-6 Astra: [Issue #106](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/106) — Die Entwicklerin liefert Oinja-Welt, kreative Richtung und Spieltests; Astra in Codex unterstützt Kampf, Synergien, Umgebungen, UI und Fehlerbehebung.
+  - Materialien: [GitHub](https://github.com/Olivia295/SURGE-for-Oinja) · [Oinja](https://oinja-website.vercel.app/) · TypeScript, Three.js, Rapier, Vite · [2026-09-28](assets/screenshots/surge-for-oinja/SOURCE.md)
+  - Vorschau: ![Spielbild der Entwicklerin: Tidal Observatory mit Unterstützungsmaschine.](assets/screenshots/surge-for-oinja/observatory.png)
 
 - **[JellyBlob.win](https://jellyblob.win/)** — Sammle Tropfen, schneide Rivalen mit verbundenen Spuren den Weg ab und überspringe Gefahren in einer Multiplayer-Gelee-Arena, in der geschickte Positionierung auch kleine Spieler gewinnen lässt.
   - Entwickler: [kvickan](https://buymeacoffee.com/kvickan)
