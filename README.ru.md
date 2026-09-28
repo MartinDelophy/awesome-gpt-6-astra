@@ -59,7 +59,7 @@
   - Платформа: Настольный WebGL-браузер и клавиатура; по словам автора, бесплатно, без установки, входа и API-ключа. Мобильное сенсорное управление не поддерживается.
   - GPT-6 Astra: [Issue #106](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/106) — Автор создал мир Oinja, задавал направление и тестировал игру; Astra в Codex помогал с боем, синергиями, окружением, интерфейсом и отладкой.
   - Материалы: [GitHub](https://github.com/Olivia295/SURGE-for-Oinja) · [Oinja](https://oinja-website.vercel.app/) · TypeScript, Three.js, Rapier, Vite · [2026-09-28](assets/screenshots/surge-for-oinja/SOURCE.md)
-  - Предпросмотр: ![Снимок автора: Tidal Observatory с машиной поддержки.](assets/screenshots/surge-for-oinja/observatory.png)
+  - Предпросмотр: ![Обложка, выбранная автором: меню SURGE, начальные способности и Old Harbor Workshop.](assets/screenshots/surge-for-oinja/cover.png)
 
 - **[JellyBlob.win](https://jellyblob.win/)** — Собирайте капли, отрезайте соперникам путь непрерывными следами и перепрыгивайте опасности на многопользовательской желейной арене: удачная позиция позволяет маленьким побеждать больших.
   - Автор: [kvickan](https://buymeacoffee.com/kvickan)

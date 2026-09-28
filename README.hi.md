@@ -59,7 +59,7 @@
   - प्लैटफ़ॉर्म: डेस्कटॉप WebGL ब्राउज़र और कीबोर्ड; निर्माता के अनुसार मुफ़्त, बिना इंस्टॉलेशन, लॉगिन या API कुंजी। मोबाइल टच समर्थित नहीं।
   - GPT-6 Astra: [Issue #106](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/106) — निर्माता ने मूल Oinja दुनिया, रचनात्मक दिशा और परीक्षण दिए; Codex में Astra ने लड़ाई, क्षमता संयोजन, परिवेश, UI और डिबगिंग में मदद की।
   - विकास संसाधन: [GitHub](https://github.com/Olivia295/SURGE-for-Oinja) · [Oinja](https://oinja-website.vercel.app/) · TypeScript, Three.js, Rapier, Vite · [2026-09-28](assets/screenshots/surge-for-oinja/SOURCE.md)
-  - पूर्वावलोकन: ![निर्माता का Tidal Observatory गेमप्ले चित्र, सहायक मशीन के साथ।](assets/screenshots/surge-for-oinja/observatory.png)
+  - पूर्वावलोकन: ![निर्माता का चुना कवर: SURGE मेन्यू, शुरुआती क्षमताएँ और Old Harbor Workshop।](assets/screenshots/surge-for-oinja/cover.png)
 
 - **[JellyBlob.win](https://jellyblob.win/)** — बूँदें इकट्ठी करें, जुड़े हुए निशानों से प्रतिद्वंद्वियों का रास्ता रोकें और खतरे के ऊपर कूदें। इस मल्टीप्लेयर जेली एरीना में सही स्थिति से छोटे खिलाड़ी भी बड़े खिलाड़ियों को हरा सकते हैं।
   - रचनाकार: [kvickan](https://buymeacoffee.com/kvickan)

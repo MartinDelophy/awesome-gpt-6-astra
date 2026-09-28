@@ -61,7 +61,7 @@
   - المنصة: متصفح حاسوب يدعم WebGL ولوحة مفاتيح؛ مجانية دون تثبيت أو تسجيل دخول أو مفتاح API بحسب المؤلفة. لا تدعم اللمس على الهاتف.
   - GPT-6 Astra: [Issue #106](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/106) — قدمت المؤلفة عالم Oinja الأصلي والتوجيه والاختبارات؛ وساعد Astra في Codex في القتال وتآزر القدرات والبيئات والواجهة وتصحيح الأخطاء.
   - موارد التطوير: [GitHub](https://github.com/Olivia295/SURGE-for-Oinja) · [Oinja](https://oinja-website.vercel.app/) · TypeScript, Three.js, Rapier, Vite · [2026-09-28](assets/screenshots/surge-for-oinja/SOURCE.md)
-  - معاينة: ![صورة من المؤلفة: Tidal Observatory مع آلة دعم.](assets/screenshots/surge-for-oinja/observatory.png)
+  - معاينة: ![الغلاف الذي اختارته المؤلفة: قائمة SURGE والقدرات الأولية وOld Harbor Workshop.](assets/screenshots/surge-for-oinja/cover.png)
 
 - **[JellyBlob.win](https://jellyblob.win/)** — اجمع القطرات واقطع طريق المنافسين بمسارات متصلة واقفز فوق الخطر في ساحة هلامية متعددة اللاعبين، حيث يتيح التموضع الجيد للصغار هزيمة الكبار.
   - المبدع: [kvickan](https://buymeacoffee.com/kvickan)
