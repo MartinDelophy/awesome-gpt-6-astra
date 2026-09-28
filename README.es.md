@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 91](https://img.shields.io/badge/Cases-91-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 92](https://img.shields.io/badge/Cases-92-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Una colección de juegos interesantes creados con GPT-6 Astra.**
 
@@ -22,9 +22,9 @@ Esta página es una traducción del [README en inglés](README.md). Consulta el 
 
 ## Empieza aquí
 
-Explora **91 juegos y proyectos interactivos**: estrategia territorial de los Tres Reinos, rompecabezas de madera entrelazada y de piezas deslizantes, fusión de frutas deformables, 2048 de construcción de ciudades con generación procedural, vuelo con un solo botón, combates en alfombra mágica, un shooter de lluvia de balas con cinco niveles, defensa de una isla mediante una red eléctrica, supervivencia en la naturaleza, pesca submarina, gestión de un restaurante de sushi y agricultura en una isla, carreras de karts en Bay Circuit, ciclismo costero con un pelícano, juguetes de mesa adaptados a 3D, decoración de hogares en 3D y Orbital Garden. Haz clic en un título para jugar directamente en el navegador.
+Explora **92 juegos y proyectos interactivos**: estrategia territorial de los Tres Reinos, rompecabezas de madera entrelazada y de piezas deslizantes, fusión de frutas deformables, 2048 de construcción de ciudades con generación procedural, vuelo con un solo botón, combates en alfombra mágica, un shooter de lluvia de balas con cinco niveles, defensa de una isla mediante una red eléctrica, supervivencia en la naturaleza, pesca submarina, gestión de un restaurante de sushi y agricultura en una isla, carreras de karts en Bay Circuit, ciclismo costero con un pelícano, juguetes de mesa adaptados a 3D, decoración de hogares en 3D y Orbital Garden. Haz clic en un título para jugar directamente en el navegador.
 
-Catálogo actualizado: **2026-09-26**. El uso del modelo se documenta según las declaraciones de los creadores o remitentes; los datos sin confirmar se señalan en cada entrada. Esta fecha corresponde al mantenimiento del catálogo, no a una nueva prueba de todos los juegos.
+Catálogo actualizado: **2026-09-28**. El uso del modelo se documenta según las declaraciones de los creadores o remitentes; los datos sin confirmar se señalan en cada entrada. Esta fecha corresponde al mantenimiento del catálogo, no a una nueva prueba de todos los juegos.
 
 - **¿Buscas algo para jugar?** Explora los géneros de abajo.
 - **¿Has creado un juego?** [Envía tu proyecto](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) con un enlace directo al juego en el navegador, una captura del juego y una explicación de cómo utilizaste GPT-6 Astra.
@@ -53,6 +53,13 @@ Juegos de disparos, lucha, supervivencia, ritmo y cualquier propuesta que invite
   - GPT-6 Astra: [Pruebas en una sola generación y prompts originales del creador](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - Recursos: [Código fuente](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/mosswing/src) · [HTML independiente](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/mosswing/mosswing.html)
   - Vista previa: ![Pantalla de inicio de Mosswing con el personaje volador y los huecos entre pilares de piedra.](assets/screenshots/mosswing/gameplay.jpg)
+
+- **[SURGE for Oinja](https://oinja-game.vercel.app/)** — Supervivencia en tercera persona con ataques automáticos: combina poderes eléctricos y máquinas de apoyo, restaura instalaciones en dos mapas y prepárate para el jefe.
+  - Creador: [Olivia](https://github.com/Olivia295)
+  - Plataforma: Navegador WebGL de escritorio y teclado; gratis, sin instalación, cuenta ni clave API según la creadora. Sin controles táctiles móviles.
+  - GPT-6 Astra: [Issue #106](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/106) — La creadora aporta el universo original Oinja, dirección y pruebas; Astra en Codex ayuda con combate, sinergias, entornos, interfaz y depuración.
+  - Recursos: [GitHub](https://github.com/Olivia295/SURGE-for-Oinja) · [Oinja](https://oinja-website.vercel.app/) · TypeScript, Three.js, Rapier, Vite · [2026-09-28](assets/screenshots/surge-for-oinja/SOURCE.md)
+  - Vista previa: ![Captura de la creadora: Tidal Observatory con una máquina de apoyo.](assets/screenshots/surge-for-oinja/observatory.png)
 
 - **[JellyBlob.win](https://jellyblob.win/)** — Recoge gotas, corta el paso a tus rivales con estelas conectadas y salta sobre el peligro en una arena multijugador donde una buena posición permite vencer a jugadores más grandes.
   - Creador: [kvickan](https://buymeacoffee.com/kvickan)
