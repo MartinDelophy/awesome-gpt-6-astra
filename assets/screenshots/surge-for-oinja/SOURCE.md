@@ -18,7 +18,13 @@ No interactive browser was available for this review. Actual movement, combat an
 
 Both original 1440 × 900 images were supplied in issue #106 and retrieved/visually inspected on 2026-09-28. Capture date/version was not specified. They are creator-provided images, not reviewer captures.
 
-- `observatory.png` (catalog cover): Tidal Observatory gameplay, character, support machine, enemies and HUD. https://github.com/user-attachments/assets/8adca12c-6ede-46b3-96e7-128de3709de6
+- `observatory.png` (additional gameplay image): Tidal Observatory gameplay, character, support machine, enemies and HUD. https://github.com/user-attachments/assets/8adca12c-6ede-46b3-96e7-128de3709de6
 - `gameplay.png`: starting menu with abilities, map selection and Old Harbor Workshop. https://github.com/user-attachments/assets/543966a5-ef4d-4c02-95b8-6aeba9bb3a6c
 
 Game and image rights remain with their respective owners; catalog inclusion does not relicense them.
+
+## Cover update — 2026-09-28
+
+At Olivia's request in https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/106#issuecomment-5866939199, all 12 catalog previews now use `cover.png`: the SURGE menu, starting abilities and Old Harbor Workshop. The original 1440 × 900 image was downloaded and visually inspected; no image edits were made. Capture date/version was not specified. The prior gameplay image remains available above.
+
+Requested image: https://github.com/user-attachments/assets/a4e8a90f-3420-4012-ace5-3257f7793d4e

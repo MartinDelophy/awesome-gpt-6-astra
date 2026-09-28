@@ -59,7 +59,7 @@
   - 対応環境: デスクトップWebGLブラウザーとキーボード。作者によると無料でインストール・ログイン・APIキー不要。モバイルタッチ非対応。
   - GPT-6 Astra: [Issue #106](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/106) — 作者は独自のOinja世界観と創作方針、テストを担当し、CodexのAstraで戦闘、能力連携、環境、UI、デバッグを反復開発。
   - 開発資料: [GitHub](https://github.com/Olivia295/SURGE-for-Oinja) · [Oinja](https://oinja-website.vercel.app/) · TypeScript, Three.js, Rapier, Vite · [2026-09-28](assets/screenshots/surge-for-oinja/SOURCE.md)
-  - プレビュー: ![作者提供のTidal Observatory実機画面と支援マシン。](assets/screenshots/surge-for-oinja/observatory.png)
+  - プレビュー: ![作者指定の表紙：SURGEメニュー、初期能力とOld Harbor Workshop。](assets/screenshots/surge-for-oinja/cover.png)
 
 - **[JellyBlob.win](https://jellyblob.win/)** — 水滴を集め、つながった軌跡で相手を追い込み、ジャンプで危険を避けるマルチプレイのゼリーアリーナ。位置取り次第で小さなプレイヤーも大きな相手に勝てます。
   - 作者: [kvickan](https://buymeacoffee.com/kvickan)

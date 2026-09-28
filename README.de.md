@@ -59,7 +59,7 @@ Shooter, Kampf-, Überlebens- und Rhythmusspiele sowie alles, was zu einer weite
   - Plattform: Desktop-WebGL-Browser und Tastatur; laut Entwicklerin kostenlos, ohne Installation, Anmeldung oder API-Schlüssel. Keine mobile Touchsteuerung.
   - GPT-6 Astra: [Issue #106](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/106) — Die Entwicklerin liefert Oinja-Welt, kreative Richtung und Spieltests; Astra in Codex unterstützt Kampf, Synergien, Umgebungen, UI und Fehlerbehebung.
   - Materialien: [GitHub](https://github.com/Olivia295/SURGE-for-Oinja) · [Oinja](https://oinja-website.vercel.app/) · TypeScript, Three.js, Rapier, Vite · [2026-09-28](assets/screenshots/surge-for-oinja/SOURCE.md)
-  - Vorschau: ![Spielbild der Entwicklerin: Tidal Observatory mit Unterstützungsmaschine.](assets/screenshots/surge-for-oinja/observatory.png)
+  - Vorschau: ![Von der Entwicklerin gewähltes Titelbild: SURGE-Menü, Startfähigkeiten und Old Harbor Workshop.](assets/screenshots/surge-for-oinja/cover.png)
 
 - **[JellyBlob.win](https://jellyblob.win/)** — Sammle Tropfen, schneide Rivalen mit verbundenen Spuren den Weg ab und überspringe Gefahren in einer Multiplayer-Gelee-Arena, in der geschickte Positionierung auch kleine Spieler gewinnen lässt.
   - Entwickler: [kvickan](https://buymeacoffee.com/kvickan)

@@ -57,7 +57,7 @@ Shooters, fighters, survival games, rhythm games, and anything that invites one 
   - Platform: Desktop WebGL browser and keyboard; free, no installation, login or API key according to the creator. No mobile touch controls.
   - GPT-6 Astra: [Issue #106](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/106) — The creator used Astra in Codex for combat, synergies, environments, UI and debugging, while providing the original Oinja universe, creative direction and playtesting.
   - Resources: [GitHub](https://github.com/Olivia295/SURGE-for-Oinja) · [Oinja](https://oinja-website.vercel.app/) · TypeScript, Three.js, Rapier, Vite · [2026-09-28](assets/screenshots/surge-for-oinja/SOURCE.md)
-  - Preview: ![Creator-supplied Tidal Observatory gameplay with a support machine.](assets/screenshots/surge-for-oinja/observatory.png)
+  - Preview: ![Creator-selected cover: SURGE menu, starting abilities and Old Harbor Workshop.](assets/screenshots/surge-for-oinja/cover.png)
 
 - **[JellyBlob.win](https://jellyblob.win/)** — Collect droplets, outmaneuver rivals with connected trails and hop over danger in a multiplayer jelly arena where positioning lets small players beat larger ones.
   - Creator: [kvickan](https://buymeacoffee.com/kvickan)

@@ -59,7 +59,7 @@ Gim tembak-menembak, pertarungan, bertahan hidup, ritme, dan apa pun yang membua
   - Platform: Browser WebGL desktop dan keyboard; gratis tanpa instalasi, login atau kunci API menurut kreator. Tidak mendukung kontrol sentuh seluler.
   - GPT-6 Astra: [Issue #106](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/106) — Kreator menyediakan dunia asli Oinja, arah kreatif dan pengujian; Astra di Codex membantu pertarungan, sinergi, lingkungan, UI dan debugging.
   - Materi pengembangan: [GitHub](https://github.com/Olivia295/SURGE-for-Oinja) · [Oinja](https://oinja-website.vercel.app/) · TypeScript, Three.js, Rapier, Vite · [2026-09-28](assets/screenshots/surge-for-oinja/SOURCE.md)
-  - Pratinjau: ![Gambar dari kreator: Tidal Observatory dengan mesin pendukung.](assets/screenshots/surge-for-oinja/observatory.png)
+  - Pratinjau: ![Sampul pilihan kreator: menu SURGE, kemampuan awal dan Old Harbor Workshop.](assets/screenshots/surge-for-oinja/cover.png)
 
 - **[JellyBlob.win](https://jellyblob.win/)** — Kumpulkan tetesan, potong jalur lawan dengan jejak yang tersambung dan lompati bahaya dalam arena jeli multipemain; posisi yang tepat memungkinkan pemain kecil mengalahkan yang besar.
   - Kreator: [kvickan](https://buymeacoffee.com/kvickan)

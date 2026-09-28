@@ -57,7 +57,7 @@
   - 平台: 桌面 WebGL 浏览器与键盘；作者说明免费，无需安装、登录或 API 密钥。不支持手机触控。
   - GPT-6 Astra: [Issue #106](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/106) — 作者使用 Codex 中的 Astra 迭代开发战斗、技能联动、场景、界面和调试；Oinja 原创世界观、创意方向与试玩反馈由作者提供。
   - 开发资料: [GitHub](https://github.com/Olivia295/SURGE-for-Oinja) · [Oinja](https://oinja-website.vercel.app/) · TypeScript, Three.js, Rapier, Vite · [2026-09-28](assets/screenshots/surge-for-oinja/SOURCE.md)
-  - 预览: ![作者提供的潮汐观测站实机图，展示角色与支援机械。](assets/screenshots/surge-for-oinja/observatory.png)
+  - 预览: ![作者指定封面：SURGE 菜单、初始技能与旧港工坊。](assets/screenshots/surge-for-oinja/cover.png)
 
 - **[JellyBlob.win](https://jellyblob.win/)** — 多人果冻竞技场：收集水滴、用连续尾迹围堵对手并跳跃避险，小体型玩家也能通过走位击败大体型对手。
   - 作者: [kvickan](https://buymeacoffee.com/kvickan)

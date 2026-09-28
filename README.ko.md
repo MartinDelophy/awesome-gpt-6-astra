@@ -59,7 +59,7 @@
   - 플랫폼: 데스크톱 WebGL 브라우저와 키보드. 제작자에 따르면 무료이며 설치·로그인·API 키 불필요. 모바일 터치 미지원.
   - GPT-6 Astra: [Issue #106](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/106) — 제작자가 독창적인 Oinja 세계관과 방향, 테스트를 맡고 Codex의 Astra로 전투, 능력 연계, 환경, UI와 디버깅을 반복 개발했습니다.
   - 개발 자료: [GitHub](https://github.com/Olivia295/SURGE-for-Oinja) · [Oinja](https://oinja-website.vercel.app/) · TypeScript, Three.js, Rapier, Vite · [2026-09-28](assets/screenshots/surge-for-oinja/SOURCE.md)
-  - 미리보기: ![제작자 제공 Tidal Observatory 게임 화면과 지원 기계.](assets/screenshots/surge-for-oinja/observatory.png)
+  - 미리보기: ![제작자 지정 표지: SURGE 메뉴, 시작 능력과 Old Harbor Workshop.](assets/screenshots/surge-for-oinja/cover.png)
 
 - **[JellyBlob.win](https://jellyblob.win/)** — 물방울을 모으고 연결된 궤적으로 상대를 막으며 점프로 위험을 피하는 멀티플레이 젤리 아레나. 작은 플레이어도 위치 선정으로 큰 상대를 이길 수 있습니다.
   - 제작자: [kvickan](https://buymeacoffee.com/kvickan)
