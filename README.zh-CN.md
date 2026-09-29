@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 163](https://img.shields.io/badge/Cases-163-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 164](https://img.shields.io/badge/Cases-164-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **收集用 GPT-6 Astra 制作的有趣游戏。**
 
@@ -20,9 +20,9 @@
 
 ## 从这里开始
 
-目前收录 **163 个游戏与互动作品**：三国领土策略、木锁拆解与华容道、半流体水果合成、程序化城市建造 2048、单键飞行、魔毯战斗、五关弹幕射击、海岛电网塔防、荒野生存、水下捕鱼、寿司店经营与海岛种植、海湾卡丁车竞速、鹈鹕海岸骑行、桌面玩具的 3D 改编、3D 家居装修，以及轨道花园。点击作品名称即可直接进入在线游戏。
+目前收录 **164 个游戏与互动作品**：三国领土策略、木锁拆解与华容道、半流体水果合成、程序化城市建造 2048、单键飞行、魔毯战斗、五关弹幕射击、海岛电网塔防、荒野生存、水下捕鱼、寿司店经营与海岛种植、海湾卡丁车竞速、鹈鹕海岸骑行、桌面玩具的 3D 改编、3D 家居装修，以及轨道花园。点击作品名称即可直接进入在线游戏。
 
-目录更新：**2026-09-28**。模型使用信息依据作者或投稿者的说明，未确认内容在具体条目中标注。此日期表示目录维护时间，不代表当天重新试玩了所有游戏。
+目录更新：**2026-09-29**。模型使用信息依据作者或投稿者的说明，未确认内容在具体条目中标注。此日期表示目录维护时间，不代表当天重新试玩了所有游戏。
 
 最新新增：[9 月 21 日追加的 10 款直达在线游戏](docs/browser-games-2026-09-21.md)。上一批：[9 月 20 日追加的 10 款直达在线游戏](docs/browser-games-2026-09-20.md)。更早批次：[全网搜索后追加的 10 款在线游戏](docs/browser-games-2026-09-18.md)，附实机截图、作者依据与入口核验。[9 月 17 日新增的 10 款](docs/browser-games-2026-09-17.md)。[9 月 16 日新增的 10 款](docs/browser-games-2026-09-16.md)。[9 月 15 日新增的 10 款](docs/browser-games-2026-09-15.md)。[9 月 12 日新增的 10 款](docs/browser-games-2026-09-12.md)。此前新增：[Barrelbound: The Lost Cargo](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/73) 与 [Tidehook](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/74)，已同步全部 12 种 README 语言。[9 月 11 日新增的 10 款](docs/browser-games-2026-09-11.md) · [9 月 10 日新增的 10 款](docs/direct-play-x-games-2026-09-10.md) · [此前新增的 16 款](docs/x-high-traffic-games-2026-09-09.md)。
 
@@ -51,6 +51,13 @@
   - GPT-6 Astra：[作者的 One Shot 测试与原始 Prompt](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md)。
   - 开发资料：[源码](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/mosswing/src) · [单文件 HTML](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/mosswing/mosswing.html)
   - 预览：![Mosswing 起始画面：飞行角色与石柱之间的障碍间隙。](assets/screenshots/mosswing/gameplay.jpg)
+
+- **[沙线行动 / SANDLINE](https://ihca.cn/sandline/)** — 在沙漠旧城与 AI 队友协同进行单机 3 对 3 回合制交战，利用掩体、枪械与手雷争夺 A/B 爆破目标。
+  - 作者：[xilinnihao-afk / 一海千寻的AI实验室](https://github.com/xilinnihao-afk)
+  - 平台：支持 WebGL 的桌面或手机浏览器；键鼠或横屏触控。免费，无需登录、安装或 API Key；首次资源下载较大，建议 Wi-Fi。未独立验证实体手机性能。
+  - GPT-6 Astra：[投稿 #109](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/109) · [作者文章](https://zhuanlan.zhihu.com/p/2085289080955352314) — 投稿说明通过 Astra 辅助、多轮迭代完成 Three.js 实现、枪械反馈、动画、音效与调试，并非单次提示生成。
+  - 开发资料：[源码](https://github.com/xilinnihao-afk/sandline-threejs-fps) · [开发日志](https://github.com/xilinnihao-afk/sandline-threejs-fps/blob/main/DEVLOG.md) · Three.js、TypeScript、Vite · [审核与素材许可说明](docs/issue-submissions-2026-09-29.md#sandline--109)
+  - 预览：![投稿提供的 2026-09-29 实机截图：沙线行动战斗中的队友、枪械 HUD 与 A 点炸弹倒计时。](https://github.com/user-attachments/assets/0443c8e4-4060-49f2-af31-175138c4e6ab)
 
 - **[SURGE for Oinja](https://oinja-game.vercel.app/)** — 第三人称幸存者类游戏：自动攻击，组合电气技能与支援机械，在两张地图中修复设施、搭配成长路线并迎战首领。
   - 作者: [Olivia](https://github.com/Olivia295)
