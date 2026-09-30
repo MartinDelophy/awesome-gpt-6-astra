@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 92](https://img.shields.io/badge/Cases-92-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 93](https://img.shields.io/badge/Cases-93-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Kumpulan gim menarik yang dibuat dengan GPT-6 Astra.**
 
@@ -22,9 +22,9 @@ Halaman ini merupakan terjemahan [README bahasa Inggris](README.md). Periksa ver
 
 ## Mulai di sini
 
-Jelajahi **92 gim dan proyek interaktif**: strategi wilayah Tiga Kerajaan, teka-teki kayu yang saling mengunci dan teka-teki balok geser, penggabungan buah yang lentur, 2048 pembangunan kota dengan generasi prosedural, penerbangan satu tombol, pertempuran karpet ajaib, gim tembak-menembak dengan hujan peluru dalam lima level, pertahanan pulau dengan jaringan listrik, bertahan hidup di alam liar, menangkap ikan di bawah air, mengelola restoran sushi, dan bertani di pulau, balapan kart di Bay Circuit, bersepeda di pesisir bersama pelikan, mainan meja yang diadaptasi menjadi gim 3D, dekorasi rumah 3D, serta Orbital Garden. Klik judul untuk langsung bermain di peramban.
+Jelajahi **93 gim dan proyek interaktif**: strategi wilayah Tiga Kerajaan, teka-teki kayu yang saling mengunci dan teka-teki balok geser, penggabungan buah yang lentur, 2048 pembangunan kota dengan generasi prosedural, penerbangan satu tombol, pertempuran karpet ajaib, gim tembak-menembak dengan hujan peluru dalam lima level, pertahanan pulau dengan jaringan listrik, bertahan hidup di alam liar, menangkap ikan di bawah air, mengelola restoran sushi, dan bertani di pulau, balapan kart di Bay Circuit, bersepeda di pesisir bersama pelikan, mainan meja yang diadaptasi menjadi gim 3D, dekorasi rumah 3D, serta Orbital Garden. Klik judul untuk langsung bermain di peramban.
 
-Katalog diperbarui: **2026-09-28**. Informasi penggunaan model berdasarkan pernyataan kreator atau pengirim; detail yang belum dikonfirmasi ditandai pada setiap entri. Tanggal ini menunjukkan pemeliharaan katalog, bukan pengujian ulang seluruh gim.
+Katalog diperbarui: **2026-09-30**. Informasi penggunaan model berdasarkan pernyataan kreator atau pengirim; detail yang belum dikonfirmasi ditandai pada setiap entri. Tanggal ini menunjukkan pemeliharaan katalog, bukan pengujian ulang seluruh gim.
 
 - **Mencari gim untuk dimainkan?** Jelajahi genre di bawah ini.
 - **Sudah membuat gim?** [Ajukan proyek Anda](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) dengan tautan langsung ke gim di peramban, tangkapan layar permainan, dan penjelasan tentang penggunaan GPT-6 Astra.
@@ -53,6 +53,13 @@ Gim tembak-menembak, pertarungan, bertahan hidup, ritme, dan apa pun yang membua
   - GPT-6 Astra: [Pengujian sekali generasi dan prompt asli kreator](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - Materi pengembangan: [Kode sumber](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/mosswing/src) · [HTML mandiri](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/mosswing/mosswing.html)
   - Pratinjau: ![Layar awal Mosswing menampilkan karakter terbang dan celah di antara pilar batu.](assets/screenshots/mosswing/gameplay.jpg)
+
+- **[MIDWAY 1942: Air Strike](https://ihca.cn/midway/)** — Terbang bersama wingman, lawan pesawat pencegat dan bom dua kapal induk dengan menukik; gunakan prediksi titik benturan lalu isi pasokan di dekat kapal sekutu.
+  - Kreator: [xilinnihao-afk / 一海千寻的AI实验室](https://github.com/xilinnihao-afk)
+  - Platform: Browser WebGL2, keyboard/mouse dan sentuh. Menurut kiriman, gratis tanpa login, instalasi atau kunci API; performa ponsel fisik belum sepenuhnya diverifikasi.
+  - GPT-6 Astra: [Issue #110](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/110#issuecomment-5893086419) — Penulis mengonfirmasi pengembangan berulang dengan Astra di Codex untuk kontrol terbang, AI tempur, balistik, bom, integrasi dan debugging; bukan hasil satu prompt.
+  - Materi pengembangan: [2026-09-30 · Credits / CC BY / CC BY-NC](assets/screenshots/midway-1942/SOURCE.md) · JavaScript, Three.js, WebGL2
+  - Pratinjau: ![Tangkapan kiriman 2026-09-29: penerbangan laut, formasi, indikator bom dan HUD.](assets/screenshots/midway-1942/gameplay.png)
 
 - **[SURGE for Oinja](https://oinja-game.vercel.app/)** — Survival orang ketiga dengan serangan otomatis: gabungkan kemampuan listrik dan mesin pendukung, pulihkan fasilitas di dua peta dan bersiap menghadapi bos.
   - Kreator: [Olivia](https://github.com/Olivia295)
