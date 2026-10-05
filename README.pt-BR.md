@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 93](https://img.shields.io/badge/Cases-93-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 94](https://img.shields.io/badge/Cases-94-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Uma coleção de jogos interessantes feitos com GPT-6 Astra.**
 
@@ -22,9 +22,9 @@ Esta página é uma tradução do [README em inglês](README.md). Consulte o ori
 
 ## Comece por aqui
 
-Explore **93 jogos e projetos interativos**: estratégia territorial dos Três Reinos, quebra-cabeças de madeira com encaixes e peças deslizantes, fusão de frutas deformáveis, 2048 de construção de cidades com geração procedural, voo com um toque, combates em tapete mágico, um jogo de tiro com chuva de balas e cinco fases, defesa de uma ilha com uma rede elétrica, sobrevivência na natureza, pesca submarina, gestão de um restaurante de sushi e cultivo em uma ilha, corridas de kart no Bay Circuit, ciclismo pela costa com um pelicano, brinquedos de mesa adaptados para 3D, decoração de casas em 3D e Orbital Garden. Clique em um título para jogar diretamente no navegador.
+Explore **94 jogos e projetos interativos**: estratégia territorial dos Três Reinos, quebra-cabeças de madeira com encaixes e peças deslizantes, fusão de frutas deformáveis, 2048 de construção de cidades com geração procedural, voo com um toque, combates em tapete mágico, um jogo de tiro com chuva de balas e cinco fases, defesa de uma ilha com uma rede elétrica, sobrevivência na natureza, pesca submarina, gestão de um restaurante de sushi e cultivo em uma ilha, corridas de kart no Bay Circuit, ciclismo pela costa com um pelicano, brinquedos de mesa adaptados para 3D, decoração de casas em 3D e Orbital Garden. Clique em um título para jogar diretamente no navegador.
 
-Catálogo atualizado: **2026-09-30**. O uso do modelo é informado com base nas declarações dos criadores ou responsáveis pelas submissões; detalhes não confirmados são sinalizados em cada entrada. Esta data registra a manutenção do catálogo, não um novo teste de todos os jogos.
+Catálogo atualizado: **2026-10-05**. O uso do modelo é informado com base nas declarações dos criadores ou responsáveis pelas submissões; detalhes não confirmados são sinalizados em cada entrada. Esta data registra a manutenção do catálogo, não um novo teste de todos os jogos.
 
 - **Procurando algo para jogar?** Explore os gêneros abaixo.
 - **Criou um jogo?** [Envie seu projeto](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) com um link direto para jogar no navegador, uma captura de tela do jogo e uma descrição de como você usou GPT-6 Astra.
@@ -53,6 +53,13 @@ Jogos de tiro, luta, sobrevivência, ritmo e qualquer experiência que dê vonta
   - GPT-6 Astra: [Testes em uma única geração e prompts originais do criador](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - Recursos: [Código-fonte](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/mosswing/src) · [HTML independente](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/mosswing/mosswing.html)
   - Prévia: ![Tela inicial de Mosswing com o personagem voador e os espaços entre pilares de pedra.](assets/screenshots/mosswing/gameplay.jpg)
+
+- **[MoxRide](https://www.moxride.com/)** — Desça de skate por uma cidade colorida, deslize pelos corrimãos e conecte manobras aéreas para acumular combos.
+  - Criador: [Moxazza / Moxazza Games](https://www.moxride.com/)
+  - Plataforma: Navegador desktop e teclado; anunciado como jogo gratuito. Compatibilidade móvel não verificada.
+  - GPT-6 Astra: [Issue #114](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/114) — Na submissão Astra, o criador descreve um jogo inspirado em Street Sesh e melhorias gráficas iterativas; o histórico completo não é público.
+  - Recursos: [2026-10-05](assets/screenshots/moxride/SOURCE.md)
+  - Prévia: ![Captura do criador: descida de skate com pontuação e velocidade.](assets/screenshots/moxride/gameplay.png)
 
 - **[MIDWAY 1942: Air Strike](https://ihca.cn/midway/)** — Voe com seus alas, enfrente interceptadores e bombardeie dois porta-aviões em mergulho; use o ponto de impacto previsto e reabasteça perto de navios aliados.
   - Criador: [xilinnihao-afk / 一海千寻的AI实验室](https://github.com/xilinnihao-afk)
