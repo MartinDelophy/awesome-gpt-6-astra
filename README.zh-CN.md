@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 166](https://img.shields.io/badge/Cases-166-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 174](https://img.shields.io/badge/Cases-174-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **收集用 GPT-6 Astra 制作的有趣游戏。**
 
@@ -20,11 +20,11 @@
 
 ## 从这里开始
 
-目前收录 **166 个游戏与互动作品**：三国领土策略、木锁拆解与华容道、半流体水果合成、程序化城市建造 2048、单键飞行、魔毯战斗、五关弹幕射击、海岛电网塔防、荒野生存、水下捕鱼、寿司店经营与海岛种植、海湾卡丁车竞速、鹈鹕海岸骑行、桌面玩具的 3D 改编、3D 家居装修，以及轨道花园。点击作品名称即可直接进入在线游戏。
+目前收录 **174 个游戏与互动作品**：三国领土策略、木锁拆解与华容道、半流体水果合成、程序化城市建造 2048、单键飞行、魔毯战斗、五关弹幕射击、海岛电网塔防、荒野生存、水下捕鱼、寿司店经营与海岛种植、海湾卡丁车竞速、鹈鹕海岸骑行、桌面玩具的 3D 改编、3D 家居装修，以及轨道花园。点击作品名称即可直接进入在线游戏。
 
-目录更新：**2026-10-05**。模型使用信息依据作者或投稿者的说明，未确认内容在具体条目中标注。此日期表示目录维护时间，不代表当天重新试玩了所有游戏。
+目录更新：**2026-10-06**。模型使用信息依据作者或投稿者的说明，未确认内容在具体条目中标注。此日期表示目录维护时间，不代表当天重新试玩了所有游戏。
 
-最新新增：[9 月 21 日追加的 10 款直达在线游戏](docs/browser-games-2026-09-21.md)。上一批：[9 月 20 日追加的 10 款直达在线游戏](docs/browser-games-2026-09-20.md)。更早批次：[全网搜索后追加的 10 款在线游戏](docs/browser-games-2026-09-18.md)，附实机截图、作者依据与入口核验。[9 月 17 日新增的 10 款](docs/browser-games-2026-09-17.md)。[9 月 16 日新增的 10 款](docs/browser-games-2026-09-16.md)。[9 月 15 日新增的 10 款](docs/browser-games-2026-09-15.md)。[9 月 12 日新增的 10 款](docs/browser-games-2026-09-12.md)。此前新增：[Barrelbound: The Lost Cargo](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/73) 与 [Tidehook](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/74)，已同步全部 12 种 README 语言。[9 月 11 日新增的 10 款](docs/browser-games-2026-09-11.md) · [9 月 10 日新增的 10 款](docs/direct-play-x-games-2026-09-10.md) · [此前新增的 16 款](docs/x-high-traffic-games-2026-09-09.md)。
+最新新增：[10 月 6 日从 X 收录的 8 款可玩游戏](docs/x-games-2026-10-06.md)。此前发现：[9 月 21 日追加的 10 款直达在线游戏](docs/browser-games-2026-09-21.md)。上一批：[9 月 20 日追加的 10 款直达在线游戏](docs/browser-games-2026-09-20.md)。更早批次：[全网搜索后追加的 10 款在线游戏](docs/browser-games-2026-09-18.md)，附实机截图、作者依据与入口核验。[9 月 17 日新增的 10 款](docs/browser-games-2026-09-17.md)。[9 月 16 日新增的 10 款](docs/browser-games-2026-09-16.md)。[9 月 15 日新增的 10 款](docs/browser-games-2026-09-15.md)。[9 月 12 日新增的 10 款](docs/browser-games-2026-09-12.md)。此前新增：[Barrelbound: The Lost Cargo](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/73) 与 [Tidehook](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/74)，已同步全部 12 种 README 语言。[9 月 11 日新增的 10 款](docs/browser-games-2026-09-11.md) · [9 月 10 日新增的 10 款](docs/direct-play-x-games-2026-09-10.md) · [此前新增的 16 款](docs/x-high-traffic-games-2026-09-09.md)。
 
 - **想玩游戏：** 从下面的分类寻找你喜欢的玩法。
 - **做了游戏：** [提交你的作品](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml)，附上在线游戏直达入口、实机截图，以及使用 GPT-6 Astra 的说明。
@@ -51,6 +51,34 @@
   - GPT-6 Astra：[作者的 One Shot 测试与原始 Prompt](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md)。
   - 开发资料：[源码](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/mosswing/src) · [单文件 HTML](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/mosswing/mosswing.html)
   - 预览：![Mosswing 起始画面：飞行角色与石柱之间的障碍间隙。](assets/screenshots/mosswing/gameplay.jpg)
+
+- **[HOLLOWMARK](https://hollowmark.mindblown.ai/)** — 第一人称探索工业地下世界，寻找门禁卡、管理弹药，在战役中与敌人交战。
+  - 作者：[Mindblown](https://mindblown.ai/)
+  - 平台：桌面浏览器；已验证无需登录或安装即可进入。
+  - GPT-6 Astra：[作者 X 原帖](https://x.com/mindblown_ai/status/2102040812569944136) — GPT-6 Astra + Fable 5.1; Three.js.
+  - 开发资料：[试玩检查与署名](docs/x-games-2026-10-06.md#hollowmark)
+  - 预览：![HOLLOWMARK — 实机截图, 2026-10-06.](assets/screenshots/hollowmark/gameplay.jpg)
+
+- **[Canyon Overdrive](https://canyonoverdrive.ai-created.com/)** — 驾驶战机穿越霓虹峡谷，躲避火力，用机炮、导弹和滚转突破封锁。
+  - 作者：[Marco van Hylckama Vlieg / AI & Design](https://x.com/AIandDesign)
+  - 平台：桌面浏览器；已验证无需登录或安装即可进入。
+  - GPT-6 Astra：[作者 X 原帖](https://x.com/AIandDesign/status/2105465838946140499) — GPT-6 Astra + GPT-6.1 Sol; Three.js.
+  - 开发资料：[试玩检查与署名](docs/x-games-2026-10-06.md#canyon-overdrive)
+  - 预览：![Canyon Overdrive — 实机截图, 2026-10-06.](assets/screenshots/canyon-overdrive/gameplay.jpg)
+
+- **[Flight 1073](https://flight1073.pages.dev/play/)** — 希伯来语航空恶搞小游戏：躲避餐车、完成限时任务，并设法让飞机降落。
+  - 作者：[Guy Eshel](https://x.com/GuyEshel_)
+  - 平台：桌面浏览器；已验证无需登录或安装即可进入。
+  - GPT-6 Astra：[作者 X 原帖](https://x.com/GuyEshel_/status/2106292470438822143) — GPT-6 Astra.
+  - 开发资料：[试玩检查与署名](docs/x-games-2026-10-06.md#flight-1073)
+  - 预览：![Flight 1073 — 实机截图, 2026-10-06.](assets/screenshots/flight-1073/gameplay.jpg)
+
+- **[FOE TO FLEET](https://foe-to-fleet.miya333.chatgpt.site)** — 将击败的敌人编入舰队，让伙伴同时充当武器和护盾，在短篇弹幕射击中撑过七波进攻。
+  - 作者：[miya](https://x.com/miya00907380)
+  - 平台：桌面浏览器；已验证无需登录或安装即可进入。
+  - GPT-6 Astra：[作者 X 原帖](https://x.com/miya00907380/status/2105055020106252543) — Astra 负责主要实现；GPT-5 Luna 辅助实现.
+  - 开发资料：[试玩检查与署名](docs/x-games-2026-10-06.md#foe-to-fleet)
+  - 预览：![FOE TO FLEET — 实机截图, 2026-10-06.](assets/screenshots/foe-to-fleet/gameplay.jpg)
 
 - **[MoxRide](https://www.moxride.com/)** — 在彩色城市中高速下坡滑板，磨轨、腾空做动作，并串联技巧累积连招得分。
   - 作者: [Moxazza / Moxazza Games](https://www.moxride.com/)
@@ -385,6 +413,13 @@
 
 逻辑谜题、物理解谜、文字游戏与巧妙的小机关。
 
+- **[Astra 2048](https://jianfan.app/2048/gpt/)** — 滑动并合并相同数字，向 2048 挑战；这是作者模型对比实验中的 Astra 版本。
+  - 作者：[Eddy](https://x.com/ieddysun)
+  - 平台：桌面浏览器；已验证无需登录或安装即可进入。
+  - GPT-6 Astra：[作者 X 原帖](https://x.com/ieddysun/status/2105147777777041494) — 作者称使用一个提示词直出，未再修改.
+  - 开发资料：[试玩检查与署名](docs/x-games-2026-10-06.md#astra-2048-eddy)
+  - 预览：![Astra 2048 — 实机截图, 2026-10-06.](assets/screenshots/astra-2048-eddy/gameplay.jpg)
+
 - **[Vesper: The Last Light](https://vesper.mansgullberg.chatgpt.site/)** — 第三人称解谜冒险：探索淹没的花园与天体机械，把光作为生命、弹药和货币来管理，修复三道封印。
   - 作者: [kvickan](https://buymeacoffee.com/kvickan)
   - 平台: 桌面浏览器；键盘与鼠标，无需登录。作者暂不推荐移动端。
@@ -696,6 +731,20 @@
 
 角色扮演、探索、叙事冒险与互动故事。
 
+- **[The Fourth Knock](https://nikhilsatishdesai.github.io/the-fourth-knock/play/)** — 探索 Cedar House、与陌生人交谈，在短篇 2.5D 侦探冒险中拼出密室凶案的真相。
+  - 作者：[Nikhil Desai](https://x.com/NikhilDesai_007)
+  - 平台：桌面浏览器；已验证无需登录或安装即可进入。
+  - GPT-6 Astra：[作者 X 原帖](https://x.com/NikhilDesai_007/status/2104495667284677078) — GPT-6 Astra + Claude Opus 5.5; Three.js.
+  - 开发资料：[试玩检查与署名](docs/x-games-2026-10-06.md#the-fourth-knock)
+  - 预览：![The Fourth Knock — 实机截图, 2026-10-06.](assets/screenshots/the-fourth-knock/gameplay.jpg)
+
+- **[Saber / Descent](https://vheissu.github.io/saber-battle/)** — 手持能量剑深入五层地牢，组合斩击、格挡和冲刺，击败守卫并寻找下一道传送门。
+  - 作者：[Dwayne](https://x.com/CtrlAltDwayne)
+  - 平台：桌面浏览器；已验证无需登录或安装即可进入。
+  - GPT-6 Astra：[作者 X 原帖](https://x.com/CtrlAltDwayne/status/2096365441472209227) — GPT-6 Astra + Imagegen + Blender.
+  - 开发资料：[试玩检查与署名](docs/x-games-2026-10-06.md#saber-descent)
+  - 预览：![Saber / Descent — 实机截图, 2026-10-06.](assets/screenshots/saber-descent/gameplay.jpg)
+
 - **[The Sunshard](https://mindblown.ai/games/the-sunshard)** — 体素风动作 RPG：使用火花弹与日光爆发对抗 Hollowborn，闪现躲避危险，唤醒太阳之门。
   - 作者: [Mindblown / @mind](https://mindblown.ai/@mind) · [Mindblown](https://mindblown.ai/) · [X](https://x.com/mindblown_ai)
   - 平台: 桌面浏览器；键盘与鼠标，无需登录。
@@ -819,6 +868,13 @@
 ### 平台跳跃与竞速
 
 跑酷、平台闯关、赛车，以及考验路线与操作的游戏。
+
+- **[Sulli RUN](https://sulli-game.vercel.app/)** — 操纵 3D 大猩猩在霓虹城市中跑酷，切换跑道、跳跃和滑行，躲避障碍并提高得分。
+  - 作者：[Morteza](https://x.com/Mortezabihzadeh)
+  - 平台：桌面浏览器；已验证无需登录或安装即可进入。
+  - GPT-6 Astra：[作者 X 原帖](https://x.com/Mortezabihzadeh/status/2102719520699830417) — Astra 协助搭建；Tripo 生成 3D 模型与绑定.
+  - 开发资料：[试玩检查与署名](docs/x-games-2026-10-06.md#sulli-run)
+  - 预览：![Sulli RUN — 实机截图, 2026-10-06.](assets/screenshots/sulli-run/gameplay.jpg)
 
 - **[Barrelbound: The Lost Cargo](https://barrelbound.vercel.app/)** — 选择 Rocco 或 Pip，在三个丛林平台关卡中二段跳、投掷木桶、搭乘矿车，找回遗失的货物并挑战最终首领。
   - 作者: [Emile du Toit / Mafuta Games](https://mafuta.itch.io/)

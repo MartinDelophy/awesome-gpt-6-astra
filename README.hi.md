@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 94](https://img.shields.io/badge/Cases-94-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 102](https://img.shields.io/badge/Cases-102-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **GPT-6 Astra से बनाए गए दिलचस्प गेमों का संग्रह।**
 
@@ -22,9 +22,9 @@
 
 ## यहाँ से शुरू करें
 
-यहाँ **94 खेल और इंटरैक्टिव परियोजनाएँ** शामिल हैं: तीन राज्यों की क्षेत्रीय रणनीति, एक-दूसरे में फँसे लकड़ी के टुकड़ों और खिसकने वाले ब्लॉकों की पहेलियाँ, मुलायम फलों को मिलाना, प्रक्रियात्मक शहर निर्माण वाला 2048, एक बटन से उड़ान, जादुई कालीन पर लड़ाई, पाँच स्तरों वाला बुलेट-हेल शूटर, बिजली के नेटवर्क से द्वीप की रक्षा, जंगल में जीवित रहना, पानी के नीचे मछली पकड़ना, सुशी रेस्तराँ चलाना और द्वीप पर खेती करना, Bay Circuit पर कार्ट रेसिंग, पेलिकन के साथ तट पर साइकिल चलाना, टेबलटॉप खिलौनों के 3D रूपांतरण, 3D घर की सजावट और Orbital Garden। किसी शीर्षक पर क्लिक करके सीधे ब्राउज़र में गेम खेलें।
+यहाँ **102 खेल और इंटरैक्टिव परियोजनाएँ** शामिल हैं: तीन राज्यों की क्षेत्रीय रणनीति, एक-दूसरे में फँसे लकड़ी के टुकड़ों और खिसकने वाले ब्लॉकों की पहेलियाँ, मुलायम फलों को मिलाना, प्रक्रियात्मक शहर निर्माण वाला 2048, एक बटन से उड़ान, जादुई कालीन पर लड़ाई, पाँच स्तरों वाला बुलेट-हेल शूटर, बिजली के नेटवर्क से द्वीप की रक्षा, जंगल में जीवित रहना, पानी के नीचे मछली पकड़ना, सुशी रेस्तराँ चलाना और द्वीप पर खेती करना, Bay Circuit पर कार्ट रेसिंग, पेलिकन के साथ तट पर साइकिल चलाना, टेबलटॉप खिलौनों के 3D रूपांतरण, 3D घर की सजावट और Orbital Garden। किसी शीर्षक पर क्लिक करके सीधे ब्राउज़र में गेम खेलें।
 
-सूची अपडेट: **2026-10-05**। मॉडल के उपयोग की जानकारी रचनाकारों या प्रस्तुतकर्ताओं के कथनों पर आधारित है; अपुष्ट विवरण संबंधित प्रविष्टियों में चिह्नित हैं। यह तारीख सूची के रखरखाव की है, सभी गेमों के दोबारा परीक्षण की नहीं।
+सूची अपडेट: **2026-10-06**। मॉडल के उपयोग की जानकारी रचनाकारों या प्रस्तुतकर्ताओं के कथनों पर आधारित है; अपुष्ट विवरण संबंधित प्रविष्टियों में चिह्नित हैं। यह तारीख सूची के रखरखाव की है, सभी गेमों के दोबारा परीक्षण की नहीं।
 
 - **खेलने के लिए कुछ ढूँढ़ रहे हैं?** नीचे दी गई श्रेणियाँ देखें।
 - **आपने कोई गेम बनाया है?** [अपना प्रोजेक्ट भेजें](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) और साथ में सीधे ब्राउज़र में खेलने का लिंक, वास्तविक गेमप्ले का स्क्रीनशॉट और GPT-6 Astra के उपयोग का विवरण दें।
@@ -53,6 +53,34 @@
   - GPT-6 Astra: [रचनाकार के एक ही अनुरोध से निर्माण के परीक्षण और मूल प्रॉम्प्ट](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - विकास संसाधन: [स्रोत कोड](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/mosswing/src) · [स्वतंत्र HTML फ़ाइल](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/mosswing/mosswing.html)
   - पूर्वावलोकन: ![Mosswing की शुरुआती स्क्रीन पर उड़ता पात्र और पत्थर के खंभों के बीच के रास्ते दिखते हैं।](assets/screenshots/mosswing/gameplay.jpg)
+
+- **[HOLLOWMARK](https://hollowmark.mindblown.ai/)** — प्रथम-व्यक्ति शूटर में भूमिगत औद्योगिक परिसर खोजें, प्रवेश कुंजियाँ जुटाएँ और लड़ाई के दौरान गोला-बारूद सँभालें।
+  - रचनाकार: [Mindblown](https://mindblown.ai/)
+  - प्लैटफ़ॉर्म: डेस्कटॉप ब्राउज़र; बिना लॉगिन या इंस्टॉलेशन के शुरू होना जाँचा गया।
+  - GPT-6 Astra: [निर्माता की X पोस्ट](https://x.com/mindblown_ai/status/2102040812569944136) — GPT-6 Astra + Fable 5.1; Three.js.
+  - विकास संसाधन: [प्ले जाँच और श्रेय](docs/x-games-2026-10-06.md#hollowmark)
+  - पूर्वावलोकन: ![HOLLOWMARK — गेमप्ले स्क्रीनशॉट, 2026-10-06.](assets/screenshots/hollowmark/gameplay.jpg)
+
+- **[Canyon Overdrive](https://canyonoverdrive.ai-created.com/)** — नियॉन घाटियों में लड़ाकू विमान उड़ाएँ और तोपों, मिसाइलों तथा रोल से नाकाबंदी तोड़ें।
+  - रचनाकार: [Marco van Hylckama Vlieg / AI & Design](https://x.com/AIandDesign)
+  - प्लैटफ़ॉर्म: डेस्कटॉप ब्राउज़र; बिना लॉगिन या इंस्टॉलेशन के शुरू होना जाँचा गया।
+  - GPT-6 Astra: [निर्माता की X पोस्ट](https://x.com/AIandDesign/status/2105465838946140499) — GPT-6 Astra + GPT-6.1 Sol; Three.js.
+  - विकास संसाधन: [प्ले जाँच और श्रेय](docs/x-games-2026-10-06.md#canyon-overdrive)
+  - पूर्वावलोकन: ![Canyon Overdrive — गेमप्ले स्क्रीनशॉट, 2026-10-06.](assets/screenshots/canyon-overdrive/gameplay.jpg)
+
+- **[Flight 1073](https://flight1073.pages.dev/play/)** — हिब्रू भाषा का छोटा विमानन व्यंग्य गेम: ट्रॉलियों से बचें, समयबद्ध काम पूरे करें और विमान उतारने की कोशिश करें।
+  - रचनाकार: [Guy Eshel](https://x.com/GuyEshel_)
+  - प्लैटफ़ॉर्म: डेस्कटॉप ब्राउज़र; बिना लॉगिन या इंस्टॉलेशन के शुरू होना जाँचा गया।
+  - GPT-6 Astra: [निर्माता की X पोस्ट](https://x.com/GuyEshel_/status/2106292470438822143) — GPT-6 Astra.
+  - विकास संसाधन: [प्ले जाँच और श्रेय](docs/x-games-2026-10-06.md#flight-1073)
+  - पूर्वावलोकन: ![Flight 1073 — गेमप्ले स्क्रीनशॉट, 2026-10-06.](assets/screenshots/flight-1073/gameplay.jpg)
+
+- **[FOE TO FLEET](https://foe-to-fleet.miya333.chatgpt.site)** — हराए गए दुश्मन आपके बेड़े में शामिल होते हैं। साथियों को हथियार और ढाल बनाकर गोलियों की सात लहरों से बचें।
+  - रचनाकार: [miya](https://x.com/miya00907380)
+  - प्लैटफ़ॉर्म: डेस्कटॉप ब्राउज़र; बिना लॉगिन या इंस्टॉलेशन के शुरू होना जाँचा गया।
+  - GPT-6 Astra: [निर्माता की X पोस्ट](https://x.com/miya00907380/status/2105055020106252543) — मुख्य कार्यान्वयन: Astra; सहायक कार्य: GPT-5 Luna.
+  - विकास संसाधन: [प्ले जाँच और श्रेय](docs/x-games-2026-10-06.md#foe-to-fleet)
+  - पूर्वावलोकन: ![FOE TO FLEET — गेमप्ले स्क्रीनशॉट, 2026-10-06.](assets/screenshots/foe-to-fleet/gameplay.jpg)
 
 - **[MoxRide](https://www.moxride.com/)** — रंगीन शहर में स्केटबोर्ड से ढलान उतरें, रेल पर ग्राइंड करें और हवाई करतब जोड़कर कॉम्बो स्कोर बढ़ाएँ।
   - रचनाकार: [Moxazza / Moxazza Games](https://www.moxride.com/)
@@ -220,6 +248,13 @@
 ### पहेलियाँ और दिमागी खेल
 
 तर्क की पहेलियाँ, भौतिकी की चुनौतियाँ, शब्दों के खेल और छोटे लेकिन चतुर तंत्र।
+
+- **[Astra 2048](https://jianfan.app/2048/gpt/)** — एक जैसी संख्या वाली टाइलें खिसकाकर जोड़ें और 2048 तक पहुँचें; यह निर्माता के मॉडल तुलना प्रयोग का Astra संस्करण है।
+  - रचनाकार: [Eddy](https://x.com/ieddysun)
+  - प्लैटफ़ॉर्म: डेस्कटॉप ब्राउज़र; बिना लॉगिन या इंस्टॉलेशन के शुरू होना जाँचा गया।
+  - GPT-6 Astra: [निर्माता की X पोस्ट](https://x.com/ieddysun/status/2105147777777041494) — निर्माता के अनुसार एक प्रॉम्प्ट से बना, बाद में कोई संपादन नहीं.
+  - विकास संसाधन: [प्ले जाँच और श्रेय](docs/x-games-2026-10-06.md#astra-2048-eddy)
+  - पूर्वावलोकन: ![Astra 2048 — गेमप्ले स्क्रीनशॉट, 2026-10-06.](assets/screenshots/astra-2048-eddy/gameplay.jpg)
 
 - **[Vesper: The Last Light](https://vesper.mansgullberg.chatgpt.site/)** — तीसरे-व्यक्ति पहेली साहसिक खेल में डूबे बगीचों और खगोलीय मशीनों की खोज करें। तीन मुहरें बहाल करने के लिए प्रकाश को स्वास्थ्य, गोला-बारूद और मुद्रा के रूप में सँभालें।
   - निर्माता: [kvickan](https://buymeacoffee.com/kvickan)
@@ -414,6 +449,20 @@
 
 भूमिका निभाना, खोजबीन, कहानी-आधारित रोमांच और इंटरैक्टिव कहानियाँ।
 
+- **[The Fourth Knock](https://nikhilsatishdesai.github.io/the-fourth-knock/play/)** — Cedar House खोजें, अजनबियों से बात करें और छोटे 2.5D जासूसी साहसिक खेल में बंद कमरे की हत्या का रहस्य सुलझाएँ।
+  - रचनाकार: [Nikhil Desai](https://x.com/NikhilDesai_007)
+  - प्लैटफ़ॉर्म: डेस्कटॉप ब्राउज़र; बिना लॉगिन या इंस्टॉलेशन के शुरू होना जाँचा गया।
+  - GPT-6 Astra: [निर्माता की X पोस्ट](https://x.com/NikhilDesai_007/status/2104495667284677078) — GPT-6 Astra + Claude Opus 5.5; Three.js.
+  - विकास संसाधन: [प्ले जाँच और श्रेय](docs/x-games-2026-10-06.md#the-fourth-knock)
+  - पूर्वावलोकन: ![The Fourth Knock — गेमप्ले स्क्रीनशॉट, 2026-10-06.](assets/screenshots/the-fourth-knock/gameplay.jpg)
+
+- **[Saber / Descent](https://vheissu.github.io/saber-battle/)** — ऊर्जा तलवार लेकर कालकोठरी के पाँच स्तर खोजें; प्रहार, पैरी और तेज़ छलाँगों से रक्षकों को हराकर अगले पोर्टल तक पहुँचें।
+  - रचनाकार: [Dwayne](https://x.com/CtrlAltDwayne)
+  - प्लैटफ़ॉर्म: डेस्कटॉप ब्राउज़र; बिना लॉगिन या इंस्टॉलेशन के शुरू होना जाँचा गया।
+  - GPT-6 Astra: [निर्माता की X पोस्ट](https://x.com/CtrlAltDwayne/status/2096365441472209227) — GPT-6 Astra + Imagegen + Blender.
+  - विकास संसाधन: [प्ले जाँच और श्रेय](docs/x-games-2026-10-06.md#saber-descent)
+  - पूर्वावलोकन: ![Saber / Descent — गेमप्ले स्क्रीनशॉट, 2026-10-06.](assets/screenshots/saber-descent/gameplay.jpg)
+
 - **[The Sunshard](https://mindblown.ai/games/the-sunshard)** — वॉक्सेल शैली की एक्शन RPG में Spark Bolt और Sunburst से Hollowborn से लड़ें, टेलीपोर्ट करके खतरे से बचें और सूर्य-द्वार को जगाएँ।
   - निर्माता: [Mindblown / @mind](https://mindblown.ai/@mind) · [Mindblown](https://mindblown.ai/) · [X](https://x.com/mindblown_ai)
   - प्लेटफ़ॉर्म: डेस्कटॉप ब्राउज़र; कीबोर्ड और माउस, लॉगिन आवश्यक नहीं।
@@ -507,6 +556,13 @@
 ### प्लैटफ़ॉर्मर और रेसिंग
 
 पार्कूर, प्लैटफ़ॉर्म की चुनौतियाँ, रेसिंग और गति व रास्तों पर आधारित गेम।
+
+- **[Sulli RUN](https://sulli-game.vercel.app/)** — 3D गोरिल्ला बनकर नियॉन शहर में दौड़ें; लेन बदलें, कूदें और फिसलकर बाधाओं से बचते हुए अंक बढ़ाएँ।
+  - रचनाकार: [Morteza](https://x.com/Mortezabihzadeh)
+  - प्लैटफ़ॉर्म: डेस्कटॉप ब्राउज़र; बिना लॉगिन या इंस्टॉलेशन के शुरू होना जाँचा गया।
+  - GPT-6 Astra: [निर्माता की X पोस्ट](https://x.com/Mortezabihzadeh/status/2102719520699830417) — Astra की मदद से सेटअप; Tripo से 3D मॉडल और रिगिंग.
+  - विकास संसाधन: [प्ले जाँच और श्रेय](docs/x-games-2026-10-06.md#sulli-run)
+  - पूर्वावलोकन: ![Sulli RUN — गेमप्ले स्क्रीनशॉट, 2026-10-06.](assets/screenshots/sulli-run/gameplay.jpg)
 
 - **[Barrelbound: The Lost Cargo](https://barrelbound.vercel.app/)** — Rocco या Pip चुनें और जंगल के तीन प्लैटफ़ॉर्मिंग स्तरों में डबल जंप करें, बैरल फेंकें और खदान की ट्रॉली चलाएँ। खोया माल वापस जुटाते हुए अंतिम बॉस तक पहुँचें।
   - रचनाकार: [Emile du Toit / Mafuta Games](https://mafuta.itch.io/)

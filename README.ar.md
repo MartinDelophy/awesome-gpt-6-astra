@@ -6,7 +6,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 94](https://img.shields.io/badge/Cases-94-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 102](https://img.shields.io/badge/Cases-102-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **مجموعة من الألعاب الممتعة المصنوعة باستخدام GPT-6 Astra.**
 
@@ -24,9 +24,9 @@
 
 ## ابدأ من هنا
 
-استكشف **94 لعبة ومشروعًا تفاعليًا**: استراتيجية السيطرة على الأراضي في عصر الممالك الثلاث، ألغاز خشبية متشابكة وألغاز الكتل المنزلقة، دمج الفواكه المرنة، ولعبة 2048 لبناء المدن بالتوليد الإجرائي، والطيران بزر واحد، والقتال على بساط سحري، ولعبة تصويب كثيفة الرصاص من خمس مراحل، والدفاع عن جزيرة بشبكة كهربائية، والبقاء في البرية، وصيد الأسماك تحت الماء وإدارة مطعم سوشي والزراعة على جزيرة، وسباقات الكارت على حلبة الخليج، وركوب الدراجة مع بجع على الساحل، وألعاب طاولة محوّلة إلى ألعاب ثلاثية الأبعاد، وتصميم ديكور المنازل ثلاثي الأبعاد، وOrbital Garden. انقر على اسم العمل لفتح اللعبة مباشرة في المتصفح.
+استكشف **102 لعبة ومشروعًا تفاعليًا**: استراتيجية السيطرة على الأراضي في عصر الممالك الثلاث، ألغاز خشبية متشابكة وألغاز الكتل المنزلقة، دمج الفواكه المرنة، ولعبة 2048 لبناء المدن بالتوليد الإجرائي، والطيران بزر واحد، والقتال على بساط سحري، ولعبة تصويب كثيفة الرصاص من خمس مراحل، والدفاع عن جزيرة بشبكة كهربائية، والبقاء في البرية، وصيد الأسماك تحت الماء وإدارة مطعم سوشي والزراعة على جزيرة، وسباقات الكارت على حلبة الخليج، وركوب الدراجة مع بجع على الساحل، وألعاب طاولة محوّلة إلى ألعاب ثلاثية الأبعاد، وتصميم ديكور المنازل ثلاثي الأبعاد، وOrbital Garden. انقر على اسم العمل لفتح اللعبة مباشرة في المتصفح.
 
-تحديث القائمة: **2026-10-05**. تستند معلومات استخدام النموذج إلى تصريحات المؤلفين أو مقدّمي الأعمال؛ وتُوضّح التفاصيل غير المؤكدة في كل بند. يشير هذا التاريخ إلى تحديث القائمة، وليس إلى إعادة اختبار جميع الألعاب.
+تحديث القائمة: **2026-10-06**. تستند معلومات استخدام النموذج إلى تصريحات المؤلفين أو مقدّمي الأعمال؛ وتُوضّح التفاصيل غير المؤكدة في كل بند. يشير هذا التاريخ إلى تحديث القائمة، وليس إلى إعادة اختبار جميع الألعاب.
 
 - **تبحث عن لعبة؟** تصفح الأنواع أدناه.
 - **صنعت لعبة؟** [أرسل مشروعك](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) مع رابط مباشر للعب في المتصفح، ولقطة شاشة فعلية من اللعبة، وشرح لكيفية استخدامك GPT-6 Astra.
@@ -55,6 +55,34 @@
   - GPT-6 Astra: [اختبارات المبدع بالتوليد من طلب واحد والموجّهات الأصلية](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - موارد التطوير: [الشفرة المصدرية](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/mosswing/src) · [ملف HTML مستقل](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/mosswing/mosswing.html)
   - معاينة: ![شاشة بدء Mosswing وتظهر الشخصية الطائرة والفجوات بين الأعمدة الحجرية.](assets/screenshots/mosswing/gameplay.jpg)
+
+- **[HOLLOWMARK](https://hollowmark.mindblown.ai/)** — استكشف منشأة صناعية تحت الأرض بمنظور الشخص الأول، واجمع مفاتيح الدخول وأدر ذخيرتك أثناء القتال.
+  - المبدع: [Mindblown](https://mindblown.ai/)
+  - المنصة: متصفح الحاسوب؛ تم التحقق من الدخول دون تسجيل أو تثبيت.
+  - GPT-6 Astra: [منشور المبدع على X](https://x.com/mindblown_ai/status/2102040812569944136) — GPT-6 Astra + Fable 5.1; Three.js.
+  - موارد التطوير: [التحقق ونسب العمل](docs/x-games-2026-10-06.md#hollowmark)
+  - معاينة: ![HOLLOWMARK — لقطة من اللعب, 2026-10-06.](assets/screenshots/hollowmark/gameplay.jpg)
+
+- **[Canyon Overdrive](https://canyonoverdrive.ai-created.com/)** — قد مقاتلة عبر أخاديد مضاءة بالنيون واخترق الحصار بالمدافع والصواريخ ومناورات الدوران.
+  - المبدع: [Marco van Hylckama Vlieg / AI & Design](https://x.com/AIandDesign)
+  - المنصة: متصفح الحاسوب؛ تم التحقق من الدخول دون تسجيل أو تثبيت.
+  - GPT-6 Astra: [منشور المبدع على X](https://x.com/AIandDesign/status/2105465838946140499) — GPT-6 Astra + GPT-6.1 Sol; Three.js.
+  - موارد التطوير: [التحقق ونسب العمل](docs/x-games-2026-10-06.md#canyon-overdrive)
+  - معاينة: ![Canyon Overdrive — لقطة من اللعب, 2026-10-06.](assets/screenshots/canyon-overdrive/gameplay.jpg)
+
+- **[Flight 1073](https://flight1073.pages.dev/play/)** — محاكاة ساخرة قصيرة للطيران باللغة العبرية: تفادَ عربات الخدمة وأنجز مهام محددة بوقت وحاول إنزال الطائرة.
+  - المبدع: [Guy Eshel](https://x.com/GuyEshel_)
+  - المنصة: متصفح الحاسوب؛ تم التحقق من الدخول دون تسجيل أو تثبيت.
+  - GPT-6 Astra: [منشور المبدع على X](https://x.com/GuyEshel_/status/2106292470438822143) — GPT-6 Astra.
+  - موارد التطوير: [التحقق ونسب العمل](docs/x-games-2026-10-06.md#flight-1073)
+  - معاينة: ![Flight 1073 — لقطة من اللعب, 2026-10-06.](assets/screenshots/flight-1073/gameplay.jpg)
+
+- **[FOE TO FLEET](https://foe-to-fleet.miya333.chatgpt.site)** — ينضم الأعداء المهزومون إلى أسطولك. استخدم الحلفاء كأسلحة ودروع للبقاء خلال سبع موجات من الرصاص.
+  - المبدع: [miya](https://x.com/miya00907380)
+  - المنصة: متصفح الحاسوب؛ تم التحقق من الدخول دون تسجيل أو تثبيت.
+  - GPT-6 Astra: [منشور المبدع على X](https://x.com/miya00907380/status/2105055020106252543) — التنفيذ الرئيسي عبر Astra؛ الوظائف المساعدة عبر GPT-5 Luna.
+  - موارد التطوير: [التحقق ونسب العمل](docs/x-games-2026-10-06.md#foe-to-fleet)
+  - معاينة: ![FOE TO FLEET — لقطة من اللعب, 2026-10-06.](assets/screenshots/foe-to-fleet/gameplay.jpg)
 
 - **[MoxRide](https://www.moxride.com/)** — انزل بلوح التزلج عبر مدينة ملونة وانزلق على القضبان واربط الحركات الهوائية لزيادة النقاط.
   - المبدع: [Moxazza / Moxazza Games](https://www.moxride.com/)
@@ -222,6 +250,13 @@
 ### الألغاز والتفكير
 
 ألغاز منطقية وتحديات فيزيائية وألعاب كلمات وآليات صغيرة مبتكرة.
+
+- **[Astra 2048](https://jianfan.app/2048/gpt/)** — حرّك البلاطات المتطابقة وادمجها للوصول إلى 2048 في نسخة Astra من تجربة المؤلف لمقارنة النماذج.
+  - المبدع: [Eddy](https://x.com/ieddysun)
+  - المنصة: متصفح الحاسوب؛ تم التحقق من الدخول دون تسجيل أو تثبيت.
+  - GPT-6 Astra: [منشور المبدع على X](https://x.com/ieddysun/status/2105147777777041494) — طلب واحد دون تعديلات لاحقة بحسب المبدع.
+  - موارد التطوير: [التحقق ونسب العمل](docs/x-games-2026-10-06.md#astra-2048-eddy)
+  - معاينة: ![Astra 2048 — لقطة من اللعب, 2026-10-06.](assets/screenshots/astra-2048-eddy/gameplay.jpg)
 
 - **[Vesper: The Last Light](https://vesper.mansgullberg.chatgpt.site/)** — استكشف حدائق غارقة وآلات سماوية في مغامرة ألغاز بمنظور الشخص الثالث، وأدر الضوء بوصفه صحة وذخيرة وعملة لاستعادة ثلاثة أختام.
   - المؤلف: [kvickan](https://buymeacoffee.com/kvickan)
@@ -416,6 +451,20 @@
 
 تقمص الأدوار والاستكشاف والمغامرات السردية والقصص التفاعلية.
 
+- **[The Fourth Knock](https://nikhilsatishdesai.github.io/the-fourth-knock/play/)** — استكشف Cedar House وتحدث إلى الغرباء لحل جريمة قتل في غرفة مغلقة ضمن مغامرة تحقيق قصيرة بتقنية 2.5D.
+  - المبدع: [Nikhil Desai](https://x.com/NikhilDesai_007)
+  - المنصة: متصفح الحاسوب؛ تم التحقق من الدخول دون تسجيل أو تثبيت.
+  - GPT-6 Astra: [منشور المبدع على X](https://x.com/NikhilDesai_007/status/2104495667284677078) — GPT-6 Astra + Claude Opus 5.5; Three.js.
+  - موارد التطوير: [التحقق ونسب العمل](docs/x-games-2026-10-06.md#the-fourth-knock)
+  - معاينة: ![The Fourth Knock — لقطة من اللعب, 2026-10-06.](assets/screenshots/the-fourth-knock/gameplay.jpg)
+
+- **[Saber / Descent](https://vheissu.github.io/saber-battle/)** — استكشف خمسة مستويات من الزنازين بسيف طاقة، وامزج الضربات والصد والاندفاع للوصول إلى البوابة التالية.
+  - المبدع: [Dwayne](https://x.com/CtrlAltDwayne)
+  - المنصة: متصفح الحاسوب؛ تم التحقق من الدخول دون تسجيل أو تثبيت.
+  - GPT-6 Astra: [منشور المبدع على X](https://x.com/CtrlAltDwayne/status/2096365441472209227) — GPT-6 Astra + Imagegen + Blender.
+  - موارد التطوير: [التحقق ونسب العمل](docs/x-games-2026-10-06.md#saber-descent)
+  - معاينة: ![Saber / Descent — لقطة من اللعب, 2026-10-06.](assets/screenshots/saber-descent/gameplay.jpg)
+
 - **[The Sunshard](https://mindblown.ai/games/the-sunshard)** — استكشف لعبة تقمص أدوار حركية بأسلوب فوكسل، وحارب Hollowborn بمهارتي Spark Bolt وSunburst، وتفادَ الخطر بالانتقال الآني وأيقظ بوابة الشمس.
   - المؤلف: [Mindblown / @mind](https://mindblown.ai/@mind) · [Mindblown](https://mindblown.ai/) · [X](https://x.com/mindblown_ai)
   - المنصة: متصفح سطح المكتب؛ لوحة مفاتيح وفأرة، دون تسجيل دخول إلزامي.
@@ -509,6 +558,13 @@
 ### المنصات والسباقات
 
 الباركور وتحديات المنصات والسباقات والألعاب التي تتمحور حول الحركة واختيار المسارات.
+
+- **[Sulli RUN](https://sulli-game.vercel.app/)** — اركض بغوريلا ثلاثية الأبعاد في مدينة نيون، وبدّل المسارات واقفز وانزلق لتفادي العوائق وزيادة النقاط.
+  - المبدع: [Morteza](https://x.com/Mortezabihzadeh)
+  - المنصة: متصفح الحاسوب؛ تم التحقق من الدخول دون تسجيل أو تثبيت.
+  - GPT-6 Astra: [منشور المبدع على X](https://x.com/Mortezabihzadeh/status/2102719520699830417) — إعداد بمساعدة Astra؛ النموذج ثلاثي الأبعاد والهيكل الحركي عبر Tripo.
+  - موارد التطوير: [التحقق ونسب العمل](docs/x-games-2026-10-06.md#sulli-run)
+  - معاينة: ![Sulli RUN — لقطة من اللعب, 2026-10-06.](assets/screenshots/sulli-run/gameplay.jpg)
 
 - **[Barrelbound: The Lost Cargo](https://barrelbound.vercel.app/)** — اختر Rocco أو Pip لخوض ثلاث مراحل منصات في الغابة: اقفز قفزة مزدوجة، وارمِ البراميل، واركب عربة المنجم لاستعادة الحمولة المفقودة والوصول إلى الزعيم الأخير.
   - المطوّر: [Emile du Toit / Mafuta Games](https://mafuta.itch.io/)

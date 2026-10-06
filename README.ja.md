@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 94](https://img.shields.io/badge/Cases-94-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 102](https://img.shields.io/badge/Cases-102-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **GPT-6 Astra で作られた、遊んでみたくなるゲームを集めています。**
 
@@ -22,9 +22,9 @@
 
 ## はじめに
 
-現在、**94件のゲームとインタラクティブ作品**を掲載しています。三国志の領土戦略、木製の組木パズルとスライドパズル、柔らかい果物の合成、プロシージャルな都市建設 2048、ワンボタン飛行、魔法の絨毯での戦闘、全5ステージの弾幕シューティング、島の電力網を使うタワーディフェンス、荒野でのサバイバル、水中での魚捕り、寿司店経営と島での農作業、海湾サーキットのカートレース、ペリカンとの海岸サイクリング、卓上玩具の 3D ゲーム化、3D の室内装飾、そして Orbital Garden。作品名をクリックすると、ブラウザーで直接遊べます。
+現在、**102件のゲームとインタラクティブ作品**を掲載しています。三国志の領土戦略、木製の組木パズルとスライドパズル、柔らかい果物の合成、プロシージャルな都市建設 2048、ワンボタン飛行、魔法の絨毯での戦闘、全5ステージの弾幕シューティング、島の電力網を使うタワーディフェンス、荒野でのサバイバル、水中での魚捕り、寿司店経営と島での農作業、海湾サーキットのカートレース、ペリカンとの海岸サイクリング、卓上玩具の 3D ゲーム化、3D の室内装飾、そして Orbital Garden。作品名をクリックすると、ブラウザーで直接遊べます。
 
-一覧更新日：**2026-10-05**。モデルの利用情報は作者または投稿者の説明に基づき、未確認の内容は各項目に明記しています。この日付は一覧の更新日であり、全作品を再度プレイテストした日ではありません。
+一覧更新日：**2026-10-06**。モデルの利用情報は作者または投稿者の説明に基づき、未確認の内容は各項目に明記しています。この日付は一覧の更新日であり、全作品を再度プレイテストした日ではありません。
 
 - **遊びたい方：** 下のジャンルから気になる作品を探してください。
 - **ゲームを作った方：** [作品を投稿](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml)し、ブラウザーで直接遊べる URL、実際のゲーム画面のスクリーンショット、GPT-6 Astra の使い方の説明を添えてください。
@@ -53,6 +53,34 @@
   - GPT-6 Astra: [作者の One Shot テストと元のプロンプト](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - 開発資料: [ソースコード](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/mosswing/src) · [単一 HTML ファイル](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/mosswing/mosswing.html)
   - プレビュー: ![Mosswing の開始画面。飛ぶキャラクターと石柱の間の隙間が見えます。](assets/screenshots/mosswing/gameplay.jpg)
+
+- **[HOLLOWMARK](https://hollowmark.mindblown.ai/)** — 一人称視点で工業施設の地下世界を探索し、アクセスキーと弾薬を集めながら敵と戦うシューター。
+  - 作者: [Mindblown](https://mindblown.ai/)
+  - 対応環境: デスクトップブラウザー。ログインやインストールなしで起動を確認。
+  - GPT-6 Astra: [作者のX投稿](https://x.com/mindblown_ai/status/2102040812569944136) — GPT-6 Astra + Fable 5.1; Three.js.
+  - 開発資料: [動作確認とクレジット](docs/x-games-2026-10-06.md#hollowmark)
+  - プレビュー: ![HOLLOWMARK — プレイ画面, 2026-10-06.](assets/screenshots/hollowmark/gameplay.jpg)
+
+- **[Canyon Overdrive](https://canyonoverdrive.ai-created.com/)** — ネオンに輝く峡谷で戦闘機を操縦し、銃撃、ミサイル、バレルロールで封鎖を突破します。
+  - 作者: [Marco van Hylckama Vlieg / AI & Design](https://x.com/AIandDesign)
+  - 対応環境: デスクトップブラウザー。ログインやインストールなしで起動を確認。
+  - GPT-6 Astra: [作者のX投稿](https://x.com/AIandDesign/status/2105465838946140499) — GPT-6 Astra + GPT-6.1 Sol; Three.js.
+  - 開発資料: [動作確認とクレジット](docs/x-games-2026-10-06.md#canyon-overdrive)
+  - プレビュー: ![Canyon Overdrive — プレイ画面, 2026-10-06.](assets/screenshots/canyon-overdrive/gameplay.jpg)
+
+- **[Flight 1073](https://flight1073.pages.dev/play/)** — ヘブライ語の航空パロディ。機内カートを避け、制限時間付きの課題をこなし、着陸を目指します。
+  - 作者: [Guy Eshel](https://x.com/GuyEshel_)
+  - 対応環境: デスクトップブラウザー。ログインやインストールなしで起動を確認。
+  - GPT-6 Astra: [作者のX投稿](https://x.com/GuyEshel_/status/2106292470438822143) — GPT-6 Astra.
+  - 開発資料: [動作確認とクレジット](docs/x-games-2026-10-06.md#flight-1073)
+  - プレビュー: ![Flight 1073 — プレイ画面, 2026-10-06.](assets/screenshots/flight-1073/gameplay.jpg)
+
+- **[FOE TO FLEET](https://foe-to-fleet.miya333.chatgpt.site)** — 倒した敵が艦隊の仲間になる弾幕シューティング。仲間を武器や盾にして全7ウェーブを生き延びます。
+  - 作者: [miya](https://x.com/miya00907380)
+  - 対応環境: デスクトップブラウザー。ログインやインストールなしで起動を確認。
+  - GPT-6 Astra: [作者のX投稿](https://x.com/miya00907380/status/2105055020106252543) — 主な実装はAstra、補助的な実装はGPT-5 Luna.
+  - 開発資料: [動作確認とクレジット](docs/x-games-2026-10-06.md#foe-to-fleet)
+  - プレビュー: ![FOE TO FLEET — プレイ画面, 2026-10-06.](assets/screenshots/foe-to-fleet/gameplay.jpg)
 
 - **[MoxRide](https://www.moxride.com/)** — 色鮮やかな街をスケートボードで下り、レールをグラインドして空中トリックをつなぎ、スコアを伸ばします。
   - 作者: [Moxazza / Moxazza Games](https://www.moxride.com/)
@@ -220,6 +248,13 @@
 ### パズル・頭脳ゲーム
 
 論理パズル、物理の仕掛け、言葉遊び、工夫を凝らした小さな仕組み。
+
+- **[Astra 2048](https://jianfan.app/2048/gpt/)** — 同じ数字のタイルを滑らせて合体し、2048を目指します。作者のモデル比較実験のAstra版です。
+  - 作者: [Eddy](https://x.com/ieddysun)
+  - 対応環境: デスクトップブラウザー。ログインやインストールなしで起動を確認。
+  - GPT-6 Astra: [作者のX投稿](https://x.com/ieddysun/status/2105147777777041494) — 作者によると1つのプロンプトで生成し、修正なし.
+  - 開発資料: [動作確認とクレジット](docs/x-games-2026-10-06.md#astra-2048-eddy)
+  - プレビュー: ![Astra 2048 — プレイ画面, 2026-10-06.](assets/screenshots/astra-2048-eddy/gameplay.jpg)
 
 - **[Vesper: The Last Light](https://vesper.mansgullberg.chatgpt.site/)** — 三人称パズルアドベンチャーで水没した庭園と天体機械を探索。体力・弾薬・通貨を兼ねる光を管理し、三つの封印を修復する。
   - 作者: [kvickan](https://buymeacoffee.com/kvickan)
@@ -414,6 +449,20 @@
 
 ロールプレイング、探索、物語を楽しむ冒険、インタラクティブなストーリー。
 
+- **[The Fourth Knock](https://nikhilsatishdesai.github.io/the-fourth-knock/play/)** — Cedar Houseを探索し、住人と会話して密室殺人の謎を解く短編2.5D探偵アドベンチャー。
+  - 作者: [Nikhil Desai](https://x.com/NikhilDesai_007)
+  - 対応環境: デスクトップブラウザー。ログインやインストールなしで起動を確認。
+  - GPT-6 Astra: [作者のX投稿](https://x.com/NikhilDesai_007/status/2104495667284677078) — GPT-6 Astra + Claude Opus 5.5; Three.js.
+  - 開発資料: [動作確認とクレジット](docs/x-games-2026-10-06.md#the-fourth-knock)
+  - プレビュー: ![The Fourth Knock — プレイ画面, 2026-10-06.](assets/screenshots/the-fourth-knock/gameplay.jpg)
+
+- **[Saber / Descent](https://vheissu.github.io/saber-battle/)** — エネルギー剣で5層のダンジョンを探索。斬撃、パリィ、ダッシュで守護者を倒し、次のポータルを探します。
+  - 作者: [Dwayne](https://x.com/CtrlAltDwayne)
+  - 対応環境: デスクトップブラウザー。ログインやインストールなしで起動を確認。
+  - GPT-6 Astra: [作者のX投稿](https://x.com/CtrlAltDwayne/status/2096365441472209227) — GPT-6 Astra + Imagegen + Blender.
+  - 開発資料: [動作確認とクレジット](docs/x-games-2026-10-06.md#saber-descent)
+  - プレビュー: ![Saber / Descent — プレイ画面, 2026-10-06.](assets/screenshots/saber-descent/gameplay.jpg)
+
 - **[The Sunshard](https://mindblown.ai/games/the-sunshard)** — ボクセル風アクションRPG。Spark BoltとSunburstでHollowbornと戦い、瞬間移動で危険を避け、太陽の門を目覚めさせる。
   - 作者: [Mindblown / @mind](https://mindblown.ai/@mind) · [Mindblown](https://mindblown.ai/) · [X](https://x.com/mindblown_ai)
   - 対応環境: デスクトップブラウザー。キーボードとマウス、ログイン不要。
@@ -507,6 +556,13 @@
 ### プラットフォーム・レース
 
 パルクール、足場を渡るアクション、レースなど、移動とルート選びが中心のゲーム。
+
+- **[Sulli RUN](https://sulli-game.vercel.app/)** — 3Dのゴリラがネオンの街を走るランゲーム。レーン変更、ジャンプ、スライディングで障害物を避けます。
+  - 作者: [Morteza](https://x.com/Mortezabihzadeh)
+  - 対応環境: デスクトップブラウザー。ログインやインストールなしで起動を確認。
+  - GPT-6 Astra: [作者のX投稿](https://x.com/Mortezabihzadeh/status/2102719520699830417) — Astraが構築を支援。3DモデルとリギングはTripo.
+  - 開発資料: [動作確認とクレジット](docs/x-games-2026-10-06.md#sulli-run)
+  - プレビュー: ![Sulli RUN — プレイ画面, 2026-10-06.](assets/screenshots/sulli-run/gameplay.jpg)
 
 - **[Barrelbound: The Lost Cargo](https://barrelbound.vercel.app/)** — Rocco または Pip を選び、3 つのジャングルステージで二段ジャンプ、樽投げ、トロッコを使って失われた荷物を回収し、最後のボスに挑みます。
   - 作者: [Emile du Toit / Mafuta Games](https://mafuta.itch.io/)

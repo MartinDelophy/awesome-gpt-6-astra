@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 94](https://img.shields.io/badge/Cases-94-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 102](https://img.shields.io/badge/Cases-102-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Une sélection de jeux intéressants créés avec GPT-6 Astra.**
 
@@ -22,9 +22,9 @@ Cette page traduit le [README anglais](README.md). Consultez l’original pour v
 
 ## Pour commencer
 
-Découvrez **94 jeux et projets interactifs** : stratégie territoriale des Trois Royaumes, puzzles en bois à emboîtement et à glissement, fusion de fruits déformables, 2048 de construction urbaine avec génération procédurale, vol à une touche, combats sur tapis volant, un jeu de tir à rideaux de balles en cinq niveaux, défense d’île par un réseau électrique, survie en pleine nature, pêche sous-marine, gestion d’un restaurant de sushis et agriculture insulaire, course de karts sur Bay Circuit, balade côtière à vélo avec un pélican, jouets de table adaptés en 3D, décoration intérieure en 3D et Orbital Garden. Cliquez sur un titre pour jouer directement dans le navigateur.
+Découvrez **102 jeux et projets interactifs** : stratégie territoriale des Trois Royaumes, puzzles en bois à emboîtement et à glissement, fusion de fruits déformables, 2048 de construction urbaine avec génération procédurale, vol à une touche, combats sur tapis volant, un jeu de tir à rideaux de balles en cinq niveaux, défense d’île par un réseau électrique, survie en pleine nature, pêche sous-marine, gestion d’un restaurant de sushis et agriculture insulaire, course de karts sur Bay Circuit, balade côtière à vélo avec un pélican, jouets de table adaptés en 3D, décoration intérieure en 3D et Orbital Garden. Cliquez sur un titre pour jouer directement dans le navigateur.
 
-Mise à jour du catalogue : **2026-10-05**. L’utilisation du modèle est renseignée d’après les déclarations des créateurs ou des contributeurs ; les points non confirmés sont signalés dans chaque fiche. Cette date correspond à la maintenance du catalogue, pas à un nouveau test de tous les jeux.
+Mise à jour du catalogue : **2026-10-06**. L’utilisation du modèle est renseignée d’après les déclarations des créateurs ou des contributeurs ; les points non confirmés sont signalés dans chaque fiche. Cette date correspond à la maintenance du catalogue, pas à un nouveau test de tous les jeux.
 
 - **Envie de jouer ?** Parcourez les genres ci-dessous.
 - **Vous avez créé un jeu ?** [Proposez votre projet](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) avec un lien direct vers le jeu dans le navigateur, une capture en jeu et une explication de votre utilisation de GPT-6 Astra.
@@ -53,6 +53,34 @@ Jeux de tir, de combat, de survie, de rythme et tous ceux qui donnent envie de r
   - GPT-6 Astra: [Tests en une seule génération et prompts d’origine du créateur](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - Ressources: [Code source](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/mosswing/src) · [HTML autonome](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/mosswing/mosswing.html)
   - Aperçu: ![Écran de démarrage de Mosswing avec le personnage volant et les passages entre les piliers de pierre.](assets/screenshots/mosswing/gameplay.jpg)
+
+- **[HOLLOWMARK](https://hollowmark.mindblown.ai/)** — Explorez un complexe industriel souterrain en vue subjective, récupérez des clés d’accès et gérez vos munitions pendant les combats.
+  - Créateur: [Mindblown](https://mindblown.ai/)
+  - Plateforme: Navigateur de bureau ; lancement vérifié sans connexion ni installation.
+  - GPT-6 Astra: [Publication X du créateur](https://x.com/mindblown_ai/status/2102040812569944136) — GPT-6 Astra + Fable 5.1; Three.js.
+  - Ressources: [Vérification et crédits](docs/x-games-2026-10-06.md#hollowmark)
+  - Aperçu: ![HOLLOWMARK — Capture en jeu, 2026-10-06.](assets/screenshots/hollowmark/gameplay.jpg)
+
+- **[Canyon Overdrive](https://canyonoverdrive.ai-created.com/)** — Pilotez un chasseur dans des canyons au néon et brisez un blocus à coups de canons, de missiles et de tonneaux.
+  - Créateur: [Marco van Hylckama Vlieg / AI & Design](https://x.com/AIandDesign)
+  - Plateforme: Navigateur de bureau ; lancement vérifié sans connexion ni installation.
+  - GPT-6 Astra: [Publication X du créateur](https://x.com/AIandDesign/status/2105465838946140499) — GPT-6 Astra + GPT-6.1 Sol; Three.js.
+  - Ressources: [Vérification et crédits](docs/x-games-2026-10-06.md#canyon-overdrive)
+  - Aperçu: ![Canyon Overdrive — Capture en jeu, 2026-10-06.](assets/screenshots/canyon-overdrive/gameplay.jpg)
+
+- **[Flight 1073](https://flight1073.pages.dev/play/)** — Une courte parodie aéronautique en hébreu : évitez les chariots, accomplissez des tâches chronométrées et tentez d’atterrir.
+  - Créateur: [Guy Eshel](https://x.com/GuyEshel_)
+  - Plateforme: Navigateur de bureau ; lancement vérifié sans connexion ni installation.
+  - GPT-6 Astra: [Publication X du créateur](https://x.com/GuyEshel_/status/2106292470438822143) — GPT-6 Astra.
+  - Ressources: [Vérification et crédits](docs/x-games-2026-10-06.md#flight-1073)
+  - Aperçu: ![Flight 1073 — Capture en jeu, 2026-10-06.](assets/screenshots/flight-1073/gameplay.jpg)
+
+- **[FOE TO FLEET](https://foe-to-fleet.miya333.chatgpt.site)** — Les ennemis vaincus rejoignent votre flotte : utilisez-les comme armes et boucliers pour survivre à sept vagues de tirs.
+  - Créateur: [miya](https://x.com/miya00907380)
+  - Plateforme: Navigateur de bureau ; lancement vérifié sans connexion ni installation.
+  - GPT-6 Astra: [Publication X du créateur](https://x.com/miya00907380/status/2105055020106252543) — Implémentation principale : Astra ; fonctions annexes : GPT-5 Luna.
+  - Ressources: [Vérification et crédits](docs/x-games-2026-10-06.md#foe-to-fleet)
+  - Aperçu: ![FOE TO FLEET — Capture en jeu, 2026-10-06.](assets/screenshots/foe-to-fleet/gameplay.jpg)
 
 - **[MoxRide](https://www.moxride.com/)** — Dévalez une ville colorée en skateboard, glissez sur les rails et enchaînez les figures aériennes pour multiplier les points.
   - Créateur: [Moxazza / Moxazza Games](https://www.moxride.com/)
@@ -220,6 +248,13 @@ Jeux de tir, de combat, de survie, de rythme et tous ceux qui donnent envie de r
 ### Casse-têtes et réflexion
 
 Énigmes logiques, défis de physique, jeux de mots et petits mécanismes ingénieux.
+
+- **[Astra 2048](https://jianfan.app/2048/gpt/)** — Faites glisser et fusionnez les tuiles identiques vers 2048 dans la version Astra d’une expérience comparative entre modèles.
+  - Créateur: [Eddy](https://x.com/ieddysun)
+  - Plateforme: Navigateur de bureau ; lancement vérifié sans connexion ni installation.
+  - GPT-6 Astra: [Publication X du créateur](https://x.com/ieddysun/status/2105147777777041494) — Un seul prompt, sans retouches, selon le créateur.
+  - Ressources: [Vérification et crédits](docs/x-games-2026-10-06.md#astra-2048-eddy)
+  - Aperçu: ![Astra 2048 — Capture en jeu, 2026-10-06.](assets/screenshots/astra-2048-eddy/gameplay.jpg)
 
 - **[Vesper: The Last Light](https://vesper.mansgullberg.chatgpt.site/)** — Explorez des jardins engloutis et des machines célestes dans une aventure à énigmes à la troisième personne. Gérez la lumière comme santé, munitions et monnaie pour restaurer trois sceaux.
   - Créateur: [kvickan](https://buymeacoffee.com/kvickan)
@@ -414,6 +449,20 @@ Défense de tours, cartes stratégiques, gestion, construction et bacs à sable 
 
 Jeux de rôle, exploration, aventures narratives et histoires interactives.
 
+- **[The Fourth Knock](https://nikhilsatishdesai.github.io/the-fourth-knock/play/)** — Explorez Cedar House, interrogez ses occupants et résolvez un meurtre en chambre close dans une courte aventure policière en 2,5D.
+  - Créateur: [Nikhil Desai](https://x.com/NikhilDesai_007)
+  - Plateforme: Navigateur de bureau ; lancement vérifié sans connexion ni installation.
+  - GPT-6 Astra: [Publication X du créateur](https://x.com/NikhilDesai_007/status/2104495667284677078) — GPT-6 Astra + Claude Opus 5.5; Three.js.
+  - Ressources: [Vérification et crédits](docs/x-games-2026-10-06.md#the-fourth-knock)
+  - Aperçu: ![The Fourth Knock — Capture en jeu, 2026-10-06.](assets/screenshots/the-fourth-knock/gameplay.jpg)
+
+- **[Saber / Descent](https://vheissu.github.io/saber-battle/)** — Parcourez cinq niveaux de donjon avec une lame d’énergie, enchaînez attaques, parades et esquives pour atteindre le prochain portail.
+  - Créateur: [Dwayne](https://x.com/CtrlAltDwayne)
+  - Plateforme: Navigateur de bureau ; lancement vérifié sans connexion ni installation.
+  - GPT-6 Astra: [Publication X du créateur](https://x.com/CtrlAltDwayne/status/2096365441472209227) — GPT-6 Astra + Imagegen + Blender.
+  - Ressources: [Vérification et crédits](docs/x-games-2026-10-06.md#saber-descent)
+  - Aperçu: ![Saber / Descent — Capture en jeu, 2026-10-06.](assets/screenshots/saber-descent/gameplay.jpg)
+
 - **[The Sunshard](https://mindblown.ai/games/the-sunshard)** — Explorez un action-RPG au style voxel, combattez les Hollowborn avec Spark Bolt et Sunburst, esquivez par téléportation et réveillez la porte solaire.
   - Créateur: [Mindblown / @mind](https://mindblown.ai/@mind) · [Mindblown](https://mindblown.ai/) · [X](https://x.com/mindblown_ai)
   - Plateforme: Navigateur de bureau ; clavier et souris, sans connexion obligatoire.
@@ -507,6 +556,13 @@ Jeux de rôle, exploration, aventures narratives et histoires interactives.
 ### Plateforme et course
 
 Parkour, défis de plateforme, courses et jeux centrés sur les déplacements et les itinéraires.
+
+- **[Sulli RUN](https://sulli-game.vercel.app/)** — Incarnez un gorille en 3D dans une ville au néon : changez de voie, sautez et glissez pour éviter les obstacles et marquer des points.
+  - Créateur: [Morteza](https://x.com/Mortezabihzadeh)
+  - Plateforme: Navigateur de bureau ; lancement vérifié sans connexion ni installation.
+  - GPT-6 Astra: [Publication X du créateur](https://x.com/Mortezabihzadeh/status/2102719520699830417) — Mise en place avec Astra ; modèle 3D et rigging avec Tripo.
+  - Ressources: [Vérification et crédits](docs/x-games-2026-10-06.md#sulli-run)
+  - Aperçu: ![Sulli RUN — Capture en jeu, 2026-10-06.](assets/screenshots/sulli-run/gameplay.jpg)
 
 - **[Barrelbound: The Lost Cargo](https://barrelbound.vercel.app/)** — Choisissez Rocco ou Pip pour trois parcours de plateformes dans la jungle : double saut, tonneaux à lancer et wagonnet vous aident à récupérer la cargaison perdue avant le boss final.
   - Créateur: [Emile du Toit / Mafuta Games](https://mafuta.itch.io/)
