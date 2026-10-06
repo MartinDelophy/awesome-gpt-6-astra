@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 94](https://img.shields.io/badge/Cases-94-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 102](https://img.shields.io/badge/Cases-102-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Kumpulan gim menarik yang dibuat dengan GPT-6 Astra.**
 
@@ -22,9 +22,9 @@ Halaman ini merupakan terjemahan [README bahasa Inggris](README.md). Periksa ver
 
 ## Mulai di sini
 
-Jelajahi **94 gim dan proyek interaktif**: strategi wilayah Tiga Kerajaan, teka-teki kayu yang saling mengunci dan teka-teki balok geser, penggabungan buah yang lentur, 2048 pembangunan kota dengan generasi prosedural, penerbangan satu tombol, pertempuran karpet ajaib, gim tembak-menembak dengan hujan peluru dalam lima level, pertahanan pulau dengan jaringan listrik, bertahan hidup di alam liar, menangkap ikan di bawah air, mengelola restoran sushi, dan bertani di pulau, balapan kart di Bay Circuit, bersepeda di pesisir bersama pelikan, mainan meja yang diadaptasi menjadi gim 3D, dekorasi rumah 3D, serta Orbital Garden. Klik judul untuk langsung bermain di peramban.
+Jelajahi **102 gim dan proyek interaktif**: strategi wilayah Tiga Kerajaan, teka-teki kayu yang saling mengunci dan teka-teki balok geser, penggabungan buah yang lentur, 2048 pembangunan kota dengan generasi prosedural, penerbangan satu tombol, pertempuran karpet ajaib, gim tembak-menembak dengan hujan peluru dalam lima level, pertahanan pulau dengan jaringan listrik, bertahan hidup di alam liar, menangkap ikan di bawah air, mengelola restoran sushi, dan bertani di pulau, balapan kart di Bay Circuit, bersepeda di pesisir bersama pelikan, mainan meja yang diadaptasi menjadi gim 3D, dekorasi rumah 3D, serta Orbital Garden. Klik judul untuk langsung bermain di peramban.
 
-Katalog diperbarui: **2026-10-05**. Informasi penggunaan model berdasarkan pernyataan kreator atau pengirim; detail yang belum dikonfirmasi ditandai pada setiap entri. Tanggal ini menunjukkan pemeliharaan katalog, bukan pengujian ulang seluruh gim.
+Katalog diperbarui: **2026-10-06**. Informasi penggunaan model berdasarkan pernyataan kreator atau pengirim; detail yang belum dikonfirmasi ditandai pada setiap entri. Tanggal ini menunjukkan pemeliharaan katalog, bukan pengujian ulang seluruh gim.
 
 - **Mencari gim untuk dimainkan?** Jelajahi genre di bawah ini.
 - **Sudah membuat gim?** [Ajukan proyek Anda](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) dengan tautan langsung ke gim di peramban, tangkapan layar permainan, dan penjelasan tentang penggunaan GPT-6 Astra.
@@ -53,6 +53,34 @@ Gim tembak-menembak, pertarungan, bertahan hidup, ritme, dan apa pun yang membua
   - GPT-6 Astra: [Pengujian sekali generasi dan prompt asli kreator](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - Materi pengembangan: [Kode sumber](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/mosswing/src) · [HTML mandiri](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/mosswing/mosswing.html)
   - Pratinjau: ![Layar awal Mosswing menampilkan karakter terbang dan celah di antara pilar batu.](assets/screenshots/mosswing/gameplay.jpg)
+
+- **[HOLLOWMARK](https://hollowmark.mindblown.ai/)** — Jelajahi kompleks industri bawah tanah dari sudut pandang orang pertama, cari kunci akses dan kelola amunisi saat bertempur.
+  - Kreator: [Mindblown](https://mindblown.ai/)
+  - Platform: Peramban desktop; telah dicoba tanpa login atau instalasi.
+  - GPT-6 Astra: [Kiriman X kreator](https://x.com/mindblown_ai/status/2102040812569944136) — GPT-6 Astra + Fable 5.1; Three.js.
+  - Materi pengembangan: [Pemeriksaan dan kredit](docs/x-games-2026-10-06.md#hollowmark)
+  - Pratinjau: ![HOLLOWMARK — Tangkapan permainan, 2026-10-06.](assets/screenshots/hollowmark/gameplay.jpg)
+
+- **[Canyon Overdrive](https://canyonoverdrive.ai-created.com/)** — Terbangkan pesawat tempur di ngarai neon dan tembus blokade dengan meriam, rudal, serta manuver berguling.
+  - Kreator: [Marco van Hylckama Vlieg / AI & Design](https://x.com/AIandDesign)
+  - Platform: Peramban desktop; telah dicoba tanpa login atau instalasi.
+  - GPT-6 Astra: [Kiriman X kreator](https://x.com/AIandDesign/status/2105465838946140499) — GPT-6 Astra + GPT-6.1 Sol; Three.js.
+  - Materi pengembangan: [Pemeriksaan dan kredit](docs/x-games-2026-10-06.md#canyon-overdrive)
+  - Pratinjau: ![Canyon Overdrive — Tangkapan permainan, 2026-10-06.](assets/screenshots/canyon-overdrive/gameplay.jpg)
+
+- **[Flight 1073](https://flight1073.pages.dev/play/)** — Parodi penerbangan singkat berbahasa Ibrani: hindari troli, selesaikan tugas berbatas waktu dan usahakan mendaratkan pesawat.
+  - Kreator: [Guy Eshel](https://x.com/GuyEshel_)
+  - Platform: Peramban desktop; telah dicoba tanpa login atau instalasi.
+  - GPT-6 Astra: [Kiriman X kreator](https://x.com/GuyEshel_/status/2106292470438822143) — GPT-6 Astra.
+  - Materi pengembangan: [Pemeriksaan dan kredit](docs/x-games-2026-10-06.md#flight-1073)
+  - Pratinjau: ![Flight 1073 — Tangkapan permainan, 2026-10-06.](assets/screenshots/flight-1073/gameplay.jpg)
+
+- **[FOE TO FLEET](https://foe-to-fleet.miya333.chatgpt.site)** — Musuh yang dikalahkan bergabung dengan armada. Gunakan sekutu sebagai senjata dan perisai untuk bertahan melewati tujuh gelombang peluru.
+  - Kreator: [miya](https://x.com/miya00907380)
+  - Platform: Peramban desktop; telah dicoba tanpa login atau instalasi.
+  - GPT-6 Astra: [Kiriman X kreator](https://x.com/miya00907380/status/2105055020106252543) — Implementasi utama: Astra; fitur pendukung: GPT-5 Luna.
+  - Materi pengembangan: [Pemeriksaan dan kredit](docs/x-games-2026-10-06.md#foe-to-fleet)
+  - Pratinjau: ![FOE TO FLEET — Tangkapan permainan, 2026-10-06.](assets/screenshots/foe-to-fleet/gameplay.jpg)
 
 - **[MoxRide](https://www.moxride.com/)** — Meluncur menuruni kota penuh warna, grind di pagar dan rangkai trik udara untuk meningkatkan skor kombo.
   - Kreator: [Moxazza / Moxazza Games](https://www.moxride.com/)
@@ -220,6 +248,13 @@ Gim tembak-menembak, pertarungan, bertahan hidup, ritme, dan apa pun yang membua
 ### Teka-teki dan asah otak
 
 Teka-teki logika, tantangan fisika, permainan kata, dan mekanisme kecil yang kreatif.
+
+- **[Astra 2048](https://jianfan.app/2048/gpt/)** — Geser dan gabungkan ubin bernomor sama menuju 2048 dalam versi Astra dari eksperimen perbandingan model sang kreator.
+  - Kreator: [Eddy](https://x.com/ieddysun)
+  - Platform: Peramban desktop; telah dicoba tanpa login atau instalasi.
+  - GPT-6 Astra: [Kiriman X kreator](https://x.com/ieddysun/status/2105147777777041494) — Satu prompt tanpa penyuntingan, menurut kreator.
+  - Materi pengembangan: [Pemeriksaan dan kredit](docs/x-games-2026-10-06.md#astra-2048-eddy)
+  - Pratinjau: ![Astra 2048 — Tangkapan permainan, 2026-10-06.](assets/screenshots/astra-2048-eddy/gameplay.jpg)
 
 - **[Vesper: The Last Light](https://vesper.mansgullberg.chatgpt.site/)** — Jelajahi taman terendam dan mesin langit dalam petualangan teka-teki orang ketiga. Kelola cahaya sebagai kesehatan, amunisi dan mata uang untuk memulihkan tiga segel.
   - Pembuat: [kvickan](https://buymeacoffee.com/kvickan)
@@ -414,6 +449,20 @@ Pertahanan menara, kartu strategi, pengelolaan, pembangunan, dan sandbox simulas
 
 Permainan peran, eksplorasi, petualangan naratif, dan cerita interaktif.
 
+- **[The Fourth Knock](https://nikhilsatishdesai.github.io/the-fourth-knock/play/)** — Jelajahi Cedar House, berbicara dengan orang asing dan pecahkan pembunuhan ruang terkunci dalam petualangan detektif 2.5D singkat.
+  - Kreator: [Nikhil Desai](https://x.com/NikhilDesai_007)
+  - Platform: Peramban desktop; telah dicoba tanpa login atau instalasi.
+  - GPT-6 Astra: [Kiriman X kreator](https://x.com/NikhilDesai_007/status/2104495667284677078) — GPT-6 Astra + Claude Opus 5.5; Three.js.
+  - Materi pengembangan: [Pemeriksaan dan kredit](docs/x-games-2026-10-06.md#the-fourth-knock)
+  - Pratinjau: ![The Fourth Knock — Tangkapan permainan, 2026-10-06.](assets/screenshots/the-fourth-knock/gameplay.jpg)
+
+- **[Saber / Descent](https://vheissu.github.io/saber-battle/)** — Jelajahi lima tingkat ruang bawah tanah dengan pedang energi, memadukan serangan, tangkisan dan gerakan cepat menuju portal berikutnya.
+  - Kreator: [Dwayne](https://x.com/CtrlAltDwayne)
+  - Platform: Peramban desktop; telah dicoba tanpa login atau instalasi.
+  - GPT-6 Astra: [Kiriman X kreator](https://x.com/CtrlAltDwayne/status/2096365441472209227) — GPT-6 Astra + Imagegen + Blender.
+  - Materi pengembangan: [Pemeriksaan dan kredit](docs/x-games-2026-10-06.md#saber-descent)
+  - Pratinjau: ![Saber / Descent — Tangkapan permainan, 2026-10-06.](assets/screenshots/saber-descent/gameplay.jpg)
+
 - **[The Sunshard](https://mindblown.ai/games/the-sunshard)** — Jelajahi RPG aksi bergaya voxel, lawan Hollowborn dengan Spark Bolt dan Sunburst, hindari bahaya lewat teleportasi dan bangunkan gerbang matahari.
   - Pembuat: [Mindblown / @mind](https://mindblown.ai/@mind) · [Mindblown](https://mindblown.ai/) · [X](https://x.com/mindblown_ai)
   - Platform: Browser desktop; keyboard dan mouse, tanpa login wajib.
@@ -507,6 +556,13 @@ Permainan peran, eksplorasi, petualangan naratif, dan cerita interaktif.
 ### Platformer dan balapan
 
 Parkour, tantangan platform, balapan, serta gim yang berfokus pada gerakan dan rute.
+
+- **[Sulli RUN](https://sulli-game.vercel.app/)** — Berlari sebagai gorila 3D di kota neon; pindah jalur, melompat dan meluncur untuk menghindari rintangan serta menambah skor.
+  - Kreator: [Morteza](https://x.com/Mortezabihzadeh)
+  - Platform: Peramban desktop; telah dicoba tanpa login atau instalasi.
+  - GPT-6 Astra: [Kiriman X kreator](https://x.com/Mortezabihzadeh/status/2102719520699830417) — Penyiapan dibantu Astra; model 3D dan rigging oleh Tripo.
+  - Materi pengembangan: [Pemeriksaan dan kredit](docs/x-games-2026-10-06.md#sulli-run)
+  - Pratinjau: ![Sulli RUN — Tangkapan permainan, 2026-10-06.](assets/screenshots/sulli-run/gameplay.jpg)
 
 - **[Barrelbound: The Lost Cargo](https://barrelbound.vercel.app/)** — Pilih Rocco atau Pip untuk tiga lintasan platformer di hutan: lakukan lompatan ganda, lempar tong, naik gerobak tambang, dan kumpulkan muatan yang hilang menuju pertarungan bos terakhir.
   - Kreator: [Emile du Toit / Mafuta Games](https://mafuta.itch.io/)

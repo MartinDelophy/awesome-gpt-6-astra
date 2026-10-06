@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 94](https://img.shields.io/badge/Cases-94-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 102](https://img.shields.io/badge/Cases-102-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Подборка интересных игр, созданных с помощью GPT-6 Astra.**
 
@@ -22,9 +22,9 @@
 
 ## С чего начать
 
-Здесь собраны **94 игр и интерактивных проектов**: территориальная стратегия эпохи Троецарствия, деревянные головоломки со сцепленными деталями и сдвижными блоками, объединение мягких фруктов, 2048 с процедурным строительством городов, полёт одной кнопкой, сражения на ковре-самолёте, шутер с завесами пуль и пятью уровнями, защита острова с помощью электросети, выживание в дикой природе, подводная охота, управление суши-рестораном и фермерство на острове, гонки на картах по Bay Circuit, велопрогулка с пеликаном вдоль берега, настольные игрушки в 3D, оформление дома в 3D и Orbital Garden. Нажмите на название, чтобы играть прямо в браузере.
+Здесь собраны **102 игр и интерактивных проектов**: территориальная стратегия эпохи Троецарствия, деревянные головоломки со сцепленными деталями и сдвижными блоками, объединение мягких фруктов, 2048 с процедурным строительством городов, полёт одной кнопкой, сражения на ковре-самолёте, шутер с завесами пуль и пятью уровнями, защита острова с помощью электросети, выживание в дикой природе, подводная охота, управление суши-рестораном и фермерство на острове, гонки на картах по Bay Circuit, велопрогулка с пеликаном вдоль берега, настольные игрушки в 3D, оформление дома в 3D и Orbital Garden. Нажмите на название, чтобы играть прямо в браузере.
 
-Каталог обновлён: **2026-10-05**. Сведения об использовании модели основаны на заявлениях авторов или отправителей; неподтверждённые данные отмечены в соответствующих записях. Эта дата означает обновление каталога, а не повторное игровое тестирование всех проектов.
+Каталог обновлён: **2026-10-06**. Сведения об использовании модели основаны на заявлениях авторов или отправителей; неподтверждённые данные отмечены в соответствующих записях. Эта дата означает обновление каталога, а не повторное игровое тестирование всех проектов.
 
 - **Ищете, во что поиграть?** Посмотрите жанры ниже.
 - **Создали игру?** [Предложите свой проект](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml), приложив прямую ссылку на браузерную игру, скриншот игрового процесса и описание того, как вы использовали GPT-6 Astra.
@@ -53,6 +53,34 @@
   - GPT-6 Astra: [Тесты создания за один запрос и исходные промпты автора](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - Материалы: [Исходный код](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/mosswing/src) · [Автономный HTML-файл](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/mosswing/mosswing.html)
   - Предпросмотр: ![Стартовый экран Mosswing с летающим персонажем и промежутками между каменными колоннами.](assets/screenshots/mosswing/gameplay.jpg)
+
+- **[HOLLOWMARK](https://hollowmark.mindblown.ai/)** — Исследуйте промышленное подземелье от первого лица, находите ключи доступа и берегите боеприпасы в боях.
+  - Автор: [Mindblown](https://mindblown.ai/)
+  - Платформа: Настольный браузер; запуск проверен без входа в аккаунт и установки.
+  - GPT-6 Astra: [Публикация автора в X](https://x.com/mindblown_ai/status/2102040812569944136) — GPT-6 Astra + Fable 5.1; Three.js.
+  - Материалы: [Проверка и авторство](docs/x-games-2026-10-06.md#hollowmark)
+  - Предпросмотр: ![HOLLOWMARK — Снимок игры, 2026-10-06.](assets/screenshots/hollowmark/gameplay.jpg)
+
+- **[Canyon Overdrive](https://canyonoverdrive.ai-created.com/)** — Пилотируйте истребитель в неоновых каньонах и прорывайте блокаду с помощью пушек, ракет и бочек.
+  - Автор: [Marco van Hylckama Vlieg / AI & Design](https://x.com/AIandDesign)
+  - Платформа: Настольный браузер; запуск проверен без входа в аккаунт и установки.
+  - GPT-6 Astra: [Публикация автора в X](https://x.com/AIandDesign/status/2105465838946140499) — GPT-6 Astra + GPT-6.1 Sol; Three.js.
+  - Материалы: [Проверка и авторство](docs/x-games-2026-10-06.md#canyon-overdrive)
+  - Предпросмотр: ![Canyon Overdrive — Снимок игры, 2026-10-06.](assets/screenshots/canyon-overdrive/gameplay.jpg)
+
+- **[Flight 1073](https://flight1073.pages.dev/play/)** — Короткая авиационная пародия на иврите: обходите тележки, выполняйте задания на время и попытайтесь посадить самолёт.
+  - Автор: [Guy Eshel](https://x.com/GuyEshel_)
+  - Платформа: Настольный браузер; запуск проверен без входа в аккаунт и установки.
+  - GPT-6 Astra: [Публикация автора в X](https://x.com/GuyEshel_/status/2106292470438822143) — GPT-6 Astra.
+  - Материалы: [Проверка и авторство](docs/x-games-2026-10-06.md#flight-1073)
+  - Предпросмотр: ![Flight 1073 — Снимок игры, 2026-10-06.](assets/screenshots/flight-1073/gameplay.jpg)
+
+- **[FOE TO FLEET](https://foe-to-fleet.miya333.chatgpt.site)** — Побеждённые враги пополняют ваш флот. Используйте союзников как оружие и щиты, чтобы пережить семь волн пуль.
+  - Автор: [miya](https://x.com/miya00907380)
+  - Платформа: Настольный браузер; запуск проверен без входа в аккаунт и установки.
+  - GPT-6 Astra: [Публикация автора в X](https://x.com/miya00907380/status/2105055020106252543) — Основная реализация — Astra; вспомогательные функции — GPT-5 Luna.
+  - Материалы: [Проверка и авторство](docs/x-games-2026-10-06.md#foe-to-fleet)
+  - Предпросмотр: ![FOE TO FLEET — Снимок игры, 2026-10-06.](assets/screenshots/foe-to-fleet/gameplay.jpg)
 
 - **[MoxRide](https://www.moxride.com/)** — Спускайтесь на скейтборде по яркому городу, скользите по перилам и соединяйте воздушные трюки в комбо ради очков.
   - Автор: [Moxazza / Moxazza Games](https://www.moxride.com/)
@@ -220,6 +248,13 @@
 ### Головоломки и логические игры
 
 Логические и физические задачи, игры со словами и необычные небольшие механики.
+
+- **[Astra 2048](https://jianfan.app/2048/gpt/)** — Сдвигайте и объединяйте одинаковые числа до 2048 в версии Astra из авторского эксперимента по сравнению моделей.
+  - Автор: [Eddy](https://x.com/ieddysun)
+  - Платформа: Настольный браузер; запуск проверен без входа в аккаунт и установки.
+  - GPT-6 Astra: [Публикация автора в X](https://x.com/ieddysun/status/2105147777777041494) — По словам автора, один запрос без последующих правок.
+  - Материалы: [Проверка и авторство](docs/x-games-2026-10-06.md#astra-2048-eddy)
+  - Предпросмотр: ![Astra 2048 — Снимок игры, 2026-10-06.](assets/screenshots/astra-2048-eddy/gameplay.jpg)
 
 - **[Vesper: The Last Light](https://vesper.mansgullberg.chatgpt.site/)** — Исследуйте затопленные сады и небесные механизмы в приключении с загадками от третьего лица. Распределяйте свет между здоровьем, боеприпасами и валютой, чтобы восстановить три печати.
   - Автор: [kvickan](https://buymeacoffee.com/kvickan)
@@ -414,6 +449,20 @@
 
 Ролевые игры, исследование мира, сюжетные приключения и интерактивные истории.
 
+- **[The Fourth Knock](https://nikhilsatishdesai.github.io/the-fourth-knock/play/)** — Исследуйте Cedar House, беседуйте с незнакомцами и раскройте убийство в запертой комнате в коротком детективном приключении 2,5D.
+  - Автор: [Nikhil Desai](https://x.com/NikhilDesai_007)
+  - Платформа: Настольный браузер; запуск проверен без входа в аккаунт и установки.
+  - GPT-6 Astra: [Публикация автора в X](https://x.com/NikhilDesai_007/status/2104495667284677078) — GPT-6 Astra + Claude Opus 5.5; Three.js.
+  - Материалы: [Проверка и авторство](docs/x-games-2026-10-06.md#the-fourth-knock)
+  - Предпросмотр: ![The Fourth Knock — Снимок игры, 2026-10-06.](assets/screenshots/the-fourth-knock/gameplay.jpg)
+
+- **[Saber / Descent](https://vheissu.github.io/saber-battle/)** — Пройдите пять этажей подземелья с энергетическим клинком, сочетая удары, парирования и рывки на пути к следующему порталу.
+  - Автор: [Dwayne](https://x.com/CtrlAltDwayne)
+  - Платформа: Настольный браузер; запуск проверен без входа в аккаунт и установки.
+  - GPT-6 Astra: [Публикация автора в X](https://x.com/CtrlAltDwayne/status/2096365441472209227) — GPT-6 Astra + Imagegen + Blender.
+  - Материалы: [Проверка и авторство](docs/x-games-2026-10-06.md#saber-descent)
+  - Предпросмотр: ![Saber / Descent — Снимок игры, 2026-10-06.](assets/screenshots/saber-descent/gameplay.jpg)
+
 - **[The Sunshard](https://mindblown.ai/games/the-sunshard)** — Исследуйте воксельную экшен-RPG, сражайтесь с Hollowborn с помощью Spark Bolt и Sunburst, уклоняйтесь телепортацией и пробудите солнечные врата.
   - Автор: [Mindblown / @mind](https://mindblown.ai/@mind) · [Mindblown](https://mindblown.ai/) · [X](https://x.com/mindblown_ai)
   - Платформа: Настольный браузер; клавиатура и мышь, вход в аккаунт не требуется.
@@ -507,6 +556,13 @@
 ### Платформеры и гонки
 
 Паркур, испытания с платформами, гонки и игры, построенные вокруг движения и выбора маршрута.
+
+- **[Sulli RUN](https://sulli-game.vercel.app/)** — Бегите по неоновому городу за трёхмерную гориллу: меняйте дорожки, прыгайте и скользите, избегая препятствий и набирая очки.
+  - Автор: [Morteza](https://x.com/Mortezabihzadeh)
+  - Платформа: Настольный браузер; запуск проверен без входа в аккаунт и установки.
+  - GPT-6 Astra: [Публикация автора в X](https://x.com/Mortezabihzadeh/status/2102719520699830417) — Настройка с помощью Astra; 3D-модель и риггинг — Tripo.
+  - Материалы: [Проверка и авторство](docs/x-games-2026-10-06.md#sulli-run)
+  - Предпросмотр: ![Sulli RUN — Снимок игры, 2026-10-06.](assets/screenshots/sulli-run/gameplay.jpg)
 
 - **[Barrelbound: The Lost Cargo](https://barrelbound.vercel.app/)** — Выберите Rocco или Pip и пройдите три платформенных уровня в джунглях: используйте двойной прыжок, бросайте бочки, катайтесь на вагонетке и собирайте потерянный груз по пути к финальному боссу.
   - Автор: [Emile du Toit / Mafuta Games](https://mafuta.itch.io/)

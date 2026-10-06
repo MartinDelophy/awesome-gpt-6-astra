@@ -1,0 +1,9 @@
+# Astra 2048 screenshot
+
+- Game: https://jianfan.app/2048/gpt/
+- Creator: [Eddy](https://x.com/ieddysun)
+- Creator statement: https://x.com/ieddysun/status/2105147777777041494
+- Capture date: 2026-10-06. Captured from the live browser game after starting play.
+- File: `gameplay.jpg`; original browser capture, JPEG compression, no generated imagery.
+- Game artwork and trademarks remain the property of their respective owners; this preview documents the linked game and does not relicense its assets under the catalog's CC0 license.
+- Verification details: [Review](../../../docs/x-games-2026-10-06.md).
