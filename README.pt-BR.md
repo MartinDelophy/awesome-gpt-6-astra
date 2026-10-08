@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 102](https://img.shields.io/badge/Cases-102-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 103](https://img.shields.io/badge/Cases-103-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Uma coleção de jogos interessantes feitos com GPT-6 Astra.**
 
@@ -22,9 +22,9 @@ Esta página é uma tradução do [README em inglês](README.md). Consulte o ori
 
 ## Comece por aqui
 
-Explore **102 jogos e projetos interativos**: estratégia territorial dos Três Reinos, quebra-cabeças de madeira com encaixes e peças deslizantes, fusão de frutas deformáveis, 2048 de construção de cidades com geração procedural, voo com um toque, combates em tapete mágico, um jogo de tiro com chuva de balas e cinco fases, defesa de uma ilha com uma rede elétrica, sobrevivência na natureza, pesca submarina, gestão de um restaurante de sushi e cultivo em uma ilha, corridas de kart no Bay Circuit, ciclismo pela costa com um pelicano, brinquedos de mesa adaptados para 3D, decoração de casas em 3D e Orbital Garden. Clique em um título para jogar diretamente no navegador.
+Explore **103 jogos e projetos interativos**: estratégia territorial dos Três Reinos, quebra-cabeças de madeira com encaixes e peças deslizantes, fusão de frutas deformáveis, 2048 de construção de cidades com geração procedural, voo com um toque, combates em tapete mágico, um jogo de tiro com chuva de balas e cinco fases, defesa de uma ilha com uma rede elétrica, sobrevivência na natureza, pesca submarina, gestão de um restaurante de sushi e cultivo em uma ilha, corridas de kart no Bay Circuit, ciclismo pela costa com um pelicano, brinquedos de mesa adaptados para 3D, decoração de casas em 3D e Orbital Garden. Clique em um título para jogar diretamente no navegador.
 
-Catálogo atualizado: **2026-10-06**. O uso do modelo é informado com base nas declarações dos criadores ou responsáveis pelas submissões; detalhes não confirmados são sinalizados em cada entrada. Esta data registra a manutenção do catálogo, não um novo teste de todos os jogos.
+Catálogo atualizado: **2026-10-08**. O uso do modelo é informado com base nas declarações dos criadores ou responsáveis pelas submissões; detalhes não confirmados são sinalizados em cada entrada. Esta data registra a manutenção do catálogo, não um novo teste de todos os jogos.
 
 - **Procurando algo para jogar?** Explore os gêneros abaixo.
 - **Criou um jogo?** [Envie seu projeto](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) com um link direto para jogar no navegador, uma captura de tela do jogo e uma descrição de como você usou GPT-6 Astra.
@@ -53,6 +53,13 @@ Jogos de tiro, luta, sobrevivência, ritmo e qualquer experiência que dê vonta
   - GPT-6 Astra: [Testes em uma única geração e prompts originais do criador](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - Recursos: [Código-fonte](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/mosswing/src) · [HTML independente](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/mosswing/mosswing.html)
   - Prévia: ![Tela inicial de Mosswing com o personagem voador e os espaços entre pilares de pedra.](assets/screenshots/mosswing/gameplay.jpg)
+
+- **[Miami Flap](https://miami-flap-neon.europeaningredients.chatgpt.site/)** — Voe entre canos de neon, colete estrelas e encadeie passagens precisas para ganhar bônus. Os modos Clássico e Caos oferecem escudo, ímã e visuais desbloqueáveis.
+  - Criador: [lokotay](https://github.com/LOKOTAY)
+  - Plataforma: Navegador de computador ou celular; interface em espanhol. Internet para carregar e salvar. Sem login ou instalação; toque, clique, Espaço ou seta para cima.
+  - GPT-6 Astra: [Issue #117](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/117) — O criador descreve desenvolvimento iterativo com ChatGPT e uso posterior do GPT-6 Astra no design e na revisão. Direção humana e testes repetidos, não uma geração com um único prompt.
+  - Recursos: [2026-10-08 · v24](assets/screenshots/miami-flap/SOURCE.md) · JavaScript, Canvas, HTML/CSS
+  - Prévia: ![Captura fornecida pelo criador, versão 24, 2026-10-08.](assets/screenshots/miami-flap/gameplay.png)
 
 - **[HOLLOWMARK](https://hollowmark.mindblown.ai/)** — Explore um complexo industrial subterrâneo em primeira pessoa, encontre chaves de acesso e administre a munição durante os combates.
   - Criador: [Mindblown](https://mindblown.ai/)

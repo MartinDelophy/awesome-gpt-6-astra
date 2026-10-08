@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 102](https://img.shields.io/badge/Cases-102-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 103](https://img.shields.io/badge/Cases-103-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **GPT-6 Astra で作られた、遊んでみたくなるゲームを集めています。**
 
@@ -22,9 +22,9 @@
 
 ## はじめに
 
-現在、**102件のゲームとインタラクティブ作品**を掲載しています。三国志の領土戦略、木製の組木パズルとスライドパズル、柔らかい果物の合成、プロシージャルな都市建設 2048、ワンボタン飛行、魔法の絨毯での戦闘、全5ステージの弾幕シューティング、島の電力網を使うタワーディフェンス、荒野でのサバイバル、水中での魚捕り、寿司店経営と島での農作業、海湾サーキットのカートレース、ペリカンとの海岸サイクリング、卓上玩具の 3D ゲーム化、3D の室内装飾、そして Orbital Garden。作品名をクリックすると、ブラウザーで直接遊べます。
+現在、**103件のゲームとインタラクティブ作品**を掲載しています。三国志の領土戦略、木製の組木パズルとスライドパズル、柔らかい果物の合成、プロシージャルな都市建設 2048、ワンボタン飛行、魔法の絨毯での戦闘、全5ステージの弾幕シューティング、島の電力網を使うタワーディフェンス、荒野でのサバイバル、水中での魚捕り、寿司店経営と島での農作業、海湾サーキットのカートレース、ペリカンとの海岸サイクリング、卓上玩具の 3D ゲーム化、3D の室内装飾、そして Orbital Garden。作品名をクリックすると、ブラウザーで直接遊べます。
 
-一覧更新日：**2026-10-06**。モデルの利用情報は作者または投稿者の説明に基づき、未確認の内容は各項目に明記しています。この日付は一覧の更新日であり、全作品を再度プレイテストした日ではありません。
+一覧更新日：**2026-10-08**。モデルの利用情報は作者または投稿者の説明に基づき、未確認の内容は各項目に明記しています。この日付は一覧の更新日であり、全作品を再度プレイテストした日ではありません。
 
 - **遊びたい方：** 下のジャンルから気になる作品を探してください。
 - **ゲームを作った方：** [作品を投稿](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml)し、ブラウザーで直接遊べる URL、実際のゲーム画面のスクリーンショット、GPT-6 Astra の使い方の説明を添えてください。
@@ -53,6 +53,13 @@
   - GPT-6 Astra: [作者の One Shot テストと元のプロンプト](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - 開発資料: [ソースコード](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/mosswing/src) · [単一 HTML ファイル](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/mosswing/mosswing.html)
   - プレビュー: ![Mosswing の開始画面。飛ぶキャラクターと石柱の間の隙間が見えます。](assets/screenshots/mosswing/gameplay.jpg)
+
+- **[Miami Flap](https://miami-flap-neon.europeaningredients.chatgpt.site/)** — タップでネオンの土管をくぐり、星を集めて正確な通過を連続させます。クラシックとカオスの各モードにシールド、磁石、外見の解放要素があります。
+  - 作者: [lokotay](https://github.com/LOKOTAY)
+  - 対応環境: PC・モバイルのブラウザー。スペイン語UI。読み込みと保存に通信が必要。ログイン・インストール不要。タップ、クリック、Space、上矢印で操作。
+  - GPT-6 Astra: [Issue #117](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/117) — 作者がChatGPTで繰り返し開発し、後期の設計とレビューにGPT-6 Astraを使用。作者の指揮と反復プレイテストによる作品で、単一プロンプトの生成ではありません。
+  - 開発資料: [2026-10-08 · v24](assets/screenshots/miami-flap/SOURCE.md) · JavaScript, Canvas, HTML/CSS
+  - プレビュー: ![作者提供のプレイ画面、バージョン24、2026-10-08。](assets/screenshots/miami-flap/gameplay.png)
 
 - **[HOLLOWMARK](https://hollowmark.mindblown.ai/)** — 一人称視点で工業施設の地下世界を探索し、アクセスキーと弾薬を集めながら敵と戦うシューター。
   - 作者: [Mindblown](https://mindblown.ai/)
