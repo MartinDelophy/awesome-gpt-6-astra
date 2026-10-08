@@ -6,7 +6,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 102](https://img.shields.io/badge/Cases-102-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 103](https://img.shields.io/badge/Cases-103-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **مجموعة من الألعاب الممتعة المصنوعة باستخدام GPT-6 Astra.**
 
@@ -24,9 +24,9 @@
 
 ## ابدأ من هنا
 
-استكشف **102 لعبة ومشروعًا تفاعليًا**: استراتيجية السيطرة على الأراضي في عصر الممالك الثلاث، ألغاز خشبية متشابكة وألغاز الكتل المنزلقة، دمج الفواكه المرنة، ولعبة 2048 لبناء المدن بالتوليد الإجرائي، والطيران بزر واحد، والقتال على بساط سحري، ولعبة تصويب كثيفة الرصاص من خمس مراحل، والدفاع عن جزيرة بشبكة كهربائية، والبقاء في البرية، وصيد الأسماك تحت الماء وإدارة مطعم سوشي والزراعة على جزيرة، وسباقات الكارت على حلبة الخليج، وركوب الدراجة مع بجع على الساحل، وألعاب طاولة محوّلة إلى ألعاب ثلاثية الأبعاد، وتصميم ديكور المنازل ثلاثي الأبعاد، وOrbital Garden. انقر على اسم العمل لفتح اللعبة مباشرة في المتصفح.
+استكشف **103 لعبة ومشروعًا تفاعليًا**: استراتيجية السيطرة على الأراضي في عصر الممالك الثلاث، ألغاز خشبية متشابكة وألغاز الكتل المنزلقة، دمج الفواكه المرنة، ولعبة 2048 لبناء المدن بالتوليد الإجرائي، والطيران بزر واحد، والقتال على بساط سحري، ولعبة تصويب كثيفة الرصاص من خمس مراحل، والدفاع عن جزيرة بشبكة كهربائية، والبقاء في البرية، وصيد الأسماك تحت الماء وإدارة مطعم سوشي والزراعة على جزيرة، وسباقات الكارت على حلبة الخليج، وركوب الدراجة مع بجع على الساحل، وألعاب طاولة محوّلة إلى ألعاب ثلاثية الأبعاد، وتصميم ديكور المنازل ثلاثي الأبعاد، وOrbital Garden. انقر على اسم العمل لفتح اللعبة مباشرة في المتصفح.
 
-تحديث القائمة: **2026-10-06**. تستند معلومات استخدام النموذج إلى تصريحات المؤلفين أو مقدّمي الأعمال؛ وتُوضّح التفاصيل غير المؤكدة في كل بند. يشير هذا التاريخ إلى تحديث القائمة، وليس إلى إعادة اختبار جميع الألعاب.
+تحديث القائمة: **2026-10-08**. تستند معلومات استخدام النموذج إلى تصريحات المؤلفين أو مقدّمي الأعمال؛ وتُوضّح التفاصيل غير المؤكدة في كل بند. يشير هذا التاريخ إلى تحديث القائمة، وليس إلى إعادة اختبار جميع الألعاب.
 
 - **تبحث عن لعبة؟** تصفح الأنواع أدناه.
 - **صنعت لعبة؟** [أرسل مشروعك](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) مع رابط مباشر للعب في المتصفح، ولقطة شاشة فعلية من اللعبة، وشرح لكيفية استخدامك GPT-6 Astra.
@@ -55,6 +55,13 @@
   - GPT-6 Astra: [اختبارات المبدع بالتوليد من طلب واحد والموجّهات الأصلية](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - موارد التطوير: [الشفرة المصدرية](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/mosswing/src) · [ملف HTML مستقل](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/mosswing/mosswing.html)
   - معاينة: ![شاشة بدء Mosswing وتظهر الشخصية الطائرة والفجوات بين الأعمدة الحجرية.](assets/screenshots/mosswing/gameplay.jpg)
+
+- **[Miami Flap](https://miami-flap-neon.europeaningredients.chatgpt.site/)** — طر بين أنابيب النيون واجمع النجوم ووصل المرور الدقيق للحصول على مكافآت. يوفر الوضعان الكلاسيكي والفوضوي درعاً ومغناطيساً ومظاهر قابلة للفتح.
+  - المبدع: [lokotay](https://github.com/LOKOTAY)
+  - المنصة: متصفح الحاسوب أو الهاتف؛ الواجهة بالإسبانية. يتطلب الإنترنت للتحميل والحفظ. دون تسجيل أو تثبيت؛ اللمس أو النقر أو المسافة أو السهم العلوي.
+  - GPT-6 Astra: [Issue #117](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/117) — يصف المبدع تطويراً متكرراً مع ChatGPT، مع مشاركة GPT-6 Astra في التصميم والمراجعة لاحقاً. توجيه بشري واختبارات لعب متكررة، وليس توليداً بطلب واحد.
+  - موارد التطوير: [2026-10-08 · v24](assets/screenshots/miami-flap/SOURCE.md) · JavaScript, Canvas, HTML/CSS
+  - معاينة: ![لقطة لعب مقدمة من المبدع، الإصدار 24، 2026-10-08.](assets/screenshots/miami-flap/gameplay.png)
 
 - **[HOLLOWMARK](https://hollowmark.mindblown.ai/)** — استكشف منشأة صناعية تحت الأرض بمنظور الشخص الأول، واجمع مفاتيح الدخول وأدر ذخيرتك أثناء القتال.
   - المبدع: [Mindblown](https://mindblown.ai/)
