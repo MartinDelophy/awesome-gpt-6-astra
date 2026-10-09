@@ -508,7 +508,7 @@ Tower defense, strategic card games, management games, building, and simulation 
   - Platform: WebGL browser; Chinese interface, mouse or touch. Free, no game login. Toy release supports AI duels, summoning and deck editing with local browser saves; online PK requires the separate full-version server.
   - Model participation: [Development and verification notes](assets/screenshots/astral-duel/SOURCE.md) — Iterative Codex collaboration; exact GPT-6 Astra attribution awaits creator confirmation. Unofficial fan prototype using third-party card artwork.
   - Resources: [Development and verification notes](assets/screenshots/astral-duel/SOURCE.md) · Built with: React, TypeScript, Three.js; the full server uses Node.js and Socket.IO. Full source is private.
-  - Preview: ![Actual Toy static-build gameplay captured 2026-10-09: the trap-chain tutorial with life points, battle phase and response controls.](assets/screenshots/astral-duel/gameplay.png)
+  - Preview: ![Actual local full-server gameplay captured 2026-10-10: Roman arena, volumetric monsters and compact selected-card attack controls.](assets/screenshots/astral-duel/gameplay.png)
 
 - **[Tidehook](https://tidehook-mallow.vercel.app/)** — Pilot the little tug Mallow through three coastal voyages, towing salvage whose weight changes acceleration and turning, delivering it to a harbour crane and eventually recovering a lighthouse lens.
   - Creator: [Emile du Toit / Mafuta Games](https://mafuta.itch.io/)
