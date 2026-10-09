@@ -1,4 +1,4 @@
-# Astral Duel / 星域决斗 — creator and verification record
+# Yu-Gi-Oh! Ruins Duel / 游戏王：遗迹决斗 — creator and verification record
 
 ## Creator and model attribution / 作者与模型参与
 
@@ -8,6 +8,8 @@
 - **GPT-6 Astra 的具体参与仍待作者确认。** 已确认上述 Codex 多轮开发工作，不能仅凭 Codex 工具名称断言使用了 GPT-6 Astra；本投稿保持草稿。
 
 ## Public release and scope / 公开试玩与范围
+
+Display name updated on 2026-10-10 to **游戏王：遗迹决斗 / Yu-Gi-Oh! Ruins Duel**. Existing repository names, Toy URL/slug and browser save keys are preserved; historical screenshots can show the earlier title. The rename preview (https://www.bilibili.com/toy/preview/preview_Bl19yMGw/index.html) visibly shows the new title and retained browser collection. Source revision `30749a3f32948367c948ade0c64a561cddf2d0be` passed 65 game tests, production builds, runtime integrity and Toy preflight; the 27 catalogue tests passed. The title fits desktop and 844×390 mobile landscape without overlapping header controls. New title and an actual renamed-game screenshot poster were submitted to Toy; CLI receipt status: **auditing**, submission preview: https://www.bilibili.com/toy/preview/preview_SCDnx23l/index.html . The existing Roman/monster public version remains available while the rename is reviewed.
 
 - [Play on Toy](https://www.bilibili.com/toy/astral-duel-game/index.html): Toy ID `42086522945536`, visibility PUBLIC, previously published on 2026-10-09. The Roman arena / volumetric-monster update was previewed and exercised in Chrome, then submitted on 2026-10-10. Latest CLI status: **published**; the formal URL stays unchanged. The formal Toy page was opened in Chrome after approval and the Roman arena / entity-monster battle was visibly verified. Final tested preview: https://www.bilibili.com/toy/preview/preview_BTpeQTB3/index.html .
 - Free browser game with a Chinese interface, WebGL, mouse/touch controls, and no mandatory game login or installation. Progress is saved in the current browser.
@@ -22,16 +24,16 @@ Captured by the creator's Codex session on **2026-10-09 and 2026-10-10**, withou
 | File | Size | Version and visible behavior |
 | --- | --- | --- |
 | [gameplay.png](gameplay.png) | 1152×638 | 2026-10-10 final Toy platform preview: Roman ruins, volumetric Luster Dragon / Summoned Skull and Mirror Force response. Resized from the intact 1501×832 capture to keep the README cover under 1 MiB. |
-| [strategies.png](strategies.png) | 1280×720 | Previous four-strategy Toy build: lobby with four preset strategies. |
+| [strategies.png](strategies.png) | 1501×832 | 2026-10-10 local full-server rename build: 游戏王：遗迹决斗 lobby with four preset strategies. |
 | [revival-mobile.png](revival-mobile.png) | 844×390 | Local full-server build: graveyard-revival challenge and card inspector. |
 | [summon-mobile.png](summon-mobile.png) | 844×390 | Local full-server build: Summoned Skull's purple summon effect. |
-| [strategies-mobile.png](strategies-mobile.png) | 844×390 | Local full-server build: preset choice on a phone-sized landscape viewport. |
+| [strategies-mobile.png](strategies-mobile.png) | 844×390 | 2026-10-10 local full-server rename build: full new title and preset choice on a phone-sized landscape viewport. |
 | [battle-mobile.png](battle-mobile.png) | 844×390 | 2026-10-10 final Toy platform preview: entity monsters, ruin arena and 44px response controls. |
 | [kuriboh-model.png](kuriboh-model.png) | 1280×720 | 2026-10-10 local full-server build: actual rotatable Kuriboh mesh, instanced fur, eyes and claws. |
 | [roman-kuriboh.png](roman-kuriboh.png) | 1280×720 | 2026-10-10 local full-server build after dragging Kuriboh out of hand and summoning it on the stone arena. |
 | [drag-mobile.png](drag-mobile.png) | 844×390 | Latest local build: keyboard pickup and highlighted legal defense drop zones. |
 
-The older revival, summon and preset screenshots document source revision `a5dc6fa`; drag-mobile documents `909d5e5`; the new Roman arena and model captures document the 2026-10-10 update. The local and Toy versions share the UI and use different connection adapters. The table identifies each capture environment; no screenshot is a claim of live multiplayer on Toy.
+The older revival and summon screenshots document source revision `a5dc6fa`; the renamed lobby screenshots document `30749a3`; drag-mobile documents `909d5e5`; the new Roman arena and model captures document the 2026-10-10 update. The local and Toy versions share the UI and use different connection adapters. The table identifies each capture environment; no screenshot is a claim of live multiplayer on Toy.
 
 ## Verification / 验证记录
 

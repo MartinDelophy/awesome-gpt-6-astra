@@ -503,7 +503,7 @@ Logic puzzles, physics challenges, word games, and clever little mechanisms.
 
 Tower defense, strategic card games, management games, building, and simulation sandboxes.
 
-- **[Astral Duel / 星域决斗](https://www.bilibili.com/toy/astral-duel-game/index.html)** — Choose tempo, spell control, defense/counterplay or tribute pressure; build a 40-card deck, discover cards through a 3D summoning ritual, and drag cards into nostalgic Roman ruins where 18 volumetric monsters animate in guided Yu-Gi-Oh-inspired AI duels.
+- **[Yu-Gi-Oh! Ruins Duel / 游戏王：遗迹决斗](https://www.bilibili.com/toy/astral-duel-game/index.html)** — Choose tempo, spell control, defense/counterplay or tribute pressure; build a 40-card deck, discover cards through a 3D summoning ritual, and drag cards into nostalgic Roman ruins where 18 volumetric monsters animate in guided Yu-Gi-Oh-inspired AI duels.
   - Creator: [Ryan-fm](https://github.com/Ryan-fm).
   - Platform: WebGL browser; Chinese interface, mouse or touch. Free, no game login. Toy release supports AI duels, summoning and deck editing with local browser saves; online PK requires the separate full-version server.
   - Model participation: [Development and verification notes](assets/screenshots/astral-duel/SOURCE.md) — Iterative Codex collaboration; exact GPT-6 Astra attribution awaits creator confirmation. Unofficial fan prototype using third-party card artwork.
