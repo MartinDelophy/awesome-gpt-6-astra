@@ -9,7 +9,7 @@
 
 ## Public release and scope / 公开试玩与范围
 
-- [Play on Toy](https://www.bilibili.com/toy/astral-duel-game/index.html): published on 2026-10-09, Toy ID `42086522945536`, visibility PUBLIC. The four-strategy version was opened in Chrome after publication. The drag-to-play / new battle visual update was submitted for review on the same date; its Toy platform preview was exercised in Chrome before submission. Latest submission status: auditing.
+- [Play on Toy](https://www.bilibili.com/toy/astral-duel-game/index.html): published on 2026-10-09, Toy ID `42086522945536`, visibility PUBLIC. The four-strategy version was opened in Chrome after publication. The drag-to-play / new battle visual update was submitted for review on the same date; its Toy platform preview was exercised in Chrome before submission. Latest update status: published. The formal Toy URL was opened in Chrome and the new battle HUD / chain response were verified after publication.
 - Free browser game with a Chinese interface, WebGL, mouse/touch controls, and no mandatory game login or installation. Progress is saved in the current browser.
 - Toy supports AI duels, three tutorials, four challenges, summoning, collection and deck editing. Real online PK and friend rooms require deploying the separate full-version server; Toy does not simulate online players.
 - Four distinct free 40-card presets cover tempo, spell control, defense/counterplay and tribute pressure. Only the dragon/tribute preset includes Blue-Eyes. Tutorials use low-level monsters; challenges cover tribute summons, quick-spell breakthrough, trap reversal and graveyard revival. These are classic small-pool strategy templates, not the complete modern OCG or competitively calibrated archetypes.
