@@ -503,7 +503,7 @@
 
 塔防、卡牌策略、经营建造与模拟沙盒。
 
-- **[星域决斗 / Astral Duel](https://www.bilibili.com/toy/astral-duel-game/index.html)** — 通过 3D 召唤仪式发现新卡，编成 40 张卡组，在游戏王基础规则的人机决斗中练习攻击、魔法陷阱与连锁。
+- **[星域决斗 / Astral Duel](https://www.bilibili.com/toy/astral-duel-game/index.html)** — 选择节奏突击、魔法控场、守备反击或上级压制四种路线，编成 40 张卡组；通过 3D 召唤发现新卡，在人机决斗中练习攻击、连锁与墓地复活。
   - 作者：[Ryan-fm](https://github.com/Ryan-fm)。
   - 平台：支持 WebGL 的浏览器，中文界面，鼠标或触控；免费，无需游戏账号。Toy 发布版支持人机、召唤和组卡，进度保存在当前浏览器；在线 PK 需要单独部署完整版服务器。
   - 模型参与：[开发与核验记录](assets/screenshots/astral-duel/SOURCE.md) — 通过多轮 Codex 协作开发；具体 GPT-6 Astra 归因等待创作者确认。非官方同人原型，包含第三方卡牌美术。
