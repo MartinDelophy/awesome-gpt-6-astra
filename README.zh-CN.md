@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 175](https://img.shields.io/badge/Cases-175-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 176](https://img.shields.io/badge/Cases-176-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **收集用 GPT-6 Astra 制作的有趣游戏。**
 
@@ -20,7 +20,7 @@
 
 ## 从这里开始
 
-目前收录 **175 个游戏与互动作品**：三国领土策略、木锁拆解与华容道、半流体水果合成、程序化城市建造 2048、单键飞行、魔毯战斗、五关弹幕射击、海岛电网塔防、荒野生存、水下捕鱼、寿司店经营与海岛种植、海湾卡丁车竞速、鹈鹕海岸骑行、桌面玩具的 3D 改编、3D 家居装修，以及轨道花园。点击作品名称即可直接进入在线游戏。
+目前收录 **176 个游戏与互动作品**：三国领土策略、木锁拆解与华容道、半流体水果合成、程序化城市建造 2048、单键飞行、魔毯战斗、五关弹幕射击、海岛电网塔防、荒野生存、水下捕鱼、寿司店经营与海岛种植、海湾卡丁车竞速、鹈鹕海岸骑行、桌面玩具的 3D 改编、3D 家居装修，以及轨道花园。点击作品名称即可直接进入在线游戏。
 
 目录更新：**2026-10-08**。模型使用信息依据作者或投稿者的说明，未确认内容在具体条目中标注。此日期表示目录维护时间，不代表当天重新试玩了所有游戏。
 
@@ -502,6 +502,13 @@
 ### 策略与模拟
 
 塔防、卡牌策略、经营建造与模拟沙盒。
+
+- **[星域决斗 / Astral Duel](https://www.bilibili.com/toy/preview/preview_2Yf8hxwp/index.html)** — 通过 3D 召唤仪式发现新卡，编成 40 张卡组，在游戏王基础规则的人机决斗中练习攻击、魔法陷阱与连锁。
+  - 作者：[Ryan-fm](https://github.com/Ryan-fm)。
+  - 平台：支持 WebGL 的浏览器，中文界面，鼠标或触控；免费，无需游戏账号。Toy 预览支持人机、召唤和组卡，进度保存在当前浏览器；在线 PK 需要单独部署完整版服务器。
+  - 模型参与：[开发与核验记录](assets/screenshots/astral-duel/SOURCE.md) — 通过多轮 Codex 协作开发；具体 GPT-6 Astra 归因等待创作者确认。非官方同人原型，包含第三方卡牌美术。
+  - 访问：Toy 预览等待提交发布审核，PR 就绪前替换为正式试玩地址。
+  - 预览：![2026-10-09 的 Toy 静态版实机画面：陷阱连锁教学中的生命值、战斗阶段与响应操作。](assets/screenshots/astral-duel/gameplay.png)
 
 - **[Tidehook](https://tidehook-mallow.vercel.app/)** — 驾驶小拖船 Mallow 完成三段海岸航程，拖回会影响加速与转向的不同重量打捞物，交给港口起重机，并最终找回灯塔透镜。
   - 作者: [Emile du Toit / Mafuta Games](https://mafuta.itch.io/)

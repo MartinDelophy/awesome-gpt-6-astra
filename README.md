@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 175](https://img.shields.io/badge/Cases-175-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 176](https://img.shields.io/badge/Cases-176-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **A collection of interesting games made with GPT-6 Astra.**
 
@@ -20,7 +20,7 @@ Playful ideas, games you can try, and development stories that inspire the next 
 
 ## Start here
 
-Explore **175 games and interactive projects**: Three Kingdoms territory strategy, wooden interlocking and sliding puzzles, soft-body fruit merging, procedural city-building 2048, one-tap flight, magic-carpet combat, a five-stage bullet-hell shooter, island power-grid tower defense, wilderness survival, underwater fishing, sushi-restaurant management and island farming, Bay Circuit kart racing, coastal cycling with a pelican, tabletop toys turned into 3D games, 3D home decoration, and Orbital Garden. Click a title to play directly in your browser.
+Explore **176 games and interactive projects**: Three Kingdoms territory strategy, wooden interlocking and sliding puzzles, soft-body fruit merging, procedural city-building 2048, one-tap flight, magic-carpet combat, a five-stage bullet-hell shooter, island power-grid tower defense, wilderness survival, underwater fishing, sushi-restaurant management and island farming, Bay Circuit kart racing, coastal cycling with a pelican, tabletop toys turned into 3D games, 3D home decoration, and Orbital Garden. Click a title to play directly in your browser.
 
 Catalog updated: **2026-10-08**. Model attribution is based on creator or submitter statements; unconfirmed details are marked in individual entries. This date records catalog maintenance, not a new play-test of every game.
 
@@ -502,6 +502,13 @@ Logic puzzles, physics challenges, word games, and clever little mechanisms.
 ### Strategy & simulation
 
 Tower defense, strategic card games, management games, building, and simulation sandboxes.
+
+- **[Astral Duel / 星域决斗](https://www.bilibili.com/toy/preview/preview_2Yf8hxwp/index.html)** — Build a 40-card deck, discover cards through a 3D summoning ritual, and learn attacks and trap chains in guided Yu-Gi-Oh-inspired duels against AI.
+  - Creator: [Ryan-fm](https://github.com/Ryan-fm).
+  - Platform: WebGL browser; Chinese interface, mouse or touch. Free, no game login. Toy preview supports AI duels, summoning and deck editing with local browser saves; online PK requires the separate full-version server.
+  - Model participation: [Development and verification notes](assets/screenshots/astral-duel/SOURCE.md) — Iterative Codex collaboration; exact GPT-6 Astra attribution awaits creator confirmation. Unofficial fan prototype using third-party card artwork.
+  - Access: Toy preview pending publication review; the canonical game link will replace this preview before the PR is ready.
+  - Preview: ![Actual Toy static-build gameplay captured 2026-10-09: the trap-chain tutorial with life points, battle phase and response controls.](assets/screenshots/astral-duel/gameplay.png)
 
 - **[Tidehook](https://tidehook-mallow.vercel.app/)** — Pilot the little tug Mallow through three coastal voyages, towing salvage whose weight changes acceleration and turning, delivering it to a harbour crane and eventually recovering a lighthouse lens.
   - Creator: [Emile du Toit / Mafuta Games](https://mafuta.itch.io/)
