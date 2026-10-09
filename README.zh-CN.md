@@ -22,7 +22,7 @@
 
 目前收录 **176 个游戏与互动作品**：三国领土策略、木锁拆解与华容道、半流体水果合成、程序化城市建造 2048、单键飞行、魔毯战斗、五关弹幕射击、海岛电网塔防、荒野生存、水下捕鱼、寿司店经营与海岛种植、海湾卡丁车竞速、鹈鹕海岸骑行、桌面玩具的 3D 改编、3D 家居装修，以及轨道花园。点击作品名称即可直接进入在线游戏。
 
-目录更新：**2026-10-08**。模型使用信息依据作者或投稿者的说明，未确认内容在具体条目中标注。此日期表示目录维护时间，不代表当天重新试玩了所有游戏。
+目录更新：**2026-10-09**。模型使用信息依据作者或投稿者的说明，未确认内容在具体条目中标注。此日期表示目录维护时间，不代表当天重新试玩了所有游戏。
 
 最新新增：[10 月 6 日从 X 收录的 8 款可玩游戏](docs/x-games-2026-10-06.md)。此前发现：[9 月 21 日追加的 10 款直达在线游戏](docs/browser-games-2026-09-21.md)。上一批：[9 月 20 日追加的 10 款直达在线游戏](docs/browser-games-2026-09-20.md)。更早批次：[全网搜索后追加的 10 款在线游戏](docs/browser-games-2026-09-18.md)，附实机截图、作者依据与入口核验。[9 月 17 日新增的 10 款](docs/browser-games-2026-09-17.md)。[9 月 16 日新增的 10 款](docs/browser-games-2026-09-16.md)。[9 月 15 日新增的 10 款](docs/browser-games-2026-09-15.md)。[9 月 12 日新增的 10 款](docs/browser-games-2026-09-12.md)。此前新增：[Barrelbound: The Lost Cargo](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/73) 与 [Tidehook](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/74)，已同步全部 12 种 README 语言。[9 月 11 日新增的 10 款](docs/browser-games-2026-09-11.md) · [9 月 10 日新增的 10 款](docs/direct-play-x-games-2026-09-10.md) · [此前新增的 16 款](docs/x-high-traffic-games-2026-09-09.md)。
 
@@ -507,6 +507,7 @@
   - 作者：[Ryan-fm](https://github.com/Ryan-fm)。
   - 平台：支持 WebGL 的浏览器，中文界面，鼠标或触控；免费，无需游戏账号。Toy 发布版支持人机、召唤和组卡，进度保存在当前浏览器；在线 PK 需要单独部署完整版服务器。
   - 模型参与：[开发与核验记录](assets/screenshots/astral-duel/SOURCE.md) — 通过多轮 Codex 协作开发；具体 GPT-6 Astra 归因等待创作者确认。非官方同人原型，包含第三方卡牌美术。
+  - 开发资料：[开发与核验记录](assets/screenshots/astral-duel/SOURCE.md) · 技术：React、TypeScript、Three.js；完整版服务器使用 Node.js 与 Socket.IO。完整源码为私有仓库。
   - 预览：![2026-10-09 的 Toy 静态版实机画面：陷阱连锁教学中的生命值、战斗阶段与响应操作。](assets/screenshots/astral-duel/gameplay.png)
 
 - **[Tidehook](https://tidehook-mallow.vercel.app/)** — 驾驶小拖船 Mallow 完成三段海岸航程，拖回会影响加速与转向的不同重量打捞物，交给港口起重机，并最终找回灯塔透镜。
