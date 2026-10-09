@@ -21,3 +21,5 @@
 - Both full-server and Toy production builds pass, with the original 28 protected runtime files intact. Toy content preflight reports no ERROR/WARN. The browser-bundle guard rejects unresolved server filesystem calls.
 
 - Latest platform preview checked: https://www.bilibili.com/toy/preview/preview_bFdwHmWd/index.html . Initialization, four-preset selection and the trap-response tutorial completed successfully in Chrome. `gameplay.png` is a real 1280×720 capture from this preview; `strategies.png` shows its four-preset lobby. The old browser save was retained across the build update.
+
+- Updated Toy submission preview: https://www.bilibili.com/toy/preview/preview_w5Gi2xG8/index.html . After submission, the CLI reported `published` with an updated modification time; the formal release URL was opened and confirmed to show the four strategy presets on 2026-10-09. The platform preview also completed the new graveyard-revival challenge.
