@@ -361,7 +361,7 @@ Defesa de torres, cartas estratégicas, gerenciamento, construção e simulaçã
   - Recursos: [Código-fonte e instruções de execução](works/three-kingdoms/README.md) · [Requisitos](works/three-kingdoms/PROMPTS.md) · Tecnologias: React, TypeScript, Vinext/Vite.
   - Prévia: ![Partida de Three Kingdoms com mapa de cidades em estilo de pintura a tinta, controles de recursos e retratos de oficiais.](assets/screenshots/three-kingdoms/gameplay.jpg)
 
-- **[Last Beacon / 最后的灯塔](https://last-beacon.loupengju.cc)** — Conecte uma rede elétrica em uma ilha em miniatura, construa e melhore torres e administre a potência limitada para defender um farol contra dez ondas e um chefe final.
+- **[Last Beacon / 最后的灯塔](https://last-beacon.pjstack.dev)** — Conecte uma rede elétrica em uma ilha em miniatura, construa e melhore torres e administre a potência limitada para defender um farol contra dez ondas e um chefe final.
   - Criador: [stackloomdev](https://github.com/stackloomdev)
   - Plataforma: Navegadores modernos de computador e celular, com suporte a chinês e inglês; grátis, sem login ou chave de API. O som opcional exige Web Audio.
   - GPT-6 Astra: [Diário de desenvolvimento e contribuição do modelo](https://github.com/stackloomdev/last-beacon/blob/main/docs/CREATION.md) — Usado no design do jogo, no código, na arte procedural e nos testes ao longo de várias iterações; não foi um teste de geração única.

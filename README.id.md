@@ -361,7 +361,7 @@ Pertahanan menara, kartu strategi, pengelolaan, pembangunan, dan sandbox simulas
   - Materi pengembangan: [Kode sumber dan petunjuk menjalankan](works/three-kingdoms/README.md) · [Kebutuhan](works/three-kingdoms/PROMPTS.md) · Teknologi: React, TypeScript, Vinext/Vite.
   - Pratinjau: ![Permainan Three Kingdoms yang menampilkan peta kota bergaya lukisan tinta, kontrol sumber daya, dan potret perwira.](assets/screenshots/three-kingdoms/gameplay.jpg)
 
-- **[Last Beacon / 最后的灯塔](https://last-beacon.loupengju.cc)** — Hubungkan jaringan listrik di pulau mini, bangun dan tingkatkan menara, lalu kelola daya yang terbatas untuk mempertahankan mercusuar dari sepuluh gelombang musuh dan bos terakhir.
+- **[Last Beacon / 最后的灯塔](https://last-beacon.pjstack.dev)** — Hubungkan jaringan listrik di pulau mini, bangun dan tingkatkan menara, lalu kelola daya yang terbatas untuk mempertahankan mercusuar dari sepuluh gelombang musuh dan bos terakhir.
   - Kreator: [stackloomdev](https://github.com/stackloomdev)
   - Platform: Peramban desktop dan seluler modern, dengan dukungan bahasa Mandarin dan Inggris; gratis, tanpa login atau kunci API. Suara opsional memerlukan Web Audio.
   - GPT-6 Astra: [Catatan pengembangan dan kontribusi model](https://github.com/stackloomdev/last-beacon/blob/main/docs/CREATION.md) — Digunakan untuk desain permainan, kode, grafis prosedural, dan pengujian melalui beberapa iterasi; bukan pengujian sekali generasi.
