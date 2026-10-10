@@ -503,12 +503,12 @@ Logic puzzles, physics challenges, word games, and clever little mechanisms.
 
 Tower defense, strategic card games, management games, building, and simulation sandboxes.
 
-- **[Yu-Gi-Oh! Ruins Duel / 游戏王：遗迹决斗](https://astral-duel-game.vercel.app/)** — Drag cards into AI duels, live matchmaking or code-based friend rooms; choose six free 40-card presets spanning tempo, spell control, defensive counterplay, tribute pressure, Fusion and Ritual, discover cards, and build separate Main and Extra Decks in island ruins or a neon arena.
+- **[Yu-Gi-Oh! Ruins Duel](https://astral-duel-game.vercel.app/)** — Drag cards into AI duels, live matchmaking or code-based friend rooms; choose six free 40-card presets spanning tempo, spell control, defensive counterplay, tribute pressure, Fusion and Ritual, discover cards, and build separate Main and Extra Decks in island ruins or a neon arena.
   - Creator: [Ryan-fm](https://github.com/Ryan-fm).
   - Platform: WebGL browser; Chinese interface, mouse or touch. Free, no game login. The public server persists guest inventories; the new [Toy package](https://www.bilibili.com/toy/astral-duel-game/index.html) awaits review and adds Bilibili cloud saves, a challenge leaderboard and a separate online inventory. Spoken card-name recognition requires browser support.
   - Model participation: [Development and verification notes](assets/screenshots/astral-duel/SOURCE.md) — Iterative Codex collaboration; exact GPT-6 Astra attribution still awaits creator confirmation; catalogue eligibility remains pending. Unofficial prototype with unresolved third-party asset rights.
   - Resources: [Development and verification notes](assets/screenshots/astral-duel/SOURCE.md) · Built with: React, TypeScript, Three.js, Node.js, Socket.IO; Vercel and shared free Redis. Full source is private.
-  - Preview: ![Actual public gameplay captured 2026-10-10: island ruins, drag summon and compact battle controls.](assets/screenshots/astral-duel/public-battle.jpg)
+  - Preview: ![Actual public lobby captured 2026-10-10: featured card display, six deck presets and AI, matchmaking and friend-room entrances.](assets/screenshots/astral-duel/public-lobby.png)
 
 - **[Tidehook](https://tidehook-mallow.vercel.app/)** — Pilot the little tug Mallow through three coastal voyages, towing salvage whose weight changes acceleration and turning, delivering it to a harbour crane and eventually recovering a lighthouse lens.
   - Creator: [Emile du Toit / Mafuta Games](https://mafuta.itch.io/)

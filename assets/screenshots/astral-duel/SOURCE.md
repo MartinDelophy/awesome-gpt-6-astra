@@ -1,4 +1,4 @@
-# 游戏王：遗迹决斗 / Yu-Gi-Oh! Ruins Duel — release verification
+# Yu-Gi-Oh! Ruins Duel — release verification
 
 ## Creator and attribution / 作者与模型归因
 
@@ -40,7 +40,11 @@ Toy 正式页保留先前版本，当前更新的预览已完成真实好友对�
 
 ## Screenshots / 实机截图
 
-[public-battle.jpg](public-battle.jpg) is an actual Chrome capture of the public Vercel game on 2026-10-10, showing a native drag summon and the island ruin environment. It replaces the README cover. `toy-friend-room.jpg` is a current capture from the verified Toy preview, showing two public players ready in one friend room. The retained PNGs listed below are historical; their older mesh, flat-stage or city-only presentation does not represent the current default environment.
+[public-battle.jpg](public-battle.jpg) is an actual Chrome capture of the public Vercel game on 2026-10-10, showing a native drag summon and the island ruin environment. It remains supplementary battle evidence; the README cover now uses the actual lobby screenshot below. `toy-friend-room.jpg` is a current capture from the verified Toy preview, showing two public players ready in one friend room. The retained PNGs listed below are historical; their older mesh, flat-stage or city-only presentation does not represent the current default environment.
+
+[public-lobby.png](public-lobby.png) is a native 1280×720 Chrome capture from the public game on 2026-10-10, source `5106242`, showing the featured card display, deck selector and three mode entrances. It is the first Preview image in both READMEs, replacing the battle cover at the creator’s request. No UI elements, card outcomes or game state were repainted. The catalogue title is now **Yu-Gi-Oh! Ruins Duel** in both languages so downstream name-based paths can use English text; the game UI remains Chinese.
+
+大厅封面为当前公网实机截图，中英文目录都使用纯英文标题；没有改变游戏的中文操作界面。旧封面保留为补充战斗证据。站点路由和同步由上游维护，PR 合并并同步前不声称新网址已生效。
 
 ### Historical screenshot provenance / 历史截图来源
 
