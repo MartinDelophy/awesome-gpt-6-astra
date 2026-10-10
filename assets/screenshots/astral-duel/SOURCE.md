@@ -1,53 +1,38 @@
-# Yu-Gi-Oh! Ruins Duel / 游戏王：遗迹决斗 — creator and verification record
+# 游戏王：遗迹决斗 / Yu-Gi-Oh! Ruins Duel — release verification
 
-## Creator and model attribution / 作者与模型参与
+## Creator and attribution
 
-- Creator: [Ryan-fm](https://github.com/Ryan-fm), submitted from the creator's authenticated account.
-- Iterative Codex collaboration covered gameplay, React/TypeScript UI, Three.js effects, the Node.js/Socket.IO rules server, collection, decks and testing.
-- **GPT-6 Astra attribution awaits creator confirmation.** Codex collaboration does not establish the model. This admission requirement under [CONTRIBUTING.md](../../../CONTRIBUTING.md#什么样的作品适合收录--what-belongs-here) is still outstanding; the submission remains Draft.
-- **GPT-6 Astra 的具体参与仍待作者确认，本投稿保持草稿。**
+Creator: [Ryan-fm](https://github.com/Ryan-fm). Iterative Codex collaboration covered gameplay, React/TypeScript UI, Three.js environments and effects, Node.js/Socket.IO rules, collections, decks, Toy integration and tests. Exact GPT-6 Astra attribution remains unconfirmed; this maintenance update does not invent a model-use claim. The original entry was merged in [PR #119](https://github.com/MartinDelophy/awesome-gpt-6-astra/pull/119).
 
-## Current release / 当前版本
+## Public prototype · 2026-10-10
 
-2026-10-10 source revision `8bcc39d` restores the previous faithful card-front presentation and transparent Blue-Eyes / Dark Magician illustrations after the creator rejected the procedural monster meshes. The rotatable model viewer is removed. Illustrations are sprites, not finished sculpted 3D models. Three.js still handles perspective zones, picking, card placement and summon/attack effects.
+- [Playable public service](https://astral-duel-game.vercel.app/): Vercel Hobby, shared existing Upstash Free Tier, production and preview namespaces separated. No paid resource was added. Free capacity is shared with the author's other game; availability is subject to its quota.
+- Private game-source revision: `5106242`. Server validates legal moves, card ownership, draws, chains and results; only each player's own hand and Extra Deck identities are sent to that player.
+- Six free 40-card presets cover tempo, spell control, defensive counterplay, tribute pressure, Fusion and Ritual. This is a curated DM theme, not a complete historical or modern OCG rules database. Legacy owned cards remain compatible.
+- Main and Extra Decks are separate. Fusion uses named materials; Ritual uses designated spells and sufficient tribute levels. These are prototype rules with documented differences from full OCG adjudication.
+- Real matchmaking supports cancellation, widening after 60 seconds and ready states. Friend rooms use a six-digit code, host arena choice, readiness, start and rematch; they do not affect matching wins.
+- Rooms, inventory, deduplication and deadlines persist in Redis. Visitors use a random server-issued credential. This is not Bilibili server-side identity verification or a complete cross-device login system.
+- The default island ruin now uses a continuous 3D courtyard, PBR stone, scanned cliffs, coastline, trees and a castle approach; the neon city remains selectable. Monsters use card faces and selected illustrated sprites, not sculpted 3D character models. Important card actions remain drag-based and contextual.
+- Music crossfades between lobby, summoning and battle. Microphone activation is deliberate and ends on cancellation/backgrounding; spoken card-name recognition requires browser support, while volume activation works from a selected legal monster. No recorded voice is saved by the game.
 
-Players freely choose **古罗马遗迹 / Roman ruins** or **霓虹都市 / neon waterfront** through the AI-mode panel or settings. Full-server friend rooms also let the host choose; both clients receive the same arena, and changing it resets readiness. The saved preference applies to the next duel; active duels retain their arena. Transparent ground and fine zone outlines integrate with the detailed illustrated floors instead of covering them with an opaque stone slab. Compact contextual controls and server-legal drag placement remain.
+## Toy release status
 
-- [Formal Toy page](https://www.bilibili.com/toy/astral-duel-game/index.html), ID `42086522945536`, PUBLIC. The previous compact battle UI was published before this release. Current tested preview: https://www.bilibili.com/toy/preview/preview_efm3A8hD/index.html . The same bundle was submitted on 2026-10-10; receipt and creator-list status are **auditing**. Submission preview: https://www.bilibili.com/toy/preview/preview_teqjeSnP/index.html . The formal URL retains its prior published version while this update is reviewed.
-- Free Chinese WebGL game with mouse/touch controls, no mandatory installation or game login. Toy saves progress in the current browser and supports AI practice, three tutorials, four challenges, summoning, collection and deck editing. Real matching and friend rooms require the separate full-version server; Toy does not simulate online players.
-- Four free 40-card presets cover tempo, spell control, defensive counterplay and tribute pressure. Only the dragon preset includes Blue-Eyes. This is a classic small-pool prototype, not the complete modern OCG.
-- The user-supplied Blue-Eyes entry artwork is preserved. Click/tap, Enter or Space enters the live lobby. Card rules and stats are independent of arena selection and cosmetics.
+The [formal Toy URL](https://www.bilibili.com/toy/astral-duel-game/index.html), ID `42086522945536`, is an existing published release. The new package points to the public service and is prepared for preview/review; the formal page retains the prior release until the update is approved. Preview verification and receipt are recorded below when available.
 
-## Verification / 验证
+Formal Toy pages use account cloud storage for decks, collection and challenge progress, and a platform challenge leaderboard. The online inventory is separately server-verified; entering or leaving it does not import or overwrite the Toy collection. Toy cloud storage can retain the server-issued online credential. Platform preview pages lack a Toy id, so they use a clearly temporary archive and session credential instead of reading or writing the formal account archive. Formal account/leaderboard behavior still needs post-publication verification.
 
-- 62 game tests passed: rules, actual two-client networking, collection, static adapter, battle display, drag legality, hidden-monster protection, free arena selection, saved defaults, active-duel stability, room permissions and both-client scene agreement. Four tests for the removed mesh functionality were retired; its hidden-state test remains. Earlier counts of 65 describe the superseded mesh build.
-- Full-server and Toy builds passed; 28 protected runtime files remained intact. Toy doctor returned no ERROR/WARN. Source and CI are private, so recorded results are not offered as publicly inspectable CI evidence.
-- Local 1280×720 and Chrome 844×390 checks completed native pointer placement into zone 2, keyboard pickup/cancellation, attacks reducing opposing LP to 7700, and the trap tutorial. Important phone controls measured at least 44 CSS pixels high. No real-device performance claim is made.
-- Current Toy preview was exercised in Chrome at its normal viewport: both arena choices, preserved 34-ticket collection, saved city preference, city attack and victory, Roman trap response. No platform mobile claim is inferred from a browser wrapper resize.
-- Catalogue validation: 27 tests passed, README metadata parsed, and git diff --check passed.
+## Verification
 
-## Actual screenshots / 实机截图
+- 121 game tests and 5 rights/publication-check tests passed; protected mobile runtime: 28 files intact. Full/Toy builds passed. Toy content doctor: no ERROR/WARN.
+- Public HTTPS health reports Redis. Two actual public WSS clients completed matching, friend-room start, same-game recovery, hidden-hand projection and exactly-once draw retry. Friend settlement left matching wins unchanged.
+- A public connection rotated after about 308 seconds and automatically reconnected. Collection and the original draw request were restored without spending a second ticket.
+- Chrome public gameplay: entered practice and dragged Blue Sapphire Dragon from the hand onto the field. Scene textures, scanned cliffs and background finished loading. First scene load is asset-heavy; no real-device performance certification is claimed.
+- These are recorded creator-run results; the private source and CI are not offered as publicly inspectable evidence. Catalogue tests are recorded in the follow-up PR.
 
-All images are browser captures from the creator's Codex session, not concept renders. Current local captures use 2026-10-10 source `8bcc39d`. Each PNG is below 4 MB; the README cover is below 1 MiB. Older captures remain explicitly historical.
+## Screenshots
 
-| File | Size | Source and visible behavior |
-| --- | --- | --- |
-| [gameplay.png](gameplay.png) | 1152×648 | Current local full-server city arena, restored card fronts, contextual attack controls. Resized intact from 1280×720. |
-| [arena-picker.png](arena-picker.png) | 1280×720 | Current local full-server: two free scene thumbnails, city selected. |
-| [city-arena.png](city-arena.png) | 1280×720 | Current local full-server: city arena with no card inspector. |
-| [battle-mobile.png](battle-mobile.png) | 844×390 | Current local full-server Roman attack panel with 44px confirm button. |
-| [battle-wide.png](battle-wide.png) | 1280×720 | Current local full-server Roman arena and trap-response tray. |
-| [entry.png](entry.png) | 1280×720 | Earlier local entry update, current title and user-supplied opening image. |
-| [entry-mobile.png](entry-mobile.png) | 844×390 | Earlier local entry update with complete artwork and 190×48 prompt. |
-| [strategies.png](strategies.png) | 1501×832 | Earlier local rename build `30749a3`: lobby and four presets. |
-| [strategies-mobile.png](strategies-mobile.png) | 844×390 | Earlier local rename build: mobile landscape title and presets. |
-| [revival-mobile.png](revival-mobile.png) | 844×390 | Historical `a5dc6fa`: graveyard revival challenge. |
-| [summon-mobile.png](summon-mobile.png) | 844×390 | Historical `a5dc6fa`: Summoned Skull summon effect. |
-| [response-mobile.png](response-mobile.png) | 844×390 | Historical simplified HUD `814dcc5`, before the monster rollback: trap response. |
-| [kuriboh-model.png](kuriboh-model.png) | 1280×720 | Superseded mesh experiment; this viewer has been removed. |
-| [roman-kuriboh.png](roman-kuriboh.png) | 1280×720 | Superseded raised stone arena and mesh experiment; not current presentation. |
-| [drag-mobile.png](drag-mobile.png) | 844×390 | Historical `909d5e5`: keyboard pickup and legal defense zones. |
+[public-battle.jpg](public-battle.jpg) is an actual Chrome capture of the public Vercel game on 2026-10-10, showing a native drag summon and the island ruin environment. It replaces the README cover. Other images in this folder are historical; their older mesh, flat-stage or city-only presentation does not represent the current default environment.
 
-## Material credit / 素材说明
+## Material rights
 
-Unofficial Yu-Gi-Oh fan prototype. Card names/fronts contain third-party artwork; screenshots do not relicense it or imply official affiliation. The opening illustration was supplied by the user. Generated original portraits, arena/ritual artwork and a warm limestone texture are separate. Original catalogue prose follows the repository's contribution terms. The public catalogue contains no private server source or secrets.
+Nonofficial prototype. Card names/fronts, established characters and the user-supplied opening image contain third-party expressions. Asset rights remain unresolved; author publication permission, free hosting, attribution and platform review do not establish IP licensing. CC0 Poly Haven scenery and dependency/font notices are tracked separately. The strict rights check remains uncleared; an author-approved prototype publication path is pinned to the reviewed asset manifest and policy. The public catalogue does not contain private server code or credentials, and its own prose does not relicense third-party game assets.

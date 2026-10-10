@@ -503,12 +503,12 @@ Logic puzzles, physics challenges, word games, and clever little mechanisms.
 
 Tower defense, strategic card games, management games, building, and simulation sandboxes.
 
-- **[Yu-Gi-Oh! Ruins Duel / 游戏王：遗迹决斗](https://www.bilibili.com/toy/astral-duel-game/index.html)** — Tap the Blue-Eyes opening artwork to enter, then choose tempo, spell control, defense/counterplay or tribute pressure; build a 40-card deck, discover cards through a 3D summoning ritual, and choose nostalgic Roman ruins or a neon waterfront arena, and drag cards into guided Yu-Gi-Oh-inspired AI duels with faithful card fronts and illustrated ace monsters.
+- **[Yu-Gi-Oh! Ruins Duel / 游戏王：遗迹决斗](https://astral-duel-game.vercel.app/)** — Drag cards into AI duels, live matchmaking or code-based friend rooms; choose six free 40-card presets spanning tempo, spell control, defensive counterplay, tribute pressure, Fusion and Ritual, discover cards, and build separate Main and Extra Decks in island ruins or a neon arena.
   - Creator: [Ryan-fm](https://github.com/Ryan-fm).
-  - Platform: WebGL browser; Chinese interface, mouse or touch. Free, no game login. Toy release supports AI duels, summoning and deck editing with local browser saves; online PK requires the separate full-version server.
-  - Model participation: [Development and verification notes](assets/screenshots/astral-duel/SOURCE.md) — Iterative Codex collaboration; exact GPT-6 Astra attribution awaits creator confirmation. Unofficial fan prototype using third-party card artwork.
-  - Resources: [Development and verification notes](assets/screenshots/astral-duel/SOURCE.md) · Built with: React, TypeScript, Three.js; the full server uses Node.js and Socket.IO. Full source is private.
-  - Preview: ![Actual local full-server gameplay captured 2026-10-10: neon arena, restored card presentation and compact selected-card attack controls.](assets/screenshots/astral-duel/gameplay.png)
+  - Platform: WebGL browser; Chinese interface, mouse or touch. Free, no game login. The public server persists guest inventories; the new [Toy package](https://www.bilibili.com/toy/astral-duel-game/index.html) awaits review and adds Bilibili cloud saves, a challenge leaderboard and a separate online inventory. Spoken card-name recognition requires browser support.
+  - Model participation: [Development and verification notes](assets/screenshots/astral-duel/SOURCE.md) — Iterative Codex collaboration; exact GPT-6 Astra attribution still awaits creator confirmation. Unofficial prototype with unresolved third-party asset rights.
+  - Resources: [Development and verification notes](assets/screenshots/astral-duel/SOURCE.md) · Built with: React, TypeScript, Three.js, Node.js, Socket.IO; Vercel and shared free Redis. Full source is private.
+  - Preview: ![Actual public gameplay captured 2026-10-10: island ruins, drag summon and compact battle controls.](assets/screenshots/astral-duel/public-battle.jpg)
 
 - **[Tidehook](https://tidehook-mallow.vercel.app/)** — Pilot the little tug Mallow through three coastal voyages, towing salvage whose weight changes acceleration and turning, delivering it to a harbour crane and eventually recovering a lighthouse lens.
   - Creator: [Emile du Toit / Mafuta Games](https://mafuta.itch.io/)
