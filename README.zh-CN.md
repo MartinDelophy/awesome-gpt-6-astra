@@ -509,7 +509,7 @@
   - 模型参与：[开发与核验记录](assets/screenshots/astral-duel/SOURCE.md) — 多轮 Codex 协作；具体 GPT-6 Astra 归因仍待作者确认，收录核验待完成。非官方原型，素材权利待确认。
   - 开发资料：[开发与核验记录](assets/screenshots/astral-duel/SOURCE.md) · 技术：React、TypeScript、Three.js、Node.js、Socket.IO；Vercel 与共用免费 Redis。[公开源码](https://github.com/Ryan-fm/astral-duel-game)。
   - 预览：![2026-10-10 公网大厅实机：卡牌展示、六套预组与人机、匹配、好友入口。](assets/screenshots/astral-duel/public-lobby.png)
-  - 预览：![2026-10-10 公网实机，版本 af3af23：放大扇形手牌、青色选中卡与展开的中文说明。](assets/screenshots/astral-duel/battle-polish.png)
+  - 预览：![2026-10-10 公网实机，版本 af3af23：放大扇形手牌、青色选中卡与展开的中文说明。](assets/screenshots/astral-duel/battle-polish.jpg)
 
 - **[Tidehook](https://tidehook-mallow.vercel.app/)** — 驾驶小拖船 Mallow 完成三段海岸航程，拖回会影响加速与转向的不同重量打捞物，交给港口起重机，并最终找回灯塔透镜。
   - 作者: [Emile du Toit / Mafuta Games](https://mafuta.itch.io/)

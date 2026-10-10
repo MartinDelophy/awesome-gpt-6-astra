@@ -509,7 +509,7 @@ Tower defense, strategic card games, management games, building, and simulation 
   - Model participation: [Development and verification notes](assets/screenshots/astral-duel/SOURCE.md) — Iterative Codex collaboration; exact GPT-6 Astra attribution still awaits creator confirmation; catalogue eligibility remains pending. Unofficial prototype with unresolved third-party asset rights.
   - Resources: [Development and verification notes](assets/screenshots/astral-duel/SOURCE.md) · Built with: React, TypeScript, Three.js, Node.js, Socket.IO; Vercel and shared free Redis. [Public source](https://github.com/Ryan-fm/astral-duel-game).
   - Preview: ![Actual public lobby captured 2026-10-10: featured card display, six deck presets and AI, matchmaking and friend-room entrances.](assets/screenshots/astral-duel/public-lobby.png)
-  - Preview: ![Public battle polish captured 2026-10-10, source af3af23: larger fan hand, cyan selected card and expanded Chinese explanation.](assets/screenshots/astral-duel/battle-polish.png)
+  - Preview: ![Public battle polish captured 2026-10-10, source af3af23: larger fan hand, cyan selected card and expanded Chinese explanation.](assets/screenshots/astral-duel/battle-polish.jpg)
 
 - **[Tidehook](https://tidehook-mallow.vercel.app/)** — Pilot the little tug Mallow through three coastal voyages, towing salvage whose weight changes acceleration and turning, delivering it to a harbour crane and eventually recovering a lighthouse lens.
   - Creator: [Emile du Toit / Mafuta Games](https://mafuta.itch.io/)
