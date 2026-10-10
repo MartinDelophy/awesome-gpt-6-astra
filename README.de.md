@@ -361,7 +361,7 @@ Tower Defense, strategische Kartenspiele, Aufbau-, Management- und Simulationssp
   - Materialien: [Quellcode und Startanleitung](works/three-kingdoms/README.md) · [Anforderungen](works/three-kingdoms/PROMPTS.md) · Technik: React, TypeScript, Vinext/Vite.
   - Vorschau: ![Three-Kingdoms-Spielszene mit einer Städtekarte im Tuschemalstil, Ressourcensteuerung und Offiziersporträts.](assets/screenshots/three-kingdoms/gameplay.jpg)
 
-- **[Last Beacon / 最后的灯塔](https://last-beacon.loupengju.cc)** — Verbinde ein Stromnetz auf einer Miniaturinsel, baue und verbessere Türme und teile die begrenzte Leistung ein, um einen Leuchtturm gegen zehn Wellen und einen Endboss zu verteidigen.
+- **[Last Beacon / 最后的灯塔](https://last-beacon.pjstack.dev)** — Verbinde ein Stromnetz auf einer Miniaturinsel, baue und verbessere Türme und teile die begrenzte Leistung ein, um einen Leuchtturm gegen zehn Wellen und einen Endboss zu verteidigen.
   - Entwickler: [stackloomdev](https://github.com/stackloomdev)
   - Plattform: Moderne Desktop- und Mobilbrowser, mit chinesischer und englischer Oberfläche; kostenlos, ohne Anmeldung oder API-Schlüssel. Optionaler Ton benötigt Web Audio.
   - GPT-6 Astra: [Entwicklungsbericht und Modellbeitrag](https://github.com/stackloomdev/last-beacon/blob/main/docs/CREATION.md) — Für Spieldesign, Code, prozedurale Grafik und Tests in mehreren Iterationen eingesetzt; kein One-Shot-Test.

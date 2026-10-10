@@ -361,7 +361,7 @@
   - 開発資料: [ソースコードと実行手順](works/three-kingdoms/README.md) · [要件の記録](works/three-kingdoms/PROMPTS.md) · 使用技術: React, TypeScript, Vinext/Vite.
   - プレビュー: ![水墨画風の都市マップ、資源の操作パネル、武将の肖像を表示した Three Kingdoms のゲーム画面。](assets/screenshots/three-kingdoms/gameplay.jpg)
 
-- **[Last Beacon / 最后的灯塔](https://last-beacon.loupengju.cc)** — 小さな島で電力網をつなぎ、砲塔を建設・強化します。限られた電力を配分し、10 波の敵と最後のボスから灯台を守りましょう。
+- **[Last Beacon / 最后的灯塔](https://last-beacon.pjstack.dev)** — 小さな島で電力網をつなぎ、砲塔を建設・強化します。限られた電力を配分し、10 波の敵と最後のボスから灯台を守りましょう。
   - 作者: [stackloomdev](https://github.com/stackloomdev)
   - 対応環境: モダンなデスクトップ・モバイルブラウザー。中国語と英語に対応。無料で、ログインや API キーは不要です。任意のサウンド機能には Web Audio が必要です。
   - GPT-6 Astra: [作者の開発記録とモデルの担当範囲](https://github.com/stackloomdev/last-beacon/blob/main/docs/CREATION.md) — ゲーム設計、コード、手続き型のグラフィックス、テストに使用し、複数回の改善を重ねています。One Shot テストではありません。

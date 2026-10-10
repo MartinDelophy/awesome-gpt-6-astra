@@ -363,7 +363,7 @@
   - موارد التطوير: [الشفرة المصدرية وتعليمات التشغيل](works/three-kingdoms/README.md) · [المتطلبات](works/three-kingdoms/PROMPTS.md) · التقنيات: React, TypeScript, Vinext/Vite.
   - معاينة: ![لعبة Three Kingdoms تعرض خريطة مدن بأسلوب الرسم بالحبر وأدوات إدارة الموارد وصور القادة العسكريين.](assets/screenshots/three-kingdoms/gameplay.jpg)
 
-- **[Last Beacon / 最后的灯塔](https://last-beacon.loupengju.cc)** — اربط شبكة كهربائية عبر جزيرة مصغرة، وابنِ الأبراج وطوّرها، ووزّع القدرة المحدودة للدفاع عن منارة أمام عشر موجات وزعيم أخير.
+- **[Last Beacon / 最后的灯塔](https://last-beacon.pjstack.dev)** — اربط شبكة كهربائية عبر جزيرة مصغرة، وابنِ الأبراج وطوّرها، ووزّع القدرة المحدودة للدفاع عن منارة أمام عشر موجات وزعيم أخير.
   - المبدع: [stackloomdev](https://github.com/stackloomdev)
   - المنصة: متصفحات حديثة للحاسوب والهاتف، مع دعم الصينية والإنجليزية؛ مجانية ولا تتطلب تسجيل الدخول أو مفتاح API. الصوت اختياري ويتطلب Web Audio.
   - GPT-6 Astra: [سجل تطوير المبدع ومساهمة النموذج](https://github.com/stackloomdev/last-beacon/blob/main/docs/CREATION.md) — استُخدم النموذج لتصميم اللعب والبرمجة والرسوم المُولَّدة إجرائيًا والاختبارات عبر عدة جولات من التطوير؛ وليس اختبارًا بالتوليد من طلب واحد.
