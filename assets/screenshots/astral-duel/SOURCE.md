@@ -98,3 +98,7 @@ The creator reviewed the local iteration and explicitly requested an existing-se
 A fresh `toy mylist --json` check on 2026-10-10 reports the previous update of Toy ID `42086522945536` as **published**; the earlier `auditing` record above is historical. The battle-polish replacement is being uploaded for platform preview, with no review submission yet. The existing title, slug, cover and formal URL are preserved. Preview archives remain temporary and do not verify formal account cloud saves or rankings.
 
 平台已发布上一版。本轮战斗优化正在上传预览，尚未提交审核；保留既有名称、访问地址和大厅封面。
+
+The existing formal Toy page was opened in the in-app browser for an access check. It allowed entering the lobby, but starting practice returned “请先登录 B站，再连接云存档”. The catalogue title therefore links to the public Vercel version, which was verified through real practice play without account login. The Toy URL remains a secondary platform link with its Bilibili sign-in requirement stated explicitly. This corrects access metadata; no Toy account or stored progress was changed.
+
+正式 Toy 页实测能进入大厅，但开始练习要求登录 B站。因此目录主试玩链接使用已实测免登录开始对局的 Vercel 公网版；Toy 地址仍保留，并明确登录要求。

@@ -503,9 +503,9 @@
 
 塔防、卡牌策略、经营建造与模拟沙盒。
 
-- **[Yu-Gi-Oh! Ruins Duel](https://www.bilibili.com/toy/astral-duel-game/index.html)** — 六套免费 40 张预组覆盖节奏突击、魔法控场、守备反击、上级压制、融合和仪式；拖拽出牌，在岛屿遗迹与霓虹都市进行人机决斗、真人匹配或房间码好友 PK，抽卡收藏并编辑主／额外卡组，扇形手牌与发动记录让出牌和阅读更清晰。
+- **[Yu-Gi-Oh! Ruins Duel](https://astral-duel-game.vercel.app/)** — 六套免费 40 张预组覆盖节奏突击、魔法控场、守备反击、上级压制、融合和仪式；拖拽出牌，在岛屿遗迹与霓虹都市进行人机决斗、真人匹配或房间码好友 PK，抽卡收藏并编辑主／额外卡组，扇形手牌与发动记录让出牌和阅读更清晰。
   - 作者：[Ryan-fm](https://github.com/Ryan-fm)。
-  - 平台：支持 WebGL 的浏览器，中文界面，鼠标或触控；免费，无需游戏账号。[Vercel 网页版](https://astral-duel-game.vercel.app/)以游客凭证保存服务器收藏；[Toy 入口](https://www.bilibili.com/toy/astral-duel-game/index.html)提供 B站云存档、挑战榜和独立联机收藏；本轮战斗优化另行准备预览与审核。卡名语音识别依赖浏览器支持。
+  - 平台：支持 WebGL 的浏览器，中文界面，鼠标或触控；免费，无需游戏账号。[Vercel 网页版](https://astral-duel-game.vercel.app/)以游客凭证保存服务器收藏；[Toy 入口](https://www.bilibili.com/toy/astral-duel-game/index.html)提供 B站云存档、挑战榜和独立联机收藏，开始 Toy 对局需登录 B站；本轮战斗优化另行准备预览与审核。卡名语音识别依赖浏览器支持。
   - 模型参与：[开发与核验记录](assets/screenshots/astral-duel/SOURCE.md) — 多轮 Codex 协作；具体 GPT-6 Astra 归因仍待作者确认，收录核验待完成。非官方原型，素材权利待确认。
   - 开发资料：[开发与核验记录](assets/screenshots/astral-duel/SOURCE.md) · 技术：React、TypeScript、Three.js、Node.js、Socket.IO；Vercel 与共用免费 Redis。[公开源码](https://github.com/Ryan-fm/astral-duel-game)。
   - 预览：![2026-10-10 公网大厅实机：卡牌展示、六套预组与人机、匹配、好友入口。](assets/screenshots/astral-duel/public-lobby.png)
