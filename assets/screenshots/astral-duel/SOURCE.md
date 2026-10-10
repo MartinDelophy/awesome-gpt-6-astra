@@ -21,11 +21,11 @@ Creator: [Ryan-fm](https://github.com/Ryan-fm). Iterative Codex collaboration co
 
 ## Toy release status / Toy 更新状态
 
-The [formal Toy URL](https://www.bilibili.com/toy/astral-duel-game/index.html), ID `42086522945536`, is an existing published release. The new package points to the public service and is prepared for preview/review; the formal page retains the prior release until the update is approved. [Tested new preview](https://www.bilibili.com/toy/preview/preview_FbhZdb7A/index.html). The preview was uploaded and verified. The author explicitly confirmed review submission on 2026-10-10; the upload is being retried after a part-upload timeout, and a successful review receipt is not yet available.
+The [formal Toy URL](https://www.bilibili.com/toy/astral-duel-game/index.html), ID `42086522945536`, is an existing published release. The new package points to the public service and is prepared for preview/review; the formal page retains the prior release until the update is approved. [Tested new preview](https://www.bilibili.com/toy/preview/preview_FbhZdb7A/index.html). The preview was uploaded and verified. The author explicitly confirmed submission on 2026-10-10. A same-package retry after a part-upload timeout succeeded; the platform returned **auditing**. [Submission preview](https://www.bilibili.com/toy/preview/preview_AgdcOxzr/index.html). This is review submission, not publication of the new version.
 
 Formal Toy pages use account cloud storage for decks, collection and challenge progress, and a platform challenge leaderboard. The online inventory is separately server-verified; entering or leaving it does not import or overwrite the Toy collection. Toy cloud storage can retain the server-issued online credential. Platform preview pages lack a Toy id, so they use a clearly temporary archive and session credential instead of reading or writing the formal account archive. Formal account/leaderboard behavior still needs post-publication verification.
 
-Toy 正式页保留先前版本，当前更新的预览已完成真实好友对战。正式账号云存档和平台榜单需要新版通过审核后继续验收；预览采用临时存档，不写入正式云进度。
+Toy 正式页保留先前版本，当前更新的预览已完成真实好友对战。作者明确确认后已提交审核，平台回执为 `auditing`，新版尚未发布。正式账号云存档和平台榜单需要新版通过审核后继续验收；预览采用临时存档，不写入正式云进度。
 
 ## Verification / 验证
 
