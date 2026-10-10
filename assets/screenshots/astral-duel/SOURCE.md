@@ -95,7 +95,7 @@ The creator reviewed the local iteration and explicitly requested an existing-se
 
 ### Current Toy replacement status / 本轮 Toy 状态
 
-A fresh `toy mylist --json` check on 2026-10-10 reports the previous update of Toy ID `42086522945536` as **published**; the earlier `auditing` record above is historical. The battle-polish replacement has been uploaded and verified in [this platform preview](https://www.bilibili.com/toy/preview/preview_XrFOEESx/index.html), with no review submission yet. The existing title, slug, cover and formal URL are preserved. Preview archives remain temporary and do not verify formal account cloud saves or rankings.
+A fresh `toy mylist --json` check on 2026-10-10 reports the previous update of Toy ID `42086522945536` as **published**; the earlier `auditing` record above is historical. The battle-polish replacement has been uploaded and verified in [this platform preview](https://www.bilibili.com/toy/preview/preview_OO4GOtsp/index.html), with no review submission yet. The existing title, slug, cover and formal URL are preserved. Preview archives remain temporary and do not verify formal account cloud saves or rankings.
 
 平台已发布上一版。本轮战斗优化已上传并验证平台预览，尚未提交审核；保留既有名称、访问地址和大厅封面。
 
@@ -106,3 +106,11 @@ The existing formal Toy page was opened in the in-app browser for an access chec
 The replacement preview uses an explicit ZIP whose 135 entries were verified byte-for-byte against the reviewed Toy build; the ZIP and folder both passed Toy content doctor with no ERROR/WARN. Directory upload stalled repeatedly on a part timeout; the identical-content ZIP completed successfully. The preview was entered through the official Bilibili wrapper, practice started with a temporary archive, the five-card fan raised Magic Cylinder correctly, and its full-card Chinese reader switched to large text. No warning/error console entries were captured. This verifies preview play and presentation, not formal account cloud saves or leaderboard writes. Final review submission awaits explicit creator confirmation of this exact preview.
 
 新版平台预览实测进入练习，五张手牌正常呈扇形，魔法筒选中抬起，完整卡面与中文说明可切换大字；控制台无告警或错误。预览使用临时存档，未写入正式云进度，也尚未提交审核。
+
+### Verified Toy model transport / 平台模型兼容验证
+
+The first battle-polish preview (`preview_XrFOEESx`) showed the simplified cliff fallback. Its `.gltf` request returned HTTP 404, although the binary, texture and HDR requests returned HTTP 200. [Compatibility fix `c98b6f1`](https://github.com/Ryan-fm/astral-duel-game/commit/c98b6f1) keeps the reviewed source model unchanged and distributes it under a `.json` transport alias only in the Toy package. All four relative model dependencies remain intact. The full-server version still uses the original asset.
+
+The final preview linked above (`preview_OO4GOtsp`) serves the JSON model with HTTP 200, byte-identical to the reviewed original. Native in-app browser play confirms the scanned, textured cliffs replace the fallback, with the five-card fan, raised Magic Cylinder selection and full-card large-text reader intact. No console warning/error was captured. This corrected preview is the review candidate; the earlier fallback preview is not the final package. Neither preview submits a review or writes formal account cloud progress.
+
+最终预览 `preview_OO4GOtsp` 的模型返回 200，内容与原始扫描资产相同；实机确认完整岩壁已恢复，手牌和大字阅读器正常。此前显示简化替代岩壁的预览不作为本次审核候选。平台云存档与正式榜单仍需在正式登录环境验收。
