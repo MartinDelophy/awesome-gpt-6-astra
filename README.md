@@ -503,12 +503,12 @@ Logic puzzles, physics challenges, word games, and clever little mechanisms.
 
 Tower defense, strategic card games, management games, building, and simulation sandboxes.
 
-- **[Yu-Gi-Oh! Ruins Duel / 游戏王：遗迹决斗](https://www.bilibili.com/toy/astral-duel-game/index.html)** — Tap the Blue-Eyes opening artwork to enter, then choose tempo, spell control, defense/counterplay or tribute pressure; build a 40-card deck, discover cards through a 3D summoning ritual, and drag cards into nostalgic Roman ruins where 18 volumetric monsters animate in guided Yu-Gi-Oh-inspired AI duels.
+- **[Yu-Gi-Oh! Ruins Duel / 游戏王：遗迹决斗](https://www.bilibili.com/toy/astral-duel-game/index.html)** — Tap the Blue-Eyes opening artwork to enter, then choose tempo, spell control, defense/counterplay or tribute pressure; build a 40-card deck, discover cards through a 3D summoning ritual, and choose nostalgic Roman ruins or a neon waterfront arena, and drag cards into guided Yu-Gi-Oh-inspired AI duels with faithful card fronts and illustrated ace monsters.
   - Creator: [Ryan-fm](https://github.com/Ryan-fm).
   - Platform: WebGL browser; Chinese interface, mouse or touch. Free, no game login. Toy release supports AI duels, summoning and deck editing with local browser saves; online PK requires the separate full-version server.
   - Model participation: [Development and verification notes](assets/screenshots/astral-duel/SOURCE.md) — Iterative Codex collaboration; exact GPT-6 Astra attribution awaits creator confirmation. Unofficial fan prototype using third-party card artwork.
   - Resources: [Development and verification notes](assets/screenshots/astral-duel/SOURCE.md) · Built with: React, TypeScript, Three.js; the full server uses Node.js and Socket.IO. Full source is private.
-  - Preview: ![Actual local full-server gameplay captured 2026-10-10: Roman arena, volumetric monsters and compact selected-card attack controls.](assets/screenshots/astral-duel/gameplay.png)
+  - Preview: ![Actual local full-server gameplay captured 2026-10-10: neon arena, restored card presentation and compact selected-card attack controls.](assets/screenshots/astral-duel/gameplay.png)
 
 - **[Tidehook](https://tidehook-mallow.vercel.app/)** — Pilot the little tug Mallow through three coastal voyages, towing salvage whose weight changes acceleration and turning, delivering it to a harbour crane and eventually recovering a lighthouse lens.
   - Creator: [Emile du Toit / Mafuta Games](https://mafuta.itch.io/)

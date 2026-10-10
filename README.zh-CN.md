@@ -503,12 +503,12 @@
 
 塔防、卡牌策略、经营建造与模拟沙盒。
 
-- **[游戏王：遗迹决斗 / Yu-Gi-Oh! Ruins Duel](https://www.bilibili.com/toy/astral-duel-game/index.html)** — 点击青眼白龙入场图进入大厅，选择节奏突击、魔法控场、守备反击或上级压制四种路线，编成 40 张卡组；通过召唤发现新卡，将手牌拖入怀旧古罗马遗迹，在 18 种实体 3D 怪兽的人机决斗中练习攻击、连锁与墓地复活。
+- **[游戏王：遗迹决斗 / Yu-Gi-Oh! Ruins Duel](https://www.bilibili.com/toy/astral-duel-game/index.html)** — 点击青眼白龙入场图进入大厅，选择节奏突击、魔法控场、守备反击或上级压制四种路线，编成 40 张卡组；通过召唤发现新卡，选择怀旧古罗马遗迹或霓虹都市竞技场，将手牌拖入场地，使用真实卡面与王牌立绘进行人机决斗，练习攻击、连锁与墓地复活。
   - 作者：[Ryan-fm](https://github.com/Ryan-fm)。
   - 平台：支持 WebGL 的浏览器，中文界面，鼠标或触控；免费，无需游戏账号。Toy 发布版支持人机、召唤和组卡，进度保存在当前浏览器；在线 PK 需要单独部署完整版服务器。
   - 模型参与：[开发与核验记录](assets/screenshots/astral-duel/SOURCE.md) — 通过多轮 Codex 协作开发；具体 GPT-6 Astra 归因等待创作者确认。非官方同人原型，包含第三方卡牌美术。
   - 开发资料：[开发与核验记录](assets/screenshots/astral-duel/SOURCE.md) · 技术：React、TypeScript、Three.js；完整版服务器使用 Node.js 与 Socket.IO。完整源码为私有仓库。
-  - 预览：![2026-10-10 本地完整服务器版实机：古罗马遗迹、实体怪兽和按需显示的紧凑攻击操作面板。](assets/screenshots/astral-duel/gameplay.png)
+  - 预览：![2026-10-10 本地完整服务器版实机：霓虹都市、还原后的卡牌表现和按需显示的紧凑攻击操作面板。](assets/screenshots/astral-duel/gameplay.png)
 
 - **[Tidehook](https://tidehook-mallow.vercel.app/)** — 驾驶小拖船 Mallow 完成三段海岸航程，拖回会影响加速与转向的不同重量打捞物，交给港口起重机，并最终找回灯塔透镜。
   - 作者: [Emile du Toit / Mafuta Games](https://mafuta.itch.io/)
