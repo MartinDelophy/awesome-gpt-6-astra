@@ -75,3 +75,42 @@ The following retained captures come from earlier builds; “current” in their
 Nonofficial prototype. Card names/fronts, established characters and the user-supplied opening image contain third-party expressions. Asset rights remain unresolved; author publication permission, free hosting, attribution and platform review do not establish IP licensing. CC0 Poly Haven scenery and dependency/font notices are tracked separately. The strict rights check remains uncleared; an author-approved prototype publication path is pinned to the reviewed asset manifest and policy. The public catalogue does not contain private server code or credentials, and its own prose does not relicense third-party game assets.
 
 非官方原型。作者同意发布、免费托管和平台审核均不等于获得第三方 IP 授权；卡牌、角色和入场图的权利待确认记录仍保留。
+
+
+## Battle polish · 2026-10-10 / 战斗体验更新
+
+The creator reviewed the local iteration and explicitly requested an existing-service / catalogue / Toy update. [Public source revision `af3af23`](https://github.com/Ryan-fm/astral-duel-game/commit/af3af2311b202807f4a9d5c346de2341d83663e2) is now available in the public [game repository](https://github.com/Ryan-fm/astral-duel-game). Earlier references to private source describe its status at the time of those tests. This maintenance update does not change model attribution or clear third-party asset rights.
+
+- Public spell/trap activations are queued for roughly four seconds each, with a recent activation history and an inspectable public chain source. Server response deadlines continue independently; hidden card identities stay concealed.
+- Chinese explanations are expanded by default in the inspector and have a full-card reader with standard / large text. Face-down cards use compact neutral seals, with colors only after public reveal and separated neighboring touch targets.
+- Complete card fronts form a larger shallow fan. The selected card rises and straightens with a cyan outline; drag-out placement and keyboard access remain. Narrow layouts page oversized hands instead of making stacked cards unreachable.
+- Island-ruin lighting, contact occlusion and depth haze were refined. Automatic / high / low quality keeps the restored card faces and illustrated sprites; sculpted monster models were not reintroduced.
+- The existing Vercel Hobby service was deployed from `af3af23`. [Deployment record](https://vercel.com/ryan-1d85/astral-duel-game/523Q7qCnXX13Eub31gkF4o9ZtvoL). The public health check reports Redis, and online status is enabled. No paid resource or plan change was made.
+- Verification: 131 game tests, 5 rights/publication-check tests and 27 catalogue tests pass; all 28 protected mobile-runtime files are intact. The production build passed. Toy content doctor found no errors or warnings, and the Toy build retains the public endpoint and production socket path.
+- Native public browser verification: entered practice, inspected a selected fan card, switched the reader to large text, picked up/cancelled with the keyboard, then dragged Mystical Elf from the hand into a legal monster zone. The field showed ATK 800 and the hand changed from five to four cards. No warning/error console entries were captured in that session. This is browser evidence, not physical-phone performance certification.
+
+[battle-polish.jpg](battle-polish.jpg) is a native 1280 × 720 in-app browser screenshot of the public Vercel release `af3af23`, captured on 2026-10-10 after the drag summon. It shows the summoned Mystical Elf, four complete hand cards in a shallow fan, raised Fissure selection and an expanded Chinese effect explanation. No game state or UI was repainted. The lobby remains the first Preview image and therefore the catalogue cover; this battle capture is supplementary.
+
+本轮公开源码版本为 `af3af23`，已部署公网；131 项游戏测试、5 项发行检查及 27 项目录测试通过。公网实测拖出神秘妖精后手牌从五张减少到四张，放大说明支持大字。目录保留大厅封面，新增实机战斗图作为补充；不推断具体模型参与，也不改变素材权利待确认记录。
+
+### Current Toy replacement status / 本轮 Toy 状态
+
+A fresh `toy mylist --json` check on 2026-10-10 reports the previous update of Toy ID `42086522945536` as **published**; the earlier `auditing` record above is historical. The battle-polish replacement has been uploaded and verified in [this platform preview](https://www.bilibili.com/toy/preview/preview_OO4GOtsp/index.html), with no review submission yet. The existing title, slug, cover and formal URL are preserved. Preview archives remain temporary and do not verify formal account cloud saves or rankings.
+
+平台已发布上一版。本轮战斗优化已上传并验证平台预览，尚未提交审核；保留既有名称、访问地址和大厅封面。
+
+The existing formal Toy page was opened in the in-app browser for an access check. It allowed entering the lobby, but starting practice returned “请先登录 B站，再连接云存档”. The catalogue title therefore links to the public Vercel version, which was verified through real practice play without account login. The Toy URL remains a secondary platform link with its Bilibili sign-in requirement stated explicitly. This corrects access metadata; no Toy account or stored progress was changed.
+
+正式 Toy 页实测能进入大厅，但开始练习要求登录 B站。因此目录主试玩链接使用已实测免登录开始对局的 Vercel 公网版；Toy 地址仍保留，并明确登录要求。
+
+The replacement preview uses an explicit ZIP whose 135 entries were verified byte-for-byte against the reviewed Toy build; the ZIP and folder both passed Toy content doctor with no ERROR/WARN. Directory upload stalled repeatedly on a part timeout; the identical-content ZIP completed successfully. The preview was entered through the official Bilibili wrapper, practice started with a temporary archive, the five-card fan raised Magic Cylinder correctly, and its full-card Chinese reader switched to large text. No warning/error console entries were captured. This verifies preview play and presentation, not formal account cloud saves or leaderboard writes. Final review submission awaits explicit creator confirmation of this exact preview.
+
+新版平台预览实测进入练习，五张手牌正常呈扇形，魔法筒选中抬起，完整卡面与中文说明可切换大字；控制台无告警或错误。预览使用临时存档，未写入正式云进度，也尚未提交审核。
+
+### Verified Toy model transport / 平台模型兼容验证
+
+The first battle-polish preview (`preview_XrFOEESx`) showed the simplified cliff fallback. Its `.gltf` request returned HTTP 404, although the binary, texture and HDR requests returned HTTP 200. [Compatibility fix `c98b6f1`](https://github.com/Ryan-fm/astral-duel-game/commit/c98b6f1) keeps the reviewed source model unchanged and distributes it under a `.json` transport alias only in the Toy package. All four relative model dependencies remain intact. The full-server version still uses the original asset.
+
+The final preview linked above (`preview_OO4GOtsp`) serves the JSON model with HTTP 200, byte-identical to the reviewed original. Native in-app browser play confirms the scanned, textured cliffs replace the fallback, with the five-card fan, raised Magic Cylinder selection and full-card large-text reader intact. No console warning/error was captured. This corrected preview is the review candidate; the earlier fallback preview is not the final package. Neither preview submits a review or writes formal account cloud progress.
+
+最终预览 `preview_OO4GOtsp` 的模型返回 200，内容与原始扫描资产相同；实机确认完整岩壁已恢复，手牌和大字阅读器正常。此前显示简化替代岩壁的预览不作为本次审核候选。平台云存档与正式榜单仍需在正式登录环境验收。
