@@ -75,3 +75,26 @@ The following retained captures come from earlier builds; “current” in their
 Nonofficial prototype. Card names/fronts, established characters and the user-supplied opening image contain third-party expressions. Asset rights remain unresolved; author publication permission, free hosting, attribution and platform review do not establish IP licensing. CC0 Poly Haven scenery and dependency/font notices are tracked separately. The strict rights check remains uncleared; an author-approved prototype publication path is pinned to the reviewed asset manifest and policy. The public catalogue does not contain private server code or credentials, and its own prose does not relicense third-party game assets.
 
 非官方原型。作者同意发布、免费托管和平台审核均不等于获得第三方 IP 授权；卡牌、角色和入场图的权利待确认记录仍保留。
+
+
+## Battle polish · 2026-10-10 / 战斗体验更新
+
+The creator reviewed the local iteration and explicitly requested an existing-service / catalogue / Toy update. [Public source revision `af3af23`](https://github.com/Ryan-fm/astral-duel-game/commit/af3af2311b202807f4a9d5c346de2341d83663e2) is now available in the public [game repository](https://github.com/Ryan-fm/astral-duel-game). Earlier references to private source describe its status at the time of those tests. This maintenance update does not change model attribution or clear third-party asset rights.
+
+- Public spell/trap activations are queued for roughly four seconds each, with a recent activation history and an inspectable public chain source. Server response deadlines continue independently; hidden card identities stay concealed.
+- Chinese explanations are expanded by default in the inspector and have a full-card reader with standard / large text. Face-down cards use compact neutral seals, with colors only after public reveal and separated neighboring touch targets.
+- Complete card fronts form a larger shallow fan. The selected card rises and straightens with a cyan outline; drag-out placement and keyboard access remain. Narrow layouts page oversized hands instead of making stacked cards unreachable.
+- Island-ruin lighting, contact occlusion and depth haze were refined. Automatic / high / low quality keeps the restored card faces and illustrated sprites; sculpted monster models were not reintroduced.
+- The existing Vercel Hobby service was deployed from `af3af23`. [Deployment record](https://vercel.com/ryan-1d85/astral-duel-game/523Q7qCnXX13Eub31gkF4o9ZtvoL). The public health check reports Redis, and online status is enabled. No paid resource or plan change was made.
+- Verification: 131 game tests, 5 rights/publication-check tests and 27 catalogue tests pass; all 28 protected mobile-runtime files are intact. The production build passed. Toy content doctor found no errors or warnings, and the Toy build retains the public endpoint and production socket path.
+- Native public browser verification: entered practice, inspected a selected fan card, switched the reader to large text, picked up/cancelled with the keyboard, then dragged Mystical Elf from the hand into a legal monster zone. The field showed ATK 800 and the hand changed from five to four cards. No warning/error console entries were captured in that session. This is browser evidence, not physical-phone performance certification.
+
+[battle-polish.png](battle-polish.png) is a native 1280 × 720 in-app browser screenshot of the public Vercel release `af3af23`, captured on 2026-10-10 after the drag summon. It shows the summoned Mystical Elf, four complete hand cards in a shallow fan, raised Fissure selection and an expanded Chinese effect explanation. No game state or UI was repainted. The lobby remains the first Preview image and therefore the catalogue cover; this battle capture is supplementary.
+
+本轮公开源码版本为 `af3af23`，已部署公网；131 项游戏测试、5 项发行检查及 27 项目录测试通过。公网实测拖出神秘妖精后手牌从五张减少到四张，放大说明支持大字。目录保留大厅封面，新增实机战斗图作为补充；不推断具体模型参与，也不改变素材权利待确认记录。
+
+### Current Toy replacement status / 本轮 Toy 状态
+
+A fresh `toy mylist --json` check on 2026-10-10 reports the previous update of Toy ID `42086522945536` as **published**; the earlier `auditing` record above is historical. The battle-polish replacement is being uploaded for platform preview, with no review submission yet. The existing title, slug, cover and formal URL are preserved. Preview archives remain temporary and do not verify formal account cloud saves or rankings.
+
+平台已发布上一版。本轮战斗优化正在上传预览，尚未提交审核；保留既有名称、访问地址和大厅封面。
