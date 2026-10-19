@@ -1114,7 +1114,7 @@
 
 - **[入画 · WITHIN](https://fatasia.github.io/within/)** — 在 18 个绘画与风景世界间切换，沿章节展卷、自由漫游或步行观察，还能在 Roadster 驾驶、在樱谷乘舟。
   - 作者：[fatasia](https://github.com/fatasia)
-  - 平台：浏览器；需要 WebGL 2 与硬件加速，支持鼠标键盘或触摸，无需登录。单人探索体验；复杂场景需等待加载。选择场景后点击「走进画中」，Roadster 为「进入试场」。
+  - 平台：浏览器；需要 WebGL 2 与硬件加速，鼠标键盘操作，无需登录。已核验桌面入场；作者说明支持手机触摸，本次未测试。单人探索体验；复杂场景需等待加载。选择场景后点击「走进画中」，Roadster 为「进入试场」。
   - GPT-6 Astra：[作者创作说明](https://github.com/fatasia/within/blob/main/docs/CREATION.md) — 作者说明开发全程使用 GPT-6 Astra 中 / 高推理档位，多轮迭代场景、材质、动画、游览镜头、界面与测试。
   - 开发资料：[源码](https://github.com/fatasia/within) · [原作与素材署名](https://github.com/fatasia/within/blob/main/docs/ORIGINALS.md) · 技术：React、TypeScript、Three.js、Vite。
   - 预览：![清明虹桥、沿河街屋与舟楫，以及章节和视角控件；截图由 fatasia 提供。](https://raw.githubusercontent.com/fatasia/within/271b11849c1f279e78195a69699f255c18d79c63/docs/images/qingming-2026-10-19.png) — fatasia 摄于 2026-10-19，版本 `271b118`，来自 [issue #126](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/126)。
