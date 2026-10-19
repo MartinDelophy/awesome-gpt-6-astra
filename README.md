@@ -1115,9 +1115,9 @@ Unusual mechanics, online competition, and cooperative experiences.
 - **[入画 · WITHIN](https://fatasia.github.io/within/)** — Explore 18 painting and landscape worlds through chapter tours, free roaming and walking, with driving in Roadster and boat rides in Sakura Valley.
   - Creator: [fatasia](https://github.com/fatasia)
   - Platform: Browser; WebGL 2 and hardware acceleration, mouse/keyboard, no login. Desktop entry checked; the creator reports mobile touch support, which was not tested. Single-player exploration; complex scenes may take time to load. Select a scene, then choose “走进画中” (“进入试场” for Roadster).
-  - GPT-6 Astra: [Creator statement](https://github.com/fatasia/within/blob/main/docs/CREATION.md) — The creator reports using GPT-6 Astra at medium/high reasoning throughout iterative development for scenes, materials, animation, camera tours, the interface and testing.
+  - GPT-6 Astra: [Creator statement](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/126) — The creator reports using GPT-6 Astra at medium/high reasoning throughout iterative development for scenes, materials, animation, camera tours, the interface and testing.
   - Resources: [Source](https://github.com/fatasia/within) · [Artwork and asset credits](https://github.com/fatasia/within/blob/main/docs/ORIGINALS.md) · Built with: React, TypeScript, Three.js and Vite.
-  - Preview: ![Qingming's Rainbow Bridge, riverside buildings and boats, with chapter and camera controls. Screenshot by fatasia.](https://raw.githubusercontent.com/fatasia/within/271b11849c1f279e78195a69699f255c18d79c63/docs/images/qingming-2026-10-19.png) — Captured by fatasia on 2026-10-19, version `271b118`; provided in [issue #126](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/126).
+  - Preview: ![Qingming scene: Rainbow Bridge, riverside buildings and boats.](https://raw.githubusercontent.com/fatasia/within/34e80b3945ce863c482361a0478f78419a6d7465/public/previews/qingming.webp) — Project scene preview pinned to version `34e80b3`; provided by [fatasia](https://github.com/fatasia).
 
 - **[ASTRA Arcade](https://astra-arcade.antonioleivag.chatgpt.site/)** — Six browser games in one arcade, including mountain rally, snowboarding and antigravity racing; counted as one collection.
   - Creator: [Antonio Leiva](https://x.com/antonioleivag)
