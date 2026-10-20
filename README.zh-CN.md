@@ -96,7 +96,7 @@
 
 - **[MoxRiding](https://www.moxride.com/home/moxriding)** — 在限时城市滑板场中自由转向，串联豚跳、空中动作与磨轨，再保持直线滑行两秒，把连招兑现成得分。
   - 作者：[Moxazza / Moxazza Games](https://www.moxride.com/)
-  - 平台：桌面浏览器，键盘操作；已无需登录、下载或本地搭建开始游戏。手机兼容性及投稿所述全球前十排行榜未实测。
+  - 平台：桌面浏览器，键盘操作；免费，无需登录、下载或本地搭建，已实际开始游戏核验。手机兼容性及投稿所述全球前十排行榜未实测。
   - GPT-6 Astra：**本作尚未确认。** [投稿 #129](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/129) 写的是“ChatGPT 6.1”，并描述了参考 Street Sesh、反复提升画面的迭代过程，没有明确指认 Astra。
   - 开发资料：[试玩核验、模型归属范围与截图来源](assets/screenshots/moxriding/SOURCE.md)。与上方的下坡竞速作品 MoxRide 分别收录。
   - 预览：![MoxRiding 城市滑板场，展示豚跳连招、倒计时、直线兑现提示与键盘操作；摄于 2026-10-20。](assets/screenshots/moxriding/gameplay.jpg)

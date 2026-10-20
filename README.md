@@ -96,7 +96,7 @@ Shooters, fighters, survival games, rhythm games, and anything that invites one 
 
 - **[MoxRiding](https://www.moxride.com/home/moxriding)** — Chain ollies, aerial tricks and rail grinds in a timed city skate session, then roll straight for two seconds to bank the combo.
   - Creator: [Moxazza / Moxazza Games](https://www.moxride.com/)
-  - Platform: Desktop browser with keyboard controls; started without login, downloads or local setup. Mobile compatibility and the advertised global top-10 leaderboard were not tested.
+  - Platform: Desktop browser with keyboard controls; free play without login, downloads or local setup, verified by starting a session. Mobile compatibility and the advertised global top-10 leaderboard were not tested.
   - GPT-6 Astra: **Unconfirmed for this game.** [Submission #129](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/129) names “ChatGPT 6.1” and describes Street Sesh-inspired direction and repeated graphics refinement; it does not explicitly identify Astra.
   - Resources: [Play check, model-attribution limits and screenshot source](assets/screenshots/moxriding/SOURCE.md). Separate from the downhill racer MoxRide above.
   - Preview: ![MoxRiding's city skate district with an ollie combo, countdown, banking prompt and keyboard controls; captured on 2026-10-20.](assets/screenshots/moxriding/gameplay.jpg)

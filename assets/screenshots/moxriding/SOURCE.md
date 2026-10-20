@@ -6,7 +6,7 @@
 
 ## Review — 2026-10-20
 
-Opened the submitted HTTPS page in a desktop Chromium browser and started a new session in the embedded game. The city scene, session countdown, speed, trick-combo display and keyboard instructions rendered without login, installation or local setup. Keyboard movement and an ollie produced an active combo and a prompt to keep rolling before banking it; the captured session then showed 70 banked points. This is a start-and-controls check, not a full playthrough.
+Opened the submitted HTTPS page in a desktop Chromium browser and started a new session in the embedded game. The city scene, session countdown, speed, trick-combo display and keyboard instructions rendered without payment, login, installation or local setup. The submission's promotional image also advertises free play. Keyboard movement and an ollie produced an active combo and a prompt to keep rolling before banking it; the captured session then showed 70 banked points. This is a start-and-controls check, not a full playthrough.
 
 The in-game help describes a 90-second session with extra time earned by varied clean tricks, aerial trick buttons, magnetic rail grinds and manuals. Releasing the manual and rolling straight for two uninterrupted seconds banks the combo. The submission advertises a global top-10 leaderboard; leaderboard submission and ranking were not independently tested. Mobile compatibility was not tested, despite the submission's broad browser-support claim.
 
