@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 177](https://img.shields.io/badge/Cases-177-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 178](https://img.shields.io/badge/Cases-178-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **A collection of interesting games made with GPT-6 Astra.**
 
@@ -20,11 +20,11 @@ Playful ideas, games you can try, and development stories that inspire the next 
 
 ## Start here
 
-Explore **177 games and interactive projects**: Three Kingdoms territory strategy, wooden interlocking and sliding puzzles, soft-body fruit merging, procedural city-building 2048, one-tap flight, magic-carpet combat, a five-stage bullet-hell shooter, island power-grid tower defense, wilderness survival, underwater fishing, sushi-restaurant management and island farming, Bay Circuit kart racing, coastal cycling with a pelican, tabletop toys turned into 3D games, 3D home decoration, an eighteen-scene 3D art gallery, and Orbital Garden. Click a title to play directly in your browser.
+Explore **178 games and interactive projects**: Three Kingdoms territory strategy, wooden interlocking and sliding puzzles, soft-body fruit merging, procedural city-building 2048, one-tap flight, magic-carpet combat, a five-stage bullet-hell shooter, island power-grid tower defense, wilderness survival, underwater fishing, sushi-restaurant management and island farming, Bay Circuit kart racing, coastal cycling with a pelican, tabletop toys turned into 3D games, 3D home decoration, an eighteen-scene 3D art gallery, and Orbital Garden. Click a title to play directly in your browser.
 
-Catalog updated: **2026-10-19**. Model attribution is based on creator or submitter statements; unconfirmed details are marked in individual entries. This date records catalog maintenance, not a new play-test of every game.
+Catalog updated: **2026-10-20**. Model attribution is based on creator or submitter statements; unconfirmed details are marked in individual entries. This date records catalog maintenance, not a new play-test of every game.
 
-Latest addition: [入画 · WITHIN, an 18-scene 3D exploration gallery](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/126). Previous additions: [October 6: 8 playable games from X](docs/x-games-2026-10-06.md). Previous discoveries: [September 21: 10 more directly playable browser games](docs/browser-games-2026-09-21.md). Previous batch: [September 20: 10 more directly playable browser games](docs/browser-games-2026-09-20.md). Earlier batch: [10 more browser games discovered across the web](docs/browser-games-2026-09-18.md), with gameplay screenshots, creator sources and access checks. [September 17's 10 additions](docs/browser-games-2026-09-17.md). [September 16's 10 additions](docs/browser-games-2026-09-16.md). [September 15's 10 additions](docs/browser-games-2026-09-15.md). [September 12's 10 additions](docs/browser-games-2026-09-12.md). Previous additions: [Barrelbound: The Lost Cargo](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/73) and [Tidehook](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/74), with entries in all 12 README languages. [September 11's 10 additions](docs/browser-games-2026-09-11.md) · [September 10's 10 additions](docs/direct-play-x-games-2026-09-10.md) · [Earlier 16 additions](docs/x-high-traffic-games-2026-09-09.md).
+Latest addition: [MoxRiding](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/129). Previous addition: [入画 · WITHIN, an 18-scene 3D exploration gallery](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/126). Previous additions: [October 6: 8 playable games from X](docs/x-games-2026-10-06.md). Previous discoveries: [September 21: 10 more directly playable browser games](docs/browser-games-2026-09-21.md). Previous batch: [September 20: 10 more directly playable browser games](docs/browser-games-2026-09-20.md). Earlier batch: [10 more browser games discovered across the web](docs/browser-games-2026-09-18.md), with gameplay screenshots, creator sources and access checks. [September 17's 10 additions](docs/browser-games-2026-09-17.md). [September 16's 10 additions](docs/browser-games-2026-09-16.md). [September 15's 10 additions](docs/browser-games-2026-09-15.md). [September 12's 10 additions](docs/browser-games-2026-09-12.md). Previous additions: [Barrelbound: The Lost Cargo](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/73) and [Tidehook](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/74), with entries in all 12 README languages. [September 11's 10 additions](docs/browser-games-2026-09-11.md) · [September 10's 10 additions](docs/direct-play-x-games-2026-09-10.md) · [Earlier 16 additions](docs/x-high-traffic-games-2026-09-09.md).
 
 - **Looking for something to play?** Browse the genres below.
 - **Built a game?** [Submit your project](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) with a direct browser game link, a gameplay screenshot, and a description of how you used GPT-6 Astra.
@@ -93,6 +93,13 @@ Shooters, fighters, survival games, rhythm games, and anything that invites one 
   - GPT-6 Astra: [Issue #114](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/114) — In the Astra submission, the creator describes iterating on a Street Sesh-inspired game and repeatedly refining its graphics; the full development history is not public.
   - Resources: [2026-10-05](assets/screenshots/moxride/SOURCE.md)
   - Preview: ![Creator-supplied downhill skating screenshot with trick score and speed HUD.](assets/screenshots/moxride/gameplay.png)
+
+- **[MoxRiding](https://www.moxride.com/home/moxriding)** — Chain ollies, aerial tricks and rail grinds in a timed city skate session, then roll straight for two seconds to bank the combo.
+  - Creator: [Moxazza / Moxazza Games](https://www.moxride.com/)
+  - Platform: Desktop browser with keyboard controls; free play without login, downloads or local setup, verified by starting a session. Mobile compatibility and the advertised global top-10 leaderboard were not tested.
+  - GPT-6 Astra: **Unconfirmed for this game.** [Submission #129](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/129) names “ChatGPT 6.1” and describes Street Sesh-inspired direction and repeated graphics refinement; it does not explicitly identify Astra.
+  - Resources: [Play check, model-attribution limits and screenshot source](assets/screenshots/moxriding/SOURCE.md). Separate from the downhill racer MoxRide above.
+  - Preview: ![MoxRiding's city skate district with an ollie combo, countdown, banking prompt and keyboard controls; captured on 2026-10-20.](assets/screenshots/moxriding/gameplay.jpg)
 
 - **[MIDWAY 1942: Air Strike](https://ihca.cn/midway/)** — Fly with wingmen, fight interceptors and dive-bomb two carriers; time gravity-driven bomb drops using the predicted impact point, then resupply near friendly ships.
   - Creator: [xilinnihao-afk / 一海千寻的AI实验室](https://github.com/xilinnihao-afk)
