@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 103](https://img.shields.io/badge/Cases-103-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 105](https://img.shields.io/badge/Cases-105-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Kumpulan gim menarik yang dibuat dengan GPT-6 Astra.**
 
@@ -22,9 +22,9 @@ Halaman ini merupakan terjemahan [README bahasa Inggris](README.md). Periksa ver
 
 ## Mulai di sini
 
-Jelajahi **103 gim dan proyek interaktif**: strategi wilayah Tiga Kerajaan, teka-teki kayu yang saling mengunci dan teka-teki balok geser, penggabungan buah yang lentur, 2048 pembangunan kota dengan generasi prosedural, penerbangan satu tombol, pertempuran karpet ajaib, gim tembak-menembak dengan hujan peluru dalam lima level, pertahanan pulau dengan jaringan listrik, bertahan hidup di alam liar, menangkap ikan di bawah air, mengelola restoran sushi, dan bertani di pulau, balapan kart di Bay Circuit, bersepeda di pesisir bersama pelikan, mainan meja yang diadaptasi menjadi gim 3D, dekorasi rumah 3D, serta Orbital Garden. Klik judul untuk langsung bermain di peramban.
+Jelajahi **105 gim dan proyek interaktif**: strategi wilayah Tiga Kerajaan, teka-teki kayu yang saling mengunci dan teka-teki balok geser, penggabungan buah yang lentur, 2048 pembangunan kota dengan generasi prosedural, penerbangan satu tombol, pertempuran karpet ajaib, gim tembak-menembak dengan hujan peluru dalam lima level, pertahanan pulau dengan jaringan listrik, bertahan hidup di alam liar, menangkap ikan di bawah air, mengelola restoran sushi, dan bertani di pulau, balapan kart di Bay Circuit, bersepeda di pesisir bersama pelikan, mainan meja yang diadaptasi menjadi gim 3D, dekorasi rumah 3D, serta Orbital Garden. Klik judul untuk langsung bermain di peramban.
 
-Katalog diperbarui: **2026-10-08**. Informasi penggunaan model berdasarkan pernyataan kreator atau pengirim; detail yang belum dikonfirmasi ditandai pada setiap entri. Tanggal ini menunjukkan pemeliharaan katalog, bukan pengujian ulang seluruh gim.
+Katalog diperbarui: **2026-10-23**. Informasi penggunaan model berdasarkan pernyataan kreator atau pengirim; detail yang belum dikonfirmasi ditandai pada setiap entri. Tanggal ini menunjukkan pemeliharaan katalog, bukan pengujian ulang seluruh gim.
 
 - **Mencari gim untuk dimainkan?** Jelajahi genre di bawah ini.
 - **Sudah membuat gim?** [Ajukan proyek Anda](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) dengan tautan langsung ke gim di peramban, tangkapan layar permainan, dan penjelasan tentang penggunaan GPT-6 Astra.
@@ -53,6 +53,20 @@ Gim tembak-menembak, pertarungan, bertahan hidup, ritme, dan apa pun yang membua
   - GPT-6 Astra: [Pengujian sekali generasi dan prompt asli kreator](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - Materi pengembangan: [Kode sumber](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/mosswing/src) · [HTML mandiri](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/mosswing/mosswing.html)
   - Pratinjau: ![Layar awal Mosswing menampilkan karakter terbang dan celah di antara pilar batu.](assets/screenshots/mosswing/gameplay.jpg)
+
+- **[MOXstrike](https://www.moxride.com/home/moxstrike)** — Bertempur dalam pertandingan tim di stasiun orbital dengan sudut pandang orang pertama, bidikan mouse, pergantian senjata dan musik asli Moxazza.
+  - Kreator: [Moxazza](https://www.moxride.com/)
+  - Platform: Peramban desktop, keyboard/mouse; peluncuran diuji tanpa login atau instalasi. Edisi seluler belum diuji.
+  - GPT-6 Astra: [Issue #131](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/131) — Kreator melaporkan pemrograman berbantuan Astra, pengujian berulang dan penyempurnaan berkelanjutan.
+  - Materi pengembangan: [2026-10-23](assets/screenshots/moxstrike/SOURCE.md)
+  - Pratinjau: ![MOXstrike](assets/screenshots/moxstrike/gameplay.png)
+
+- **[CRASH! City Breakers / 城市连锁](https://crash-city-breakers.vercel.app/)** — Tabrak lalu lintas, ledakkan kendaraan dan arahkan bangkai untuk memperpanjang tabrakan fisika; pilih kontrak dan peningkatan antargelombang di tiga kota.
+  - Kreator: [Olivia Pan](https://github.com/Olivia295)
+  - Platform: Peramban desktop, keyboard/mouse, antarmuka Mandarin/Inggris; tanpa login atau instalasi. Seluler belum diuji.
+  - GPT-6 Astra: [Issue #132](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/132) — Belum dikonfirmasi. Penulis menyebut Claude untuk kode dan aset; keterlibatan Astra belum terbukti. Dicantumkan dengan keterbatasan ini secara jelas.
+  - Materi pengembangan: [2026-10-23](assets/screenshots/crash-city-breakers/SOURCE.md)
+  - Pratinjau: ![CRASH! City Breakers / 城市连锁](assets/screenshots/crash-city-breakers/gameplay.png)
 
 - **[Miami Flap](https://miami-flap-neon.europeaningredients.chatgpt.site/)** — Terbang melewati pipa neon, kumpulkan bintang dan rangkai lintasan presisi untuk bonus. Mode Klasik dan Chaos menawarkan perisai, magnet serta tampilan yang dapat dibuka.
   - Kreator: [lokotay](https://github.com/LOKOTAY)

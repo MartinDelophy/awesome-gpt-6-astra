@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 103](https://img.shields.io/badge/Cases-103-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 105](https://img.shields.io/badge/Cases-105-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **GPT-6 Astra से बनाए गए दिलचस्प गेमों का संग्रह।**
 
@@ -22,9 +22,9 @@
 
 ## यहाँ से शुरू करें
 
-यहाँ **103 खेल और इंटरैक्टिव परियोजनाएँ** शामिल हैं: तीन राज्यों की क्षेत्रीय रणनीति, एक-दूसरे में फँसे लकड़ी के टुकड़ों और खिसकने वाले ब्लॉकों की पहेलियाँ, मुलायम फलों को मिलाना, प्रक्रियात्मक शहर निर्माण वाला 2048, एक बटन से उड़ान, जादुई कालीन पर लड़ाई, पाँच स्तरों वाला बुलेट-हेल शूटर, बिजली के नेटवर्क से द्वीप की रक्षा, जंगल में जीवित रहना, पानी के नीचे मछली पकड़ना, सुशी रेस्तराँ चलाना और द्वीप पर खेती करना, Bay Circuit पर कार्ट रेसिंग, पेलिकन के साथ तट पर साइकिल चलाना, टेबलटॉप खिलौनों के 3D रूपांतरण, 3D घर की सजावट और Orbital Garden। किसी शीर्षक पर क्लिक करके सीधे ब्राउज़र में गेम खेलें।
+यहाँ **105 खेल और इंटरैक्टिव परियोजनाएँ** शामिल हैं: तीन राज्यों की क्षेत्रीय रणनीति, एक-दूसरे में फँसे लकड़ी के टुकड़ों और खिसकने वाले ब्लॉकों की पहेलियाँ, मुलायम फलों को मिलाना, प्रक्रियात्मक शहर निर्माण वाला 2048, एक बटन से उड़ान, जादुई कालीन पर लड़ाई, पाँच स्तरों वाला बुलेट-हेल शूटर, बिजली के नेटवर्क से द्वीप की रक्षा, जंगल में जीवित रहना, पानी के नीचे मछली पकड़ना, सुशी रेस्तराँ चलाना और द्वीप पर खेती करना, Bay Circuit पर कार्ट रेसिंग, पेलिकन के साथ तट पर साइकिल चलाना, टेबलटॉप खिलौनों के 3D रूपांतरण, 3D घर की सजावट और Orbital Garden। किसी शीर्षक पर क्लिक करके सीधे ब्राउज़र में गेम खेलें।
 
-सूची अपडेट: **2026-10-08**। मॉडल के उपयोग की जानकारी रचनाकारों या प्रस्तुतकर्ताओं के कथनों पर आधारित है; अपुष्ट विवरण संबंधित प्रविष्टियों में चिह्नित हैं। यह तारीख सूची के रखरखाव की है, सभी गेमों के दोबारा परीक्षण की नहीं।
+सूची अपडेट: **2026-10-23**। मॉडल के उपयोग की जानकारी रचनाकारों या प्रस्तुतकर्ताओं के कथनों पर आधारित है; अपुष्ट विवरण संबंधित प्रविष्टियों में चिह्नित हैं। यह तारीख सूची के रखरखाव की है, सभी गेमों के दोबारा परीक्षण की नहीं।
 
 - **खेलने के लिए कुछ ढूँढ़ रहे हैं?** नीचे दी गई श्रेणियाँ देखें।
 - **आपने कोई गेम बनाया है?** [अपना प्रोजेक्ट भेजें](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) और साथ में सीधे ब्राउज़र में खेलने का लिंक, वास्तविक गेमप्ले का स्क्रीनशॉट और GPT-6 Astra के उपयोग का विवरण दें।
@@ -53,6 +53,20 @@
   - GPT-6 Astra: [रचनाकार के एक ही अनुरोध से निर्माण के परीक्षण और मूल प्रॉम्प्ट](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - विकास संसाधन: [स्रोत कोड](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/mosswing/src) · [स्वतंत्र HTML फ़ाइल](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/mosswing/mosswing.html)
   - पूर्वावलोकन: ![Mosswing की शुरुआती स्क्रीन पर उड़ता पात्र और पत्थर के खंभों के बीच के रास्ते दिखते हैं।](assets/screenshots/mosswing/gameplay.jpg)
+
+- **[MOXstrike](https://www.moxride.com/home/moxstrike)** — कक्षीय स्टेशन पर टीम डेथमैच खेलें: प्रथम-व्यक्ति चाल, माउस से निशाना, हथियार बदलना और Moxazza का मौलिक संगीत।
+  - रचनाकार: [Moxazza](https://www.moxride.com/)
+  - प्लैटफ़ॉर्म: डेस्कटॉप ब्राउज़र, कीबोर्ड/माउस; बिना लॉगिन या इंस्टॉलेशन शुरू होना जाँचा गया। मोबाइल संस्करण नहीं जाँचा।
+  - GPT-6 Astra: [Issue #131](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/131) — निर्माता ने Astra-सहायता प्राप्त कोडिंग, बार-बार परीक्षण और निरंतर सुधार की जानकारी दी है।
+  - विकास संसाधन: [2026-10-23](assets/screenshots/moxstrike/SOURCE.md)
+  - पूर्वावलोकन: ![MOXstrike](assets/screenshots/moxstrike/gameplay.png)
+
+- **[CRASH! City Breakers / 城市连锁](https://crash-city-breakers.vercel.app/)** — ट्रैफिक में टकराएँ, विस्फोट करें और मलबा मोड़कर भौतिक टक्करों की श्रृंखला बढ़ाएँ; तीन शहरों में अनुबंध और लहरों के बीच उन्नयन चुनें।
+  - रचनाकार: [Olivia Pan](https://github.com/Olivia295)
+  - प्लैटफ़ॉर्म: डेस्कटॉप ब्राउज़र, कीबोर्ड/माउस, चीनी/अंग्रेज़ी इंटरफ़ेस; लॉगिन या इंस्टॉलेशन नहीं। मोबाइल नहीं जाँचा।
+  - GPT-6 Astra: [Issue #132](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/132) — अपुष्ट। लेखक कोड और एसेट का श्रेय Claude को देते हैं; Astra की भागीदारी स्थापित नहीं है। इस सीमा को स्पष्ट करके शामिल किया गया है।
+  - विकास संसाधन: [2026-10-23](assets/screenshots/crash-city-breakers/SOURCE.md)
+  - पूर्वावलोकन: ![CRASH! City Breakers / 城市连锁](assets/screenshots/crash-city-breakers/gameplay.png)
 
 - **[Miami Flap](https://miami-flap-neon.europeaningredients.chatgpt.site/)** — नियॉन पाइपों के बीच उड़ें, सितारे बटोरें और सटीक उड़ान की श्रृंखला से बोनस पाएँ। क्लासिक और कैओस मोड में ढाल, चुंबक और अनलॉक होने वाले रूप हैं।
   - रचनाकार: [lokotay](https://github.com/LOKOTAY)

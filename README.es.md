@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 103](https://img.shields.io/badge/Cases-103-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 105](https://img.shields.io/badge/Cases-105-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **Una colección de juegos interesantes creados con GPT-6 Astra.**
 
@@ -22,9 +22,9 @@ Esta página es una traducción del [README en inglés](README.md). Consulta el 
 
 ## Empieza aquí
 
-Explora **103 juegos y proyectos interactivos**: estrategia territorial de los Tres Reinos, rompecabezas de madera entrelazada y de piezas deslizantes, fusión de frutas deformables, 2048 de construcción de ciudades con generación procedural, vuelo con un solo botón, combates en alfombra mágica, un shooter de lluvia de balas con cinco niveles, defensa de una isla mediante una red eléctrica, supervivencia en la naturaleza, pesca submarina, gestión de un restaurante de sushi y agricultura en una isla, carreras de karts en Bay Circuit, ciclismo costero con un pelícano, juguetes de mesa adaptados a 3D, decoración de hogares en 3D y Orbital Garden. Haz clic en un título para jugar directamente en el navegador.
+Explora **105 juegos y proyectos interactivos**: estrategia territorial de los Tres Reinos, rompecabezas de madera entrelazada y de piezas deslizantes, fusión de frutas deformables, 2048 de construcción de ciudades con generación procedural, vuelo con un solo botón, combates en alfombra mágica, un shooter de lluvia de balas con cinco niveles, defensa de una isla mediante una red eléctrica, supervivencia en la naturaleza, pesca submarina, gestión de un restaurante de sushi y agricultura en una isla, carreras de karts en Bay Circuit, ciclismo costero con un pelícano, juguetes de mesa adaptados a 3D, decoración de hogares en 3D y Orbital Garden. Haz clic en un título para jugar directamente en el navegador.
 
-Catálogo actualizado: **2026-10-08**. El uso del modelo se documenta según las declaraciones de los creadores o remitentes; los datos sin confirmar se señalan en cada entrada. Esta fecha corresponde al mantenimiento del catálogo, no a una nueva prueba de todos los juegos.
+Catálogo actualizado: **2026-10-23**. El uso del modelo se documenta según las declaraciones de los creadores o remitentes; los datos sin confirmar se señalan en cada entrada. Esta fecha corresponde al mantenimiento del catálogo, no a una nueva prueba de todos los juegos.
 
 - **¿Buscas algo para jugar?** Explora los géneros de abajo.
 - **¿Has creado un juego?** [Envía tu proyecto](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) con un enlace directo al juego en el navegador, una captura del juego y una explicación de cómo utilizaste GPT-6 Astra.
@@ -53,6 +53,20 @@ Juegos de disparos, lucha, supervivencia, ritmo y cualquier propuesta que invite
   - GPT-6 Astra: [Pruebas en una sola generación y prompts originales del creador](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/README.md).
   - Recursos: [Código fuente](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/mosswing/src) · [HTML independiente](https://github.com/Ayi1337/gpt6-astra-one-shot-games/blob/main/mosswing/mosswing.html)
   - Vista previa: ![Pantalla de inicio de Mosswing con el personaje volador y los huecos entre pilares de piedra.](assets/screenshots/mosswing/gameplay.jpg)
+
+- **[MOXstrike](https://www.moxride.com/home/moxstrike)** — Lucha en un combate por equipos en una estación orbital, con vista en primera persona, puntería con ratón, cambio de armas y música original de Moxazza.
+  - Creador: [Moxazza](https://www.moxride.com/)
+  - Plataforma: Navegador de escritorio, teclado/ratón; inicio verificado sin cuenta ni instalación. Edición móvil no probada.
+  - GPT-6 Astra: [Issue #131](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/131) — El creador describe programación asistida por Astra, pruebas iterativas y mejoras continuas.
+  - Recursos: [2026-10-23](assets/screenshots/moxstrike/SOURCE.md)
+  - Vista previa: ![MOXstrike](assets/screenshots/moxstrike/gameplay.png)
+
+- **[CRASH! City Breakers / 城市连锁](https://crash-city-breakers.vercel.app/)** — Choca contra el tráfico, detona y dirige los restos para encadenar colisiones físicas; elige contratos y mejoras entre oleadas en tres ciudades.
+  - Creador: [Olivia Pan](https://github.com/Olivia295)
+  - Plataforma: Navegador de escritorio, teclado/ratón, interfaz chino/inglés; sin cuenta ni instalación. Móvil no probado.
+  - GPT-6 Astra: [Issue #132](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/132) — Sin confirmar. El autor atribuye el código y los recursos a Claude; no se acredita la participación de Astra. Se incluye indicando esta limitación.
+  - Recursos: [2026-10-23](assets/screenshots/crash-city-breakers/SOURCE.md)
+  - Vista previa: ![CRASH! City Breakers / 城市连锁](assets/screenshots/crash-city-breakers/gameplay.png)
 
 - **[Miami Flap](https://miami-flap-neon.europeaningredients.chatgpt.site/)** — Vuela entre tubos de neón, recoge estrellas y encadena pasos precisos para obtener bonificaciones. Clásico y Caos añaden escudos, un imán y aspectos desbloqueables.
   - Creador: [lokotay](https://github.com/LOKOTAY)
