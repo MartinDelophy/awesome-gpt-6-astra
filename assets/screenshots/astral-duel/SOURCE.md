@@ -1,5 +1,21 @@
 # Yu-Gi-Oh! Ruins Duel — release verification
 
+## Current status · 2026-10-26 / 本次整体体验更新
+
+This section supersedes the earlier deployment and deck-count statements below; earlier dated sections remain historical provenance. The creator explicitly requested a PR / Toy update after reviewing the local Studio pass. [Source branch](https://github.com/Ryan-fm/astral-duel-game/tree/codex/arena-graveyard-fx-20261026), release preparation `34eff58`, game-content revision `06ed31e`. The [formal Toy URL](https://www.bilibili.com/toy/astral-duel-game/index.html) / ID `42086522945536` / slug `astral-duel-game` are unchanged. The existing Vercel service remains retired; this update does not resume it or introduce paid resources.
+
+[Exact latest Toy preview](https://www.bilibili.com/toy/preview/author_aBeEBWyL/index.html) has been uploaded and played through the official Bilibili wrapper. It is a solo package (`VITE_DUEL_ONLINE_ENABLED=0`), with real-time matching/friend play visibly unavailable. Server multiplayer remains in the source; it is not advertised as a live Toy feature. The formal URL retains its previous published release until review approval. Final submission of this preview is awaiting the creator's explicit confirmation.
+
+- Eight free 40-card presets add curated GX Elemental HERO and Cyber Dragon to the six DM presets. This is not a complete historical GX/OCG card list.
+- A ruin-ritual lobby, full-screen mode setup, four chapters grouping twelve executable lessons/challenges, real progress and next-trial navigation. Public piles use separate 44 px controls; reduced-motion/effects options and explicit targets/tributes/Fusion materials remain.
+- Verified on this exact platform preview: deck selection, T01 keyboard lift/release summon, actual victory pack and +3 first-clear tickets, continue into T02, manual attack target, 300 LP damage and a public Graveyard entry. The preview uses temporary progress and does not write the formal account archive. Account cloud saves / rankings require formal-page follow-up; physical-phone performance is not certified.
+- 200 game tests and 5 rights/publication tests passed, protected runtime and TypeScript/build checks passed. Toy content doctor reports no findings. Full local graphics evidence and its limitations are in the [game's review report](https://github.com/Ryan-fm/astral-duel-game/blob/codex/arena-graveyard-fx-20261026/artifacts/final-evidence.md).
+- The first upload exceeded the platform's package limit. A reproducible publication-only `cwebp` step reduced the build from about 54.9 MiB to 36.7 MiB, preserving original dimensions/alpha, complete card images, model geometry and source assets. Asset conversion and package-file SHA-256 manifests are retained in the source release artifacts. This is texture transport compression, not AI repainting.
+- `studio-lobby.jpg`, `studio-trials.jpg` and `studio-battle.jpg` are native 1280×720 screenshots of the exact platform preview captured on 2026-10-26. They show the new lobby, four-chapter trial map and live T02 battle. No game elements or outcomes were repainted. The lobby is the first README preview, maintaining the creator's lobby-cover preference.
+
+作者于 2026-10-26 要求更新 PR／Toy。本次包保留标题、封面、地址与档案格式；新平台预览已实测召唤、奖励、进入下一关、手动攻击及墓地变化，当前待作者确认提交审核。Toy 本次为单人构建，Vercel 继续下线；不再将已下线服务描述为当前可玩入口。下方旧版本的部署记录仅供历史追溯。具体模型归因和素材权利仍待确认，本次不补造声明、不改变权利状态。
+
+
 ## Creator and attribution / 作者与模型归因
 
 Creator: [Ryan-fm](https://github.com/Ryan-fm). Iterative Codex collaboration covered gameplay, React/TypeScript UI, Three.js environments and effects, Node.js/Socket.IO rules, collections, decks, Toy integration and tests. Exact GPT-6 Astra attribution remains unconfirmed; this maintenance update does not invent a model-use claim. **The creator statement required by [CONTRIBUTING.md](../../../CONTRIBUTING.md#什么样的作品适合收录--what-belongs-here) remains outstanding; catalogue eligibility remains pending. PR #120 was merged by upstream on 2026-10-10 while the attribution question was still open; that merge does not verify model usage.** The original entry was merged in [PR #119](https://github.com/MartinDelophy/awesome-gpt-6-astra/pull/119).
