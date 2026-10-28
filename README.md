@@ -61,7 +61,7 @@ Shooters, fighters, survival games, rhythm games, and anything that invites one 
 
 - **[雨切 · AMAGIRI](https://mafeis.github.io/amagiri/)** — Slash and parry through a rain-soaked shrine, build Focus for the Mugetsu finisher, and choose sword-technique upgrades between acts.
   - Creator: [murphy / mafeis](https://github.com/mafeis)
-  - Platform: Desktop browser with keyboard/mouse; no login, installation or local setup in the launch check. Chinese interface; touch controls are not adapted for mobile.
+  - Platform: Desktop browser with keyboard/mouse; no login, payment, installation or local setup in the launch check. Chinese interface; touch controls are not adapted for mobile.
   - GPT-6 Astra: [Creator's submission #137](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/137) — The author reports Astra generated the Canvas 2D implementation, combat and upgrade systems, sprites, scenes and audio in conversation, with human playtesting and feel adjustments.
   - Resources: [Source](https://github.com/mafeis/amagiri) · Native HTML/CSS/JavaScript, Canvas 2D, Web Audio; inline assets · [Play check and screenshot sources](assets/screenshots/amagiri/SOURCE.md)
   - Preview: ![AMAGIRI's rainy shrine arena with a sword slash, life and Focus HUD; captured on 2026-10-28, game source 34b1e64.](assets/screenshots/amagiri/gameplay.jpg)

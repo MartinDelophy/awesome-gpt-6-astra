@@ -61,7 +61,7 @@
 
 - **[雨切 · AMAGIRI](https://mafeis.github.io/amagiri/)** — 在雨夜神社中斩击、弹反，积累剑心释放居合「无月」，并在幕间选择刀法分支改变攻防节奏。
   - 作者：[murphy / mafeis](https://github.com/mafeis)
-  - 平台：桌面浏览器，键鼠操作；启动检查无需登录、安装或本地搭建。中文界面，移动端暂未适配触屏。
+  - 平台：桌面浏览器，键鼠操作；启动检查无需登录、付费、安装或本地搭建。中文界面，移动端暂未适配触屏。
   - GPT-6 Astra：[作者投稿 #137](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/137) — 作者说明 Astra 在对话中生成 Canvas 2D 实现、战斗判定、波次与升级系统，以及角色、场景和音效；人工负责试玩与手感微调。
   - 开发资料：[源码](https://github.com/mafeis/amagiri) · 原生 HTML/CSS/JavaScript、Canvas 2D、Web Audio，资源内联 · [试玩核验与截图来源](assets/screenshots/amagiri/SOURCE.md)
   - 预览：![雨切的雨夜神社战场，斩击动作与生命、剑心 HUD；摄于 2026-10-28，游戏源码 34b1e64。](assets/screenshots/amagiri/gameplay.jpg)
