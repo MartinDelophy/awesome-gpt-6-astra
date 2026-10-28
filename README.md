@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 180](https://img.shields.io/badge/Cases-180-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 181](https://img.shields.io/badge/Cases-181-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **A collection of interesting games made with GPT-6 Astra.**
 
@@ -20,11 +20,11 @@ Playful ideas, games you can try, and development stories that inspire the next 
 
 ## Start here
 
-Explore **180 games and interactive projects**: Three Kingdoms territory strategy, wooden interlocking and sliding puzzles, soft-body fruit merging, procedural city-building 2048, one-tap flight, magic-carpet combat, a five-stage bullet-hell shooter, island power-grid tower defense, wilderness survival, underwater fishing, sushi-restaurant management and island farming, Bay Circuit kart racing, coastal cycling with a pelican, tabletop toys turned into 3D games, 3D home decoration, an eighteen-scene 3D art gallery, and Orbital Garden. Click a title to play directly in your browser.
+Explore **181 games and interactive projects**: Three Kingdoms territory strategy, wooden interlocking and sliding puzzles, soft-body fruit merging, procedural city-building 2048, one-tap flight, magic-carpet combat, a five-stage bullet-hell shooter, island power-grid tower defense, wilderness survival, underwater fishing, sushi-restaurant management and island farming, Bay Circuit kart racing, coastal cycling with a pelican, tabletop toys turned into 3D games, 3D home decoration, an eighteen-scene 3D art gallery, and Orbital Garden. Click a title to play directly in your browser.
 
-Catalog updated: **2026-10-23**. Model attribution is based on creator or submitter statements; unconfirmed details are marked in individual entries. This date records catalog maintenance, not a new play-test of every game.
+Catalog updated: **2026-10-28**. Model attribution is based on creator or submitter statements; unconfirmed details are marked in individual entries. This date records catalog maintenance, not a new play-test of every game.
 
-Latest addition: [MoxRiding](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/129). Previous addition: [入画 · WITHIN, an 18-scene 3D exploration gallery](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/126). Previous additions: [October 6: 8 playable games from X](docs/x-games-2026-10-06.md). Previous discoveries: [September 21: 10 more directly playable browser games](docs/browser-games-2026-09-21.md). Previous batch: [September 20: 10 more directly playable browser games](docs/browser-games-2026-09-20.md). Earlier batch: [10 more browser games discovered across the web](docs/browser-games-2026-09-18.md), with gameplay screenshots, creator sources and access checks. [September 17's 10 additions](docs/browser-games-2026-09-17.md). [September 16's 10 additions](docs/browser-games-2026-09-16.md). [September 15's 10 additions](docs/browser-games-2026-09-15.md). [September 12's 10 additions](docs/browser-games-2026-09-12.md). Previous additions: [Barrelbound: The Lost Cargo](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/73) and [Tidehook](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/74), with entries in all 12 README languages. [September 11's 10 additions](docs/browser-games-2026-09-11.md) · [September 10's 10 additions](docs/direct-play-x-games-2026-09-10.md) · [Earlier 16 additions](docs/x-high-traffic-games-2026-09-09.md).
+Latest addition: [Potato League](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/135). Previous addition: [MoxRiding](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/129). Previous addition: [入画 · WITHIN, an 18-scene 3D exploration gallery](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/126). Previous additions: [October 6: 8 playable games from X](docs/x-games-2026-10-06.md). Previous discoveries: [September 21: 10 more directly playable browser games](docs/browser-games-2026-09-21.md). Previous batch: [September 20: 10 more directly playable browser games](docs/browser-games-2026-09-20.md). Earlier batch: [10 more browser games discovered across the web](docs/browser-games-2026-09-18.md), with gameplay screenshots, creator sources and access checks. [September 17's 10 additions](docs/browser-games-2026-09-17.md). [September 16's 10 additions](docs/browser-games-2026-09-16.md). [September 15's 10 additions](docs/browser-games-2026-09-15.md). [September 12's 10 additions](docs/browser-games-2026-09-12.md). Previous additions: [Barrelbound: The Lost Cargo](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/73) and [Tidehook](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/74), with entries in all 12 README languages. [September 11's 10 additions](docs/browser-games-2026-09-11.md) · [September 10's 10 additions](docs/direct-play-x-games-2026-09-10.md) · [Earlier 16 additions](docs/x-high-traffic-games-2026-09-09.md).
 
 - **Looking for something to play?** Browse the genres below.
 - **Built a game?** [Submit your project](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml) with a direct browser game link, a gameplay screenshot, and a description of how you used GPT-6 Astra.
@@ -58,6 +58,13 @@ Shooters, fighters, survival games, rhythm games, and anything that invites one 
   - GPT-6 Astra: [Issue #131](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/131) — The creator reports iterative Astra-assisted coding, testing and refinement of the 3D shooter.
   - Resources: [2026-10-23](assets/screenshots/moxstrike/SOURCE.md)
   - Preview: ![MOXstrike](assets/screenshots/moxstrike/gameplay.png)
+
+- **[Potato League](https://promptpotatogames.itch.io/potato-league)** — Boost, jump and flip a car into the ball in 3D car soccer, with bot matches, hockey and basketball variants.
+  - Creator: [Prompt Potato / PromptPotatoGames](https://promptpotatogames.itch.io/)
+  - Platform: Desktop browser; free, keyboard/mouse or controller; no mobile support per the creator. The runtime check needed a resource-network workaround; see the notes below.
+  - GPT-6 Astra: **Unconfirmed for Potato League.** The [creator's development video](https://www.youtube.com/watch?v=SdfR7TuJdlc&t=202s) presents a separate Astra prototype, then develops the Claude Opus 5.5 version into Potato League with Tripo models. [Submission #135](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/135) supplies no further Astra evidence.
+  - Resources: [Play check, attribution and screenshot source](assets/screenshots/potato-league/SOURCE.md)
+  - Preview: ![Potato League car-soccer match with the car, ball, goals and match HUD; captured on 2026-10-28.](assets/screenshots/potato-league/gameplay.jpg)
 
 - **[CRASH! City Breakers / 城市连锁](https://crash-city-breakers.vercel.app/)** — Crash into traffic, detonate and steer your wreck to extend physics-driven chains; choose contracts and wave-break upgrades across three cities.
   - Creator: [Olivia Pan](https://github.com/Olivia295)
