@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 182](https://img.shields.io/badge/Cases-182-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 183](https://img.shields.io/badge/Cases-183-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **收集用 GPT-6 Astra 制作的有趣游戏。**
 
@@ -20,11 +20,11 @@
 
 ## 从这里开始
 
-目前收录 **182 个游戏与互动作品**：三国领土策略、木锁拆解与华容道、半流体水果合成、程序化城市建造 2048、单键飞行、魔毯战斗、五关弹幕射击、海岛电网塔防、荒野生存、水下捕鱼、寿司店经营与海岛种植、海湾卡丁车竞速、鹈鹕海岸骑行、桌面玩具的 3D 改编、3D 家居装修、18 景三维探索画馆，以及轨道花园。点击作品名称即可直接进入在线游戏。
+目前收录 **183 个游戏与互动作品**：三国领土策略、木锁拆解与华容道、半流体水果合成、程序化城市建造 2048、单键飞行、魔毯战斗、五关弹幕射击、海岛电网塔防、荒野生存、水下捕鱼、寿司店经营与海岛种植、海湾卡丁车竞速、鹈鹕海岸骑行、桌面玩具的 3D 改编、3D 家居装修、18 景三维探索画馆，以及轨道花园。点击作品名称即可直接进入在线游戏。
 
-目录更新：**2026-10-28**。模型使用信息依据作者或投稿者的说明，未确认内容在具体条目中标注。此日期表示目录维护时间，不代表当天重新试玩了所有游戏。
+目录更新：**2026-11-08**。模型使用信息依据作者或投稿者的说明，未确认内容在具体条目中标注。此日期表示目录维护时间，不代表当天重新试玩了所有游戏。
 
-最新新增：[雨切 · AMAGIRI](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/137)。此前新增：[Potato League](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/135)。此前新增：[MoxRiding](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/129)。此前新增：[入画 · WITHIN — 18 景三维探索画馆](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/126)。此前新增：[10 月 6 日从 X 收录的 8 款可玩游戏](docs/x-games-2026-10-06.md)。此前发现：[9 月 21 日追加的 10 款直达在线游戏](docs/browser-games-2026-09-21.md)。上一批：[9 月 20 日追加的 10 款直达在线游戏](docs/browser-games-2026-09-20.md)。更早批次：[全网搜索后追加的 10 款在线游戏](docs/browser-games-2026-09-18.md)，附实机截图、作者依据与入口核验。[9 月 17 日新增的 10 款](docs/browser-games-2026-09-17.md)。[9 月 16 日新增的 10 款](docs/browser-games-2026-09-16.md)。[9 月 15 日新增的 10 款](docs/browser-games-2026-09-15.md)。[9 月 12 日新增的 10 款](docs/browser-games-2026-09-12.md)。此前新增：[Barrelbound: The Lost Cargo](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/73) 与 [Tidehook](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/74)，已同步全部 12 种 README 语言。[9 月 11 日新增的 10 款](docs/browser-games-2026-09-11.md) · [9 月 10 日新增的 10 款](docs/direct-play-x-games-2026-09-10.md) · [此前新增的 16 款](docs/x-high-traffic-games-2026-09-09.md)。
+最新新增：[借影 / Borrowed Shadow](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/141)。此前新增：[雨切 · AMAGIRI](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/137)。此前新增：[Potato League](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/135)。此前新增：[MoxRiding](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/129)。此前新增：[入画 · WITHIN — 18 景三维探索画馆](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/126)。此前新增：[10 月 6 日从 X 收录的 8 款可玩游戏](docs/x-games-2026-10-06.md)。此前发现：[9 月 21 日追加的 10 款直达在线游戏](docs/browser-games-2026-09-21.md)。上一批：[9 月 20 日追加的 10 款直达在线游戏](docs/browser-games-2026-09-20.md)。更早批次：[全网搜索后追加的 10 款在线游戏](docs/browser-games-2026-09-18.md)，附实机截图、作者依据与入口核验。[9 月 17 日新增的 10 款](docs/browser-games-2026-09-17.md)。[9 月 16 日新增的 10 款](docs/browser-games-2026-09-16.md)。[9 月 15 日新增的 10 款](docs/browser-games-2026-09-15.md)。[9 月 12 日新增的 10 款](docs/browser-games-2026-09-12.md)。此前新增：[Barrelbound: The Lost Cargo](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/73) 与 [Tidehook](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/74)，已同步全部 12 种 README 语言。[9 月 11 日新增的 10 款](docs/browser-games-2026-09-11.md) · [9 月 10 日新增的 10 款](docs/direct-play-x-games-2026-09-10.md) · [此前新增的 16 款](docs/x-high-traffic-games-2026-09-09.md)。
 
 - **想玩游戏：** 从下面的分类寻找你喜欢的玩法。
 - **做了游戏：** [提交你的作品](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml)，附上在线游戏直达入口、实机截图，以及使用 GPT-6 Astra 的说明。
@@ -58,6 +58,13 @@
   - GPT-6 Astra：[Issue #131](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/131) — 作者说明通过 Astra 辅助编程、迭代测试和持续打磨开发这款 3D 射击游戏。
   - 开发资料：[2026-10-23](assets/screenshots/moxstrike/SOURCE.md)
   - 预览：![MOXstrike](assets/screenshots/moxstrike/gameplay.png)
+
+- **[借影 / Borrowed Shadow](https://borrowed-shadow-opera.epic-tetra-9787.chatgpt.site/)** — 在皮影戏台上借油灯放大身影，用长枪挑断高处的红线，再缩小影子躲过横扫、伺机反击。
+  - 作者：[BPCKeeeeeepOn](https://github.com/BPCKeeeeeepOn)
+  - 平台：桌面及移动浏览器，免费、免登录。支持键盘和触屏，手机建议横屏。
+  - GPT-6 Astra：[作者投稿 #141](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/141) — 作者说明 Astra 参与了剧情分折、任务设计、借灯战斗机制、巡演关卡、技能与行囊、存档，以及键盘和模拟触屏测试。
+  - 开发资料：原生 JavaScript、Canvas 2D、Web Audio。
+  - 预览：![巡演第一折的雨夜戏台，阿照借大影蓄枪，准备上挑红线。作者摄于 2026-11-08。](https://borrowed-shadow-opera.epic-tetra-9787.chatgpt.site/press/gameplay-rain-stage.png)
 
 - **[雨切 · AMAGIRI](https://mafeis.github.io/amagiri/)** — 在雨夜神社中斩击、弹反，积累剑心释放居合「无月」，并在幕间选择刀法分支改变攻防节奏。
   - 作者：[murphy / mafeis](https://github.com/mafeis)
