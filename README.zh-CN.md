@@ -4,7 +4,7 @@
 
 # Awesome GPT-6 Astra
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 183](https://img.shields.io/badge/Cases-183-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![LINUX DO](https://img.shields.io/badge/LINUX%20DO-Community-f0b73f?style=flat-square)](https://linux.do/) [![Cases: 184](https://img.shields.io/badge/Cases-184-58a6ff?style=flat-square)](https://astragames.aigccreative.com/)
 
 **收集用 GPT-6 Astra 制作的有趣游戏。**
 
@@ -20,11 +20,11 @@
 
 ## 从这里开始
 
-目前收录 **183 个游戏与互动作品**：三国领土策略、木锁拆解与华容道、半流体水果合成、程序化城市建造 2048、单键飞行、魔毯战斗、五关弹幕射击、海岛电网塔防、荒野生存、水下捕鱼、寿司店经营与海岛种植、海湾卡丁车竞速、鹈鹕海岸骑行、桌面玩具的 3D 改编、3D 家居装修、18 景三维探索画馆，以及轨道花园。点击作品名称即可直接进入在线游戏。
+目前收录 **184 个游戏与互动作品**：三国领土策略、木锁拆解与华容道、半流体水果合成、程序化城市建造 2048、单键飞行、魔毯战斗、五关弹幕射击、海岛电网塔防、荒野生存、水下捕鱼、寿司店经营与海岛种植、海湾卡丁车竞速、鹈鹕海岸骑行、桌面玩具的 3D 改编、3D 家居装修、18 景三维探索画馆，以及轨道花园。点击作品名称即可直接进入在线游戏。
 
-目录更新：**2026-11-08**。模型使用信息依据作者或投稿者的说明，未确认内容在具体条目中标注。此日期表示目录维护时间，不代表当天重新试玩了所有游戏。
+目录更新：**2026-11-16**。模型使用信息依据作者或投稿者的说明，未确认内容在具体条目中标注。此日期表示目录维护时间，不代表当天重新试玩了所有游戏。
 
-最新新增：[借影 / Borrowed Shadow](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/141)。此前新增：[雨切 · AMAGIRI](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/137)。此前新增：[Potato League](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/135)。此前新增：[MoxRiding](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/129)。此前新增：[入画 · WITHIN — 18 景三维探索画馆](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/126)。此前新增：[10 月 6 日从 X 收录的 8 款可玩游戏](docs/x-games-2026-10-06.md)。此前发现：[9 月 21 日追加的 10 款直达在线游戏](docs/browser-games-2026-09-21.md)。上一批：[9 月 20 日追加的 10 款直达在线游戏](docs/browser-games-2026-09-20.md)。更早批次：[全网搜索后追加的 10 款在线游戏](docs/browser-games-2026-09-18.md)，附实机截图、作者依据与入口核验。[9 月 17 日新增的 10 款](docs/browser-games-2026-09-17.md)。[9 月 16 日新增的 10 款](docs/browser-games-2026-09-16.md)。[9 月 15 日新增的 10 款](docs/browser-games-2026-09-15.md)。[9 月 12 日新增的 10 款](docs/browser-games-2026-09-12.md)。此前新增：[Barrelbound: The Lost Cargo](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/73) 与 [Tidehook](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/74)，已同步全部 12 种 README 语言。[9 月 11 日新增的 10 款](docs/browser-games-2026-09-11.md) · [9 月 10 日新增的 10 款](docs/direct-play-x-games-2026-09-10.md) · [此前新增的 16 款](docs/x-high-traffic-games-2026-09-09.md)。
+最新新增：[雪球大作战 / Snowball Arena](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/143)。此前新增：[借影 / Borrowed Shadow](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/141)。此前新增：[雨切 · AMAGIRI](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/137)。此前新增：[Potato League](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/135)。此前新增：[MoxRiding](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/129)。此前新增：[入画 · WITHIN — 18 景三维探索画馆](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/126)。此前新增：[10 月 6 日从 X 收录的 8 款可玩游戏](docs/x-games-2026-10-06.md)。此前发现：[9 月 21 日追加的 10 款直达在线游戏](docs/browser-games-2026-09-21.md)。上一批：[9 月 20 日追加的 10 款直达在线游戏](docs/browser-games-2026-09-20.md)。更早批次：[全网搜索后追加的 10 款在线游戏](docs/browser-games-2026-09-18.md)，附实机截图、作者依据与入口核验。[9 月 17 日新增的 10 款](docs/browser-games-2026-09-17.md)。[9 月 16 日新增的 10 款](docs/browser-games-2026-09-16.md)。[9 月 15 日新增的 10 款](docs/browser-games-2026-09-15.md)。[9 月 12 日新增的 10 款](docs/browser-games-2026-09-12.md)。此前新增：[Barrelbound: The Lost Cargo](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/73) 与 [Tidehook](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/74)，已同步全部 12 种 README 语言。[9 月 11 日新增的 10 款](docs/browser-games-2026-09-11.md) · [9 月 10 日新增的 10 款](docs/direct-play-x-games-2026-09-10.md) · [此前新增的 16 款](docs/x-high-traffic-games-2026-09-09.md)。
 
 - **想玩游戏：** 从下面的分类寻找你喜欢的玩法。
 - **做了游戏：** [提交你的作品](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/new?template=submit-game.yml)，附上在线游戏直达入口、实机截图，以及使用 GPT-6 Astra 的说明。
@@ -1153,6 +1153,13 @@
 ### 实验玩法与多人游戏
 
 难以归类的新玩法、联机对战与合作体验。
+
+- **[雪球大作战 / Snowball Arena](https://snowball-arena-workbuddy.epic-tetra-9787.chatgpt.site/)** — 浮冰淘汰游戏：在会逐层崩塌的六角浮冰上驾驶雪橇，边滑行边滚大雪球，松手发射把对手撞进海里；雪球越大击退越强，转弯也越难，最后留在冰面上的玩家获胜。
+  - 作者：[BPCKeeeeeepOn](https://github.com/BPCKeeeeeepOn)
+  - 平台：支持 WebGL 的浏览器；免费、免登录。已核验桌面单机机器人练习；鼠标或 WASD 与空格键操作。作者说明支持手机触屏和相同房间号联机，手机与跨设备联机未实测。
+  - GPT-6 Astra：[作者说明](https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/143) — 协助实现和迭代 3D 浏览器原型，将滚雪球吞噬原型改成浮冰淘汰赛，并反复调整蓄球速度、击退力度与冰面塌陷节奏。
+  - 开发资料：[访问与截图核验](assets/screenshots/snowball-arena/SOURCE.md) · 技术：据作者说明，使用 Three.js、原生 JavaScript 与 Web Audio。
+  - 预览：![雪橇角色在六角浮冰上推动雪球，画面显示存活人数、排名和场地小地图。](https://github.com/user-attachments/assets/1af21a5c-a96a-4ddf-a306-7909f5ae13ab) — 作者提供，拍摄于 2026-11-16，来自公开试玩版在线房间。
 
 - **[入画 · WITHIN](https://fatasia.github.io/within/)** — 在 18 个绘画与风景世界间切换，沿章节展卷、自由漫游或步行观察，还能在 Roadster 驾驶、在樱谷乘舟。
   - 作者：[fatasia](https://github.com/fatasia)
